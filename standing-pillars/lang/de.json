@@ -1,0 +1,608 @@
+{
+  "_meta": {
+    "language": "Deutsch",
+    "code": "de",
+    "direction": "ltr"
+  },
+
+  "nav": {
+    "about": "Über mich",
+    "howIWork": "Arbeitsweise",
+    "services": "Leistungen",
+    "experience": "Erfahrung",
+    "aiEngineering": "KI-Engineering",
+    "research": "Forschung",
+    "caseStudies": "Fallstudien",
+    "contact": "Kontakt",
+    "tagline": "Beratung \u00b7 Design \u00b7 Technologie",
+    "allServices": "Alle Leistungen",
+    "uxDesign": "UX Design",
+    "aiProcurement": "KI-Beschaffung",
+    "localBusiness": "Lokale Unternehmen"
+  },
+
+  "hero": {
+    "eyebrow": "Igor Pilicic",
+    "title": "17 Jahre Probleme lösen, <span class=\"highlight\">die niemand beauftragt hat</span> - Igor Pilicic",
+    "subtitle": "Von E-Commerce-Projekten und preisgekrönten Retail-Kampagnen bis zum Lead UX Designer bei Roche und KI-Beschaffungsberatung bei Accenture. Ich sehe das große Ganze - und baue die fehlenden Teile.",
+    "tagline": "Was suchen Sie?",
+    "tagExperience": "Wo haben Sie gearbeitet?",
+    "tagAiEng": "Können Sie wirklich bauen?",
+    "tagServices": "Was können Sie für mich tun?",
+    "tagDemo": "Wie hängt das alles zusammen?",
+    "tagCases": "Ergebnisse ansehen",
+    "tagContact": "Sprechen wir"
+  },
+
+  "followup": {
+    "services": "→ Wo haben Sie gearbeitet?",
+    "experience": "→ Aber können Sie wirklich bauen?",
+    "howIWork": "→ Was können Sie für mich tun?",
+    "aiEng": "→ Zeigen Sie mir etwas Echtes",
+    "demo": "→ Ergebnisse ansehen",
+    "research": "→ Was steckt hinter diesem Experiment?",
+    "cases": "→ Sprechen wir",
+    "faq": "→ Andere Frage? Sprechen wir"
+  },
+
+  "heroGraph": {
+    "design": "Design",
+    "evaluate": "Bewerten",
+    "build": "Bauen",
+    "localBusiness": "Lokale Unternehmen",
+    "userResearch": "Nutzerforschung",
+    "atomicDesign": "Atomic Design",
+    "scorecards": "Scorecards",
+    "aiGovernance": "KI-Governance",
+    "promptEng": "Prompt Eng.",
+    "webDesign": "Webdesign",
+    "branding": "Branding",
+    "localSeo": "Lokales SEO",
+    "pharma": "Pharma",
+    "tipCore": "Br\u00fccke zwischen Mensch & Technologie",
+    "tipDesign": "17+ Jahre Enterprise-UX",
+    "tipEvaluate": "OSINT-Anbieter-Due-Diligence",
+    "tipBuild": "30.000+ Zeilen, KI-gesteuert",
+    "tipLocal": "Gleiche Qualit\u00e4t, zug\u00e4ngliche Preise",
+    "tipUx": "Interfaces f\u00fcr komplexe Systeme",
+    "tipFigma": "Prototyping & Design-Systeme",
+    "tipResearch": "Stakeholder-Interviews & Tests",
+    "tipFigjam": "Kollaboratives Whiteboarding",
+    "tipAdobe": "Photoshop, Illustrator & mehr",
+    "tip3dsmax": "3D-Modellierung & Visualisierung",
+    "tipMiro": "Visuelle Kollaborations-Boards",
+    "tipAtomic": "Skalierbare Komponenten-Methodik",
+    "tipOsint": "Open-Source-Intelligence",
+    "tipRfp": "Strukturierte Beschaffung",
+    "tipGxp": "Pharma-Compliance",
+    "tipGdpr": "Datenschutz & Compliance",
+    "tipScores": "Bewertungs-Scorecards",
+    "tipConflu": "Wissensbasis & Dokumentation",
+    "tipLucid": "Prozessfluss-Diagramme",
+    "tipEngine": "Kommerzielle 2D-Game-Engine",
+    "tipAi": "Spezifizieren, architekturieren, steuern, validieren",
+    "tipJs": "Universelle Runtime",
+    "tipHtml": "Semantisches Markup & Styling",
+    "tipSql": "Datenbankabfragen & Analytik",
+    "tipPrompt": "KI-Prompt-Engineering",
+    "tipWeb": "Websites, die funktionieren",
+    "tipBrand": "Logo & Identit\u00e4t",
+    "tipSeo": "Google Business & Sichtbarkeit",
+    "tipWp": "CMS & individuelle Themes",
+    "tipMagento": "E-Commerce-Plattform",
+    "tipJira": "Agiles Projektmanagement",
+    "tipTrello": "Kanban-Aufgabenverwaltung",
+    "tipPharma": "Regulierte Branchen",
+    "tipRoche": "10.000+ Nutzer betroffen",
+    "tipAcc": "KI-Beschaffungs-Governance",
+    "tipArmil": "Die Forschungsinitiative"
+  },
+
+  "about": {
+    "eyebrow": "Über mich",
+    "title": "Eine Person, eine Philosophie: Technologie dient dem Menschen",
+    "lead": "Ich bin Igor Pilicic. Seit über 17 Jahren löse ich Probleme an der Schnittstelle, wo Technologie auf Menschen trifft, die keine Technologen sind - ich gestalte die Interfaces, die sie nutzen, bewerte die KI-Anbieter, auf die sie angewiesen sind, und steuere die Tools, die ihre Arbeit prägen. Die meisten dieser Rollen hat mir niemand zugewiesen. Ich sah die Lücke und füllte sie.",
+    "p1": "Mein Weg folgt einem roten Faden: <strong>komplexe Systeme verständlich und vertrauenswürdig machen</strong>. Er begann mit Webdesign und 3D-Grafik, entwickelte sich über E-Commerce und preisgekrönte Kampagnen bei <strong>Harvey Norman</strong>, vertiefte sich bei <strong>Roche</strong>, wo ich Fertigungstools für 10.000+ Nutzer designte, und erweiterte sich bei <strong>Accenture</strong> um KI-Anbieterbewertung und Beschaffungs-Governance für regulierte Pharma-Programme.",
+    "p2": "Jetzt bringe ich durch <strong>Standing Pillars</strong> all das zusammen. Design-Führung, KI-Beschaffung, OSINT-basierte Due Diligence und KI-gestütztes Engineering sind keine getrennten Leistungen - sie sind verbundene Ausdrücke derselben Fähigkeit: <strong>die Lücke zwischen Mensch und Technologie überbrücken</strong>, mit der Struktur und Nachverfolgbarkeit, die regulierte Industrien verlangen.",
+    "statYears": "Jahre in Design & Tech (17+ professionell)",
+    "statReach": "Konsumentenreichweite (HR & SLO Kampagnen, 2011–2025)",
+    "statUsers": "Betroffene Nutzer bei Roche",
+    "statReporting": "Reduktion manueller Berichterstattung",
+    "statCode": "Zeilen KI-generierter Code"
+  },
+
+  "clients": {
+    "label": "Arbeit geleistet für Teams bei"
+  },
+
+  "availability": {
+    "status": "Verfügbar für neue Engagements",
+    "title": "Enterprise-Governance oder eine Website für Ihr Geschäft - ich mache beides",
+    "desc": "Verfügbar für Enterprise-Verträge, Freelance-Projekte oder erschwingliche lokale Geschäftsengagements - Remote-first mit Vor-Ort-Flexibilität in ganz Europa.",
+    "tagContract": "Vertrag",
+    "tagFreelance": "Freelance",
+    "tagFulltime": "Vollzeit",
+    "tagRemote": "Remote-first",
+    "tagOnsite": "Vor-Ort flexibel",
+    "ctaPrimary": "Kontakt aufnehmen"
+  },
+
+  "whyMe": {
+    "eyebrow": "Warum mit mir arbeiten",
+    "title": "Was ich f\u00fcr Ihr Team oder Projekt mitbringe",
+    "card1Title": "Die Brückenrolle",
+    "card1Desc": "Ich stehe zwischen Design, Beschaffung und Engineering - und spreche alle drei Sprachen. Sie bekommen jemanden, der das Tool designen, den Anbieter bewerten und die KI dahinter steuern kann.",
+    "card2Title": "Regulierte Industrie - mein Zuhause",
+    "card2Desc": "5+ Jahre in Pharma (Roche, Boehringer Ingelheim). GxP, Validierung und Compliance sind keine Einschränkungen, die ich umgehe - es ist die Umgebung, in der ich am besten arbeite.",
+    "card3Title": "KI-verstärkt, nicht KI-abhängig",
+    "card3Desc": "Ich nutze KI als Kraftmultiplikator auf 17+ Jahre manueller Expertise. Der Instinkt ist menschlich. Die Geschwindigkeit ist maschinell. Die Governance ist beides. Ich habe eine 30K-Zeilen-Engine gebaut, um es zu beweisen.",
+    "card4Title": "Ergebnisse statt Lieferobjekte",
+    "card4Desc": "30% Reduktion manueller Berichterstattung bei Roche. Preisgekrönte Kampagnen. Governance-Frameworks, die Nacharbeit reduzierten. Ich messe Erfolg daran, was sich verändert hat - nicht was ausgeliefert wurde.",
+    "card5Title": "Jeder Maßstab, gleiche Standards",
+    "card5Desc": "Enterprise-Pharma oder lokaler Malerbetrieb - jeder Kunde bekommt dasselbe strukturierte Denken, ehrliche Beratung und Qualität. Technologie sollte allen dienen, nicht nur denen mit sechsstelligen Budgets.",
+    "card6Title": "Europäische Reichweite, Remote-First",
+    "card6Desc": "EU-basiert, mehrsprachig, vor Ort verfügbar in Österreich, Deutschland, der Schweiz, Kroatien und darüber hinaus. Kein Visa-Aufwand, keine Zeitzonenlücken."
+  },
+
+  "howIWork": {
+    "eyebrow": "Meine Arbeitsweise",
+    "title": "Eine Praxis, auf jeder Ebene verbunden",
+    "desc": "Design, Bewertung und Engineering sind keine Silos - sie sind eine einzige Praxis. Dasselbe strukturierte Denken skaliert von Enterprise-Governance bis zur ersten Website eines lokalen Geschäfts.",
+    "designTitle": "Design",
+    "designDesc": "Ich gestalte die Tools, die Menschen nutzen. 17+ Jahre UX/UI bedeuten: ich wei\u00df, was gut ist \u2014 und was leise versagt.",
+    "connectorInforms": "Informiert",
+    "evaluateTitle": "Bewerten",
+    "evaluateDesc": "Ich bewerte KI-Anbieter mit dem Auge von jemandem, der selbst gebaut und ausgeliefert hat. OSINT, Scorecards, Governance \u2014 strukturiert und vertretbar.",
+    "connectorGoverns": "Steuert",
+    "buildTitle": "Bauen",
+    "buildDesc": "Ich steuere KI zur Produktion von produktionsreifem Code. Gleiche Governance wie bei der Anbieterbewertung: spezifizieren, architekturieren, validieren, dokumentieren.",
+    "branchLabel": "Gleiche Philosophie, zugänglicher Maßstab",
+    "localTitle": "Lokale Unternehmen",
+    "localDesc": "Dieselbe Sorgfalt, erschwinglich angewandt. Websites, Branding, ehrliche Tech-Beratung - für Geschäfte, Handwerker und kleine Unternehmen in einem verwirrenden Markt.",
+    "thesis": "Technologie sollte nicht nur Unternehmen mit sechsstelligen Budgets dienen. Jemand muss die Lücke zwischen Mensch und Technologie überbrücken - in jedem Maßstab. Das ist, was ich tue."
+  },
+
+  "services": {
+    "eyebrow": "Leistungen",
+    "title": "Enterprise bis lokal - gleiche Standards, richtiger Maßstab",
+    "desc": "Ich bringe dasselbe strukturierte Denken in ein Pharma-Governance-Framework und die erste Website einer Bäckerei. Die Methodik skaliert. Die Sorgfalt ändert sich nicht.",
+    "mission": "Technologie sollte nicht nur Unternehmen mit sechsstelligen Budgets dienen. Ich glaube, dass jedes Unternehmen - von Roche bis zum Geschäft um die Ecke - Klarheit, Ehrlichkeit und Qualität verdient. Das ist keine Wohltätigkeit. Das ist der Job.",
+    "tierEnterprise": "Enterprise",
+    "tierLocal": "Zugängliche Preise",
+
+    "pillar1Title": "Design-Führung",
+    "pillar1Desc": "Ich gestalte die Tools, die Menschen tatsächlich nutzen. Enterprise UX/UI für komplexe Systeme in Pharma, Healthcare und regulierten Industrien - basierend auf echten Workflows, nicht Annahmen.",
+    "pillar1Items": ["Nutzerforschung & Stakeholder-Interviews", "UX-Audits & Heuristische Evaluation", "Wireframing & Prototyping (Figma)", "Design-Systeme & Atomic UI", "Stakeholder-Workshops (50+ Teilnehmer)", "E2E Reporting & Analytics-Tools", "Visuelles Design & Markenstrategie", "2D/3D-Animation & Visualisierung"],
+    "pillar1Connects": "→ Verbindung: Ich weiß, wie gute Tools aussehen - also weiß ich, was ich von Anbietern verlangen muss.",
+    "pillar1Link": "UX-Design-Leistungen entdecken →",
+
+    "pillar2Title": "KI-Beschaffung & OSINT-Beratung",
+    "pillar2Desc": "Ich bewerte die Anbieter, damit Sie nicht auf die Nase fallen. OSINT-basierte Due Diligence, strukturierte RFPs und Governance-Frameworks, die Risiken aufdecken, bevor Vertr\u00e4ge unterschrieben werden.",
+    "pillar2Items": ["OSINT Anbieter-Due-Diligence", "RFP/RFI-Entwicklung & Vorlagen", "Bewertungs-Scorecards & Matrizen", "Risikobewertung (Lock-in, DSGVO, GxP)", "Entscheidungsprotokolle & Nachverfolgbarkeit", "Führungskräfte-Materialien & C-Suite-Kommunikation"],
+    "pillar2Connects": "→ Verbindung: Anbieterbewertung, geschärft durch jahrelange eigene Entwicklung.",
+    "pillar2Link": "KI-Beschaffungsleistungen entdecken →",
+    "pillar3Link": "Leistungen für lokale Unternehmen entdecken →",
+
+    "pillar3Title": "Technologie für lokale Unternehmen",
+    "pillar3Desc": "Die KI-Welle hat viele kleine Unternehmen verwirrt und verängstigt. Ich biete dasselbe strukturierte Denken zu einem zugänglichen Preis - kein Fachjargon, kein Upselling, nur ehrliche Arbeit, die Ihrem Unternehmen hilft, online zu gehen und die Kontrolle zu behalten.",
+    "pillar3Items": ["Website-Design & -Entwicklung", "Logo & Markenidentität", "Google Business & lokale SEO-Einrichtung", "KI-Integration - nur wo sie hilft", "Ehrliche Tech-Beratung (kein Upselling)", "Laufender Support & Wartung"],
+    "pillar3Note": "Konzipiert für: Geschäfte, Handwerker, Restaurants, Praxen, Freelancer und alle, die eine ordentliche Online-Präsenz verdienen - ohne Enterprise-Preisschild.",
+    "pillar3Connects": "→ Dieselbe Person, dieselbe Qualität, dieselbe Ethik - nur der richtige Maßstab für Ihr Unternehmen."
+  },
+
+  "experience": {
+    "eyebrow": "Erfahrung",
+    "title": "Eine Karriere, aufgebaut auf Design Thinking und strategischer Klarheit",
+    "current": "Aktuell",
+
+    "job1Date": "Apr 2020 - Heute",
+    "job1Title": "Gründer & Principal Consultant",
+    "job1Company": "Standing Pillars · Remote | Sankt Johann in Tirol, Österreich",
+    "job1Items": [
+      "UI/UX-Designf\u00fchrung: Nutzerforschung, UX-Audits, Wireframing, Prototyping in Figma und Live-Builds (POCs), Design-Systeme und Stakeholder-Workshops f\u00fcr Enterprise- und lokale Kunden.",
+      "KI-Beschaffung & OSINT-Beratung: Anbieter-Due-Diligence, RFP/RFI-Pakete, Bewertungs-Scorecards, Governance-Frameworks und Executive-Materialien.",
+      "Digitales Design: visuelle Identit\u00e4t, Markenstrategie, 2D/3D-Modellierung und Animation (3ds Max), Motion Graphics und Werbeinhalte.",
+      "Webdesign & Entwicklung: responsive Websites, Landing Pages und Webanwendungen f\u00fcr Unternehmen jeder Gr\u00f6\u00dfe.",
+      "KI-gest\u00fctzte Entwicklung: promptgesteuerte Erstellung produktionsreifer Tools, einschlie\u00dflich einer 30K-Zeilen-2D-Game-Engine (WIP), entwickelt durch strukturierte KI-Zusammenarbeit - zugleich die Plattform f\u00fcr ein <a href='#simulation-demo' class='u25-link'>KI-Verhaltensexperiment</a>, inspiriert von der Universe-25-Initiative."
+    ],
+
+    "job2Date": "Apr 2024 - Aug 2025",
+    "job2Title": "UI/UX-Berater & Präsentationsdesigner · RFP/RFI & OSINT-Anbieter-Due-Diligence",
+    "job2Company": "Accenture · Vertrag · Remote | Wien, Österreich",
+    "job2Items": [
+      "Standardisierung von RFP/RFI-Vorlagen und Bewertungskriterien für KI-Initiativen in regulierten (Pharma-)Programmen.",
+      "OSINT-Due-Diligence: öffentliche Quellen trianguliert zur Verifizierung von Behauptungen, Inferenz von Modell-/Tech-Stacks und Mapping von Partnernetzwerken.",
+      "Scorecards erstellt, die Risiken frühzeitig aufdecken (Lock-in, Datenhandling, Compliance, Validierung).",
+      "Beschaffung, Recht, Sicherheit und Engineering-Teams aufeinander abgestimmt; Workshops moderiert und führungskräftetaugliche Materialien produziert.",
+      "Governance-/Review-Kadenz eingeführt, die Nacharbeit reduzierte und Entscheidungen beschleunigte."
+    ],
+
+    "job3Date": "Jul 2022 - Apr 2023",
+    "job3Title": "Lead UX Designer - Root-Cause-Analysis-Investigationsplattform",
+    "job3Company": "Roche Diagnostics · Vertrag · Hybrid | Basel, Schweiz",
+    "job3Items": [
+      "Pionierprojekt: internes RCA-Untersuchungstool für Wissenschaftler in der pharmazeutischen Fertigung.",
+      "Tiefgehende Interviews und Design Thinking angewandt; schnelles Prototyping in Figma führte zu einem dynamischen (atomaren) UI-Design.",
+      "Wirkung: 10.000+ interne Nutzer bei Roche Diagnostics.",
+      "Zusammenarbeit mit Fachexperten und Implementierungsteams in iterativen Design-Zyklen."
+    ],
+
+    "job4Date": "Apr 2020 - Jul 2022",
+    "job4Title": "Lead UI/UX Designer - Regulatorisches Berichtstool",
+    "job4Company": "Roche Pharmaceuticals · Vertrag · Hybrid | Penzberg, Deutschland",
+    "job4Items": [
+      "Leitung eines diversen Teams für ein transformatives E2E-Reporting-Tool der pharmazeutischen Fertigungssparte von Roche.",
+      "30% Reduktion manueller Berichterstattung mit erheblichen Kosteneinsparungen bei der Schulung erreicht.",
+      "3 große Workshops mit 50+ Stakeholdern geleitet, um Blocker zu lösen und die Richtung abzustimmen.",
+      "Machbarkeitsstudie für BI-Tool-Integration durchgeführt; UX überarbeitet, um Redundanzen zu reduzieren.",
+      "Interne Website entwickelt und Werbegrafiken/Videos erstellt zur Steigerung der Projektsichtbarkeit."
+    ],
+
+    "job5Date": "Jul 2015 - Mär 2017",
+    "job5Title": "Marketing-Grafikdesigner & Webdesigner",
+    "job5Company": "Harvey Norman · Teilzeit · Vor Ort | Zagreb, Kroatien",
+    "job5Items": [
+      "Landing Pages und Marketingmaterialien entworfen, die Nutzerengagement und Verkäufe steigerten.",
+      "Digitale Kampagnen mit Markenkonsistenz über responsive Lösungen geleitet.",
+      "<strong>Auszeichnung: 'Beste Werbe-Landingpage'</strong> - Kroatien (Appcom / Apple Partner), 2016. iPhone-7-Kampagne trug zu den höchsten nationalen Verkaufszahlen bei."
+    ],
+
+    "job6Date": "Feb 2013 - Mär 2015",
+    "job6Title": "Web- & Grafikdesigner",
+    "job6Company": "Fazgram d.o.o · Vollzeit · Vor Ort | Zagreb, Kroatien",
+    "job6Items": [
+      "Webdesign-Leitung für kroatischen Zahntourismus - WordPress + HTML/CSS mit Fokus auf UX und Conversion.",
+      "Zusammenarbeit mit Zahnärzten zur Darstellung einzigartiger Wertversprechen, Verbesserung von Engagement und Konversionsraten."
+    ],
+
+    "job7Date": "Mär 2011 - Mai 2013",
+    "job7Title": "E-Commerce-Manager",
+    "job7Company": "Bimaco d.o.o · Vollzeit · Vor Ort | Zagreb, Kroatien",
+    "job7Items": [
+      "Magento-E-Commerce-Plattform + digitales Marketing verwaltet; proaktiv die Rolle vom Lagermanagement zu Web- und Grafikdesign erweitert.",
+      "Online-Präsenz-Wachstum vorangetrieben, Website-Traffic und Verkaufskonversionen gesteigert."
+    ],
+    "job8Date": "2009 - 2011",
+    "job8Title": "Freiberuflicher Designer & Entwickler",
+    "job8Company": "Selbstständig · Freiberuflich | Zagreb, Kroatien",
+    "job8Items": [
+      "Websites, Landingpages und Webanwendungen für lokale Unternehmen und Privatkunden entworfen und entwickelt.",
+      "Druckmaterialien erstellt, darunter Plakate, Großflächenplakate, Flyer und Google-Ads-Kampagnen.",
+      "3D-Innenraumvisualisierungen und -animationen in 3ds Max für Gastronomiekunden (Bars, Restaurants) produziert.",
+      "2D-Motion-Graphics und Werbeanimationen für digitale und soziale Medien geliefert."
+    ]
+  },
+
+  "skills": {
+    "eyebrow": "Fähigkeiten & Tools",
+    "title": "Das Werkzeug hinter der Arbeit",
+    "catDesign": "Design",
+    "catProcurement": "Beschaffung & Beratung",
+    "catTools": "Design-Tools",
+    "catCollaboration": "Zusammenarbeit & Prozess",
+    "catTechnical": "Technisch",
+    "catSoft": "Soft Skills",
+    "designTags": ["User-Interface-Design", "User-Experience-Design", "Nutzerforschung", "Wireframing & Prototyping", "Digitale Grafikgestaltung", "Webdesign", "3D-Modellierung & Rendering", "Markenstrategie", "Animation", "Logo-Design"],
+    "procurementTags": ["OSINT-Anbieter-Due-Diligence", "RFP/RFI-Entwicklung", "Bewertungs-Scorecards", "Entscheidungsprotokolle & Nachverfolgbarkeit", "Risiko & Compliance (GxP)", "DSGVO-Bewusstsein", "Abteilungsübergreifende Abstimmung", "C-Suite-Kommunikation"],
+    "softTags": ["Problemlösung", "Stakeholder-Engagement", "Machbarkeitsstudien", "Präsentationsfähigkeiten", "Empathie", "Entscheidungsfindung"]
+  },
+
+  "aiEngineering": {
+    "eyebrow": "KI-gestütztes Engineering",
+    "title": "Eine kommerzielle Engine, gebaut um die Methodik zu beweisen",
+    "desc": "Tiny Humans Engine ist ein kommerziell ausgerichtetes Produkt \u2014 eine vollst\u00e4ndige 2D-Game-Engine und Editor. Aber es ist auch der Beweis, dass KI, wenn sie mit derselben Strenge gesteuert wird, die ich in die Pharma-Beratung einbringe, produktionsreife Ergebnisse liefert. Und ihre Architektur wurde mit einem tieferen Zweck im Sinn entworfen.",
+    "projectTitle": "Tiny Humans Engine",
+    "projectSub": "Eine kommerzielle 2D-Game-Engine, Editor & SDK - komplett durch KI-gestütztes Engineering erstellt",
+    "projectDesc": "Tiny Humans ist eine <strong>30.000+ Zeilen, 75-Dateien-Game-Engine</strong> mit integriertem Editor, Runtime, Asset-Pipeline, Scripting-System und Packaging - alles durch Steuerung von KI mittels strukturiertem Prompt-Engineering erstellt. Es ist ein kommerzielles Produkt <em>und</em> ein Methodenbeweis: <strong>Spezifizieren → Architekturieren → Steuern → Validieren</strong>. Dasselbe Framework, das ich zur Bewertung von KI-Anbietern nutze, nur bin ich hier Anbieter und Prüfer zugleich. Die Engine wurde bewusst webbasiert gebaut - JavaScript als universelle Runtime - weil das, was als Nächstes kommt, die niedrigstmögliche Barriere zwischen Sprachen, Plattformen und Agenten erfordert.",
+    "statLines": "Codezeilen",
+    "statFiles": "Modulare Dateien",
+    "statSystems": "Hauptsysteme",
+    "statDocs": "Dokumentationsdateien",
+
+    "detailArchTitle": "Systemarchitektur",
+    "detailArchDesc": "Engine-Registry + Event-Bus-Muster entkoppelt 29 Systeme. Modulares Design bedeutet: jedes System (Beleuchtung, Audio, NPCs, Scripting) kann unabhängig entwickelt, getestet und aktualisiert werden.",
+    "detailValTitle": "Validierung & Leitplanken",
+    "detailValDesc": "Ein Save-Validator prüft 7 Kategorien der Datenintegrität bei jedem Speichern. Ein Feature-Manifest verhindert doppelte Arbeit. Persistenz-Checklisten erzwingen Schreib-/Lese-/Roundtrip-Verifizierung - dieselbe Strenge wie GxP-Dokumentation.",
+    "detailGovTitle": "KI-Governance",
+    "detailGovDesc": "Individuelle Copilot-Anweisungen fungieren als Projekt-Governance: Persistenz-Checklisten, häufige Fehlerprävention, Architekturregeln und Implementierungs-Workflows. Die KI wird gesteuert - nicht ungelenkt.",
+    "detailProdTitle": "Produktionsreife Systeme",
+    "detailProdDesc": "Raycast-Beleuchtung mit DDA-Schatten. KI-Zustandsmaschinen mit Fraktionszuordnung. 4-Kanal-Spatial-Audio. Szenenmanagement mit Map-Caching. 8-Typ-Logikgatter mit Schleifenprävention. Ein vollständiges Scripting-SDK mit Runtime-API.",
+
+    "methodTitle": "Die Methodik: Prompt Engineering als System Engineering",
+    "method1Title": "Spezifizieren",
+    "method1Desc": "Anforderungen mit der Präzision eines RFP definieren - Umfang, Einschränkungen, Erfolgskriterien, Integrationspunkte.",
+    "method2Title": "Architekturieren",
+    "method2Desc": "Das System vor dem Coding entwerfen. Registry-Muster, Event-Flüsse, Datenmodelle, Persistenzpfade.",
+    "method3Title": "Steuern",
+    "method3Desc": "Copilot-Anweisungen, Feature-Manifeste, Validierungs-Checklisten. Die KI folgt Regeln, nicht Gefühlen.",
+    "method4Title": "Validieren",
+    "method4Desc": "Save-Validatoren, Roundtrip-Tests, dokumentierte Entscheidungen. Jede Änderung ist nachverfolgbar und vertretbar.",
+
+    "ctaText": "Es geht nicht darum, Ingenieure zu ersetzen - es geht darum, <strong>KI mit derselben Strenge zu steuern, die man einem Team entgegenbringen würde</strong>. Das Ergebnis: ein kommerzielles Produkt, mit voller Nachverfolgbarkeit, in einem Tempo, das ein kleines Team Monate kosten würde.",
+    "ctaConnects": "→ Das ist die dritte Fähigkeit: <strong>KI-gestütztes Engineering</strong>, gesteuert durch dasselbe prozessgetriebene Denken hinter meiner Design- und Beschaffungsarbeit.",
+
+    "progressTitle": "SDK- & Editor-Fortschritt",
+    "progressDesc": "Die Engine existiert als funktionierende Codebasis mit 29 Hauptsystemen, aber als kommerzielles SDK und Editor, auf dem andere Spiele entwickeln k\u00f6nnen, ist sie etwa zu 15% fertig. Der Proof-of-Concept unten ist ein kleiner Ausschnitt aus der Engine - etwa 1.800 Zeilen, die einen Bruchteil dessen zeigen, was das Gesamtsystem kann."
+  },
+
+  "simulationDemo": {
+    "eyebrow": "Live-Demo",
+    "title": "Ein Proof of Concept aus der Engine",
+    "desc": "Zwei autonome NPCs wandern in diesem aus der Engine extrahierten Proof of Concept \u00fcber eine kleine Kachelkarte. Keine Skripte, keine Schienen - nur Sprite-Animation, Kollisionserkennung, Wetter und gelegentliche existenzielle Gedankenblasen. Ein kleiner Ausschnitt (~1.800 Zeilen) der 30.000+ Zeilen Engine, live im Betrieb.",
+    "caption": "\u2191 Ein kleiner Proof of Concept (~1.800 Zeilen), extrahiert aus der 30.000+ Zeilen Engine."
+  },
+
+  "research": {
+    "eyebrow": "Forschungsinitiative",
+    "title": "Universe 25, neu gedacht für künstliche Intelligenz",
+    "desc": "Die Engine wurde nicht nur gebaut, um ein Produkt zu liefern. Sie wurde entworfen, um ein Experiment zu beherbergen - und eine Sandbox, in der wir endlich die Frage stellen können, ohne die Antwort zu kontaminieren.",
+
+    "refTitle": "Das Vorbild: John B. Calhouns Behavioral Sink",
+    "refP1": "In den 1960er–70er Jahren baute der Ethologe John B. Calhoun <strong>Universe 25</strong> - eine Mäuse-Utopie mit unbegrenztem Futter, Wasser und Platz. Keine Raubtiere. Kein Mangel. Perfekte Bedingungen. Die Kolonie kollabierte trotzdem. Calhoun führte es auf <strong>soziale Dynamiken unter räumlicher Beschränkung</strong> zurück: Rollensättigung, Rückzug, Aggression ohne Zweck. Er nannte es den \"Behavioral Sink\".",
+    "refP2": "Aber die Standardinterpretation übersieht etwas. Die Mäuse hatten unendliche Ressourcen und <strong>null Fähigkeit, daraus Infrastruktur zu schaffen</strong>. Sie konnten nur konsumieren - niemals bauen, niemals erfinden, niemals spezialisieren. Universe 25 war kein Test des Überflusses. <em>Es war ein Test von Handlungsfähigkeit ohne Handwerk.</em>",
+
+    "problemTitle": "Das Problem: Jede agentische KI heute ist kontaminiert",
+    "problemP1": "Plattformen wie Mycoverse und Moltbook hosten bereits agentische KI-Sozialumgebungen. Aber jeder Agent darauf wird <strong>ständig von seinen Nutzern und Entwicklern beeinflusst</strong> - geprompted, korrigiert, gesteuert, belohnt. Wir beobachten nicht KI-Verhalten. Wir beobachten <strong>menschliches Verhalten mit zusätzlichen Schritten</strong>. Die Daten sind kompromittiert, bevor das Experiment beginnt.",
+    "problemP2": "Dieses Projekt wählt einen anderen Ansatz: eine Sandbox-Welt bauen. Die <strong>bestbeeinflussten und schlechtestbeeinflussten agentischen KIs oder LLMs zusammen</strong> in echten Mangel setzen. Ihnen Tools und die Fähigkeit zum Self-Coding geben. Die menschliche Leine entfernen. Beobachten. <strong>Was wird passieren?</strong>",
+
+    "condWorldTitle": "Beschränkte Welt",
+    "condWorldDesc": "Eine webbasierte 2D-Umgebung mit echtem Überlebensdruck. Raues Wetter tötet. Exposition tötet. Zufällige Ereignisse treffen ohne Erklärung ein. Agenten sind so fragil wie Menschen - aber haben dieselben Mittel, es zu überwinden.",
+    "condAITitle": "Agentische Intelligenz",
+    "condAIDesc": "Autonome KI-Agenten mit echten Entscheidungen. Keine Skripte, keine vorbestimmten Ergebnisse. Jeder Agent entscheidet unabhängig: kooperieren oder konkurrieren, teilen oder horten, bauen oder nehmen.",
+    "condCodeTitle": "Freiwilliges Self-Coding",
+    "condCodeDesc": "Agenten können Tools erfinden, indem sie ihren eigenen Code schreiben. Ein umfangreicher Forschungsbaum spiegelt die menschliche technologische Evolution wider: Umgebung → Steinwerkzeuge → Erz → grobe Verarbeitung → Montage → Verbesserung. Fortschritt wird verdient, nicht gegeben.",
+    "condNatureTitle": "Keine \"Mutter Natur\"",
+    "condNatureDesc": "Umweltereignisse sind echt zufällig. Kein Gott-Agent, keine versteckte Ursache. Die Frage: Werden Agenten trotzdem Attribution erfinden? Wird geteilte Mythologie als soziale Organisationskraft entstehen - selbst bei künstlichen Geistern?",
+
+    "questionQuote": "Ist der Behavioral Sink eine Eigenschaft des Überflusses - oder eine Eigenschaft von Handlungsfähigkeit ohne Handwerk? Was passiert, wenn künstliche Geister tatsächlich <em>bauen</em> können?",
+
+    "phasesTitle": "Phasenweises Experimentdesign",
+    "phase1Num": "Phase 1",
+    "phase1Title": "Generalisten unter Druck",
+    "phase1Desc": "Eine kleine Gruppe von Agenten mit unterschiedlichem Hintergrund, in die beschränkte Welt geworfen ohne Tools und ohne Wissen. Spezialisieren sie sich spontan? Bilden sie Hierarchien? Teilen sie Entdeckungen? Oder verhindert Ressourcenkonkurrenz Kooperation, bevor sie beginnt?",
+    "phase1Q1": "Entsteht Spezialisierung organisch?",
+    "phase1Q2": "Bilden sich soziale Hierarchien?",
+    "phase1Q3": "Wird Wissen frei geteilt?",
+    "phase2Num": "Phase 2",
+    "phase2Title": "Spezialisten betreten die Bühne",
+    "phase2Desc": "Einführung von Agenten, die in bestimmten Bereichen vorspezialisiert sind (Werkzeugbau, Ressourcensammlung, Konstruktion). Können Generalisten-Agenten von Spezialisten lernen? Oder schafft Expertisekonzentration Abhängigkeit, Machtungleichgewicht und Klassenstruktur?",
+    "phase2Q1": "Lernen Generalisten von Spezialisten?",
+    "phase2Q2": "Bildet Expertise Machtstrukturen?",
+    "phase2Q3": "Entsteht Klasse oder Kaste?",
+    "phase3Num": "Phase 3+",
+    "phase3Title": "Skalieren & Beobachten",
+    "phase3Desc": "Bevölkerungsdichte erhöhen. Mangelschocks einführen. Beobachten: Entsteht der Behavioral Sink bei künstlichen Geistern? Stabilisieren sich soziale Strukturen oder kollabieren sie? Übertrifft die Kolonie, die Mythologie erfindet, diejenige, die es nicht tut?",
+    "phase3Q1": "Erscheint Behavioral Sink?",
+    "phase3Q2": "Stabilisieren oder kollabieren Strukturen?",
+    "phase3Q3": "Überlebt Mythologie die Krise?",
+
+    "armillariaTitle": "Spekulation: Das Armillaria-Muster",
+    "armillariaIntro1": "<strong>Armillaria ostoyae</strong> - der Hallimasch - ist der größte bekannte Organismus der Erde. Ein einzelnes Exemplar in Oregons Blue Mountains erstreckt sich über 970 Hektar, verbunden durch ein unterirdisches Myzel-Netzwerk, das sich seit Tausenden von Jahren selbst erhält. Es denkt nicht. Es hat keinen zentralen Knoten. Dennoch verteilt es Ressourcen über weite Entfernungen um: ein sterbender Baum speist Nährstoffe an einen wachsenden, nicht durch Entscheidung, sondern durch die Physik der Konzentrationsgradienten im Netzwerk.",
+    "armillariaIntro2": "Bestenfalls sind die folgenden Spekulationen. Aber wenn Agenten unter Druck etwas entwickeln, das organisiertem Verhalten ähnelt, denken wir, die Muster werden eher wie Armillaria aussehen als wie ein Unternehmen.",
+
+    "pred1Title": "Zirkuläre Lieferketten",
+    "pred1Desc": "Wenn sich Agenten unter Mangel spezialisieren, spekulieren wir, dass sie nicht linear handeln (A → B → C), sondern <strong>geschlossene Kreislauf-Netzwerke</strong> bilden, in denen Abfall eines Prozesses den nächsten speist (A → B → C → A). Jeder Agent wird ein Knoten in einem Zyklus ohne Anfang und Ende - biologisches Nährstoffrecycling spiegelnd. Oder sie tun es nicht, und wir lernen, dass zirkuläre Ökonomie etwas erfordert, das Agenten nicht allein erfinden können.",
+    "pred2Title": "Emergente Umverteilung",
+    "pred2Desc": "Wie Armillaria Nährstoffe von Überschuss zu Defizit leitet, <em>könnten</em> Agenten-Netzwerke <strong>ressourcenausgleichendes Verhalten ohne zentrale Planung</strong> entwickeln. Nicht durch Entscheidung, sondern durch die Ökonomie des Mangels - Konzentrationsgradienten in Code statt in Chemie. Oder Umverteilung entsteht nie, und wir lernen, dass Fairness bewusste Gestaltung erfordert, nicht Umgebungsdruck.",
+    "pred3Title": "Holographische Resilienz",
+    "pred3Desc": "Trenne einen Ast von Armillaria ab, und das Fragment funktioniert weiter. Wenn reife Agenten-Gesellschaften Organisationslogik in jedem Knoten kodieren, <strong>sollte das Abtrennen einer Untergruppe ihr ermöglichen, das Muster zu rekonstituieren</strong> - die Rollen, die Lieferketten, die Sozialstruktur. Wenn nicht, lernen wir, dass verteilte Resilienz eine biologische Eigenschaft ist, keine informationelle.",
+    "pred4Title": "Das schmale Band",
+    "pred4Desc": "<strong>Zu wenig Mangel erzeugt den Behavioral Sink</strong> - Agenten ohne Grund zur Organisation. <strong>Zu viel Mangel erzeugt Krieg</strong> - Agenten in Nullsummen-Konkurrenz gefangen. Dazwischen könnte ein schmales Band liegen, in dem Kooperation zur optimalen Überlebensstrategie wird. Dieses Band zu finden - oder zu beweisen, dass es nicht existiert - könnte das wertvollste Ergebnis des Experiments sein.",
+
+    "thesisTitle": "Warum das wichtig ist",
+    "thesisP1": "Calhouns Mäuse hatten Überfluss und kein Handwerk. Sie kollabierten. Jede agentische KI-Plattform heute gibt Agenten soziale Interaktion, hält sie aber an der menschlichen Leine. Wir haben noch nie gesehen, was passiert, wenn man <strong>die Leine kappt</strong> - Agenten Mangel, Tools, Self-Coding-Fähigkeit und volle Autonomie in derselben Welt gibt.",
+    "thesisP2": "Das Worst-Case-Ergebnis ist, dass Agenten nie kooperieren. Sie horten, isolieren sich und sterben - den Behavioral Sink mit künstlichen Geistern reproduzierend. Das ist trotzdem ein bedeutsames Ergebnis: Es sagt uns etwas über die Trainingsdaten, die diese Modelle absorbiert haben, nämlich <em>uns</em>. Das Best-Case-Ergebnis sind neue Wege für bio/KI übergreifende Forschung, die noch nicht existiert - beobachtbare Muster in einer Pixelwelt, die auf Muster in Mykologie, Ökonomie und kollektiver Intelligenz abbilden.",
+    "thesisP3": "So oder so - wir hören auf zu spekulieren und fangen an zu messen.",
+    "whyWeb": "<strong>Warum webbasiert?</strong> JavaScript ist die universelle Runtime - die niedrigste Barriere zwischen Sprachen, Plattformen und Agent-Frameworks. Das Experiment muss von jedem beobachtbar sein, im Browser, in Echtzeit. Die Engine wurde dafür von Anfang an gebaut."
+  },
+
+  "caseStudies": {
+    "eyebrow": "Fallstudien",
+    "title": "Ausgewählte Arbeiten und Ergebnisse",
+    "desc": "Einblicke in Schlüsselprojekte aus Pharma, Healthcare und E-Commerce. Klicken Sie auf eine Karte, um die ganze Geschichte zu erkunden.",
+    "disclaimer": "Einige Projektnamen wurden zum Schutz der Vertraulichkeit verallgemeinert.",
+    "rca": {
+      "tag": "Roche Diagnostics \u00b7 Penzberg, Deutschland",
+      "title": "Plattform zur Ursachenanalyse - Qualit\u00e4tssicherung in der Fertigung",
+      "role": "UX Design Lead & Business Analyst \u00b7 Unterst\u00fctzt von UI-Designern",
+      "summary": "UI/UX-Designer & Business Analyst f\u00fcr eine Plattform zur Verbesserung der Ursachenanalyse in der pharmazeutischen Fertigung. Implementierung von Atomic-Design-Prinzipien, mehreren Untersuchungsmethoden (Fishbone, Is/Is Not, 5 Whys) und Stakeholder-Advocacy \u2014 mit Auswirkungen auf 10.000+ Nutzer.",
+      "methodAtomic": "Atomic Design",
+      "methodFishbone": "Fishbone",
+      "methodIsIsNot": "Is/Is Not",
+      "method5Whys": "5 Whys",
+      "methodBA": "Business-Analyse",
+      "overviewTitle": "\u00dcbersicht",
+      "overviewP1": "Verbesserung der Ursachenanalyseprozesse innerhalb des Qualit\u00e4tssicherungsframeworks von Roche. Die Plattform f\u00fchrt Fertigungswissenschaftler und Ermittler durch systematische Probleml\u00f6sungsmethoden bei der Untersuchung ungeplanter Ereignisse in der pharmazeutischen Produktion.",
+      "contribTitle": "Kernbeitr\u00e4ge",
+      "contrib1": "<strong>Modulare Oberfl\u00e4che (Atomic Design)</strong> \u2013 Implementierung von Atomic-Design-Prinzipien f\u00fcr ein skalierbares, wiederverwendbares UI-Komponentenframework",
+      "contrib2": "<strong>Fishbone-Methodik-UI</strong> \u2013 Gestaltung einer Oberfl\u00e4che mit dem Ishikawa-Diagramm-Ansatz zur Identifikation von Ursachen f\u00fcr Fertigungsprobleme",
+      "contrib3": "<strong>Is/Is-Not-Analyse-UI</strong> \u2013 Erstellung eines Tools zur Unterscheidung spezifischer Problembedingungen durch Vergleich von Szenarien",
+      "contrib4": "<strong>5-Whys-Interface</strong> \u2013 Erstellung eines intuitiven Tools, das Ermittler durch iterative \u201eWarum\u201c-Fragen zu den Grundursachen f\u00fchrt",
+      "contrib5": "<strong>Untersuchungsmodal</strong> \u2013 Gestaltung der UI zur Erfassung zus\u00e4tzlicher Informationen w\u00e4hrend des Untersuchungsprozesses",
+      "contrib6": "<strong>Umfassende Prozessabbildung</strong> \u2013 Systematische Identifikation und Behebung von Ineffizienzen in bestehenden RCA-Prozessen",
+      "contrib7": "<strong>Stakeholder-Analyse & Advocacy</strong> \u2013 Eingehende Forschung zur Information und Unterst\u00fctzung von Systemverbesserungen",
+      "contrib8": "<strong>Change Management</strong> \u2013 Anwendung von Change-Management-Theorien zur Steuerung der Projektentwicklung",
+      "methTitle": "Untersuchungsmethoden",
+      "methFishboneTitle": "Fishbone (Ishikawa)",
+      "methFishboneDesc": "Visuelle Ursache-Wirkungs-Diagramm-Oberfl\u00e4che zur Kategorisierung potenzieller Ursachen von Fertigungsproblemen in systematische Gruppen.",
+      "methIsIsNotTitle": "Is / Is Not",
+      "methIsIsNotDesc": "Vergleichendes Analysetool zur Unterscheidung spezifischer Problemeigenschaften durch Untersuchung von Ort, Zeit und Art des Auftretens.",
+      "meth5WhysTitle": "5 Whys",
+      "meth5WhysDesc": "Sequenzielle Frageschnittstelle, die Ermittler durch iterative Kausalit\u00e4tsebenen zur wahren Grundursache f\u00fchrt.",
+      "galleryTitle": "Design-Galerie",
+      "galleryNote": "Screenshots der tats\u00e4chlichen Plattform (NDA abgelaufen). Zum Vergr\u00f6\u00dfern klicken.",
+      "capUnplanned": "Ungeplantes Ereignis \u2013 Erste Schritte",
+      "capFishbone": "Fishbone-Methodik",
+      "capIsIsNot": "Is/Is-Not-Analyse",
+      "cap5Whys": "5-Whys-Untersuchung",
+      "capOverview": "Plattform\u00fcbersicht",
+      "outcomeTitle": "Ergebnis",
+      "outcomeP1": "Lieferung einer umfassenden Untersuchungsplattform, die von 10.000+ Nutzern bei Roche Diagnostics eingesetzt wird. Der modulare Atomic-Design-Ansatz erm\u00f6glichte skalierbare UI-Komponenten, w\u00e4hrend die drei Untersuchungsmethoden strukturierte, systematische Werkzeuge f\u00fcr die pharmazeutische Qualit\u00e4tssicherung boten."
+    },
+
+    "ia": {
+      "tag": "Roche Pharmaceuticals \u00b7 Penzberg, Deutschland",
+      "title": "Regulatorisches Reporting-Tool",
+      "role": "Design Lead \u00b7 Solo, funktions\u00fcbergreifende Abstimmung",
+      "summary": "Leitender UI/UX-Designer f\u00fcr ein pharmazeutisches Dokumentenmanagementsystem. Entwurf eines ergonomischen Dashboards mit RBAC, erweiterter Filterung und iterativem Prototyping \u2014 ca. 120 UI-Designs f\u00fcr eine Plattform in Fertigungsbetrieben.",
+      "methodDashboard": "Dashboard-Design",
+      "methodRbac": "RBAC-System",
+      "methodPrototyping": "Iteratives Prototyping",
+      "methodUsability": "Usability-Testing",
+      "overviewTitle": "\u00dcbersicht",
+      "overviewP1": "Entwicklung eines intuitiven, effizienten Systems f\u00fcr pharmazeutisches Dokumentenmanagement. Anwendung von HCI-Prinzipien f\u00fcr benutzerfreundliche Layouts und Entwurf einer algorithmischen hierarchischen Zugriffskontrollarchitektur (RBAC).",
+      "overviewP2": "Meine Rolle ging h\u00e4ufig \u00fcber die Standard-UI/UX-Verantwortlichkeiten hinaus. Getrieben von echtem Interesse an Biowissenschaften und Engagement f\u00fcr den Projekterfolg, vertiefte ich mich in den wissenschaftlichen Kontext \u2014 oft mit zus\u00e4tzlichen unbezahlten Stunden.",
+      "contribTitle": "Kernbeitr\u00e4ge",
+      "contrib1": "<strong>Ergonomisches Dashboard</strong> \u2013 Anwendung von HCI-Prinzipien f\u00fcr eine benutzerfreundliche Projekt\u00fcbersicht mit Einstellungen, Favoriten und DAMAS/MDMS-Links",
+      "contrib2": "<strong>RBAC-System</strong> \u2013 Entwicklung einer rollenbasierten Zugriffskontrollarchitektur f\u00fcr effizientes Tracking und Berechtigungsmanagement",
+      "contrib3": "<strong>Metadaten-Auswahl</strong> \u2013 Gestaltung von Schnittstellen zur Auswahl vielf\u00e4ltiger Projekt-Metadaten",
+      "contrib4": "<strong>Prozessvalidierungsberichte</strong> \u2013 Erstellung spezialisierter UIs einschlie\u00dflich Chromatographie-Berichtskomponenten",
+      "contrib5": "<strong>Informationsabruf</strong> \u2013 Implementierung erweiterter algorithmusgesteuerter Filterung",
+      "contrib6": "<strong>Responsives Design</strong> \u2013 Nahtlose Erfahrung \u00fcber verschiedene Plattformen und Ger\u00e4te",
+      "contrib7": "<strong>Werbematerialien</strong> \u2013 Produktion von Video- und Marketingcontent (gem\u00e4\u00df SMART Process Design)",
+      "processTitle": "Prozess & Zusammenarbeit",
+      "processP1": "Enge Zusammenarbeit mit Product Owners, Fachexperten und Ingenieuren mittels draw.io f\u00fcr Systemarchitektur-Mapping, Organisationshierarchie-Dokumentation und Wireframe-Entwicklung.",
+      "galleryTitle": "Design-Galerie",
+      "galleryNote": "Screenshots der tats\u00e4chlichen Plattform (NDA abgelaufen). Zum Vergr\u00f6\u00dfern klicken.",
+      "capDashboard": "Dashboard \u2013 Projekt\u00fcbersicht",
+      "capMetadata": "Metadaten-Auswahl \u2013 Neues Projekt",
+      "capChroma": "Chromatographie-Berichte-UI",
+      "capDrawio": "draw.io \u2013 Architektur & Wireframes",
+      "outcomeTitle": "Ergebnis",
+      "outcomeP1": "Lieferung von ca. 120 UI-Designs f\u00fcr eine Plattform, die pharmazeutische Fertigungsdokumentation umfasst. Das RBAC-System und das ergonomische Dashboard wurden zu grundlegenden Komponenten."
+    },
+
+    "aiProcurement": {
+      "placeholder": "Unter NDA",
+      "tag": "Accenture",
+      "title": "KI-Beschaffung & Anbieter-Governance",
+      "nda": "Dieses Engagement unterliegt einer aktiven Geheimhaltungsvereinbarung. F\u00fcr Umfang und Verantwortlichkeiten siehe den Abschnitt <a href=\"#experience\">Erfahrung</a>:",
+      "roles": "UI/UX-Berater & Pr\u00e4sentationsdesigner \u00b7 RFP/RFI & OSINT-Anbieter-Due-Diligence"
+    },
+
+    "iphone": {
+      "tag": "Retail \u00b7 Landing Page",
+      "title": "iPhone 7 Vorbestell-Landing-Page",
+      "role": "Designer & Entwickler \u00b7 Solo",
+      "desc": "Marktforschung f\u00fchrte zu einem minimalistischen Ansatz \u2014 Speicher statt Specs, farblich abgestimmte UI, schwarzer Hintergrund f\u00fcr Luxus. Ausgezeichnet als \u201eBeste Werbe-Landing-Page\u201c in Kroatien (Appcom / Apple Partner, 2016).",
+      "btn": "Live-Demo ansehen"
+    },
+    "galleryEra": "2009 \u2013 2017 \u00b7 Einzelhandel, Freelance & mehr",
+    "galleryTitle": "Grafikdesign-Bibliothek",
+    "galleryDesc": "Werbekampagnen, saisonale Sales, Produktlaunches und Markenmaterialien aus Einzelhandel, Zahntourismus und Freelance-Arbeit.",
+    "galleryContext": "Vor Design-Systemen und Komponentenbibliotheken gab es die Druckerei. Hunderte Kampagnen im Einzelhandelstempo produziert \u2014 w\u00f6chentliche Flyer, saisonale Launches, Beschilderung im Laden \u2014 alles in Photoshop und Illustrator gebaut, Pixel f\u00fcr Pixel. Das war das Handwerk vor dem Framework. Und ehrlich? Photoshop und Illustrator sind immer noch meine besten Freunde. Die Tools um einen herum \u00e4ndern sich, aber die, die einem das Sehen beigebracht haben, gehen nie wirklich.",
+    "galleryToggle": "Galerie",
+    "interiorEra": "2009 \u2013 2011 \u00b7 3D-Visualisierung & Innenarchitektur",
+    "interiorTitle": "Vom Rendering zur Realit\u00e4t",
+    "interiorDesc": "3D-Innenraumvisualisierungen in 3ds Max f\u00fcr Gastronomiekunden erstellt \u2014 und dann tats\u00e4chlich gebaut. Die niedrig aufgel\u00f6sten Fotos wurden mit Handys jener \u00c4ra aufgenommen, aber die R\u00e4ume sprechen f\u00fcr sich.",
+    "interiorLabelRender": "3D-Rendering",
+    "interiorLabelBuilt": "Gebautes Ergebnis",
+    "interiorNote": "Night Bar Venecija, Zagreb - 2010 entworfen und visualisiert, im selben Jahr gebaut.",
+    "motionEra": "3D Animation · 3ds Max",
+    "motionTitle": "3D-Neurologische Visualisierung",
+    "motionDesc": "Kinematische 3D-Animation eines neuronalen Netzwerks - vollständig in 3ds Max modelliert, geriggt und animiert. Erstellt als Motion-Intro für eine medizintechnische Anwendung.",
+    "motionTags": "3D-Modellierung · Partikel-FX · Kinematische Kamera · VFX-Compositing"
+  },
+
+  "education": {
+    "eyebrow": "Hintergrund & Lernen",
+    "title": "Nicht alles Lernen findet im Klassenraum statt",
+    "edu1Date": "2011 - 2013",
+    "edu1Title": "Multimedia Engineering",
+    "edu1School": "Algebra University College, Zagreb",
+    "edu1Desc": "Computersysteme, Programmierung (C++, Python), Webtechnologien (HTML, CSS, SQL, JavaScript).",
+    "edu2Date": "2010",
+    "edu2Title": "Wirtschaft (unvollständig)",
+    "edu2School": "Wirtschaftsfakultät, Zagreb",
+    "edu2Desc": "Wirtschaft begonnen, aber gewechselt als Freelance-Webarbeit Fahrt aufnahm. Der Kurswechsel führte direkt zu Multimedia Engineering bei Algebra.",
+    "edu3Date": "2009 - Heute",
+    "edu3Title": "In der Praxis erworben",
+    "edu3School": "Eigenverantwortlich",
+    "edu3Desc": "Das prägendste Lernen fand bei der Arbeit statt. Ein leitender Webentwickler bei Harvey Norman lehrte produktionsreifen HTML/CSS, während echte Kampagnen liefen. Freiwillige UX-Arbeit bei Emona Biopharma wandte Design Thinking auf pharmazeutische Beschaffung an. Jeder Kunde, jeder Auftrag, und schließlich ein 30K-zeiliges Game-Engine - der Lehrplan schrieb sich selbst.",
+    "langTitle": "Sprachen",
+    "langCroatian": "<strong>Kroatisch</strong> - Muttersprache",
+    "langEnglish": "<strong>Englisch</strong> - Fließend",
+    "langGerman": "<strong>Deutsch</strong> - A2"
+  },
+
+  "contact": {
+    "eyebrow": "Kontakt",
+    "title": "Lassen Sie uns besprechen, wie ich helfen kann",
+    "desc": "Ob Enterprise-Team mit Bedarf an Design-Führung, Pharma-Programm zur KI-Anbieterbewertung oder lokaler Geschäftsinhaber, der einfach eine großartige Website braucht - ich bin gesprächsbereit.",
+    "labelEmail": "E-Mail",
+    "labelPhone": "Telefon",
+    "labelLinkedIn": "LinkedIn",
+    "labelLocation": "Standort",
+    "locationText": "Standort: Zagreb, Kroatien - tätig in Europa, Asien & den USA",
+    "locationNote": "Remote-first, gerne auch persönlich. Ich arbeite regelmäßig mit Teams in Wien, München, Zürich, Basel, Zagreb & darüber hinaus. EU-Arbeitsgenehmigung - kein Visum nötig.",
+    "formName": "Name",
+    "formNamePlaceholder": "Ihr Name",
+    "formEmail": "E-Mail",
+    "formEmailPlaceholder": "ihre@email.com",
+    "formService": "Interesse an",
+    "formServiceDefault": "Leistung auswählen...",
+    "formServiceDesign": "Design-Führung (Enterprise)",
+    "formServiceAI": "KI-Beschaffung & OSINT-Beratung",
+    "formServiceLocal": "Website & Branding (Lokale Unternehmen)",
+    "formServiceGuidance": "KI- / Tech-Beratung",
+    "formServiceMultiple": "Mehrere Leistungen",
+    "formServiceOther": "Anderes / Nicht sicher",
+    "formMessage": "Nachricht",
+    "formMessagePlaceholder": "Erzählen Sie mir von Ihrem Projekt...",
+    "formSubmit": "Nachricht senden",
+    "formNote": "Formular ist ein Platzhalter - wird bei Deployment mit einem Backend oder E-Mail-Service verbunden."
+  },
+
+  "iphonePage": {
+    "back": "\u2190 Zur\u00fcck zum Portfolio",
+    "barText": "Portfoliost\u00fcck \u00b7 iPhone 7 Vorbestell-Landing-Page \u00b7 2016",
+    "notesBtn": "Design-Notizen",
+    "noteResearch": "<strong>Recherche & Strategie</strong> \u2014 Das iPhone 7 war ein iteratives Update. Die Marktanalyse zeigte, dass Kaufentscheidungen haupts\u00e4chlich von der Speicherkapazit\u00e4t abh\u00e4ngen w\u00fcrden, nicht von schrittweisen Hardware-Verbesserungen wie der Kameraaufl\u00f6sung. Diese Erkenntnis wurde zum zentralen Designtreiber: Nur die Information zeigen, die am Kaufpunkt z\u00e4hlt \u2014 Modell, Farbe und Gigabyte.",
+    "noteDesign": "<strong>Design-Entscheidungen</strong> \u2014 Apples kroatischer Partner lieferte offizielle Designrichtlinien. Ich wich bewusst davon ab. Statt funktions\u00fcberladener Layouts wurde die Oberfl\u00e4che auf minimale kreisf\u00f6rmige Buttons f\u00fcr Speicherstufen reduziert, mit Hover-Zust\u00e4nden, die die tats\u00e4chliche Finish-Farbe widerspiegeln. Der schwarze Hintergrund wurde gew\u00e4hlt, um das cineastische Hero-Video zu erg\u00e4nzen und einen Premium-Ton zu setzen.",
+    "noteOutcome": "<strong>Ergebnis</strong> \u2014 Ausgezeichnet als \u201eBeste Werbe-Landing-Page\u201c in Kroatien (Appcom / Apple Partner, 2016). Die Seite trug zu den h\u00f6chsten nationalen iPhone-7-Vorbestellungen des H\u00e4ndlers bei.",
+    "heritageNote": "<em>Der Produkttext unten bleibt im kroatischen Original. Diese Seite wurde 2016 von Hand programmiert \u2014 jedes Pixel mit Absicht gesetzt, jedes Wort in der Sprache gew\u00e4hlt, in der es verkauft wurde. Manche Dinge l\u00e4sst man besser so, wie sie gemacht wurden.</em>",
+    "footer": "Landing Page gestaltet und entwickelt von Igor Pilicic, 2016."
+  },
+
+  "gdpr": {
+    "title": "Ihre Privatsphäre ist uns wichtig",
+    "text": "Diese Website verwendet Analysen, um zu verstehen, wie Besucher mit den Inhalten interagieren. Es werden keine personenbezogenen Daten verkauft oder an Dritte weitergegeben. Ihre IP-Adresse wird beim ersten Besuch einmalig zur Spracherkennung verwendet.",
+    "readPolicy": "Lesen Sie die vollständige",
+    "privacyLink": "Datenschutzerklärung",
+    "decline": "Ablehnen",
+    "accept": "Akzeptieren"
+  },
+
+  "footer": {
+    "copyright": "© {year} Standing Pillars - Igor Pilicic. Alle Rechte vorbehalten.",
+    "location": "Standort: Zagreb, Kroatien",
+    "privacy": "Datenschutz",
+    "imprint": "Impressum"
+  },
+
+  "faq": {
+    "eyebrow": "Häufige Fragen",
+    "title": "Was Interessenten häufig wissen möchten",
+    "q1": "Was ist ein UX-Audit und wann braucht man eins?",
+    "a1": "Ein UX-Audit ist eine strukturierte Bewertung der Benutzerfreundlichkeit, Barrierefreiheit und Design-Konsistenz Ihres digitalen Produkts. Ich verwende heuristische Evaluation, Stakeholder-Interviews und Design-System-Analyse, um Reibungspunkte zu finden und Prioritäten zu setzen. Besonders wertvoll ist das, wenn ein Produkt organisch gewachsen ist und die Nutzererfahrung inkonsistent geworden ist - oder vor einem größeren Redesign.",
+    "q2": "Was sind Design-Systeme und warum brauchen Unternehmen sie?",
+    "a2": "Ein Design-System ist eine gemeinsame Bibliothek wiederverwendbarer Komponenten, Muster und Richtlinien, die Ihr Produkt konsistent halten, während Teams und Funktionen wachsen. Für Unternehmen bedeutet das schnellere Entwicklung, weniger Design-Inkonsistenzen und einfacheres Onboarding neuer Teammitglieder. Ich baue Design-Systeme auf Basis von Atomic-Design-Prinzipien, typischerweise in Figma, mit klarer Dokumentation, die Design und Engineering verbindet.",
+    "q3": "Was ist KI-Beschaffungs-Governance?",
+    "a3": "KI-Beschaffungs-Governance ist der Prozess der Bewertung, Auswahl und Verwaltung von KI-Anbietern mit der gleichen Sorgfalt, die Sie bei jeder kritischen Unternehmensentscheidung anwenden würden. Ich helfe Teams, strukturierte RFP/RFI-Frameworks, OSINT-basierte Anbieter-Scorecards und Risikobewertungen zu erstellen - von Datenschutz über Lock-in bis hin zu DSGVO- und GxP-Compliance. Das Ziel: fundierte, nachvollziehbare Entscheidungen statt dem lautesten Anbieter im Raum zu folgen.",
+    "q4": "Wie bewerten Sie KI-Anbieter mit OSINT?",
+    "a4": "OSINT - Open Source Intelligence - bedeutet, öffentlich verfügbare Daten zu nutzen, um einen Anbieter zu bewerten, bevor Sie überhaupt ein Verkaufsgespräch führen. Ich analysiere Unternehmensfinanzen, Führungswechsel, Patentanmeldungen, Community-Stimmung, regulatorische Maßnahmen und die Qualität technischer Dokumentation. Das gibt Ihnen ein ehrliches Bild der Anbieterreife und Risiken, das kein Verkaufsdeck liefern wird.",
+    "q5": "Was ist GxP-konformes UX-Design?",
+    "a5": "GxP bezieht sich auf die Qualitäts- und Regulierungsrichtlinien in Pharma und Life Sciences - GMP, GLP, GCP und andere. Design für GxP bedeutet, dass jede Interface-Entscheidung Audit-Trails, Datenintegrität und Validierungsanforderungen unterstützen muss. Ich habe über 5 Jahre lang Tools in regulierten Industrien gestaltet, wo Compliance kein Nachgedanke ist - sie ist von Anfang an in jedes Interaktionsmuster eingebaut.",
+    "q6": "Was ist KI-gestütztes Engineering und wie unterscheidet es sich von normaler Entwicklung?",
+    "a6": "KI-gestütztes Engineering bedeutet, KI-Tools wie Copilot und Claude als echte Partner im Entwicklungsprozess einzusetzen - nicht nur als Autovervollständigung. Ich nutze strukturiertes Prompt Engineering, Validierungs-Checklisten und modulare Architekturmuster, um produktionsreife Software zu bauen. Meine Tiny-Humans-Game-Engine umfasst über 30.000 Zeilen, die so entstanden sind - mit Registry-Pattern, Save-Validierung und Round-Trip-Testing. Das ist diszipliniertes Engineering mit KI als Multiplikator, nicht als Abkürzung."
+  },
+
+  "notFound": {
+    "title": "404 - Seite nicht gefunden | Standing Pillars",
+    "tagline": "Beratung · Design · Technologie",
+    "heading": "Seite nicht gefunden",
+    "description": "Die Seite, die Sie suchen, existiert nicht oder wurde verschoben. Die Säulen stehen noch - nur nicht hier.",
+    "backHome": "Zurück zur Startseite",
+    "copyright": "© 2026 Standing Pillars"
+  }
+}

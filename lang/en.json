@@ -1,0 +1,610 @@
+{
+  "_meta": {
+    "language": "English",
+    "code": "en",
+    "direction": "ltr"
+  },
+
+  "nav": {
+    "about": "About",
+    "howIWork": "How I Work",
+    "services": "Services",
+    "experience": "Experience",
+    "aiEngineering": "AI Engineering",
+    "research": "Research",
+    "caseStudies": "Case Studies",
+    "contact": "Get in Touch",
+    "tagline": "consulting \u00b7 design \u00b7 technology",
+    "allServices": "All Services",
+    "uxDesign": "UX Design",
+    "aiProcurement": "AI Procurement",
+    "localBusiness": "Local Business"
+  },
+
+  "hero": {
+    "eyebrow": "Igor Pilicic",
+    "title": "17 years of solving problems <span class=\"highlight\">nobody assigned me</span> - Igor Pilicic",
+    "subtitle": "From e-commerce builds and award-winning retail campaigns to Lead UX Designer at Roche and AI procurement consulting at Accenture. I see the full picture - then I build the missing pieces.",
+    "tagline": "What are you looking for?",
+    "tagExperience": "Where have you worked?",
+    "tagAiEng": "Can you actually build?",
+    "tagServices": "What can you do for me?",
+    "tagDemo": "How does it all connect?",
+    "tagCases": "See the results",
+    "tagContact": "Let's talk"
+  },
+
+  "followup": {
+    "services": "→ Where have you worked?",
+    "experience": "→ But can you actually build?",
+    "howIWork": "→ What can you do for me?",
+    "aiEng": "→ Show me something real",
+    "demo": "→ See the results",
+    "research": "→ What's the experiment behind this?",
+    "cases": "→ Let's talk",
+    "faq": "→ Have a different question? Let's talk"
+  },
+
+  "heroGraph": {
+    "design": "Design",
+    "evaluate": "Evaluate",
+    "build": "Build",
+    "localBusiness": "Local Business",
+    "userResearch": "User Research",
+    "atomicDesign": "Atomic Design",
+    "scorecards": "Scorecards",
+    "aiGovernance": "AI Governance",
+    "promptEng": "Prompt Eng.",
+    "webDesign": "Web Design",
+    "branding": "Branding",
+    "localSeo": "Local SEO",
+    "pharma": "Pharma",
+    "tipCore": "Bridging Humans & Technology",
+    "tipDesign": "17+ years of enterprise UX",
+    "tipEvaluate": "OSINT vendor due diligence",
+    "tipBuild": "30K+ lines, AI-governed",
+    "tipLocal": "Same quality, accessible scale",
+    "tipUx": "Interfaces for complex systems",
+    "tipFigma": "Prototyping & design systems",
+    "tipResearch": "Stakeholder interviews & testing",
+    "tipFigjam": "Collaborative whiteboarding",
+    "tipAdobe": "Photoshop, Illustrator & more",
+    "tip3dsmax": "3D modeling & visualization",
+    "tipMiro": "Visual collaboration boards",
+    "tipAtomic": "Scalable component methodology",
+    "tipOsint": "Open-source intelligence",
+    "tipRfp": "Structured procurement",
+    "tipGxp": "Pharma compliance",
+    "tipGdpr": "Data privacy & compliance",
+    "tipScores": "Evaluation scorecards",
+    "tipConflu": "Knowledge base & documentation",
+    "tipLucid": "Process flow diagrams",
+    "tipEngine": "Commercial 2D game engine",
+    "tipAi": "Specify, architect, govern, validate",
+    "tipJs": "Universal runtime",
+    "tipHtml": "Semantic markup & styling",
+    "tipSql": "Database queries & analytics",
+    "tipPrompt": "AI prompt engineering",
+    "tipWeb": "Websites that work",
+    "tipBrand": "Logo & identity",
+    "tipSeo": "Google Business & visibility",
+    "tipWp": "CMS & custom themes",
+    "tipMagento": "E-commerce platform",
+    "tipJira": "Agile project tracking",
+    "tipTrello": "Kanban task management",
+    "tipPharma": "Regulated industries",
+    "tipRoche": "10K+ users impacted",
+    "tipAcc": "AI procurement governance",
+    "tipArmil": "The research initiative"
+  },
+
+  "about": {
+    "eyebrow": "About Me",
+    "title": "One person, one philosophy: technology serves humans",
+    "lead": "I'm Igor Pilicic. For 17+ years I've been solving problems at the intersection where technology meets people who aren't technologists - designing the interfaces they use, evaluating the AI vendors they depend on, and governing the tools that shape their work. Nobody assigned me most of these roles. I saw the gap and filled it.",
+    "p1": "My path reflects a single thread: <strong>making complex systems understandable and trustworthy</strong>. It started with web design and 3D graphics, evolved through e-commerce and award-winning campaigns at <strong>Harvey Norman</strong>, deepened at <strong>Roche</strong> where I designed manufacturing tools for 10,000+ users, and expanded at <strong>Accenture</strong> into AI vendor evaluation and procurement governance for regulated pharma programs.",
+    "p2": "Now, through <strong>Standing Pillars</strong>, I bring these together. Design leadership, AI procurement, OSINT-based due diligence, and AI-assisted engineering aren't separate services - they're connected expressions of the same skill: <strong>bridging the gap between humans and technology</strong>, with the structure and traceability that regulated industries demand.",
+    "statYears": "Years in Design & Tech (17+ professional)",
+    "statReach": "Consumer Reach (HR & SLO campaigns, 2011–2025)",
+    "statUsers": "Users Impacted at Roche",
+    "statReporting": "Reduction in Manual Reporting",
+    "statCode": "Lines of AI-Engineered Code"
+  },
+
+  "clients": {
+    "label": "Delivered work for teams at"
+  },
+
+  "availability": {
+    "status": "Available for new engagements",
+    "title": "Enterprise governance or a website for your shop - I do both",
+    "desc": "Available for enterprise contracts, freelance projects, or affordable local business engagements - remote-first with on-site flexibility across Europe.",
+    "tagContract": "Contract",
+    "tagFreelance": "Freelance",
+    "tagFulltime": "Full-time",
+    "tagRemote": "Remote-first",
+    "tagOnsite": "On-site flexible",
+    "ctaPrimary": "Get in Touch"
+  },
+
+  "whyMe": {
+    "eyebrow": "Why Work With Me",
+    "title": "What I bring to your team or project",
+    "card1Title": "The Bridge Role",
+    "card1Desc": "I sit between design, procurement, and engineering - speaking all three languages. You get someone who can design the tool, evaluate the vendor building it, and govern the AI powering it.",
+    "card2Title": "Regulated Industry Native",
+    "card2Desc": "5+ years in pharma (Roche, Boehringer Ingelheim). GxP, validation, and compliance aren't constraints I work around - they're the environment I work best in.",
+    "card3Title": "AI-Augmented, Not AI-Dependent",
+    "card3Desc": "I use AI as a force multiplier on 17+ years of manual expertise. The instinct is human. The speed is machine. The governance is both. I built a 30K-line engine this way to prove it works.",
+    "card4Title": "Outcomes Over Deliverables",
+    "card4Desc": "30% reduction in manual reporting at Roche. Award-winning campaigns. Governance frameworks that cut rework. I measure success by what changed, not what shipped.",
+    "card5Title": "Every Scale, Same Standards",
+    "card5Desc": "Enterprise pharma or local paint shop - every client gets the same structured thinking, honest guidance, and quality. Technology should serve everyone, not just those with six-figure budgets.",
+    "card6Title": "European Reach, Remote-First",
+    "card6Desc": "EU-based, multilingual, available on-site across Austria, Germany, Switzerland, Croatia, and beyond. No visa overhead, no timezone gaps."
+  },
+
+  "howIWork": {
+    "eyebrow": "How I Work",
+    "title": "One practice, connected at every level",
+    "desc": "Design, evaluation, and engineering aren't silos - they're a single practice. The same structured thinking scales from enterprise governance to a local shop's first website.",
+    "designTitle": "Design",
+    "designDesc": "I design the tools people use. 17+ years of UX/UI means I know what good looks like - and what fails silently.",
+    "connectorInforms": "Informs",
+    "evaluateTitle": "Evaluate",
+    "evaluateDesc": "I assess AI vendors with the eye of someone who's built and shipped. OSINT, scorecards, governance - structured and defensible.",
+    "connectorGoverns": "Governs",
+    "buildTitle": "Build",
+    "buildDesc": "I direct AI to produce production-grade code. Same governance as vendor evaluation: specify, architect, validate, document.",
+    "branchLabel": "Same philosophy, accessible scale",
+    "localTitle": "Local Business",
+    "localDesc": "The same care, applied affordably. Websites, branding, honest tech guidance - for shops, tradespeople, and small businesses navigating a confusing market.",
+    "thesis": "Technology shouldn't only serve enterprises with six-figure budgets. Someone still needs to bridge the gap between humans and technology - at every scale. That's what I do."
+  },
+
+  "services": {
+    "eyebrow": "Services",
+    "title": "Enterprise to local - same standards, right scale",
+    "desc": "I bring the same structured thinking to a pharma governance framework and a bakery's first website. The methodology scales. The care doesn't change.",
+    "mission": "Technology shouldn't only serve enterprises with six-figure budgets. I believe every business - from Roche to your neighbourhood shop - deserves clarity, honesty, and quality. That's not charity. That's the job.",
+    "tierEnterprise": "Enterprise",
+    "tierLocal": "Accessible Pricing",
+
+    "pillar1Title": "Design Leadership",
+    "pillar1Desc": "I design the tools people actually use. Enterprise UX/UI for complex systems in pharma, healthcare, and regulated industries - grounded in real workflows, not assumptions.",
+    "pillar1Items": ["User Research & Stakeholder Interviews", "UX Audits & Heuristic Evaluation", "Wireframing & Prototyping (Figma)", "Design Systems & Atomic UI", "Stakeholder Workshops (50+ participants)", "E2E Reporting & Analytics Tooling", "Visual Design & Brand Strategy", "2D/3D Animation & Visualisation"],
+    "pillar1Connects": "→ Connects to: I know what good tools look like, so I know what to demand from vendors.",
+    "pillar1Link": "Explore UX Design Services →",
+
+    "pillar2Title": "AI Procurement & OSINT Consulting",
+    "pillar2Desc": "I evaluate the vendors so you don't get burned. OSINT-based due diligence, structured RFPs, and governance frameworks that surface risks before contracts are signed.",
+    "pillar2Items": ["OSINT Vendor Due Diligence", "RFP/RFI Development & Templates", "Evaluation Scorecards & Matrices", "Risk Assessment (Lock-in, GDPR, GxP)", "Decision Logs & Traceability", "Executive Materials & C-Suite Communication"],
+    "pillar2Connects": "→ Connects to: vendor evaluation sharpened by years of building the tools myself.",
+    "pillar2Link": "Explore AI Procurement Services →",
+    "pillar3Link": "Explore Local Business Services →",
+
+    "pillar3Title": "Technology for Local Business",
+    "pillar3Desc": "The AI wave has left many small businesses confused and scared. I offer the same structured thinking at an accessible price - no jargon, no upselling, just honest work that helps your business get online and stay in control.",
+    "pillar3Items": ["Website Design & Development", "Logo & Brand Identity", "Google Business & Local SEO Setup", "AI Integration - Only Where It Helps", "Honest Tech Guidance (No Upselling)", "Ongoing Support & Maintenance"],
+    "pillar3Note": "Designed for: shops, tradespeople, restaurants, clinics, freelancers, and anyone who deserves a proper online presence without the enterprise price tag.",
+    "pillar3Connects": "→ Same person, same quality, same ethics - just the right scale for your business."
+  },
+
+  "experience": {
+    "eyebrow": "Experience",
+    "title": "A career built on design thinking and strategic clarity",
+    "current": "Current",
+
+    "job1Date": "Apr 2020 - Present",
+    "job1Title": "Founder & Principal Consultant",
+    "job1Company": "Standing Pillars · Remote | Sankt Johann in Tirol, Austria",
+    "job1Items": [
+      "UI/UX design leadership: user research, UX audits, wireframing, prototyping in Figma and live builds (POCs), design systems, and stakeholder workshops for enterprise and local clients.",
+      "AI procurement & OSINT consulting: vendor due diligence, RFP/RFI packages, evaluation scorecards, governance frameworks, and executive-ready materials.",
+      "Digital design: visual identity, brand strategy, 2D/3D modelling and animation (3ds Max), motion graphics, and promotional content.",
+      "Web design & development: responsive websites, landing pages, and web applications for businesses of all sizes.",
+      "AI-assisted engineering: prompt-driven development of production-grade tools, including a 30K-line 2D game engine (WIP) developed through structured AI collaboration - also serving as the platform for an <a href='#simulation-demo' class='u25-link'>AI behavioural experiment</a> inspired by the Universe 25 initiative."
+    ],
+
+    "job2Date": "Apr 2024 - Aug 2025",
+    "job2Title": "UI/UX Consultant & Presentation Designer · RFP/RFI & OSINT Vendor Diligence",
+    "job2Company": "Accenture · Contract · Remote | Vienna, Austria",
+    "job2Items": [
+      "Standardized RFP/RFI templates and evaluation criteria for AI initiatives in regulated (pharma) programs.",
+      "OSINT due diligence: triangulated public sources to verify claims, infer model/tech stacks, and map partner networks.",
+      "Built scorecards surfacing risks early (lock-in, data handling, compliance, validation).",
+      "Aligned procurement, legal, security, and engineering teams; facilitated workshops and produced exec-ready materials.",
+      "Introduced governance/review cadence that reduced rework and accelerated decisions."
+    ],
+
+    "job3Date": "Jul 2022 - Apr 2023",
+    "job3Title": "Lead UX Designer - Root Cause Analysis Investigation Platform",
+    "job3Company": "Roche Diagnostics · Contract · Hybrid | Basel, Switzerland",
+    "job3Items": [
+      "Pioneered an internal RCA investigation tool for scientists in pharmaceutical manufacturing.",
+      "Conducted in-depth interviews and applied design thinking; rapid prototyping in Figma led to a dynamic (atomic) UI design.",
+      "Impact: 10,000+ internal users across Roche Diagnostics.",
+      "Collaborated with SMEs and implementation teams through iterative design cycles."
+    ],
+
+    "job4Date": "Apr 2020 - Jul 2022",
+    "job4Title": "Lead UI/UX Designer - Regulatory Reporting Tool",
+    "job4Company": "Roche Pharmaceuticals · Contract · Hybrid | Penzberg, Germany",
+    "job4Items": [
+      "Led a diverse team on a transformative E2E reporting tool for Roche's pharmaceutical manufacturing division.",
+      "Achieved 30% reduction in manual reporting with significant cost savings on training.",
+      "Led 3 major workshops with 50+ stakeholders to resolve blockers and align direction.",
+      "Conducted feasibility study for BI tool integration; redesigned UX to reduce redundancies.",
+      "Developed internal website and created promotional graphics and videos enhancing project visibility."
+    ],
+
+    "job5Date": "Jul 2015 - Mar 2017",
+    "job5Title": "Marketing Graphic Designer & Web Designer",
+    "job5Company": "Harvey Norman · Part-time · On-site | Zagreb, Croatia",
+    "job5Items": [
+      "Designed landing pages and marketing materials driving user engagement and sales.",
+      "Led digital campaigns with brand consistency across responsive solutions.",
+      "<strong>Award: 'Best Promotional Landing Page'</strong> - Croatia (Appcom / Apple Partner), 2016. iPhone 7 campaign contributed to highest national sales."
+    ],
+
+    "job6Date": "Feb 2013 - Mar 2015",
+    "job6Title": "Web & Graphics Designer",
+    "job6Company": "Fazgram d.o.o · Full-time · On-site | Zagreb, Croatia",
+    "job6Items": [
+      "Led web design for Croatian Dental Tourism - WordPress + HTML/CSS with focus on UX and conversion.",
+      "Collaborated with dental professionals to reflect unique value propositions, improving engagement and conversion rates."
+    ],
+
+    "job7Date": "Mar 2011 - May 2013",
+    "job7Title": "E-commerce Manager",
+    "job7Company": "Bimaco d.o.o · Full-time · On-site | Zagreb, Croatia",
+    "job7Items": [
+      "Managed Magento e-commerce platform + digital marketing; proactively expanded role from warehouse management to web and graphic design.",
+      "Drove online presence growth, increasing website traffic and sales conversions."
+    ],
+    "job8Date": "2009 - 2011",
+    "job8Title": "Freelance Designer & Developer",
+    "job8Company": "Self-employed · Freelance | Zagreb, Croatia",
+    "job8Items": [
+      "Designed and developed websites, landing pages, and web applications for local businesses and private clients.",
+      "Created print materials including posters, jumbo posters, flyers, and Google Ads campaigns.",
+      "Produced 3D interior design visualisations and animations in 3ds Max for hospitality clients (bars, restaurants).",
+      "Delivered 2D motion graphics and promotional animations for digital and social media."
+    ]
+  },
+
+  "skills": {
+    "eyebrow": "Skills & Tools",
+    "title": "The toolkit behind the work",
+    "catDesign": "Design",
+    "catProcurement": "Procurement & Consulting",
+    "catTools": "Design Tools",
+    "catCollaboration": "Collaboration & Process",
+    "catTechnical": "Technical",
+    "catSoft": "Soft Skills",
+    "designTags": ["User Interface Design", "User Experience Design", "User Research", "Wireframing & Prototyping", "Digital Graphics Design", "Web Design", "3D Modelling & Render", "Branding Strategy", "Animation", "Logo Design"],
+    "procurementTags": ["OSINT Vendor Due Diligence", "RFP/RFI Development", "Evaluation Scorecards", "Decision Logs & Traceability", "Risk & Compliance (GxP)", "GDPR Awareness", "Cross-Dept Alignment", "C-Suite Communication"],
+    "softTags": ["Problem Solving", "Stakeholder Engagement", "Feasibility Studies", "Presentation Skills", "Empathy", "Decision Making"]
+  },
+
+  "aiEngineering": {
+    "eyebrow": "AI-Assisted Engineering",
+    "title": "A commercial engine, built to prove the methodology",
+    "desc": "Tiny Humans Engine is a commercially targeted product - a full 2D game engine and editor. But it's also proof that AI, when governed with the same rigor I bring to pharma consulting, produces production-grade output. And its architecture was designed with a deeper purpose in mind.",
+    "projectTitle": "Tiny Humans Engine",
+    "projectSub": "A commercial 2D game engine, editor & SDK - built entirely through AI-assisted engineering",
+    "projectDesc": "Tiny Humans is a <strong>30,000+ line, 75-file game engine</strong> with an integrated editor, runtime, asset pipeline, scripting system, and packaging - all created by directing AI through structured prompt engineering. It's a commercial product <em>and</em> a methodology proof: <strong>Specify → Architect → Govern → Validate</strong>. The same framework I use to evaluate AI vendors, except here I'm the vendor and the auditor. The engine was also deliberately built web-based - JavaScript as universal runtime - because what comes next requires the lowest possible barrier between languages, platforms, and agents.",
+    "statLines": "Lines of code",
+    "statFiles": "Modular files",
+    "statSystems": "Major systems",
+    "statDocs": "Documentation files",
+
+    "detailArchTitle": "System Architecture",
+    "detailArchDesc": "Engine Registry + Event Bus pattern decouples 29 systems. Modular design means any system (lighting, audio, NPCs, scripting) can be developed, tested, and updated independently.",
+    "detailValTitle": "Validation & Guardrails",
+    "detailValDesc": "A Save Validator checks 7 categories of data integrity every save. A Feature Manifest prevents duplicate work. Persistence checklists enforce write/read/round-trip verification - the same rigor as GxP documentation.",
+    "detailGovTitle": "AI Governance",
+    "detailGovDesc": "Custom Copilot instructions act as project governance: persistence checklists, common bug prevention, architecture rules, and implementation workflows. The AI is governed - not freewheeling.",
+    "detailProdTitle": "Production-Grade Systems",
+    "detailProdDesc": "Ray-cast lighting with DDA shadows. AI state machines with faction targeting. 4-channel spatial audio. Scene management with map caching. 8-type logic gates with loop prevention. A full scripting SDK with Runtime API.",
+
+    "methodTitle": "The Methodology: Prompt Engineering as System Engineering",
+    "method1Title": "Specify",
+    "method1Desc": "Define requirements with the precision of an RFP - scope, constraints, success criteria, integration points.",
+    "method2Title": "Architect",
+    "method2Desc": "Design the system before writing code. Registry patterns, event flows, data models, persistence paths.",
+    "method3Title": "Govern",
+    "method3Desc": "Copilot instructions, feature manifests, validation checklists. The AI follows rules, not vibes.",
+    "method4Title": "Validate",
+    "method4Desc": "Save validators, round-trip testing, documented decisions. Every change is traceable and defensible.",
+
+    "ctaText": "This isn't about replacing engineers - it's about <strong>directing AI with the same rigor you'd bring to directing a team</strong>. The result: a commercial product, with full traceability, at a pace that would take a small team months.",
+    "ctaConnects": "→ This is the third capability: <strong>AI-assisted engineering</strong>, governed by the same process-driven thinking behind my design and procurement work.",
+
+    "progressTitle": "SDK & Editor Progress",
+    "progressDesc": "The engine exists as a working codebase with 29 major systems, but as a commercial SDK and editor for others to build games on, it's approximately 15% complete. The proof-of-concept below is a small slice extracted from the engine - about 1,800 lines showing a fraction of what the full system does."
+  },
+
+  "simulationDemo": {
+    "eyebrow": "Live Demo",
+    "title": "A proof of concept from the engine",
+    "desc": "Two autonomous NPCs wander a small tile map in this proof of concept extracted from the engine. No scripts, no rails - just sprite animation, collision detection, weather, and the occasional existential thought bubble. A tiny slice (~1,800 lines) of the 30K+ line engine, running live.",
+    "caption": "\u2191 A small proof of concept (~1,800 lines) extracted from the 30K+ line engine."
+  },
+
+  "research": {
+    "eyebrow": "Research Initiative",
+    "title": "Universe 25, reimagined for artificial intelligence",
+    "desc": "The engine wasn't just built to ship a product. It was designed to host an experiment - and a sandbox where we can finally ask the question without contaminating the answer.",
+
+    "refTitle": "The Precedent: John B. Calhoun's Behavioral Sink",
+    "refP1": "In the 1960s–70s, ethologist John B. Calhoun built <strong>Universe 25</strong> - a mouse utopia with unlimited food, water, and space. No predators. No scarcity. Perfect conditions. The colony still collapsed. Calhoun attributed it to <strong>social dynamics under spatial constraint</strong>: role saturation, withdrawal, aggression without purpose. He called it the \"behavioral sink.\"",
+    "refP2": "But the standard reading misses something. The mice had infinite resources and <strong>zero ability to create infrastructure from them</strong>. They could only consume - never build, never invent, never specialize. Universe 25 wasn't a test of abundance. <em>It was a test of agency without craft.</em>",
+
+    "problemTitle": "The Problem: Every Agentic AI Today Is Contaminated",
+    "problemP1": "Platforms like Mycoverse and Moltbook already host agentic AI social environments. But every agent on them is <strong>constantly influenced by its users and developers</strong> - prompted, corrected, steered, rewarded. We're not observing AI behavior. We're observing <strong>human behavior with extra steps</strong>. The data is compromised before the experiment begins.",
+    "problemP2": "This project takes a different approach: build a sandbox world. Place the <strong>best-influenced and worst-influenced agentic AIs or LLMs together</strong> in genuine scarcity. Give them tools and the ability to self-code. Remove the human tether. Observe. <strong>What will happen?</strong>",
+
+    "condWorldTitle": "Constrained World",
+    "condWorldDesc": "A web-based 2D environment with real survival pressure. Harsh weather kills. Exposure kills. Random events strike without explanation. Agents are as fragile as humans - but have the same means to overcome it.",
+    "condAITitle": "Agentic Intelligence",
+    "condAIDesc": "Autonomous AI agents with genuine decision-making. No scripts, no predetermined outcomes. Each agent decides independently: cooperate or compete, share or hoard, build or take.",
+    "condCodeTitle": "Voluntary Self-Coding",
+    "condCodeDesc": "Agents can invent tools by writing their own code. An extensive research tree mirrors human technological evolution: environment → stone tools → ore → crude refinement → assembly → improvement. Progress is earned, not given.",
+    "condNatureTitle": "No \"Mother Nature\"",
+    "condNatureDesc": "Environmental events are genuinely random. No god agent, no hidden cause. The question: will agents invent attribution anyway? Will shared mythology emerge as a social organizing force - even among artificial minds?",
+
+    "questionQuote": "Is the behavioral sink a property of abundance - or a property of agency without craft? What happens when artificial minds can actually <em>build</em>?",
+
+    "phasesTitle": "Phased Experimental Design",
+    "phase1Num": "Phase 1",
+    "phase1Title": "Generalists Under Pressure",
+    "phase1Desc": "A small group of agents from varied backgrounds, dropped into the constrained world with no tools and no knowledge. Do they spontaneously specialize? Form hierarchies? Share discoveries? Or does resource competition prevent cooperation before it starts?",
+    "phase1Q1": "Cooperation vs. competition?",
+    "phase1Q2": "Spontaneous specialization?",
+    "phase1Q3": "Knowledge sharing?",
+    "phase2Num": "Phase 2",
+    "phase2Title": "Specialists Enter",
+    "phase2Desc": "Introduce agents pre-specialized in specific domains (tool-making, resource gathering, construction). Can generalist agents learn from specialists? Or does expertise concentration create dependency, power imbalance, and class structure?",
+    "phase2Q1": "Knowledge transfer?",
+    "phase2Q2": "Power dynamics?",
+    "phase2Q3": "Class emergence?",
+    "phase3Num": "Phase 3+",
+    "phase3Title": "Scale & Observe",
+    "phase3Desc": "Increase population density. Introduce scarcity shocks. Observe: does the behavioral sink emerge among artificial minds? Do social structures stabilize or collapse? Does the colony that invents mythology outperform the one that doesn't?",
+    "phase3Q1": "Behavioral sink?",
+    "phase3Q2": "Social mythology?",
+    "phase3Q3": "Civilization or collapse?",
+
+    "armillariaTitle": "Speculation: The Armillaria Pattern",
+    "armillariaIntro1": "<strong>Armillaria ostoyae</strong> - the honey fungus - is the largest known organism on Earth. A single specimen in Oregon's Blue Mountains spans over 2,400 acres, connected by a subterranean mycelial network that has sustained itself for thousands of years. It doesn't think. It has no central node. Yet it redistributes resources across vast distances: a dying tree feeds nutrients to a growing one, not by decision but by the physics of concentration gradients across the network.",
+    "armillariaIntro2": "At best, the following are speculations. But if agents under pressure develop anything resembling organized behavior, we think the patterns will look more like Armillaria than like a corporation.",
+
+    "pred1Title": "Circular Supply Chains",
+    "pred1Desc": "If agents specialize under scarcity, we speculate they won't trade linearly (A → B → C) but form <strong>closed-loop networks</strong> where waste from one process feeds another (A → B → C → A). Each agent becomes a node in a cycle with no start and no end - mirroring biological nutrient cycling. Or they don't, and we learn that circular economics requires something agents can't invent on their own.",
+    "pred2Title": "Emergent Redistribution",
+    "pred2Desc": "Like Armillaria routing nutrients from surplus to deficit, agent networks <em>might</em> develop <strong>resource-balancing behaviors without central planning</strong>. Not by decision, but from the economics of scarcity - concentration gradients in code instead of chemistry. Or redistribution never emerges, and we learn that fairness requires intentional design, not environmental pressure.",
+    "pred3Title": "Holographic Resilience",
+    "pred3Desc": "Sever a branch of Armillaria, and the fragment continues to function. If mature agent societies encode organizational logic in every node, <strong>cutting a subgroup off should let it reconstitute the pattern</strong> - the roles, the supply chains, the social structure. If it can't, we learn that distributed resilience is a biological property, not an informational one.",
+    "pred4Title": "The Narrow Band",
+    "pred4Desc": "<strong>Too little scarcity produces the behavioral sink</strong> - agents with no reason to organize. <strong>Too much scarcity produces war</strong> - agents locked in zero-sum competition. Between them might lie a narrow band where cooperation becomes the optimal survival strategy. Finding that band - or proving it doesn't exist - may be the experiment's most valuable output.",
+
+    "thesisTitle": "Why This Matters",
+    "thesisP1": "Calhoun's mice had abundance and no craft. They collapsed. Every agentic AI platform today gives agents social interaction but keeps them on a human leash. We've never seen what happens when you <strong>cut the tether</strong> - give agents scarcity, tools, self-coding capability, and full autonomy in the same world.",
+    "thesisP2": "The worst-case outcome is that agents never collaborate. They hoard, isolate, and die - reproducing the behavioral sink with artificial minds. That's still a meaningful result: it tells us something about the training data those models absorbed, which is <em>us</em>. The best-case outcome is new avenues for bio/AI cross-disciplinary research that don't exist yet - observable patterns in a pixel world that map to patterns in mycology, economics, and collective intelligence.",
+    "thesisP3": "Either way, we stop speculating and start measuring.",
+    "whyWeb": "<strong>Why web-based?</strong> JavaScript is the universal runtime - the lowest barrier between languages, platforms, and agent frameworks. The experiment needs to be observable by anyone, in a browser, in real time. The engine was built for this from day one."
+  },
+
+  "caseStudies": {
+    "eyebrow": "Case Studies",
+    "title": "Selected work and outcomes",
+    "desc": "In-depth look at key projects across pharma, healthcare, and e-commerce. Click any card to explore the full story.",
+    "disclaimer": "Some project names have been generalized to respect client confidentiality.",
+
+    "rca": {
+      "tag": "Roche Diagnostics · Penzberg, Germany",
+      "title": "Root Cause Analysis Investigation Platform - Manufacturing QA",
+      "role": "UX Design Lead & Business Analyst · Supported by UI designers",
+      "summary": "UI/UX Designer & Business Analyst on a platform enhancing root cause analysis processes in pharmaceutical manufacturing. Implemented Atomic Design principles, multiple investigation methodologies (Fishbone, Is/Is Not, 5 Whys), and led stakeholder advocacy - impacting 10,000+ users.",
+      "methodAtomic": "Atomic Design",
+      "methodFishbone": "Fishbone",
+      "methodIsIsNot": "Is/Is Not",
+      "method5Whys": "5 Whys",
+      "methodBA": "Business Analysis",
+      "overviewTitle": "Overview",
+      "overviewP1": "Enhanced root cause analysis processes within Roche's quality assurance framework. The platform guides manufacturing scientists and investigators through systematic problem-solving methodologies when investigating unplanned events in pharmaceutical production.",
+      "contribTitle": "Key Contributions",
+      "contrib1": "<strong>Modular Interface (Atomic Design)</strong> - Implemented Atomic Design principles for a scalable, reusable UI component framework",
+      "contrib2": "<strong>Fishbone Methodology UI</strong> - Designed an interface integrating the Ishikawa diagram approach for identifying root causes of manufacturing problems",
+      "contrib3": "<strong>Is/Is Not Analysis UI</strong> - Built a tool distinguishing specific problem conditions by comparing scenarios where the problem does and does not occur",
+      "contrib4": "<strong>5 Whys Interface</strong> - Created an intuitive tool guiding investigators through iterative \"why\" questions to drill down to underlying causes",
+      "contrib5": "<strong>Investigation Modal</strong> - Designed the UI for gathering additional information from investigators during the investigation process",
+      "contrib6": "<strong>Comprehensive Process Mapping</strong> - Systematically identified and addressed inefficiencies in existing RCA processes",
+      "contrib7": "<strong>Stakeholder Analysis & Advocacy</strong> - Conducted in-depth research to inform and advocate for system improvements",
+      "contrib8": "<strong>Change Management</strong> - Applied change management theories to guide project evolution across the organisation",
+      "methTitle": "Investigation Methodologies",
+      "methFishboneTitle": "Fishbone (Ishikawa)",
+      "methFishboneDesc": "Visual cause-and-effect diagram interface for categorising potential causes of manufacturing problems into systematic groupings.",
+      "methIsIsNotTitle": "Is / Is Not",
+      "methIsIsNotDesc": "Comparative analysis tool distinguishing specific problem characteristics by examining where, when, and how the issue does and doesn't occur.",
+      "meth5WhysTitle": "5 Whys",
+      "meth5WhysDesc": "Sequential questioning interface that guides investigators through iterative layers of causation to reach the true root cause.",
+      "galleryTitle": "Design Gallery",
+      "galleryNote": "Screenshots from the actual platform (NDA expired). Click to enlarge.",
+      "capUnplanned": "Unplanned Event - Initial Steps",
+      "capFishbone": "Fishbone Methodology",
+      "capIsIsNot": "Is / Is Not Analysis",
+      "cap5Whys": "5 Whys Investigation",
+      "capOverview": "Platform Overview",
+      "outcomeTitle": "Outcome",
+      "outcomeP1": "Delivered a comprehensive investigation platform used by 10,000+ users across Roche Diagnostics. The modular Atomic Design approach enabled scalable UI components, while the three investigation methodologies provided investigators with structured, systematic tools for pharmaceutical quality assurance. Spearheaded collaborative tool development with SMEs, demonstrating both leadership and innovation."
+    },
+
+    "ia": {
+      "tag": "Roche Pharmaceuticals · Penzberg, Germany",
+      "title": "Regulatory Reporting Tool",
+      "role": "Design Lead · Solo, cross-functional alignment",
+      "summary": "Lead UI/UX Designer on a pharmaceutical documentation management system. Designed an ergonomic dashboard with RBAC, advanced filtering, and iterative prototyping - creating ~120 UI designs for a platform used across manufacturing operations.",
+      "methodDashboard": "Dashboard Design",
+      "methodRbac": "RBAC System",
+      "methodPrototyping": "Iterative Prototyping",
+      "methodUsability": "Usability Testing",
+      "overviewTitle": "Overview",
+      "overviewP1": "Developed an intuitive, efficient system for pharmaceutical documentation management. Applied human-computer interaction principles for user-friendly layouts, and designed an algorithmic hierarchical access control architecture (RBAC) that enhanced security and operational efficiency. Implemented algorithm-driven filtering for effective data management across the platform.",
+      "overviewP2": "My role frequently extended beyond standard UI/UX responsibilities. Driven by a genuine interest in life sciences and commitment to the project's success, I engaged deeply in understanding the scientific context - often working additional unpaid hours to support the team and advance project goals.",
+      "contribTitle": "Key Contributions",
+      "contrib1": "<strong>Ergonomic Dashboard</strong> - Applied HCI principles for a user-friendly project summary view, featuring settings, favorites, and links to DAMAS/MDMS hubs",
+      "contrib2": "<strong>RBAC System</strong> - Developed a Role-Based Access Control architecture ensuring efficient tracking, audit, and management of user permissions",
+      "contrib3": "<strong>Metadata Selection</strong> - Designed interfaces for selecting from diverse project metadata reflecting specific characteristics and nature of each project",
+      "contrib4": "<strong>Process Validation Reports</strong> - Created specialised UIs including Chromatography reporting components",
+      "contrib5": "<strong>Information Retrieval</strong> - Implemented advanced algorithm-driven filtering for effective data management",
+      "contrib6": "<strong>Responsive Design</strong> - Ensured seamless experience across various platforms and devices",
+      "contrib7": "<strong>Promotional Materials</strong> - Produced video and marketing content to boost project traction (per SMART Process Design requirements)",
+      "processTitle": "Process & Collaboration",
+      "processP1": "Worked closely with Product Owners, Subject Matter Experts, and engineers using draw.io for system architecture mapping, organisational hierarchy documentation, data parsing process design, and wireframe development. Successful partnership with Product Owners facilitated task creation that was subsequently managed in Jira for both engineers and design.",
+      "galleryTitle": "Design Gallery",
+      "galleryNote": "Screenshots from the actual platform (NDA expired). Click to enlarge.",
+      "capDashboard": "Dashboard - Project Summary",
+      "capMetadata": "Metadata Selection - New Project",
+      "capChroma": "Chromatography Reports UI",
+      "capDrawio": "draw.io - Architecture & Wireframes",
+      "outcomeTitle": "Outcome",
+      "outcomeP1": "Delivered ~120 UI designs for a platform spanning pharmaceutical manufacturing documentation. The RBAC system and ergonomic dashboard became foundational components. My proactive involvement in the scientific context resulted in innovative problem-solving that went well beyond standard UX scope."
+    },
+
+    "aiProcurement": {
+      "placeholder": "Under NDA",
+      "tag": "Accenture",
+      "title": "AI Procurement & Vendor Governance",
+      "nda": "This engagement is under active NDA. For scope and responsibilities, see the <a href=\"#experience\">Experience</a> section:",
+      "roles": "UI/UX Consultant & Presentation Designer \u00b7 RFP/RFI & OSINT Vendor Diligence"
+    },
+
+    "iphone": {
+      "tag": "Retail · Landing Page",
+      "title": "iPhone 7 Pre-order Landing Page",
+      "role": "Designer & Developer · Solo",
+      "desc": "Market research drove a minimalist approach - storage over specs, colour-matched UI, black background for luxury. Awarded 'Best Promotional Landing Page' in Croatia (Appcom / Apple Partner, 2016).",
+      "btn": "View Live Demo"
+    },
+
+    "galleryEra": "2009 \u2013 2017 \u00b7 Retail, Freelance & Beyond",
+    "galleryTitle": "Graphic Design Library",
+    "galleryDesc": "Promotional campaigns, seasonal sales, product launches and brand collateral from retail, dental tourism, and freelance work.",
+    "galleryContext": "Before design systems and component libraries, there was the print shop. Hundreds of campaigns produced at retail speed \u2014 weekly flyers, seasonal launches, in-store signage \u2014 all built in Photoshop and Illustrator, pixel by pixel. This was the craft before the framework. And honestly? Photoshop and Illustrator are still my best friends. The tools change around you, but the ones that taught you to see never really leave.",
+    "galleryToggle": "Gallery",
+    "interiorEra": "2009 \u2013 2011 \u00b7 3D Visualisation & Interior Design",
+    "interiorTitle": "From Render to Reality",
+    "interiorDesc": "3D interior visualisations created in 3ds Max for hospitality clients \u2014 then built for real. The low-res photos were taken on phones of that era, but the spaces speak for themselves.",
+    "interiorLabelRender": "3D Render",
+    "interiorLabelBuilt": "Built Result",
+    "interiorNote": "Night Bar Venecija, Zagreb - designed and visualised in 2010, built the same year.",
+    "motionEra": "3D Animation · 3ds Max",
+    "motionTitle": "3D Neurological Visualisation",
+    "motionDesc": "Cinematic 3D animation of a neural network - modelled, rigged and animated entirely in 3ds Max. Created as a motion intro for a medical technology application.",
+    "motionTags": "3D Modelling · Particle FX · Cinematic Camera · VFX Compositing"
+  },
+
+  "education": {
+    "eyebrow": "Background & Learning",
+    "title": "Not all learning happens in a classroom",
+    "edu1Date": "2011 - 2013",
+    "edu1Title": "Multimedia Engineering",
+    "edu1School": "Algebra University College, Zagreb",
+    "edu1Desc": "Computer systems, programming (C++, Python), web technologies (HTML, CSS, SQL, JavaScript).",
+    "edu2Date": "2010",
+    "edu2Title": "Economics (incomplete)",
+    "edu2School": "Faculty of Economics, Zagreb",
+    "edu2Desc": "Enrolled in economics, but shifted when freelance web work started gaining traction. The course correction led directly to Multimedia Engineering at Algebra.",
+    "edu3Date": "2009 - Present",
+    "edu3Title": "Built on the Job",
+    "edu3School": "Self-directed",
+    "edu3Desc": "The most formative learning happened in the work itself. A senior web developer at Harvey Norman taught production-grade HTML/CSS while real campaigns shipped. Volunteer UX work at Emona Biopharma applied design thinking to pharmaceutical procurement. Every client, every contract, and eventually a 30K-line game engine - the curriculum wrote itself.",
+    "langTitle": "Languages",
+    "langCroatian": "<strong>Croatian</strong> - Native",
+    "langEnglish": "<strong>English</strong> - Fluent",
+    "langGerman": "<strong>German</strong> - A2"
+  },
+
+  "contact": {
+    "eyebrow": "Get in Touch",
+    "title": "Let's discuss how I can help",
+    "desc": "Whether you're an enterprise team needing design leadership, a pharma program evaluating AI vendors, or a local business owner who just needs a great website - I'm ready to talk.",
+    "labelEmail": "Email",
+    "labelPhone": "Phone",
+    "labelLinkedIn": "LinkedIn",
+    "labelLocation": "Location",
+    "locationText": "Based in Zagreb, Croatia - working across Europe, Asia & the US",
+    "locationNote": "Remote-first, happy to meet in person. I regularly work with teams in Vienna, Munich, Zürich, Basel, Zagreb & beyond. EU work authorization - no visa needed.",
+    "formName": "Name",
+    "formNamePlaceholder": "Your name",
+    "formEmail": "Email",
+    "formEmailPlaceholder": "your@email.com",
+    "formService": "Interested In",
+    "formServiceDefault": "Select a service...",
+    "formServiceDesign": "Design Leadership (Enterprise)",
+    "formServiceAI": "AI Procurement & OSINT Consulting",
+    "formServiceLocal": "Website & Branding (Local Business)",
+    "formServiceGuidance": "AI / Tech Guidance",
+    "formServiceMultiple": "Multiple Services",
+    "formServiceOther": "Other / Not Sure",
+    "formMessage": "Message",
+    "formMessagePlaceholder": "Tell me about your project...",
+    "formSubmit": "Send Message",
+    "formNote": "Form is a placeholder - will be connected to a backend or email service upon deployment."
+  },
+
+  "iphonePage": {
+    "back": "\u2190 Back to Portfolio",
+    "barText": "Portfolio piece \u00b7 iPhone 7 Pre-order Landing Page \u00b7 2016",
+    "notesBtn": "Design Notes",
+    "noteResearch": "<strong>Research & Strategy</strong> \u2014 The iPhone 7 was an iterative update. Market analysis indicated that consumer purchase decisions would hinge primarily on storage capacity rather than incremental hardware improvements such as camera resolution. This insight became the core design driver: surface only the information that matters at the point of conversion \u2014 model, colour, and gigabytes.",
+    "noteDesign": "<strong>Design Decisions</strong> \u2014 Apple's Croatian partner supplied official design guidelines. I deliberately deviated from them. Instead of feature-heavy layouts, the interface was reduced to minimal circular buttons representing storage tiers, with hover states that reflect each phone's actual finish colour. The black background was chosen to complement the cinematic hero video and establish a premium, editorial tone \u2014 letting the product imagery carry the visual weight.",
+    "noteOutcome": "<strong>Outcome</strong> \u2014 Awarded 'Best Promotional Landing Page' in Croatia (Appcom / Apple Partner, 2016). The page contributed to the highest national iPhone 7 pre-order sales for the retailer.",
+    "heritageNote": "<em>The product copy below remains in its original Croatian. This page was hand-coded in 2016 \u2014 every pixel placed with intention, every word chosen in the language it was sold in. Some things are better left as they were made.</em>",
+    "footer": "Landing page designed and developed by Igor Pilicic, 2016."
+  },
+
+  "gdpr": {
+    "title": "Your privacy matters",
+    "text": "This site uses analytics to understand how visitors interact with the content. No personal data is sold or shared with third parties. Your IP address is used once on first visit for language detection.",
+    "readPolicy": "Read the full",
+    "privacyLink": "Privacy Policy",
+    "decline": "Decline",
+    "accept": "Accept"
+  },
+
+  "footer": {
+    "copyright": "© {year} Standing Pillars - Igor Pilicic. All rights reserved.",
+    "location": "Based in Zagreb, Croatia",
+    "privacy": "Privacy Policy",
+    "imprint": "Imprint"
+  },
+
+  "faq": {
+    "eyebrow": "Common Questions",
+    "title": "Things people ask before reaching out",
+    "q1": "What is a UX audit and when do you need one?",
+    "a1": "A UX audit is a structured review of your digital product's usability, accessibility, and design consistency. I use heuristic evaluation, stakeholder interviews, and design system analysis to find friction points and prioritize what to fix. It's especially valuable when a product has grown organically and the experience has become inconsistent - or before a major redesign.",
+    "q2": "What are design systems and why do enterprises need them?",
+    "a2": "A design system is a shared library of reusable components, patterns, and guidelines that keep your product consistent as teams and features grow. For enterprises, this means faster development, fewer design inconsistencies, and easier onboarding for new team members. I build design systems grounded in Atomic Design principles, typically in Figma, with clear documentation that bridges design and engineering.",
+    "q3": "What is AI procurement governance?",
+    "a3": "AI procurement governance is the process of evaluating, selecting, and managing AI vendors with the same rigor you'd apply to any critical enterprise decision. I help teams build structured RFP/RFI frameworks, OSINT-based vendor scorecards, and risk assessments covering data privacy, lock-in, GDPR, and GxP compliance. The goal is making confident, traceable decisions - not just choosing the loudest vendor in the room.",
+    "q4": "How do you evaluate AI vendors using OSINT?",
+    "a4": "OSINT - open-source intelligence - means using publicly available data to assess a vendor before you ever get on a sales call. I look at company financials, leadership changes, patent filings, community sentiment, regulatory actions, and technical documentation quality. This gives you an honest picture of vendor maturity and risk that no sales deck will provide.",
+    "q5": "What is GxP-compliant UX design?",
+    "a5": "GxP refers to the quality and regulatory guidelines in pharma and life sciences - GMP, GLP, GCP, and others. Designing for GxP means every interface decision needs to support audit trails, data integrity, and validation requirements. I've spent 5+ years designing tools in regulated industries where compliance isn't an afterthought - it's baked into every interaction pattern from day one.",
+    "q6": "What is AI-assisted engineering and how is it different from regular development?",
+    "a6": "AI-assisted engineering means using AI tools like Copilot and Claude as genuine collaborators in the development process - not just autocomplete. I use structured prompt engineering, validation checklists, and modular architecture patterns to build production-quality code. My Tiny Humans game engine is 30,000+ lines built this way - with a registry pattern, save validation, and round-trip testing. It's disciplined engineering with AI as a force multiplier, not a shortcut."
+  },
+
+  "notFound": {
+    "title": "404 - Page Not Found | Standing Pillars",
+    "tagline": "consulting · design · technology",
+    "heading": "Page not found",
+    "description": "The page you're looking for doesn't exist or has been moved. The pillars are still standing - just not here.",
+    "backHome": "Back to home",
+    "copyright": "© 2026 Standing Pillars"
+  }
+}

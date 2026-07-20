@@ -1,0 +1,4519 @@
+{
+  "worldWidth": 15,
+  "worldHeight": 15,
+  "tiles": {
+    "0,0": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick_corner",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 1,
+        "walkable": false
+      }
+    ],
+    "0,2": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 90
+        },
+        "layer": 1,
+        "walkable": false
+      }
+    ],
+    "0,3": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 90
+        },
+        "layer": 1,
+        "walkable": false
+      }
+    ],
+    "0,4": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 90
+        },
+        "layer": 1,
+        "walkable": false
+      }
+    ],
+    "0,5": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 90
+        },
+        "layer": 1,
+        "walkable": false
+      }
+    ],
+    "0,6": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 90
+        },
+        "layer": 1,
+        "walkable": false
+      }
+    ],
+    "0,7": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 90
+        },
+        "layer": 1,
+        "walkable": false
+      }
+    ],
+    "0,8": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 90
+        },
+        "layer": 1,
+        "walkable": false
+      }
+    ],
+    "0,9": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 90
+        },
+        "layer": 1,
+        "walkable": false
+      }
+    ],
+    "0,10": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 90
+        },
+        "layer": 1,
+        "walkable": false
+      }
+    ],
+    "0,11": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 90
+        },
+        "layer": 1,
+        "walkable": false
+      }
+    ],
+    "0,12": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 90
+        },
+        "layer": 1,
+        "walkable": false
+      }
+    ],
+    "0,13": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 90
+        },
+        "layer": 1,
+        "walkable": false
+      }
+    ],
+    "0,14": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick_corner",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 90
+        },
+        "layer": 1,
+        "walkable": false
+      }
+    ],
+    "1,1": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "1,2": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "1,3": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "1,4": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "1,5": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "1,6": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "1,7": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "1,8": [
+      {
+        "type": "grass_patch_1",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "1,9": [
+      {
+        "type": "grass_patch_2",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "1,10": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "1,11": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "1,12": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "1,13": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "2,0": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 1,
+        "walkable": false
+      }
+    ],
+    "2,1": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "2,2": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "2,3": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "2,4": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "2,5": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "2,9": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "2,10": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "2,11": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "2,12": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "2,13": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "2,14": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 1,
+        "walkable": false
+      }
+    ],
+    "3,0": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 1,
+        "walkable": false
+      }
+    ],
+    "3,1": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "3,2": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "3,3": [
+      {
+        "type": "dirt_grass_corner",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "3,4": [
+      {
+        "type": "dirt_grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "3,5": [
+      {
+        "type": "dirt_grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "3,6": [
+      {
+        "type": "dirt_grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "3,7": [
+      {
+        "type": "dirt_grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "3,8": [
+      {
+        "type": "dirt_grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "3,9": [
+      {
+        "type": "dirt_grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "3,10": [
+      {
+        "type": "dirt_grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "3,11": [
+      {
+        "type": "dirt_grass_corner",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 270
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "3,12": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "3,13": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "3,14": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 1,
+        "walkable": false
+      }
+    ],
+    "4,0": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 1,
+        "walkable": false
+      }
+    ],
+    "4,1": [
+      {
+        "type": "dirt_grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 270
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "4,2": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "4,3": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "4,4": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick_corner",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 270
+        },
+        "layer": 1,
+        "walkable": false
+      },
+      {
+        "type": "roof_stone",
+        "category": "ROOFS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 3,
+        "walkable": true
+      }
+    ],
+    "4,5": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 270
+        },
+        "layer": 1,
+        "walkable": false
+      },
+      {
+        "type": "roof_stone",
+        "category": "ROOFS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 3,
+        "walkable": true
+      }
+    ],
+    "4,6": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 270
+        },
+        "layer": 1,
+        "walkable": false
+      },
+      {
+        "type": "roof_stone",
+        "category": "ROOFS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 3,
+        "walkable": true
+      }
+    ],
+    "4,7": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 270
+        },
+        "layer": 1,
+        "walkable": false
+      },
+      {
+        "type": "roof_stone_mid",
+        "category": "ROOFS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 3,
+        "walkable": true
+      }
+    ],
+    "4,8": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 270
+        },
+        "layer": 1,
+        "walkable": false
+      },
+      {
+        "type": "roof_stone",
+        "category": "ROOFS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 3,
+        "walkable": true
+      }
+    ],
+    "4,9": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 270
+        },
+        "layer": 1,
+        "walkable": false
+      },
+      {
+        "type": "roof_stone",
+        "category": "ROOFS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 3,
+        "walkable": true
+      }
+    ],
+    "4,10": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick_corner",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 1,
+        "walkable": false
+      },
+      {
+        "type": "roof_stone",
+        "category": "ROOFS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 3,
+        "walkable": true
+      }
+    ],
+    "4,11": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "4,12": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "4,13": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "4,14": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 1,
+        "walkable": false
+      }
+    ],
+    "5,0": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 1,
+        "walkable": false
+      }
+    ],
+    "5,1": [
+      {
+        "type": "dirt_grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 270
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "5,2": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "5,3": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "5,4": [
+      {
+        "type": "stone_floor",
+        "category": "FLOORS",
+        "transform": {
+          "flipState": 0,
+          "flipped": false,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "roof_stone",
+        "category": "ROOFS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 3,
+        "walkable": true
+      }
+    ],
+    "5,10": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 1,
+        "walkable": false
+      },
+      {
+        "type": "roof_stone",
+        "category": "ROOFS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 3,
+        "walkable": true
+      }
+    ],
+    "5,11": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "5,12": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "5,13": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "5,14": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 1,
+        "walkable": false
+      }
+    ],
+    "6,0": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 1,
+        "walkable": false
+      }
+    ],
+    "6,1": [
+      {
+        "type": "dirt_grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 270
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "6,2": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "6,3": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "6,4": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 1,
+        "walkable": false
+      },
+      {
+        "type": "roof_stone",
+        "category": "ROOFS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 3,
+        "walkable": true
+      }
+    ],
+    "6,10": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 1,
+        "walkable": false
+      },
+      {
+        "type": "roof_stone",
+        "category": "ROOFS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 3,
+        "walkable": true
+      }
+    ],
+    "6,11": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "6,12": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "6,13": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "6,14": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 1,
+        "walkable": false
+      }
+    ],
+    "7,0": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 1,
+        "walkable": false
+      }
+    ],
+    "7,1": [
+      {
+        "type": "dirt_grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 270
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "7,2": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "7,3": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "7,4": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 1,
+        "walkable": false
+      },
+      {
+        "type": "roof_stone",
+        "category": "ROOFS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 3,
+        "walkable": true
+      }
+    ],
+    "7,10": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 1,
+        "walkable": false
+      },
+      {
+        "type": "roof_stone",
+        "category": "ROOFS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 3,
+        "walkable": true
+      }
+    ],
+    "7,11": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "7,12": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "7,13": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "7,14": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 1,
+        "walkable": false
+      }
+    ],
+    "8,0": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 1,
+        "walkable": false
+      }
+    ],
+    "8,1": [
+      {
+        "type": "dirt_grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 270
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "8,2": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "8,3": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "8,4": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 1,
+        "walkable": false
+      },
+      {
+        "type": "roof_stone",
+        "category": "ROOFS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 3,
+        "walkable": true
+      }
+    ],
+    "8,10": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 1,
+        "walkable": false
+      },
+      {
+        "type": "roof_stone",
+        "category": "ROOFS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 3,
+        "walkable": true
+      }
+    ],
+    "8,11": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "8,12": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "8,13": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "8,14": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 1,
+        "walkable": false
+      }
+    ],
+    "9,0": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 1,
+        "walkable": false
+      }
+    ],
+    "9,1": [
+      {
+        "type": "dirt_grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 270
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "9,2": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "9,3": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "9,4": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 1,
+        "walkable": false
+      },
+      {
+        "type": "roof_stone",
+        "category": "ROOFS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 3,
+        "walkable": true
+      }
+    ],
+    "9,10": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 1,
+        "walkable": false
+      },
+      {
+        "type": "roof_stone",
+        "category": "ROOFS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 3,
+        "walkable": true
+      }
+    ],
+    "9,11": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "9,12": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "9,13": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "9,14": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 1,
+        "walkable": false
+      }
+    ],
+    "10,0": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 1,
+        "walkable": false
+      }
+    ],
+    "10,1": [
+      {
+        "type": "dirt_grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 270
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "10,2": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "10,3": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "10,4": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick_corner",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 1,
+        "walkable": false
+      },
+      {
+        "type": "roof_stone",
+        "category": "ROOFS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 3,
+        "walkable": true
+      }
+    ],
+    "10,5": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 90
+        },
+        "layer": 1,
+        "walkable": false
+      },
+      {
+        "type": "roof_stone",
+        "category": "ROOFS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 3,
+        "walkable": true
+      }
+    ],
+    "10,6": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 90
+        },
+        "layer": 1,
+        "walkable": false
+      },
+      {
+        "type": "roof_stone",
+        "category": "ROOFS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 3,
+        "walkable": true
+      }
+    ],
+    "10,7": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 90
+        },
+        "layer": 1,
+        "walkable": false
+      },
+      {
+        "type": "roof_stone_mid",
+        "category": "ROOFS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 3,
+        "walkable": true
+      }
+    ],
+    "10,8": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 90
+        },
+        "layer": 1,
+        "walkable": false
+      },
+      {
+        "type": "roof_stone",
+        "category": "ROOFS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 3,
+        "walkable": true
+      }
+    ],
+    "10,9": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 90
+        },
+        "layer": 1,
+        "walkable": false
+      },
+      {
+        "type": "roof_stone",
+        "category": "ROOFS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 3,
+        "walkable": true
+      }
+    ],
+    "10,10": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick_corner",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 90
+        },
+        "layer": 1,
+        "walkable": false
+      },
+      {
+        "type": "roof_stone",
+        "category": "ROOFS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 3,
+        "walkable": true
+      }
+    ],
+    "10,11": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "10,12": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "10,13": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "10,14": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 1,
+        "walkable": false
+      }
+    ],
+    "11,0": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 1,
+        "walkable": false
+      }
+    ],
+    "11,1": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "11,2": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "11,3": [
+      {
+        "type": "dirt_grass_corner",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 90
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "11,4": [
+      {
+        "type": "dirt_grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "11,5": [
+      {
+        "type": "dirt_grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "11,6": [
+      {
+        "type": "dirt_grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "11,7": [
+      {
+        "type": "dirt_grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "11,8": [
+      {
+        "type": "dirt_grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "11,9": [
+      {
+        "type": "dirt_grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "11,10": [
+      {
+        "type": "dirt_grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "11,11": [
+      {
+        "type": "dirt_grass_corner",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "11,12": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "11,13": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "11,14": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 1,
+        "walkable": false
+      }
+    ],
+    "12,0": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 1,
+        "walkable": false
+      }
+    ],
+    "12,1": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "12,2": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "12,3": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "12,4": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "12,5": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "12,6": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "12,7": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "12,8": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "12,9": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "12,10": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "12,11": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "12,12": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "12,13": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "12,14": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 1,
+        "walkable": false
+      }
+    ],
+    "13,0": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 1,
+        "walkable": false
+      }
+    ],
+    "13,1": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "13,2": [
+      {
+        "type": "grass_patch_2",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "13,4": [
+      {
+        "type": "grass_patch_4",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "13,5": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "13,6": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "13,7": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "13,8": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "13,9": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "13,10": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "13,11": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "13,12": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "13,13": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "13,14": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 1,
+        "walkable": false
+      }
+    ],
+    "14,0": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick_corner",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 270
+        },
+        "layer": 1,
+        "walkable": false
+      }
+    ],
+    "14,2": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 270
+        },
+        "layer": 1,
+        "walkable": false
+      }
+    ],
+    "14,3": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 270
+        },
+        "layer": 1,
+        "walkable": false
+      }
+    ],
+    "14,5": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 270
+        },
+        "layer": 1,
+        "walkable": false
+      }
+    ],
+    "14,6": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 270
+        },
+        "layer": 1,
+        "walkable": false
+      }
+    ],
+    "14,7": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 270
+        },
+        "layer": 1,
+        "walkable": false
+      }
+    ],
+    "14,8": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 270
+        },
+        "layer": 1,
+        "walkable": false
+      }
+    ],
+    "14,9": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 270
+        },
+        "layer": 1,
+        "walkable": false
+      }
+    ],
+    "14,10": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 270
+        },
+        "layer": 1,
+        "walkable": false
+      }
+    ],
+    "14,11": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 270
+        },
+        "layer": 1,
+        "walkable": false
+      }
+    ],
+    "14,12": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 270
+        },
+        "layer": 1,
+        "walkable": false
+      }
+    ],
+    "14,13": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 270
+        },
+        "layer": 1,
+        "walkable": false
+      }
+    ],
+    "14,14": [
+      {
+        "type": "grass",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "wall_brick_corner",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 1,
+        "walkable": false
+      }
+    ],
+    "1,0": [
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 1,
+        "walkable": false
+      }
+    ],
+    "0,1": [
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 90
+        },
+        "layer": 1,
+        "walkable": false
+      }
+    ],
+    "14,1": [
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 270
+        },
+        "layer": 1,
+        "walkable": false
+      }
+    ],
+    "1,14": [
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 1,
+        "walkable": false
+      }
+    ],
+    "2,6": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "2,7": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "2,8": [
+      {
+        "type": "grass_patches",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "13,3": [
+      {
+        "type": "grass_patch_3",
+        "category": "TERRAIN",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 0,
+        "walkable": true
+      }
+    ],
+    "9,7": [
+      {
+        "type": "stone_floor",
+        "category": "FLOORS",
+        "transform": null,
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "roof_stone_mid",
+        "category": "ROOFS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 3,
+        "walkable": true
+      }
+    ],
+    "5,7": [
+      {
+        "type": "stone_floor",
+        "category": "FLOORS",
+        "transform": null,
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "roof_stone_mid",
+        "category": "ROOFS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 3,
+        "walkable": true
+      }
+    ],
+    "6,7": [
+      {
+        "type": "stone_floor",
+        "category": "FLOORS",
+        "transform": null,
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "roof_stone_mid",
+        "category": "ROOFS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 3,
+        "walkable": true
+      }
+    ],
+    "7,7": [
+      {
+        "type": "stone_floor",
+        "category": "FLOORS",
+        "transform": null,
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "roof_stone_mid",
+        "category": "ROOFS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 3,
+        "walkable": true
+      }
+    ],
+    "8,7": [
+      {
+        "type": "stone_floor",
+        "category": "FLOORS",
+        "transform": null,
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "roof_stone_mid",
+        "category": "ROOFS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 3,
+        "walkable": true
+      }
+    ],
+    "5,5": [
+      {
+        "type": "stone_floor",
+        "category": "FLOORS",
+        "transform": null,
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "roof_stone",
+        "category": "ROOFS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 3,
+        "walkable": true
+      }
+    ],
+    "5,6": [
+      {
+        "type": "stone_floor",
+        "category": "FLOORS",
+        "transform": null,
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "roof_stone",
+        "category": "ROOFS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 3,
+        "walkable": true
+      }
+    ],
+    "6,5": [
+      {
+        "type": "stone_floor",
+        "category": "FLOORS",
+        "transform": null,
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "roof_stone",
+        "category": "ROOFS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 3,
+        "walkable": true
+      }
+    ],
+    "6,6": [
+      {
+        "type": "stone_floor",
+        "category": "FLOORS",
+        "transform": null,
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "roof_stone",
+        "category": "ROOFS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 3,
+        "walkable": true
+      }
+    ],
+    "7,5": [
+      {
+        "type": "stone_floor",
+        "category": "FLOORS",
+        "transform": null,
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "roof_stone",
+        "category": "ROOFS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 3,
+        "walkable": true
+      }
+    ],
+    "7,6": [
+      {
+        "type": "stone_floor",
+        "category": "FLOORS",
+        "transform": null,
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "roof_stone",
+        "category": "ROOFS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 3,
+        "walkable": true
+      }
+    ],
+    "8,5": [
+      {
+        "type": "stone_floor",
+        "category": "FLOORS",
+        "transform": null,
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "roof_stone",
+        "category": "ROOFS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 3,
+        "walkable": true
+      }
+    ],
+    "8,6": [
+      {
+        "type": "stone_floor",
+        "category": "FLOORS",
+        "transform": null,
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "roof_stone",
+        "category": "ROOFS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 3,
+        "walkable": true
+      }
+    ],
+    "9,5": [
+      {
+        "type": "stone_floor",
+        "category": "FLOORS",
+        "transform": null,
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "roof_stone",
+        "category": "ROOFS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 3,
+        "walkable": true
+      }
+    ],
+    "9,6": [
+      {
+        "type": "stone_floor",
+        "category": "FLOORS",
+        "transform": null,
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "roof_stone",
+        "category": "ROOFS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 0
+        },
+        "layer": 3,
+        "walkable": true
+      }
+    ],
+    "5,8": [
+      {
+        "type": "stone_floor",
+        "category": "FLOORS",
+        "transform": null,
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "roof_stone",
+        "category": "ROOFS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 3,
+        "walkable": true
+      }
+    ],
+    "5,9": [
+      {
+        "type": "stone_floor",
+        "category": "FLOORS",
+        "transform": null,
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "roof_stone",
+        "category": "ROOFS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 3,
+        "walkable": true
+      }
+    ],
+    "6,8": [
+      {
+        "type": "stone_floor",
+        "category": "FLOORS",
+        "transform": null,
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "roof_stone",
+        "category": "ROOFS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 3,
+        "walkable": true
+      }
+    ],
+    "6,9": [
+      {
+        "type": "stone_floor",
+        "category": "FLOORS",
+        "transform": null,
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "roof_stone",
+        "category": "ROOFS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 3,
+        "walkable": true
+      }
+    ],
+    "7,8": [
+      {
+        "type": "stone_floor",
+        "category": "FLOORS",
+        "transform": null,
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "roof_stone",
+        "category": "ROOFS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 3,
+        "walkable": true
+      }
+    ],
+    "7,9": [
+      {
+        "type": "stone_floor",
+        "category": "FLOORS",
+        "transform": null,
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "roof_stone",
+        "category": "ROOFS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 3,
+        "walkable": true
+      }
+    ],
+    "8,8": [
+      {
+        "type": "stone_floor",
+        "category": "FLOORS",
+        "transform": null,
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "roof_stone",
+        "category": "ROOFS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 3,
+        "walkable": true
+      }
+    ],
+    "8,9": [
+      {
+        "type": "stone_floor",
+        "category": "FLOORS",
+        "transform": null,
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "roof_stone",
+        "category": "ROOFS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 3,
+        "walkable": true
+      }
+    ],
+    "9,8": [
+      {
+        "type": "stone_floor",
+        "category": "FLOORS",
+        "transform": null,
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "roof_stone",
+        "category": "ROOFS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 3,
+        "walkable": true
+      }
+    ],
+    "9,9": [
+      {
+        "type": "stone_floor",
+        "category": "FLOORS",
+        "transform": null,
+        "layer": 0,
+        "walkable": true
+      },
+      {
+        "type": "roof_stone",
+        "category": "ROOFS",
+        "transform": {
+          "flipState": 2,
+          "flipped": true,
+          "rotation": 180
+        },
+        "layer": 3,
+        "walkable": true
+      }
+    ],
+    "14,4": [
+      {
+        "type": "wall_brick",
+        "category": "WALLS",
+        "transform": {
+          "flipState": 1,
+          "flipped": true,
+          "rotation": 270
+        },
+        "layer": 1,
+        "walkable": false
+      }
+    ]
+  },
+  "interactiveTiles": [
+    {
+      "x": 7,
+      "y": 7,
+      "type": "light",
+      "linkId": null,
+      "activationId": null,
+      "doorState": null,
+      "scriptId": null,
+      "scriptPrompt": null,
+      "isLogic": false,
+      "logicType": null,
+      "transform": null,
+      "lightEnabled": true
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "type": "door_closed_wall_brick",
+      "linkId": null,
+      "activationId": null,
+      "doorState": "closed",
+      "scriptId": null,
+      "scriptPrompt": null,
+      "isLogic": false,
+      "logicType": null,
+      "transform": {
+        "flipState": 0,
+        "flipped": false,
+        "rotation": 180
+      }
+    }
+  ],
+  "lighting": {
+    "enabled": true,
+    "ambientLight": 0.3,
+    "ambientColor": [
+      200,
+      220,
+      255
+    ],
+    "roofShadowDarkness": 0.7,
+    "lights": [
+      {
+        "x": 7.5,
+        "y": 7.5,
+        "intensity": 1,
+        "radius": 5,
+        "falloff": 0.8,
+        "brightness": 1,
+        "color": [
+          255,
+          255,
+          200
+        ],
+        "castsShadows": true,
+        "enabled": true
+      }
+    ]
+  }
+}

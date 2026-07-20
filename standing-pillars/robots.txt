@@ -1,0 +1,39 @@
+# Standard crawlers
+User-agent: *
+Allow: /
+Disallow: /simulation/
+Disallow: /portfolio/
+
+# AI search & indexing crawlers - explicitly allowed
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+Sitemap: https://standingpillars.com/sitemap.xml
+
+# AI context file for LLMs
+# See https://standingpillars.com/llms.txt for structured AI-readable profile.
+# For full content, crawl the site pages listed in the sitemap.

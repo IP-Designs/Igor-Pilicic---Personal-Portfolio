@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WGM0TRMZHR"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-WGM0TRMZHR');
+  </script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI Sandbox - Tiny Humans Simulation</title>
+  <style>
+    html, body { margin: 0; padding: 0; width: 100vw; height: 100vh; overflow: hidden; background: #111; }
+    canvas { display: block; }
+    * {
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+  </style>
+</head>
+<body>
+
+<!-- p5.js -->
+<script src="https://cdn.jsdelivr.net/npm/p5@1.11.0/lib/p5.min.js"></script>
+
+<!-- Pre-engine overrides: force game mode, disable editor systems -->
+<script>
+  // Force game mode - no editor, no toolbar, no save UI
+  window.editMode = false;
+  window._simulationMode = true;
+
+  // Stub out editor-only globals the engine expects
+  window.saveModal = { isOpen: false };
+
+  // Prevent the engine from opening the project manager
+  window.openProjectManager = function() {
+    return new Promise(function(resolve) {
+      // Never resolves - we bypass this entirely
+    });
+  };
+
+  // Disable all keyboard/mouse game input - this is an observation-only simulation
+  // These will override the engine's handlers after they're defined
+  window._blockPlayerInput = true;
+</script>
+
+<!-- Foundation -->
+<script src="js/core/engine_registry.js"></script>
+<script src="js/data/controls.js"></script>
+
+<!-- Core systems -->
+<script src="js/core/camera_system.js"></script>
+<script src="js/systems/flag_system.js"></script>
+
+<!-- World rendering -->
+<script src="js/world/tiles.js"></script>
+<script src="js/world/event_tiles.js"></script>
+<script src="js/world/interactive_tiles.js"></script>
+<script src="js/world/tile_activation.js"></script>
+<script src="js/world/trigger_system.js"></script>
+<script src="js/world/player.js"></script>
+
+<!-- Rendering & effects -->
+<script src="js/systems/lighting.js"></script>
+<script src="js/systems/health.js"></script>
+<script src="js/systems/entity_health.js"></script>
+<script src="js/systems/entities.js"></script>
+<script src="js/systems/entity_system.js"></script>
+<script src="js/systems/npc_system.js"></script>
+<script src="js/systems/animation_system.js"></script>
+<script src="js/systems/audio_system.js"></script>
+<script src="js/systems/ambient_sounds.js"></script>
+<script src="js/systems/particle_effects.js"></script>
+<script src="js/systems/logic_system.js"></script>
+<script src="js/systems/script_system.js"></script>
+
+<!-- Scene manager -->
+<script src="js/core/scene_manager.js"></script>
+
+<!-- Gameplay systems (entity/NPC dependencies) -->
+<script src="js/data/item_validator.js"></script>
+<script src="js/systems/item_system.js"></script>
+<script src="js/systems/inventory.js"></script>
+<script src="js/systems/crafting.js"></script>
+<script src="js/systems/survival.js"></script>
+<script src="js/systems/combat.js"></script>
+<script src="js/systems/character.js"></script>
+<script src="js/systems/construction.js"></script>
+<script src="js/systems/farming.js"></script>
+<script src="js/systems/world_items.js"></script>
+<script src="js/systems/hotbar.js"></script>
+<script src="js/systems/loot_system.js"></script>
+
+<!-- Minimal UI (game mode only) -->
+<script src="js/ui/game_ui.js"></script>
+<script src="js/ui/hud.js"></script>
+<script src="js/ui/dialog_ui.js"></script>
+<script src="js/ui/save_load.js"></script>
+
+<!-- Input -->
+<script src="js/input/input_handler.js"></script>
+
+<!-- Data -->
+<script src="js/data/demo_level.js"></script>
+
+<!-- Main engine (setup + draw loop) -->
+<script src="js/core/engine.js"></script>
+
+<!-- Simulation boot: load our map after engine initializes -->
+<script>
+  // Wait for p5 setup to finish, then load the sandbox map
+  (function waitAndLoad() {
+    if (typeof initialized !== 'undefined' && initialized &&
+        typeof restoreWorldFromData === 'function' &&
+        typeof tileSystem !== 'undefined' && tileSystem.definitions &&
+        Object.keys(tileSystem.definitions).length > 0) {
+      
+      fetch('ai_sandbox.json')
+        .then(function(r) { return r.json(); })
+        .then(function(mapData) {
+          restoreWorldFromData(mapData, 'ai_sandbox');
+          console.log('✓ Simulation map loaded');
+          
+          // Hide player off-map (simulation is NPC-only, no user-controlled character)
+          if (typeof player !== 'undefined') {
+            player.x = -10;
+            player.y = -10;
+            player.visible = false;
+          }
+          
+          // Disable player rendering and movement entirely
+          window.handlePlayerMovement = function() {};
+          window.drawPlayer = function() {};
+          window.drawPlayerHealthBar = function() {};
+          window.loadPlayerSprite = function() {};
+          
+          // Block keyboard handler from processing game input
+          window.keyPressed = function() { return false; };
+          window.keyReleased = function() { return false; };
+          
+          // Set camera to show the full 15x15 map
+          if (typeof camera !== 'undefined') {
+            camera.x = WORLD_WIDTH / 2;
+            camera.y = WORLD_HEIGHT / 2;
+            camera.targetX = camera.x;
+            camera.targetY = camera.y;
+            // Override gameplay zoom to fit the small map nicely
+            camera.gameplayZoom = 2.2;
+            camera.targetZoom = 2.2;
+            camera.zoom = 2.2;
+            camera.followPlayer = false;  // Fixed camera for simulation
+          }
+          
+          console.log('✓ Simulation mode: player disabled, camera fixed, input blocked');
+          
+          // ── Weather cycle using engine weather tiles ──────────
+          (function weatherCycle() {
+            var WEATHER_TILE_POS = { x: 0, y: 0 }; // virtual tile position
+            var clearMin = 20000, clearMax = 45000;
+            var rainMin  = 12000, rainMax  = 30000;
+
+            function startRain() {
+              if (typeof addWeatherTile === 'function') {
+                addWeatherTile(WEATHER_TILE_POS.x, WEATHER_TILE_POS.y, 'rain', { intensity: 0.6 + Math.random() * 0.4 });
+              }
+              setTimeout(stopRain, rainMin + Math.random() * (rainMax - rainMin));
+            }
+            function stopRain() {
+              if (typeof removeWeatherTile === 'function') {
+                removeWeatherTile(WEATHER_TILE_POS.x, WEATHER_TILE_POS.y);
+              }
+              setTimeout(startRain, clearMin + Math.random() * (clearMax - clearMin));
+            }
+            // First rain after 15-30s
+            setTimeout(startRain, 15000 + Math.random() * 15000);
+          })();
+
+          // ── Day/night cycle using engine lighting ─────────────
+          (function dayNightCycle() {
+            var dayLen   = 40000 + Math.random() * 20000;   // 40-60s day
+            var nightLen = 20000 + Math.random() * 10000;   // 20-30s night
+            var dusk     = 3000;  // transition duration
+
+            function goNight() {
+              if (typeof setNightTime === 'function') {
+                setNightTime(dusk);
+              }
+              setTimeout(goDay, nightLen + dusk);
+            }
+            function goDay() {
+              if (typeof setDayTime === 'function') {
+                setDayTime(dusk);
+              }
+              dayLen   = 40000 + Math.random() * 20000;
+              nightLen = 20000 + Math.random() * 10000;
+              setTimeout(goNight, dayLen + dusk);
+            }
+            // First dusk after 30-50s
+            setTimeout(goNight, 30000 + Math.random() * 20000);
+          })();
+        })
+        .catch(function(e) { console.error('Failed to load map:', e); });
+    } else {
+      setTimeout(waitAndLoad, 100);
+    }
+  })();
+</script>
+
+<!-- NPC controller (loaded after everything) -->
+<script src="npc_controller.js"></script>
+
+</body>
+</html>
