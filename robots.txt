@@ -1,8 +1,6 @@
 # Standard crawlers
 User-agent: *
 Allow: /
-Disallow: /simulation/
-Disallow: /portfolio/
 
 # AI search & indexing crawlers - explicitly allowed
 User-agent: GPTBot

@@ -14,7 +14,7 @@
     "research": "Forschung",
     "caseStudies": "Fallstudien",
     "contact": "Kontakt",
-    "tagline": "Professionelles Portfolio",
+    "tagline": "Professionelles Portfolio · Igor Pilicic",
     "allServices": "Gesamte Expertise",
     "uxDesign": "UX Design",
     "aiProcurement": "KI-Beschaffung",
@@ -23,8 +23,8 @@
 
   "hero": {
     "eyebrow": "Igor Pilicic",
-    "title": "17 Jahre Probleme lösen, <span class=\"highlight\">die niemand beauftragt hat</span> - Igor Pilicic",
-    "subtitle": "Von E-Commerce-Projekten und preisgekrönten Retail-Kampagnen bis zum Lead UX Designer bei Roche und KI-Beschaffungsberatung bei Accenture. Ich sehe das große Ganze - und baue die fehlenden Teile.",
+    "title": "Senior UX/Product Designer für <span class=\"highlight\">komplexe digitale Produkte</span>",
+    "subtitle": "Ich bringe über 17 Jahre Erfahrung in UX, Produktdesign, Enterprise-Systemen, KI-Evaluierung, Web und visueller Kommunikation mit. Bei Roche und Accenture kam diese kombinierte Erfahrung bei komplexen Aufgaben in regulierten Umgebungen zusammen.",
     "tagline": "Was suchen Sie?",
     "tagExperience": "Wo haben Sie gearbeitet?",
     "tagAiEng": "Können Sie wirklich bauen?",
@@ -100,10 +100,12 @@
 
   "about": {
     "eyebrow": "Über mich",
-    "title": "Eine Person, eine Philosophie: Technologie dient dem Menschen",
-    "lead": "Ich bin Igor Pilicic. Seit über 17 Jahren löse ich Probleme an der Schnittstelle, wo Technologie auf Menschen trifft, die keine Technologen sind - ich gestalte die Interfaces, die sie nutzen, bewerte die KI-Anbieter, auf die sie angewiesen sind, und steuere die Tools, die ihre Arbeit prägen. Die meisten dieser Rollen hat mir niemand zugewiesen. Ich sah die Lücke und füllte sie.",
-    "p1": "Mein Weg folgt einem roten Faden: <strong>komplexe Systeme verständlich und vertrauenswürdig machen</strong>. Er begann mit Webdesign und 3D-Grafik, entwickelte sich über E-Commerce und preisgekrönte Kampagnen bei <strong>Harvey Norman</strong>, vertiefte sich bei <strong>Roche</strong>, wo ich Fertigungstools für 10.000+ Nutzer designte, und erweiterte sich bei <strong>Accenture</strong> um KI-Anbieterbewertung und Beschaffungs-Governance für regulierte Pharma-Programme.",
-    "p2": "Standing Pillars ist mein persönliches professionelles Portfolio: Hier verbinde ich Design-Führung, KI-Beschaffung, OSINT-basierte Due Diligence und KI-gestütztes Engineering. Gemeinsam zeigen sie dieselbe Fähigkeit: <strong>die Lücke zwischen Mensch und Technologie überbrücken</strong>, mit der Struktur und Nachverfolgbarkeit, die regulierte Industrien verlangen.",
+    "title": "Ein ungewöhnlicher Weg mit klarem Fokus",
+    "lead": "Ich bin Igor Pilicic. Mein Schwerpunkt ist UX/Product Design für komplexe digitale Produkte - besonders dort, wo Nutzer, Geschäftsprozesse und Technologie aufeinandertreffen. Die Breite meiner Erfahrung ist keine Sammlung unverbundener Rollen; sie hilft mir, das gesamte System zu verstehen.",
+    "p1": "In über 17 Jahren habe ich in Web, 3D, E-Commerce, Branding, Enterprise UX, Business-Analyse, KI-Evaluierung und praktischer digitaler Umsetzung gearbeitet. Ein roter Faden verbindet alles: <strong>komplexe Systeme verständlich, nutzbar und vertrauenswürdig machen</strong>.",
+    "p2": "Bei <strong>Roche</strong> und <strong>Accenture</strong> kamen diese Erfahrungen zusammen. Design Thinking, Forschung, visuelle Kommunikation, Moderation, Analyse und Technologiebewertung wurden zu einer gemeinsamen Praxis für komplexe Aufgaben in regulierten Umgebungen. Standing Pillars ist heute mein persönliches Portfolio dieses gesamten Weges - mit <strong>Senior UX/Product Design als Mittelpunkt</strong>.",
+    "personalEyebrow": "Abseits der Arbeit",
+    "personalText": "Ich bin Senior UX/Product Designer mit umfassender Enterprise-Erfahrung und einer aktiven Praxis für unabhängige Produktprojekte. Ich löse gerne komplexe Probleme, erkenne Reibung, bevor sie teuer wird, und untersuche, wie Menschen, Prozesse und Technologie einander beeinflussen. Mein Interesse an Psychologie, Anthropologie und Soziologie hilft mir, auch die zwischenmenschliche Seite eines Problems zu sehen, nicht nur das Interface oder das umgebende System. Ich achte auch auf das, was unausgesprochen bleibt. Oft zeigt die Lücke zwischen dem, worum jemand bittet, und dem, was tatsächlich gelöst werden soll, das eigentliche Problem. Ich helfe Menschen gerne dabei, es klar zu formulieren. Abseits der Arbeit bin ich Ehemann und Vater, und meine Familie ist ein zentraler Teil meines Lebens. Ich interessiere mich für Astronomie und genieße Filme, Serien und Spiele. Unterschiedliche Welten, dieselbe Neugier auf Menschen, Systeme und darauf, was als Nächstes passieren könnte.",
     "statYears": "Jahre in Design & Tech (17+ professionell)",
     "statReach": "Konsumentenreichweite (HR & SLO Kampagnen, 2011–2025)",
     "statUsers": "Betroffene Nutzer bei Roche",
@@ -117,7 +119,7 @@
 
   "availability": {
     "status": "Offen für Positionen in Kroatien",
-    "title": "Senior-Expertise in UX, Produkt und digitaler Transformation",
+    "title": "Senior UX/Product Design für komplexe und KI-gestützte Produkte",
     "desc": "Offen für Vollzeit- und Teilzeitstellen in Kroatien sowie passende Hybrid- und Remote-Positionen.",
     "tagContract": "Festanstellung",
     "tagFreelance": "Teilzeit",
@@ -149,10 +151,10 @@
     "title": "Eine Praxis, auf jeder Ebene verbunden",
     "desc": "Design, Bewertung und Engineering sind keine Silos - sie sind eine einzige Praxis. Dasselbe strukturierte Denken skaliert von Enterprise-Governance bis zur ersten Website eines lokalen Geschäfts.",
     "designTitle": "Design",
-    "designDesc": "Ich gestalte die Tools, die Menschen nutzen. 17+ Jahre UX/UI bedeuten: ich wei\u00df, was gut ist \u2014 und was leise versagt.",
+    "designDesc": "Ich gestalte die Tools, die Menschen nutzen. 17+ Jahre UX/UI bedeuten: ich wei\u00df, was gut ist - und was leise versagt.",
     "connectorInforms": "Informiert",
     "evaluateTitle": "Bewerten",
-    "evaluateDesc": "Ich bewerte KI-Anbieter mit dem Auge von jemandem, der selbst gebaut und ausgeliefert hat. OSINT, Scorecards, Governance \u2014 strukturiert und vertretbar.",
+    "evaluateDesc": "Ich bewerte KI-Anbieter mit dem Auge von jemandem, der selbst gebaut und ausgeliefert hat. OSINT, Scorecards, Governance - strukturiert und vertretbar.",
     "connectorGoverns": "Steuert",
     "buildTitle": "Bauen",
     "buildDesc": "Ich steuere KI zur Produktion von produktionsreifem Code. Gleiche Governance wie bei der Anbieterbewertung: spezifizieren, architekturieren, validieren, dokumentieren.",
@@ -164,9 +166,9 @@
 
   "services": {
     "eyebrow": "Expertise",
-    "title": "Fähigkeiten aus komplexen Arbeitsumgebungen",
-    "desc": "Meine Erfahrung verbindet Produktdesign, Anbieterbewertung, Business-Analyse und praktische digitale Umsetzung.",
-    "mission": "Ich trage dort bei, wo komplexe Anforderungen in klare Entscheidungen, nutzbare Oberflächen und umsetzbare Schritte übersetzt werden müssen.",
+    "title": "Breite Erfahrung mit Fokus auf Produktdesign",
+    "desc": "Senior UX/Product Design ist mein Mittelpunkt; Anbieterbewertung, Business-Analyse, Web, Marke und KI-gestützte Umsetzung erweitern meinen Beitrag zum Team.",
+    "mission": "Am meisten trage ich dort bei, wo komplexe Anforderungen in klare Entscheidungen, nutzbare Oberflächen und umsetzbare Schritte übersetzt werden müssen.",
     "tierEnterprise": "Kernkompetenz",
     "tierLocal": "Ergänzende Kompetenz",
 
@@ -192,12 +194,17 @@
 
   "experience": {
     "eyebrow": "Erfahrung",
-    "title": "Eine Karriere, aufgebaut auf Design Thinking und strategischer Klarheit",
+    "title": "Über 17 Jahre Erfahrung, vereint in komplexen Umgebungen",
     "current": "Aktuell",
 
-    "job1Date": "Apr 2020 - Heute",
-    "job1Title": "Selbstständiger UX- & Technologieberater",
-    "job1Company": "Standing Pillars Portfolio · Remote | Zagreb, Kroatien",
+    "currentRoleDate": "Jun 2026 - Heute",
+    "currentRoleTitle": "Senior UX/Product Designer für komplexe digitale Produkte",
+    "currentRoleCompany": "Standing Pillars - persönliches Portfolio · Zagreb, Kroatien",
+    "currentRoleNote": "Offen für Vollzeit- oder Teilzeitanstellung, besonders in UX/Product-Rollen für Enterprise- und KI-gestützte Produkte.",
+
+    "job1Date": "Apr 2020 - Jun 2026",
+    "job1Title": "Gründer & selbstständiger UX- und Technologieberater",
+    "job1Company": "Standing Pillars · Selbstständig | Österreich",
     "job1Items": [
       "UI/UX-Designf\u00fchrung: Nutzerforschung, UX-Audits, Wireframing, Prototyping in Figma und Live-Builds (POCs), Design-Systeme und Stakeholder-Workshops f\u00fcr Enterprise- und lokale Kunden.",
       "KI-Beschaffung & OSINT-Beratung: Anbieter-Due-Diligence, RFP/RFI-Pakete, Bewertungs-Scorecards, Governance-Frameworks und Executive-Materialien.",
@@ -208,7 +215,7 @@
 
     "job2Date": "Apr 2024 - Aug 2025",
     "job2Title": "UI/UX-Berater & Präsentationsdesigner · RFP/RFI & OSINT-Anbieter-Due-Diligence",
-    "job2Company": "Accenture · Vertrag · Remote | Wien, Österreich",
+    "job2Company": "Accenture · Kundenauftrag während der Selbstständigkeit · Remote | Wien, Österreich",
     "job2Items": [
       "Standardisierung von RFP/RFI-Vorlagen und Bewertungskriterien für KI-Initiativen in regulierten (Pharma-)Programmen.",
       "OSINT-Due-Diligence: öffentliche Quellen trianguliert zur Verifizierung von Behauptungen, Inferenz von Modell-/Tech-Stacks und Mapping von Partnernetzwerken.",
@@ -219,7 +226,7 @@
 
     "job3Date": "Jul 2022 - Apr 2023",
     "job3Title": "Lead UX Designer - Root-Cause-Analysis-Investigationsplattform",
-    "job3Company": "Roche Diagnostics · Vertrag · Hybrid | Basel, Schweiz",
+    "job3Company": "Roche Diagnostics · Kundenauftrag während der Selbstständigkeit · Hybrid | Basel, Schweiz",
     "job3Items": [
       "Pionierprojekt: internes RCA-Untersuchungstool für Wissenschaftler in der pharmazeutischen Fertigung.",
       "Tiefgehende Interviews und Design Thinking angewandt; schnelles Prototyping in Figma führte zu einem dynamischen (atomaren) UI-Design.",
@@ -229,7 +236,7 @@
 
     "job4Date": "Apr 2020 - Jul 2022",
     "job4Title": "Lead UI/UX Designer - Regulatorisches Berichtstool",
-    "job4Company": "Roche Pharmaceuticals · Vertrag · Hybrid | Penzberg, Deutschland",
+    "job4Company": "Roche Pharmaceuticals · Kundenauftrag während der Selbstständigkeit · Hybrid | Penzberg, Deutschland",
     "job4Items": [
       "Leitung eines diversen Teams für ein transformatives E2E-Reporting-Tool der pharmazeutischen Fertigungssparte von Roche.",
       "30% Reduktion manueller Berichterstattung mit erheblichen Kosteneinsparungen bei der Schulung erreicht.",
@@ -290,7 +297,7 @@
   "aiEngineering": {
     "eyebrow": "KI-gestütztes Engineering",
     "title": "Eine kommerzielle Engine, gebaut um die Methodik zu beweisen",
-    "desc": "Tiny Humans Engine ist ein kommerziell ausgerichtetes Produkt \u2014 eine vollst\u00e4ndige 2D-Game-Engine und Editor. Aber es ist auch der Beweis, dass KI, wenn sie mit derselben Strenge gesteuert wird, die ich in die Pharma-Beratung einbringe, produktionsreife Ergebnisse liefert. Und ihre Architektur wurde mit einem tieferen Zweck im Sinn entworfen.",
+    "desc": "Tiny Humans Engine ist ein kommerziell ausgerichtetes Produkt - eine vollst\u00e4ndige 2D-Game-Engine und Editor. Aber es ist auch der Beweis, dass KI, wenn sie mit derselben Strenge gesteuert wird, die ich in die Pharma-Beratung einbringe, produktionsreife Ergebnisse liefert. Und ihre Architektur wurde mit einem tieferen Zweck im Sinn entworfen.",
     "projectTitle": "Tiny Humans Engine",
     "projectSub": "Eine kommerzielle 2D-Game-Engine, Editor & SDK - komplett durch KI-gestütztes Engineering erstellt",
     "projectDesc": "Tiny Humans ist eine <strong>30.000+ Zeilen, 75-Dateien-Game-Engine</strong> mit integriertem Editor, Runtime, Asset-Pipeline, Scripting-System und Packaging - alles durch Steuerung von KI mittels strukturiertem Prompt-Engineering erstellt. Es ist ein kommerzielles Produkt <em>und</em> ein Methodenbeweis: <strong>Spezifizieren → Architekturieren → Steuern → Validieren</strong>. Dasselbe Framework, das ich zur Bewertung von KI-Anbietern nutze, nur bin ich hier Anbieter und Prüfer zugleich. Die Engine wurde bewusst webbasiert gebaut - JavaScript als universelle Runtime - weil das, was als Nächstes kommt, die niedrigstmögliche Barriere zwischen Sprachen, Plattformen und Agenten erfordert.",
@@ -405,7 +412,7 @@
       "tag": "Roche Diagnostics \u00b7 Penzberg, Deutschland",
       "title": "Plattform zur Ursachenanalyse - Qualit\u00e4tssicherung in der Fertigung",
       "role": "UX Design Lead & Business Analyst \u00b7 Unterst\u00fctzt von UI-Designern",
-      "summary": "UI/UX-Designer & Business Analyst f\u00fcr eine Plattform zur Verbesserung der Ursachenanalyse in der pharmazeutischen Fertigung. Implementierung von Atomic-Design-Prinzipien, mehreren Untersuchungsmethoden (Fishbone, Is/Is Not, 5 Whys) und Stakeholder-Advocacy \u2014 mit Auswirkungen auf 10.000+ Nutzer.",
+      "summary": "UI/UX-Designer & Business Analyst f\u00fcr eine Plattform zur Verbesserung der Ursachenanalyse in der pharmazeutischen Fertigung. Implementierung von Atomic-Design-Prinzipien, mehreren Untersuchungsmethoden (Fishbone, Is/Is Not, 5 Whys) und Stakeholder-Advocacy - mit Auswirkungen auf 10.000+ Nutzer.",
       "methodAtomic": "Atomic Design",
       "methodFishbone": "Fishbone",
       "methodIsIsNot": "Is/Is Not",
@@ -444,14 +451,14 @@
       "tag": "Roche Pharmaceuticals \u00b7 Penzberg, Deutschland",
       "title": "Regulatorisches Reporting-Tool",
       "role": "Design Lead \u00b7 Solo, funktions\u00fcbergreifende Abstimmung",
-      "summary": "Leitender UI/UX-Designer f\u00fcr ein pharmazeutisches Dokumentenmanagementsystem. Entwurf eines ergonomischen Dashboards mit RBAC, erweiterter Filterung und iterativem Prototyping \u2014 ca. 120 UI-Designs f\u00fcr eine Plattform in Fertigungsbetrieben.",
+      "summary": "Leitender UI/UX-Designer f\u00fcr ein pharmazeutisches Dokumentenmanagementsystem. Entwurf eines ergonomischen Dashboards mit RBAC, erweiterter Filterung und iterativem Prototyping - ca. 120 UI-Designs f\u00fcr eine Plattform in Fertigungsbetrieben.",
       "methodDashboard": "Dashboard-Design",
       "methodRbac": "RBAC-System",
       "methodPrototyping": "Iteratives Prototyping",
       "methodUsability": "Usability-Testing",
       "overviewTitle": "\u00dcbersicht",
       "overviewP1": "Entwicklung eines intuitiven, effizienten Systems f\u00fcr pharmazeutisches Dokumentenmanagement. Anwendung von HCI-Prinzipien f\u00fcr benutzerfreundliche Layouts und Entwurf einer algorithmischen hierarchischen Zugriffskontrollarchitektur (RBAC).",
-      "overviewP2": "Meine Rolle ging h\u00e4ufig \u00fcber die Standard-UI/UX-Verantwortlichkeiten hinaus. Getrieben von echtem Interesse an Biowissenschaften und Engagement f\u00fcr den Projekterfolg, vertiefte ich mich in den wissenschaftlichen Kontext \u2014 oft mit zus\u00e4tzlichen unbezahlten Stunden.",
+      "overviewP2": "Meine Rolle ging h\u00e4ufig \u00fcber die Standard-UI/UX-Verantwortlichkeiten hinaus. Getrieben von echtem Interesse an Biowissenschaften und Engagement f\u00fcr den Projekterfolg, vertiefte ich mich in den wissenschaftlichen Kontext - oft mit zus\u00e4tzlichen unbezahlten Stunden.",
       "contribTitle": "Kernbeitr\u00e4ge",
       "contrib1": "<strong>Ergonomisches Dashboard</strong> \u2013 Anwendung von HCI-Prinzipien f\u00fcr eine benutzerfreundliche Projekt\u00fcbersicht mit Einstellungen, Favoriten und DAMAS/MDMS-Links",
       "contrib2": "<strong>RBAC-System</strong> \u2013 Entwicklung einer rollenbasierten Zugriffskontrollarchitektur f\u00fcr effizientes Tracking und Berechtigungsmanagement",
@@ -484,17 +491,17 @@
       "tag": "Retail \u00b7 Landing Page",
       "title": "iPhone 7 Vorbestell-Landing-Page",
       "role": "Designer & Entwickler \u00b7 Solo",
-      "desc": "Marktforschung f\u00fchrte zu einem minimalistischen Ansatz \u2014 Speicher statt Specs, farblich abgestimmte UI, schwarzer Hintergrund f\u00fcr Luxus. Ausgezeichnet als \u201eBeste Werbe-Landing-Page\u201c in Kroatien (Appcom / Apple Partner, 2016).",
+      "desc": "Marktforschung f\u00fchrte zu einem minimalistischen Ansatz - Speicher statt Specs, farblich abgestimmte UI, schwarzer Hintergrund f\u00fcr Luxus. Ausgezeichnet als \u201eBeste Werbe-Landing-Page\u201c in Kroatien (Appcom / Apple Partner, 2016).",
       "btn": "Live-Demo ansehen"
     },
     "galleryEra": "2009 \u2013 2017 \u00b7 Einzelhandel, Freelance & mehr",
     "galleryTitle": "Grafikdesign-Bibliothek",
     "galleryDesc": "Werbekampagnen, saisonale Sales, Produktlaunches und Markenmaterialien aus Einzelhandel, Zahntourismus und Freelance-Arbeit.",
-    "galleryContext": "Vor Design-Systemen und Komponentenbibliotheken gab es die Druckerei. Hunderte Kampagnen im Einzelhandelstempo produziert \u2014 w\u00f6chentliche Flyer, saisonale Launches, Beschilderung im Laden \u2014 alles in Photoshop und Illustrator gebaut, Pixel f\u00fcr Pixel. Das war das Handwerk vor dem Framework. Und ehrlich? Photoshop und Illustrator sind immer noch meine besten Freunde. Die Tools um einen herum \u00e4ndern sich, aber die, die einem das Sehen beigebracht haben, gehen nie wirklich.",
+    "galleryContext": "Vor Design-Systemen und Komponentenbibliotheken gab es die Druckerei. Hunderte Kampagnen im Einzelhandelstempo produziert - w\u00f6chentliche Flyer, saisonale Launches, Beschilderung im Laden - alles in Photoshop und Illustrator gebaut, Pixel f\u00fcr Pixel. Das war das Handwerk vor dem Framework. Und ehrlich? Photoshop und Illustrator sind immer noch meine besten Freunde. Die Tools um einen herum \u00e4ndern sich, aber die, die einem das Sehen beigebracht haben, gehen nie wirklich.",
     "galleryToggle": "Galerie",
     "interiorEra": "2009 \u2013 2011 \u00b7 3D-Visualisierung & Innenarchitektur",
     "interiorTitle": "Vom Rendering zur Realit\u00e4t",
-    "interiorDesc": "3D-Innenraumvisualisierungen in 3ds Max f\u00fcr Gastronomiekunden erstellt \u2014 und dann tats\u00e4chlich gebaut. Die niedrig aufgel\u00f6sten Fotos wurden mit Handys jener \u00c4ra aufgenommen, aber die R\u00e4ume sprechen f\u00fcr sich.",
+    "interiorDesc": "3D-Innenraumvisualisierungen in 3ds Max f\u00fcr Gastronomiekunden erstellt - und dann tats\u00e4chlich gebaut. Die niedrig aufgel\u00f6sten Fotos wurden mit Handys jener \u00c4ra aufgenommen, aber die R\u00e4ume sprechen f\u00fcr sich.",
     "interiorLabelRender": "3D-Rendering",
     "interiorLabelBuilt": "Gebautes Ergebnis",
     "interiorNote": "Night Bar Venecija, Zagreb - 2010 entworfen und visualisiert, im selben Jahr gebaut.",
@@ -528,7 +535,7 @@
   "contact": {
     "eyebrow": "Kontakt",
     "title": "Lassen Sie uns über eine Position sprechen",
-    "desc": "Ich bin offen für Vollzeit- und Teilzeitstellen in Kroatien in UX, Produktdesign, Business-Analyse, digitaler Transformation und Technologiebewertung.",
+    "desc": "Ich suche primär Senior-UX/Product-Designer-Positionen in Kroatien und bin offen für Rollen, die Produktdesign, Business-Analyse, digitale Transformation und Technologiebewertung verbinden.",
     "labelEmail": "E-Mail",
     "labelPhone": "Telefon",
     "labelLinkedIn": "LinkedIn",
@@ -557,10 +564,10 @@
     "back": "\u2190 Zur\u00fcck zum Portfolio",
     "barText": "Portfoliost\u00fcck \u00b7 iPhone 7 Vorbestell-Landing-Page \u00b7 2016",
     "notesBtn": "Design-Notizen",
-    "noteResearch": "<strong>Recherche & Strategie</strong> \u2014 Das iPhone 7 war ein iteratives Update. Die Marktanalyse zeigte, dass Kaufentscheidungen haupts\u00e4chlich von der Speicherkapazit\u00e4t abh\u00e4ngen w\u00fcrden, nicht von schrittweisen Hardware-Verbesserungen wie der Kameraaufl\u00f6sung. Diese Erkenntnis wurde zum zentralen Designtreiber: Nur die Information zeigen, die am Kaufpunkt z\u00e4hlt \u2014 Modell, Farbe und Gigabyte.",
-    "noteDesign": "<strong>Design-Entscheidungen</strong> \u2014 Apples kroatischer Partner lieferte offizielle Designrichtlinien. Ich wich bewusst davon ab. Statt funktions\u00fcberladener Layouts wurde die Oberfl\u00e4che auf minimale kreisf\u00f6rmige Buttons f\u00fcr Speicherstufen reduziert, mit Hover-Zust\u00e4nden, die die tats\u00e4chliche Finish-Farbe widerspiegeln. Der schwarze Hintergrund wurde gew\u00e4hlt, um das cineastische Hero-Video zu erg\u00e4nzen und einen Premium-Ton zu setzen.",
-    "noteOutcome": "<strong>Ergebnis</strong> \u2014 Ausgezeichnet als \u201eBeste Werbe-Landing-Page\u201c in Kroatien (Appcom / Apple Partner, 2016). Die Seite trug zu den h\u00f6chsten nationalen iPhone-7-Vorbestellungen des H\u00e4ndlers bei.",
-    "heritageNote": "<em>Der Produkttext unten bleibt im kroatischen Original. Diese Seite wurde 2016 von Hand programmiert \u2014 jedes Pixel mit Absicht gesetzt, jedes Wort in der Sprache gew\u00e4hlt, in der es verkauft wurde. Manche Dinge l\u00e4sst man besser so, wie sie gemacht wurden.</em>",
+    "noteResearch": "<strong>Recherche & Strategie</strong> - Das iPhone 7 war ein iteratives Update. Die Marktanalyse zeigte, dass Kaufentscheidungen haupts\u00e4chlich von der Speicherkapazit\u00e4t abh\u00e4ngen w\u00fcrden, nicht von schrittweisen Hardware-Verbesserungen wie der Kameraaufl\u00f6sung. Diese Erkenntnis wurde zum zentralen Designtreiber: Nur die Information zeigen, die am Kaufpunkt z\u00e4hlt - Modell, Farbe und Gigabyte.",
+    "noteDesign": "<strong>Design-Entscheidungen</strong> - Apples kroatischer Partner lieferte offizielle Designrichtlinien. Ich wich bewusst davon ab. Statt funktions\u00fcberladener Layouts wurde die Oberfl\u00e4che auf minimale kreisf\u00f6rmige Buttons f\u00fcr Speicherstufen reduziert, mit Hover-Zust\u00e4nden, die die tats\u00e4chliche Finish-Farbe widerspiegeln. Der schwarze Hintergrund wurde gew\u00e4hlt, um das cineastische Hero-Video zu erg\u00e4nzen und einen Premium-Ton zu setzen.",
+    "noteOutcome": "<strong>Ergebnis</strong> - Ausgezeichnet als \u201eBeste Werbe-Landing-Page\u201c in Kroatien (Appcom / Apple Partner, 2016). Die Seite trug zu den h\u00f6chsten nationalen iPhone-7-Vorbestellungen des H\u00e4ndlers bei.",
+    "heritageNote": "<em>Der Produkttext unten bleibt im kroatischen Original. Diese Seite wurde 2016 von Hand programmiert - jedes Pixel mit Absicht gesetzt, jedes Wort in der Sprache gew\u00e4hlt, in der es verkauft wurde. Manche Dinge l\u00e4sst man besser so, wie sie gemacht wurden.</em>",
     "footer": "Landing Page gestaltet und entwickelt von Igor Pilicic, 2016."
   },
 

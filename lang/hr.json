@@ -14,7 +14,7 @@
     "research": "Istraživanje",
     "caseStudies": "Studije slučaja",
     "contact": "Kontakt",
-    "tagline": "profesionalni portfolio",
+    "tagline": "Profesionalni portfolio · Igor Piličić",
     "allServices": "Sva područja",
     "uxDesign": "UX Dizajn",
     "aiProcurement": "AI Nabava",
@@ -23,8 +23,8 @@
 
   "hero": {
     "eyebrow": "Igor Piličić",
-    "title": "17 godina rješavanja problema <span class=\"highlight\">koje nitko nije zadao</span> - Igor Piličić",
-    "subtitle": "Od e-commerce projekata i nagrađivanih retail kampanja do Lead UX Designera u Rocheu i savjetovanja za AI nabavu u Accentureu. Vidim cijelu sliku - i gradim dijelove koji nedostaju.",
+    "title": "Senior UX/Product dizajner za <span class=\"highlight\">složene digitalne proizvode</span>",
+    "subtitle": "Donosim 17+ godina iskustva u UX-u, dizajnu proizvoda, enterprise sustavima, AI evaluaciji, webu i vizualnoj komunikaciji. U Rocheu i Accentureu sva su se ta iskustva spojila u radu na složenim, reguliranim izazovima.",
     "tagline": "Što tražite?",
     "tagExperience": "Gdje ste radili?",
     "tagAiEng": "Možete li zaista graditi?",
@@ -100,10 +100,12 @@
 
   "about": {
     "eyebrow": "O meni",
-    "title": "Jedna osoba, jedna filozofija: tehnologija služi ljudima",
-    "lead": "Zovem se Igor Piličić. Više od 17 godina rješavam probleme na sjecištu gdje se tehnologija susreće s ljudima koji nisu tehnolozi - dizajniram sučelja koja koriste, ocjenjujem AI dobavljače o kojima ovise i upravljam alatima koji oblikuju njihov rad. Nitko mi nije dodijelio većinu tih uloga. Vidio sam prazninu i popunio je.",
-    "p1": "Moj put slijedi jednu nit: <strong>kompleksne sustave učiniti razumljivima i pouzdanima</strong>. Počeo je s web dizajnom i 3D grafikom, razvio se kroz e-commerce i nagrađivane kampanje u <strong>Harvey Normanu</strong>, produbio se u <strong>Rocheu</strong> gdje sam dizajnirao proizvodne alate za 10.000+ korisnika, i proširio se u <strong>Accentureu</strong> na evaluaciju AI dobavljača i upravljanje nabavom za regulirane farmaceutske programe.",
-    "p2": "Standing Pillars moj je osobni profesionalni portfolio: mjesto na kojem povezujem dizajnersko vodstvo, AI nabavu, OSINT analizu i AI-potpomognuti inženjering. Zajedno pokazuju istu vještinu: <strong>premošćivanje jaza između ljudi i tehnologije</strong>, uz strukturu i sljedivost koje zahtijevaju regulirane industrije.",
+    "title": "Neobičan put, jasno usmjerenje",
+    "lead": "Zovem se Igor Piličić. Moj primarni fokus je UX/Product dizajn za složene digitalne proizvode - posebno ondje gdje se susreću korisnici, poslovni procesi i tehnologija. Širina mojeg iskustva nije niz nepovezanih uloga, nego alat kojim sagledavam cijeli sustav.",
+    "p1": "Tijekom 17+ godina radio sam u webu, 3D-u, e-trgovini, brendiranju, enterprise UX-u, poslovnoj analizi, AI evaluaciji i praktičnoj digitalnoj isporuci. Kroz sve to provlači se jedna nit: <strong>složene sustave učiniti razumljivima, upotrebljivima i pouzdanima</strong>.",
+    "p2": "U <strong>Rocheu</strong> i <strong>Accentureu</strong> sva su se ta iskustva spojila. Dizajnersko razmišljanje, istraživanje, vizualna komunikacija, facilitacija, analiza i tehnološka procjena postali su jedna praksa za rješavanje složenih izazova u reguliranim okruženjima. Standing Pillars danas je moj osobni portfolio koji pokazuje taj cijeli put - sa <strong>Senior UX/Product dizajnom kao njegovim središtem</strong>.",
+    "personalEyebrow": "Izvan posla",
+    "personalText": "Senior sam UX/Product dizajner sa značajnim enterprise iskustvom i aktivnom praksom razvoja neovisnih proizvoda. Volim raspetljavati složene probleme, uočiti poteškoće prije nego što postanu skupe te razumjeti kako ljudi, procesi i tehnologija utječu jedni na druge. Zanimanje za psihologiju, antropologiju i sociologiju pomaže mi vidjeti međuljudsku stranu problema, a ne samo sučelje ili sustav oko njega. Obraćam pozornost i na ono što ostane neizrečeno. Često razlika između onoga što netko traži i onoga što zapravo pokušava riješiti otkriva pravi problem, a ljudima volim pomoći da ga jasno izraze. Izvan posla suprug sam i otac, a obitelj je središnji dio mojeg života. Pratim astronomiju i uživam u filmovima, serijama i igrama. Različiti svjetovi, ista znatiželja o ljudima, sustavima i onome što bi se moglo dogoditi sljedeće.",
     "statYears": "Godina u dizajnu i tehnologiji (17+ profesionalno)",
     "statReach": "Doseg potrošača (HR & SLO kampanje, 2011–2025)",
     "statUsers": "Korisnika pod utjecajem u Rocheu",
@@ -117,7 +119,7 @@
 
   "availability": {
     "status": "Otvoren za poslove u Hrvatskoj",
-    "title": "Senior stručnost u UX-u, proizvodima i digitalnoj transformaciji",
+    "title": "Senior UX/Product dizajn za složene i AI-potpomognute proizvode",
     "desc": "Otvoren za zaposlenje na puno ili nepuno radno vrijeme u Hrvatskoj te odgovarajuće hibridne i udaljene pozicije.",
     "tagContract": "Stalni radni odnos",
     "tagFreelance": "Nepuno radno vrijeme",
@@ -164,9 +166,9 @@
 
   "services": {
     "eyebrow": "Stručnost",
-    "title": "Sposobnosti razvijene u složenim okruženjima",
-    "desc": "Moje iskustvo povezuje dizajn proizvoda, evaluaciju dobavljača, poslovnu analizu i praktičnu digitalnu isporuku.",
-    "mission": "Doprinosim ondje gdje složene zahtjeve treba pretvoriti u jasne odluke, upotrebljiva sučelja i provedive korake.",
+    "title": "Široko iskustvo, usmjereno na dizajn proizvoda",
+    "desc": "Senior UX/Product dizajn moje je središte; evaluacija dobavljača, poslovna analiza, web, brend i AI-potpomognuta isporuka proširuju ono što mogu donijeti timu.",
+    "mission": "Najviše doprinosim ondje gdje složene zahtjeve treba pretvoriti u jasne odluke, upotrebljiva sučelja i provedive korake.",
     "tierEnterprise": "Ključna stručnost",
     "tierLocal": "Dodatna stručnost",
 
@@ -192,12 +194,17 @@
 
   "experience": {
     "eyebrow": "Iskustvo",
-    "title": "Karijera izgrađena na dizajnerskom razmišljanju i strateškoj jasnoći",
+    "title": "17+ godina iskustva koje se spojilo u složenim okruženjima",
     "current": "Trenutno",
 
-    "job1Date": "Tra 2020 - Danas",
-    "job1Title": "Neovisni UX i tehnološki konzultant",
-    "job1Company": "Standing Pillars portfolio · Udaljeno | Zagreb, Hrvatska",
+    "currentRoleDate": "Lip 2026 - Danas",
+    "currentRoleTitle": "Senior UX/Product dizajner za složene digitalne proizvode",
+    "currentRoleCompany": "Standing Pillars - osobni portfolio · Zagreb, Hrvatska",
+    "currentRoleNote": "Otvoren za stalno ili nepuno radno vrijeme, posebno na UX/Product pozicijama u enterprise i AI-potpomognutim proizvodima.",
+
+    "job1Date": "Tra 2020 - Lip 2026",
+    "job1Title": "Osnivač i samozaposleni UX i tehnološki konzultant",
+    "job1Company": "Standing Pillars · Samostalna djelatnost | Austrija",
     "job1Items": [
       "Vodstvo UI/UX dizajna: istraživanje korisnika, UX revizije, wireframing, prototipiranje u Figmi i live buildovi (POC-ovi), dizajn sustavi i radionice s dionicima za enterprise i lokalne klijente.",
       "AI nabava i OSINT savjetovanje: due diligence dobavljača, RFP/RFI paketi, scorecards za evaluaciju, okviri upravljanja i executive materijali.",
@@ -208,7 +215,7 @@
 
     "job2Date": "Tra 2024 - Kol 2025",
     "job2Title": "UI/UX konzultant i dizajner prezentacija · RFP/RFI i OSINT due diligence dobavljača",
-    "job2Company": "Accenture · Ugovor · Remote | Beč, Austrija",
+    "job2Company": "Accenture · Klijentski ugovor u sklopu samozaposlenja · Remote | Beč, Austrija",
     "job2Items": [
       "Standardizacija RFP/RFI predložaka i kriterija evaluacije za AI inicijative u reguliranim (farmaceutskim) programima.",
       "OSINT due diligence: triangulacija javnih izvora za verifikaciju tvrdnji, zaključivanje o model/tech stackovima i mapiranje partnerskih mreža.",
@@ -219,7 +226,7 @@
 
     "job3Date": "Srp 2022 - Tra 2023",
     "job3Title": "Lead UX dizajner - Istražna platforma za analizu korijenskog uzroka",
-    "job3Company": "Roche Diagnostics · Ugovor · Hibrid | Basel, Švicarska",
+    "job3Company": "Roche Diagnostics · Klijentski ugovor u sklopu samozaposlenja · Hibrid | Basel, Švicarska",
     "job3Items": [
       "Pionirski projekt: interni RCA istražni alat za znanstvenike u farmaceutskoj proizvodnji.",
       "Dubinski intervjui i primjena dizajnerskog razmišljanja; brzo prototipiranje u Figmi dovelo do dinamičnog (atomskog) UI dizajna.",
@@ -229,7 +236,7 @@
 
     "job4Date": "Tra 2020 - Srp 2022",
     "job4Title": "Lead UI/UX dizajner - Regulatorni alat za izvještavanje",
-    "job4Company": "Roche Pharmaceuticals · Ugovor · Hibrid | Penzberg, Njemačka",
+    "job4Company": "Roche Pharmaceuticals · Klijentski ugovor u sklopu samozaposlenja · Hibrid | Penzberg, Njemačka",
     "job4Items": [
       "Vodstvo raznolikog tima na transformativnom E2E alatu za izvještavanje farmaceutske proizvodne divizije Rochea.",
       "Postignuto 30% smanjenje ručnog izvještavanja sa značajnim uštedama troškova obuke.",
@@ -405,7 +412,7 @@
       "tag": "Roche Diagnostics \u00b7 Penzberg, Njema\u010dka",
       "title": "Platforma za istragu uzroka - Osiguranje kvalitete u proizvodnji",
       "role": "UX Design Lead & poslovni analiti\u010dar \u00b7 Podr\u017eka UI dizajnera",
-      "summary": "UI/UX dizajner i poslovni analiti\u010dar na platformi za pobolj\u0161anje procesa analize uzroka u farmaceutskoj proizvodnji. Implementacija Atomic Design principa, vi\u0161estrukih istra\u017enih metodologija (Fishbone, Is/Is Not, 5 Whys) i vo\u0111enje zagovaranja dionika \u2014 utje\u010daj na 10.000+ korisnika.",
+      "summary": "UI/UX dizajner i poslovni analiti\u010dar na platformi za pobolj\u0161anje procesa analize uzroka u farmaceutskoj proizvodnji. Implementacija Atomic Design principa, vi\u0161estrukih istra\u017enih metodologija (Fishbone, Is/Is Not, 5 Whys) i vo\u0111enje zagovaranja dionika - utje\u010daj na 10.000+ korisnika.",
       "methodAtomic": "Atomic Design",
       "methodFishbone": "Fishbone",
       "methodIsIsNot": "Is/Is Not",
@@ -444,7 +451,7 @@
       "tag": "Roche Pharmaceuticals \u00b7 Penzberg, Njema\u010dka",
       "title": "Regulatorni alat za izvje\u0161tavanje",
       "role": "Voditelj dizajna \u00b7 Solo, me\u0111ufunkcionalno uskla\u0111ivanje",
-      "summary": "Voditelj UI/UX dizajna na farmaceutskom sustavu upravljanja dokumentacijom. Dizajn ergonomske kontrolne plo\u010de s RBAC-om, naprednim filtriranjem i iterativnim prototipiranjem \u2014 ~120 UI dizajna za platformu u proizvodnim pogonima.",
+      "summary": "Voditelj UI/UX dizajna na farmaceutskom sustavu upravljanja dokumentacijom. Dizajn ergonomske kontrolne plo\u010de s RBAC-om, naprednim filtriranjem i iterativnim prototipiranjem - ~120 UI dizajna za platformu u proizvodnim pogonima.",
       "methodDashboard": "Dizajn kontrolne plo\u010de",
       "methodRbac": "RBAC sustav",
       "methodPrototyping": "Iterativno prototipiranje",
@@ -484,17 +491,17 @@
       "tag": "Retail \u00b7 Landing Page",
       "title": "iPhone 7 prednarud\u017eba landing stranica",
       "role": "Dizajner i developer \u00b7 Solo",
-      "desc": "Istra\u017eivanje tr\u017ei\u0161ta vodilo je minimalisti\u010dkom pristupu \u2014 pohrana umjesto specifikacija, UI uskla\u0111en s bojama, crna pozadina za luksuz. Nagra\u0111ena \u201eNajbolja promotivna landing stranica\u201c u Hrvatskoj (Appcom / Apple Partner, 2016).",
+      "desc": "Istra\u017eivanje tr\u017ei\u0161ta vodilo je minimalisti\u010dkom pristupu - pohrana umjesto specifikacija, UI uskla\u0111en s bojama, crna pozadina za luksuz. Nagra\u0111ena \u201eNajbolja promotivna landing stranica\u201c u Hrvatskoj (Appcom / Apple Partner, 2016).",
       "btn": "Pogledaj demo"
     },
     "galleryEra": "2009 \u2013 2017 \u00b7 Maloprodaja, freelance i vi\u0161e",
     "galleryTitle": "Biblioteka grafi\u010dkog dizajna",
     "galleryDesc": "Promotivne kampanje, sezonski popusti, lansiranja proizvoda i brend materijali iz maloprodaje, dentalnog turizma i freelance rada.",
-    "galleryContext": "Prije dizajn sustava i biblioteka komponenti postojala je tiskara. Stotine kampanja proizvedenih brzinom maloprodaje \u2014 tjedni letci, sezonska lansiranja, natpisi u trgovini \u2014 sve gra\u0111eno u Photoshopu i Illustratoru, piksel po piksel. To je bio zanat prije frameworka. I iskreno? Photoshop i Illustrator su mi jo\u0161 uvijek najbolji prijatelji. Alati oko tebe se mijenjaju, ali oni koji su te nau\u010dili gledati nikad zapravo ne odu.",
+    "galleryContext": "Prije dizajn sustava i biblioteka komponenti postojala je tiskara. Stotine kampanja proizvedenih brzinom maloprodaje - tjedni letci, sezonska lansiranja, natpisi u trgovini - sve gra\u0111eno u Photoshopu i Illustratoru, piksel po piksel. To je bio zanat prije frameworka. I iskreno? Photoshop i Illustrator su mi jo\u0161 uvijek najbolji prijatelji. Alati oko tebe se mijenjaju, ali oni koji su te nau\u010dili gledati nikad zapravo ne odu.",
     "galleryToggle": "Galerija",
     "interiorEra": "2009. \u2013 2011. \u00b7 3D vizualizacija i dizajn interijera",
     "interiorTitle": "Od renderinga do stvarnosti",
-    "interiorDesc": "3D vizualizacije interijera izra\u0111ene u 3ds Maxu za ugostiteljske klijente \u2014 pa zatim i stvarno izgra\u0111ene. Fotografije niske rezolucije snimljene su mobitelima tog doba, ali prostori govore sami za sebe.",
+    "interiorDesc": "3D vizualizacije interijera izra\u0111ene u 3ds Maxu za ugostiteljske klijente - pa zatim i stvarno izgra\u0111ene. Fotografije niske rezolucije snimljene su mobitelima tog doba, ali prostori govore sami za sebe.",
     "interiorLabelRender": "3D rendering",
     "interiorLabelBuilt": "Izgrađeni rezultat",
     "interiorNote": "Night Bar Venecija, Zagreb - dizajniran i vizualiziran 2010., izgrađen iste godine.",
@@ -528,7 +535,7 @@
   "contact": {
     "eyebrow": "Otvoren za prilike",
     "title": "Razgovarajmo o poziciji",
-    "desc": "Otvoren sam za poslove na puno i nepuno radno vrijeme u Hrvatskoj u području UX-a, dizajna proizvoda, poslovne analize, digitalne transformacije i evaluacije tehnologije.",
+    "desc": "Primarno tražim Senior UX/Product Designer pozicije u Hrvatskoj. Otvoren sam i za uloge koje povezuju dizajn proizvoda, poslovnu analizu, digitalnu transformaciju i evaluaciju tehnologije.",
     "labelEmail": "E-mail",
     "labelPhone": "Telefon",
     "labelLinkedIn": "LinkedIn",
@@ -557,10 +564,10 @@
     "back": "\u2190 Natrag na portfolio",
     "barText": "Portfolio \u00b7 iPhone 7 prednarud\u017eba landing stranica \u00b7 2016",
     "notesBtn": "Bilje\u0161ke o dizajnu",
-    "noteResearch": "<strong>Istra\u017eivanje i strategija</strong> \u2014 iPhone 7 bio je iterativno a\u017euriranje. Analiza tr\u017ei\u0161ta pokazala je da \u0107e kupovne odluke ovisiti primarno o kapacitetu pohrane, a ne o inkrementalnim hardverskim pobolj\u0161anjima poput rezolucije kamere. Ovaj uvid postao je klju\u010dni pokreta\u010d dizajna: prikazati samo informacije bitne u trenutku konverzije \u2014 model, boju i gigabajte.",
-    "noteDesign": "<strong>Dizajnerske odluke</strong> \u2014 Appleov hrvatski partner dostavio je slu\u017ebene smjernice za dizajn. Namjerno sam odstupio od njih. Umjesto layouta pretrpanih zna\u010dajkama, su\u010delje je svedeno na minimalne kru\u017ene gumbe koji predstavljaju razine pohrane, s hover stanjima koja odra\u017eavaju stvarnu boju zavr\u0161ne obrade telefona. Crna pozadina odabrana je kako bi nadopunila cinematski hero video i uspostavila premium ton.",
-    "noteOutcome": "<strong>Rezultat</strong> \u2014 Nagra\u0111ena \u201eNajbolja promotivna landing stranica\u201c u Hrvatskoj (Appcom / Apple Partner, 2016). Stranica je pridonijela najve\u0107em broju nacionalnih prednarud\u017ebi iPhonea 7 za tog trgovca.",
-    "heritageNote": "<em>Tekst o proizvodu ispod ostaje u izvornom hrvatskom. Ova stranica ru\u010dno je kodirana 2016. \u2014 svaki piksel postavljen s namjerom, svaka rije\u010d odabrana na jeziku na kojem se prodavao. Neke stvari bolje je ostaviti onakvima kakve su napravljene.</em>",
+    "noteResearch": "<strong>Istra\u017eivanje i strategija</strong> - iPhone 7 bio je iterativno a\u017euriranje. Analiza tr\u017ei\u0161ta pokazala je da \u0107e kupovne odluke ovisiti primarno o kapacitetu pohrane, a ne o inkrementalnim hardverskim pobolj\u0161anjima poput rezolucije kamere. Ovaj uvid postao je klju\u010dni pokreta\u010d dizajna: prikazati samo informacije bitne u trenutku konverzije - model, boju i gigabajte.",
+    "noteDesign": "<strong>Dizajnerske odluke</strong> - Appleov hrvatski partner dostavio je slu\u017ebene smjernice za dizajn. Namjerno sam odstupio od njih. Umjesto layouta pretrpanih zna\u010dajkama, su\u010delje je svedeno na minimalne kru\u017ene gumbe koji predstavljaju razine pohrane, s hover stanjima koja odra\u017eavaju stvarnu boju zavr\u0161ne obrade telefona. Crna pozadina odabrana je kako bi nadopunila cinematski hero video i uspostavila premium ton.",
+    "noteOutcome": "<strong>Rezultat</strong> - Nagra\u0111ena \u201eNajbolja promotivna landing stranica\u201c u Hrvatskoj (Appcom / Apple Partner, 2016). Stranica je pridonijela najve\u0107em broju nacionalnih prednarud\u017ebi iPhonea 7 za tog trgovca.",
+    "heritageNote": "<em>Tekst o proizvodu ispod ostaje u izvornom hrvatskom. Ova stranica ru\u010dno je kodirana 2016. - svaki piksel postavljen s namjerom, svaka rije\u010d odabrana na jeziku na kojem se prodavao. Neke stvari bolje je ostaviti onakvima kakve su napravljene.</em>",
     "footer": "Landing stranicu dizajnirao i razvio Igor Pilicic, 2016."
   },
 

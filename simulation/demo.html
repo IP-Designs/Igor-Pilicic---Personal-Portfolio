@@ -3,13 +3,21 @@
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>AI Sandbox Demo</title>
+  <title>AI Behaviour Simulation Demo | Igor Pilicic</title>
+  <meta name="description" content="Interactive demo from Igor Pilicic's work-in-progress Tiny Humans AI behaviour simulation, featuring autonomous NPCs and environmental systems." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://standingpillars.com/simulation/" />
   <style>
     html, body { margin: 0; padding: 0; overflow: hidden; background: #1a1a2e; }
     canvas { display: block; cursor: default; }
+    .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
   </style>
 </head>
 <body>
+<div class="sr-only" role="region" aria-label="AI Behaviour Simulation Demo">
+  <h1>AI Behaviour Simulation Demo</h1>
+  <p>A work-in-progress Tiny Humans engine demo with autonomous NPC movement, weather, and a day-night cycle.</p>
+</div>
 <script src="https://cdn.jsdelivr.net/npm/p5@1.11.0/lib/p5.min.js"></script>
 <script src="thoughts_hr.js" charset="utf-8"></script>
 <script src="thoughts_de.js" charset="utf-8"></script>

@@ -3,10 +3,40 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>AI Sandbox - Tiny Humans Simulation</title>
+  <title>AI Behaviour Simulation (WIP) | Igor Pilicic</title>
+  <meta name="description" content="A work-in-progress AI behaviour simulation built with Igor Pilicic's Tiny Humans engine, exploring autonomous NPC behaviour, weather, and day-night systems." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://standingpillars.com/simulation/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://standingpillars.com/simulation/" />
+  <meta property="og:title" content="AI Behaviour Simulation (WIP) | Igor Pilicic" />
+  <meta property="og:description" content="An interactive work-in-progress exploring autonomous NPC behaviour, environmental systems, and AI-assisted engineering." />
+  <meta property="og:image" content="https://standingpillars.com/images/og-image.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="AI Behaviour Simulation (WIP) | Igor Pilicic" />
+  <meta name="twitter:description" content="An interactive work-in-progress exploring autonomous NPC behaviour, environmental systems, and AI-assisted engineering." />
+  <meta name="twitter:image" content="https://standingpillars.com/images/og-image.jpg" />
   <style>
     html, body { margin: 0; padding: 0; width: 100vw; height: 100vh; overflow: hidden; background: #111; }
     canvas { display: block; }
+    .project-context {
+      position: fixed;
+      z-index: 20;
+      top: 16px;
+      left: 16px;
+      max-width: 390px;
+      padding: 14px 16px;
+      color: #f7f8fa;
+      background: rgba(10, 15, 24, 0.88);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      border-radius: 10px;
+      font-family: system-ui, sans-serif;
+      backdrop-filter: blur(8px);
+    }
+    .project-context .status { margin: 0 0 5px; color: #57c7e8; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; }
+    .project-context h1 { margin: 0 0 6px; font-size: 1.15rem; line-height: 1.25; }
+    .project-context p { margin: 0; color: #c3ccda; font-size: 0.82rem; line-height: 1.45; }
+    .project-context a { display: inline-block; margin-top: 9px; color: #7bd8f2; font-size: 0.78rem; pointer-events: auto; }
     * {
       -webkit-user-select: none;
       -moz-user-select: none;
@@ -15,6 +45,13 @@
   </style>
 </head>
 <body>
+
+<main class="project-context">
+  <p class="status">Work in progress</p>
+  <h1>AI Behaviour Simulation</h1>
+  <p>A live Tiny Humans engine experiment exploring autonomous NPC behaviour, environmental systems, and AI-assisted engineering.</p>
+  <a href="../index.html#ai-engineering">Back to Igor Pilicic's portfolio</a>
+</main>
 
 <!-- p5.js -->
 <script src="https://cdn.jsdelivr.net/npm/p5@1.11.0/lib/p5.min.js"></script>

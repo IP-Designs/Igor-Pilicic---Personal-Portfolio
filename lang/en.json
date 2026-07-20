@@ -14,7 +14,7 @@
     "research": "Research",
     "caseStudies": "Case Studies",
     "contact": "Open to Opportunities",
-    "tagline": "consulting \u00b7 design \u00b7 technology",
+    "tagline": "Professional Portfolio \u00b7 Igor Pilicic",
     "allServices": "All Expertise",
     "uxDesign": "UX Design",
     "aiProcurement": "AI Procurement",
@@ -23,8 +23,8 @@
 
   "hero": {
     "eyebrow": "Igor Pilicic",
-    "title": "17 years of solving problems <span class=\"highlight\">nobody assigned me</span> - Igor Pilicic",
-    "subtitle": "From e-commerce builds and award-winning retail campaigns to Lead UX Designer at Roche and AI procurement consulting at Accenture. I see the full picture - then I build the missing pieces.",
+    "title": "Senior UX/Product Designer for <span class=\"highlight\">complex digital products</span>",
+    "subtitle": "I bring 17+ years across UX, product design, enterprise systems, AI evaluation, web, and visual communication. At Roche and Accenture, that combined experience converged on complex challenges in regulated environments.",
     "tagline": "What are you looking for?",
     "tagExperience": "Where have you worked?",
     "tagAiEng": "Can you actually build?",
@@ -100,10 +100,12 @@
 
   "about": {
     "eyebrow": "About Me",
-    "title": "One person, one philosophy: technology serves humans",
-    "lead": "I'm Igor Pilicic. For 17+ years I've been solving problems at the intersection where technology meets people who aren't technologists - designing the interfaces they use, evaluating the AI vendors they depend on, and governing the tools that shape their work. Nobody assigned me most of these roles. I saw the gap and filled it.",
-    "p1": "My path reflects a single thread: <strong>making complex systems understandable and trustworthy</strong>. It started with web design and 3D graphics, evolved through e-commerce and award-winning campaigns at <strong>Harvey Norman</strong>, deepened at <strong>Roche</strong> where I designed manufacturing tools for 10,000+ users, and expanded at <strong>Accenture</strong> into AI vendor evaluation and procurement governance for regulated pharma programs.",
-    "p2": "Standing Pillars is my personal professional portfolio: a place to connect design leadership, AI procurement, OSINT-based due diligence, and AI-assisted engineering. Together they express the same skill: <strong>bridging the gap between humans and technology</strong>, with the structure and traceability that regulated industries demand.",
+    "title": "An unconventional path with a clear focus",
+    "lead": "I'm Igor Pilicic. My primary focus is UX/Product Design for complex digital products - especially where users, business processes, and technology meet. The breadth of my experience is not a collection of unrelated roles; it is how I understand the whole system.",
+    "p1": "Across 17+ years I have worked in web, 3D, e-commerce, branding, enterprise UX, business analysis, AI evaluation, and hands-on digital delivery. One thread connects it all: <strong>making complex systems understandable, usable, and trustworthy</strong>.",
+    "p2": "At <strong>Roche</strong> and <strong>Accenture</strong>, those experiences converged. Design thinking, research, visual communication, facilitation, analysis, and technology evaluation became one practice for solving complex problems in regulated environments. Standing Pillars is now my personal portfolio of that full path - with <strong>Senior UX/Product Design at its centre</strong>.",
+    "personalEyebrow": "Beyond work",
+    "personalText": "I am a Senior UX/Product Designer with substantial enterprise experience and an active independent product practice. I enjoy untangling complex problems, anticipating friction before it becomes expensive, and understanding how people, processes, and technology influence one another. My interest in psychology, anthropology, and sociology helps me see the interpersonal side of a problem, not only the interface or system around it. I pay attention to what remains unsaid. Often, the gap between what someone asks for and what they are actually trying to solve reveals the real problem, and I like helping people articulate it. Outside work, I am a husband and father, and family is central to my life. I follow astronomy and enjoy films, series, and games. Different worlds, same curiosity about people, systems, and what might happen next.",
     "statYears": "Years in Design & Tech (17+ professional)",
     "statReach": "Consumer Reach (HR & SLO campaigns, 2011–2025)",
     "statUsers": "Users Impacted at Roche",
@@ -117,7 +119,7 @@
 
   "availability": {
     "status": "Open to roles in Croatia",
-    "title": "Senior UX, product, and transformation expertise",
+    "title": "Senior UX/Product Design for complex and AI-enabled products",
     "desc": "Open to full-time and part-time employment in Croatia, with remote and hybrid opportunities considered.",
     "tagContract": "Permanent",
     "tagFreelance": "Part-time",
@@ -164,9 +166,9 @@
 
   "services": {
     "eyebrow": "Expertise",
-    "title": "Capabilities built across complex environments",
-    "desc": "My experience connects product design, vendor evaluation, business analysis, and hands-on digital delivery.",
-    "mission": "I contribute wherever complex requirements need to become clear decisions, usable interfaces, and practical implementation steps.",
+    "title": "Broad experience, focused on product design",
+    "desc": "Senior UX/Product Design is my centre; vendor evaluation, business analysis, web, brand, and AI-assisted delivery expand what I can bring to a team.",
+    "mission": "I contribute most where complex requirements need to become clear decisions, usable interfaces, and practical implementation steps.",
     "tierEnterprise": "Core Expertise",
     "tierLocal": "Complementary Expertise",
 
@@ -192,12 +194,17 @@
 
   "experience": {
     "eyebrow": "Experience",
-    "title": "A career built on design thinking and strategic clarity",
+    "title": "17+ years of experience converging in complex environments",
     "current": "Current",
 
-    "job1Date": "Apr 2020 - Present",
-    "job1Title": "Independent UX & Technology Consultant",
-    "job1Company": "Standing Pillars portfolio · Remote | Zagreb, Croatia",
+    "currentRoleDate": "Jun 2026 - Present",
+    "currentRoleTitle": "Senior UX/Product Designer for complex digital products",
+    "currentRoleCompany": "Standing Pillars - personal portfolio · Zagreb, Croatia",
+    "currentRoleNote": "Open to full-time or part-time employment, particularly in UX/Product roles for enterprise and AI-enabled products.",
+
+    "job1Date": "Apr 2020 - Jun 2026",
+    "job1Title": "Founder & Self-employed UX and Technology Consultant",
+    "job1Company": "Standing Pillars · Self-employed | Austria",
     "job1Items": [
       "UI/UX design leadership: user research, UX audits, wireframing, prototyping in Figma and live builds (POCs), design systems, and stakeholder workshops for enterprise and multidisciplinary teams.",
       "AI procurement & OSINT consulting: vendor due diligence, RFP/RFI packages, evaluation scorecards, governance frameworks, and executive-ready materials.",
@@ -208,7 +215,7 @@
 
     "job2Date": "Apr 2024 - Aug 2025",
     "job2Title": "UI/UX Consultant & Presentation Designer · RFP/RFI & OSINT Vendor Diligence",
-    "job2Company": "Accenture · Contract · Remote | Vienna, Austria",
+    "job2Company": "Accenture · Client contract during self-employment · Remote | Vienna, Austria",
     "job2Items": [
       "Standardized RFP/RFI templates and evaluation criteria for AI initiatives in regulated (pharma) programs.",
       "OSINT due diligence: triangulated public sources to verify claims, infer model/tech stacks, and map partner networks.",
@@ -219,7 +226,7 @@
 
     "job3Date": "Jul 2022 - Apr 2023",
     "job3Title": "Lead UX Designer - Root Cause Analysis Investigation Platform",
-    "job3Company": "Roche Diagnostics · Permanent · Hybrid | Basel, Switzerland",
+    "job3Company": "Roche Diagnostics · Client contract during self-employment · Hybrid | Basel, Switzerland",
     "job3Items": [
       "Pioneered an internal RCA investigation tool for scientists in pharmaceutical manufacturing.",
       "Conducted in-depth interviews and applied design thinking; rapid prototyping in Figma led to a dynamic (atomic) UI design.",
@@ -229,7 +236,7 @@
 
     "job4Date": "Apr 2020 - Jul 2022",
     "job4Title": "Lead UI/UX Designer - Regulatory Reporting Tool",
-    "job4Company": "Roche Pharmaceuticals · Permanent · Hybrid | Penzberg, Germany",
+    "job4Company": "Roche Pharmaceuticals · Client contract during self-employment · Hybrid | Penzberg, Germany",
     "job4Items": [
       "Led a diverse team on a transformative E2E reporting tool for Roche's pharmaceutical manufacturing division.",
       "Achieved 30% reduction in manual reporting with significant cost savings on training.",
@@ -492,11 +499,11 @@
     "galleryEra": "2009 \u2013 2017 \u00b7 Retail, Part-time & Beyond",
     "galleryTitle": "Graphic Design Library",
     "galleryDesc": "Promotional campaigns, seasonal sales, product launches and brand collateral from retail, dental tourism, and freelance work.",
-    "galleryContext": "Before design systems and component libraries, there was the print shop. Hundreds of campaigns produced at retail speed \u2014 weekly flyers, seasonal launches, in-store signage \u2014 all built in Photoshop and Illustrator, pixel by pixel. This was the craft before the framework. And honestly? Photoshop and Illustrator are still my best friends. The tools change around you, but the ones that taught you to see never really leave.",
+    "galleryContext": "Before design systems and component libraries, there was the print shop. Hundreds of campaigns produced at retail speed - weekly flyers, seasonal launches, in-store signage - all built in Photoshop and Illustrator, pixel by pixel. This was the craft before the framework. And honestly? Photoshop and Illustrator are still my best friends. The tools change around you, but the ones that taught you to see never really leave.",
     "galleryToggle": "Gallery",
     "interiorEra": "2009 \u2013 2011 \u00b7 3D Visualisation & Interior Design",
     "interiorTitle": "From Render to Reality",
-    "interiorDesc": "3D interior visualisations created in 3ds Max for hospitality clients \u2014 then built for real. The low-res photos were taken on phones of that era, but the spaces speak for themselves.",
+    "interiorDesc": "3D interior visualisations created in 3ds Max for hospitality clients - then built for real. The low-res photos were taken on phones of that era, but the spaces speak for themselves.",
     "interiorLabelRender": "3D Render",
     "interiorLabelBuilt": "Built Result",
     "interiorNote": "Night Bar Venecija, Zagreb - designed and visualised in 2010, built the same year.",
@@ -530,7 +537,7 @@
   "contact": {
     "eyebrow": "Open to Opportunities",
     "title": "Let's discuss a role",
-    "desc": "I am open to full-time and part-time roles in Croatia across UX, product design, business analysis, digital transformation, and technology evaluation.",
+    "desc": "I am primarily seeking Senior UX/Product Designer roles in Croatia, while remaining open to positions connecting product design, business analysis, digital transformation, and technology evaluation.",
     "labelEmail": "Email",
     "labelPhone": "Phone",
     "labelLinkedIn": "LinkedIn",
@@ -559,10 +566,10 @@
     "back": "\u2190 Back to Portfolio",
     "barText": "Portfolio piece \u00b7 iPhone 7 Pre-order Landing Page \u00b7 2016",
     "notesBtn": "Design Notes",
-    "noteResearch": "<strong>Research & Strategy</strong> \u2014 The iPhone 7 was an iterative update. Market analysis indicated that consumer purchase decisions would hinge primarily on storage capacity rather than incremental hardware improvements such as camera resolution. This insight became the core design driver: surface only the information that matters at the point of conversion \u2014 model, colour, and gigabytes.",
-    "noteDesign": "<strong>Design Decisions</strong> \u2014 Apple's Croatian partner supplied official design guidelines. I deliberately deviated from them. Instead of feature-heavy layouts, the interface was reduced to minimal circular buttons representing storage tiers, with hover states that reflect each phone's actual finish colour. The black background was chosen to complement the cinematic hero video and establish a premium, editorial tone \u2014 letting the product imagery carry the visual weight.",
-    "noteOutcome": "<strong>Outcome</strong> \u2014 Awarded 'Best Promotional Landing Page' in Croatia (Appcom / Apple Partner, 2016). The page contributed to the highest national iPhone 7 pre-order sales for the retailer.",
-    "heritageNote": "<em>The product copy below remains in its original Croatian. This page was hand-coded in 2016 \u2014 every pixel placed with intention, every word chosen in the language it was sold in. Some things are better left as they were made.</em>",
+    "noteResearch": "<strong>Research & Strategy</strong> - The iPhone 7 was an iterative update. Market analysis indicated that consumer purchase decisions would hinge primarily on storage capacity rather than incremental hardware improvements such as camera resolution. This insight became the core design driver: surface only the information that matters at the point of conversion - model, colour, and gigabytes.",
+    "noteDesign": "<strong>Design Decisions</strong> - Apple's Croatian partner supplied official design guidelines. I deliberately deviated from them. Instead of feature-heavy layouts, the interface was reduced to minimal circular buttons representing storage tiers, with hover states that reflect each phone's actual finish colour. The black background was chosen to complement the cinematic hero video and establish a premium, editorial tone - letting the product imagery carry the visual weight.",
+    "noteOutcome": "<strong>Outcome</strong> - Awarded 'Best Promotional Landing Page' in Croatia (Appcom / Apple Partner, 2016). The page contributed to the highest national iPhone 7 pre-order sales for the retailer.",
+    "heritageNote": "<em>The product copy below remains in its original Croatian. This page was hand-coded in 2016 - every pixel placed with intention, every word chosen in the language it was sold in. Some things are better left as they were made.</em>",
     "footer": "Landing page designed and developed by Igor Pilicic, 2016."
   },
 

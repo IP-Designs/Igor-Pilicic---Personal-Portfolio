@@ -1,4 +1,4 @@
-# Igor Pilicic — Personal Portfolio
+# Igor Pilicic - Personal Portfolio
 
 Source for [standingpillars.com](https://standingpillars.com), the personal professional portfolio of Igor Pilicic.
 
@@ -40,7 +40,7 @@ node cache-bust.js
 
 ## Deployment
 
-The site is static and can be deployed by uploading the repository contents to Cloudflare Pages. Upload the repository root—not a parent folder and not a nested copy.
+The site is static and can be deployed by uploading the repository contents to Cloudflare Pages. Upload the repository root - not a parent folder and not a nested copy.
 
 ## Privacy
 
