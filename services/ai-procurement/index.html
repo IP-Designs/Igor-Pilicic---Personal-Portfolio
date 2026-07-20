@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Vendor Evaluation &amp; Procurement | Igor Pilicic</title>
+  <meta name="description" content="AI vendor evaluation and procurement experience covering OSINT due diligence, RFP/RFI structure, scorecards, governance, and risk assessment.">
+
+  <link rel="icon" type="image/png" sizes="48x48" href="../../images/favicon.png">
+  <link rel="icon" type="image/svg+xml" href="../../images/favicon.svg">
+  <link rel="apple-touch-icon" sizes="192x192" href="../../images/favicon-192.png">
+
+  <link rel="canonical" href="https://standingpillars.com/services/ai-procurement/">
+
+  <link rel="alternate" hreflang="en" href="https://standingpillars.com/services/ai-procurement/">
+  <link rel="alternate" hreflang="de" href="https://standingpillars.com/de/services/ai-procurement/">
+  <link rel="alternate" hreflang="hr" href="https://standingpillars.com/hr/services/ai-procurement/">
+  <link rel="alternate" hreflang="x-default" href="https://standingpillars.com/services/ai-procurement/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://standingpillars.com/services/ai-procurement/">
+  <meta property="og:title" content="AI Vendor Evaluation & Procurement | Igor Pilicic">
+  <meta property="og:description" content="AI vendor evaluation and procurement experience covering OSINT due diligence, RFP/RFI structure, scorecards, governance, and risk assessment.">
+  <meta property="og:image" content="https://standingpillars.com/images/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:site_name" content="Standing Pillars">
+
+  <!-- Theme Color -->
+  <meta name="theme-color" content="#0f1520">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="AI Vendor Evaluation & Procurement | Igor Pilicic">
+  <meta name="twitter:description" content="AI vendor evaluation and procurement experience covering OSINT due diligence, RFP/RFI structure, scorecards, governance, and risk assessment.">
+  <meta name="twitter:image" content="https://standingpillars.com/images/og-image.jpg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../styles.css?v=87215f8d">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://standingpillars.com/" },
+      { "@type": "ListItem", "position": 2, "name": "AI Procurement / Vendor Evaluation", "item": "https://standingpillars.com/services/ai-procurement/" }
+    ]
+  }
+  </script>
+  <script>if(localStorage.getItem('theme')!=='light')document.documentElement.setAttribute('data-theme','dark')</script>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar" aria-label="Main navigation">
+    <div class="container nav-container">
+      <a href="../../" class="nav-logo">
+        <svg class="nav-logo-mark" viewBox="0 0 48 48" fill="currentColor" height="36" width="36" aria-hidden="true">
+          <path d="M14.5,20.6c-2,0-3.6,1.6-3.6,3.6v17.3h1.8V24.4c0-1,0.8-1.9,1.9-1.9s1.9,0.8,1.9,1.9v17.1h1.8V24.2C18.2,22.2,16.5,20.6,14.5,20.6z"/>
+          <path d="M24,20.6c-2,0-3.6,1.6-3.6,3.6v17.3h1.8V24.4c0-1,0.8-1.9,1.9-1.9c1,0,1.9,0.8,1.9,1.9v17.1h1.8V24.2C27.6,22.2,26,20.6,24,20.6z"/>
+          <path d="M43.5,14.3H4.5c-0.8,0-1.4,0.6-1.4,1.4s0.6,1.4,1.4,1.4h39.1c0.8,0,1.4-0.6,1.4-1.4S44.3,14.3,43.5,14.3z"/>
+          <path d="M45.8,8.4H2.2c-1.3,0-2.3,1-2.3,2.3v0c0,1.3,1,2.3,2.3,2.3h43.6c1.3,0,2.3-1,2.3-2.3v0C48.1,9.4,47.1,8.4,45.8,8.4z"/>
+          <path d="M38.8,18.4H9c-1.2,0-2.2,1-2.2,2.2v1.1C6.8,23,7.8,24,9,24h1c0.1-2.5,2.1-4.4,4.5-4.4c2.5,0,4.5,2,4.5,4.4h0.4c0.1-2.5,2.1-4.4,4.5-4.4s4.5,2,4.5,4.4h0.4c0.1-2.5,2.1-4.4,4.5-4.4c2.5,0,4.5,2,4.5,4.4h0.8c1.2,0,2.2-1,2.2-2.2v-1.1C41,19.4,40,18.4,38.8,18.4z"/>
+          <path d="M33.5,20.6c-2,0-3.6,1.6-3.6,3.6v17.3h1.8V24.4c0-1,0.8-1.9,1.9-1.9s1.9,0.8,1.9,1.9v17.1h1.8V24.2C37.1,22.2,35.4,20.6,33.5,20.6z"/>
+        </svg>
+        <span class="nav-logo-wrap">
+          <span class="nav-logo-text">Standing Pillars</span>
+          <span class="nav-logo-tagline">Professional Portfolio · Igor Pilicic</span>
+        </span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="../../#about">About</a></li>
+        <li class="nav-dropdown">
+          <a href="../../#services" class="nav-dropdown-toggle">Expertise <svg class="chevron" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 4.5L6 7.5L9 4.5"/></svg></a>
+          <div class="nav-dropdown-menu">
+            <a href="../../#services">All Expertise</a>
+            <div class="dropdown-divider"></div>
+            <a href="../ux-design/">UX Design</a>
+            <a href="./">AI Procurement</a>
+            <a href="../local-business/">Web & Brand Design</a>
+          </div>
+        </li>
+        <li><a href="../../#experience">Experience</a></li>
+        <li><a href="../../#ai-engineering">AI Engineering</a></li>
+        <li><a href="../../#case-studies">Case Studies</a></li>
+        <li><a href="../../#contact" class="nav-cta">Open to Opportunities</a></li>
+        <li>
+          <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+            <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+            <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- Breadcrumb -->
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="../../">Home</a>
+        <span aria-hidden="true">/</span>
+        <span aria-current="page">AI Procurement</span>
+      </nav>
+    </div>
+
+    <!-- Hero -->
+    <header class="service-hero">
+      <div class="container">
+        <p class="section-eyebrow">Core Expertise Consulting</p>
+        <h1 class="service-hero-title">AI Procurement &amp; OSINT Consulting</h1>
+        <p class="service-hero-desc">I evaluate the vendors so you don't get burned. OSINT-based due diligence, structured RFPs, and governance frameworks that surface risks before contracts are signed. Years of building the tools myself means I know exactly what to demand from vendors.</p>
+      </div>
+    </header>
+
+    <!-- Service Graph -->
+    <div class="service-graph-wrapper">
+      <canvas id="serviceGraph" data-service="ai-procurement" aria-label="Knowledge graph showing AI Procurement skill connections"></canvas>
+    </div>
+
+    <!-- What I Do -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow">Expertise</p>
+          <h2 class="section-title">What I deliver</h2>
+        </div>
+        <div class="services-grid services-grid-three">
+          <div class="service-pillar">
+            <div class="service-icon">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="8" y1="11" x2="14" y2="11"/><line x1="11" y1="8" x2="11" y2="14"/>
+              </svg>
+            </div>
+            <h3>OSINT Vendor Due Diligence</h3>
+            <p class="service-desc">Deep open-source intelligence investigations into AI vendors. I uncover what sales decks hide: funding instability, technical debt, data handling practices, regulatory gaps, and reputational risks - before you sign anything.</p>
+          </div>
+          <div class="service-pillar">
+            <div class="service-icon">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/>
+              </svg>
+            </div>
+            <h3>RFP/RFI Development</h3>
+            <p class="service-desc">Structured procurement documents that ask the right questions. I write RFPs that force vendors to prove their claims with evidence - not marketing language. Templates designed for AI-specific evaluation criteria.</p>
+          </div>
+          <div class="service-pillar">
+            <div class="service-icon">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/>
+              </svg>
+            </div>
+            <h3>Evaluation Scorecards &amp; Matrices</h3>
+            <p class="service-desc">Objective, weighted comparison frameworks that remove gut-feeling from vendor selection. Every criterion is traceable, every score is justified. Decision logs that hold up to audit.</p>
+          </div>
+          <div class="service-pillar">
+            <div class="service-icon">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              </svg>
+            </div>
+            <h3>Risk Assessment (GDPR, GxP)</h3>
+            <p class="service-desc">Systematic evaluation of vendor-lock-in risks, data protection compliance, and regulatory exposure. I map the real risks to your specific environment - pharma, healthcare, or regulated enterprise.</p>
+          </div>
+          <div class="service-pillar">
+            <div class="service-icon">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
+              </svg>
+            </div>
+            <h3>Decision Logs &amp; Traceability</h3>
+            <p class="service-desc">Every procurement decision documented with rationale, evidence, and audit trail. In regulated industries, you need to show why you chose a vendor - not just that you did. I build that paper trail from day one.</p>
+          </div>
+          <div class="service-pillar">
+            <div class="service-icon">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+              </svg>
+            </div>
+            <h3>Executive Materials &amp; C-Suite Communication</h3>
+            <p class="service-desc">Translating technical findings into clear, actionable recommendations for leadership. I prepare board-ready presentations, executive summaries, and decision briefs that executives actually read and act on.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why It Matters -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow">Track Record</p>
+          <h2 class="section-title">Results, not just deliverables</h2>
+        </div>
+        <div class="results-grid" id="resultsGrid">
+          <div class="result-card">
+            <span class="result-number" data-target="40" data-suffix="+">0</span>
+            <p class="result-label">AI vendors evaluated through OSINT-based due diligence</p>
+          </div>
+          <div class="result-card">
+            <span class="result-number" data-target="3" data-suffix="">0</span>
+            <p class="result-label">High-risk vendors flagged and rejected before contract stage</p>
+          </div>
+          <div class="result-card">
+            <span class="result-number" data-target="17" data-suffix="+">0</span>
+            <p class="result-label">Years of experience building the tools vendors claim to sell</p>
+          </div>
+          <div class="result-card">
+            <span class="result-number" data-target="100" data-suffix="%">0</span>
+            <p class="result-label">Procurement decisions documented with full audit trail</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Process -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow">Process</p>
+          <h2 class="section-title">How I work</h2>
+          <p class="section-desc">Every engagement follows a structured approach - adapted to scale, never skipped.</p>
+        </div>
+        <div class="process-steps">
+          <div class="process-step">
+            <span class="process-number">01</span>
+            <h3>Scope</h3>
+            <p>I map your requirements, constraints, and regulatory landscape. What problem are you actually solving? What does your existing stack look like? Where are the real risks?</p>
+          </div>
+          <div class="process-step">
+            <span class="process-number">02</span>
+            <h3>Investigate</h3>
+            <p>OSINT-based research into shortlisted vendors. Funding, leadership, technical claims, customer reviews, regulatory history, data handling practices - everything that matters, nothing that doesn't.</p>
+          </div>
+          <div class="process-step">
+            <span class="process-number">03</span>
+            <h3>Evaluate</h3>
+            <p>Structured scorecards with weighted criteria. Side-by-side comparison, risk matrices, and decision logs. Every score backed by evidence, not opinion.</p>
+          </div>
+          <div class="process-step">
+            <span class="process-number">04</span>
+            <h3>Recommend</h3>
+            <p>Executive-ready materials with clear recommendations, risk summaries, and implementation guidance. I present to your leadership and answer the hard questions they'll ask.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Risk Areas -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow">Risk Areas</p>
+          <h2 class="section-title">What I look for</h2>
+        </div>
+        <div class="industry-grid">
+          <div class="industry-card">
+            <h3>Vendor Lock-in</h3>
+            <p>Proprietary data formats, API dependencies, contractual traps, and migration costs. I identify the exit barriers before you walk in.</p>
+          </div>
+          <div class="industry-card">
+            <h3>Data Protection &amp; GDPR</h3>
+            <p>Where does your data go? Who processes it? Under which jurisdiction? I audit data flows, sub-processors, and privacy policies for real compliance - not checkbox compliance.</p>
+          </div>
+          <div class="industry-card">
+            <h3>GxP &amp; Regulatory Fit</h3>
+            <p>AI tools in regulated environments need validation, audit trails, and change control. I assess whether vendors actually understand your regulatory obligations or just claim to.</p>
+          </div>
+          <div class="industry-card">
+            <h3>Technical Claims vs. Reality</h3>
+            <p>AI vendors love impressive numbers. I verify performance claims, benchmark methodologies, and technical architecture against what's actually achievable and proven.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section service-cta">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Looking for technology-evaluation experience?</h2>
+          <p class="section-desc">I am open to procurement, governance, vendor-risk, and digital-transformation roles where structured evaluation and traceability matter.</p>
+        </div>
+        <div class="cta-actions">
+          <a href="../../#contact" class="btn btn-primary">Open to Opportunities</a>
+          <a href="../../#case-studies" class="btn btn-outline">View Case Studies</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <a href="../../" class="nav-logo footer-brand-link">
+          <svg class="nav-logo-mark" viewBox="0 0 48 48" fill="currentColor" height="36" width="36" aria-hidden="true">
+            <path d="M14.5,20.6c-2,0-3.6,1.6-3.6,3.6v17.3h1.8V24.4c0-1,0.8-1.9,1.9-1.9s1.9,0.8,1.9,1.9v17.1h1.8V24.2C18.2,22.2,16.5,20.6,14.5,20.6z"/>
+            <path d="M24,20.6c-2,0-3.6,1.6-3.6,3.6v17.3h1.8V24.4c0-1,0.8-1.9,1.9-1.9c1,0,1.9,0.8,1.9,1.9v17.1h1.8V24.2C27.6,22.2,26,20.6,24,20.6z"/>
+            <path d="M43.5,14.3H4.5c-0.8,0-1.4,0.6-1.4,1.4s0.6,1.4,1.4,1.4h39.1c0.8,0,1.4-0.6,1.4-1.4S44.3,14.3,43.5,14.3z"/>
+            <path d="M45.8,8.4H2.2c-1.3,0-2.3,1-2.3,2.3v0c0,1.3,1,2.3,2.3,2.3h43.6c1.3,0,2.3-1,2.3-2.3v0C48.1,9.4,47.1,8.4,45.8,8.4z"/>
+            <path d="M38.8,18.4H9c-1.2,0-2.2,1-2.2,2.2v1.1C6.8,23,7.8,24,9,24h1c0.1-2.5,2.1-4.4,4.5-4.4c2.5,0,4.5,2,4.5,4.4h0.4c0.1-2.5,2.1-4.4,4.5-4.4s4.5,2,4.5,4.4h0.4c0.1-2.5,2.1-4.4,4.5-4.4c2.5,0,4.5,2,4.5,4.4h0.8c1.2,0,2.2-1,2.2-2.2v-1.1C41,19.4,40,18.4,38.8,18.4z"/>
+            <path d="M33.5,20.6c-2,0-3.6,1.6-3.6,3.6v17.3h1.8V24.4c0-1,0.8-1.9,1.9-1.9s1.9,0.8,1.9,1.9v17.1h1.8V24.2C37.1,22.2,35.4,20.6,33.5,20.6z"/>
+          </svg>
+          <span class="nav-logo-wrap">
+            <span class="nav-logo-text">Standing Pillars</span>
+            <span class="nav-logo-tagline">Professional Portfolio · Igor Pilicic</span>
+          </span>
+        </a>
+        <p>&copy; 2026 Standing Pillars - Igor Pilicic. All rights reserved.</p>
+      </div>
+      <div class="footer-links">
+        <a href="../../#about">About</a>
+        <a href="../../#services">Expertise</a>
+        <a href="../../#experience">Experience</a>
+        <a href="../../#contact">Contact</a>
+        <a href="../../privacy.html" class="privacy-link">Privacy Policy</a>
+        <a href="../../imprint.html" class="privacy-link">Imprint</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../../script.js?v=1590483b"></script>
+  <script>
+  (function() {
+    var grid = document.getElementById('resultsGrid');
+    if (!grid) return;
+    var counted = false;
+
+    function formatNum(n) {
+      return n.toLocaleString('en-US');
+    }
+
+    function countUp(el, target, suffix, duration) {
+      var start = 0;
+      var startTime = null;
+      function step(ts) {
+        if (!startTime) startTime = ts;
+        var progress = Math.min((ts - startTime) / duration, 1);
+        var ease = 1 - Math.pow(1 - progress, 3);
+        var current = Math.floor(ease * target);
+        el.textContent = formatNum(current) + suffix;
+        if (progress < 1) requestAnimationFrame(step);
+      }
+      requestAnimationFrame(step);
+    }
+
+    function onVisible() {
+      if (counted) return;
+      var rect = grid.getBoundingClientRect();
+      if (rect.top < window.innerHeight * 0.85) {
+        counted = true;
+        var els = grid.querySelectorAll('.result-number[data-target]');
+        for (var i = 0; i < els.length; i++) {
+          var target = parseInt(els[i].getAttribute('data-target'), 10);
+          var suffix = els[i].getAttribute('data-suffix') || '';
+          countUp(els[i], target, suffix, target > 1000 ? 2000 : 1200);
+        }
+        window.removeEventListener('scroll', onVisible);
+      }
+    }
+
+    window.addEventListener('scroll', onVisible);
+    onVisible();
+  })();
+  </script>
+  <script src="../../service-graph.js" defer></script>
+</body>
+</html>
