@@ -28,7 +28,7 @@ const MIME = {
   '.xml': 'application/xml',
 };
 
-http.createServer((req, res) => {
+const server = http.createServer((req, res) => {
   let url = decodeURIComponent(req.url.split('?')[0]);
   if (url.endsWith('/')) url += 'index.html';
 
@@ -55,6 +55,10 @@ http.createServer((req, res) => {
       res.end(data);
     });
   });
-}).listen(PORT, () => {
+});
+
+server.listen(PORT, () => {
   console.log(`http://localhost:${PORT}`);
 });
+
+module.exports = server;

@@ -467,51 +467,6 @@ function openLightbox(galleryItem) {
   overlay.classList.add('active');
 }
 
-/* --- GDPR Consent Popup --- */
-(function() {
-  var overlay = document.getElementById('gdprOverlay');
-  if (!overlay) return;
-
-  var consent = localStorage.getItem('gdpr-consent');
-
-  // Already answered - hide popup, load analytics if accepted
-  if (consent) {
-    overlay.remove();
-    if (consent === 'accepted') loadAnalytics();
-    return;
-  }
-
-  document.getElementById('gdprAccept').addEventListener('click', function() {
-    localStorage.setItem('gdpr-consent', 'accepted');
-    dismiss();
-    loadAnalytics();
-  });
-
-  document.getElementById('gdprDecline').addEventListener('click', function() {
-    localStorage.setItem('gdpr-consent', 'declined');
-    dismiss();
-  });
-
-  function dismiss() {
-    overlay.classList.add('hidden');
-    setTimeout(function() { overlay.remove(); }, 300);
-  }
-
-  function loadAnalytics() {
-    // TODO: Replace GA_MEASUREMENT_ID with your actual Google Analytics ID
-    // var script = document.createElement('script');
-    // script.async = true;
-    // script.src = 'https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID';
-    // document.head.appendChild(script);
-    // script.onload = function() {
-    //   window.dataLayer = window.dataLayer || [];
-    //   function gtag(){ dataLayer.push(arguments); }
-    //   gtag('js', new Date());
-    //   gtag('config', 'GA_MEASUREMENT_ID');
-    // };
-  }
-})();
-
 /* --- Privacy link language routing --- */
 document.addEventListener('i18n:changed', function(e) {
   var lang = e.detail && e.detail.lang;

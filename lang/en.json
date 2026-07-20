@@ -8,17 +8,17 @@
   "nav": {
     "about": "About",
     "howIWork": "How I Work",
-    "services": "Services",
+    "services": "Expertise",
     "experience": "Experience",
     "aiEngineering": "AI Engineering",
     "research": "Research",
     "caseStudies": "Case Studies",
-    "contact": "Get in Touch",
+    "contact": "Open to Opportunities",
     "tagline": "consulting \u00b7 design \u00b7 technology",
-    "allServices": "All Services",
+    "allServices": "All Expertise",
     "uxDesign": "UX Design",
     "aiProcurement": "AI Procurement",
-    "localBusiness": "Local Business"
+    "localBusiness": "Web & Brand Design"
   },
 
   "hero": {
@@ -28,7 +28,7 @@
     "tagline": "What are you looking for?",
     "tagExperience": "Where have you worked?",
     "tagAiEng": "Can you actually build?",
-    "tagServices": "What can you do for me?",
+    "tagServices": "What do you bring?",
     "tagDemo": "How does it all connect?",
     "tagCases": "See the results",
     "tagContact": "Let's talk"
@@ -37,7 +37,7 @@
   "followup": {
     "services": "→ Where have you worked?",
     "experience": "→ But can you actually build?",
-    "howIWork": "→ What can you do for me?",
+    "howIWork": "→ What do you bring?",
     "aiEng": "→ Show me something real",
     "demo": "→ See the results",
     "research": "→ What's the experiment behind this?",
@@ -49,7 +49,7 @@
     "design": "Design",
     "evaluate": "Evaluate",
     "build": "Build",
-    "localBusiness": "Local Business",
+    "localBusiness": "Web & Brand Design",
     "userResearch": "User Research",
     "atomicDesign": "Atomic Design",
     "scorecards": "Scorecards",
@@ -103,7 +103,7 @@
     "title": "One person, one philosophy: technology serves humans",
     "lead": "I'm Igor Pilicic. For 17+ years I've been solving problems at the intersection where technology meets people who aren't technologists - designing the interfaces they use, evaluating the AI vendors they depend on, and governing the tools that shape their work. Nobody assigned me most of these roles. I saw the gap and filled it.",
     "p1": "My path reflects a single thread: <strong>making complex systems understandable and trustworthy</strong>. It started with web design and 3D graphics, evolved through e-commerce and award-winning campaigns at <strong>Harvey Norman</strong>, deepened at <strong>Roche</strong> where I designed manufacturing tools for 10,000+ users, and expanded at <strong>Accenture</strong> into AI vendor evaluation and procurement governance for regulated pharma programs.",
-    "p2": "Now, through <strong>Standing Pillars</strong>, I bring these together. Design leadership, AI procurement, OSINT-based due diligence, and AI-assisted engineering aren't separate services - they're connected expressions of the same skill: <strong>bridging the gap between humans and technology</strong>, with the structure and traceability that regulated industries demand.",
+    "p2": "Standing Pillars is my personal professional portfolio: a place to connect design leadership, AI procurement, OSINT-based due diligence, and AI-assisted engineering. Together they express the same skill: <strong>bridging the gap between humans and technology</strong>, with the structure and traceability that regulated industries demand.",
     "statYears": "Years in Design & Tech (17+ professional)",
     "statReach": "Consumer Reach (HR & SLO campaigns, 2011–2025)",
     "statUsers": "Users Impacted at Roche",
@@ -116,15 +116,15 @@
   },
 
   "availability": {
-    "status": "Available for new engagements",
-    "title": "Enterprise governance or a website for your shop - I do both",
-    "desc": "Available for enterprise contracts, freelance projects, or affordable local business engagements - remote-first with on-site flexibility across Europe.",
-    "tagContract": "Contract",
-    "tagFreelance": "Freelance",
+    "status": "Open to roles in Croatia",
+    "title": "Senior UX, product, and transformation expertise",
+    "desc": "Open to full-time and part-time employment in Croatia, with remote and hybrid opportunities considered.",
+    "tagContract": "Permanent",
+    "tagFreelance": "Part-time",
     "tagFulltime": "Full-time",
-    "tagRemote": "Remote-first",
-    "tagOnsite": "On-site flexible",
-    "ctaPrimary": "Get in Touch"
+    "tagRemote": "Hybrid",
+    "tagOnsite": "Remote",
+    "ctaPrimary": "Open to Opportunities"
   },
 
   "whyMe": {
@@ -139,9 +139,9 @@
     "card4Title": "Outcomes Over Deliverables",
     "card4Desc": "30% reduction in manual reporting at Roche. Award-winning campaigns. Governance frameworks that cut rework. I measure success by what changed, not what shipped.",
     "card5Title": "Every Scale, Same Standards",
-    "card5Desc": "Enterprise pharma or local paint shop - every client gets the same structured thinking, honest guidance, and quality. Technology should serve everyone, not just those with six-figure budgets.",
-    "card6Title": "European Reach, Remote-First",
-    "card6Desc": "EU-based, multilingual, available on-site across Austria, Germany, Switzerland, Croatia, and beyond. No visa overhead, no timezone gaps."
+    "card5Desc": "From enterprise pharma to growing digital teams, I bring the same structured thinking, honest guidance, and commitment to quality.",
+    "card6Title": "Croatia-Based, International Experience",
+    "card6Desc": "Based in Zagreb and experienced with international teams across Austria, Germany, Switzerland, and Croatia. Open to on-site, hybrid, and remote work."
   },
 
   "howIWork": {
@@ -156,37 +156,37 @@
     "connectorGoverns": "Governs",
     "buildTitle": "Build",
     "buildDesc": "I direct AI to produce production-grade code. Same governance as vendor evaluation: specify, architect, validate, document.",
-    "branchLabel": "Same philosophy, accessible scale",
-    "localTitle": "Local Business",
-    "localDesc": "The same care, applied affordably. Websites, branding, honest tech guidance - for shops, tradespeople, and small businesses navigating a confusing market.",
-    "thesis": "Technology shouldn't only serve enterprises with six-figure budgets. Someone still needs to bridge the gap between humans and technology - at every scale. That's what I do."
+    "branchLabel": "Visual communication",
+    "localTitle": "Web & Brand Design",
+    "localDesc": "Web, brand, motion, and visual communication skills that complement product and transformation work.",
+    "thesis": "Whatever the scale, my role is to make technology clearer, more usable, and more trustworthy."
   },
 
   "services": {
-    "eyebrow": "Services",
-    "title": "Enterprise to local - same standards, right scale",
-    "desc": "I bring the same structured thinking to a pharma governance framework and a bakery's first website. The methodology scales. The care doesn't change.",
-    "mission": "Technology shouldn't only serve enterprises with six-figure budgets. I believe every business - from Roche to your neighbourhood shop - deserves clarity, honesty, and quality. That's not charity. That's the job.",
-    "tierEnterprise": "Enterprise",
-    "tierLocal": "Accessible Pricing",
+    "eyebrow": "Expertise",
+    "title": "Capabilities built across complex environments",
+    "desc": "My experience connects product design, vendor evaluation, business analysis, and hands-on digital delivery.",
+    "mission": "I contribute wherever complex requirements need to become clear decisions, usable interfaces, and practical implementation steps.",
+    "tierEnterprise": "Core Expertise",
+    "tierLocal": "Complementary Expertise",
 
     "pillar1Title": "Design Leadership",
-    "pillar1Desc": "I design the tools people actually use. Enterprise UX/UI for complex systems in pharma, healthcare, and regulated industries - grounded in real workflows, not assumptions.",
+    "pillar1Desc": "I design the tools people actually use. Core Expertise UX/UI for complex systems in pharma, healthcare, and regulated industries - grounded in real workflows, not assumptions.",
     "pillar1Items": ["User Research & Stakeholder Interviews", "UX Audits & Heuristic Evaluation", "Wireframing & Prototyping (Figma)", "Design Systems & Atomic UI", "Stakeholder Workshops (50+ participants)", "E2E Reporting & Analytics Tooling", "Visual Design & Brand Strategy", "2D/3D Animation & Visualisation"],
     "pillar1Connects": "→ Connects to: I know what good tools look like, so I know what to demand from vendors.",
-    "pillar1Link": "Explore UX Design Services →",
+    "pillar1Link": "Explore UX Design Expertise →",
 
-    "pillar2Title": "AI Procurement & OSINT Consulting",
+    "pillar2Title": "AI Procurement / Vendor Evaluation",
     "pillar2Desc": "I evaluate the vendors so you don't get burned. OSINT-based due diligence, structured RFPs, and governance frameworks that surface risks before contracts are signed.",
     "pillar2Items": ["OSINT Vendor Due Diligence", "RFP/RFI Development & Templates", "Evaluation Scorecards & Matrices", "Risk Assessment (Lock-in, GDPR, GxP)", "Decision Logs & Traceability", "Executive Materials & C-Suite Communication"],
     "pillar2Connects": "→ Connects to: vendor evaluation sharpened by years of building the tools myself.",
-    "pillar2Link": "Explore AI Procurement Services →",
-    "pillar3Link": "Explore Local Business Services →",
+    "pillar2Link": "Explore AI Procurement Expertise →",
+    "pillar3Link": "Explore Web & Brand Design Expertise →",
 
-    "pillar3Title": "Technology for Local Business",
-    "pillar3Desc": "The AI wave has left many small businesses confused and scared. I offer the same structured thinking at an accessible price - no jargon, no upselling, just honest work that helps your business get online and stay in control.",
-    "pillar3Items": ["Website Design & Development", "Logo & Brand Identity", "Google Business & Local SEO Setup", "AI Integration - Only Where It Helps", "Honest Tech Guidance (No Upselling)", "Ongoing Support & Maintenance"],
-    "pillar3Note": "Designed for: shops, tradespeople, restaurants, clinics, freelancers, and anyone who deserves a proper online presence without the enterprise price tag.",
+    "pillar3Title": "Technology for Web & Brand Design",
+    "pillar3Desc": "Earlier web, e-commerce, branding, motion, and 3D work complements my enterprise UX and technology experience.",
+    "pillar3Items": ["Website Design & Development", "Logo & Brand Identity", "Google Business & Local SEO Setup", "AI Integration - Only Where It Helps", "Technology Guidance", "Digital Delivery"],
+    "pillar3Note": "Relevant to teams that value a designer who understands the full path from visual identity to working digital products.",
     "pillar3Connects": "→ Same person, same quality, same ethics - just the right scale for your business."
   },
 
@@ -196,13 +196,13 @@
     "current": "Current",
 
     "job1Date": "Apr 2020 - Present",
-    "job1Title": "Founder & Principal Consultant",
-    "job1Company": "Standing Pillars · Remote | Sankt Johann in Tirol, Austria",
+    "job1Title": "Independent UX & Technology Consultant",
+    "job1Company": "Standing Pillars portfolio · Remote | Zagreb, Croatia",
     "job1Items": [
-      "UI/UX design leadership: user research, UX audits, wireframing, prototyping in Figma and live builds (POCs), design systems, and stakeholder workshops for enterprise and local clients.",
+      "UI/UX design leadership: user research, UX audits, wireframing, prototyping in Figma and live builds (POCs), design systems, and stakeholder workshops for enterprise and multidisciplinary teams.",
       "AI procurement & OSINT consulting: vendor due diligence, RFP/RFI packages, evaluation scorecards, governance frameworks, and executive-ready materials.",
       "Digital design: visual identity, brand strategy, 2D/3D modelling and animation (3ds Max), motion graphics, and promotional content.",
-      "Web design & development: responsive websites, landing pages, and web applications for businesses of all sizes.",
+      "Web design & development: responsive websites, landing pages, and web applications for organisations and independent projects.",
       "AI-assisted engineering: prompt-driven development of production-grade tools, including a 30K-line 2D game engine (WIP) developed through structured AI collaboration - also serving as the platform for an <a href='#simulation-demo' class='u25-link'>AI behavioural experiment</a> inspired by the Universe 25 initiative."
     ],
 
@@ -219,7 +219,7 @@
 
     "job3Date": "Jul 2022 - Apr 2023",
     "job3Title": "Lead UX Designer - Root Cause Analysis Investigation Platform",
-    "job3Company": "Roche Diagnostics · Contract · Hybrid | Basel, Switzerland",
+    "job3Company": "Roche Diagnostics · Permanent · Hybrid | Basel, Switzerland",
     "job3Items": [
       "Pioneered an internal RCA investigation tool for scientists in pharmaceutical manufacturing.",
       "Conducted in-depth interviews and applied design thinking; rapid prototyping in Figma led to a dynamic (atomic) UI design.",
@@ -229,7 +229,7 @@
 
     "job4Date": "Apr 2020 - Jul 2022",
     "job4Title": "Lead UI/UX Designer - Regulatory Reporting Tool",
-    "job4Company": "Roche Pharmaceuticals · Contract · Hybrid | Penzberg, Germany",
+    "job4Company": "Roche Pharmaceuticals · Permanent · Hybrid | Penzberg, Germany",
     "job4Items": [
       "Led a diverse team on a transformative E2E reporting tool for Roche's pharmaceutical manufacturing division.",
       "Achieved 30% reduction in manual reporting with significant cost savings on training.",
@@ -263,8 +263,8 @@
       "Drove online presence growth, increasing website traffic and sales conversions."
     ],
     "job8Date": "2009 - 2011",
-    "job8Title": "Freelance Designer & Developer",
-    "job8Company": "Self-employed · Freelance | Zagreb, Croatia",
+    "job8Title": "Part-time Designer & Developer",
+    "job8Company": "Self-employed · Part-time | Zagreb, Croatia",
     "job8Items": [
       "Designed and developed websites, landing pages, and web applications for local businesses and private clients.",
       "Created print materials including posters, jumbo posters, flyers, and Google Ads campaigns.",
@@ -489,7 +489,7 @@
       "btn": "View Live Demo"
     },
 
-    "galleryEra": "2009 \u2013 2017 \u00b7 Retail, Freelance & Beyond",
+    "galleryEra": "2009 \u2013 2017 \u00b7 Retail, Part-time & Beyond",
     "galleryTitle": "Graphic Design Library",
     "galleryDesc": "Promotional campaigns, seasonal sales, product launches and brand collateral from retail, dental tourism, and freelance work.",
     "galleryContext": "Before design systems and component libraries, there was the print shop. Hundreds of campaigns produced at retail speed \u2014 weekly flyers, seasonal launches, in-store signage \u2014 all built in Photoshop and Illustrator, pixel by pixel. This was the craft before the framework. And honestly? Photoshop and Illustrator are still my best friends. The tools change around you, but the ones that taught you to see never really leave.",
@@ -528,31 +528,31 @@
   },
 
   "contact": {
-    "eyebrow": "Get in Touch",
-    "title": "Let's discuss how I can help",
-    "desc": "Whether you're an enterprise team needing design leadership, a pharma program evaluating AI vendors, or a local business owner who just needs a great website - I'm ready to talk.",
+    "eyebrow": "Open to Opportunities",
+    "title": "Let's discuss a role",
+    "desc": "I am open to full-time and part-time roles in Croatia across UX, product design, business analysis, digital transformation, and technology evaluation.",
     "labelEmail": "Email",
     "labelPhone": "Phone",
     "labelLinkedIn": "LinkedIn",
     "labelLocation": "Location",
     "locationText": "Based in Zagreb, Croatia - working across Europe, Asia & the US",
-    "locationNote": "Remote-first, happy to meet in person. I regularly work with teams in Vienna, Munich, Zürich, Basel, Zagreb & beyond. EU work authorization - no visa needed.",
+    "locationNote": "Hybrid, happy to meet in person. I regularly work with teams in Vienna, Munich, Zürich, Basel, Zagreb & beyond. EU work authorization - no visa needed.",
     "formName": "Name",
     "formNamePlaceholder": "Your name",
     "formEmail": "Email",
     "formEmailPlaceholder": "your@email.com",
-    "formService": "Interested In",
-    "formServiceDefault": "Select a service...",
-    "formServiceDesign": "Design Leadership (Enterprise)",
-    "formServiceAI": "AI Procurement & OSINT Consulting",
-    "formServiceLocal": "Website & Branding (Local Business)",
-    "formServiceGuidance": "AI / Tech Guidance",
-    "formServiceMultiple": "Multiple Services",
+    "formService": "Role Focus",
+    "formServiceDefault": "Select an area...",
+    "formServiceDesign": "UX / Product Design",
+    "formServiceAI": "AI Procurement / Vendor Evaluation",
+    "formServiceLocal": "Web / Brand / Visual Design",
+    "formServiceGuidance": "Digital Transformation / Business Analysis",
+    "formServiceMultiple": "Multiple Areas",
     "formServiceOther": "Other / Not Sure",
     "formMessage": "Message",
-    "formMessagePlaceholder": "Tell me about your project...",
+    "formMessagePlaceholder": "Tell me about the role or opportunity...",
     "formSubmit": "Send Message",
-    "formNote": "Form is a placeholder - will be connected to a backend or email service upon deployment."
+    "formNote": "Messages are transmitted through Formspree as described in the Privacy Policy."
   },
 
   "iphonePage": {
@@ -568,7 +568,7 @@
 
   "gdpr": {
     "title": "Your privacy matters",
-    "text": "This site uses analytics to understand how visitors interact with the content. No personal data is sold or shared with third parties. Your IP address is used once on first visit for language detection.",
+    "text": "This portfolio does not use analytics or IP geolocation. Language and theme preferences are stored locally in your browser.",
     "readPolicy": "Read the full",
     "privacyLink": "Privacy Policy",
     "decline": "Decline",
@@ -584,7 +584,7 @@
 
   "faq": {
     "eyebrow": "Common Questions",
-    "title": "Things people ask before reaching out",
+    "title": "Questions about my experience",
     "q1": "What is a UX audit and when do you need one?",
     "a1": "A UX audit is a structured review of your digital product's usability, accessibility, and design consistency. I use heuristic evaluation, stakeholder interviews, and design system analysis to find friction points and prioritize what to fix. It's especially valuable when a product has grown organically and the experience has become inconsistent - or before a major redesign.",
     "q2": "What are design systems and why do enterprises need them?",

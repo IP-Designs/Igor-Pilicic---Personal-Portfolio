@@ -1,3 +1,0 @@
-# Redirect www to non-www (canonical)
-https://www.standingpillars.com/* https://standingpillars.com/:splat 301
-http://www.standingpillars.com/* https://standingpillars.com/:splat 301

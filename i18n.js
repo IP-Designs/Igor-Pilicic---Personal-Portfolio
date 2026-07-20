@@ -4,7 +4,7 @@
 
    Architecture:
    - JSON-based translations in /lang/
-   - IP geolocation for auto-detection
+   - Browser language detection without third-party geolocation
    - localStorage for user preference
    - data-i18n attributes for translatable content
 
@@ -25,20 +25,7 @@ const I18n = (function() {
       const s = document.querySelector('script[src*="i18n.js"]');
       return (s && s.getAttribute('data-lang-path')) || 'lang/';
     })(),
-    storageKey: 'ip-designs-lang',
-
-    // Country code to language mapping
-    countryMap: {
-      // German-speaking
-      'DE': 'de', 'AT': 'de', 'CH': 'de', 'LI': 'de',
-      // Croatian-speaking (Balkans)
-      'HR': 'hr', 'BA': 'hr', 'RS': 'hr', 'ME': 'hr',
-      // Everything else defaults to English
-    },
-
-    // Free IP geolocation API (1,000 req/month on ipapi.co)
-    // Alternative: 'http://ip-api.com/json/?fields=countryCode' (45 req/min, non-commercial)
-    geoApi: 'https://ipapi.co/json/'
+    storageKey: 'standing-pillars-lang'
   };
 
   let currentLang = CONFIG.defaultLang;
@@ -129,27 +116,6 @@ const I18n = (function() {
   }
 
   /**
-   * Detect language via IP geolocation
-   * Returns a promise that resolves to language code or null
-   */
-  async function detectByIp() {
-    try {
-      const response = await fetch(CONFIG.geoApi);
-      if (!response.ok) return null;
-
-      const data = await response.json();
-      const countryCode = data.country_code || data.countryCode;
-
-      if (countryCode && CONFIG.countryMap[countryCode]) {
-        return CONFIG.countryMap[countryCode];
-      }
-    } catch (e) {
-      console.warn('I18n: IP detection failed', e);
-    }
-    return null;
-  }
-
-  /**
    * Load translation file
    */
   async function loadTranslations(lang) {
@@ -231,7 +197,7 @@ const I18n = (function() {
   return {
     /**
      * Initialize i18n system
-     * Detection priority: URL param > localStorage > IP geolocation > browser language > default
+     * Detection priority: URL param > URL path > localStorage > browser language > default
      */
     async init(options = {}) {
       if (isInitialized) return;
@@ -243,17 +209,14 @@ const I18n = (function() {
       // URL path (/de/, /hr/) takes precedence over stored preference
       let detectedLang = getUrlLang() || getPathLang() || getStoredLang();
 
-      if (!detectedLang) {
-        // Try IP geolocation first, fall back to browser language
-        detectedLang = await detectByIp() || getBrowserLang();
-      }
+      if (!detectedLang) detectedLang = getBrowserLang();
 
       currentLang = detectedLang || CONFIG.defaultLang;
 
       // Load translations
       translations = await loadTranslations(currentLang) || {};
 
-      // Store preference (so IP lookup doesn't repeat)
+      // Store the visitor's language preference locally.
       storeLang(currentLang);
 
       // Apply to DOM

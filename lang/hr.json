@@ -8,17 +8,17 @@
   "nav": {
     "about": "O meni",
     "howIWork": "Način rada",
-    "services": "Usluge",
+    "services": "Stručnost",
     "experience": "Iskustvo",
     "aiEngineering": "AI Inženjering",
     "research": "Istraživanje",
     "caseStudies": "Studije slučaja",
     "contact": "Kontakt",
-    "tagline": "savjetovanje \u00b7 dizajn \u00b7 tehnologija",
-    "allServices": "Sve usluge",
+    "tagline": "profesionalni portfolio",
+    "allServices": "Sva područja",
     "uxDesign": "UX Dizajn",
     "aiProcurement": "AI Nabava",
-    "localBusiness": "Lokalne tvrtke"
+    "localBusiness": "Web i brend dizajn"
   },
 
   "hero": {
@@ -28,7 +28,7 @@
     "tagline": "Što tražite?",
     "tagExperience": "Gdje ste radili?",
     "tagAiEng": "Možete li zaista graditi?",
-    "tagServices": "Što možete za mene?",
+    "tagServices": "Što donosim timu?",
     "tagDemo": "Kako se sve to povezuje?",
     "tagCases": "Pogledajte rezultate",
     "tagContact": "Razgovarajmo"
@@ -103,7 +103,7 @@
     "title": "Jedna osoba, jedna filozofija: tehnologija služi ljudima",
     "lead": "Zovem se Igor Piličić. Više od 17 godina rješavam probleme na sjecištu gdje se tehnologija susreće s ljudima koji nisu tehnolozi - dizajniram sučelja koja koriste, ocjenjujem AI dobavljače o kojima ovise i upravljam alatima koji oblikuju njihov rad. Nitko mi nije dodijelio većinu tih uloga. Vidio sam prazninu i popunio je.",
     "p1": "Moj put slijedi jednu nit: <strong>kompleksne sustave učiniti razumljivima i pouzdanima</strong>. Počeo je s web dizajnom i 3D grafikom, razvio se kroz e-commerce i nagrađivane kampanje u <strong>Harvey Normanu</strong>, produbio se u <strong>Rocheu</strong> gdje sam dizajnirao proizvodne alate za 10.000+ korisnika, i proširio se u <strong>Accentureu</strong> na evaluaciju AI dobavljača i upravljanje nabavom za regulirane farmaceutske programe.",
-    "p2": "Sada, kroz <strong>Standing Pillars</strong>, sve to spajam. Dizajnersko vodstvo, AI nabava, OSINT due diligence i AI-potpomognuti inženjering nisu zasebne usluge - to su povezani izrazi iste vještine: <strong>premošćivanje jaza između ljudi i tehnologije</strong>, sa strukturom i sljedivošću koje zahtijevaju regulirane industrije.",
+    "p2": "Standing Pillars moj je osobni profesionalni portfolio: mjesto na kojem povezujem dizajnersko vodstvo, AI nabavu, OSINT analizu i AI-potpomognuti inženjering. Zajedno pokazuju istu vještinu: <strong>premošćivanje jaza između ljudi i tehnologije</strong>, uz strukturu i sljedivost koje zahtijevaju regulirane industrije.",
     "statYears": "Godina u dizajnu i tehnologiji (17+ profesionalno)",
     "statReach": "Doseg potrošača (HR & SLO kampanje, 2011–2025)",
     "statUsers": "Korisnika pod utjecajem u Rocheu",
@@ -116,14 +116,14 @@
   },
 
   "availability": {
-    "status": "Dostupan za nove angažmane",
-    "title": "Enterprise upravljanje ili web stranica za vašu trgovinu - radim oboje",
-    "desc": "Dostupni za enterprise ugovore, freelance projekte ili pristupačne lokalne poslovne angažmane - remote-first s fleksibilnošću za rad na lokaciji diljem Europe.",
-    "tagContract": "Ugovor",
-    "tagFreelance": "Freelance",
+    "status": "Otvoren za poslove u Hrvatskoj",
+    "title": "Senior stručnost u UX-u, proizvodima i digitalnoj transformaciji",
+    "desc": "Otvoren za zaposlenje na puno ili nepuno radno vrijeme u Hrvatskoj te odgovarajuće hibridne i udaljene pozicije.",
+    "tagContract": "Stalni radni odnos",
+    "tagFreelance": "Nepuno radno vrijeme",
     "tagFulltime": "Puno radno vrijeme",
-    "tagRemote": "Remote-first",
-    "tagOnsite": "Fleksibilno na lokaciji",
+    "tagRemote": "Hibridno",
+    "tagOnsite": "Udaljeno",
     "ctaPrimary": "Javite se"
   },
 
@@ -139,9 +139,9 @@
     "card4Title": "Rezultati iznad isporuka",
     "card4Desc": "30% smanjenje ručnog izvještavanja u Rocheu. Nagrađivane kampanje. Okviri upravljanja koji smanjuju preradu. Mjerim uspjeh po tome što se promijenilo, ne po tome što je isporučeno.",
     "card5Title": "Svaka razina, isti standardi",
-    "card5Desc": "Enterprise farma ili lokalna trgovina bojama - svaki klijent dobiva isto strukturirano razmišljanje, iskrene savjete i kvalitetu. Tehnologija bi trebala služiti svima, ne samo onima sa šesteroznamenkastim budžetima.",
-    "card6Title": "Europski doseg, remote-first",
-    "card6Desc": "EU-bazirani, višejezični, dostupni na lokaciji u Austriji, Njemačkoj, Švicarskoj, Hrvatskoj i šire. Bez viznih komplikacija, bez vremenskih zona."
+    "card5Desc": "Od farmaceutskih sustava do rastućih digitalnih timova, donosim isto strukturirano razmišljanje, iskrenu komunikaciju i predanost kvaliteti.",
+    "card6Title": "U Zagrebu, s međunarodnim iskustvom",
+    "card6Desc": "Baziran u Zagrebu, s iskustvom rada u međunarodnim timovima u Austriji, Njemačkoj, Švicarskoj i Hrvatskoj. Otvoren za rad na lokaciji, hibridno i udaljeno."
   },
 
   "howIWork": {
@@ -156,38 +156,38 @@
     "connectorGoverns": "Upravlja",
     "buildTitle": "Gradnja",
     "buildDesc": "Usmjeravam AI za proizvodnju produkcijski spremnog koda. Isto upravljanje kao pri evaluaciji dobavljača: specificirati, arhitekturirati, validirati, dokumentirati.",
-    "branchLabel": "Ista filozofija, pristupačna razina",
-    "localTitle": "Lokalno poslovanje",
-    "localDesc": "Ista briga, pristupačno primijenjena. Web stranice, branding, iskreni tech savjeti - za trgovine, obrtnike i male tvrtke u zbunjujućem tržištu.",
-    "thesis": "Tehnologija ne bi trebala služiti samo enterprise tvrtkama sa šesteroznamenkastim budžetima. Netko još uvijek treba premostiti jaz između ljudi i tehnologije - na svakoj razini. To je ono što radim."
+    "branchLabel": "Vizualna komunikacija",
+    "localTitle": "Web i brend dizajn",
+    "localDesc": "Web, brend, motion i vizualna komunikacija nadopunjuju moje iskustvo u proizvodima i digitalnoj transformaciji.",
+    "thesis": "Bez obzira na razinu, moj je doprinos učiniti tehnologiju jasnijom, upotrebljivijom i pouzdanijom."
   },
 
   "services": {
-    "eyebrow": "Usluge",
-    "title": "Enterprise do lokalnog - isti standardi, prava razina",
-    "desc": "Donosim isto strukturirano razmišljanje u okvir farmaceutskog upravljanja i prvu web stranicu pekare. Metodologija skalira. Briga se ne mijenja.",
-    "mission": "Tehnologija ne bi trebala služiti samo enterprise tvrtkama sa šesteroznamenkastim budžetima. Vjerujem da svako poduzeće - od Rochea do trgovine u susjedstvu - zaslužuje jasnoću, iskrenost i kvalitetu. To nije humanitarni rad. To je posao.",
-    "tierEnterprise": "Enterprise",
-    "tierLocal": "Pristupačne cijene",
+    "eyebrow": "Stručnost",
+    "title": "Sposobnosti razvijene u složenim okruženjima",
+    "desc": "Moje iskustvo povezuje dizajn proizvoda, evaluaciju dobavljača, poslovnu analizu i praktičnu digitalnu isporuku.",
+    "mission": "Doprinosim ondje gdje složene zahtjeve treba pretvoriti u jasne odluke, upotrebljiva sučelja i provedive korake.",
+    "tierEnterprise": "Ključna stručnost",
+    "tierLocal": "Dodatna stručnost",
 
     "pillar1Title": "Dizajnersko vodstvo",
     "pillar1Desc": "Dizajniram alate koje ljudi stvarno koriste. Enterprise UX/UI za složene sustave u farmi, zdravstvu i reguliranim industrijama - utemeljeni na stvarnim workflow-ovima, ne pretpostavkama.",
-    "pillar1Items": ["Istraživanje korisnika i intervjui s dionicima", "UX auditi i heuristicka evaluacija", "Wireframing i prototyping (Figma)", "Dizajn sustavi i Atomic UI", "Radionice s dionicima (50+ sudionika)", "E2E izvještavanje i analitički alati", "Vizualni dizajn i strategija brenda", "2D/3D animacija i vizualizacija"],
+    "pillar1Items": ["Istraživanje korisnika i intervjui s dionicima", "UX auditi i heuristička evaluacija", "Wireframing i prototyping (Figma)", "Dizajn sustavi i Atomic UI", "Radionice s dionicima (50+ sudionika)", "E2E izvještavanje i analitički alati", "Vizualni dizajn i strategija brenda", "2D/3D animacija i vizualizacija"],
     "pillar1Connects": "→ Povezanost: Znam kako izgledaju dobri alati, pa znam što zahtijevati od dobavljača.",
     "pillar1Link": "Istražite UX dizajn usluge →",
 
-    "pillar2Title": "AI nabava i OSINT savjetovanje",
+    "pillar2Title": "AI nabava i evaluacija dobavljača",
     "pillar2Desc": "Ocjenjujem dobavljače tako da vi ne nastradate. OSINT due diligence, strukturirani RFP-ovi i okviri upravljanja koji otkrivaju rizike prije potpisivanja ugovora.",
-    "pillar2Items": ["OSINT due diligence dobavljača", "Razvoj RFP/RFI i predlošci", "Scorecards i matrice za evaluaciju", "Procjena rizika (vendor lock-in, GDPR, GxP)", "Dnevnici odluka i sljedivost", "Materijalaza upravu i C-Suite komunikacija"],
+    "pillar2Items": ["OSINT due diligence dobavljača", "Razvoj RFP/RFI i predlošci", "Scorecards i matrice za evaluaciju", "Procjena rizika (vendor lock-in, GDPR, GxP)", "Dnevnici odluka i sljedivost", "Materijali za upravu i C-Suite komunikacija"],
     "pillar2Connects": "→ Povezanost: evaluacija dobavljača, izoštrena godinama vlastite izgradnje.",
     "pillar2Link": "Istražite usluge nabave AI rješenja →",
     "pillar3Link": "Istražite usluge za lokalne tvrtke →",
 
-    "pillar3Title": "Tehnologija za lokalno poslovanje",
-    "pillar3Desc": "Val AI-ja ostavio je mnoge male tvrtke zbunjene i uplašene. Nudim isto strukturirano razmišljanje po pristupačnoj cijeni - bez žargona, bez upsellinga, samo iskren rad koji pomaže vašem poslovanju da bude online i zadrži kontrolu.",
+    "pillar3Title": "Web, brend i vizualni dizajn",
+    "pillar3Desc": "Ranije iskustvo u webu, e-trgovini, brendiranju, motion dizajnu i 3D-u nadopunjuje moj enterprise UX i tehnološki rad.",
     "pillar3Items": ["Dizajn i razvoj web stranica", "Logo i vizualni identitet", "Google Business i lokalni SEO", "AI integracija - samo gdje pomaže", "Iskreni tech savjeti (bez upsellinga)", "Tekuća podrška i održavanje"],
-    "pillar3Note": "Namijenjeno za: trgovine, obrtnike, restorane, ordinacije, freelancere i sve koji zaslužuju kvalitetnu online prisutnost bez enterprise cjenovnika.",
-    "pillar3Connects": "→ Ista osoba, ista kvaliteta, ista etika - samo prava razina za vaše poslovanje."
+    "pillar3Note": "Relevantno za timove koji cijene dizajnera koji razumije cijeli put od vizualnog identiteta do funkcionalnog digitalnog proizvoda.",
+    "pillar3Connects": "→ Dodatno kreativno i izvedbeno iskustvo."
   },
 
   "experience": {
@@ -196,8 +196,8 @@
     "current": "Trenutno",
 
     "job1Date": "Tra 2020 - Danas",
-    "job1Title": "Osnivač i Principal Consultant",
-    "job1Company": "Standing Pillars · Remote | Sankt Johann in Tirol, Austrija",
+    "job1Title": "Neovisni UX i tehnološki konzultant",
+    "job1Company": "Standing Pillars portfolio · Udaljeno | Zagreb, Hrvatska",
     "job1Items": [
       "Vodstvo UI/UX dizajna: istraživanje korisnika, UX revizije, wireframing, prototipiranje u Figmi i live buildovi (POC-ovi), dizajn sustavi i radionice s dionicima za enterprise i lokalne klijente.",
       "AI nabava i OSINT savjetovanje: due diligence dobavljača, RFP/RFI paketi, scorecards za evaluaciju, okviri upravljanja i executive materijali.",
@@ -526,9 +526,9 @@
   },
 
   "contact": {
-    "eyebrow": "Kontakt",
-    "title": "Razgovarajmo o tome kako mogu pomoći",
-    "desc": "Bilo da ste enterprise tim kojem treba dizajnersko vodstvo, farmaceutski program koji ocjenjuje AI dobavljače, ili vlasnik lokalnog poduzeća kojem jednostavno treba odlična web stranica - spreman sam za razgovor.",
+    "eyebrow": "Otvoren za prilike",
+    "title": "Razgovarajmo o poziciji",
+    "desc": "Otvoren sam za poslove na puno i nepuno radno vrijeme u Hrvatskoj u području UX-a, dizajna proizvoda, poslovne analize, digitalne transformacije i evaluacije tehnologije.",
     "labelEmail": "E-mail",
     "labelPhone": "Telefon",
     "labelLinkedIn": "LinkedIn",
@@ -539,8 +539,8 @@
     "formNamePlaceholder": "Vaše ime",
     "formEmail": "E-mail",
     "formEmailPlaceholder": "vas@email.com",
-    "formService": "Zainteresirani za",
-    "formServiceDefault": "Odaberite uslugu...",
+    "formService": "Područje pozicije",
+    "formServiceDefault": "Odaberite područje...",
     "formServiceDesign": "Dizajnersko vodstvo (Enterprise)",
     "formServiceAI": "AI nabava i OSINT savjetovanje",
     "formServiceLocal": "Web stranica i branding (Lokalno)",
@@ -548,7 +548,7 @@
     "formServiceMultiple": "Više usluga",
     "formServiceOther": "Drugo / Nisam siguran",
     "formMessage": "Poruka",
-    "formMessagePlaceholder": "Recite mi o svom projektu...",
+    "formMessagePlaceholder": "Opišite poziciju ili priliku...",
     "formSubmit": "Pošalji poruku",
     "formNote": "Obrazac je placeholder - bit će povezan s backendom ili email servisom pri deploymentu."
   },
@@ -566,7 +566,7 @@
 
   "gdpr": {
     "title": "Vaša privatnost je važna",
-    "text": "Ova stranica koristi analitiku kako bi razumjela kako posjetitelji koriste sadržaj. Osobni podaci se ne prodaju niti dijele s trećim stranama. Vaša IP adresa koristi se jednom prilikom prvog posjeta za prepoznavanje jezika.",
+    "text": "Ovaj portfolio ne koristi analitiku ni IP geolokaciju. Postavke jezika i teme spremaju se lokalno u vašem pregledniku.",
     "readPolicy": "Pročitajte potpuna",
     "privacyLink": "Pravila privatnosti",
     "decline": "Odbij",
@@ -582,7 +582,7 @@
 
   "faq": {
     "eyebrow": "Česta pitanja",
-    "title": "Što klijenti najčešće pitaju prije kontakta",
+    "title": "Pitanja o mojem iskustvu",
     "q1": "Što je UX audit i kada vam treba?",
     "a1": "UX audit je strukturirana procjena upotrebljivosti, pristupačnosti i dizajnerske konzistentnosti vašeg digitalnog proizvoda. Koristim heurističku evaluaciju, intervjue s dionicima i analizu dizajn sustava kako bih pronašao točke trenja i odredio prioritete. Posebno je vrijedan kada je proizvod organski rastao i korisničko iskustvo postalo nekonzistentno - ili prije velikog redizajna.",
     "q2": "Što su dizajn sustavi i zašto ih poduzeća trebaju?",

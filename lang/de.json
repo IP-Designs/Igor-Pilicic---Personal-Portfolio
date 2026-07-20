@@ -8,17 +8,17 @@
   "nav": {
     "about": "Über mich",
     "howIWork": "Arbeitsweise",
-    "services": "Leistungen",
+    "services": "Expertise",
     "experience": "Erfahrung",
     "aiEngineering": "KI-Engineering",
     "research": "Forschung",
     "caseStudies": "Fallstudien",
     "contact": "Kontakt",
-    "tagline": "Beratung \u00b7 Design \u00b7 Technologie",
-    "allServices": "Alle Leistungen",
+    "tagline": "Professionelles Portfolio",
+    "allServices": "Gesamte Expertise",
     "uxDesign": "UX Design",
     "aiProcurement": "KI-Beschaffung",
-    "localBusiness": "Lokale Unternehmen"
+    "localBusiness": "Web- & Markendesign"
   },
 
   "hero": {
@@ -28,7 +28,7 @@
     "tagline": "Was suchen Sie?",
     "tagExperience": "Wo haben Sie gearbeitet?",
     "tagAiEng": "Können Sie wirklich bauen?",
-    "tagServices": "Was können Sie für mich tun?",
+    "tagServices": "Was bringe ich ins Team ein?",
     "tagDemo": "Wie hängt das alles zusammen?",
     "tagCases": "Ergebnisse ansehen",
     "tagContact": "Sprechen wir"
@@ -103,7 +103,7 @@
     "title": "Eine Person, eine Philosophie: Technologie dient dem Menschen",
     "lead": "Ich bin Igor Pilicic. Seit über 17 Jahren löse ich Probleme an der Schnittstelle, wo Technologie auf Menschen trifft, die keine Technologen sind - ich gestalte die Interfaces, die sie nutzen, bewerte die KI-Anbieter, auf die sie angewiesen sind, und steuere die Tools, die ihre Arbeit prägen. Die meisten dieser Rollen hat mir niemand zugewiesen. Ich sah die Lücke und füllte sie.",
     "p1": "Mein Weg folgt einem roten Faden: <strong>komplexe Systeme verständlich und vertrauenswürdig machen</strong>. Er begann mit Webdesign und 3D-Grafik, entwickelte sich über E-Commerce und preisgekrönte Kampagnen bei <strong>Harvey Norman</strong>, vertiefte sich bei <strong>Roche</strong>, wo ich Fertigungstools für 10.000+ Nutzer designte, und erweiterte sich bei <strong>Accenture</strong> um KI-Anbieterbewertung und Beschaffungs-Governance für regulierte Pharma-Programme.",
-    "p2": "Jetzt bringe ich durch <strong>Standing Pillars</strong> all das zusammen. Design-Führung, KI-Beschaffung, OSINT-basierte Due Diligence und KI-gestütztes Engineering sind keine getrennten Leistungen - sie sind verbundene Ausdrücke derselben Fähigkeit: <strong>die Lücke zwischen Mensch und Technologie überbrücken</strong>, mit der Struktur und Nachverfolgbarkeit, die regulierte Industrien verlangen.",
+    "p2": "Standing Pillars ist mein persönliches professionelles Portfolio: Hier verbinde ich Design-Führung, KI-Beschaffung, OSINT-basierte Due Diligence und KI-gestütztes Engineering. Gemeinsam zeigen sie dieselbe Fähigkeit: <strong>die Lücke zwischen Mensch und Technologie überbrücken</strong>, mit der Struktur und Nachverfolgbarkeit, die regulierte Industrien verlangen.",
     "statYears": "Jahre in Design & Tech (17+ professionell)",
     "statReach": "Konsumentenreichweite (HR & SLO Kampagnen, 2011–2025)",
     "statUsers": "Betroffene Nutzer bei Roche",
@@ -116,14 +116,14 @@
   },
 
   "availability": {
-    "status": "Verfügbar für neue Engagements",
-    "title": "Enterprise-Governance oder eine Website für Ihr Geschäft - ich mache beides",
-    "desc": "Verfügbar für Enterprise-Verträge, Freelance-Projekte oder erschwingliche lokale Geschäftsengagements - Remote-first mit Vor-Ort-Flexibilität in ganz Europa.",
-    "tagContract": "Vertrag",
-    "tagFreelance": "Freelance",
+    "status": "Offen für Positionen in Kroatien",
+    "title": "Senior-Expertise in UX, Produkt und digitaler Transformation",
+    "desc": "Offen für Vollzeit- und Teilzeitstellen in Kroatien sowie passende Hybrid- und Remote-Positionen.",
+    "tagContract": "Festanstellung",
+    "tagFreelance": "Teilzeit",
     "tagFulltime": "Vollzeit",
-    "tagRemote": "Remote-first",
-    "tagOnsite": "Vor-Ort flexibel",
+    "tagRemote": "Hybrid",
+    "tagOnsite": "Remote",
     "ctaPrimary": "Kontakt aufnehmen"
   },
 
@@ -163,12 +163,12 @@
   },
 
   "services": {
-    "eyebrow": "Leistungen",
-    "title": "Enterprise bis lokal - gleiche Standards, richtiger Maßstab",
-    "desc": "Ich bringe dasselbe strukturierte Denken in ein Pharma-Governance-Framework und die erste Website einer Bäckerei. Die Methodik skaliert. Die Sorgfalt ändert sich nicht.",
-    "mission": "Technologie sollte nicht nur Unternehmen mit sechsstelligen Budgets dienen. Ich glaube, dass jedes Unternehmen - von Roche bis zum Geschäft um die Ecke - Klarheit, Ehrlichkeit und Qualität verdient. Das ist keine Wohltätigkeit. Das ist der Job.",
-    "tierEnterprise": "Enterprise",
-    "tierLocal": "Zugängliche Preise",
+    "eyebrow": "Expertise",
+    "title": "Fähigkeiten aus komplexen Arbeitsumgebungen",
+    "desc": "Meine Erfahrung verbindet Produktdesign, Anbieterbewertung, Business-Analyse und praktische digitale Umsetzung.",
+    "mission": "Ich trage dort bei, wo komplexe Anforderungen in klare Entscheidungen, nutzbare Oberflächen und umsetzbare Schritte übersetzt werden müssen.",
+    "tierEnterprise": "Kernkompetenz",
+    "tierLocal": "Ergänzende Kompetenz",
 
     "pillar1Title": "Design-Führung",
     "pillar1Desc": "Ich gestalte die Tools, die Menschen tatsächlich nutzen. Enterprise UX/UI für komplexe Systeme in Pharma, Healthcare und regulierten Industrien - basierend auf echten Workflows, nicht Annahmen.",
@@ -176,18 +176,18 @@
     "pillar1Connects": "→ Verbindung: Ich weiß, wie gute Tools aussehen - also weiß ich, was ich von Anbietern verlangen muss.",
     "pillar1Link": "UX-Design-Leistungen entdecken →",
 
-    "pillar2Title": "KI-Beschaffung & OSINT-Beratung",
+    "pillar2Title": "KI-Beschaffung & Anbieterbewertung",
     "pillar2Desc": "Ich bewerte die Anbieter, damit Sie nicht auf die Nase fallen. OSINT-basierte Due Diligence, strukturierte RFPs und Governance-Frameworks, die Risiken aufdecken, bevor Vertr\u00e4ge unterschrieben werden.",
     "pillar2Items": ["OSINT Anbieter-Due-Diligence", "RFP/RFI-Entwicklung & Vorlagen", "Bewertungs-Scorecards & Matrizen", "Risikobewertung (Lock-in, DSGVO, GxP)", "Entscheidungsprotokolle & Nachverfolgbarkeit", "Führungskräfte-Materialien & C-Suite-Kommunikation"],
     "pillar2Connects": "→ Verbindung: Anbieterbewertung, geschärft durch jahrelange eigene Entwicklung.",
     "pillar2Link": "KI-Beschaffungsleistungen entdecken →",
     "pillar3Link": "Leistungen für lokale Unternehmen entdecken →",
 
-    "pillar3Title": "Technologie für lokale Unternehmen",
-    "pillar3Desc": "Die KI-Welle hat viele kleine Unternehmen verwirrt und verängstigt. Ich biete dasselbe strukturierte Denken zu einem zugänglichen Preis - kein Fachjargon, kein Upselling, nur ehrliche Arbeit, die Ihrem Unternehmen hilft, online zu gehen und die Kontrolle zu behalten.",
+    "pillar3Title": "Web-, Marken- & visuelles Design",
+    "pillar3Desc": "Frühere Erfahrung in Web, E-Commerce, Branding, Motion Design und 3D ergänzt meine Arbeit in Enterprise UX und Technologie.",
     "pillar3Items": ["Website-Design & -Entwicklung", "Logo & Markenidentität", "Google Business & lokale SEO-Einrichtung", "KI-Integration - nur wo sie hilft", "Ehrliche Tech-Beratung (kein Upselling)", "Laufender Support & Wartung"],
-    "pillar3Note": "Konzipiert für: Geschäfte, Handwerker, Restaurants, Praxen, Freelancer und alle, die eine ordentliche Online-Präsenz verdienen - ohne Enterprise-Preisschild.",
-    "pillar3Connects": "→ Dieselbe Person, dieselbe Qualität, dieselbe Ethik - nur der richtige Maßstab für Ihr Unternehmen."
+    "pillar3Note": "Relevant für Teams, die einen Designer schätzen, der den Weg von der visuellen Identität bis zum funktionierenden digitalen Produkt versteht.",
+    "pillar3Connects": "→ Ergänzende kreative und praktische Umsetzungserfahrung."
   },
 
   "experience": {
@@ -196,8 +196,8 @@
     "current": "Aktuell",
 
     "job1Date": "Apr 2020 - Heute",
-    "job1Title": "Gründer & Principal Consultant",
-    "job1Company": "Standing Pillars · Remote | Sankt Johann in Tirol, Österreich",
+    "job1Title": "Selbstständiger UX- & Technologieberater",
+    "job1Company": "Standing Pillars Portfolio · Remote | Zagreb, Kroatien",
     "job1Items": [
       "UI/UX-Designf\u00fchrung: Nutzerforschung, UX-Audits, Wireframing, Prototyping in Figma und Live-Builds (POCs), Design-Systeme und Stakeholder-Workshops f\u00fcr Enterprise- und lokale Kunden.",
       "KI-Beschaffung & OSINT-Beratung: Anbieter-Due-Diligence, RFP/RFI-Pakete, Bewertungs-Scorecards, Governance-Frameworks und Executive-Materialien.",
@@ -527,8 +527,8 @@
 
   "contact": {
     "eyebrow": "Kontakt",
-    "title": "Lassen Sie uns besprechen, wie ich helfen kann",
-    "desc": "Ob Enterprise-Team mit Bedarf an Design-Führung, Pharma-Programm zur KI-Anbieterbewertung oder lokaler Geschäftsinhaber, der einfach eine großartige Website braucht - ich bin gesprächsbereit.",
+    "title": "Lassen Sie uns über eine Position sprechen",
+    "desc": "Ich bin offen für Vollzeit- und Teilzeitstellen in Kroatien in UX, Produktdesign, Business-Analyse, digitaler Transformation und Technologiebewertung.",
     "labelEmail": "E-Mail",
     "labelPhone": "Telefon",
     "labelLinkedIn": "LinkedIn",
@@ -566,7 +566,7 @@
 
   "gdpr": {
     "title": "Ihre Privatsphäre ist uns wichtig",
-    "text": "Diese Website verwendet Analysen, um zu verstehen, wie Besucher mit den Inhalten interagieren. Es werden keine personenbezogenen Daten verkauft oder an Dritte weitergegeben. Ihre IP-Adresse wird beim ersten Besuch einmalig zur Spracherkennung verwendet.",
+    "text": "Dieses Portfolio verwendet weder Analysen noch IP-Geolokalisierung. Sprach- und Designeinstellungen werden lokal in Ihrem Browser gespeichert.",
     "readPolicy": "Lesen Sie die vollständige",
     "privacyLink": "Datenschutzerklärung",
     "decline": "Ablehnen",
@@ -582,7 +582,7 @@
 
   "faq": {
     "eyebrow": "Häufige Fragen",
-    "title": "Was Interessenten häufig wissen möchten",
+    "title": "Fragen zu meiner Erfahrung",
     "q1": "Was ist ein UX-Audit und wann braucht man eins?",
     "a1": "Ein UX-Audit ist eine strukturierte Bewertung der Benutzerfreundlichkeit, Barrierefreiheit und Design-Konsistenz Ihres digitalen Produkts. Ich verwende heuristische Evaluation, Stakeholder-Interviews und Design-System-Analyse, um Reibungspunkte zu finden und Prioritäten zu setzen. Besonders wertvoll ist das, wenn ein Produkt organisch gewachsen ist und die Nutzererfahrung inkonsistent geworden ist - oder vor einem größeren Redesign.",
     "q2": "Was sind Design-Systeme und warum brauchen Unternehmen sie?",

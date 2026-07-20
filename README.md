@@ -1,59 +1,51 @@
-# Standing Pillars
+# Igor Pilicic — Personal Portfolio
 
-Professional portfolio and consultancy site for Igor Pilicic - enterprise UX/UI design, AI procurement audit, OSINT vendor evaluation, and design engineering for pharma and regulated industries.
+Source for [standingpillars.com](https://standingpillars.com), the personal professional portfolio of Igor Pilicic.
 
-**Live:** [standingpillars.com](https://standingpillars.com)
+Standing Pillars is a portfolio and project name, not a separately incorporated company or agency. The site presents selected work across UX and product design, regulated digital products, business analysis, AI vendor evaluation, digital delivery, and technical experimentation.
 
-## Tech Stack
+## Site structure
 
-- Static HTML / CSS / JavaScript (no framework)
-- Cloudflare Pages hosting
-- Client-side i18n (EN / DE / HR)
-- Node.js dev server for local testing
+| Path | Purpose |
+| --- | --- |
+| `index.html` | English homepage |
+| `hr/` | Croatian site |
+| `de/` | German site |
+| `services/` | Detailed expertise pages; retained URLs preserve existing links |
+| `lang/` | Client-side translations |
+| `portfolio/` | Selected legacy portfolio work |
+| `simulation/` | Interactive Tiny Humans technical demonstration |
+| `images/`, `videos/`, `fonts/` | Media assets |
+| `_headers`, `_redirects` | Cloudflare Pages configuration |
 
-## Project Structure
+## Local development
 
-| Path | Description |
-|------|-------------|
-| `index.html` | English landing page |
-| `de/` | German localized page |
-| `hr/` | Croatian localized page |
-| `lang/` | i18n JSON translation files |
-| `simulation/` | Interactive game engine demo (Tiny Humans Engine) |
-| `portfolio/` | Legacy case study (iPhone 7 landing page) |
-| `images/` | Static assets, case study visuals, portraits |
-| `_headers` | Cloudflare security headers (CSP, X-Frame-Options) |
-| `_redirects` | Cloudflare redirect rules |
-
-## Local Development
-
-```bash
+```powershell
 node server.js
 ```
 
-Serves the site at `http://localhost:3000`.
+Open `http://localhost:3000`.
 
-## Build
+## Validation
 
-No build step required. The site is static.
+```powershell
+node validate-languages.js
+```
 
-After editing `styles.css`, run cache-bust to update version hashes in HTML:
+After changing CSS or JavaScript, update cache-busting references:
 
-```bash
+```powershell
 node cache-bust.js
 ```
 
-## Deploy
+## Deployment
 
-```bash
-wrangler pages deploy . --project-name=standing-pillars --branch=main --commit-dirty=true
-```
+The site is static and can be deployed by uploading the repository contents to Cloudflare Pages. Upload the repository root—not a parent folder and not a nested copy.
 
-## Branches
+## Privacy
 
-- **main** - Production (deployed to Cloudflare Pages)
-- **sandbox** - Development
+The site does not load Google Analytics or use IP geolocation for language selection. Theme and language preferences are stored locally in the visitor's browser. Contact messages are transmitted through Formspree, as described in the privacy policy.
 
-## License
+## Copyright
 
-All rights reserved. (c) 2026 Standing Pillars - Igor Pilicic.
+© 2026 Igor Pilicic. All rights reserved.
