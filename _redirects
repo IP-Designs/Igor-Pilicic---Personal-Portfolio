@@ -1,3 +1,14 @@
 # Redirect www to non-www (canonical)
 https://www.standingpillars.com/* https://standingpillars.com/:splat 301
 http://www.standingpillars.com/* https://standingpillars.com/:splat 301
+
+# Retired consultancy/service pages now resolve to candidate-focused portfolio sections
+/services/ux-design/ /#services 301
+/services/ai-procurement/ /#services 301
+/services/local-business/ /#services 301
+/hr/services/ux-design/ /hr/#services 301
+/hr/services/ai-procurement/ /hr/#services 301
+/hr/services/local-business/ /hr/#services 301
+/de/services/ux-design/ /de/#services 301
+/de/services/ai-procurement/ /de/#services 301
+/de/services/local-business/ /de/#services 301

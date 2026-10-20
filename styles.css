@@ -3034,58 +3034,76 @@ a:hover {
   margin-top: 4px;
 }
 
-/* Contact Form */
-.contact-form {
+.contact-email-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.copy-email-btn {
+  appearance: none;
+  border: 1px solid var(--gray-200);
+  border-radius: 999px;
+  background: var(--white);
+  color: var(--gray-600);
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1;
+  padding: 7px 10px;
+  transition: all var(--transition);
+}
+
+.copy-email-btn:hover,
+.copy-email-btn:focus-visible {
+  border-color: var(--accent);
+  color: var(--accent);
+  outline: none;
+}
+
+.copy-email-btn.is-copied {
+  background: var(--accent-subtle);
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.contact-direct {
   background: var(--white);
   border: 1px solid var(--gray-200);
   border-radius: var(--radius-lg);
   padding: 40px;
 }
 
-.form-group {
-  margin-bottom: 20px;
+.contact-direct-eyebrow {
+  color: var(--accent);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  margin-bottom: 12px;
+  text-transform: uppercase;
 }
 
-.form-group label {
-  display: block;
-  font-size: 0.85rem;
-  font-weight: 600;
-  color: var(--gray-700);
-  margin-bottom: 6px;
+.contact-direct h3 {
+  color: var(--navy);
+  font-family: var(--font-serif);
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  line-height: 1.2;
+  margin-bottom: 16px;
 }
 
-.form-group input,
-.form-group select,
-.form-group textarea {
-  width: 100%;
-  font-family: var(--font-sans);
+.contact-direct > p:not(.contact-direct-eyebrow) {
+  color: var(--gray-600);
   font-size: 0.95rem;
-  color: var(--gray-700);
-  background: var(--gray-50);
-  border: 1px solid var(--gray-200);
-  border-radius: var(--radius-sm);
-  padding: 12px 16px;
-  transition: all var(--transition);
-  outline: none;
+  line-height: 1.7;
+  margin-bottom: 28px;
 }
 
-.form-group input:focus,
-.form-group select:focus,
-.form-group textarea:focus {
-  border-color: var(--accent);
-  background: var(--white);
-  box-shadow: 0 0 0 3px var(--accent-subtle);
-}
-
-.form-group textarea {
-  resize: vertical;
-}
-
-.form-note {
-  font-size: 0.8rem;
-  color: var(--gray-400);
-  text-align: center;
-  margin-top: 16px;
+.contact-direct-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
 }
 
 /* ============================================
@@ -4233,7 +4251,7 @@ body.privacy-body {
     gap: 40px;
   }
 
-  .contact-form {
+  .contact-direct {
     padding: 28px;
   }
 

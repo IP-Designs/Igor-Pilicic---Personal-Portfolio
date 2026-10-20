@@ -11,7 +11,7 @@ Standing Pillars is a portfolio and project name, not a separately incorporated 
 | `index.html` | English homepage |
 | `hr/` | Croatian site |
 | `de/` | German site |
-| `services/` | Detailed expertise pages; retained URLs preserve existing links |
+| `services/` | Legacy pages retained only for redirects; excluded from the sitemap and search indexing |
 | `lang/` | Client-side translations |
 | `portfolio/` | Selected legacy portfolio work |
 | `simulation/` | Interactive Tiny Humans technical demonstration |
@@ -40,11 +40,11 @@ node cache-bust.js
 
 ## Deployment
 
-The site is static and can be deployed by uploading the repository contents to Cloudflare Pages. Upload the repository root - not a parent folder and not a nested copy.
+The site is static and can be deployed from the connected GitHub repository through Cloudflare Pages. Use the repository root as the deployment directory. Legacy service URLs redirect to the relevant homepage expertise section.
 
 ## Privacy
 
-The site does not load Google Analytics or use IP geolocation for language selection. Theme and language preferences are stored locally in the visitor's browser. Contact messages are transmitted through Formspree, as described in the privacy policy.
+The site does not load Google Analytics, use IP geolocation, or include a contact form. Theme and language preferences are stored locally in the visitor's browser. Visitors can contact Igor directly by email, telephone, or LinkedIn.
 
 ## Copyright
 

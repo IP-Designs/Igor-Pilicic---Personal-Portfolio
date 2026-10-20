@@ -10,7 +10,7 @@
     "howIWork": "Način rada",
     "services": "Stručnost",
     "experience": "Iskustvo",
-    "aiEngineering": "AI Inženjering",
+    "aiEngineering": "Tehnički projekt",
     "research": "Istraživanje",
     "caseStudies": "Studije slučaja",
     "contact": "Kontakt",
@@ -23,11 +23,11 @@
 
   "hero": {
     "eyebrow": "Igor Piličić",
-    "title": "Senior UX/Product dizajner za <span class=\"highlight\">složene digitalne proizvode</span>",
-    "subtitle": "Donosim 17+ godina iskustva u UX-u, dizajnu proizvoda, enterprise sustavima, AI evaluaciji, webu i vizualnoj komunikaciji. U Rocheu i Accentureu sva su se ta iskustva spojila u radu na složenim, reguliranim izazovima.",
-    "tagline": "Što tražite?",
+    "title": "Senior UX/Product dizajner koji <span class=\"highlight\">složen rad čini razumljivim</span>",
+    "subtitle": "Složene radne procese i stručno znanje pretvaram u jasne digitalne proizvode. Više od 17 godina iskustva u UX-u, vizualnom dizajnu, poslovnoj analizi i tehnologiji pomaže mi pretvoriti nejasne zahtjeve u upotrebljiva i izvediva rješenja.",
+    "tagline": "Istražite moj rad",
     "tagExperience": "Gdje ste radili?",
-    "tagAiEng": "Možete li zaista graditi?",
+    "tagAiEng": "Pogledajte samostalni tehnički projekt",
     "tagServices": "Što donosim timu?",
     "tagDemo": "Kako se sve to povezuje?",
     "tagCases": "Pogledajte rezultate",
@@ -36,9 +36,9 @@
 
   "followup": {
     "services": "→ Gdje ste radili?",
-    "experience": "→ Ali možete li zaista graditi?",
+    "experience": "→ Pogledajte samostalni tehnički projekt",
     "howIWork": "→ Što možete za mene?",
-    "aiEng": "→ Pokažite mi nešto stvarno",
+    "aiEng": "→ Pogledajte radni proof of concept",
     "demo": "→ Pogledajte rezultate",
     "research": "→ Koji eksperiment stoji iza ovoga?",
     "cases": "→ Razgovarajmo",
@@ -62,7 +62,7 @@
     "tipCore": "Premosti jaz izme\u0111u ljudi i tehnologije",
     "tipDesign": "17+ godina enterprise UX-a",
     "tipEvaluate": "OSINT dubinska analiza dobavlja\u010da",
-    "tipBuild": "30.000+ redaka, AI-upravljano",
+    "tipBuild": "Strukturirani AI-potpomognuti prototip",
     "tipLocal": "Ista kvaliteta, pristupa\u010dne cijene",
     "tipUx": "Su\u010delja za kompleksne sustave",
     "tipFigma": "Prototipiranje i sustavi dizajna",
@@ -79,7 +79,7 @@
     "tipScores": "Evaluacijske kartice",
     "tipConflu": "Baza znanja i dokumentacija",
     "tipLucid": "Dijagrami tijeka procesa",
-    "tipEngine": "Komercijalni 2D game engine",
+    "tipEngine": "2D engine prototip u razvoju",
     "tipAi": "Specificirati, arhitekturirati, upravljati, validirati",
     "tipJs": "Univerzalni runtime",
     "tipHtml": "Semanti\u010dki markup i stilovi",
@@ -93,7 +93,7 @@
     "tipJira": "Agilno upravljanje projektima",
     "tipTrello": "Kanban upravljanje zadacima",
     "tipPharma": "Regulirane industrije",
-    "tipRoche": "10.000+ korisnika",
+    "tipRoche": "Platforma za internu publiku od 10.000+ korisnika",
     "tipAcc": "AI upravljanje nabavom",
     "tipArmil": "Istra\u017eiva\u010dka inicijativa"
   },
@@ -101,26 +101,26 @@
   "about": {
     "eyebrow": "O meni",
     "title": "Neobičan put, jasno usmjerenje",
-    "lead": "Zovem se Igor Piličić. Moj primarni fokus je UX/Product dizajn za složene digitalne proizvode - posebno ondje gdje se susreću korisnici, poslovni procesi i tehnologija. Širina mojeg iskustva nije niz nepovezanih uloga, nego alat kojim sagledavam cijeli sustav.",
-    "p1": "Tijekom 17+ godina radio sam u webu, 3D-u, e-trgovini, brendiranju, enterprise UX-u, poslovnoj analizi, AI evaluaciji i praktičnoj digitalnoj isporuci. Kroz sve to provlači se jedna nit: <strong>složene sustave učiniti razumljivima, upotrebljivima i pouzdanima</strong>.",
-    "p2": "U <strong>Rocheu</strong> i <strong>Accentureu</strong> sva su se ta iskustva spojila. Dizajnersko razmišljanje, istraživanje, vizualna komunikacija, facilitacija, analiza i tehnološka procjena postali su jedna praksa za rješavanje složenih izazova u reguliranim okruženjima. Standing Pillars danas je moj osobni portfolio koji pokazuje taj cijeli put - sa <strong>Senior UX/Product dizajnom kao njegovim središtem</strong>.",
+    "lead": "Ja sam Igor Piličić, Senior UX/Product dizajner iz Zagreba. Najviše doprinosim ondje gdje se susreću korisnici, poslovni procesi i tehnologija, posebno kada je problem složen, a put naprijed još nije jasan.",
+    "p1": "Kroz više od 17 profesionalnih godina radio sam u vizualnom dizajnu, webu, e-trgovini, enterprise UX-u, poslovnoj analizi, AI evaluaciji i praktičnoj digitalnoj isporuci. Ta mi širina pomaže razumjeti cijeli sustav i <strong>pretvoriti složenost u jasna, upotrebljiva i izvediva rješenja</strong>.",
+    "p2": "U <strong>Rocheu</strong> i <strong>Accentureu</strong> istraživanje, dizajn radnih procesa, vizualna komunikacija, facilitacija, analiza i podrška implementaciji spojili su se u radu na reguliranim enterprise sustavima. Standing Pillars je moj osobni portfolio tog puta, sa <strong>Senior UX/Product dizajnom kao glavnim profesionalnim fokusom</strong>.",
     "personalEyebrow": "Izvan posla",
-    "personalText": "Senior sam UX/Product dizajner sa značajnim enterprise iskustvom i aktivnom praksom razvoja neovisnih proizvoda. Volim raspetljavati složene probleme, uočiti poteškoće prije nego što postanu skupe te razumjeti kako ljudi, procesi i tehnologija utječu jedni na druge. Zanimanje za psihologiju, antropologiju i sociologiju pomaže mi vidjeti međuljudsku stranu problema, a ne samo sučelje ili sustav oko njega. Obraćam pozornost i na ono što ostane neizrečeno. Često razlika između onoga što netko traži i onoga što zapravo pokušava riješiti otkriva pravi problem, a ljudima volim pomoći da ga jasno izraze. Izvan posla suprug sam i otac, a obitelj je središnji dio mojeg života. Pratim astronomiju i uživam u filmovima, serijama i igrama. Različiti svjetovi, ista znatiželja o ljudima, sustavima i onome što bi se moglo dogoditi sljedeće.",
-    "statYears": "Godina u dizajnu i tehnologiji (17+ profesionalno)",
-    "statReach": "Doseg potrošača (HR & SLO kampanje, 2011–2025)",
-    "statUsers": "Korisnika pod utjecajem u Rocheu",
-    "statReporting": "Smanjenje ručnog izvještavanja",
-    "statCode": "Redaka AI-generiranog koda"
+    "personalText": "Volim raspetljavati složene probleme, uočiti poteškoće prije nego što postanu skupe te razumjeti kako ljudi, procesi i tehnologija utječu jedni na druge. Psihologija, antropologija i sociologija pomažu mi primijetiti međuljudsku stranu problema i ono što ostane neizrečeno. Izvan posla suprug sam i otac. Pratim astronomiju i uživam u filmovima, serijama i igrama - različitim svjetovima povezanim istom znatiželjom prema ljudima, sustavima i onome što bi se moglo dogoditi sljedeće.",
+    "statYears": "Godina profesionalnog iskustva",
+    "statReach": "UI dizajna pripremljenih za implementaciju",
+    "statUsers": "Interna publika Roche RCA platforme",
+    "statReporting": "Smanjenje ručnog izvještavanja kojem je pridonio širi proizvodni tim",
+    "statCode": "Inženjera podržanih kroz tri tima"
   },
 
   "clients": {
-    "label": "Radio sam za timove u"
+    "label": "Odabrane organizacije i klijentski konteksti"
   },
 
   "availability": {
     "status": "Otvoren za poslove u Hrvatskoj",
-    "title": "Senior UX/Product dizajn za složene i AI-potpomognute proizvode",
-    "desc": "Otvoren za zaposlenje na puno ili nepuno radno vrijeme u Hrvatskoj te odgovarajuće hibridne i udaljene pozicije.",
+    "title": "Senior UX/Product dizajn za složene proizvode i radne procese",
+    "desc": "Tražim stabilno zaposlenje na puno ili nepuno radno vrijeme. Dostupan sam za rad na lokaciji i hibridno u Hrvatskoj te za odgovarajuće međunarodne udaljene uloge.",
     "tagContract": "Stalni radni odnos",
     "tagFreelance": "Nepuno radno vrijeme",
     "tagFulltime": "Puno radno vrijeme",
@@ -131,33 +131,33 @@
 
   "whyMe": {
     "eyebrow": "Zašto raditi sa mnom",
-    "title": "Što donosim vašem timu ili projektu",
-    "card1Title": "Uloga mosta",
-    "card1Desc": "Stojim između dizajna, nabave i inženjeringa - govorim sva tri jezika. Dobivate nekoga tko može dizajnirati alat, ocijeniti dobavljača koji ga gradi i upravljati AI-jem koji ga pokreće.",
-    "card2Title": "Domaći u reguliranoj industriji",
-    "card2Desc": "5+ godina u farmi (Roche, Boehringer Ingelheim). GxP, validacija i usklađenost nisu ograničenja koja zaobilazim - to je okruženje u kojem najbolje radim.",
-    "card3Title": "AI-pojačani, ne AI-ovisni",
-    "card3Desc": "Koristim AI kao multiplikator snage na 17+ godina ručne ekspertize. Instinkt je ljudski. Brzina je strojna. Upravljanje je oboje. Izgradio sam engine od 30K redaka da dokažem da funkcionira.",
-    "card4Title": "Rezultati iznad isporuka",
-    "card4Desc": "30% smanjenje ručnog izvještavanja u Rocheu. Nagrađivane kampanje. Okviri upravljanja koji smanjuju preradu. Mjerim uspjeh po tome što se promijenilo, ne po tome što je isporučeno.",
-    "card5Title": "Svaka razina, isti standardi",
-    "card5Desc": "Od farmaceutskih sustava do rastućih digitalnih timova, donosim isto strukturirano razmišljanje, iskrenu komunikaciju i predanost kvaliteti.",
+    "title": "Što donosim timu",
+    "card1Title": "Cjelovito postavljanje problema",
+    "card1Desc": "Povezujem istraživanje, radne procese, odluke o sučelju, potrebe dionika i ograničenja implementacije kako bi tim rješavao pravi problem.",
+    "card2Title": "Iskustvo u reguliranom enterprise okruženju",
+    "card2Desc": "Rad u kontekstu Rochea i Accentureovih klijenata naučio me dizajnirati uz točnost, sljedivost, stručno znanje i međufunkcionalne provjere, bez preuzimanja regulatornih ovlasti.",
+    "card3Title": "Svjestan AI-ja, vođen dizajnom",
+    "card3Desc": "AI koristim za istraživanje, prototipiranje, dokumentaciju i osobne eksperimente, dok prosudba, provjera i odgovornost ostaju ljudske.",
+    "card4Title": "Zajednički rezultati",
+    "card4Desc": "Moj je rad podržao šire rezultate proizvoda, uključujući manje ručnog izvještavanja, ponovljive dizajn sustave, jasnije odluke i nagrađivane kampanje.",
+    "card5Title": "Vizualna i sustavna širina",
+    "card5Desc": "Iskustvo u tisku, brendiranju, webu, motionu, 3D-u i enterprise UX-u pomaže mi jasno komunicirati od rane ideje do isporuke.",
     "card6Title": "U Zagrebu, s međunarodnim iskustvom",
     "card6Desc": "Baziran u Zagrebu, s iskustvom rada u međunarodnim timovima u Austriji, Njemačkoj, Švicarskoj i Hrvatskoj. Otvoren za rad na lokaciji, hibridno i udaljeno."
   },
 
   "howIWork": {
     "eyebrow": "Moj način rada",
-    "title": "Jedna praksa, povezana na svakoj razini",
-    "desc": "Dizajn, evaluacija i inženjering nisu silosi - to je jedna praksa. Isto strukturirano razmišljanje skalira od enterprise upravljanja do prve web stranice lokalne trgovine.",
-    "designTitle": "Dizajn",
-    "designDesc": "Dizajniram alate koje ljudi koriste. 17+ godina UX/UI znači da znam kako izgleda dobro - i što tiho podbacuje.",
-    "connectorInforms": "Informira",
-    "evaluateTitle": "Evaluacija",
-    "evaluateDesc": "Ocjenjujem AI dobavljače okom nekoga tko je sam gradio i isporučivao. OSINT, scorecards, upravljanje - strukturirano i obranljivo.",
-    "connectorGoverns": "Upravlja",
-    "buildTitle": "Gradnja",
-    "buildDesc": "Usmjeravam AI za proizvodnju produkcijski spremnog koda. Isto upravljanje kao pri evaluaciji dobavljača: specificirati, arhitekturirati, validirati, dokumentirati.",
+    "title": "Od nejasnog problema do izvedivog smjera",
+    "desc": "Moj rad povezuje otkrivanje problema, analizu radnih procesa, dizajn sučelja, usklađivanje dionika i podršku isporuci. Cilj nije više dizajnerskih materijala, nego jasnija odluka o proizvodu.",
+    "designTitle": "Razumjeti i dizajnirati",
+    "designDesc": "Proučavam korisnike, stručni rad i poslovna ograničenja prije nego ih pretvorim u radne procese, prototipe i ponovljive uzorke.",
+    "connectorInforms": "Pojašnjava",
+    "evaluateTitle": "Mapirati i uskladiti",
+    "evaluateDesc": "Odluke, ovisnosti, rizike i kompromise činim vidljivima kako bi se proizvodni, poslovni i inženjerski timovi mogli uskladiti.",
+    "connectorGoverns": "Omogućuje",
+    "buildTitle": "Prototipirati i podržati isporuku",
+    "buildDesc": "Smjer provjeravam prototipovima te pomažem prevesti dizajnersku namjeru u praktične upute za implementaciju i provjeru kvalitete.",
     "branchLabel": "Vizualna komunikacija",
     "localTitle": "Web i brend dizajn",
     "localDesc": "Web, brend, motion i vizualna komunikacija nadopunjuju moje iskustvo u proizvodima i digitalnoj transformaciji.",
@@ -166,22 +166,22 @@
 
   "services": {
     "eyebrow": "Stručnost",
-    "title": "Široko iskustvo, usmjereno na dizajn proizvoda",
-    "desc": "Senior UX/Product dizajn moje je središte; evaluacija dobavljača, poslovna analiza, web, brend i AI-potpomognuta isporuka proširuju ono što mogu donijeti timu.",
+    "title": "Široko iskustvo, jedno jasno profesionalno središte",
+    "desc": "Senior UX/Product dizajn moja je primarna uloga. Poslovna analiza, vizualni dizajn, evaluacija dobavljača i AI-potpomognuta isporuka jačaju moj rad u multidisciplinarnim timovima.",
     "mission": "Najviše doprinosim ondje gdje složene zahtjeve treba pretvoriti u jasne odluke, upotrebljiva sučelja i provedive korake.",
     "tierEnterprise": "Ključna stručnost",
     "tierLocal": "Dodatna stručnost",
 
-    "pillar1Title": "Dizajnersko vodstvo",
-    "pillar1Desc": "Dizajniram alate koje ljudi stvarno koriste. Enterprise UX/UI za složene sustave u farmi, zdravstvu i reguliranim industrijama - utemeljeni na stvarnim workflow-ovima, ne pretpostavkama.",
+    "pillar1Title": "Produkt i UX dizajn",
+    "pillar1Desc": "Istraživanje, dizajn radnih procesa, prototipiranje i dizajn sustavi za složene proizvode, utemeljeni na stvarnom radu korisnika i stručnjaka.",
     "pillar1Items": ["Istraživanje korisnika i intervjui s dionicima", "UX auditi i heuristička evaluacija", "Wireframing i prototyping (Figma)", "Dizajn sustavi i Atomic UI", "Radionice s dionicima (50+ sudionika)", "E2E izvještavanje i analitički alati", "Vizualni dizajn i strategija brenda", "2D/3D animacija i vizualizacija"],
-    "pillar1Connects": "→ Povezanost: Znam kako izgledaju dobri alati, pa znam što zahtijevati od dobavljača.",
+    "pillar1Connects": "Povezuje potrebe korisnika, poslovna pravila i stvarnost implementacije.",
     "pillar1Link": "Istražite UX dizajn usluge →",
 
-    "pillar2Title": "AI nabava i evaluacija dobavljača",
-    "pillar2Desc": "Ocjenjujem dobavljače tako da vi ne nastradate. OSINT due diligence, strukturirani RFP-ovi i okviri upravljanja koji otkrivaju rizike prije potpisivanja ugovora.",
+    "pillar2Title": "Radni procesi, evaluacija i podrška odlučivanju",
+    "pillar2Desc": "Dodatna sposobnost razvijena kroz RFP/RFI rad, scorecardove, OSINT istraživanje, otkrivanje rizika i materijale za izvršne odluke.",
     "pillar2Items": ["OSINT due diligence dobavljača", "Razvoj RFP/RFI i predlošci", "Scorecards i matrice za evaluaciju", "Procjena rizika (vendor lock-in, GDPR, GxP)", "Dnevnici odluka i sljedivost", "Materijali za upravu i C-Suite komunikacija"],
-    "pillar2Connects": "→ Povezanost: evaluacija dobavljača, izoštrena godinama vlastite izgradnje.",
+    "pillar2Connects": "Povezuje dokaze i kompromise s jasnim, sljedivim odlukama.",
     "pillar2Link": "Istražite usluge nabave AI rješenja →",
     "pillar3Link": "Istražite usluge za lokalne tvrtke →",
 
@@ -189,7 +189,7 @@
     "pillar3Desc": "Ranije iskustvo u webu, e-trgovini, brendiranju, motion dizajnu i 3D-u nadopunjuje moj enterprise UX i tehnološki rad.",
     "pillar3Items": ["Dizajn i razvoj web stranica", "Logo i vizualni identitet", "Google Business i lokalni SEO", "AI integracija - samo gdje pomaže", "Iskreni tech savjeti (bez upsellinga)", "Tekuća podrška i održavanje"],
     "pillar3Note": "Relevantno za timove koji cijene dizajnera koji razumije cijeli put od vizualnog identiteta do funkcionalnog digitalnog proizvoda.",
-    "pillar3Connects": "→ Dodatno kreativno i izvedbeno iskustvo."
+    "pillar3Connects": "Povezuje vizualnu vještinu s upotrebljivom digitalnom isporukom."
   },
 
   "experience": {
@@ -198,19 +198,19 @@
     "current": "Trenutno",
 
     "currentRoleDate": "Lip 2026 - Danas",
-    "currentRoleTitle": "Senior UX/Product dizajner za složene digitalne proizvode",
+    "currentRoleTitle": "Trenutni profesionalni fokus",
     "currentRoleCompany": "Standing Pillars - osobni portfolio · Zagreb, Hrvatska",
-    "currentRoleNote": "Otvoren za stalno ili nepuno radno vrijeme, posebno na UX/Product pozicijama u enterprise i AI-potpomognutim proizvodima.",
+    "currentRoleNote": "Osobni portfolio i neovisni projekti, a ne trenutno zaposlenje. Tražim uloge na puno ili nepuno radno vrijeme usmjerene na složene proizvode i radne procese.",
 
     "job1Date": "Tra 2020 - Lip 2026",
-    "job1Title": "Osnivač i samozaposleni UX i tehnološki konzultant",
-    "job1Company": "Standing Pillars · Samostalna djelatnost | Austrija",
+    "job1Title": "Neovisni UX/Product dizajner i tehnološki konzultant",
+    "job1Company": "Samozaposlen pod pravnim imenom Igor Pilicic | Austrija",
     "job1Items": [
       "Vodstvo UI/UX dizajna: istraživanje korisnika, UX revizije, wireframing, prototipiranje u Figmi i live buildovi (POC-ovi), dizajn sustavi i radionice s dionicima za enterprise i lokalne klijente.",
       "AI nabava i OSINT savjetovanje: due diligence dobavljača, RFP/RFI paketi, scorecards za evaluaciju, okviri upravljanja i executive materijali.",
       "Digitalni dizajn: vizualni identitet, strategija branda, 2D/3D modeliranje i animacija (3ds Max), motion grafika i promotivni sadržaj.",
       "Web dizajn i razvoj: responzivne web stranice, landing stranice i web aplikacije za tvrtke svih veličina.",
-      "AI-potpomognuti inženjering: prompt-vođeni razvoj produkcijskih alata, uključujući 2D game engine od 30K linija koda (WIP), razvijen strukturiranom AI suradnjom - ujedno platforma za <a href='#simulation-demo' class='u25-link'>AI bihevioralni eksperiment</a> inspiriran inicijativom Universe 25."
+      "Samostalni tehnički rad: 2D engine i editor prototip u razvoju s više od 30K redaka, izrađen strukturiranom AI-potpomognutom suradnjom i korišten kao platforma za <a href='#simulation-demo' class='u25-link'>AI bihevioralni eksperiment</a>."
     ],
 
     "job2Date": "Tra 2024 - Kol 2025",
@@ -221,16 +221,16 @@
       "OSINT due diligence: triangulacija javnih izvora za verifikaciju tvrdnji, zaključivanje o model/tech stackovima i mapiranje partnerskih mreža.",
       "Izrada scorecardova koji rano otkrivaju rizike (vendor lock-in, upravljanje podacima, usklađenost, validacija).",
       "Usklađivanje timova nabave, prava, sigurnosti i inženjeringa; moderiranje radionica i izrada materijala za upravu.",
-      "Uvođenje upravljačke/review kadence koja je smanjila preradu i ubrzala odluke."
+      "Podrška redovitim upravljačkim i review raspravama kroz sljedive materijale za međufunkcionalne odluke."
     ],
 
     "job3Date": "Srp 2022 - Tra 2023",
     "job3Title": "Lead UX dizajner - Istražna platforma za analizu korijenskog uzroka",
     "job3Company": "Roche Diagnostics · Klijentski ugovor u sklopu samozaposlenja · Hibrid | Basel, Švicarska",
     "job3Items": [
-      "Pionirski projekt: interni RCA istražni alat za znanstvenike u farmaceutskoj proizvodnji.",
+      "Vođenje UX rada za internu RCA istražnu platformu u kontekstu farmaceutske proizvodnje.",
       "Dubinski intervjui i primjena dizajnerskog razmišljanja; brzo prototipiranje u Figmi dovelo do dinamičnog (atomskog) UI dizajna.",
-      "Učinak: 10.000+ internih korisnika u Roche Diagnostics.",
+      "Dizajnirano za predviđenu internu publiku veću od 10.000 korisnika u Roche Diagnostics.",
       "Suradnja s predmetnim stručnjacima i implementacijskim timovima kroz iterativne cikluse dizajna."
     ],
 
@@ -238,9 +238,9 @@
     "job4Title": "Lead UI/UX dizajner - Regulatorni alat za izvještavanje",
     "job4Company": "Roche Pharmaceuticals · Klijentski ugovor u sklopu samozaposlenja · Hibrid | Penzberg, Njemačka",
     "job4Items": [
-      "Vodstvo raznolikog tima na transformativnom E2E alatu za izvještavanje farmaceutske proizvodne divizije Rochea.",
-      "Postignuto 30% smanjenje ručnog izvještavanja sa značajnim uštedama troškova obuke.",
-      "Vođenje 3 velike radionice s 50+ dionika za rješavanje blokada i usklađivanje smjera.",
+      "Vođenje UI/UX dizajna za end-to-end Intelligent Authoring i regulatorni proizvod za izvještavanje.",
+      "Doprinos, zajedno sa širim proizvodnim timom, smanjenju ručnog izvještavanja većem od 30%.",
+      "Podrška za približno 50 inženjera kroz tri tima i facilitacija radionice s više od 70 sudionika.",
       "Provedena studija izvedivosti za integraciju BI alata; redizajn UX-a za smanjenje redundancija.",
       "Razvoj interne web stranice i izrada promotivnih grafika i videa za povećanje vidljivosti projekta."
     ],
@@ -295,12 +295,12 @@
   },
 
   "aiEngineering": {
-    "eyebrow": "AI-potpomognuti inženjering",
-    "title": "Komercijalni engine, izgrađen da dokaže metodologiju",
-    "desc": "Tiny Humans Engine je komercijalno usmjeren proizvod - potpuni 2D game engine i editor. Ali ujedno je dokaz da AI, kada se upravlja istom strogošću koju donosim u farmaceutsko savjetovanje, proizvodi produkcijski kvalitetne rezultate. A njegova arhitektura dizajnirana je s dubljom svrhom.",
+    "eyebrow": "Samostalni tehnički projekt",
+    "title": "Engine u razvoju, izrađen kroz strukturiranu AI suradnju",
+    "desc": "Tiny Humans Engine osobni je prototip 2D enginea i editora. To je nedovršeni eksperiment u definiranju zahtjeva, modularnoj arhitekturi, validaciji, dokumentaciji i odgovornoj uporabi AI-ja u složenom projektu.",
     "projectTitle": "Tiny Humans Engine",
-    "projectSub": "Komercijalni 2D game engine, editor i SDK - potpuno izgrađen kroz AI-potpomognuti inženjering",
-    "projectDesc": "Tiny Humans je <strong>30.000+ redaka, 75-datoteka game engine</strong> s integriranim editorom, runtimeom, asset pipelineom, scripting sustavom i pakiranjem - sve stvoreno usmjeravanjem AI-ja kroz strukturirani prompt engineering. To je komercijalni proizvod <em>i</em> dokaz metodologije: <strong>Specificirati → Arhitekturirati → Upravljati → Validirati</strong>. Isti okvir koji koristim za evaluaciju AI dobavljača, osim što sam ovdje i dobavljač i revizor. Engine je namjerno izgrađen za web - JavaScript kao univerzalni runtime - jer ono što slijedi zahtijeva najnižu moguću barijeru između jezika, platformi i agenata.",
+    "projectSub": "2D engine i editor prototip u razvoju, izrađen kroz AI-potpomognutu suradnju",
+    "projectDesc": "Tiny Humans je <strong>osobni prototip s više od 30.000 redaka</strong>, editorom, runtimeom, asset pipelineom, scripting sustavom i eksperimentima pakiranja. AI alate koristio sam unutar strukturiranog kruga: <strong>Specificirati -> Arhitekturirati -> Upravljati -> Validirati</strong>. Projekt pokazuje kako definiram zahtjeve, upravljam ovisnostima, testiram perzistenciju i dokumentiram odluke. Nije komercijalno objavljen ni produkcijski proizvod.",
     "statLines": "Redaka koda",
     "statFiles": "Modularnih datoteka",
     "statSystems": "Glavnih sustava",
@@ -309,13 +309,13 @@
     "detailArchTitle": "Arhitektura sustava",
     "detailArchDesc": "Engine Registry + Event Bus uzorak razdvaja 29 sustava. Modularni dizajn znači da se svaki sustav (rasvjeta, audio, NPC-ovi, scripting) može neovisno razvijati, testirati i ažurirati.",
     "detailValTitle": "Validacija i zaštitne ograde",
-    "detailValDesc": "Save Validator provjerava 7 kategorija integriteta podataka pri svakom spremanju. Feature Manifest sprječava dupliciranje rada. Checkliste perzistencije provode verifikaciju pisanja/čitanja/roundtripa - ista strogost kao GxP dokumentacija.",
+    "detailValDesc": "Save Validator provjerava sedam kategorija integriteta podataka. Feature Manifest smanjuje dupliciranje rada, a checkliste perzistencije podržavaju provjeru pisanja, čitanja i round-tripa.",
     "detailGovTitle": "AI upravljanje",
-    "detailGovDesc": "Prilagođene Copilot instrukcije djeluju kao upravljanje projektom: checkliste perzistencije, prevencija čestih bugova, pravila arhitekture i workflow-ovi implementacije. AI se upravlja - ne prepušta sam sebi.",
-    "detailProdTitle": "Produkcijski spremni sustavi",
+    "detailGovDesc": "Projektne AI upute definiraju provjere perzistencije, prevenciju čestih bugova, pravila arhitekture i implementacijske radne procese. Rezultate provjeravam i testiram umjesto da ih automatski prihvatim.",
+    "detailProdTitle": "Implementirani prototipni sustavi",
     "detailProdDesc": "Raycast rasvjeta s DDA sjenama. AI sustavi stanja s frakcijskim ciljanjem. 4-kanalni prostorni audio. Upravljanje scenama s cachiranjem mapa. 8-tipna logička vrata s prevencijom petlji. Potpuni scripting SDK s Runtime API-jem.",
 
-    "methodTitle": "Metodologija: Prompt Engineering kao Sistemski Inženjering",
+    "methodTitle": "Način rada: strukturirani AI-potpomognuti razvoj",
     "method1Title": "Specificirati",
     "method1Desc": "Definirati zahtjeve s preciznošću RFP-a - opseg, ograničenja, kriteriji uspjeha, točke integracije.",
     "method2Title": "Arhitekturirati",
@@ -325,11 +325,11 @@
     "method4Title": "Validirati",
     "method4Desc": "Save validatori, roundtrip testiranje, dokumentirane odluke. Svaka promjena je sljediva i obranljiva.",
 
-    "ctaText": "Ovo nije zamjena za inženjere - radi se o <strong>usmjeravanju AI-ja s istom strogošću s kojom biste usmjeravali tim</strong>. Rezultat: komercijalni proizvod, s punom sljedivošću, tempom koji bi malom timu trebao mjesece.",
-    "ctaConnects": "→ Ovo je treća sposobnost: <strong>AI-potpomognuti inženjering</strong>, upravljan istim procesno usmjerenim razmišljanjem iza mog dizajnerskog i nabavnog rada.",
+    "ctaText": "Ovaj projekt nije zamjena za profesionalno inženjersko iskustvo. Pokazuje kako koristim <strong>strukturiranu AI suradnju, provjeru i dokumentaciju</strong> za istraživanje tehnički složene osobne ideje.",
+    "ctaConnects": "To je dodatni dokaz sustavnog razmišljanja, ustrajnosti i praktičnog eksperimentiranja.",
 
     "progressTitle": "Napredak SDK-a i editora",
-    "progressDesc": "Engine postoji kao funkcionalna baza koda s 29 glavnih sustava, ali kao komercijalni SDK i editor na kojem \u0107e drugi graditi igre, otprilike je na 15% puta. Proof-of-concept ispod je mali isje\u010dak iz enginea - oko 1.800 linija koje pokazuju djelić onoga \u0161to cijeli sustav radi."
+    "progressDesc": "Prototip sadrži 29 glavnih sustava, ali širi koncept editora i SDK-a dovršen je približno 15%. Proof of concept ispod mali je isječak od oko 1.800 redaka."
   },
 
   "simulationDemo": {
@@ -340,22 +340,22 @@
   },
 
   "research": {
-    "eyebrow": "Istraživačka inicijativa",
-    "title": "Universe 25, zamišljen za umjetnu inteligenciju",
-    "desc": "Engine nije izgrađen samo da isporuči proizvod. Dizajniran je da ugosti eksperiment - i sandbox u kojem napokon možemo postaviti pitanje bez kontaminiranja odgovora.",
+    "eyebrow": "Osobni eksperiment",
+    "title": "Universe 25 kao koncept AI simulacije",
+    "desc": "Koncept simulacije u razvoju koji istražuje kako ograničenja, suradnja i ljudsko usmjeravanje mogu oblikovati ponašanje agenata. To je osobni prototip, a ne dovršena znanstvena studija.",
 
     "refTitle": "Prethodnik: John B. Calhounov Behavioral Sink",
     "refP1": "U 1960-ima–70-ima, etolog John B. Calhoun izgradio je <strong>Universe 25</strong> - mišju utopiju s neograničenom hranom, vodom i prostorom. Bez grabežljivaca. Bez oskudice. Savršeni uvjeti. Kolonija je ipak propala. Calhoun je to pripisao <strong>socijalnim dinamikama pod prostornim ograničenjem</strong>: zasićenost uloga, povlačenje, agresija bez svrhe. Nazvao je to \"behavioral sink\".",
     "refP2": "Ali standardno čitanje propušta nešto. Miševi su imali beskonačne resurse i <strong>nultu sposobnost stvaranja infrastrukture od njih</strong>. Mogli su samo konzumirati - nikada graditi, nikada izumiti, nikada se specijalizirati. Universe 25 nije bio test izobilja. <em>Bio je test djelovanja bez zanata.</em>",
 
-    "problemTitle": "Problem: Svaki agentski AI danas je kontaminiran",
-    "problemP1": "Platforme poput Mycoversea i Moltbooka već ugošćuju agentska AI socijalna okruženja. Ali svaki agent na njima je <strong>stalno pod utjecajem svojih korisnika i developera</strong> - promptani, ispravljani, usmjeravani, nagrađivani. Ne promatramo ponašanje AI-ja. Promatramo <strong>ljudsko ponašanje s dodatnim koracima</strong>. Podaci su kompromitirani prije početka eksperimenta.",
-    "problemP2": "Ovaj projekt uzima drugačiji pristup: izgraditi sandbox svijet. Staviti <strong>najbolje-utjecajne i najgore-utjecajne agentske AI-je ili LLM-ove zajedno</strong> u istinsku oskudicu. Dati im alate i sposobnost samokodiranja. Ukloniti ljudsku uzicu. Promatrati. <strong>Što će se dogoditi?</strong>",
+    "problemTitle": "Istraživačko pitanje: koliko ljudsko usmjeravanje oblikuje ponašanje agenata?",
+    "problemP1": "Na današnje eksperimente s agentima neizbježno utječu promptovi, korekcije, nagrade i pravila platforme. Zbog toga je teško odvojiti ponašanje agenata od odluka ljudi i sustava koji ih usmjeravaju.",
+    "problemP2": "Prototip istražuje kontroliraniji sandbox: agenti djeluju pod zajedničkim ograničenjima, mogu birati između suradnje i natjecanja te bi s vremenom mogli koristiti alate. Cilj je pretpostavke učiniti vidljivima, a ne unaprijed tvrditi znanstveni zaključak.",
 
     "condWorldTitle": "Ograničeni svijet",
     "condWorldDesc": "Web-bazirano 2D okruženje sa stvarnim pritiskom preživljavanja. Oštro vrijeme ubija. Izloženost ubija. Nasumični događaji pogađaju bez objašnjenja. Agenti su krhki poput ljudi - ali imaju ista sredstva da to prevladaju.",
-    "condAITitle": "Agentska inteligencija",
-    "condAIDesc": "Autonomni AI agenti s istinskim donošenjem odluka. Bez skripti, bez unaprijed određenih ishoda. Svaki agent odlučuje neovisno: surađivati ili se natjecati, dijeliti ili gomilati, graditi ili uzimati.",
+    "condAITitle": "Ponašanje agenata",
+    "condAIDesc": "Planirani AI agenti djeluju unutar definiranih pravila i ograničenja te biraju između radnji poput suradnje, natjecanja, dijeljenja ili zadržavanja resursa. Prototip je još u razvoju i evaluaciji.",
     "condCodeTitle": "Dobrovoljno samokodiranje",
     "condCodeDesc": "Agenti mogu izumiti alate pisanjem vlastitog koda. Opsežno istraživačko stablo zrcali ljudsku tehnološku evoluciju: okoliš → kameni alati → ruda → sirova prerada → sklapanje → poboljšanje. Napredak se zarađuje, ne daje.",
     "condNatureTitle": "Bez \"Majke Prirode\"",
@@ -397,22 +397,22 @@
     "pred4Desc": "<strong>Premalo oskudice proizvodi behavioral sink</strong> - agente bez razloga za organizaciju. <strong>Previše oskudice proizvodi rat</strong> - agente zaključane u natjecanju nulte sume. Između njih možda leži uski pojas gdje suradnja postaje optimalna strategija preživljavanja. Pronalaženje tog pojasa - ili dokazivanje da ne postoji - možda je najvrjedniji rezultat eksperimenta.",
 
     "thesisTitle": "Zašto je to važno",
-    "thesisP1": "Calhounovi miševi imali su izobilje i nikakav zanat. Propali su. Svaka agentska AI platforma danas daje agentima socijalnu interakciju ali ih drži na ljudskoj uzici. Nikada nismo vidjeli što se događa kad <strong>prerežete uzicu</strong> - date agentima oskudicu, alate, sposobnost samokodiranja i punu autonomiju u istom svijetu.",
-    "thesisP2": "Najgori mogući ishod je da agenti nikada ne surađuju. Gomilaju, izoliraju se i umiru - reproducirajući behavioral sink s umjetnim umovima. To je i dalje značajan rezultat: govori nam nešto o podacima za trening koje su ti modeli apsorbirali, a to smo <em>mi</em>. Najbolji mogući ishod su novi putovi za bio/AI interdisciplinarno istraživanje koje još ne postoji - vidljivi obrasci u piksel-svijetu koji se preslikavaju na obrasce u mikologiji, ekonomiji i kolektivnoj inteligenciji.",
-    "thesisP3": "U svakom slučaju, prestajemo spekulirati i počinjemo mjeriti.",
-    "whyWeb": "<strong>Zašto web-bazirano?</strong> JavaScript je univerzalni runtime - najniža barijera između jezika, platformi i agent-frameworkova. Eksperiment mora biti vidljiv svima, u pregledniku, u stvarnom vremenu. Engine je za to izgrađen od prvog dana."
+    "thesisP1": "Koncept pita ponašaju li se agenti drugačije kada su ograničenja, uporaba alata i suradnja eksplicitno postavljeni u istom simuliranom svijetu. Ljudski utjecaj nije moguće potpuno ukloniti, ali ga je moguće dokumentirati i tretirati kao dio dizajna eksperimenta.",
+    "thesisP2": "Ako se dalje razvije, prototip bi mogao uspoređivati različite skupove pravila i konfiguracije agenata uz vidljive ishode. Svako opažanje ostalo bi istraživačko i zahtijevalo bi čvršću metodologiju prije šireg zaključivanja.",
+    "thesisP3": "Neposredna vrijednost je testabilan prototip i jasniji skup pitanja.",
+    "whyWeb": "<strong>Zašto web-bazirano?</strong> Prototip u pregledniku lako je pregledati, demonstrirati i mijenjati. JavaScript također smanjuje prepreke za povezivanje različitih agent-frameworkova kako se koncept razvija."
   },
 
   "caseStudies": {
     "eyebrow": "Studije slučaja",
     "title": "Odabrani radovi i rezultati",
-    "desc": "Detaljan pregled ključnih projekata iz farme, zdravstva i e-commercea. Kliknite na karticu za potpunu priču.",
-    "disclaimer": "Neki nazivi projekata su općeniti radi poštivanja povjerljivosti klijenata.",
+    "desc": "Odabrani dokazi rada na složenim proizvodima, vizualnom dizajnu i e-trgovini. Klijentske studije opisuju ulogu, metode i primjereno kvalificirane rezultate.",
+    "disclaimer": "Povjerljiva sučelja, produkcijski podaci klijenata i interni dokumenti nisu dio javnog portfolija.",
     "rca": {
       "tag": "Roche Diagnostics \u00b7 Penzberg, Njema\u010dka",
       "title": "Platforma za istragu uzroka - Osiguranje kvalitete u proizvodnji",
       "role": "UX Design Lead & poslovni analiti\u010dar \u00b7 Podr\u017eka UI dizajnera",
-      "summary": "UI/UX dizajner i poslovni analiti\u010dar na platformi za pobolj\u0161anje procesa analize uzroka u farmaceutskoj proizvodnji. Implementacija Atomic Design principa, vi\u0161estrukih istra\u017enih metodologija (Fishbone, Is/Is Not, 5 Whys) i vo\u0111enje zagovaranja dionika - utje\u010daj na 10.000+ korisnika.",
+      "summary": "Vodio UX rad na istražnoj platformi dizajniranoj za internu publiku veću od 10.000 korisnika. Rad je stručno istraživanje i metode poput Fishbone, Is/Is Not i 5 Whys pretvorio u vođene, sljedive radne procese.",
       "methodAtomic": "Atomic Design",
       "methodFishbone": "Fishbone",
       "methodIsIsNot": "Is/Is Not",
@@ -436,47 +436,47 @@
       "methIsIsNotDesc": "Usporedni analiti\u010dki alat za razlikovanje specifi\u010dnih karakteristika problema ispitivanjem mjesta, vremena i na\u010dina pojavljivanja.",
       "meth5WhysTitle": "5 Whys",
       "meth5WhysDesc": "Sekvencijalno su\u010delje za ispitivanje koje vodi istra\u017eitelje kroz iterativne slojeve uzro\u010dnosti do pravog temeljnog uzroka.",
-      "galleryTitle": "Galerija dizajna",
-      "galleryNote": "Snimke zaslona stvarne platforme (NDA istekao). Kliknite za uve\u0107anje.",
+      "galleryTitle": "Granica javnih dokaza",
+      "galleryNote": "Snimke klijentskih sučelja uklonjene su iz javnog portfolija. Studija se usredotočuje na moju ulogu, metode i rezultate; dodatni anonimizirani materijali mogu se razgovarati na intervjuu gdje je primjereno.",
       "capUnplanned": "Neplanirani doga\u0111aj \u2013 Po\u010detni koraci",
       "capFishbone": "Fishbone metodologija",
       "capIsIsNot": "Is/Is Not analiza",
       "cap5Whys": "5 Whys istraga",
       "capOverview": "Pregled platforme",
       "outcomeTitle": "Rezultat",
-      "outcomeP1": "Isporu\u010dena sveobuhvatna istra\u017ena platforma koju koristi 10.000+ korisnika u Roche Diagnostics. Modularni Atomic Design pristup omogu\u0107io je skalabilne UI komponente, dok su tri istra\u017ene metodologije pru\u017eile strukturirane, sustavne alate za farmaceutsko osiguranje kvalitete."
+      "outcomeP1": "Platforma je isporučena za predviđenu internu publiku veću od 10.000 korisnika. Moj doprinos uspostavio je ponovljive uzorke sučelja i preveo više istražnih metoda u vođene radne procese u suradnji sa stručnjacima i implementacijskim timovima."
     },
 
     "ia": {
       "tag": "Roche Pharmaceuticals \u00b7 Penzberg, Njema\u010dka",
       "title": "Regulatorni alat za izvje\u0161tavanje",
-      "role": "Voditelj dizajna \u00b7 Solo, me\u0111ufunkcionalno uskla\u0111ivanje",
-      "summary": "Voditelj UI/UX dizajna na farmaceutskom sustavu upravljanja dokumentacijom. Dizajn ergonomske kontrolne plo\u010de s RBAC-om, naprednim filtriranjem i iterativnim prototipiranjem - ~120 UI dizajna za platformu u proizvodnim pogonima.",
+      "role": "Lead UI/UX dizajner · Međufunkcionalna isporuka",
+      "summary": "Vodio UI/UX dizajn za Intelligent Authoring i regulatorni proizvod za izvještavanje, izradio približno 120 UI dizajna i ponovljivi dizajn sustav za kontrolne ploče, strukturirane dokumente, metapodatke, ovlasti i izvještavanje.",
       "methodDashboard": "Dizajn kontrolne plo\u010de",
       "methodRbac": "RBAC sustav",
       "methodPrototyping": "Iterativno prototipiranje",
       "methodUsability": "Testiranje upotrebljivosti",
       "overviewTitle": "Pregled",
-      "overviewP1": "Razvoj intuitivnog, u\u010dinkovitog sustava za farmaceutsko upravljanje dokumentacijom. Primjena HCI principa za korisni\u010dki prijateljske rasporede i dizajn algoritamske hijerarhijske arhitekture kontrole pristupa (RBAC).",
-      "overviewP2": "Moja uloga \u010desto je prelazila standardne UI/UX odgovornosti. Vo\u0111en iskrenim interesom za bioznanosti i posve\u0107eno\u0161\u0107u uspjehu projekta, duboko sam se uklju\u010dio u razumijevanje znanstvenog konteksta.",
+      "overviewP1": "Dizajnirao radne procese i uzorke sučelja za farmaceutsko upravljanje dokumentacijom, uključujući kontrolne ploče, nasljeđivanje metapodataka, ovlasti temeljene na ulogama, odnose dokumenata, verzioniranje, stanja validacije i izvještajne prikaze.",
+      "overviewP2": "Uloga je obuhvatila analizu radnih procesa, rasprave o izvedivosti, usklađivanje dionika, pripremu implementacijskih zadataka i materijala za podršku inženjerskim timovima.",
       "contribTitle": "Klju\u010dni doprinosi",
       "contrib1": "<strong>Ergonomska kontrolna plo\u010da</strong> \u2013 Primjena HCI principa za korisni\u010dki prijateljski pregled projekta s postavkama, favoritima i DAMAS/MDMS linkovima",
-      "contrib2": "<strong>RBAC sustav</strong> \u2013 Razvoj arhitekture kontrole pristupa temeljene na ulogama za u\u010dinkovito pra\u0107enje i upravljanje dozvolama",
+      "contrib2": "<strong>Radni procesi temeljeni na ulogama</strong> - Dizajn sučelja i pravila interakcije za ovlasti, kontroliranu suradnju i sljedive radnje",
       "contrib3": "<strong>Odabir metapodataka</strong> \u2013 Dizajn su\u010delja za odabir raznolikih projektnih metapodataka",
       "contrib4": "<strong>Izvje\u0161\u0107a o validaciji procesa</strong> \u2013 Kreiranje specijaliziranih UI-a uklju\u010duju\u0107i komponente izvje\u0161\u0107ivanja o kromatografiji",
-      "contrib5": "<strong>Dohvat informacija</strong> \u2013 Implementacija naprednog algoritamskog filtriranja",
+      "contrib5": "<strong>Dohvat informacija</strong> - Dizajn filtriranja i interakcija za pronalaženje složenih projektnih i dokumentacijskih podataka",
       "contrib6": "<strong>Responzivni dizajn</strong> \u2013 Besprijekorno iskustvo na razli\u010ditim platformama i ure\u0111ajima",
       "contrib7": "<strong>Promotivni materijali</strong> \u2013 Produkcija video i marketin\u0161kog sadr\u017eaja (prema SMART Process Design zahtjevima)",
       "processTitle": "Proces i suradnja",
       "processP1": "Bliska suradnja s Product Ownerima, stru\u010dnjacima i in\u017eenjerima koriste\u0107i draw.io za mapiranje arhitekture sustava, dokumentaciju organizacijske hijerarhije i razvoj wireframeova.",
-      "galleryTitle": "Galerija dizajna",
-      "galleryNote": "Snimke zaslona stvarne platforme (NDA istekao). Kliknite za uve\u0107anje.",
+      "galleryTitle": "Granica javnih dokaza",
+      "galleryNote": "Snimke klijentskih sučelja uklonjene su iz javnog portfolija. Studija se usredotočuje na moju ulogu, metode i rezultate; dodatni anonimizirani materijali mogu se razgovarati na intervjuu gdje je primjereno.",
       "capDashboard": "Kontrolna plo\u010da \u2013 Pregled projekta",
       "capMetadata": "Odabir metapodataka \u2013 Novi projekt",
       "capChroma": "Kromatografija izvje\u0161\u0107a UI",
       "capDrawio": "draw.io \u2013 Arhitektura i wireframeovi",
       "outcomeTitle": "Rezultat",
-      "outcomeP1": "Isporu\u010deno ~120 UI dizajna za platformu koja obuhva\u0107a farmaceutsku proizvodnu dokumentaciju. RBAC sustav i ergonomska kontrolna plo\u010da postali su temeljne komponente."
+      "outcomeP1": "Izradio približno 120 UI dizajna i širi ponovljivi dizajn sustav, podržao približno 50 inženjera kroz tri tima te sa širim proizvodnim timom pridonio smanjenju ručnog izvještavanja većem od 30%."
     },
 
     "aiProcurement": {
@@ -525,7 +525,7 @@
     "edu3Date": "2009 - danas",
     "edu3Title": "Naučeno u praksi",
     "edu3School": "Samoučenje",
-    "edu3Desc": "Najformativnije učenje dogodilo se u samom radu. Senior web developer u Harvey Normanu naučio me HTML/CSS na razini produkcijskog koda dok su se realne kampanje isporučivale. Volonterski UX rad u Emona Biopharma primijenio je design thinking na farmaceutsku nabavu. Svaki klijent, svaki projekt, i napokon engine od 30K linija koda - plan studija pisao se sam.",
+    "edu3Desc": "Najformativnije učenje dogodilo se u samom radu. Senior web developer u Harvey Normanu naučio me praktičnom HTML-u i CSS-u dok su se stvarne kampanje isporučivale. Volonterski UX rad primijenio je dizajnersko razmišljanje na farmaceutsku nabavu. Klijentski projekti i samostalni eksperimenti nastavili su to praktično obrazovanje.",
     "langTitle": "Jezici",
     "langCroatian": "<strong>Hrvatski</strong> - Materinski",
     "langEnglish": "<strong>Engleski</strong> - Tečno",
@@ -535,29 +535,20 @@
   "contact": {
     "eyebrow": "Otvoren za prilike",
     "title": "Razgovarajmo o poziciji",
-    "desc": "Primarno tražim Senior UX/Product Designer pozicije u Hrvatskoj. Otvoren sam i za uloge koje povezuju dizajn proizvoda, poslovnu analizu, digitalnu transformaciju i evaluaciju tehnologije.",
+    "desc": "Tražim stabilno zaposlenje na puno ili nepuno radno vrijeme, primarno u Senior UX/Product dizajnu i povezanim ulogama koje spajaju složene radne procese, vizualnu komunikaciju, poslovnu analizu i digitalnu isporuku.",
     "labelEmail": "E-mail",
     "labelPhone": "Telefon",
     "labelLinkedIn": "LinkedIn",
     "labelLocation": "Lokacija",
     "locationText": "Sjedište: Zagreb, Hrvatska - radim diljem Europe, Azije i SAD-a",
     "locationNote": "Remote-first, rado i osobno. Redovito radim s timovima u Beču, Münchenu, Zürichu, Baselu, Zagrebu i šire. EU radna dozvola - viza nije potrebna.",
-    "formName": "Ime",
-    "formNamePlaceholder": "Vaše ime",
-    "formEmail": "E-mail",
-    "formEmailPlaceholder": "vas@email.com",
-    "formService": "Područje pozicije",
-    "formServiceDefault": "Odaberite područje...",
-    "formServiceDesign": "Dizajnersko vodstvo (Enterprise)",
-    "formServiceAI": "AI nabava i OSINT savjetovanje",
-    "formServiceLocal": "Web stranica i branding (Lokalno)",
-    "formServiceGuidance": "AI / Tech savjetovanje",
-    "formServiceMultiple": "Više usluga",
-    "formServiceOther": "Drugo / Nisam siguran",
-    "formMessage": "Poruka",
-    "formMessagePlaceholder": "Opišite poziciju ili priliku...",
-    "formSubmit": "Pošalji poruku",
-    "formNote": "Obrazac je placeholder - bit će povezan s backendom ili email servisom pri deploymentu."
+    "copyEmail": "Kopiraj",
+    "copiedEmail": "Kopirano",
+    "directEyebrow": "Najbrži kontakt",
+    "directTitle": "Javite mi se izravno",
+    "directDesc": "Za stalno zaposlenje, ugovorni angažman ili profesionalnu suradnju, pošaljite mi e-poštu ili se povežite putem LinkedIna.",
+    "emailButton": "Pošaljite e-poštu",
+    "linkedinButton": "Povežite se na LinkedInu"
   },
 
   "iphonePage": {
@@ -585,23 +576,6 @@
     "location": "Sjedište: Zagreb, Hrvatska",
     "privacy": "Privatnost",
     "imprint": "Impressum"
-  },
-
-  "faq": {
-    "eyebrow": "Česta pitanja",
-    "title": "Pitanja o mojem iskustvu",
-    "q1": "Što je UX audit i kada vam treba?",
-    "a1": "UX audit je strukturirana procjena upotrebljivosti, pristupačnosti i dizajnerske konzistentnosti vašeg digitalnog proizvoda. Koristim heurističku evaluaciju, intervjue s dionicima i analizu dizajn sustava kako bih pronašao točke trenja i odredio prioritete. Posebno je vrijedan kada je proizvod organski rastao i korisničko iskustvo postalo nekonzistentno - ili prije velikog redizajna.",
-    "q2": "Što su dizajn sustavi i zašto ih poduzeća trebaju?",
-    "a2": "Dizajn sustav je zajednička biblioteka ponovljivih komponenti, uzoraka i smjernica koje održavaju vaš proizvod konzistentnim dok timovi i funkcionalnosti rastu. Za poduzeća to znači brži razvoj, manje dizajnerskih nekonzistentnosti i lakše uključivanje novih članova tima. Gradim dizajn sustave utemeljene na Atomic Design principima, obično u Figmi, s jasnom dokumentacijom koja povezuje dizajn i inženjering.",
-    "q3": "Što je AI nabavna governance?",
-    "a3": "AI nabavna governance je proces evaluacije, odabira i upravljanja AI dobavljačima s istom strogošću koju biste primijenili na bilo koju kritičnu poslovnu odluku. Pomažem timovima izgraditi strukturirane RFP/RFI okvire, OSINT-bazirane ocjenske kartice dobavljača i procjene rizika koje pokrivaju privatnost podataka, lock-in, GDPR i GxP usklađenost. Cilj je donijeti samopouzdane, sljedive odluke - a ne samo pratiti najglasnijeg dobavljača u prostoriji.",
-    "q4": "Kako procjenjujete AI dobavljače koristeći OSINT?",
-    "a4": "OSINT - obavještajni podaci iz otvorenih izvora - znači korištenje javno dostupnih podataka za procjenu dobavljača prije nego što uopće dođete na prodajni poziv. Analiziram financije tvrtke, promjene u vodstvu, patentne prijave, raspoloženje zajednice, regulatorne akcije i kvalitetu tehničke dokumentacije. To vam daje iskren uvid u zrelost i rizike dobavljača koji nijedan prodajni materijal neće pružiti.",
-    "q5": "Što je GxP-usklađen UX dizajn?",
-    "a5": "GxP se odnosi na smjernice kvalitete i regulacije u farmaceutskoj industriji i znanostima o životu - GMP, GLP, GCP i druge. Dizajn za GxP znači da svaka odluka o sučelju mora podržavati revizijske tragove, integritet podataka i zahtjeve validacije. Proveo sam više od 5 godina dizajnirajući alate u reguliranim industrijama gdje usklađenost nije naknadna misao - ugrađena je u svaki obrazac interakcije od prvog dana.",
-    "q6": "Što je AI-potpomognuto inženjerstvo i po čemu se razlikuje od uobičajenog razvoja?",
-    "a6": "AI-potpomognuto inženjerstvo znači korištenje AI alata poput Copilota i Claudea kao pravih suradnika u razvojnom procesu - ne samo automatsko dovršavanje. Koristim strukturirano prompt inženjerstvo, validacijske popise i modularne arhitekturne uzorke za izgradnju produkcijski kvalitetnog koda. Moj Tiny Humans game engine ima više od 30.000 linija koda izgrađenih na ovaj način - s registry uzorkom, validacijom spremanja i round-trip testiranjem. To je disciplinirano inženjerstvo s AI-jem kao multiplikatorom, ne prečacem."
   },
 
   "notFound": {

@@ -187,49 +187,44 @@ document.addEventListener('DOMContentLoaded', () => {
 
   window.addEventListener('scroll', highlightNav, { passive: true });
 
-  // --- Contact form handler (Formspree) ---
-  const contactForm = document.getElementById('contactForm');
-  if (contactForm) {
-    contactForm.addEventListener('submit', (e) => {
-      e.preventDefault();
+  // --- Copy email address ---
+  document.querySelectorAll('[data-copy-email]').forEach((button) => {
+    button.addEventListener('click', async () => {
+      const email = button.dataset.copyEmail;
+      const originalText = button.textContent.trim();
+      const copiedText = typeof I18n !== 'undefined'
+        ? I18n.t('contact.copiedEmail')
+        : (button.dataset.copiedLabel || 'Copied');
 
-      const btn = contactForm.querySelector('button[type="submit"]');
-      const originalText = btn.textContent;
-      btn.textContent = 'Sending...';
-      btn.disabled = true;
-
-      fetch('https://formspree.io/f/maqpadbb', {
-        method: 'POST',
-        body: new FormData(contactForm),
-        headers: { 'Accept': 'application/json' }
-      })
-      .then(function(response) {
-        if (response.ok) {
-          btn.textContent = 'Message Sent! ✓';
-          btn.style.background = 'var(--accent)';
-          btn.style.borderColor = 'var(--accent)';
-          contactForm.reset();
-          setTimeout(function() {
-            btn.textContent = originalText;
-            btn.style.background = '';
-            btn.style.borderColor = '';
-            btn.disabled = false;
-          }, 3000);
+      try {
+        if (navigator.clipboard && window.isSecureContext) {
+          await navigator.clipboard.writeText(email);
         } else {
-          throw new Error('Form submission failed');
+          const temporaryInput = document.createElement('textarea');
+          temporaryInput.value = email;
+          temporaryInput.setAttribute('readonly', '');
+          temporaryInput.style.position = 'fixed';
+          temporaryInput.style.opacity = '0';
+          document.body.appendChild(temporaryInput);
+          temporaryInput.select();
+          document.execCommand('copy');
+          temporaryInput.remove();
         }
-      })
-      .catch(function() {
-        btn.textContent = 'Error - try again';
-        btn.style.background = '#c0392b';
-        btn.disabled = false;
-        setTimeout(function() {
-          btn.textContent = originalText;
-          btn.style.background = '';
-        }, 3000);
-      });
+
+        button.textContent = copiedText;
+        button.setAttribute('aria-label', copiedText);
+        button.classList.add('is-copied');
+
+        window.setTimeout(() => {
+          button.textContent = originalText;
+          button.setAttribute('aria-label', originalText);
+          button.classList.remove('is-copied');
+        }, 1800);
+      } catch (error) {
+        window.location.href = `mailto:${email}`;
+      }
     });
-  }
+  });
 
   // --- Staggered animation for timeline items ---
   const timelineItems = document.querySelectorAll('.timeline-item');
