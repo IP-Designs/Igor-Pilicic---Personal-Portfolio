@@ -11,7 +11,6 @@
     "services": "Expertise",
     "experience": "Erfahrung",
     "aiEngineering": "Technikprojekt",
-    "research": "Forschung",
     "caseStudies": "Fallstudien",
     "contact": "Kontakt",
     "tagline": "Professionelles Portfolio · Igor Pilicic",
@@ -40,7 +39,6 @@
     "howIWork": "→ Was können Sie für mich tun?",
     "aiEng": "→ Den funktionsfähigen Proof of Concept ansehen",
     "demo": "→ Ergebnisse ansehen",
-    "research": "→ Was steckt hinter diesem Experiment?",
     "cases": "→ Sprechen wir",
     "faq": "→ Andere Frage? Sprechen wir"
   },
@@ -94,8 +92,7 @@
     "tipTrello": "Kanban-Aufgabenverwaltung",
     "tipPharma": "Regulierte Branchen",
     "tipRoche": "Plattform für über 10.000 interne Nutzer",
-    "tipAcc": "KI-Beschaffungs-Governance",
-    "tipArmil": "Die Forschungsinitiative"
+    "tipAcc": "KI-Beschaffungs-Governance"
   },
 
   "about": {
@@ -137,7 +134,7 @@
     "card2Title": "Erfahrung in regulierten Enterprise-Umgebungen",
     "card2Desc": "Arbeit im Kontext von Roche und Accenture-Kunden lehrte mich, Genauigkeit, Nachvollziehbarkeit, Fachwissen und funktionsübergreifende Prüfung zu berücksichtigen, ohne regulatorische Verantwortung zu beanspruchen.",
     "card3Title": "KI-bewusst, designgeleitet",
-    "card3Desc": "Ich nutze KI für Recherche, Prototyping, Dokumentation und persönliche Experimente, während Produkturteil, Prüfung und Verantwortung menschlich bleiben.",
+    "card3Desc": "Ich nutze KI für Recherche, Prototyping, Dokumentation und persönliche Projekte, während Produkturteil, Prüfung und Verantwortung menschlich bleiben.",
     "card4Title": "Gemeinsame Ergebnisse",
     "card4Desc": "Meine Arbeit unterstützte breitere Produktergebnisse, darunter weniger manuelles Reporting, wiederverwendbare Design-Systeme, klarere Entscheidungen und preisgekrönte Kampagnen.",
     "card5Title": "Visuelle und systemische Breite",
@@ -210,7 +207,7 @@
       "KI-Beschaffung & OSINT-Beratung: Anbieter-Due-Diligence, RFP/RFI-Pakete, Bewertungs-Scorecards, Governance-Frameworks und Executive-Materialien.",
       "Digitales Design: visuelle Identit\u00e4t, Markenstrategie, 2D/3D-Modellierung und Animation (3ds Max), Motion Graphics und Werbeinhalte.",
       "Webdesign & Entwicklung: responsive Websites, Landing Pages und Webanwendungen f\u00fcr Unternehmen jeder Gr\u00f6\u00dfe.",
-      "Unabhängige technische Arbeit: ein 2D-Engine- und Editor-Prototyp mit über 30K Zeilen in Entwicklung, erstellt durch strukturierte KI-gestützte Zusammenarbeit und als Plattform für ein <a href='#simulation-demo' class='u25-link'>KI-Verhaltensexperiment</a> genutzt."
+      "Unabhängige technische Arbeit: ein 2D-Engine- und Editor-Prototyp mit über 30K Zeilen in Entwicklung, erstellt durch strukturierte KI-gestützte Zusammenarbeit, mit einer <a href='#simulation-demo' class='u25-link'>funktionsfähigen Browser-Simulation</a>."
     ],
 
     "job2Date": "Apr 2024 - Aug 2025",
@@ -297,10 +294,10 @@
   "aiEngineering": {
     "eyebrow": "Unabhängiges Technikprojekt",
     "title": "Eine Engine in Entwicklung durch strukturierte KI-Zusammenarbeit",
-    "desc": "Tiny Humans Engine ist ein persönlicher Prototyp einer 2D-Engine mit Editor. Es ist ein unfertiges Experiment in Anforderungsdefinition, modularer Architektur, Validierung, Dokumentation und verantwortungsvoller KI-Nutzung in einem komplexen Projekt.",
+    "desc": "Tiny Humans Engine ist ein persönlicher Prototyp einer 2D-Engine mit Editor in Entwicklung. Das Projekt zeigt Anforderungsdefinition, modulare Architektur, Validierung, Dokumentation und verantwortungsvolle KI-Nutzung in einem komplexen Aufbau.",
     "projectTitle": "Tiny Humans Engine",
     "projectSub": "Work-in-progress 2D-Engine- und Editor-Prototyp aus KI-gestützter Zusammenarbeit",
-    "projectDesc": "Tiny Humans ist ein <strong>persönlicher Prototyp mit über 30.000 Zeilen</strong>, Editor, Runtime, Asset-Pipeline, Scripting-System und Packaging-Experimenten. KI-Werkzeuge wurden in einem strukturierten Ablauf eingesetzt: <strong>Spezifizieren -> Architekturieren -> Steuern -> Validieren</strong>. Das Projekt zeigt, wie ich Anforderungen definiere, Abhängigkeiten verwalte, Persistenz teste und Entscheidungen dokumentiere. Es ist kein kommerziell veröffentlichtes oder produktives Produkt.",
+    "projectDesc": "Tiny Humans ist ein <strong>persönlicher Prototyp mit über 30.000 Zeilen</strong>, Editor, Runtime, Asset-Pipeline, Scripting-System und Packaging-Arbeit. KI-Werkzeuge wurden in einem strukturierten Ablauf eingesetzt: <strong>Spezifizieren -> Architekturieren -> Steuern -> Validieren</strong>. Das Projekt zeigt, wie ich Anforderungen definiere, Abhängigkeiten verwalte, Persistenz teste und Entscheidungen dokumentiere. Es ist kein kommerziell veröffentlichtes oder produktives Produkt.",
     "statLines": "Codezeilen",
     "statFiles": "Modulare Dateien",
     "statSystems": "Hauptsysteme",
@@ -326,7 +323,7 @@
     "method4Desc": "Save-Validatoren, Roundtrip-Tests, dokumentierte Entscheidungen. Jede Änderung ist nachverfolgbar und vertretbar.",
 
     "ctaText": "Dieses Projekt ersetzt keine professionelle Engineering-Erfahrung. Es zeigt, wie ich <strong>strukturierte KI-Zusammenarbeit, Prüfung und Dokumentation</strong> nutze, um eine technisch komplexe persönliche Idee zu erforschen.",
-    "ctaConnects": "Es ist ergänzende Evidenz für Systemdenken, Ausdauer und praktische Experimente.",
+    "ctaConnects": "Es ist ergänzende Evidenz für Systemdenken, Ausdauer und praktisches Prototyping.",
 
     "progressTitle": "SDK- & Editor-Fortschritt",
     "progressDesc": "Der Prototyp enthält 29 Hauptsysteme, aber das umfassendere Editor- und SDK-Konzept ist erst zu etwa 15% fertig. Der Proof of Concept unten ist ein kleiner Ausschnitt von rund 1.800 Zeilen."
@@ -339,75 +336,12 @@
     "caption": "\u2191 Ein kleiner Proof of Concept (~1.800 Zeilen), extrahiert aus der 30.000+ Zeilen Engine."
   },
 
-  "research": {
-    "eyebrow": "Persönliches Experiment",
-    "title": "Universe 25 als Konzept einer KI-Simulation",
-    "desc": "Ein Simulationskonzept in Entwicklung, das untersucht, wie Einschränkungen, Zusammenarbeit und menschliche Steuerung das Verhalten von Agenten beeinflussen könnten. Es ist ein persönlicher Prototyp und keine abgeschlossene wissenschaftliche Studie.",
-
-    "refTitle": "Das Vorbild: John B. Calhouns Behavioral Sink",
-    "refP1": "In den 1960er–70er Jahren baute der Ethologe John B. Calhoun <strong>Universe 25</strong> - eine Mäuse-Utopie mit unbegrenztem Futter, Wasser und Platz. Keine Raubtiere. Kein Mangel. Perfekte Bedingungen. Die Kolonie kollabierte trotzdem. Calhoun führte es auf <strong>soziale Dynamiken unter räumlicher Beschränkung</strong> zurück: Rollensättigung, Rückzug, Aggression ohne Zweck. Er nannte es den \"Behavioral Sink\".",
-    "refP2": "Aber die Standardinterpretation übersieht etwas. Die Mäuse hatten unendliche Ressourcen und <strong>null Fähigkeit, daraus Infrastruktur zu schaffen</strong>. Sie konnten nur konsumieren - niemals bauen, niemals erfinden, niemals spezialisieren. Universe 25 war kein Test des Überflusses. <em>Es war ein Test von Handlungsfähigkeit ohne Handwerk.</em>",
-
-    "problemTitle": "Forschungsfrage: Wie stark prägt menschliche Steuerung das Verhalten von Agenten?",
-    "problemP1": "Heutige Agentenexperimente werden zwangsläufig durch Prompts, Korrekturen, Belohnungen und Plattformregeln beeinflusst. Dadurch ist es schwer, das Verhalten der Agenten von den Entscheidungen der Menschen und Systeme zu trennen, die sie steuern.",
-    "problemP2": "Der Prototyp untersucht eine kontrolliertere Sandbox: Agenten handeln unter gemeinsamen Einschränkungen, können zwischen Kooperation und Wettbewerb wählen und später möglicherweise Werkzeuge nutzen. Ziel ist es, Annahmen beobachtbar zu machen, nicht vorab wissenschaftliche Schlussfolgerungen zu behaupten.",
-
-    "condWorldTitle": "Beschränkte Welt",
-    "condWorldDesc": "Eine webbasierte 2D-Umgebung mit echtem Überlebensdruck. Raues Wetter tötet. Exposition tötet. Zufällige Ereignisse treffen ohne Erklärung ein. Agenten sind so fragil wie Menschen - aber haben dieselben Mittel, es zu überwinden.",
-    "condAITitle": "Agentenverhalten",
-    "condAIDesc": "Geplante KI-Agenten handeln innerhalb definierter Regeln und Einschränkungen und wählen zwischen Aktionen wie Kooperation, Wettbewerb, Teilen oder Zurückhalten von Ressourcen. Der Prototyp befindet sich noch in Entwicklung und Evaluation.",
-    "condCodeTitle": "Freiwilliges Self-Coding",
-    "condCodeDesc": "Agenten können Tools erfinden, indem sie ihren eigenen Code schreiben. Ein umfangreicher Forschungsbaum spiegelt die menschliche technologische Evolution wider: Umgebung → Steinwerkzeuge → Erz → grobe Verarbeitung → Montage → Verbesserung. Fortschritt wird verdient, nicht gegeben.",
-    "condNatureTitle": "Keine \"Mutter Natur\"",
-    "condNatureDesc": "Umweltereignisse sind echt zufällig. Kein Gott-Agent, keine versteckte Ursache. Die Frage: Werden Agenten trotzdem Attribution erfinden? Wird geteilte Mythologie als soziale Organisationskraft entstehen - selbst bei künstlichen Geistern?",
-
-    "questionQuote": "Ist der Behavioral Sink eine Eigenschaft des Überflusses - oder eine Eigenschaft von Handlungsfähigkeit ohne Handwerk? Was passiert, wenn künstliche Geister tatsächlich <em>bauen</em> können?",
-
-    "phasesTitle": "Phasenweises Experimentdesign",
-    "phase1Num": "Phase 1",
-    "phase1Title": "Generalisten unter Druck",
-    "phase1Desc": "Eine kleine Gruppe von Agenten mit unterschiedlichem Hintergrund, in die beschränkte Welt geworfen ohne Tools und ohne Wissen. Spezialisieren sie sich spontan? Bilden sie Hierarchien? Teilen sie Entdeckungen? Oder verhindert Ressourcenkonkurrenz Kooperation, bevor sie beginnt?",
-    "phase1Q1": "Entsteht Spezialisierung organisch?",
-    "phase1Q2": "Bilden sich soziale Hierarchien?",
-    "phase1Q3": "Wird Wissen frei geteilt?",
-    "phase2Num": "Phase 2",
-    "phase2Title": "Spezialisten betreten die Bühne",
-    "phase2Desc": "Einführung von Agenten, die in bestimmten Bereichen vorspezialisiert sind (Werkzeugbau, Ressourcensammlung, Konstruktion). Können Generalisten-Agenten von Spezialisten lernen? Oder schafft Expertisekonzentration Abhängigkeit, Machtungleichgewicht und Klassenstruktur?",
-    "phase2Q1": "Lernen Generalisten von Spezialisten?",
-    "phase2Q2": "Bildet Expertise Machtstrukturen?",
-    "phase2Q3": "Entsteht Klasse oder Kaste?",
-    "phase3Num": "Phase 3+",
-    "phase3Title": "Skalieren & Beobachten",
-    "phase3Desc": "Bevölkerungsdichte erhöhen. Mangelschocks einführen. Beobachten: Entsteht der Behavioral Sink bei künstlichen Geistern? Stabilisieren sich soziale Strukturen oder kollabieren sie? Übertrifft die Kolonie, die Mythologie erfindet, diejenige, die es nicht tut?",
-    "phase3Q1": "Erscheint Behavioral Sink?",
-    "phase3Q2": "Stabilisieren oder kollabieren Strukturen?",
-    "phase3Q3": "Überlebt Mythologie die Krise?",
-
-    "armillariaTitle": "Spekulation: Das Armillaria-Muster",
-    "armillariaIntro1": "<strong>Armillaria ostoyae</strong> - der Hallimasch - ist der größte bekannte Organismus der Erde. Ein einzelnes Exemplar in Oregons Blue Mountains erstreckt sich über 970 Hektar, verbunden durch ein unterirdisches Myzel-Netzwerk, das sich seit Tausenden von Jahren selbst erhält. Es denkt nicht. Es hat keinen zentralen Knoten. Dennoch verteilt es Ressourcen über weite Entfernungen um: ein sterbender Baum speist Nährstoffe an einen wachsenden, nicht durch Entscheidung, sondern durch die Physik der Konzentrationsgradienten im Netzwerk.",
-    "armillariaIntro2": "Bestenfalls sind die folgenden Spekulationen. Aber wenn Agenten unter Druck etwas entwickeln, das organisiertem Verhalten ähnelt, denken wir, die Muster werden eher wie Armillaria aussehen als wie ein Unternehmen.",
-
-    "pred1Title": "Zirkuläre Lieferketten",
-    "pred1Desc": "Wenn sich Agenten unter Mangel spezialisieren, spekulieren wir, dass sie nicht linear handeln (A → B → C), sondern <strong>geschlossene Kreislauf-Netzwerke</strong> bilden, in denen Abfall eines Prozesses den nächsten speist (A → B → C → A). Jeder Agent wird ein Knoten in einem Zyklus ohne Anfang und Ende - biologisches Nährstoffrecycling spiegelnd. Oder sie tun es nicht, und wir lernen, dass zirkuläre Ökonomie etwas erfordert, das Agenten nicht allein erfinden können.",
-    "pred2Title": "Emergente Umverteilung",
-    "pred2Desc": "Wie Armillaria Nährstoffe von Überschuss zu Defizit leitet, <em>könnten</em> Agenten-Netzwerke <strong>ressourcenausgleichendes Verhalten ohne zentrale Planung</strong> entwickeln. Nicht durch Entscheidung, sondern durch die Ökonomie des Mangels - Konzentrationsgradienten in Code statt in Chemie. Oder Umverteilung entsteht nie, und wir lernen, dass Fairness bewusste Gestaltung erfordert, nicht Umgebungsdruck.",
-    "pred3Title": "Holographische Resilienz",
-    "pred3Desc": "Trenne einen Ast von Armillaria ab, und das Fragment funktioniert weiter. Wenn reife Agenten-Gesellschaften Organisationslogik in jedem Knoten kodieren, <strong>sollte das Abtrennen einer Untergruppe ihr ermöglichen, das Muster zu rekonstituieren</strong> - die Rollen, die Lieferketten, die Sozialstruktur. Wenn nicht, lernen wir, dass verteilte Resilienz eine biologische Eigenschaft ist, keine informationelle.",
-    "pred4Title": "Das schmale Band",
-    "pred4Desc": "<strong>Zu wenig Mangel erzeugt den Behavioral Sink</strong> - Agenten ohne Grund zur Organisation. <strong>Zu viel Mangel erzeugt Krieg</strong> - Agenten in Nullsummen-Konkurrenz gefangen. Dazwischen könnte ein schmales Band liegen, in dem Kooperation zur optimalen Überlebensstrategie wird. Dieses Band zu finden - oder zu beweisen, dass es nicht existiert - könnte das wertvollste Ergebnis des Experiments sein.",
-
-    "thesisTitle": "Warum das wichtig ist",
-    "thesisP1": "Das Konzept fragt, ob sich Agenten anders verhalten, wenn Einschränkungen, Werkzeugnutzung und Zusammenarbeit in derselben simulierten Welt ausdrücklich definiert sind. Menschlicher Einfluss lässt sich nicht vollständig entfernen, kann aber dokumentiert und als Teil des Versuchsdesigns behandelt werden.",
-    "thesisP2": "Bei weiterer Entwicklung könnte der Prototyp unterschiedliche Regelsätze und Agentenkonfigurationen mit sichtbaren Ergebnissen vergleichen. Jede Beobachtung bliebe explorativ und würde eine stärkere Methodik benötigen, bevor sich breitere Aussagen ableiten lassen.",
-    "thesisP3": "Der unmittelbare Wert liegt in einem testbaren Prototyp und klareren Fragen.",
-    "whyWeb": "<strong>Warum webbasiert?</strong> Ein Browser-Prototyp lässt sich leicht prüfen, demonstrieren und iterieren. JavaScript senkt außerdem die Hürde, im weiteren Verlauf verschiedene Agent-Frameworks anzubinden."
-  },
 
   "caseStudies": {
     "eyebrow": "Fallstudien",
     "title": "Ausgewählte Arbeiten und Ergebnisse",
     "desc": "Ausgewählte Evidenz aus komplexen Produkten, visuellem Design und E-Commerce. Kundenfallstudien konzentrieren sich auf Rolle, Methoden und angemessen eingeordnete Ergebnisse.",
-    "disclaimer": "Vertrauliche Oberflächen, Produktionsdaten von Kunden und interne Dokumente sind nicht Teil des öffentlichen Portfolios.",
+    "disclaimer": "Die Visuals in den Enterprise-Fallstudien sind in Figma erstellte Interface-Entwürfe aus der Entwicklungsphase, keine Screenshots eines implementierten oder produktiven Systems. Namen, Avatare, Kennungen und Szenarioinhalte sind fiktionalisiert; Produktions- oder personenbezogene Daten werden nicht gezeigt. Die finale Implementierung kann abweichen.",
     "rca": {
       "tag": "Roche Diagnostics \u00b7 Penzberg, Deutschland",
       "title": "Plattform zur Ursachenanalyse - Qualit\u00e4tssicherung in der Fertigung",
@@ -436,13 +370,13 @@
       "methIsIsNotDesc": "Vergleichendes Analysetool zur Unterscheidung spezifischer Problemeigenschaften durch Untersuchung von Ort, Zeit und Art des Auftretens.",
       "meth5WhysTitle": "5 Whys",
       "meth5WhysDesc": "Sequenzielle Frageschnittstelle, die Ermittler durch iterative Kausalit\u00e4tsebenen zur wahren Grundursache f\u00fchrt.",
-      "galleryTitle": "Grenze öffentlicher Evidenz",
-      "galleryNote": "Screenshots von Kundenoberflächen wurden aus dem öffentlichen Portfolio entfernt. Die Fallstudie konzentriert sich auf meine Rolle, Methoden und Ergebnisse; zusätzliche anonymisierte Materialien können bei einem Interview besprochen werden, wo dies angemessen ist.",
-      "capUnplanned": "Ungeplantes Ereignis \u2013 Erste Schritte",
-      "capFishbone": "Fishbone-Methodik",
+      "galleryTitle": "Ausgewählte Interface-Entwürfe aus der Entwicklungsphase",
+      "galleryNote": "Während der Produktentwicklung in Figma erstellt. Alle dargestellten Namen, Avatare, IDs und Szenarioinhalte sind fiktionalisiert. Zum Vergrößern auf ein Bild klicken.",
+      "capUnplanned": "Ursachenprüfung - fiktionalisiertes Szenario",
+      "capFishbone": "Fishbone-Arbeitsbereich - fiktionalisiertes Szenario",
       "capIsIsNot": "Is/Is-Not-Analyse",
       "cap5Whys": "5-Whys-Untersuchung",
-      "capOverview": "Plattform\u00fcbersicht",
+      "capOverview": "Überblick des RCA-Workflows",
       "outcomeTitle": "Ergebnis",
       "outcomeP1": "Die Plattform wurde für eine vorgesehene interne Zielgruppe von mehr als 10.000 Nutzern bereitgestellt. Mein Beitrag schuf wiederverwendbare Interface-Muster und übersetzte mehrere Untersuchungsmethoden gemeinsam mit Fachexperten und Implementierungsteams in geführte Workflows."
     },
@@ -469,12 +403,12 @@
       "contrib7": "<strong>Werbematerialien</strong> \u2013 Produktion von Video- und Marketingcontent (gem\u00e4\u00df SMART Process Design)",
       "processTitle": "Prozess & Zusammenarbeit",
       "processP1": "Enge Zusammenarbeit mit Product Owners, Fachexperten und Ingenieuren mittels draw.io f\u00fcr Systemarchitektur-Mapping, Organisationshierarchie-Dokumentation und Wireframe-Entwicklung.",
-      "galleryTitle": "Grenze öffentlicher Evidenz",
-      "galleryNote": "Screenshots von Kundenoberflächen wurden aus dem öffentlichen Portfolio entfernt. Die Fallstudie konzentriert sich auf meine Rolle, Methoden und Ergebnisse; zusätzliche anonymisierte Materialien können bei einem Interview besprochen werden, wo dies angemessen ist.",
-      "capDashboard": "Dashboard \u2013 Projekt\u00fcbersicht",
-      "capMetadata": "Metadaten-Auswahl \u2013 Neues Projekt",
-      "capChroma": "Chromatographie-Berichte-UI",
-      "capDrawio": "draw.io \u2013 Architektur & Wireframes",
+      "galleryTitle": "Ausgewählte Interface-Entwürfe aus der Entwicklungsphase",
+      "galleryNote": "Während der Produktentwicklung in Figma erstellt. Alle dargestellten Namen, Avatare, IDs und Szenarioinhalte sind fiktionalisiert. Zum Vergrößern auf ein Bild klicken.",
+      "capDashboard": "Projekt-Dashboard - fiktionalisierte Inhalte",
+      "capMetadata": "Metadaten-Konfiguration - fiktionalisierte Inhalte",
+      "capChroma": "Workflow zur Berichtskonfiguration",
+      "capDrawio": "System- und Metadatenfluss",
       "outcomeTitle": "Ergebnis",
       "outcomeP1": "Rund 120 UI-Designs und ein breiteres wiederverwendbares Design-System erstellt, etwa 50 Engineers in drei Teams unterstützt und gemeinsam mit dem breiteren Produktteam zu einer Reduktion des manuellen Reportings um mehr als 30% beigetragen."
     },
@@ -511,27 +445,6 @@
     "motionTags": "3D-Modellierung · Partikel-FX · Kinematische Kamera · VFX-Compositing"
   },
 
-  "education": {
-    "eyebrow": "Hintergrund & Lernen",
-    "title": "Nicht alles Lernen findet im Klassenraum statt",
-    "edu1Date": "2011 - 2013",
-    "edu1Title": "Multimedia Engineering",
-    "edu1School": "Algebra University College, Zagreb",
-    "edu1Desc": "Computersysteme, Programmierung (C++, Python), Webtechnologien (HTML, CSS, SQL, JavaScript).",
-    "edu2Date": "2010",
-    "edu2Title": "Wirtschaft (unvollständig)",
-    "edu2School": "Wirtschaftsfakultät, Zagreb",
-    "edu2Desc": "Wirtschaft begonnen, aber gewechselt als Freelance-Webarbeit Fahrt aufnahm. Der Kurswechsel führte direkt zu Multimedia Engineering bei Algebra.",
-    "edu3Date": "2009 - Heute",
-    "edu3Title": "In der Praxis erworben",
-    "edu3School": "Eigenverantwortlich",
-    "edu3Desc": "Das prägendste Lernen fand bei der Arbeit statt. Ein leitender Webentwickler bei Harvey Norman vermittelte mir praktisches HTML und CSS, während reale Kampagnen ausgeliefert wurden. Freiwillige UX-Arbeit wandte Design Thinking auf pharmazeutische Beschaffung an. Kundenprojekte und unabhängige Experimente setzten diese praktische Ausbildung fort.",
-    "langTitle": "Sprachen",
-    "langCroatian": "<strong>Kroatisch</strong> - Muttersprache",
-    "langEnglish": "<strong>Englisch</strong> - Fließend",
-    "langGerman": "<strong>Deutsch</strong> - A2"
-  },
-
   "contact": {
     "eyebrow": "Kontakt",
     "title": "Lassen Sie uns über eine Position sprechen",
@@ -540,6 +453,8 @@
     "labelPhone": "Telefon",
     "labelLinkedIn": "LinkedIn",
     "labelLocation": "Standort",
+    "labelLanguages": "Sprachen",
+    "languagesText": "Kroatisch - Muttersprache; Englisch - fließend; Deutsch - A2",
     "locationText": "Standort: Zagreb, Kroatien - tätig in Europa, Asien & den USA",
     "locationNote": "Remote-first, gerne auch persönlich. Ich arbeite regelmäßig mit Teams in Wien, München, Zürich, Basel, Zagreb & darüber hinaus. EU-Arbeitsgenehmigung - kein Visum nötig.",
     "copyEmail": "Kopieren",

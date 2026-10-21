@@ -92,7 +92,6 @@
     { id: 'pharma',  label: 'Pharma',             x: -60,  y: -40,  z: -100, size: 6, color: ACCENT,   tier: 'tertiary' },
     { id: 'roche',   label: 'Roche',              x: -140, y: 30,   z: -60,  size: 5, color: ACCENT,   tier: 'tertiary' },
     { id: 'acc',     label: 'Accenture',          x: 120,  y: 60,   z: -90,  size: 5, color: ACCENT,   tier: 'tertiary' },
-    { id: 'armil',   label: 'Armillaria',         x: 40,   y: 60,   z: 80,   size: 6, color: GREEN,    tier: 'tertiary' },
   ];
 
   // --- i18n label mapping (node id → heroGraph translation key) ---
@@ -281,18 +280,6 @@
     mouseOver = false;
   });
 
-  canvas.addEventListener('click', () => {
-    if (!hoveredNode) return;
-    const sectionMap = {
-      'armil': '#research'
-    };
-    const target = sectionMap[hoveredNode.id];
-    if (target) {
-      const el = document.querySelector(target);
-      if (el) el.scrollIntoView({ behavior: 'smooth' });
-    }
-  });
-
   // --- External highlight via custom event (tag hover → graph branch pulse) ---
   let externalHighlightIds = null; // Set of node IDs or null
   canvas.addEventListener('graphHighlight', (e) => {
@@ -460,7 +447,6 @@
         'brand': 'tipBrand', 'seo': 'tipSeo', 'wp': 'tipWp',
         'magento': 'tipMagento', 'jira': 'tipJira', 'trello': 'tipTrello',
         'pharma': 'tipPharma', 'roche': 'tipRoche', 'acc': 'tipAcc',
-        'armil': 'tipArmil',
       };
       const tipKey = tipKeyMap[hoveredNode.id];
       const tip = tipKey && typeof I18n !== 'undefined' ? I18n.t('heroGraph.' + tipKey) : null;

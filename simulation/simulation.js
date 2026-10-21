@@ -1,5 +1,5 @@
 // ============================================
-// Tiny Humans - Behavioral Sink Simulation
+// Tiny Humans - Browser Game Simulation
 // Standalone runtime for Standing Pillars website
 // ============================================
 // Will be built after map.json is created in the engine editor.

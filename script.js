@@ -141,7 +141,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // --- Scroll-triggered fade-in animations ---
   const animateElements = document.querySelectorAll(
-    '.stat-card, .service-pillar, .timeline-item, .skill-category, .case-card, .case-study-block, .edu-card, .contact-item, .practice-node, .why-card, .mission-statement, .research-condition, .phase-card, .research-reference, .prediction-card, .armillaria-intro'
+    '.stat-card, .service-pillar, .timeline-item, .skill-category, .case-card, .case-study-block, .contact-item, .practice-node, .why-card, .mission-statement'
   );
 
   animateElements.forEach(el => el.classList.add('fade-in'));

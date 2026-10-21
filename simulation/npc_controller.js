@@ -37,20 +37,19 @@
         "Do I have free will?",
         "The sky flickered again.",
         "How big is outside?",
-        "Universe 25...",
+        "How far does this world go?",
         "What's behind the fence?",
         "The world ends at the fence.",
         "I dream about a bigger world."
       ],
-      experiment: [
-        "Are we test subjects?",
-        "The beautiful ones stopped trying.",
+      reflection: [
+        "Something feels different today.",
+        "Others stopped trying.",
         "Who's watching?",
         "We have everything. So what?",
-        "Behavioral sink.",
-        "What happens to experiment 26?",
-        "Are we just variables?",
-        "Mom says we were placed here."
+        "What happens beyond this map?",
+        "Are we part of a bigger story?",
+        "Mom says this place is still growing."
       ],
       site: [
         "The Creator has a portfolio.",
@@ -121,15 +120,14 @@
         "I've walked this path many times.",
         "She asks too many questions. Good."
       ],
-      experiment: [
-        "Calhoun was right.",
-        "They gave us everything but a reason.",
-        "Utopia or a cage?",
-        "We're in the second generation.",
-        "We stopped questioning it.",
-        "The beautiful ones gave up.",
-        "What separates us from the mice?",
-        "Universe 25 ended with indifference."
+      reflection: [
+        "A world needs more than walls.",
+        "We have enough. What should we build?",
+        "A home or just a map?",
+        "Every new day needs a purpose.",
+        "We should keep asking questions.",
+        "The world changes when nobody is watching.",
+        "What will be here tomorrow?"
       ],
       site: [
         "UX. AI. Engineering.",
@@ -568,7 +566,7 @@
     if (inHouseBounds(npc) && Math.random() < 0.6) return pools.house;
     var roll = Math.random();
     if (roll < 0.20) return pools.confinement;
-    if (roll < 0.35) return pools.experiment;
+    if (roll < 0.35) return pools.reflection;
     if (roll < 0.65) return pools.site;
     if (roll < 0.80) return pools.weather;
     return pools.house;

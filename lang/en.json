@@ -11,7 +11,6 @@
     "services": "Expertise",
     "experience": "Experience",
     "aiEngineering": "Technical Project",
-    "research": "Research",
     "caseStudies": "Case Studies",
     "contact": "Open to Opportunities",
     "tagline": "Professional Portfolio \u00b7 Igor Pilicic",
@@ -40,7 +39,6 @@
     "howIWork": "→ What do you bring?",
     "aiEng": "→ View the working proof of concept",
     "demo": "→ See the results",
-    "research": "→ What's the experiment behind this?",
     "cases": "→ Let's talk",
     "faq": "→ Have a different question? Let's talk"
   },
@@ -94,8 +92,7 @@
     "tipTrello": "Kanban task management",
     "tipPharma": "Regulated industries",
     "tipRoche": "Platform for a 10K+ internal audience",
-    "tipAcc": "AI procurement governance",
-    "tipArmil": "The research initiative"
+    "tipAcc": "AI procurement governance"
   },
 
   "about": {
@@ -137,7 +134,7 @@
     "card2Title": "Regulated Enterprise Experience",
     "card2Desc": "Roche and Accenture client work taught me to design around accuracy, traceability, specialist knowledge, and cross-functional review without claiming regulatory ownership.",
     "card3Title": "AI-Aware, Design-Led",
-    "card3Desc": "I use AI for research, prototyping, documentation, and personal experiments while keeping product judgement, verification, and accountability human.",
+    "card3Desc": "I use AI for research, prototyping, documentation, and personal projects while keeping product judgement, verification, and accountability human.",
     "card4Title": "Shared Outcomes",
     "card4Desc": "My work supported wider product outcomes, including reduced manual reporting, reusable design systems, clearer decisions, and award-winning campaign delivery.",
     "card5Title": "Visual and Systems Depth",
@@ -210,7 +207,7 @@
       "AI procurement & OSINT consulting: vendor due diligence, RFP/RFI packages, evaluation scorecards, governance frameworks, and executive-ready materials.",
       "Digital design: visual identity, brand strategy, 2D/3D modelling and animation (3ds Max), motion graphics, and promotional content.",
       "Web design & development: responsive websites, landing pages, and web applications for organisations and independent projects.",
-      "Independent technical work: a 30K+ line work-in-progress 2D engine and editor prototype developed through structured AI-assisted collaboration, also serving as a platform for an <a href='#simulation-demo' class='u25-link'>AI behavioural experiment</a>."
+      "Independent technical work: a 30K+ line work-in-progress 2D engine and editor prototype developed through structured AI-assisted collaboration, with a <a href='#simulation-demo' class='u25-link'>working browser simulation</a>."
     ],
 
     "job2Date": "Apr 2024 - Aug 2025",
@@ -297,10 +294,10 @@
   "aiEngineering": {
     "eyebrow": "Independent Technical Project",
     "title": "A work-in-progress engine built through structured AI collaboration",
-    "desc": "Tiny Humans Engine is a personal 2D engine and editor prototype. It is an unfinished experiment in requirements definition, modular architecture, validation, documentation, and responsible use of AI in a complex project.",
+    "desc": "Tiny Humans Engine is a personal 2D engine and editor prototype. It is a work-in-progress project demonstrating requirements definition, modular architecture, validation, documentation, and responsible use of AI in a complex build.",
     "projectTitle": "Tiny Humans Engine",
     "projectSub": "Work-in-progress 2D engine and editor prototype developed through AI-assisted collaboration",
-    "projectDesc": "Tiny Humans is a <strong>30,000+ line personal prototype</strong> with an editor, runtime, asset pipeline, scripting system, and packaging experiments. I used AI tools within a structured loop: <strong>Specify -> Architect -> Govern -> Validate</strong>. The project demonstrates how I define requirements, manage dependencies, test persistence, and document decisions. It is not a commercially released or production product.",
+    "projectDesc": "Tiny Humans is a <strong>30,000+ line personal prototype</strong> with an editor, runtime, asset pipeline, scripting system, and packaging work. I used AI tools within a structured loop: <strong>Specify -> Architect -> Govern -> Validate</strong>. The project demonstrates how I define requirements, manage dependencies, test persistence, and document decisions. It is not a commercially released or production product.",
     "statLines": "Lines of code",
     "statFiles": "Modular files",
     "statSystems": "Major systems",
@@ -326,7 +323,7 @@
     "method4Desc": "Save validators, round-trip testing, documented decisions. Every change is traceable and defensible.",
 
     "ctaText": "This project does not replace professional engineering experience. It shows how I use <strong>structured AI collaboration, verification, and documentation</strong> to explore a technically complex personal idea.",
-    "ctaConnects": "It is supporting evidence of systems thinking, persistence, and hands-on experimentation.",
+    "ctaConnects": "It is supporting evidence of systems thinking, persistence, and hands-on prototyping.",
 
     "progressTitle": "SDK & Editor Progress",
     "progressDesc": "The prototype contains 29 major systems, but the broader editor and SDK concept is approximately 15% complete. The proof of concept below is a small extract of about 1,800 lines."
@@ -339,75 +336,12 @@
     "caption": "\u2191 A small proof of concept (~1,800 lines) extracted from the 30K+ line engine."
   },
 
-  "research": {
-    "eyebrow": "Personal Experiment",
-    "title": "Universe 25 as an AI simulation concept",
-    "desc": "A work-in-progress simulation concept exploring how constraints, cooperation, and human steering might shape agent behaviour. It is a personal prototype, not a completed scientific study.",
-
-    "refTitle": "The Precedent: John B. Calhoun's Behavioral Sink",
-    "refP1": "In the 1960s–70s, ethologist John B. Calhoun built <strong>Universe 25</strong> - a mouse utopia with unlimited food, water, and space. No predators. No scarcity. Perfect conditions. The colony still collapsed. Calhoun attributed it to <strong>social dynamics under spatial constraint</strong>: role saturation, withdrawal, aggression without purpose. He called it the \"behavioral sink.\"",
-    "refP2": "But the standard reading misses something. The mice had infinite resources and <strong>zero ability to create infrastructure from them</strong>. They could only consume - never build, never invent, never specialize. Universe 25 wasn't a test of abundance. <em>It was a test of agency without craft.</em>",
-
-    "problemTitle": "Research question: how much does human steering shape agent behaviour?",
-    "problemP1": "Current agent experiments are inevitably influenced by prompts, corrections, rewards, and platform rules. That makes it difficult to separate agent behaviour from the decisions of the people and systems guiding it.",
-    "problemP2": "The prototype explores a more controlled sandbox: agents operate under shared constraints, can choose between cooperation and competition, and may eventually use tools. The aim is to make assumptions observable, not to claim a scientific conclusion in advance.",
-
-    "condWorldTitle": "Constrained World",
-    "condWorldDesc": "A web-based 2D environment with real survival pressure. Harsh weather kills. Exposure kills. Random events strike without explanation. Agents are as fragile as humans - but have the same means to overcome it.",
-    "condAITitle": "Agent Behaviour",
-    "condAIDesc": "Planned AI agents operate within defined rules and constraints while choosing between actions such as cooperating, competing, sharing, or withholding resources. The prototype is still being developed and evaluated.",
-    "condCodeTitle": "Voluntary Self-Coding",
-    "condCodeDesc": "Agents can invent tools by writing their own code. An extensive research tree mirrors human technological evolution: environment → stone tools → ore → crude refinement → assembly → improvement. Progress is earned, not given.",
-    "condNatureTitle": "No \"Mother Nature\"",
-    "condNatureDesc": "Environmental events are genuinely random. No god agent, no hidden cause. The question: will agents invent attribution anyway? Will shared mythology emerge as a social organizing force - even among artificial minds?",
-
-    "questionQuote": "Is the behavioral sink a property of abundance - or a property of agency without craft? What happens when artificial minds can actually <em>build</em>?",
-
-    "phasesTitle": "Phased Experimental Design",
-    "phase1Num": "Phase 1",
-    "phase1Title": "Generalists Under Pressure",
-    "phase1Desc": "A small group of agents from varied backgrounds, dropped into the constrained world with no tools and no knowledge. Do they spontaneously specialize? Form hierarchies? Share discoveries? Or does resource competition prevent cooperation before it starts?",
-    "phase1Q1": "Cooperation vs. competition?",
-    "phase1Q2": "Spontaneous specialization?",
-    "phase1Q3": "Knowledge sharing?",
-    "phase2Num": "Phase 2",
-    "phase2Title": "Specialists Enter",
-    "phase2Desc": "Introduce agents pre-specialized in specific domains (tool-making, resource gathering, construction). Can generalist agents learn from specialists? Or does expertise concentration create dependency, power imbalance, and class structure?",
-    "phase2Q1": "Knowledge transfer?",
-    "phase2Q2": "Power dynamics?",
-    "phase2Q3": "Class emergence?",
-    "phase3Num": "Phase 3+",
-    "phase3Title": "Scale & Observe",
-    "phase3Desc": "Increase population density. Introduce scarcity shocks. Observe: does the behavioral sink emerge among artificial minds? Do social structures stabilize or collapse? Does the colony that invents mythology outperform the one that doesn't?",
-    "phase3Q1": "Behavioral sink?",
-    "phase3Q2": "Social mythology?",
-    "phase3Q3": "Civilization or collapse?",
-
-    "armillariaTitle": "Speculation: The Armillaria Pattern",
-    "armillariaIntro1": "<strong>Armillaria ostoyae</strong> - the honey fungus - is the largest known organism on Earth. A single specimen in Oregon's Blue Mountains spans over 2,400 acres, connected by a subterranean mycelial network that has sustained itself for thousands of years. It doesn't think. It has no central node. Yet it redistributes resources across vast distances: a dying tree feeds nutrients to a growing one, not by decision but by the physics of concentration gradients across the network.",
-    "armillariaIntro2": "At best, the following are speculations. But if agents under pressure develop anything resembling organized behavior, we think the patterns will look more like Armillaria than like a corporation.",
-
-    "pred1Title": "Circular Supply Chains",
-    "pred1Desc": "If agents specialize under scarcity, we speculate they won't trade linearly (A → B → C) but form <strong>closed-loop networks</strong> where waste from one process feeds another (A → B → C → A). Each agent becomes a node in a cycle with no start and no end - mirroring biological nutrient cycling. Or they don't, and we learn that circular economics requires something agents can't invent on their own.",
-    "pred2Title": "Emergent Redistribution",
-    "pred2Desc": "Like Armillaria routing nutrients from surplus to deficit, agent networks <em>might</em> develop <strong>resource-balancing behaviors without central planning</strong>. Not by decision, but from the economics of scarcity - concentration gradients in code instead of chemistry. Or redistribution never emerges, and we learn that fairness requires intentional design, not environmental pressure.",
-    "pred3Title": "Holographic Resilience",
-    "pred3Desc": "Sever a branch of Armillaria, and the fragment continues to function. If mature agent societies encode organizational logic in every node, <strong>cutting a subgroup off should let it reconstitute the pattern</strong> - the roles, the supply chains, the social structure. If it can't, we learn that distributed resilience is a biological property, not an informational one.",
-    "pred4Title": "The Narrow Band",
-    "pred4Desc": "<strong>Too little scarcity produces the behavioral sink</strong> - agents with no reason to organize. <strong>Too much scarcity produces war</strong> - agents locked in zero-sum competition. Between them might lie a narrow band where cooperation becomes the optimal survival strategy. Finding that band - or proving it doesn't exist - may be the experiment's most valuable output.",
-
-    "thesisTitle": "Why This Matters",
-    "thesisP1": "The concept asks whether agents behave differently when constraints, tool use, and cooperation are made explicit in the same simulated world. Human influence cannot be removed completely, but it can be documented and treated as part of the experimental design.",
-    "thesisP2": "If developed further, the prototype could compare different rule sets and agent configurations while making outcomes visible. Any observations would remain exploratory and would require a stronger methodology before supporting broader claims.",
-    "thesisP3": "The immediate value is a testable prototype and a clearer set of questions.",
-    "whyWeb": "<strong>Why web-based?</strong> A browser prototype is easy to inspect, demonstrate, and iterate. JavaScript also lowers the barrier for connecting different agent frameworks as the concept develops."
-  },
 
   "caseStudies": {
     "eyebrow": "Case Studies",
     "title": "Selected work and outcomes",
     "desc": "Selected evidence from complex product, visual design, and e-commerce work. Client case studies focus on role, methods, and appropriately qualified outcomes.",
-    "disclaimer": "Confidential interfaces, client production data, and internal documents are not included in the public portfolio.",
+    "disclaimer": "The enterprise case-study visuals are development-stage interface designs created in Figma, not screenshots of an implemented or production system. Names, avatars, identifiers, and scenario content are fictionalized; no production or personal data is shown. The final implementation may differ.",
 
     "rca": {
       "tag": "Roche Diagnostics · Penzberg, Germany",
@@ -437,13 +371,13 @@
       "methIsIsNotDesc": "Comparative analysis tool distinguishing specific problem characteristics by examining where, when, and how the issue does and doesn't occur.",
       "meth5WhysTitle": "5 Whys",
       "meth5WhysDesc": "Sequential questioning interface that guides investigators through iterative layers of causation to reach the true root cause.",
-      "galleryTitle": "Public evidence boundary",
-      "galleryNote": "Client interface screenshots have been removed from the public portfolio. The case study focuses on my role, methods, and outcomes; additional sanitized material can be discussed in an interview where appropriate.",
-      "capUnplanned": "Unplanned Event - Initial Steps",
-      "capFishbone": "Fishbone Methodology",
+      "galleryTitle": "Selected development-stage interface designs",
+      "galleryNote": "Created in Figma during product development. All displayed names, avatars, IDs, and scenario content are fictionalized. Click an image to enlarge.",
+      "capUnplanned": "Cause review - fictionalized scenario",
+      "capFishbone": "Fishbone workspace - fictionalized scenario",
       "capIsIsNot": "Is / Is Not Analysis",
       "cap5Whys": "5 Whys Investigation",
-      "capOverview": "Platform Overview",
+      "capOverview": "RCA workflow overview",
       "outcomeTitle": "Outcome",
       "outcomeP1": "The platform was delivered for an intended internal audience of more than 10,000 users. My contribution established reusable interface patterns and translated several investigation methods into guided workflows in collaboration with subject-matter experts and implementation teams."
     },
@@ -470,12 +404,12 @@
       "contrib7": "<strong>Promotional Materials</strong> - Produced video and marketing content to boost project traction (per SMART Process Design requirements)",
       "processTitle": "Process & Collaboration",
       "processP1": "Worked closely with Product Owners, Subject Matter Experts, and engineers using draw.io for system architecture mapping, organisational hierarchy documentation, data parsing process design, and wireframe development. Successful partnership with Product Owners facilitated task creation that was subsequently managed in Jira for both engineers and design.",
-      "galleryTitle": "Public evidence boundary",
-      "galleryNote": "Client interface screenshots have been removed from the public portfolio. The case study focuses on my role, methods, and outcomes; additional sanitized material can be discussed in an interview where appropriate.",
-      "capDashboard": "Dashboard - Project Summary",
-      "capMetadata": "Metadata Selection - New Project",
-      "capChroma": "Chromatography Reports UI",
-      "capDrawio": "draw.io - Architecture & Wireframes",
+      "galleryTitle": "Selected development-stage interface designs",
+      "galleryNote": "Created in Figma during product development. All displayed names, avatars, IDs, and scenario content are fictionalized. Click an image to enlarge.",
+      "capDashboard": "Project dashboard - fictionalized content",
+      "capMetadata": "Metadata configuration - fictionalized content",
+      "capChroma": "Report configuration workflow",
+      "capDrawio": "System and metadata flow",
       "outcomeTitle": "Outcome",
       "outcomeP1": "Produced approximately 120 UI designs and a broader reusable design system, supported approximately 50 engineers across three teams, and contributed with the wider product team to a reduction of more than 30% in manual reporting effort."
     },
@@ -513,27 +447,6 @@
     "motionTags": "3D Modelling · Particle FX · Cinematic Camera · VFX Compositing"
   },
 
-  "education": {
-    "eyebrow": "Background & Learning",
-    "title": "Not all learning happens in a classroom",
-    "edu1Date": "2011 - 2013",
-    "edu1Title": "Multimedia Engineering",
-    "edu1School": "Algebra University College, Zagreb",
-    "edu1Desc": "Computer systems, programming (C++, Python), web technologies (HTML, CSS, SQL, JavaScript).",
-    "edu2Date": "2010",
-    "edu2Title": "Economics (incomplete)",
-    "edu2School": "Faculty of Economics, Zagreb",
-    "edu2Desc": "Enrolled in economics, but shifted when freelance web work started gaining traction. The course correction led directly to Multimedia Engineering at Algebra.",
-    "edu3Date": "2009 - Present",
-    "edu3Title": "Built on the Job",
-    "edu3School": "Self-directed",
-    "edu3Desc": "The most formative learning happened in the work itself. A senior web developer at Harvey Norman taught me practical HTML/CSS while real campaigns shipped. Volunteer UX work applied design thinking to pharmaceutical procurement. Client projects and independent experiments continued that hands-on education.",
-    "langTitle": "Languages",
-    "langCroatian": "<strong>Croatian</strong> - Native",
-    "langEnglish": "<strong>English</strong> - Fluent",
-    "langGerman": "<strong>German</strong> - A2"
-  },
-
   "contact": {
     "eyebrow": "Open to Opportunities",
     "title": "Let's discuss a role",
@@ -542,6 +455,8 @@
     "labelPhone": "Phone",
     "labelLinkedIn": "LinkedIn",
     "labelLocation": "Location",
+    "labelLanguages": "Languages",
+    "languagesText": "Croatian - native; English - fluent; German - A2",
     "locationText": "Based in Zagreb, Croatia - working across Europe, Asia & the US",
     "locationNote": "Hybrid, happy to meet in person. I regularly work with teams in Vienna, Munich, Zürich, Basel, Zagreb & beyond. EU work authorization - no visa needed.",
     "copyEmail": "Copy",
