@@ -2,6 +2,77 @@
 (function () {
   'use strict';
   function initialize() {
+    // Complexity starts in fragments, then resolves. Text remains readable to assistive technology.
+    const motionPreference = window.matchMedia('(prefers-reduced-motion: reduce)');
+    let wordObserver;
+    let animatedWords = [];
+    function playWord(word) {
+      if (motionPreference.matches || !word.isConnected) return;
+      word.classList.remove('is-resolving');
+      void word.offsetWidth;
+      word.classList.add('is-resolving');
+    }
+    function prepareComplexWord() {
+      if (wordObserver) wordObserver.disconnect();
+      animatedWords = Array.from(document.querySelectorAll('[data-complex-word]'));
+      animatedWords.forEach(word => {
+        const text = word.dataset.complexText || word.textContent;
+        word.dataset.complexText = text;
+        word.textContent = '';
+        const readable = document.createElement('span');
+        readable.className = 'complex-readable';
+        readable.textContent = text;
+        word.appendChild(readable);
+        Array.from(text).forEach((letter, index) => {
+          const span = document.createElement('span');
+          span.className = 'complex-letter';
+          span.textContent = letter;
+          span.setAttribute('aria-hidden', 'true');
+          span.style.setProperty('--letter-delay', (index * 24) + 'ms');
+          span.style.setProperty('--fragment-x', ([12, -10, 17, -15, 9, -13, 15, -7][index % 8]) + 'px');
+          span.style.setProperty('--fragment-y', ([-12, 10, -8, 14, -14, 8, -10, 12][index % 8]) + 'px');
+          span.style.setProperty('--fragment-turn', ([10, -12, 9, -14, 11, -9, 12, -10][index % 8]) + 'deg');
+          word.appendChild(span);
+        });
+        word.addEventListener('mouseenter', () => playWord(word));
+        word.addEventListener('click', () => playWord(word));
+      });
+      if (motionPreference.matches) return;
+      wordObserver = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (!entry.isIntersecting) return;
+          playWord(entry.target);
+          wordObserver.unobserve(entry.target);
+        });
+      }, { threshold: 0.75 });
+      const loader = document.getElementById('site-loader');
+      function observeWords() { animatedWords.forEach(word => wordObserver.observe(word)); }
+      if (!loader || loader.classList.contains('done')) observeWords();
+      else {
+        const loaderObserver = new MutationObserver(() => {
+          if (loader.classList.contains('done')) { loaderObserver.disconnect(); observeWords(); }
+        });
+        loaderObserver.observe(loader, { attributes: true, attributeFilter: ['class'] });
+      }
+    }
+    document.addEventListener('i18n:changed', prepareComplexWord);
+    motionPreference.addEventListener('change', () => {
+      if (motionPreference.matches) animatedWords.forEach(word => word.classList.remove('is-resolving'));
+    });
+    prepareComplexWord();
+
+    // The process remains fully readable; drawing the spring adds no required interaction.
+    const spring = document.querySelector('[data-practice-spring]');
+    if (spring && !motionPreference.matches && 'IntersectionObserver' in window) {
+      const springObserver = new IntersectionObserver(entries => {
+        if (entries.some(entry => entry.isIntersecting)) {
+          spring.classList.add('is-drawing');
+          springObserver.disconnect();
+        }
+      }, { threshold: 0.12 });
+      springObserver.observe(spring);
+    }
+
     const explorer = document.querySelector('[data-hero-paths]');
     const canvas = document.getElementById('heroScene');
     const tabs = explorer ? Array.from(explorer.querySelectorAll('[role="tab"]')) : [];

@@ -20,7 +20,7 @@
   },
   "hero": {
     "eyebrow": "Igor Pilicic",
-    "title": "Senior UX/Product Designer, der <span class=\"highlight\">komplexe Arbeit verständlich macht</span>",
+    "title": "Senior UX/Product Designer, der <span class=\"highlight\"><span class=\"complex-word\" data-complex-word>komplexe</span> Arbeit verständlich macht</span>",
     "subtitle": "Ich verwandle Fachwissen, unklare Anforderungen und technische Einschränkungen in digitale Produkte, die Nutzer verstehen, Teams umsetzen und Organisationen einführen können.",
     "tagline": "Meine Arbeit entdecken",
     "tagExperience": "Wo haben Sie gearbeitet?",
@@ -87,7 +87,7 @@
     "tipJira": "Agiles Projektmanagement",
     "tipTrello": "Kanban-Aufgabenverwaltung",
     "tipPharma": "Regulierte Branchen",
-    "tipRoche": "Plattform für über 10.000 interne Nutzer",
+    "tipRoche": "Über 10.000 Nutzer laut späterer Rückmeldung von Roche-Kollegen",
     "tipAcc": "KI-Beschaffungs-Governance"
   },
   "about": {
@@ -100,7 +100,7 @@
     "personalText": "Psychologie, Anthropologie und Soziologie helfen mir, die zwischenmenschliche Seite von Problemen und das Ungesagte zu verstehen. Außerhalb der Arbeit bin ich Ehemann und Vater; ich interessiere mich für Astronomie und genieße Filme, Serien und Spiele.",
     "statYears": "Jahre Berufserfahrung",
     "statReach": "Implementierungsreife UI-Designs",
-    "statUsers": "Interne Zielgruppe der Roche-RCA-Plattform",
+    "statUsers": "RCA-Nutzer laut späterer Rückmeldung von Roche-Kollegen",
     "statReporting": "Reduktion manueller Berichterstattung, zu der das Gesamtteam beitrug",
     "statCode": "Unterstützte Engineers in drei Teams",
     "signal": "Am meisten interessiert mich der Moment, in dem alle wissen, dass etwas nicht funktioniert, aber noch niemand genau sagen kann, warum.",
@@ -211,9 +211,9 @@
     "title": "Über 17 Jahre Erfahrung, vereint in komplexen Umgebungen",
     "current": "Aktuell",
     "currentRoleDate": "Jun 2026 - Heute",
-    "currentRoleTitle": "Aktueller beruflicher Fokus",
+    "currentRoleTitle": "Eigene Projekte und Produktentwicklung",
     "currentRoleCompany": "Standing Pillars - persönliches Portfolio · Zagreb, Kroatien",
-    "currentRoleNote": "Persönliches Portfolio und unabhängige Projekte, keine aktuelle Beschäftigung. Ich suche Vollzeit- oder Teilzeitrollen mit Fokus auf komplexe Produkte und Workflows.",
+    "currentRoleNote": "Ich entwickle eigene digitale Produkte und Prototypen, darunter die Tiny Humans Engine und die Simulation. Mit UX, Workflow-Design und strukturierter KI-Zusammenarbeit prüfe ich Ideen von den Anforderungen bis zum funktionierenden Prototyp.",
     "job1Date": "Apr 2020 - Jun 2026",
     "job1Title": "Unabhängiger UX/Product Designer und Technologieberater",
     "job1Company": "Selbstständig unter dem rechtlichen Namen Igor Pilicic | Österreich",
@@ -240,7 +240,7 @@
     "job3Items": [
       "Leitung der UX-Arbeit für eine interne RCA-Untersuchungsplattform im Kontext der pharmazeutischen Fertigung.",
       "Tiefgehende Interviews und Design Thinking angewandt; schnelles Prototyping in Figma führte zu einem dynamischen (atomaren) UI-Design.",
-      "Für eine vorgesehene interne Zielgruppe von mehr als 10.000 Nutzern bei Roche Diagnostics gestaltet.",
+      "Laut Rückmeldungen von Kollegen einige Monate nach Ende meines Einsatzes wurde die Plattform von mehr als 10.000 Nutzern verwendet.",
       "Zusammenarbeit mit Fachexperten und Implementierungsteams in iterativen Design-Zyklen."
     ],
     "job4Date": "Apr 2020 - Jul 2022",
@@ -362,7 +362,7 @@
     "eyebrow": "Live-Demo",
     "title": "Ein Proof of Concept aus der Engine",
     "desc": "Zwei autonome NPCs wandern in diesem aus der Engine extrahierten Proof of Concept über eine kleine Kachelkarte. Keine Skripte, keine Schienen - nur Sprite-Animation, Kollisionserkennung, Wetter und gelegentliche existenzielle Gedankenblasen. Ein kleiner Ausschnitt (~1.800 Zeilen) der 30.000+ Zeilen Engine, live im Betrieb.",
-    "caption": "↑ Ein kleiner Proof of Concept (~1.800 Zeilen), extrahiert aus der 30.000+ Zeilen Engine."
+    "caption": "Eine autonome Simulation mit sarkastischen Dialogen zwischen „Mutter“ (dem Geschäft) und dem Kind „Der Designer“."
   },
   "caseStudies": {
     "eyebrow": "Fallstudien",
@@ -373,7 +373,7 @@
       "tag": "Roche Diagnostics · Penzberg, Deutschland",
       "title": "Plattform zur Ursachenanalyse - Qualitätssicherung in der Fertigung",
       "role": "UX Design Lead & Business Analyst · Unterstützt von UI-Designern",
-      "summary": "Leitung der UX-Arbeit für eine Untersuchungsplattform, die für eine interne Zielgruppe von mehr als 10.000 Nutzern konzipiert wurde. Fachrecherche und Methoden wie Fishbone, Is/Is Not und 5 Whys wurden in geführte, nachvollziehbare Workflows übersetzt.",
+      "summary": "Ich leitete die UX-Arbeit an einer Untersuchungsplattform für die Produktion und verband Fachmethoden zu einem verständlichen digitalen Prozess. Einige Monate nach Ende meines Einsatzes berichteten mir Kollegen, dass die Plattform inzwischen von mehr als 10.000 Nutzern verwendet wurde.",
       "methodAtomic": "Atomic Design",
       "methodFishbone": "Fishbone",
       "methodIsIsNot": "Is/Is Not",
@@ -405,7 +405,7 @@
       "cap5Whys": "5-Whys-Untersuchung",
       "capOverview": "Überblick des RCA-Workflows",
       "outcomeTitle": "Ergebnis",
-      "outcomeP1": "Die Plattform wurde für eine vorgesehene interne Zielgruppe von mehr als 10.000 Nutzern bereitgestellt. Mein Beitrag schuf wiederverwendbare Interface-Muster und übersetzte mehrere Untersuchungsmethoden gemeinsam mit Fachexperten und Implementierungsteams in geführte Workflows."
+      "outcomeP1": "Einige Monate nach Ende meines Einsatzes berichteten mir Roche-Kollegen, dass die Plattform inzwischen von mehr als 10.000 Nutzern verwendet wurde. Mein Beitrag umfasste verständliche Untersuchungsabläufe und wiederverwendbare Interface-Muster, die ich gemeinsam mit Fachexperten und Entwicklern erarbeitete."
     },
     "ia": {
       "tag": "Roche Pharmaceuticals · Penzberg, Deutschland",
@@ -471,7 +471,7 @@
   "contact": {
     "eyebrow": "Kontakt",
     "title": "Lassen Sie uns über eine Position sprechen",
-    "desc": "Ich suche eine stabile Vollzeit- oder Teilzeitanstellung, primär im Senior UX/Product Design und in verwandten Rollen, die komplexe Workflows, visuelle Kommunikation, Business-Analyse und digitale Umsetzung verbinden.",
+    "desc": "Sprechen wir über Produkte, Arbeitsabläufe und Teams, zu denen ich mit UX/Product Design, visueller Kommunikation, Business-Analyse und digitaler Umsetzung beitragen kann.",
     "labelEmail": "E-Mail",
     "labelPhone": "Telefon",
     "labelLinkedIn": "LinkedIn",
@@ -532,7 +532,7 @@
     "work2Title": "Visuelles Design",
     "work2Desc": "Kampagnen, Identität und Web",
     "work3Title": "Technische Experimente",
-    "work3Desc": "Engine-Prototyp und spielbare Simulation",
+    "work3Desc": "Engine-Prototyp und Showcase einer autonomen Simulation",
     "proofStep1": "Problem",
     "proofStep2": "Einschränkung",
     "proofStep3": "Entscheidung",
@@ -550,15 +550,27 @@
     "decision4Title": "Der gesamte Weg bleibt sichtbar",
     "decision4Desc": "Spätere Schritte bleiben verfügbar, aber eingeklappt. Dadurch bleibt die aktuelle Aufgabe im Fokus, ohne den Untersuchungskontext zu verlieren.",
     "practiceEyebrow": "Meine Arbeitsweise",
-    "practiceTitle": "Von einer Frage zu etwas, das funktioniert.",
-    "practiceStep1": "Zuhören und einordnen",
-    "practiceStep2": "Abbilden und entscheiden",
-    "practiceStep3": "Erstellen und prüfen",
-    "practiceStep4": "Umsetzung unterstützen",
+    "practiceTitle": "Von der ersten Frage zu einem Produkt, das mitwachsen kann.",
+    "practiceStep1": "Das Problem verstehen",
+    "practiceStep2": "Die Richtung abstimmen",
+    "practiceStep3": "Gestalten und prüfen",
+    "practiceStep4": "Die Umsetzung begleiten",
     "methodDetail": "Meine Methode in Kürze",
     "expertiseDetail": "Kompetenzbereiche im Detail",
     "toolsDetail": "Werkzeuge, die ich tatsächlich nutze",
-    "playable": "Ja, das ist tatsächlich spielbar."
+    "showcaseEyebrow": "Showcase · Autonome Simulation",
+    "showcaseBadge": "↳ showcase",
+    "practiceIntro": "Ich verbinde Menschen, Anforderungen und Technologie. Beim Gestalten denke ich auch an die Zeit nach der Einführung: den Arbeitsalltag, neue Nutzer und spätere Erweiterungen.",
+    "practiceTime": "Zeit und Produktentwicklung",
+    "practiceLoop": "Rückmeldungen führen uns zu früheren Entscheidungen zurück. Das Produkt entwickelt sich weiter.",
+    "practiceStep1Desc": "Ich höre zu und untersuche die Arbeit der Menschen, um zu verstehen, was tatsächlich gelöst werden muss.",
+    "practiceStep2Desc": "Ich bringe Bedürfnisse, Grenzen und Möglichkeiten zusammen, damit das Team eine umsetzbare Richtung wählen kann.",
+    "practiceStep3Desc": "Ich entwickle Prototypen und Designs und prüfe die Ideen mit Nutzern und Entwicklern.",
+    "practiceStep4Desc": "Ich unterstütze die Umsetzung, erläutere Entscheidungen und prüfe, ob das Ergebnis der vereinbarten Richtung entspricht.",
+    "practiceStep5": "Aus der Nutzung lernen",
+    "practiceStep5Desc": "Rückmeldungen aus dem Arbeitsalltag zeigen, was sich bewährt und was angepasst oder verbessert werden sollte.",
+    "practiceStep6": "Wachstum ermöglichen",
+    "practiceStep6Desc": "Ich berücksichtige neue Nutzer, zusätzliche Abläufe und spätere Erweiterungen, damit sich das Produkt leichter weiterentwickeln lässt."
   },
   "heroPaths": {
     "kicker": "Drei Einstiege. Eine Denkweise.",
@@ -575,7 +587,31 @@
     "visualCta": "Designarchiv öffnen",
     "technicalDesc": "Wenn eine Idee Struktur braucht, ihre Grenzen getestet und ein funktionierender Nachweis gebaut werden muss.",
     "technicalCta": "Engine entdecken",
-    "demoCta": "Demo starten",
+    "demoCta": "Showcase ansehen",
     "aria": "Arbeitsbereich auswählen"
+  },
+  "caseStories": {
+    "judgment": "Wo mein Urteilsvermögen gefragt war",
+    "contribution": "Mein Beitrag zum Team",
+    "rca": {
+      "title": "Wenn Methodenkenntnis allein für ein gutes digitales Werkzeug nicht ausreicht",
+      "context": "Kundenmandat · UX Design Lead und Business-Analyse · RCA-Plattform",
+      "situation1": "Die Fachleute kannten die Produktion und die Untersuchungsmethoden. Meine Aufgabe war es, ihre tatsächliche Anwendung zu verstehen und diese Arbeit in einen zusammenhängenden digitalen Prozess zu übersetzen.",
+      "situation2": "Fishbone, Is/Is Not und 5 Whys mussten mit dem Untersuchungsablauf verbunden werden: Was versucht der Nutzer festzustellen, welche Informationen liegen bereits vor und was braucht er für die nächste Entscheidung?",
+      "judgment1": "Durch Forschung mit Fachleuten, Prozessabbildung und die Zusammenarbeit mit Product Ownern und Ingenieuren verband ich Nutzerbedürfnisse mit den Möglichkeiten des Systems. Ich unterstützte Projektplanung, Machbarkeitsbewertung und die Ausarbeitung der Richtung vor dem detaillierten Design.",
+      "judgment2": "Der gezeigte Figma-Entwurf zeigt, wie dieser Ansatz im Produkt sichtbar wird: Hinweise stehen direkt in der Aufgabe bereit, Methoden haben klare Einstiegspunkte und der Überblick über die übrige Untersuchung bleibt erhalten.",
+      "contribution": "Ich half Fachleuten, Projektleitung und Ingenieuren, ein gemeinsames Problemverständnis aufzubauen und daraus Arbeitsabläufe, Prototypen und Hinweise für die Implementierung abzuleiten.",
+      "link": "Ablauf und Designentscheidungen ansehen"
+    },
+    "accenture": {
+      "title": "Wie ich half, technologische Möglichkeiten in Entscheidungen zu übersetzen",
+      "context": "Kundenmandat · Pharmaprojekte · Anbieterbewertung, RFP/RFI und Kommunikation für die Führungsebene",
+      "situation1": "Bei der Bewertung von KI-Lösungen galt es zu verstehen, was die Technologie leisten konnte, wie sie in bestehende Prozesse passte und was ihre Einführung erfordern würde.",
+      "situation2": "Ich arbeitete mit der Projektleitung, Teams und KI-Ingenieuren an Anbieterrecherchen, der Strukturierung von Anforderungen und der Vorbereitung von Entscheidungsunterlagen.",
+      "judgment1": "Ich verband Geschäftsanforderungen, Nutzerabläufe und technische Einschränkungen. Ich wirkte an Bewertungen mit, ob ein bestehendes System grundlegend überarbeitet werden musste oder ob sich die benötigte Funktionalität über APIs anbinden ließ.",
+      "judgment2": "Die Erkenntnisse überführte ich in RFP/RFI-Unterlagen, Bewertungsrahmen und Präsentationen für die Führungsebene. Dabei galt es, entscheidungsrelevante Informationen auszuwählen, offene Fragen sichtbar zu machen und Abwägungen zu erklären.",
+      "contribution": "Ich unterstützte den Projektleiter und die Teams eng bei der Entscheidungsvorbereitung. Meine Erfahrung in UX, Analyse und visueller Kommunikation half, technische Details mit den geschäftlichen Fragen zu verbinden, die die Führungsebene klären musste.",
+      "link": "Umfang des Mandats und Verantwortlichkeiten"
+    }
   }
 }

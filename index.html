@@ -45,7 +45,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css?v=6e1760e2">
-  <link rel="stylesheet" href="experimental.css?v=uiux-1">
+  <link rel="stylesheet" href="experimental.css?v=spring-1">
 
   <!-- JSON-LD Structured Data -->
   <script type="application/ld+json">
@@ -199,7 +199,7 @@
       <div class="hero-content">
         <p class="hero-eyebrow" data-i18n="hero.eyebrow">Igor Pilicic</p>
 <p class="hero-location" data-i18n="ui.heroLocation">Zagreb, Croatia · 17+ years of experience</p>
-        <h1 class="hero-title" data-i18n="hero.title" data-i18n-html>Senior UX/Product Designer who makes <span class="highlight">complex work understandable</span></h1>
+        <h1 class="hero-title" data-i18n="hero.title" data-i18n-html>Senior UX/Product Designer who makes <span class="highlight"><span class="complex-word" data-complex-word>complex</span> work understandable</span></h1>
         <p class="hero-subtitle" data-i18n="hero.subtitle">I turn specialist knowledge, unclear requirements, and technical constraints into digital products that users understand, teams can build, and organizations can adopt.</p>
         <div class="hero-path-intro">
           <p class="hero-path-kicker" data-i18n="heroPaths.kicker">Three entry points. One way of thinking.</p>
@@ -209,16 +209,19 @@
           <div class="hero-path-tabs" role="tablist" aria-label="Choose an area of work" data-i18n="heroPaths.aria" data-i18n-attr="aria-label">
             <button class="hero-path-tab is-active" id="hero-path-product-tab" type="button" role="tab" aria-selected="true" aria-controls="hero-path-product" tabindex="0" data-path="product" data-graph-nodes="design,ux,research,evaluate,gxp,pharma,roche,acc,rfp,figma">
               <span class="hero-path-number">01</span>
+<svg class="hero-path-icon" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="3" width="9" height="7" rx="1.5"/><rect x="20" y="22" width="9" height="7" rx="1.5"/><rect x="3" y="22" width="9" height="7" rx="1.5"/><path d="M7.5 10v7h17v5M7.5 17v5M21 14l3.5 3L21 20"/></svg>
               <span class="hero-path-name" data-i18n="heroPaths.productTitle">Products and complex workflows</span>
               <span class="hero-path-meta" data-i18n="heroPaths.productMeta">UX · Enterprise · Pharma</span>
             </button>
             <button class="hero-path-tab" id="hero-path-visual-tab" type="button" role="tab" aria-selected="false" aria-controls="hero-path-visual" tabindex="-1" data-path="visual" data-graph-nodes="design,figma,adobe,3dsmax,local,web,brand,wp,magento">
               <span class="hero-path-number">02</span>
+<svg class="hero-path-icon" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 4a13 13 0 1 0 6 23c2-2-.5-4-2-4h-2a3 3 0 0 1 0-6h2"/><circle cx="10" cy="10" r="1.3"/><circle cx="6.5" cy="17" r="1.3"/><circle cx="11" cy="24" r="1.3"/><path d="m16 18 9-14a2 2 0 0 1 3 2L18 20M15 19c-4-1-4 4-5 5 4 .5 8-1 7-4"/></svg>
               <span class="hero-path-name" data-i18n="heroPaths.visualTitle">Visual design and brand</span>
               <span class="hero-path-meta" data-i18n="heroPaths.visualMeta">Campaigns · Web · Identity</span>
             </button>
             <button class="hero-path-tab" id="hero-path-technical-tab" type="button" role="tab" aria-selected="false" aria-controls="hero-path-technical" tabindex="-1" data-path="technical" data-graph-nodes="build,engine,ai,js,html,sql,prompt">
               <span class="hero-path-number">03</span>
+<svg class="hero-path-icon" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M16 6c-4-5-10-1-9 3-4 0-5 6-2 8-3 5 1 10 5 9 1 4 6 3 6-1V6ZM16 6c4-5 10-1 9 3 4 0 5 6 2 8 3 5-1 10-5 9-1 4-6 3-6-1"/><path d="M7 10c0 3 2 4 4 4M5 18c4-2 7 0 7 4M25 10c0 3-2 4-4 4M27 18c-4-2-7 0-7 4M16 12h3M16 21h-3"/><circle cx="20" cy="12" r="1.3"/><circle cx="12" cy="21" r="1.3"/></svg>
               <span class="hero-path-name" data-i18n="heroPaths.technicalTitle">Technical experiments</span>
               <span class="hero-path-meta" data-i18n="heroPaths.technicalMeta">AI · Systems · Prototypes</span>
             </button>
@@ -236,7 +239,7 @@
               <p data-i18n="heroPaths.technicalDesc">When an idea needs structure, its limits tested, and a working proof built.</p>
               <div class="hero-path-actions">
                 <a href="#ai-engineering" data-i18n="heroPaths.technicalCta">Explore the engine</a>
-                <a href="#simulation-demo" data-i18n="heroPaths.demoCta">Run the demo</a>
+                <a href="#simulation-demo" data-i18n="heroPaths.demoCta">View the showcase</a>
               </div>
             </article>
           </div>
@@ -287,7 +290,7 @@
           </div>
           <div class="stat-card">
             <span class="stat-number">10K+</span>
-            <span class="stat-label" data-i18n="about.statUsers">Internal audience for the Roche RCA platform</span>
+            <span class="stat-label" data-i18n="about.statUsers">RCA users reported by Roche colleagues after my engagement</span>
           </div>
           <div class="stat-card">
             <span class="stat-number">30%</span>
@@ -327,9 +330,9 @@
         <span class="work-index-number">02</span><h3 data-i18n="ui.work2Title">Visual design</h3>
         <p data-i18n="ui.work2Desc">Campaigns, identity and web</p><span class="work-index-arrow" aria-hidden="true">↗</span></a>
 <a class="work-index-link work-index-technical" href="#simulation-demo">
-        <div class="work-index-art"><img src="images/uiux-engine-preview.jpg" alt="Tiny Humans engine prototype" loading="lazy"></div>
+        <div class="work-index-art"><img src="images/uiux-engine-preview.jpg" alt="Tiny Humans engine prototype" loading="lazy"><span class="work-index-badge" data-i18n="ui.showcaseBadge">↳ showcase</span></div>
         <span class="work-index-number">03</span><h3 data-i18n="ui.work3Title">Technical experiments</h3>
-        <p data-i18n="ui.work3Desc">Engine prototype and playable simulation</p><span class="work-index-arrow" aria-hidden="true">↗</span></a></div>
+        <p data-i18n="ui.work3Desc">Engine prototype and autonomous simulation showcase</p><span class="work-index-arrow" aria-hidden="true">↗</span></a></div>
       <div class="proof-legend"><span><i aria-hidden="true">01</i><span data-i18n="ui.proofStep1">Problem</span></span><b aria-hidden="true">→</b><span><i aria-hidden="true">02</i><span data-i18n="ui.proofStep2">Constraint</span></span><b aria-hidden="true">→</b><span><i aria-hidden="true">03</i><span data-i18n="ui.proofStep3">Decision</span></span><b aria-hidden="true">→</b><span><i aria-hidden="true">04</i><span data-i18n="ui.proofStep4">Outcome</span></span></div>
       <details class="figma-disclosure"><summary data-i18n="ui.figmaDisclosure">About the Figma designs shown</summary><p class="section-disclaimer" data-i18n="caseStudies.disclaimer">The enterprise case-study visuals are development-stage interface designs created in Figma, not screenshots of an implemented or production system. Names, avatars, identifiers, and scenario content are fictionalized; no production or personal data is shown. The final implementation may differ.</p></details>
 
@@ -341,7 +344,7 @@
               <span class="case-tag" data-i18n="caseStudies.rca.tag">Roche Diagnostics · Penzberg, Germany</span>
               <h3 id="cs-rca-title" data-i18n="caseStudies.rca.title">Root Cause Analysis Investigation Platform - Manufacturing QA</h3>
               <span class="case-role" data-i18n="caseStudies.rca.role">UX Design Lead & Business Analyst · Supported by UI designers</span>
-              <p class="case-summary" data-i18n="caseStudies.rca.summary">Led UX work for an investigation platform designed for an internal audience of more than 10,000 users. The work translated specialist research and methods such as Fishbone, Is/Is Not, and 5 Whys into guided, traceable workflows.</p>
+              <p class="case-summary" data-i18n="caseStudies.rca.summary">I led UX work on a manufacturing investigation platform, bringing specialist methods into a clear digital process. A few months after my engagement ended, colleagues told me the platform was being used by more than 10,000 users.</p>
             </div>
             <div class="case-card-meta">
               <div class="case-methods">
@@ -360,6 +363,14 @@
           </div>
           <div class="case-detail-panel" id="cs-rca-panel" hidden>
             <div class="case-detail-content">
+<article class="case-narrative" aria-labelledby="rca-narrative-title">
+    <h4 id="rca-narrative-title" data-i18n="caseStories.rca.title">When knowing the methodology is not enough to design a useful digital tool</h4>
+    <p class="case-narrative-context" data-i18n="caseStories.rca.context">Client engagement · UX Design Lead and business analysis · RCA platform</p>
+    <p data-i18n="caseStories.rca.situation1">The specialists knew manufacturing and investigation methods. My task was to understand how they actually applied them and turn that work into a connected digital process.</p><p data-i18n="caseStories.rca.situation2">Fishbone, Is/Is Not, and 5 Whys needed to connect with the investigation: what the user was trying to establish, what information was already available, and what the next decision required.</p>
+    <div class="case-judgment"><h5 data-i18n="caseStories.judgment">Where my judgment mattered</h5><p data-i18n="caseStories.rca.judgment1">Through research with specialists, process mapping, and collaboration with Product Owners and engineers, I connected user needs with the system's capabilities. I supported project planning, feasibility assessment, and shaping the direction before detailed design.</p><p data-i18n="caseStories.rca.judgment2">The Figma example shows how that approach carries into the product: guidance is available within the task, methods have clear entry points, and users retain an overview of the rest of the investigation.</p></div>
+    <div class="case-contribution"><h5 data-i18n="caseStories.contribution">My contribution to the team</h5><p data-i18n="caseStories.rca.contribution">I helped specialists, project leadership, and engineers build a shared understanding of the problem and translate it into workflows, prototypes, and implementation guidance.</p></div>
+    <a class="case-narrative-link" href="#rca-design-decisions" data-i18n="caseStories.rca.link">Explore the workflow and design decisions</a>
+  </article>
 <details class="decision-exhibit" id="rca-design-decisions">
       <summary data-i18n="ui.decisionToggle">Show design decisions</summary>
       <div class="decision-heading"><h4 data-i18n="ui.decisionTitle">How the methodology became a workflow</h4><p data-i18n="ui.decisionIntro">Four decisions visible in this development-stage Figma design.</p></div>
@@ -376,10 +387,7 @@
 <li><button type="button" class="decision-note" data-decision="4" aria-pressed="false"><span class="decision-number" aria-hidden="true">04</span><strong data-i18n="ui.decision4Title">The full path stays visible</strong><span data-i18n="ui.decision4Desc">Later stages remain available but collapsed, keeping the current task in focus without losing investigation context.</span></button></li></ol>
       </div>
     </details>
-              <div class="case-detail-section">
-                <p class="sub-heading" data-i18n="caseStudies.rca.overviewTitle">Overview</p>
-                <p data-i18n="caseStudies.rca.overviewP1">Enhanced root cause analysis processes within Roche's quality assurance framework. The platform guides manufacturing scientists and investigators through systematic problem-solving methodologies when investigating unplanned events in pharmaceutical production.</p>
-              </div>
+
 
               <div class="case-detail-section">
                 <p class="sub-heading" data-i18n="caseStudies.rca.contribTitle">Key Contributions</p>
@@ -434,7 +442,7 @@
 
               <div class="case-detail-section case-outcome">
                 <p class="sub-heading" data-i18n="caseStudies.rca.outcomeTitle">Outcome</p>
-                <p data-i18n="caseStudies.rca.outcomeP1">The platform was delivered for an intended internal audience of more than 10,000 users. My contribution established reusable interface patterns and translated several investigation methods into guided workflows in collaboration with subject-matter experts and implementation teams.</p>
+                <p data-i18n="caseStudies.rca.outcomeP1">A few months after my engagement ended, colleagues at Roche told me the platform was being used by more than 10,000 users. My contribution included turning investigation methods into understandable workflows and reusable interface patterns, working with subject-matter experts and engineers.</p>
               </div>
             </div>
           </div>
@@ -521,7 +529,7 @@
 
       <!-- Case Study 3: AI Procurement (NDA) -->
       <div class="cases-grid cases-grid-secondary">
-        <div class="case-card case-card--nda">
+        <div class="case-card case-card--nda" id="cs-accenture">
           <div class="case-image-placeholder">
             <span class="nda-lock">🔒</span>
             <span data-i18n="caseStudies.aiProcurement.placeholder">Under NDA</span>
@@ -531,6 +539,17 @@
             <h3 data-i18n="caseStudies.aiProcurement.title">AI Procurement & Vendor Governance</h3>
             <p class="nda-notice" data-i18n="caseStudies.aiProcurement.nda" data-i18n-html>This engagement is under active NDA. For scope and responsibilities, see the <a href="#experience">Experience</a> section:</p>
             <p class="nda-roles" data-i18n="caseStudies.aiProcurement.roles">UI/UX Consultant & Presentation Designer · RFP/RFI & OSINT Vendor Diligence</p>
+<details class="case-narrative-disclosure" id="accenture-narrative">
+    <summary id="accenture-narrative-title" data-i18n="caseStories.accenture.title">How I helped turn technological possibilities into decisions</summary>
+    <article class="case-narrative" aria-labelledby="accenture-narrative-title">
+
+    <p class="case-narrative-context" data-i18n="caseStories.accenture.context">Client engagement · Pharmaceutical projects · Vendor evaluation, RFP/RFI, and executive communication</p>
+    <p data-i18n="caseStories.accenture.situation1">Evaluating AI solutions required understanding what the technology could offer, how it fitted existing processes, and what introducing it would require.</p><p data-i18n="caseStories.accenture.situation2">I worked with project leadership, teams, and AI engineers on vendor research, structuring requirements, and preparing decision materials.</p>
+    <div class="case-judgment"><h5 data-i18n="caseStories.judgment">Where my judgment mattered</h5><p data-i18n="caseStories.accenture.judgment1">I connected business needs, user workflows, and technical constraints. I contributed to assessments of whether an existing system needed substantial reworking or whether the required functionality could be connected through APIs.</p><p data-i18n="caseStories.accenture.judgment2">I translated findings into RFP/RFI materials, evaluation frameworks, and leadership presentations. A key part of the work was selecting what mattered to the decision, making open questions visible, and explaining trade-offs.</p></div>
+    <div class="case-contribution"><h5 data-i18n="caseStories.contribution">My contribution to the team</h5><p data-i18n="caseStories.accenture.contribution">I worked closely with the project lead and teams to support decision preparation. My experience in UX, analysis, and visual communication helped connect technical details with the business questions leadership needed to resolve.</p></div>
+    <a class="case-narrative-link" href="#experience" data-i18n="caseStories.accenture.link">Engagement scope and responsibilities</a>
+  </article>
+  </details>
           </div>
         </div>
         <div class="case-card">
@@ -576,6 +595,36 @@
       <div class="design-gallery-fade-bottom"></div>
     </div>
 
+    <!-- 3D Animation Section -->
+    <div class="motion-gallery" id="motion-3d">
+      <video
+        class="motion-gallery-video"
+        src="videos/3ds_max_neurons_animation.mp4"
+        poster="images/case-studies/motion-poster.jpg"
+        muted
+        loop
+        playsinline
+        preload="metadata"
+        aria-label="3D neurological visualisation - neural network animation in green and purple, 3ds Max"
+      ></video>
+      <div class="motion-gallery-overlay">
+        <span class="gallery-era" data-i18n="caseStudies.motionEra">3D Animation · 3ds Max</span>
+        <h3 data-i18n="caseStudies.motionTitle">3D Neurological Visualisation</h3>
+        <div class="motion-desc-wrap">
+          <p data-i18n="caseStudies.motionDesc">Cinematic 3D animation of a neural network - modelled, rigged and animated entirely in 3ds Max. Created as a motion intro for a medical technology application.</p>
+          <p class="gallery-context" data-i18n="caseStudies.motionTags">3D Modelling · Particle FX · Cinematic Camera · VFX Compositing</p>
+        </div>
+        <button class="motion-desc-toggle" aria-label="Show description" aria-expanded="false">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <button class="motion-play-btn" aria-label="Play animation">
+          <svg class="icon-play" viewBox="0 0 24 24" fill="currentColor"><polygon points="5,3 19,12 5,21"/></svg>
+          <svg class="icon-stop" viewBox="0 0 24 24" fill="currentColor" style="display:none"><rect x="4" y="4" width="16" height="16" rx="2"/></svg>
+          <span class="motion-play-label">Play</span>
+        </button>
+      </div>
+    </div>
+
     <!-- Interior Design Section -->
     <div class="interior-section" id="interior-design">
       <div class="container">
@@ -618,36 +667,6 @@
       </div>
     </div>
 
-    <!-- 3D Animation Section -->
-    <div class="motion-gallery" id="motion-3d">
-      <video
-        class="motion-gallery-video"
-        src="videos/3ds_max_neurons_animation.mp4"
-        poster="images/case-studies/motion-poster.jpg"
-        muted
-        loop
-        playsinline
-        preload="metadata"
-        aria-label="3D neurological visualisation - neural network animation in green and purple, 3ds Max"
-      ></video>
-      <div class="motion-gallery-overlay">
-        <span class="gallery-era" data-i18n="caseStudies.motionEra">3D Animation · 3ds Max</span>
-        <h3 data-i18n="caseStudies.motionTitle">3D Neurological Visualisation</h3>
-        <div class="motion-desc-wrap">
-          <p data-i18n="caseStudies.motionDesc">Cinematic 3D animation of a neural network - modelled, rigged and animated entirely in 3ds Max. Created as a motion intro for a medical technology application.</p>
-          <p class="gallery-context" data-i18n="caseStudies.motionTags">3D Modelling · Particle FX · Cinematic Camera · VFX Compositing</p>
-        </div>
-        <button class="motion-desc-toggle" aria-label="Show description" aria-expanded="false">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
-        </button>
-        <button class="motion-play-btn" aria-label="Play animation">
-          <svg class="icon-play" viewBox="0 0 24 24" fill="currentColor"><polygon points="5,3 19,12 5,21"/></svg>
-          <svg class="icon-stop" viewBox="0 0 24 24" fill="currentColor" style="display:none"><rect x="4" y="4" width="16" height="16" rx="2"/></svg>
-          <span class="motion-play-label">Play</span>
-        </button>
-      </div>
-    </div>
-
     <a class="section-followup" href="#experience" data-i18n="followup.cases">→ The experience behind the work</a>
 
   </section>
@@ -668,9 +687,9 @@
               <span class="timeline-date" data-i18n="experience.currentRoleDate">Jun 2026 - Present</span>
               <span class="timeline-badge" data-i18n="experience.current">Current</span>
             </div>
-            <h3 data-i18n="experience.currentRoleTitle">Current professional focus</h3>
+            <h3 data-i18n="experience.currentRoleTitle">Independent projects and product development</h3>
             <p class="timeline-company" data-i18n="experience.currentRoleCompany">Standing Pillars - personal portfolio · Zagreb, Croatia</p>
-            <p data-i18n="experience.currentRoleNote">Personal portfolio and independent projects, not current employment. Seeking full-time or part-time roles centred on complex products and workflows.</p>
+            <p data-i18n="experience.currentRoleNote">I develop personal digital products and prototypes, including the Tiny Humans engine and simulation. Through UX, workflow design, and structured AI collaboration, I explore ideas from requirements to a working prototype.</p>
           </div>
         </div>
         <!-- Self-employed -->
@@ -722,7 +741,7 @@
             <ul>
               <li data-i18n="experience.job3Items.0">Led UX work for an internal RCA investigation platform in a pharmaceutical manufacturing context.</li>
               <li data-i18n="experience.job3Items.1">Conducted in-depth interviews and applied design thinking; rapid prototyping in Figma led to a dynamic (atomic) UI design.</li>
-              <li data-i18n="experience.job3Items.2">Designed for an intended internal audience of more than 10,000 users across Roche Diagnostics.</li>
+              <li data-i18n="experience.job3Items.2">According to feedback from colleagues a few months after my engagement ended, the platform was being used by more than 10,000 users.</li>
               <li data-i18n="experience.job3Items.3">Collaborated with SMEs and implementation teams through iterative design cycles.</li>
             </ul>
           </div>
@@ -815,8 +834,47 @@
   <section class="section practice-editorial" id="how-i-work">
     <div class="container">
       <span id="services" class="anchor-alias" aria-hidden="true"></span><span id="skills" class="anchor-alias" aria-hidden="true"></span>
-      <div class="section-header"><p class="section-eyebrow" data-i18n="ui.practiceEyebrow">How I work</p><h2 class="section-title" data-i18n="ui.practiceTitle">From a question to something that works.</h2></div>
-      <ol class="practice-index"><li><span>01</span><h3 data-i18n="ui.practiceStep1">Listen and frame</h3></li><li><span>02</span><h3 data-i18n="ui.practiceStep2">Map and decide</h3></li><li><span>03</span><h3 data-i18n="ui.practiceStep3">Make and validate</h3></li><li><span>04</span><h3 data-i18n="ui.practiceStep4">Support delivery</h3></li></ol>
+      <div class="section-header"><p class="section-eyebrow" data-i18n="ui.practiceEyebrow">How I work</p><h2 class="section-title" data-i18n="ui.practiceTitle">From the first question to a product that can grow.</h2><p class="section-desc" data-i18n="ui.practiceIntro">I connect people, needs, and technology. When designing, I also consider what comes after delivery: everyday use, new users, and future improvements.</p></div>
+      <div class="practice-spring" data-practice-spring>
+        <p class="spring-axis"><span data-i18n="ui.practiceTime">Time and product development</span><span aria-hidden="true">↗</span></p>
+        <svg class="spring-visual spring-visual--horizontal" viewBox="0 0 1200 180" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+
+          <path class="spring-track" d="M 0 36 C 150 -10 210 150 100 150 C -10 150 50 -10 200 36 C 350 -10 410 150 300 150 C 190 150 250 -10 400 36 C 550 -10 610 150 500 150 C 390 150 450 -10 600 36 C 750 -10 810 150 700 150 C 590 150 650 -10 800 36 C 950 -10 1010 150 900 150 C 790 150 850 -10 1000 36 C 1150 -10 1210 150 1100 150 C 990 150 1050 -10 1200 36"/>
+          <path class="spring-ink" pathLength="1" d="M 0 36 C 150 -10 210 150 100 150 C -10 150 50 -10 200 36 C 350 -10 410 150 300 150 C 190 150 250 -10 400 36 C 550 -10 610 150 500 150 C 390 150 450 -10 600 36 C 750 -10 810 150 700 150 C 590 150 650 -10 800 36 C 950 -10 1010 150 900 150 C 790 150 850 -10 1000 36 C 1150 -10 1210 150 1100 150 C 990 150 1050 -10 1200 36"/>
+          <path class="spring-growth" pathLength="1" d="M 800 36 C 950 -10 1010 150 900 150 C 790 150 850 -10 1000 36 C 1150 -10 1210 150 1100 150 C 990 150 1050 -10 1200 36"/>
+          <circle class="spring-node" cx="100" cy="150" r="5"/>
+          <circle class="spring-node" cx="300" cy="150" r="5"/>
+          <circle class="spring-node" cx="500" cy="150" r="5"/>
+          <circle class="spring-node" cx="700" cy="150" r="5"/>
+          <circle class="spring-node spring-node--growth" cx="900" cy="150" r="5"/>
+          <circle class="spring-node spring-node--growth" cx="1100" cy="150" r="5"/>
+
+        </svg>
+        <div class="spring-sequence">
+          <svg class="spring-visual spring-visual--vertical" viewBox="0 0 180 1200" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+          <g transform="translate(170 0) rotate(90)">
+          <path class="spring-track" d="M 0 36 C 150 -10 210 150 100 150 C -10 150 50 -10 200 36 C 350 -10 410 150 300 150 C 190 150 250 -10 400 36 C 550 -10 610 150 500 150 C 390 150 450 -10 600 36 C 750 -10 810 150 700 150 C 590 150 650 -10 800 36 C 950 -10 1010 150 900 150 C 790 150 850 -10 1000 36 C 1150 -10 1210 150 1100 150 C 990 150 1050 -10 1200 36"/>
+          <path class="spring-ink" pathLength="1" d="M 0 36 C 150 -10 210 150 100 150 C -10 150 50 -10 200 36 C 350 -10 410 150 300 150 C 190 150 250 -10 400 36 C 550 -10 610 150 500 150 C 390 150 450 -10 600 36 C 750 -10 810 150 700 150 C 590 150 650 -10 800 36 C 950 -10 1010 150 900 150 C 790 150 850 -10 1000 36 C 1150 -10 1210 150 1100 150 C 990 150 1050 -10 1200 36"/>
+          <path class="spring-growth" pathLength="1" d="M 800 36 C 950 -10 1010 150 900 150 C 790 150 850 -10 1000 36 C 1150 -10 1210 150 1100 150 C 990 150 1050 -10 1200 36"/>
+          <circle class="spring-node" cx="100" cy="150" r="5"/>
+          <circle class="spring-node" cx="300" cy="150" r="5"/>
+          <circle class="spring-node" cx="500" cy="150" r="5"/>
+          <circle class="spring-node" cx="700" cy="150" r="5"/>
+          <circle class="spring-node spring-node--growth" cx="900" cy="150" r="5"/>
+          <circle class="spring-node spring-node--growth" cx="1100" cy="150" r="5"/>
+          </g>
+        </svg>
+          <ol class="practice-index">
+            <li class="spring-step"><span class="spring-step-number">01</span><h3 data-i18n="ui.practiceStep1">Understand the problem</h3><p data-i18n="ui.practiceStep1Desc">I listen to people and study their work to understand what actually needs solving.</p></li>
+            <li class="spring-step"><span class="spring-step-number">02</span><h3 data-i18n="ui.practiceStep2">Agree on a direction</h3><p data-i18n="ui.practiceStep2Desc">I bring needs, constraints, and possibilities together so the team can choose a realistic direction.</p></li>
+            <li class="spring-step"><span class="spring-step-number">03</span><h3 data-i18n="ui.practiceStep3">Design and test</h3><p data-i18n="ui.practiceStep3Desc">I turn ideas into prototypes and designs, then test them with users and engineers.</p></li>
+            <li class="spring-step"><span class="spring-step-number">04</span><h3 data-i18n="ui.practiceStep4">Support delivery</h3><p data-i18n="ui.practiceStep4Desc">I support implementation, explain decisions, and check that the result follows the agreed direction.</p></li>
+            <li class="spring-step spring-step--growth"><span class="spring-step-number">05</span><h3 data-i18n="ui.practiceStep5">Learn from use</h3><p data-i18n="ui.practiceStep5Desc">Feedback from everyday work shows what to keep, adapt, or improve.</p></li>
+            <li class="spring-step spring-step--growth"><span class="spring-step-number">06</span><h3 data-i18n="ui.practiceStep6">Enable growth</h3><p data-i18n="ui.practiceStep6Desc">I anticipate new users, additional workflows, and future improvements so the product can evolve more easily.</p></li>
+          </ol>
+        </div>
+        <p class="spring-loop-note"><span aria-hidden="true">↻</span><span data-i18n="ui.practiceLoop">Feedback takes us back to earlier decisions. The product keeps moving forward.</span></p>
+      </div>
       <details class="archive-detail"><summary data-i18n="ui.methodDetail">A short look at my method</summary>
       <div class="section-header">
         <p class="section-eyebrow" data-i18n="howIWork.eyebrow">How I Work</p>
@@ -1173,10 +1231,11 @@
     <iframe id="sim-iframe" src="simulation/demo.html" title="AI Sandbox Simulation" loading="eager" allow="autoplay"></iframe>
     <div class="sim-overlay">
       <div class="sim-overlay-top">
-        <p class="section-eyebrow" data-i18n="ui.playable">Yes, this is actually playable.</p>
+        <p class="section-eyebrow" data-i18n="ui.showcaseEyebrow">Showcase · Autonomous simulation</p>
         <h2 class="section-title" data-i18n="simulationDemo.title">A proof of concept from the engine</h2>
       </div>
-      <p class="sim-caption" data-i18n="simulationDemo.caption">↑ A small proof of concept (~1,800 lines) extracted from the 30K+ line engine.</p>    </div>
+      <p class="sim-caption" data-i18n="simulationDemo.caption">An autonomous simulation with sarcastic dialogue between “Mother” (the business) and the child, “The Designer”.</p>
+    </div>
   </section>
 
   <!-- Contact Section -->
@@ -1185,7 +1244,7 @@
       <div class="section-header">
         <p class="section-eyebrow" data-i18n="contact.eyebrow">Open to Opportunities</p>
         <h2 class="section-title" data-i18n="contact.title">Let's discuss a role</h2>
-        <p class="section-desc" data-i18n="contact.desc">I am seeking stable full-time or part-time employment, primarily in Senior UX/Product Design and related roles connecting complex workflows, visual communication, business analysis, and digital delivery.</p>
+        <p class="section-desc" data-i18n="contact.desc">Let's talk about products, workflows, and teams I can contribute to through UX/Product Design, visual communication, business analysis, and digital delivery.</p>
       </div>
       <div class="contact-grid">
         <div class="contact-info">
@@ -1304,7 +1363,7 @@
   </script>
   <script src="script.js?v=a48e787c"></script>
   <script src="hero-scene.js"></script>
-  <script src="experimental.js?v=uiux-1"></script>
+  <script src="experimental.js?v=spring-1"></script>
   <script>
   // =============================================
   // Site Loader - preload simulation assets

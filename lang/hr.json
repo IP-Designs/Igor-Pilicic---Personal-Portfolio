@@ -20,7 +20,7 @@
   },
   "hero": {
     "eyebrow": "Igor Piličić",
-    "title": "Senior UX/Product dizajner koji <span class=\"highlight\">složen rad čini razumljivim</span>",
+    "title": "Senior UX/Product dizajner koji <span class=\"highlight\"><span class=\"complex-word\" data-complex-word>složen</span> rad čini razumljivim</span>",
     "subtitle": "Pretvaram stručno znanje, nejasne zahtjeve i tehnička ograničenja u digitalne proizvode koje korisnici razumiju, timovi mogu izgraditi, a organizacije mogu uvesti.",
     "tagline": "Istražite moj rad",
     "tagExperience": "Gdje ste radili?",
@@ -87,7 +87,7 @@
     "tipJira": "Agilno upravljanje projektima",
     "tipTrello": "Kanban upravljanje zadacima",
     "tipPharma": "Regulirane industrije",
-    "tipRoche": "Platforma za internu publiku od 10.000+ korisnika",
+    "tipRoche": "10.000+ korisnika, prema naknadnim informacijama kolega iz Rochea",
     "tipAcc": "AI upravljanje nabavom"
   },
   "about": {
@@ -100,7 +100,7 @@
     "personalText": "Psihologija, antropologija i sociologija pomažu mi razumjeti međuljudsku stranu problema i ono što ostane neizrečeno. Izvan posla suprug sam i otac; pratim astronomiju i uživam u filmovima, serijama i igrama.",
     "statYears": "Godina profesionalnog iskustva",
     "statReach": "UI dizajna pripremljenih za implementaciju",
-    "statUsers": "Interna publika Roche RCA platforme",
+    "statUsers": "Korisnika RCA platforme, prema naknadnim informacijama kolega iz Rochea",
     "statReporting": "Smanjenje ručnog izvještavanja kojem je pridonio širi proizvodni tim",
     "statCode": "Inženjera podržanih kroz tri tima",
     "signal": "Najviše me zanima trenutak kad svi znaju da nešto ne radi, ali još nitko ne zna točno zašto.",
@@ -211,9 +211,9 @@
     "title": "17+ godina iskustva koje se spojilo u složenim okruženjima",
     "current": "Trenutno",
     "currentRoleDate": "Lip 2026 - Danas",
-    "currentRoleTitle": "Trenutni profesionalni fokus",
+    "currentRoleTitle": "Samostalni projekti i razvoj proizvoda",
     "currentRoleCompany": "Standing Pillars - osobni portfolio · Zagreb, Hrvatska",
-    "currentRoleNote": "Osobni portfolio i neovisni projekti, a ne trenutno zaposlenje. Tražim uloge na puno ili nepuno radno vrijeme usmjerene na složene proizvode i radne procese.",
+    "currentRoleNote": "Razvijam osobne digitalne proizvode i prototipe, uključujući Tiny Humans engine i simulaciju. Kroz UX, dizajn radnih procesa i strukturiranu AI suradnju provjeravam ideje od zahtjeva do funkcionalnog prototipa.",
     "job1Date": "Tra 2020 - Lip 2026",
     "job1Title": "Neovisni UX/Product dizajner i tehnološki konzultant",
     "job1Company": "Samozaposlen pod pravnim imenom Igor Pilicic | Austrija",
@@ -240,7 +240,7 @@
     "job3Items": [
       "Vođenje UX rada za internu RCA istražnu platformu u kontekstu farmaceutske proizvodnje.",
       "Dubinski intervjui i primjena dizajnerskog razmišljanja; brzo prototipiranje u Figmi dovelo do dinamičnog (atomskog) UI dizajna.",
-      "Dizajnirano za predviđenu internu publiku veću od 10.000 korisnika u Roche Diagnostics.",
+      "Prema povratnim informacijama kolega nekoliko mjeseci nakon završetka mog angažmana, platformu je koristilo više od 10.000 korisnika.",
       "Suradnja s predmetnim stručnjacima i implementacijskim timovima kroz iterativne cikluse dizajna."
     ],
     "job4Date": "Tra 2020 - Srp 2022",
@@ -362,7 +362,7 @@
     "eyebrow": "Demo uživo",
     "title": "Proof of concept iz enginea",
     "desc": "Dva autonomna NPC-a lutaju malom kartom pločica u ovom proof of conceptu izvučenom iz enginea. Bez skripti, bez tračnica - samo sprite animacija, detekcija kolizija, vrijeme i povremeni egzistencijalni oblačić misli. Mali isječak (~1.800 linija) enginea od 30.000+ linija, uživo.",
-    "caption": "↑ Mali proof of concept (~1.800 linija) izvučen iz enginea od 30.000+ linija."
+    "caption": "Autonomna simulacija sa sarkastičnim dijalogom između „Majke” (poslovanja) i djeteta „Dizajnera”."
   },
   "caseStudies": {
     "eyebrow": "Studije slučaja",
@@ -373,7 +373,7 @@
       "tag": "Roche Diagnostics · Penzberg, Njemačka",
       "title": "Platforma za istragu uzroka - Osiguranje kvalitete u proizvodnji",
       "role": "UX Design Lead & poslovni analitičar · Podržka UI dizajnera",
-      "summary": "Vodio UX rad na istražnoj platformi dizajniranoj za internu publiku veću od 10.000 korisnika. Rad je stručno istraživanje i metode poput Fishbone, Is/Is Not i 5 Whys pretvorio u vođene, sljedive radne procese.",
+      "summary": "Vodio sam UX rad na platformi za istraživanje uzroka problema u proizvodnji, povezujući stručne metode u jasan digitalni proces. Kolege su mi nekoliko mjeseci nakon završetka angažmana prenijeli da je platformu tada koristilo više od 10.000 korisnika.",
       "methodAtomic": "Atomic Design",
       "methodFishbone": "Fishbone",
       "methodIsIsNot": "Is/Is Not",
@@ -405,7 +405,7 @@
       "cap5Whys": "5 Whys istraga",
       "capOverview": "Pregled RCA radnog procesa",
       "outcomeTitle": "Rezultat",
-      "outcomeP1": "Platforma je isporučena za predviđenu internu publiku veću od 10.000 korisnika. Moj doprinos uspostavio je ponovljive uzorke sučelja i preveo više istražnih metoda u vođene radne procese u suradnji sa stručnjacima i implementacijskim timovima."
+      "outcomeP1": "Nekoliko mjeseci nakon završetka mog angažmana, kolege iz Rochea prenijeli su mi da je platformu tada koristilo više od 10.000 korisnika. Moj je doprinos uključivao povezivanje istražnih metoda u razumljive radne procese i ponovljive uzorke sučelja, u suradnji sa stručnjacima i inženjerima."
     },
     "ia": {
       "tag": "Roche Pharmaceuticals · Penzberg, Njemačka",
@@ -471,7 +471,7 @@
   "contact": {
     "eyebrow": "Otvoren za prilike",
     "title": "Razgovarajmo o poziciji",
-    "desc": "Tražim stabilno zaposlenje na puno ili nepuno radno vrijeme, primarno u Senior UX/Product dizajnu i povezanim ulogama koje spajaju složene radne procese, vizualnu komunikaciju, poslovnu analizu i digitalnu isporuku.",
+    "desc": "Razgovarajmo o proizvodima, radnim procesima i timovima kojima mogu pridonijeti kroz UX/Product dizajn, vizualnu komunikaciju, poslovnu analizu i digitalnu isporuku.",
     "labelEmail": "E-mail",
     "labelPhone": "Telefon",
     "labelLinkedIn": "LinkedIn",
@@ -532,7 +532,7 @@
     "work2Title": "Vizualni dizajn",
     "work2Desc": "Kampanje, identiteti i web",
     "work3Title": "Tehnički eksperimenti",
-    "work3Desc": "Prototip enginea i igriva simulacija",
+    "work3Desc": "Prototip enginea i showcase autonomne simulacije",
     "proofStep1": "Problem",
     "proofStep2": "Ograničenje",
     "proofStep3": "Odluka",
@@ -550,15 +550,27 @@
     "decision4Title": "Cijeli put ostaje vidljiv",
     "decision4Desc": "Kasniji koraci ostaju dostupni, ali sažeti. Tako je trenutačni zadatak u fokusu bez gubitka konteksta istrage.",
     "practiceEyebrow": "Kako radim",
-    "practiceTitle": "Od pitanja do nečega što radi.",
-    "practiceStep1": "Slušam i uokvirujem",
-    "practiceStep2": "Mapiram i odlučujem",
-    "practiceStep3": "Izrađujem i provjeravam",
-    "practiceStep4": "Podržavam isporuku",
+    "practiceTitle": "Od prvog pitanja do proizvoda koji može rasti.",
+    "practiceStep1": "Razumjeti problem",
+    "practiceStep2": "Dogovoriti smjer",
+    "practiceStep3": "Oblikovati i provjeriti",
+    "practiceStep4": "Podržati isporuku",
     "methodDetail": "Kratko o mojoj metodi",
     "expertiseDetail": "Područja stručnosti, detaljnije",
     "toolsDetail": "Alati koje stvarno koristim",
-    "playable": "Da, ovo je stvarno igrivo."
+    "showcaseEyebrow": "Showcase · Autonomna simulacija",
+    "showcaseBadge": "↳ showcase",
+    "practiceIntro": "Povezujem ljude, potrebe i tehnologiju. Pri dizajnu mislim i na ono što dolazi nakon isporuke: stvarnu uporabu, nove korisnike i buduće nadogradnje.",
+    "practiceTime": "Vrijeme i razvoj proizvoda",
+    "practiceLoop": "Povratne informacije vraćaju nas prethodnim odlukama. Proizvod ide naprijed.",
+    "practiceStep1Desc": "Slušam ljude i proučavam njihov rad da bih razumio što stvarno treba riješiti.",
+    "practiceStep2Desc": "Usklađujem potrebe, ograničenja i mogućnosti kako bi tim mogao odabrati izvediv smjer.",
+    "practiceStep3Desc": "Izrađujem prototipe i dizajn te provjeravam ideje s korisnicima i inženjerima.",
+    "practiceStep4Desc": "Pomažem pri implementaciji, razjašnjavam odluke i provjeravam odgovara li izvedba dogovorenom smjeru.",
+    "practiceStep5": "Učiti iz uporabe",
+    "practiceStep5Desc": "Povratne informacije iz stvarnog rada pokazuju što vrijedi zadržati, prilagoditi ili unaprijediti.",
+    "practiceStep6": "Omogućiti rast",
+    "practiceStep6Desc": "Predviđam nove korisnike, dodatne procese i buduće nadogradnje kako bi se proizvod lakše razvijao."
   },
   "heroPaths": {
     "kicker": "Tri ulaza. Isti način razmišljanja.",
@@ -575,7 +587,31 @@
     "visualCta": "Otvorite biblioteku dizajna",
     "technicalDesc": "Kad ideju treba strukturirati, ispitati njezine granice i izgraditi dokaz koji stvarno radi.",
     "technicalCta": "Istražite engine",
-    "demoCta": "Pokrenite demo",
+    "demoCta": "Pogledajte showcase",
     "aria": "Odaberite područje rada"
+  },
+  "caseStories": {
+    "judgment": "Gdje je bila moja prosudba",
+    "contribution": "Moj doprinos timu",
+    "rca": {
+      "title": "Kad poznavanje metodologije nije dovoljno za dobar digitalni alat",
+      "context": "Klijentski angažman · UX Design Lead i poslovna analiza · RCA platforma",
+      "situation1": "Stručnjaci su poznavali proizvodnju i istražne metode. Moj je zadatak bio razumjeti kako ih stvarno primjenjuju i pretvoriti taj rad u povezan digitalni proces.",
+      "situation2": "Fishbone, Is/Is Not i 5 Whys trebalo je povezati s tijekom istrage: što korisnik pokušava utvrditi, koje informacije već ima i što mu treba za sljedeću odluku.",
+      "judgment1": "Kroz istraživanje sa stručnjacima, mapiranje procesa i suradnju s Product Ownerima i inženjerima povezivao sam potrebe korisnika s mogućnostima sustava. Podržavao sam projektno planiranje, procjenu izvedivosti i razradu smjera prije detaljne izrade dizajna.",
+      "judgment2": "U prikazanom Figma primjeru vidi se kako se taj pristup prenosi u proizvod: smjernice su dostupne unutar zadatka, metode imaju jasne ulazne točke, a korisnik zadržava pregled nad ostatkom istrage.",
+      "contribution": "Pomagao sam stručnjacima, vodstvu projekta i inženjerima izgraditi zajedničko razumijevanje problema te ga pretvoriti u radne procese, prototipe i upute za implementaciju.",
+      "link": "Pogledajte proces i dizajnerske odluke"
+    },
+    "accenture": {
+      "title": "Kako sam pomagao pretvoriti tehnološke mogućnosti u odluke",
+      "context": "Klijentski angažman · Farmaceutski projekti · Evaluacija dobavljača, RFP/RFI i izvršna komunikacija",
+      "situation1": "Kod procjene AI rješenja trebalo je razumjeti što tehnologija može ponuditi, kako se uklapa u postojeće procese i što bi njezino uvođenje zahtijevalo.",
+      "situation2": "Radio sam s vodstvom projekta, timovima i AI inženjerima na istraživanju dobavljača, strukturiranju zahtjeva i pripremi materijala za odlučivanje.",
+      "judgment1": "Povezivao sam poslovne potrebe, korisničke procese i tehnička ograničenja. Sudjelovao sam u procjenama treba li postojeći sustav značajniju preradu ili se potrebna funkcionalnost može povezati putem API-ja.",
+      "judgment2": "Nalaze sam pretvarao u RFP/RFI materijale, evaluacijske okvire i prezentacije za vodstvo. Važan dio tog rada bio je odabrati što je relevantno za odluku, jasno prikazati otvorena pitanja i objasniti kompromise.",
+      "contribution": "Bio sam bliska podrška voditelju projekta i timovima u pripremi odluka. Moje iskustvo u UX-u, analizi i vizualnoj komunikaciji pomoglo je povezati tehničke detalje s poslovnim pitanjima o kojima je vodstvo trebalo odlučiti.",
+      "link": "Opseg angažmana i odgovornosti"
+    }
   }
 }

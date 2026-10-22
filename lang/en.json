@@ -20,7 +20,7 @@
   },
   "hero": {
     "eyebrow": "Igor Pilicic",
-    "title": "Senior UX/Product Designer who makes <span class=\"highlight\">complex work understandable</span>",
+    "title": "Senior UX/Product Designer who makes <span class=\"highlight\"><span class=\"complex-word\" data-complex-word>complex</span> work understandable</span>",
     "subtitle": "I turn specialist knowledge, unclear requirements, and technical constraints into digital products that users understand, teams can build, and organizations can adopt.",
     "tagline": "Explore my work",
     "tagExperience": "Where have you worked?",
@@ -87,7 +87,7 @@
     "tipJira": "Agile project tracking",
     "tipTrello": "Kanban task management",
     "tipPharma": "Regulated industries",
-    "tipRoche": "Platform for a 10K+ internal audience",
+    "tipRoche": "10,000+ users, reported by Roche colleagues after my engagement",
     "tipAcc": "AI procurement governance"
   },
   "about": {
@@ -100,7 +100,7 @@
     "personalText": "Psychology, anthropology, and sociology help me understand the interpersonal side of problems and what remains unsaid. Outside work, I am a husband and father; I follow astronomy and enjoy films, series, and games.",
     "statYears": "Years of professional experience",
     "statReach": "Implementation-ready UI designs",
-    "statUsers": "Internal audience for the Roche RCA platform",
+    "statUsers": "RCA users reported by Roche colleagues after my engagement",
     "statReporting": "Reduction in manual reporting the wider product contributed to",
     "statCode": "Engineers supported across three teams",
     "signal": "I am most interested in the moment when everyone knows something is not working, but no one can yet say exactly why.",
@@ -211,9 +211,9 @@
     "title": "17+ years of experience converging in complex environments",
     "current": "Current",
     "currentRoleDate": "Jun 2026 - Present",
-    "currentRoleTitle": "Current professional focus",
+    "currentRoleTitle": "Independent projects and product development",
     "currentRoleCompany": "Standing Pillars - personal portfolio · Zagreb, Croatia",
-    "currentRoleNote": "Personal portfolio and independent projects, not current employment. Seeking full-time or part-time roles centred on complex products and workflows.",
+    "currentRoleNote": "I develop personal digital products and prototypes, including the Tiny Humans engine and simulation. Through UX, workflow design, and structured AI collaboration, I explore ideas from requirements to a working prototype.",
     "job1Date": "Apr 2020 - Jun 2026",
     "job1Title": "Independent UX/Product Designer and Technology Consultant",
     "job1Company": "Self-employed under the legal name Igor Pilicic | Austria",
@@ -240,7 +240,7 @@
     "job3Items": [
       "Led UX work for an internal RCA investigation platform in a pharmaceutical manufacturing context.",
       "Conducted in-depth interviews and applied design thinking; rapid prototyping in Figma led to a dynamic (atomic) UI design.",
-      "Designed for an intended internal audience of more than 10,000 users across Roche Diagnostics.",
+      "According to feedback from colleagues a few months after my engagement ended, the platform was being used by more than 10,000 users.",
       "Collaborated with SMEs and implementation teams through iterative design cycles."
     ],
     "job4Date": "Apr 2020 - Jul 2022",
@@ -362,7 +362,7 @@
     "eyebrow": "Live Demo",
     "title": "A proof of concept from the engine",
     "desc": "Two autonomous NPCs wander a small tile map in this proof of concept extracted from the engine. No scripts, no rails - just sprite animation, collision detection, weather, and the occasional existential thought bubble. A tiny slice (~1,800 lines) of the 30K+ line engine, running live.",
-    "caption": "↑ A small proof of concept (~1,800 lines) extracted from the 30K+ line engine."
+    "caption": "An autonomous simulation with sarcastic dialogue between “Mother” (the business) and the child, “The Designer”."
   },
   "caseStudies": {
     "eyebrow": "Case Studies",
@@ -373,7 +373,7 @@
       "tag": "Roche Diagnostics · Penzberg, Germany",
       "title": "Root Cause Analysis Investigation Platform - Manufacturing QA",
       "role": "UX Design Lead & Business Analyst · Supported by UI designers",
-      "summary": "Led UX work for an investigation platform designed for an internal audience of more than 10,000 users. The work translated specialist research and methods such as Fishbone, Is/Is Not, and 5 Whys into guided, traceable workflows.",
+      "summary": "I led UX work on a manufacturing investigation platform, bringing specialist methods into a clear digital process. A few months after my engagement ended, colleagues told me the platform was being used by more than 10,000 users.",
       "methodAtomic": "Atomic Design",
       "methodFishbone": "Fishbone",
       "methodIsIsNot": "Is/Is Not",
@@ -405,7 +405,7 @@
       "cap5Whys": "5 Whys Investigation",
       "capOverview": "RCA workflow overview",
       "outcomeTitle": "Outcome",
-      "outcomeP1": "The platform was delivered for an intended internal audience of more than 10,000 users. My contribution established reusable interface patterns and translated several investigation methods into guided workflows in collaboration with subject-matter experts and implementation teams."
+      "outcomeP1": "A few months after my engagement ended, colleagues at Roche told me the platform was being used by more than 10,000 users. My contribution included turning investigation methods into understandable workflows and reusable interface patterns, working with subject-matter experts and engineers."
     },
     "ia": {
       "tag": "Roche Pharmaceuticals · Penzberg, Germany",
@@ -471,7 +471,7 @@
   "contact": {
     "eyebrow": "Open to Opportunities",
     "title": "Let's discuss a role",
-    "desc": "I am seeking stable full-time or part-time employment, primarily in Senior UX/Product Design and related roles connecting complex workflows, visual communication, business analysis, and digital delivery.",
+    "desc": "Let's talk about products, workflows, and teams I can contribute to through UX/Product Design, visual communication, business analysis, and digital delivery.",
     "labelEmail": "Email",
     "labelPhone": "Phone",
     "labelLinkedIn": "LinkedIn",
@@ -532,7 +532,7 @@
     "work2Title": "Visual design",
     "work2Desc": "Campaigns, identity and web",
     "work3Title": "Technical experiments",
-    "work3Desc": "Engine prototype and playable simulation",
+    "work3Desc": "Engine prototype and autonomous simulation showcase",
     "proofStep1": "Problem",
     "proofStep2": "Constraint",
     "proofStep3": "Decision",
@@ -550,15 +550,27 @@
     "decision4Title": "The full path stays visible",
     "decision4Desc": "Later stages remain available but collapsed, keeping the current task in focus without losing investigation context.",
     "practiceEyebrow": "How I work",
-    "practiceTitle": "From a question to something that works.",
-    "practiceStep1": "Listen and frame",
-    "practiceStep2": "Map and decide",
-    "practiceStep3": "Make and validate",
+    "practiceTitle": "From the first question to a product that can grow.",
+    "practiceStep1": "Understand the problem",
+    "practiceStep2": "Agree on a direction",
+    "practiceStep3": "Design and test",
     "practiceStep4": "Support delivery",
     "methodDetail": "A short look at my method",
     "expertiseDetail": "Areas of expertise, in detail",
     "toolsDetail": "Tools I actually use",
-    "playable": "Yes, this is actually playable."
+    "showcaseEyebrow": "Showcase · Autonomous simulation",
+    "showcaseBadge": "↳ showcase",
+    "practiceIntro": "I connect people, needs, and technology. When designing, I also consider what comes after delivery: everyday use, new users, and future improvements.",
+    "practiceTime": "Time and product development",
+    "practiceLoop": "Feedback takes us back to earlier decisions. The product keeps moving forward.",
+    "practiceStep1Desc": "I listen to people and study their work to understand what actually needs solving.",
+    "practiceStep2Desc": "I bring needs, constraints, and possibilities together so the team can choose a realistic direction.",
+    "practiceStep3Desc": "I turn ideas into prototypes and designs, then test them with users and engineers.",
+    "practiceStep4Desc": "I support implementation, explain decisions, and check that the result follows the agreed direction.",
+    "practiceStep5": "Learn from use",
+    "practiceStep5Desc": "Feedback from everyday work shows what to keep, adapt, or improve.",
+    "practiceStep6": "Enable growth",
+    "practiceStep6Desc": "I anticipate new users, additional workflows, and future improvements so the product can evolve more easily."
   },
   "heroPaths": {
     "kicker": "Three entry points. One way of thinking.",
@@ -575,7 +587,31 @@
     "visualCta": "Open the design archive",
     "technicalDesc": "When an idea needs structure, its limits tested, and a working proof built.",
     "technicalCta": "Explore the engine",
-    "demoCta": "Run the demo",
+    "demoCta": "View the showcase",
     "aria": "Choose an area of work"
+  },
+  "caseStories": {
+    "judgment": "Where my judgment mattered",
+    "contribution": "My contribution to the team",
+    "rca": {
+      "title": "When knowing the methodology is not enough to design a useful digital tool",
+      "context": "Client engagement · UX Design Lead and business analysis · RCA platform",
+      "situation1": "The specialists knew manufacturing and investigation methods. My task was to understand how they actually applied them and turn that work into a connected digital process.",
+      "situation2": "Fishbone, Is/Is Not, and 5 Whys needed to connect with the investigation: what the user was trying to establish, what information was already available, and what the next decision required.",
+      "judgment1": "Through research with specialists, process mapping, and collaboration with Product Owners and engineers, I connected user needs with the system's capabilities. I supported project planning, feasibility assessment, and shaping the direction before detailed design.",
+      "judgment2": "The Figma example shows how that approach carries into the product: guidance is available within the task, methods have clear entry points, and users retain an overview of the rest of the investigation.",
+      "contribution": "I helped specialists, project leadership, and engineers build a shared understanding of the problem and translate it into workflows, prototypes, and implementation guidance.",
+      "link": "Explore the workflow and design decisions"
+    },
+    "accenture": {
+      "title": "How I helped turn technological possibilities into decisions",
+      "context": "Client engagement · Pharmaceutical projects · Vendor evaluation, RFP/RFI, and executive communication",
+      "situation1": "Evaluating AI solutions required understanding what the technology could offer, how it fitted existing processes, and what introducing it would require.",
+      "situation2": "I worked with project leadership, teams, and AI engineers on vendor research, structuring requirements, and preparing decision materials.",
+      "judgment1": "I connected business needs, user workflows, and technical constraints. I contributed to assessments of whether an existing system needed substantial reworking or whether the required functionality could be connected through APIs.",
+      "judgment2": "I translated findings into RFP/RFI materials, evaluation frameworks, and leadership presentations. A key part of the work was selecting what mattered to the decision, making open questions visible, and explaining trade-offs.",
+      "contribution": "I worked closely with the project lead and teams to support decision preparation. My experience in UX, analysis, and visual communication helped connect technical details with the business questions leadership needed to resolve.",
+      "link": "Engagement scope and responsibilities"
+    }
   }
 }
