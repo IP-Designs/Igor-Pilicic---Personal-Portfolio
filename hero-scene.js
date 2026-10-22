@@ -10,6 +10,14 @@
   const ctx = canvas.getContext('2d');
 
   const dpr = window.devicePixelRatio || 1;
+  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  let projectedNodes = [];
+  const pathForNode = id => {
+    if (['local','web','brand','seo','wp','magento','adobe','3dsmax','figma'].includes(id)) return 'visual';
+    if (['build','engine','ai','js','html','sql','prompt'].includes(id)) return 'technical';
+    if (['core','design','ux','research','figjam','miro','atomic','evaluate','osint','rfp','gxp','gdpr','scores','conflu','lucid','jira','trello','pharma','roche','acc'].includes(id)) return 'product';
+    return null;
+  };
 
   // Dynamic sizing - match CSS display size
   let W, H, CX, CY, scaleFactor;
@@ -290,6 +298,16 @@
     }
   });
 
+  canvas.addEventListener('click', event => {
+    const rect = canvas.getBoundingClientRect();
+    const x = event.clientX - rect.left, y = event.clientY - rect.top;
+    const hit = projectedNodes.filter(p => pathForNode(p.node.id))
+      .map(p => ({ p, distance: Math.hypot(p.sx - x, p.sy - y) }))
+      .filter(hit => hit.distance < Math.max(18, hit.p.node.size * hit.p.scale + 10))
+      .sort((a, b) => a.distance - b.distance)[0];
+    if (hit) document.dispatchEvent(new CustomEvent('heroPathSelect', { detail: { path: pathForNode(hit.p.node.id) } }));
+  });
+
   // Set cursor style
   canvas.style.cursor = 'default';
 
@@ -300,20 +318,21 @@
 
   // --- Main render loop ---
   function render() {
+    if (!W || !H) { requestAnimationFrame(render); return; }
     time++;
     ctx.clearRect(0, 0, W, H);
 
     // Camera rotation from mouse (subtle parallax)
-    const targetRotY = mouseOver ? (mouseX - CX) / W * 0.35 : Math.sin(time * 0.0004) * 0.12;
-    const targetRotX = mouseOver ? (mouseY - CY) / H * 0.2 : Math.cos(time * 0.0005) * 0.06;
+    const targetRotY = reducedMotion ? 0 : mouseOver ? (mouseX - CX) / W * 0.35 : Math.sin(time * 0.0004) * 0.12;
+    const targetRotX = reducedMotion ? 0 : mouseOver ? (mouseY - CY) / H * 0.2 : Math.cos(time * 0.0005) * 0.06;
     // Smooth interpolation
     const rotY = targetRotY;
     const rotX = targetRotX;
 
-    const pulse = breathe(time);
+    const pulse = reducedMotion ? 1 : breathe(time);
 
     // Spawn particles
-    if (Math.random() < 0.15) spawnFlowParticle();
+    if (!reducedMotion && Math.random() < 0.15) spawnFlowParticle();
 
     // Project all nodes
     const projected = nodes.map(n => {
@@ -321,6 +340,8 @@
       p.node = n;
       return p;
     });
+
+    projectedNodes = projected;
 
     // Find hovered node
     hoveredNode = null;
@@ -337,7 +358,7 @@
         }
       }
     }
-    canvas.style.cursor = hoveredNode ? 'pointer' : 'default';
+    canvas.style.cursor = hoveredNode && pathForNode(hoveredNode.id) ? 'pointer' : 'default';
 
     // Build projected lookup
     const projMap = {};

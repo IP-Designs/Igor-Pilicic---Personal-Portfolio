@@ -45,6 +45,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../styles.css?v=6e1760e2">
+  <link rel="stylesheet" href="../experimental.css?v=uiux-1">
 
   <!-- JSON-LD Structured Data -->
   <script type="application/ld+json">
@@ -110,7 +111,7 @@
   </script>
   <script>if(localStorage.getItem('theme')!=='light')document.documentElement.setAttribute('data-theme','dark')</script>
 </head>
-<body>
+<body class="ui-experiment">
   <a class="skip-link" href="#about">Preskoči na sadržaj</a>
 
   <!-- Loading Screen -->
@@ -156,10 +157,10 @@
       </button>
       <ul class="nav-links" id="navLinks">
         <li><a href="#about" data-i18n="nav.about">O meni</a></li>
-        <li><a href="#services" data-i18n="nav.services">Stručnost</a></li>
+        <li><a href="#case-studies" data-i18n="nav.caseStudies">Radovi</a></li>
         <li><a href="#experience" data-i18n="nav.experience">Iskustvo</a></li>
+        <li><a href="#how-i-work" data-i18n="nav.howIWork">Način rada</a></li>
         <li><a href="#ai-engineering" data-i18n="nav.aiEngineering">Tehnički projekt</a></li>
-        <li><a href="#case-studies" data-i18n="nav.caseStudies">Studije slučaja</a></li>
         <li><a href="#contact" class="nav-cta" data-i18n="nav.contact">Kontakt</a></li>
         <li class="lang-switcher" role="group" aria-label="Jezik">
           <button data-lang="en" title="English" aria-label="English">EN</button>
@@ -186,20 +187,54 @@
     <div class="container hero-container">
       <div class="hero-content">
         <p class="hero-eyebrow" data-i18n="hero.eyebrow">Igor Piličić</p>
+<p class="hero-location" data-i18n="ui.heroLocation">Zagreb, Hrvatska · 17+ godina iskustva</p>
         <h1 class="hero-title" data-i18n="hero.title" data-i18n-html>Senior UX/Product dizajner koji <span class="highlight">složen rad čini razumljivim</span></h1>
-        <p class="hero-subtitle" data-i18n="hero.subtitle">Složene radne procese i stručno znanje pretvaram u jasne digitalne proizvode. Više od 17 godina iskustva u UX-u, vizualnom dizajnu, poslovnoj analizi i tehnologiji pomaže mi pretvoriti nejasne zahtjeve u upotrebljiva i izvediva rješenja.</p>
-        <p class="hero-tagline" data-i18n="hero.tagline">Istražite moj rad</p>
-        <div class="hero-tags">
-          <a class="tag" href="#experience" data-i18n="hero.tagExperience" data-graph-nodes="acc,roche,pharma,gxp,evaluate,osint,rfp,gdpr,scores">Gdje ste radili?</a>
-          <a class="tag" href="#ai-engineering" data-i18n="hero.tagAiEng" data-graph-nodes="ai,build,js,html,sql,prompt,engine">Pogledajte samostalni tehnički projekt</a>
-          <a class="tag" href="#services" data-i18n="hero.tagServices" data-graph-nodes="core,design,evaluate,build,local">Što donosim timu?</a>
-          <a class="tag" href="#how-i-work" data-i18n="hero.tagDemo" data-graph-nodes="core,design,evaluate,build">Kako se sve to povezuje?</a>
-          <a class="tag" href="#case-studies" data-i18n="hero.tagCases" data-graph-nodes="design,ux,figma,research,web,brand,atomic">Pogledajte rezultate</a>
-          <a class="tag" href="#contact" data-i18n="hero.tagContact" data-graph-nodes="core">Razgovarajmo</a>
+        <p class="hero-subtitle" data-i18n="hero.subtitle">Pretvaram stručno znanje, nejasne zahtjeve i tehnička ograničenja u digitalne proizvode koje korisnici razumiju, timovi mogu izgraditi, a organizacije mogu uvesti.</p>
+        <div class="hero-path-intro">
+          <p class="hero-path-kicker" data-i18n="heroPaths.kicker">Tri ulaza. Isti način razmišljanja.</p>
+          <p class="hero-path-help" data-i18n="heroPaths.help">Odaberite područje koje vam je najvažnije. Mapa će pokazati kako se ono povezuje s konkretnim radom.</p>
+        </div>
+        <div class="hero-path-explorer" data-hero-paths>
+          <div class="hero-path-tabs" role="tablist" aria-label="Odaberite područje rada" data-i18n="heroPaths.aria" data-i18n-attr="aria-label">
+            <button class="hero-path-tab is-active" id="hero-path-product-tab" type="button" role="tab" aria-selected="true" aria-controls="hero-path-product" tabindex="0" data-path="product" data-graph-nodes="design,ux,research,evaluate,gxp,pharma,roche,acc,rfp,figma">
+              <span class="hero-path-number">01</span>
+              <span class="hero-path-name" data-i18n="heroPaths.productTitle">Proizvodi i složeni procesi</span>
+              <span class="hero-path-meta" data-i18n="heroPaths.productMeta">UX · Enterprise · Pharma</span>
+            </button>
+            <button class="hero-path-tab" id="hero-path-visual-tab" type="button" role="tab" aria-selected="false" aria-controls="hero-path-visual" tabindex="-1" data-path="visual" data-graph-nodes="design,figma,adobe,3dsmax,local,web,brand,wp,magento">
+              <span class="hero-path-number">02</span>
+              <span class="hero-path-name" data-i18n="heroPaths.visualTitle">Vizualni dizajn i brend</span>
+              <span class="hero-path-meta" data-i18n="heroPaths.visualMeta">Kampanje · Web · Identitet</span>
+            </button>
+            <button class="hero-path-tab" id="hero-path-technical-tab" type="button" role="tab" aria-selected="false" aria-controls="hero-path-technical" tabindex="-1" data-path="technical" data-graph-nodes="build,engine,ai,js,html,sql,prompt">
+              <span class="hero-path-number">03</span>
+              <span class="hero-path-name" data-i18n="heroPaths.technicalTitle">Tehnički eksperimenti</span>
+              <span class="hero-path-meta" data-i18n="heroPaths.technicalMeta">AI · Sustavi · Prototipi</span>
+            </button>
+          </div>
+          <div class="hero-path-panels">
+            <article class="hero-path-panel is-active" id="hero-path-product" role="tabpanel" aria-labelledby="hero-path-product-tab" data-path-panel="product">
+              <p data-i18n="heroPaths.productDesc">Kad stručno znanje, regulativa i stvarni radni proces moraju postati jasan proizvod.</p>
+              <a href="#cs-rca" data-open-case="cs-rca" data-i18n="heroPaths.productCta">Pogledajte enterprise studije</a>
+            </article>
+            <article class="hero-path-panel" id="hero-path-visual" role="tabpanel" aria-labelledby="hero-path-visual-tab" data-path-panel="visual" hidden>
+              <p data-i18n="heroPaths.visualDesc">Kad poruka mora privući pažnju, ostati jasna i raditi u stvarnom tržišnom kontekstu.</p>
+              <a href="#design-gallery" data-i18n="heroPaths.visualCta">Otvorite biblioteku dizajna</a>
+            </article>
+            <article class="hero-path-panel" id="hero-path-technical" role="tabpanel" aria-labelledby="hero-path-technical-tab" data-path-panel="technical" hidden>
+              <p data-i18n="heroPaths.technicalDesc">Kad ideju treba strukturirati, ispitati njezine granice i izgraditi dokaz koji stvarno radi.</p>
+              <div class="hero-path-actions">
+                <a href="#ai-engineering" data-i18n="heroPaths.technicalCta">Istražite engine</a>
+                <a href="#simulation-demo" data-i18n="heroPaths.demoCta">Pokrenite demo</a>
+              </div>
+            </article>
+          </div>
         </div>
       </div>
       <div class="hero-visual">
+<div class="map-caption"><span class="map-index" aria-hidden="true">FIG. 01</span><span data-i18n="ui.graphCaption">Mapa povezanog iskustva</span></div>
           <canvas id="heroScene" role="img" aria-label="Interaktivna vizualizacija mreže"></canvas>
+<p class="map-help" data-i18n="ui.graphHelp">Odaberite put ili dodirnite čvor na mapi.</p>
       </div>
     </div>
   </header>
@@ -207,20 +242,28 @@
   <!-- About Section -->
   <section class="section about" id="about">
     <div class="container">
+      <span id="availability" class="anchor-alias" aria-hidden="true"></span><span id="why-me" class="anchor-alias" aria-hidden="true"></span>
       <div class="section-header">
-        <p class="section-eyebrow" data-i18n="about.eyebrow">O meni</p>
-        <h2 class="section-title" data-i18n="about.title">Neobičan put, jasno usmjerenje</h2>
+        <p class="section-eyebrow" data-i18n="about.eyebrow">Profil</p>
+        <h2 class="section-title" data-i18n="about.title">Dizajn je središte. Ostalo mi pomaže vidjeti cijeli sustav.</h2>
       </div>
       <div class="about-grid">
         <div class="about-text">
           <img src="../images/igor-pilicic-portrait.jpg" alt="Igor Piličić" class="about-portrait" width="180" height="180">
-          <p class="about-lead" data-i18n="about.lead">Ja sam Igor Piličić, Senior UX/Product dizajner iz Zagreba. Najviše doprinosim ondje gdje se susreću korisnici, poslovni procesi i tehnologija, posebno kada je problem složen, a put naprijed još nije jasan.</p>
-          <p data-i18n="about.p1" data-i18n-html>Kroz više od 17 profesionalnih godina radio sam u vizualnom dizajnu, webu, e-trgovini, enterprise UX-u, poslovnoj analizi, AI evaluaciji i praktičnoj digitalnoj isporuci. Ta mi širina pomaže razumjeti cijeli sustav i <strong>pretvoriti složenost u jasna, upotrebljiva i izvediva rješenja</strong>.</p>
+          <p class="about-signal" data-i18n="about.signal">Najviše me zanima trenutak kad svi znaju da nešto ne radi, ali još nitko ne zna točno zašto.</p>
+          <p class="about-lead" data-i18n="about.lead">Tu počinjem: slušam ljude, mapiram stvarni rad, razdvajam simptom od uzroka i pretvaram nalaze u smjer koji korisnici razumiju, a tim može izgraditi.</p>
+          <p data-i18n="about.p1">Više od 17 godina u vizualnom dizajnu, webu, enterprise UX-u, poslovnoj analizi i tehnologiji daje mi širinu za taj posao.</p>
           <p data-i18n="about.p2" data-i18n-html>U <strong>Rocheu</strong> i <strong>Accentureu</strong> istraživanje, dizajn radnih procesa, vizualna komunikacija, facilitacija, analiza i podrška implementaciji spojili su se u radu na reguliranim enterprise sustavima. Standing Pillars je moj osobni portfolio tog puta, sa <strong>Senior UX/Product dizajnom kao glavnim profesionalnim fokusom</strong>.</p>
           <aside class="about-personal-note">
             <span class="about-personal-eyebrow" data-i18n="about.personalEyebrow">Izvan posla</span>
-            <p data-i18n="about.personalText">Volim raspetljavati složene probleme, uočiti poteškoće prije nego što postanu skupe te razumjeti kako ljudi, procesi i tehnologija utječu jedni na druge. Psihologija, antropologija i sociologija pomažu mi primijetiti međuljudsku stranu problema i ono što ostane neizrečeno. Izvan posla suprug sam i otac. Pratim astronomiju i uživam u filmovima, serijama i igrama - različitim svjetovima povezanim istom znatiželjom prema ljudima, sustavima i onome što bi se moglo dogoditi sljedeće.</p>
+            <p data-i18n="about.personalText">Psihologija, antropologija i sociologija pomažu mi razumjeti međuljudsku stranu problema i ono što ostane neizrečeno. Izvan posla suprug sam i otac; pratim astronomiju i uživam u filmovima, serijama i igrama.</p>
           </aside>
+          <div class="profile-principles">
+            <article><span>01</span><h3 data-i18n="about.principle1Title">Čitam između redaka</h3><p data-i18n="about.principle1Desc">Ono što ljudi ne kažu često preciznije pokazuje gdje proces stvarno zapinje.</p></article>
+            <article><span>02</span><h3 data-i18n="about.principle2Title">Odluke činim vidljivima</h3><p data-i18n="about.principle2Desc">Zahtjeve, ograničenja i kompromise pretvaram u smjer koji tim može razumjeti i provjeriti.</p></article>
+            <article><span>03</span><h3 data-i18n="about.principle3Title">Pratim ideju do isporuke</h3><p data-i18n="about.principle3Desc">Dizajn ne završava predajom ekrana. Podržavam implementaciju, provjeru kvalitete i komunikaciju odluka.</p></article>
+          </div>
+          <p class="profile-availability" data-i18n="about.availability">Zagreb · otvoren za stalno ili nepuno radno vrijeme · Hrvatska na lokaciji ili hibridno · međunarodno udaljeno</p>
         </div>
         <div class="about-stats">
           <div class="stat-card">
@@ -245,640 +288,47 @@
           </div>
         </div>
       </div>
-    </div>
-  </section>
-
-  <!-- Client Logos -->
-  <section class="client-logos">
-    <div class="container">
+      <div class="profile-organizations">
     <p class="logos-label" data-i18n="clients.label">Odabrane organizacije i klijentski konteksti</p>
       <div class="logos-strip">
         <div class="logo-item">Roche</div>
         <div class="logo-item">Accenture</div>
         <div class="logo-item">Harvey Norman</div>
       </div>
+</div>
     </div>
-  </section>
-
-  <!-- Availability Banner -->
-  <section class="section availability" id="availability">
-    <div class="container">
-      <div class="availability-banner">
-        <div class="availability-content">
-          <div class="availability-status">
-            <span class="status-dot"></span>
-            <span class="status-text" data-i18n="availability.status">Otvoren za poslove u Hrvatskoj</span>
-          </div>
-          <h2 data-i18n="availability.title">Senior UX/Product dizajn za složene proizvode i radne procese</h2>
-          <p data-i18n="availability.desc">Tražim stabilno zaposlenje na puno ili nepuno radno vrijeme. Dostupan sam za rad na lokaciji i hibridno u Hrvatskoj te za odgovarajuće međunarodne udaljene uloge.</p>
-          <div class="availability-tags">
-            <span class="avail-tag" data-i18n="availability.tagContract">Stalni radni odnos</span>
-            <span class="avail-tag" data-i18n="availability.tagFreelance">Nepuno radno vrijeme</span>
-            <span class="avail-tag" data-i18n="availability.tagFulltime">Puno radno vrijeme</span>
-            <span class="avail-tag" data-i18n="availability.tagRemote">Hibridno</span>
-            <span class="avail-tag" data-i18n="availability.tagOnsite">Udaljeno</span>
-          </div>
-          <div class="availability-actions">
-            <a href="#contact" class="btn btn-primary" data-i18n="availability.ctaPrimary">Javite se</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Why Work With Me -->
-  <section class="section why-me" id="why-me">
-    <div class="container">
-      <div class="section-header">
-        <p class="section-eyebrow" data-i18n="whyMe.eyebrow">Zašto raditi sa mnom</p>
-        <h2 class="section-title" data-i18n="whyMe.title">Što donosim timu</h2>
-      </div>
-      <div class="why-grid">
-        <div class="why-card">
-          <div class="why-number">01</div>
-          <h3 data-i18n="whyMe.card1Title">Cjelovito postavljanje problema</h3>
-          <p data-i18n="whyMe.card1Desc">Povezujem istraživanje, radne procese, odluke o sučelju, potrebe dionika i ograničenja implementacije kako bi tim rješavao pravi problem.</p>
-        </div>
-        <div class="why-card">
-          <div class="why-number">02</div>
-          <h3 data-i18n="whyMe.card2Title">Iskustvo u reguliranom enterprise okruženju</h3>
-          <p data-i18n="whyMe.card2Desc">Rad u kontekstu Rochea i Accentureovih klijenata naučio me dizajnirati uz točnost, sljedivost, stručno znanje i međufunkcionalne provjere, bez preuzimanja regulatornih ovlasti.</p>
-        </div>
-        <div class="why-card">
-          <div class="why-number">03</div>
-          <h3 data-i18n="whyMe.card3Title">Svjestan AI-ja, vođen dizajnom</h3>
-          <p data-i18n="whyMe.card3Desc">AI koristim za istraživanje, prototipiranje, dokumentaciju i osobne projekte, dok prosudba, provjera i odgovornost ostaju ljudske.</p>
-        </div>
-        <div class="why-card">
-          <div class="why-number">04</div>
-          <h3 data-i18n="whyMe.card4Title">Zajednički rezultati</h3>
-          <p data-i18n="whyMe.card4Desc">Moj je rad podržao šire rezultate proizvoda, uključujući manje ručnog izvještavanja, ponovljive dizajn sustave, jasnije odluke i nagrađivane kampanje.</p>
-        </div>
-        <div class="why-card">
-          <div class="why-number">05</div>
-          <h3 data-i18n="whyMe.card5Title">Vizualna i sustavna širina</h3>
-          <p data-i18n="whyMe.card5Desc">Iskustvo u tisku, brendiranju, webu, motionu, 3D-u i enterprise UX-u pomaže mi jasno komunicirati od rane ideje do isporuke.</p>
-        </div>
-        <div class="why-card">
-          <div class="why-number">06</div>
-          <h3 data-i18n="whyMe.card6Title">U Zagrebu, s međunarodnim iskustvom</h3>
-          <p data-i18n="whyMe.card6Desc">Baziran u Zagrebu, s iskustvom rada u međunarodnim timovima u Austriji, Njemačkoj, Švicarskoj i Hrvatskoj. Otvoren za rad na lokaciji, hibridno i udaljeno.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- How I Work - The Connected Practice -->
-  <section class="section how-i-work" id="how-i-work">
-    <div class="container">
-      <div class="section-header">
-        <p class="section-eyebrow" data-i18n="howIWork.eyebrow">Moj način rada</p>
-        <h2 class="section-title" data-i18n="howIWork.title">Od nejasnog problema do izvedivog smjera</h2>
-        <p class="section-desc" data-i18n="howIWork.desc">Moj rad povezuje otkrivanje problema, analizu radnih procesa, dizajn sučelja, usklađivanje dionika i podršku isporuci. Cilj nije više dizajnerskih materijala, nego jasnija odluka o proizvodu.</p>
-      </div>
-      <div class="practice-graph">
-        <div class="practice-node practice-node-design">
-          <div class="practice-node-icon">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
-          </div>
-          <h3 data-i18n="howIWork.designTitle">Razumjeti i dizajnirati</h3>
-          <p data-i18n="howIWork.designDesc">Proučavam korisnike, stručni rad i poslovna ograničenja prije nego ih pretvorim u radne procese, prototipe i ponovljive uzorke.</p>
-        </div>
-        <div class="practice-connector">
-          <span class="connector-label" data-i18n="howIWork.connectorInforms">Pojašnjava</span>
-        </div>
-        <div class="practice-node practice-node-procurement">
-          <div class="practice-node-icon">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-          </div>
-          <h3 data-i18n="howIWork.evaluateTitle">Mapirati i uskladiti</h3>
-          <p data-i18n="howIWork.evaluateDesc">Odluke, ovisnosti, rizike i kompromise činim vidljivima kako bi se proizvodni, poslovni i inženjerski timovi mogli uskladiti.</p>
-        </div>
-        <div class="practice-connector">
-          <span class="connector-label" data-i18n="howIWork.connectorGoverns">Omogućuje</span>
-        </div>
-        <div class="practice-node practice-node-engineering">
-          <div class="practice-node-icon">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
-          </div>
-          <h3 data-i18n="howIWork.buildTitle">Prototipirati i podržati isporuku</h3>
-          <p data-i18n="howIWork.buildDesc">Smjer provjeravam prototipovima te pomažem prevesti dizajnersku namjeru u praktične upute za implementaciju i provjeru kvalitete.</p>
-        </div>
-      </div>
-      <div class="practice-branch-label">
-        <div class="practice-branch-connector"></div>
-        <span class="branch-label" data-i18n="howIWork.branchLabel">Vizualna komunikacija</span>
-        <div class="practice-branch-connector"></div>
-      </div>
-      <div class="practice-branch">
-        <div class="practice-node practice-node-local">
-          <div class="practice-node-icon">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
-          </div>
-          <h3 data-i18n="howIWork.localTitle">Web i brend dizajn</h3>
-          <p data-i18n="howIWork.localDesc">Web, brend, motion i vizualna komunikacija nadopunjuju moje iskustvo u proizvodima i digitalnoj transformaciji.</p>
-        </div>
-      </div>
-      <div class="practice-thesis">
-        <blockquote>
-          <p data-i18n="howIWork.thesis">Bez obzira na razinu, moj je doprinos učiniti tehnologiju jasnijom, upotrebljivijom i pouzdanijom.</p>
-        </blockquote>
-      </div>
-    </div>
-    <a class="section-followup" href="#services" data-i18n="followup.howIWork">→ Što možete za mene?</a>
-  </section>
-
-  <!-- Services Section -->
-  <section class="section services" id="services">
-    <div class="container">
-      <div class="section-header">
-        <p class="section-eyebrow" data-i18n="services.eyebrow">Stručnost</p>
-        <h2 class="section-title" data-i18n="services.title">Široko iskustvo, jedno jasno profesionalno središte</h2>
-        <p class="section-desc" data-i18n="services.desc">Senior UX/Product dizajn moja je primarna uloga. Poslovna analiza, vizualni dizajn, evaluacija dobavljača i AI-potpomognuta isporuka jačaju moj rad u multidisciplinarnim timovima.</p>
-      </div>
-
-      <!-- Mission Statement -->
-      <div class="mission-statement">
-        <p data-i18n="services.mission">Najviše doprinosim ondje gdje složene zahtjeve treba pretvoriti u jasne odluke, upotrebljiva sučelja i provedive korake.</p>
-      </div>
-
-      <div class="services-grid services-grid-three">
-        <!-- Pillar 1: Enterprise Design -->
-        <div class="service-pillar">
-          <div class="service-icon">
-            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-              <rect x="3" y="3" width="7" height="7"/>
-              <rect x="14" y="3" width="7" height="7"/>
-              <rect x="14" y="14" width="7" height="7"/>
-              <rect x="3" y="14" width="7" height="7"/>
-            </svg>
-          </div>
-          <div class="service-tier-badge tier-enterprise" data-i18n="services.tierEnterprise">Ključna stručnost</div>
-          <h3 data-i18n="services.pillar1Title">Produkt i UX dizajn</h3>
-          <p class="service-desc" data-i18n="services.pillar1Desc">Istraživanje, dizajn radnih procesa, prototipiranje i dizajn sustavi za složene proizvode, utemeljeni na stvarnom radu korisnika i stručnjaka.</p>
-          <ul class="service-list">
-            <li data-i18n="services.pillar1Items.0">Istraživanje korisnika i intervjui s dionicima</li>
-            <li data-i18n="services.pillar1Items.1">UX auditi i heuristička evaluacija</li>
-            <li data-i18n="services.pillar1Items.2">Wireframing i prototyping (Figma)</li>
-            <li data-i18n="services.pillar1Items.3">Dizajn sustavi i Atomic UI</li>
-            <li data-i18n="services.pillar1Items.4">Radionice s dionicima (50+ sudionika)</li>
-            <li data-i18n="services.pillar1Items.5">E2E izvještavanje i analitički alati</li>
-            <li data-i18n="services.pillar1Items.6">Vizualni dizajn i strategija brenda</li>
-            <li data-i18n="services.pillar1Items.7">2D/3D animacija i vizualizacija</li>
-          </ul>
-          <p class="service-connects" data-i18n="services.pillar1Connects">Povezuje potrebe korisnika, poslovna pravila i stvarnost implementacije.</p>
-        </div>
-        <!-- Pillar 2: AI Procurement -->
-        <div class="service-pillar">
-          <div class="service-icon">
-            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-              <circle cx="11" cy="11" r="8"/>
-              <line x1="21" y1="21" x2="16.65" y2="16.65"/>
-              <line x1="8" y1="11" x2="14" y2="11"/>
-              <line x1="11" y1="8" x2="11" y2="14"/>
-            </svg>
-          </div>
-          <div class="service-tier-badge tier-enterprise" data-i18n="services.tierEnterprise">Ključna stručnost</div>
-          <h3 data-i18n="services.pillar2Title">Radni procesi, evaluacija i podrška odlučivanju</h3>
-          <p class="service-desc" data-i18n="services.pillar2Desc">Dodatna sposobnost razvijena kroz RFP/RFI rad, scorecardove, OSINT istraživanje, otkrivanje rizika i materijale za izvršne odluke.</p>
-          <ul class="service-list">
-            <li data-i18n="services.pillar2Items.0">OSINT due diligence dobavljača</li>
-            <li data-i18n="services.pillar2Items.1">Razvoj RFP/RFI i predlošci</li>
-            <li data-i18n="services.pillar2Items.2">Scorecards i matrice za evaluaciju</li>
-            <li data-i18n="services.pillar2Items.3">Procjena rizika (vendor lock-in, GDPR, GxP)</li>
-            <li data-i18n="services.pillar2Items.4">Dnevnici odluka i sljedivost</li>
-            <li data-i18n="services.pillar2Items.5">Materijali za upravu i C-Suite komunikacija</li>
-          </ul>
-          <p class="service-connects" data-i18n="services.pillar2Connects">Povezuje dokaze i kompromise s jasnim, sljedivim odlukama.</p>
-        </div>
-        <!-- Pillar 3: Local Business -->
-        <div class="service-pillar service-pillar-local">
-          <div class="service-icon service-icon-local">
-            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
-              <polyline points="9 22 9 12 15 12 15 22"/>
-            </svg>
-          </div>
-          <div class="service-tier-badge tier-local" data-i18n="services.tierLocal">Dodatna stručnost</div>
-          <h3 data-i18n="services.pillar3Title">Web, brend i vizualni dizajn</h3>
-          <p class="service-desc" data-i18n="services.pillar3Desc">Ranije iskustvo u webu, e-trgovini, brendiranju, motion dizajnu i 3D-u nadopunjuje moj enterprise UX i tehnološki rad.</p>
-          <ul class="service-list">
-            <li data-i18n="services.pillar3Items.0">Dizajn i razvoj web stranica</li>
-            <li data-i18n="services.pillar3Items.1">Logo i vizualni identitet</li>
-            <li data-i18n="services.pillar3Items.2">Google Business i lokalni SEO</li>
-            <li data-i18n="services.pillar3Items.3">AI integracija - samo gdje pomaže</li>
-            <li data-i18n="services.pillar3Items.4">Iskreni tech savjeti (bez upsellinga)</li>
-            <li data-i18n="services.pillar3Items.5">Tekuća podrška i održavanje</li>
-          </ul>
-          <p class="service-local-note" data-i18n="services.pillar3Note">Relevantno za timove koji cijene dizajnera koji razumije cijeli put od vizualnog identiteta do funkcionalnog digitalnog proizvoda.</p>
-          <p class="service-connects" data-i18n="services.pillar3Connects">Povezuje vizualnu vještinu s upotrebljivom digitalnom isporukom.</p>
-        </div>
-      </div>
-    </div>
-    <a class="section-followup" href="#experience" data-i18n="followup.services">→ Gdje ste radili?</a>
-  </section>
-
-  <!-- Experience Timeline -->
-  <section class="section experience" id="experience">
-    <div class="container">
-      <div class="section-header">
-        <p class="section-eyebrow" data-i18n="experience.eyebrow">Iskustvo</p>
-        <h2 class="section-title" data-i18n="experience.title">17+ godina iskustva koje se spojilo u složenim okruženjima</h2>
-      </div>
-      <div class="timeline">
-        <!-- Current portfolio and employment focus -->
-        <div class="timeline-item">
-          <div class="timeline-marker current"></div>
-          <div class="timeline-content">
-            <div class="timeline-header">
-              <span class="timeline-date" data-i18n="experience.currentRoleDate">Lip 2026 - Danas</span>
-              <span class="timeline-badge" data-i18n="experience.current">Trenutno</span>
-            </div>
-            <h3 data-i18n="experience.currentRoleTitle">Trenutni profesionalni fokus</h3>
-            <p class="timeline-company" data-i18n="experience.currentRoleCompany">Standing Pillars - osobni portfolio · Zagreb, Hrvatska</p>
-            <p data-i18n="experience.currentRoleNote">Osobni portfolio i neovisni projekti, a ne trenutno zaposlenje. Tražim uloge na puno ili nepuno radno vrijeme usmjerene na složene proizvode i radne procese.</p>
-          </div>
-        </div>
-        <!-- Self-employed -->
-        <div class="timeline-item">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
-            <div class="timeline-header">
-              <span class="timeline-date" data-i18n="experience.job1Date">Tra 2020 - Lip 2026</span>
-            </div>
-            <h3 data-i18n="experience.job1Title">Neovisni UX/Product dizajner i tehnološki konzultant</h3>
-            <p class="timeline-company" data-i18n="experience.job1Company">Samozaposlen pod pravnim imenom Igor Pilicic | Austrija</p>
-            <ul>
-              <li data-i18n="experience.job1Items.0">Vodstvo UI/UX dizajna: istraživanje korisnika, UX revizije, wireframing, prototipiranje u Figmi i live buildovi (POC-ovi), dizajn sustavi i radionice s dionicima za enterprise i lokalne klijente.</li>
-              <li data-i18n="experience.job1Items.1">AI nabava i OSINT savjetovanje: due diligence dobavljača, RFP/RFI paketi, scorecards za evaluaciju, okviri upravljanja i executive materijali.</li>
-              <li data-i18n="experience.job1Items.2">Digitalni dizajn: vizualni identitet, strategija branda, 2D/3D modeliranje i animacija (3ds Max), motion grafika i promotivni sadržaj.</li>
-              <li data-i18n="experience.job1Items.3">Web dizajn i razvoj: responzivne web stranice, landing stranice i web aplikacije za tvrtke svih veličina.</li>
-              <li data-i18n="experience.job1Items.4" data-i18n-html>Samostalni tehnički rad: 2D engine i editor prototip u razvoju s više od 30K redaka, izrađen strukturiranom AI-potpomognutom suradnjom, uz <a href='#simulation-demo' class='u25-link'>funkcionalnu simulaciju u pregledniku</a>.</li>
-            </ul>
-          </div>
-        </div>
-        <!-- Accenture -->
-        <div class="timeline-item">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
-            <div class="timeline-header">
-              <span class="timeline-date" data-i18n="experience.job2Date">Tra 2024 - Kol 2025</span>
-            </div>
-            <h3 data-i18n="experience.job2Title">UI/UX konzultant i dizajner prezentacija · RFP/RFI i OSINT due diligence dobavljača</h3>
-            <p class="timeline-company" data-i18n="experience.job2Company">Accenture · Klijentski ugovor u sklopu samozaposlenja · Remote | Beč, Austrija</p>
-            <ul>
-              <li data-i18n="experience.job2Items.0">Standardizacija RFP/RFI predložaka i kriterija evaluacije za AI inicijative u reguliranim (farmaceutskim) programima.</li>
-              <li data-i18n="experience.job2Items.1">OSINT due diligence: triangulacija javnih izvora za verifikaciju tvrdnji, zaključivanje o model/tech stackovima i mapiranje partnerskih mreža.</li>
-              <li data-i18n="experience.job2Items.2">Izrada scorecardova koji rano otkrivaju rizike (vendor lock-in, upravljanje podacima, usklađenost, validacija).</li>
-              <li data-i18n="experience.job2Items.3">Usklađivanje timova nabave, prava, sigurnosti i inženjeringa; moderiranje radionica i izrada materijala za upravu.</li>
-              <li data-i18n="experience.job2Items.4">Podrška redovitim upravljačkim i review raspravama kroz sljedive materijale za međufunkcionalne odluke.</li>
-              <li>Podržavao regulirane farmaceutske klijentske kontekste kroz Accenture bez predstavljanja tih organizacija kao izravnih poslodavaca ili izravnih ugovora.</li>
-            </ul>
-          </div>
-        </div>
-        <!-- Roche Diagnostics -->
-        <div class="timeline-item">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
-            <div class="timeline-header">
-              <span class="timeline-date" data-i18n="experience.job3Date">Srp 2022 - Tra 2023</span>
-            </div>
-            <h3 data-i18n="experience.job3Title">Lead UX dizajner - Istražna platforma za analizu korijenskog uzroka</h3>
-            <p class="timeline-company" data-i18n="experience.job3Company">Roche Diagnostics · Klijentski ugovor u sklopu samozaposlenja · Hibrid | Basel, Švicarska</p>
-            <ul>
-              <li data-i18n="experience.job3Items.0">Vođenje UX rada za internu RCA istražnu platformu u kontekstu farmaceutske proizvodnje.</li>
-              <li data-i18n="experience.job3Items.1">Dubinski intervjui i primjena dizajnerskog razmišljanja; brzo prototipiranje u Figmi dovelo do dinamičnog (atomskog) UI dizajna.</li>
-              <li data-i18n="experience.job3Items.2">Dizajnirano za predviđenu internu publiku veću od 10.000 korisnika u Roche Diagnostics.</li>
-              <li data-i18n="experience.job3Items.3">Suradnja s predmetnim stručnjacima i implementacijskim timovima kroz iterativne cikluse dizajna.</li>
-            </ul>
-          </div>
-        </div>
-        <!-- Roche Pharma -->
-        <div class="timeline-item">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
-            <div class="timeline-header">
-              <span class="timeline-date" data-i18n="experience.job4Date">Tra 2020 - Srp 2022</span>
-            </div>
-            <h3 data-i18n="experience.job4Title">Lead UI/UX dizajner - Regulatorni alat za izvještavanje</h3>
-            <p class="timeline-company" data-i18n="experience.job4Company">Roche Pharmaceuticals · Klijentski ugovor u sklopu samozaposlenja · Hibrid | Penzberg, Njemačka</p>
-            <ul>
-              <li data-i18n="experience.job4Items.0">Vođenje UI/UX dizajna za end-to-end Intelligent Authoring i regulatorni proizvod za izvještavanje.</li>
-              <li data-i18n="experience.job4Items.1">Doprinos, zajedno sa širim proizvodnim timom, smanjenju ručnog izvještavanja većem od 30%.</li>
-              <li data-i18n="experience.job4Items.2">Podrška za približno 50 inženjera kroz tri tima i facilitacija radionice s više od 70 sudionika.</li>
-              <li data-i18n="experience.job4Items.3">Provedena studija izvedivosti za integraciju BI alata; redizajn UX-a za smanjenje redundancija.</li>
-              <li data-i18n="experience.job4Items.4">Razvoj interne web stranice i izrada promotivnih grafika i videa za povećanje vidljivosti projekta.</li>
-            </ul>
-          </div>
-        </div>
-        <!-- Harvey Norman -->
-        <div class="timeline-item">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
-            <div class="timeline-header">
-              <span class="timeline-date" data-i18n="experience.job5Date">Srp 2015 - Ožu 2017</span>
-            </div>
-            <h3 data-i18n="experience.job5Title">Grafički dizajner za marketing i web dizajner</h3>
-            <p class="timeline-company" data-i18n="experience.job5Company">Harvey Norman · Nepuno radno vrijeme · Na lokaciji | Zagreb, Hrvatska</p>
-            <ul>
-              <li data-i18n="experience.job5Items.0">Dizajn landing stranica i marketinških materijala koji su potaknuli angažman korisnika i prodaju.</li>
-              <li data-i18n="experience.job5Items.1">Vođenje digitalnih kampanja s dosljednošću brenda kroz responsivna rješenja.</li>
-              <li data-i18n="experience.job5Items.2" data-i18n-html><strong>Nagrada: 'Najbolja promotivna landing stranica'</strong> - Hrvatska (Appcom / Apple Partner), 2016. iPhone 7 kampanja doprinijela najvišim nacionalnim prodajnim rezultatima.</li>
-            </ul>
-          </div>
-        </div>
-        <!-- Fazgram -->
-        <div class="timeline-item">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
-            <div class="timeline-header">
-              <span class="timeline-date" data-i18n="experience.job6Date">Vel 2013 - Ožu 2015</span>
-            </div>
-            <h3 data-i18n="experience.job6Title">Web i grafički dizajner</h3>
-            <p class="timeline-company" data-i18n="experience.job6Company">Fazgram d.o.o · Puno radno vrijeme · Na lokaciji | Zagreb, Hrvatska</p>
-            <ul>
-              <li data-i18n="experience.job6Items.0">Vođenje web dizajna za Hrvatski dentalni turizam - WordPress + HTML/CSS s fokusom na UX i konverziju.</li>
-              <li data-i18n="experience.job6Items.1">Suradnja sa stomatološkim stručnjacima za odraz jedinstvenih vrijednosnih prijedloga, poboljšanje angažmana i konverzijskih stopa.</li>
-            </ul>
-          </div>
-        </div>
-        <!-- Bimaco -->
-        <div class="timeline-item">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
-            <div class="timeline-header">
-              <span class="timeline-date" data-i18n="experience.job7Date">Ožu 2011 - Svi 2013</span>
-            </div>
-            <h3 data-i18n="experience.job7Title">E-commerce menadžer</h3>
-            <p class="timeline-company" data-i18n="experience.job7Company">Bimaco d.o.o · Puno radno vrijeme · Na lokaciji | Zagreb, Hrvatska</p>
-            <ul>
-              <li data-i18n="experience.job7Items.0">Upravljanje Magento e-commerce platformom + digitalni marketing; proaktivno proširenje uloge s upravljanja skladištem na web i grafički dizajn.</li>
-              <li data-i18n="experience.job7Items.1">Pokretanje rasta online prisutnosti, povećanje prometa web stranice i konverzija prodaje.</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="timeline-item">
-          <div class="timeline-dot"></div>
-          <div class="timeline-content">
-            <div class="timeline-header">
-              <span class="timeline-date" data-i18n="experience.job8Date">2009. - 2011.</span>
-            </div>
-            <h3 data-i18n="experience.job8Title">Samostalni dizajner i programer</h3>
-            <p class="timeline-company" data-i18n="experience.job8Company">Samozaposlen · Freelance | Zagreb, Hrvatska</p>
-            <ul>
-              <li data-i18n="experience.job8Items.0">Dizajn i razvoj web stranica, odredišnih stranica i web aplikacija za lokalne tvrtke i privatne klijente.</li>
-              <li data-i18n="experience.job8Items.1">Izrada tiskanog materijala uključujući plakate, jumbo plakate, letke i Google Ads kampanje.</li>
-              <li data-i18n="experience.job8Items.2">Produkcija 3D vizualizacija interijera i animacija u 3ds Maxu za ugostiteljske klijente (barovi, restorani).</li>
-              <li data-i18n="experience.job8Items.3">Izrada 2D motion grafika i promotivnih animacija za digitalne i društvene medije.</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Skills Section -->
-  <section class="section skills" id="skills">
-    <div class="container">
-      <div class="section-header">
-        <p class="section-eyebrow" data-i18n="skills.eyebrow">Vještine i alati</p>
-        <h2 class="section-title" data-i18n="skills.title">Alat iza rada</h2>
-      </div>
-      <div class="skills-grid">
-        <div class="skill-category">
-          <p class="sub-heading" data-i18n="skills.catDesign">Dizajn</p>
-          <div class="skill-tags">
-            <span class="skill-tag" data-i18n="skills.designTags.0">Dizajn korisničkog sučelja</span>
-            <span class="skill-tag" data-i18n="skills.designTags.1">Dizajn korisničkog iskustva</span>
-            <span class="skill-tag" data-i18n="skills.designTags.2">Istraživanje korisnika</span>
-            <span class="skill-tag" data-i18n="skills.designTags.3">Wireframing i prototipiranje</span>
-            <span class="skill-tag" data-i18n="skills.designTags.4">Digitalni grafički dizajn</span>
-            <span class="skill-tag" data-i18n="skills.designTags.5">Web dizajn</span>
-            <span class="skill-tag" data-i18n="skills.designTags.6">3D modeliranje i renderiranje</span>
-            <span class="skill-tag" data-i18n="skills.designTags.7">Strategija brendiranja</span>
-            <span class="skill-tag" data-i18n="skills.designTags.8">Animacija</span>
-            <span class="skill-tag" data-i18n="skills.designTags.9">Dizajn logotipa</span>
-          </div>
-        </div>
-        <div class="skill-category">
-          <p class="sub-heading" data-i18n="skills.catProcurement">Nabava i savjetovanje</p>
-          <div class="skill-tags">
-            <span class="skill-tag" data-i18n="skills.procurementTags.0">OSINT dubinska analiza dobavljača</span>
-            <span class="skill-tag" data-i18n="skills.procurementTags.1">Razvoj RFP/RFI</span>
-            <span class="skill-tag" data-i18n="skills.procurementTags.2">Evaluacijske kartice</span>
-            <span class="skill-tag" data-i18n="skills.procurementTags.3">Dnevnici odluka i sljedivost</span>
-            <span class="skill-tag" data-i18n="skills.procurementTags.4">Rizik i usklađenost (GxP)</span>
-            <span class="skill-tag" data-i18n="skills.procurementTags.5">Svijest o GDPR-u</span>
-            <span class="skill-tag" data-i18n="skills.procurementTags.6">Međuodjeljno usklađivanje</span>
-            <span class="skill-tag" data-i18n="skills.procurementTags.7">Komunikacija s upravom</span>
-          </div>
-        </div>
-        <div class="skill-category">
-          <p class="sub-heading" data-i18n="skills.catTools">Dizajnerski alati</p>
-          <div class="skill-tags">
-            <span class="skill-tag">Figma</span>
-            <span class="skill-tag">FigJam</span>
-            <span class="skill-tag">Adobe Creative Suite</span>
-            <span class="skill-tag">Photoshop</span>
-            <span class="skill-tag">Illustrator</span>
-            <span class="skill-tag">3ds Max</span>
-          </div>
-        </div>
-        <div class="skill-category">
-          <p class="sub-heading" data-i18n="skills.catCollaboration">Suradnja i proces</p>
-          <div class="skill-tags">
-            <span class="skill-tag">Miro</span>
-            <span class="skill-tag">Lucidchart</span>
-            <span class="skill-tag">Jira</span>
-            <span class="skill-tag">Confluence</span>
-            <span class="skill-tag">Trello</span>
-            <span class="skill-tag">MS Office / PowerPoint</span>
-          </div>
-        </div>
-        <div class="skill-category">
-          <p class="sub-heading" data-i18n="skills.catTechnical">Tehničko</p>
-          <div class="skill-tags">
-            <span class="skill-tag">HTML5</span>
-            <span class="skill-tag">CSS3</span>
-            <span class="skill-tag">JavaScript</span>
-            <span class="skill-tag">SQL</span>
-            <span class="skill-tag">WordPress</span>
-            <span class="skill-tag">Magento</span>
-          </div>
-        </div>
-        <div class="skill-category">
-          <p class="sub-heading" data-i18n="skills.catSoft">Meke vještine</p>
-          <div class="skill-tags">
-            <span class="skill-tag" data-i18n="skills.softTags.0">Rješavanje problema</span>
-            <span class="skill-tag" data-i18n="skills.softTags.1">Angažman dionika</span>
-            <span class="skill-tag" data-i18n="skills.softTags.2">Studije izvedivosti</span>
-            <span class="skill-tag" data-i18n="skills.softTags.3">Prezentacijske vještine</span>
-            <span class="skill-tag" data-i18n="skills.softTags.4">Empatija</span>
-            <span class="skill-tag" data-i18n="skills.softTags.5">Donošenje odluka</span>
-          </div>
-        </div>
-      </div>
-    </div>
-    <a class="section-followup" href="#ai-engineering" data-i18n="followup.experience">→ Pogledajte samostalni tehnički projekt</a>
-  </section>
-
-  <!-- AI Engineering Showcase -->
-  <section class="section ai-engineering" id="ai-engineering">
-    <div class="container">
-      <div class="section-header">
-        <p class="section-eyebrow" data-i18n="aiEngineering.eyebrow">Samostalni tehnički projekt</p>
-        <h2 class="section-title" data-i18n="aiEngineering.title">Engine u razvoju, izrađen kroz strukturiranu AI suradnju</h2>
-        <p class="section-desc" data-i18n="aiEngineering.desc">Tiny Humans Engine osobni je prototip 2D enginea i editora u razvoju. Projekt pokazuje definiranje zahtjeva, modularnu arhitekturu, validaciju, dokumentaciju i odgovornu uporabu AI-ja u složenoj izradi.</p>
-      </div>
-
-      <div class="ai-showcase">
-        <div class="ai-showcase-main">
-          <div class="ai-project-card">
-            <div class="ai-project-header">
-              <div class="ai-project-icon">&#9654;</div>
-              <div>
-                <h3 data-i18n="aiEngineering.projectTitle">Tiny Humans Engine</h3>
-                <p class="ai-project-sub" data-i18n="aiEngineering.projectSub">2D engine i editor prototip u razvoju, izrađen kroz AI-potpomognutu suradnju</p>
-              </div>
-            </div>
-            <p class="ai-project-desc" data-i18n="aiEngineering.projectDesc" data-i18n-html>Tiny Humans je <strong>osobni prototip s više od 30.000 redaka</strong>, editorom, runtimeom, asset pipelineom, scripting sustavom i radom na pakiranju. AI alate koristio sam unutar strukturiranog kruga: <strong>Specificirati -> Arhitekturirati -> Upravljati -> Validirati</strong>. Projekt pokazuje kako definiram zahtjeve, upravljam ovisnostima, testiram perzistenciju i dokumentiram odluke. Nije komercijalno objavljen ni produkcijski proizvod.</p>
-            <div class="ai-stats-row">
-              <div class="ai-stat">
-                <span class="ai-stat-num">30K+</span>
-                <span class="ai-stat-label" data-i18n="aiEngineering.statLines">Redaka koda</span>
-              </div>
-              <div class="ai-stat">
-                <span class="ai-stat-num">75+</span>
-                <span class="ai-stat-label" data-i18n="aiEngineering.statFiles">Modularnih datoteka</span>
-              </div>
-              <div class="ai-stat">
-                <span class="ai-stat-num">29</span>
-                <span class="ai-stat-label" data-i18n="aiEngineering.statSystems">Glavnih sustava</span>
-              </div>
-              <div class="ai-stat">
-                <span class="ai-stat-num">60+</span>
-                <span class="ai-stat-label" data-i18n="aiEngineering.statDocs">Dokumentacijskih datoteka</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="engine-progress">
-          <svg class="progress-ring" viewBox="0 0 100 100">
-            <circle class="progress-ring-bg" cx="50" cy="50" r="40"/>
-            <circle class="progress-ring-fill" cx="50" cy="50" r="40"/>
-            <text class="progress-ring-text" x="50" y="50">15%</text>
-          </svg>
-          <div class="engine-progress-info">
-            <p class="sub-heading" data-i18n="aiEngineering.progressTitle">Napredak SDK-a i editora</p>
-            <p data-i18n="aiEngineering.progressDesc">Prototip sadrži 29 glavnih sustava, ali širi koncept editora i SDK-a dovršen je približno 15%. Proof of concept ispod mali je isječak od oko 1.800 redaka.</p>
-          </div>
-        </div>
-
-        <div class="ai-details-grid">
-          <div class="ai-detail-card">
-            <p class="sub-heading" data-i18n="aiEngineering.detailArchTitle">Arhitektura sustava</p>
-            <p data-i18n="aiEngineering.detailArchDesc">Engine Registry + Event Bus uzorak razdvaja 29 sustava. Modularni dizajn znači da se svaki sustav (rasvjeta, audio, NPC-ovi, scripting) može neovisno razvijati, testirati i ažurirati.</p>
-            <div class="ai-detail-tags">
-              <span>Registry Pattern</span>
-              <span>Event Bus</span>
-              <span>29 Systems</span>
-            </div>
-          </div>
-          <div class="ai-detail-card">
-            <p class="sub-heading" data-i18n="aiEngineering.detailValTitle">Validacija i zaštitne ograde</p>
-            <p data-i18n="aiEngineering.detailValDesc">Save Validator provjerava sedam kategorija integriteta podataka. Feature Manifest smanjuje dupliciranje rada, a checkliste perzistencije podržavaju provjeru pisanja, čitanja i round-tripa.</p>
-            <div class="ai-detail-tags">
-              <span>Save Validator</span>
-              <span>Feature Manifest</span>
-              <span>Round-trip Testing</span>
-            </div>
-          </div>
-          <div class="ai-detail-card">
-            <p class="sub-heading" data-i18n="aiEngineering.detailGovTitle">AI upravljanje</p>
-            <p data-i18n="aiEngineering.detailGovDesc">Projektne AI upute definiraju provjere perzistencije, prevenciju čestih bugova, pravila arhitekture i implementacijske radne procese. Rezultate provjeravam i testiram umjesto da ih automatski prihvatim.</p>
-            <div class="ai-detail-tags">
-              <span>Copilot Instructions</span>
-              <span>Bug Prevention</span>
-              <span>Architecture Rules</span>
-            </div>
-          </div>
-          <div class="ai-detail-card">
-            <p class="sub-heading" data-i18n="aiEngineering.detailProdTitle">Implementirani prototipni sustavi</p>
-            <p data-i18n="aiEngineering.detailProdDesc">Raycast rasvjeta s DDA sjenama. AI sustavi stanja s frakcijskim ciljanjem. 4-kanalni prostorni audio. Upravljanje scenama s cachiranjem mapa. 8-tipna logička vrata s prevencijom petlji. Potpuni scripting SDK s Runtime API-jem.</p>
-            <div class="ai-detail-tags">
-              <span>Lighting & Shadows</span>
-              <span>NPC AI / FSM</span>
-              <span>Audio Engine</span>
-              <span>SDK</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="ai-methodology">
-          <h3 data-i18n="aiEngineering.methodTitle">Način rada: strukturirani AI-potpomognuti razvoj</h3>
-          <div class="ai-method-grid">
-            <div class="ai-method-step">
-              <div class="ai-method-num">01</div>
-              <p class="sub-heading" data-i18n="aiEngineering.method1Title">Specificirati</p>
-              <p data-i18n="aiEngineering.method1Desc">Definirati zahtjeve s preciznošću RFP-a - opseg, ograničenja, kriteriji uspjeha, točke integracije.</p>
-            </div>
-            <div class="ai-method-step">
-              <div class="ai-method-num">02</div>
-              <p class="sub-heading" data-i18n="aiEngineering.method2Title">Arhitekturirati</p>
-              <p data-i18n="aiEngineering.method2Desc">Dizajnirati sustav prije pisanja koda. Registry uzorci, tokovi događaja, modeli podataka, putovi perzistencije.</p>
-            </div>
-            <div class="ai-method-step">
-              <div class="ai-method-num">03</div>
-              <p class="sub-heading" data-i18n="aiEngineering.method3Title">Upravljati</p>
-              <p data-i18n="aiEngineering.method3Desc">Copilot instrukcije, feature manifesti, validacijske checkliste. AI slijedi pravila, ne osjećaje.</p>
-            </div>
-            <div class="ai-method-step">
-              <div class="ai-method-num">04</div>
-              <p class="sub-heading" data-i18n="aiEngineering.method4Title">Validirati</p>
-              <p data-i18n="aiEngineering.method4Desc">Save validatori, roundtrip testiranje, dokumentirane odluke. Svaka promjena je sljediva i obranljiva.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="ai-cta">
-          <p data-i18n="aiEngineering.ctaText" data-i18n-html>Ovaj projekt nije zamjena za profesionalno inženjersko iskustvo. Pokazuje kako koristim <strong>strukturiranu AI suradnju, provjeru i dokumentaciju</strong> za istraživanje tehnički složene osobne ideje.</p>
-          <p class="ai-cta-connects" data-i18n="aiEngineering.ctaConnects" data-i18n-html>To je dodatni dokaz sustavnog razmišljanja, ustrajnosti i praktičnog prototipiranja.</p>
-        </div>
-      </div>
-    </div>
-    <a class="section-followup" href="#simulation-demo" data-i18n="followup.aiEng">→ Pogledajte radni proof of concept</a>
-  </section>
-
-  <!-- Live Simulation Demo -->
-  <section class="simulation-demo" id="simulation-demo">
-    <iframe id="sim-iframe" src="../simulation/demo.html?lang=hr" title="AI Sandbox Simulation" loading="eager" allow="autoplay"></iframe>
-    <div class="sim-overlay">
-      <div class="sim-overlay-top">
-        <p class="section-eyebrow" data-i18n="simulationDemo.eyebrow">Demo uživo</p>
-        <h2 class="section-title" data-i18n="simulationDemo.title">Proof of concept iz enginea</h2>
-      </div>
-      <p class="sim-caption" data-i18n="simulationDemo.caption">↑ Mali proof of concept (~1.800 linija) izvučen iz enginea od 30.000+ linija.</p>    </div>
   </section>
 
   <!-- Case Studies -->
   <section class="section case-studies" id="case-studies">
     <div class="container">
-      <div class="section-header">
-        <p class="section-eyebrow" data-i18n="caseStudies.eyebrow">Studije slučaja</p>
-        <h2 class="section-title" data-i18n="caseStudies.title">Odabrani radovi i rezultati</h2>
-        <p class="section-desc" data-i18n="caseStudies.desc">Odabrani dokazi rada na složenim proizvodima, vizualnom dizajnu i e-trgovini. Klijentske studije opisuju ulogu, metode i primjereno kvalificirane rezultate.</p>
-        <p class="section-disclaimer" data-i18n="caseStudies.disclaimer">Vizuali u enterprise studijama slučaja razvojne su verzije dizajna sučelja izrađene u Figmi, a ne snimke zaslona implementiranog ili produkcijskog sustava. Imena, avatari, identifikacijske oznake i sadržaj scenarija su izmišljeni; nisu prikazani produkcijski ni osobni podaci. Završna implementacija može se razlikovati.</p>
+      <div class="section-header proof-header">
+        <p class="section-eyebrow" data-i18n="ui.proofEyebrow">Od tvrdnje do dokaza</p>
+        <h2 class="section-title" data-i18n="ui.proofTitle">Radovi, pa tek onda životopis.</h2>
+        <p class="section-desc" data-i18n="ui.proofDesc">Kliknite područje i krenite prema onome što vam je važno. U enterprise studijama možete otvoriti i bilješke o dizajnerskim odlukama.</p>
       </div>
+      <div class="work-index"><a class="work-index-link work-index-product" href="#cs-rca" data-open-case="cs-rca">
+        <div class="work-index-art"><img src="../images/case-studies/rca-fishbone.png" alt="Razvojni Figma dizajn RCA radnog procesa s izmišljenim sadržajem" loading="lazy"></div>
+        <span class="work-index-number">01</span><h3 data-i18n="ui.work1Title">Produkt i procesi</h3>
+        <p data-i18n="ui.work1Desc">RCA · razvojni Figma dizajn</p><span class="work-index-arrow" aria-hidden="true">↗</span></a>
+<a class="work-index-link work-index-visual" href="#design-gallery">
+        <div class="work-index-art"><img src="../images/uiux-graphic-preview.jpg" alt="Primjer grafičkih kampanja iz osobnog portfolija" loading="lazy"></div>
+        <span class="work-index-number">02</span><h3 data-i18n="ui.work2Title">Vizualni dizajn</h3>
+        <p data-i18n="ui.work2Desc">Kampanje, identiteti i web</p><span class="work-index-arrow" aria-hidden="true">↗</span></a>
+<a class="work-index-link work-index-technical" href="#simulation-demo">
+        <div class="work-index-art"><img src="../images/uiux-engine-preview.jpg" alt="Prototip Tiny Humans enginea" loading="lazy"></div>
+        <span class="work-index-number">03</span><h3 data-i18n="ui.work3Title">Tehnički eksperimenti</h3>
+        <p data-i18n="ui.work3Desc">Prototip enginea i igriva simulacija</p><span class="work-index-arrow" aria-hidden="true">↗</span></a></div>
+      <div class="proof-legend"><span><i aria-hidden="true">01</i><span data-i18n="ui.proofStep1">Problem</span></span><b aria-hidden="true">→</b><span><i aria-hidden="true">02</i><span data-i18n="ui.proofStep2">Ograničenje</span></span><b aria-hidden="true">→</b><span><i aria-hidden="true">03</i><span data-i18n="ui.proofStep3">Odluka</span></span><b aria-hidden="true">→</b><span><i aria-hidden="true">04</i><span data-i18n="ui.proofStep4">Rezultat</span></span></div>
+      <details class="figma-disclosure"><summary data-i18n="ui.figmaDisclosure">O prikazanim Figma dizajnima</summary><p class="section-disclaimer" data-i18n="caseStudies.disclaimer">Vizuali u enterprise studijama slučaja razvojne su verzije dizajna sučelja izrađene u Figmi, a ne snimke zaslona implementiranog ili produkcijskog sustava. Imena, avatari, identifikacijske oznake i sadržaj scenarija su izmišljeni; nisu prikazani produkcijski ni osobni podaci. Završna implementacija može se razlikovati.</p></details>
 
       <!-- Case Study 1: Root Cause Analysis -->
       <div class="case-study-block" id="cs-rca">
-        <div class="case-card-detailed" onclick="toggleCaseStudy('cs-rca')" role="button" tabindex="0" onkeydown="if(event.key==='Enter')this.click()">
+        <div class="case-card-detailed">
           <div class="case-card-header">
             <div class="case-card-header-text">
               <span class="case-tag" data-i18n="caseStudies.rca.tag">Roche Diagnostics · Penzberg, Njemačka</span>
-              <h3 data-i18n="caseStudies.rca.title">Platforma za istragu uzroka - Osiguranje kvalitete u proizvodnji</h3>
+              <h3 id="cs-rca-title" data-i18n="caseStudies.rca.title">Platforma za istragu uzroka - Osiguranje kvalitete u proizvodnji</h3>
               <span class="case-role" data-i18n="caseStudies.rca.role">UX Design Lead & poslovni analitičar · Podržka UI dizajnera</span>
               <p class="case-summary" data-i18n="caseStudies.rca.summary">Vodio UX rad na istražnoj platformi dizajniranoj za internu publiku veću od 10.000 korisnika. Rad je stručno istraživanje i metode poput Fishbone, Is/Is Not i 5 Whys pretvorio u vođene, sljedive radne procese.</p>
             </div>
@@ -890,15 +340,31 @@
                 <span class="method-tag" data-i18n="caseStudies.rca.method5Whys">5 Whys</span>
                 <span class="method-tag" data-i18n="caseStudies.rca.methodBA">Poslovna analiza</span>
               </div>
-              <button class="case-expand-btn" aria-label="Otvori studiju slučaja">
+              <button class="case-expand-btn" type="button" aria-labelledby="cs-rca-title" aria-expanded="false" aria-controls="cs-rca-panel" data-case-toggle="cs-rca">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                   <polyline points="6 9 12 15 18 9"></polyline>
                 </svg>
               </button>
             </div>
           </div>
-          <div class="case-detail-panel">
+          <div class="case-detail-panel" id="cs-rca-panel" hidden>
             <div class="case-detail-content">
+<details class="decision-exhibit" id="rca-design-decisions">
+      <summary data-i18n="ui.decisionToggle">Prikaži dizajnerske odluke</summary>
+      <div class="decision-heading"><h4 data-i18n="ui.decisionTitle">Kako je metodologija postala radni proces</h4><p data-i18n="ui.decisionIntro">Četiri odluke vidljive u ovoj razvojnoj Figma verziji.</p></div>
+      <div class="decision-stage">
+        <div class="decision-canvas"><img src="../images/case-studies/rca-overview.png" alt="Razvojni Figma dizajn RCA radnog procesa s izmišljenim sadržajem" loading="lazy" width="1440" height="1331">
+          <button type="button" class="decision-pin is-active" style="--pin-x:31%;--pin-y:12%" data-decision="1" aria-pressed="true" aria-label="Položaj unutar procesa" data-i18n="ui.decision1Title" data-i18n-attr="aria-label">1</button>
+<button type="button" class="decision-pin" style="--pin-x:86%;--pin-y:20%" data-decision="2" aria-pressed="false" aria-label="Smjernice u trenutku odluke" data-i18n="ui.decision2Title" data-i18n-attr="aria-label">2</button>
+<button type="button" class="decision-pin" style="--pin-x:75%;--pin-y:35%" data-decision="3" aria-pressed="false" aria-label="Metoda postaje sljedeća radnja" data-i18n="ui.decision3Title" data-i18n-attr="aria-label">3</button>
+<button type="button" class="decision-pin" style="--pin-x:88%;--pin-y:83%" data-decision="4" aria-pressed="false" aria-label="Cijeli put ostaje vidljiv" data-i18n="ui.decision4Title" data-i18n-attr="aria-label">4</button>
+        </div>
+        <ol class="decision-notes"><li><button type="button" class="decision-note is-active" data-decision="1" aria-pressed="true"><span class="decision-number" aria-hidden="true">01</span><strong data-i18n="ui.decision1Title">Položaj unutar procesa</strong><span data-i18n="ui.decision1Desc">Oznaka 4/5 zadržava korisnika unutar cijelog RCA tijeka, umjesto da pojedinu metodu prikazuje kao izoliran obrazac.</span></button></li>
+<li><button type="button" class="decision-note" data-decision="2" aria-pressed="false"><span class="decision-number" aria-hidden="true">02</span><strong data-i18n="ui.decision2Title">Smjernice u trenutku odluke</strong><span data-i18n="ui.decision2Desc">Kritičnost, najbolje prakse i referentni materijali prikazani su u samom radnom koraku.</span></button></li>
+<li><button type="button" class="decision-note" data-decision="3" aria-pressed="false"><span class="decision-number" aria-hidden="true">03</span><strong data-i18n="ui.decision3Title">Metoda postaje sljedeća radnja</strong><span data-i18n="ui.decision3Desc">5W2H i Is/Is Not ponuđeni su kao strukturirani ulazi u definiranje problema, a ne kao odvojeni dokumenti.</span></button></li>
+<li><button type="button" class="decision-note" data-decision="4" aria-pressed="false"><span class="decision-number" aria-hidden="true">04</span><strong data-i18n="ui.decision4Title">Cijeli put ostaje vidljiv</strong><span data-i18n="ui.decision4Desc">Kasniji koraci ostaju dostupni, ali sažeti. Tako je trenutačni zadatak u fokusu bez gubitka konteksta istrage.</span></button></li></ol>
+      </div>
+    </details>
               <div class="case-detail-section">
                 <p class="sub-heading" data-i18n="caseStudies.rca.overviewTitle">Pregled</p>
                 <p data-i18n="caseStudies.rca.overviewP1">Poboljšanje procesa analize uzroka unutar Rocheovog okvira osiguranja kvalitete. Platforma vodi proizvodne znanstvenike i istražitelje kroz sustavne metodologije rješavanja problema pri istraživanju neplaniranih događaja.</p>
@@ -966,11 +432,11 @@
 
       <!-- Case Study 2: Regulatory Reporting -->
       <div class="case-study-block" id="cs-intelligent-authoring">
-        <div class="case-card-detailed" onclick="toggleCaseStudy('cs-intelligent-authoring')" role="button" tabindex="0" onkeydown="if(event.key==='Enter')this.click()">
+        <div class="case-card-detailed">
           <div class="case-card-header">
             <div class="case-card-header-text">
               <span class="case-tag" data-i18n="caseStudies.ia.tag">Roche Pharmaceuticals · Penzberg, Njemačka</span>
-              <h3 data-i18n="caseStudies.ia.title">Regulatorni alat za izvještavanje</h3>
+              <h3 id="cs-intelligent-authoring-title" data-i18n="caseStudies.ia.title">Regulatorni alat za izvještavanje</h3>
               <span class="case-role" data-i18n="caseStudies.ia.role">Lead UI/UX dizajner · Međufunkcionalna isporuka</span>
               <p class="case-summary" data-i18n="caseStudies.ia.summary">Vodio UI/UX dizajn za Intelligent Authoring i regulatorni proizvod za izvještavanje, izradio približno 120 UI dizajna i ponovljivi dizajn sustav za kontrolne ploče, strukturirane dokumente, metapodatke, ovlasti i izvještavanje.</p>
             </div>
@@ -981,14 +447,14 @@
                 <span class="method-tag" data-i18n="caseStudies.ia.methodPrototyping">Iterativno prototipiranje</span>
                 <span class="method-tag" data-i18n="caseStudies.ia.methodUsability">Testiranje upotrebljivosti</span>
               </div>
-              <button class="case-expand-btn" aria-label="Otvori studiju slučaja">
+              <button class="case-expand-btn" type="button" aria-labelledby="cs-intelligent-authoring-title" aria-expanded="false" aria-controls="cs-intelligent-authoring-panel" data-case-toggle="cs-intelligent-authoring">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                   <polyline points="6 9 12 15 18 9"></polyline>
                 </svg>
               </button>
             </div>
           </div>
-          <div class="case-detail-panel">
+          <div class="case-detail-panel" id="cs-intelligent-authoring-panel" hidden>
             <div class="case-detail-content">
               <div class="case-detail-section">
                 <p class="sub-heading" data-i18n="caseStudies.ia.overviewTitle">Pregled</p>
@@ -1171,8 +637,535 @@
       </div>
     </div>
 
-    <a class="section-followup" href="#contact" data-i18n="followup.cases">→ Razgovarajmo</a>
+    <a class="section-followup" href="#experience" data-i18n="followup.cases">→ Iskustvo iza rada</a>
 
+  </section>
+
+  <!-- Experience Timeline -->
+  <section class="section experience" id="experience">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow" data-i18n="experience.eyebrow">Iskustvo</p>
+        <h2 class="section-title" data-i18n="experience.title">17+ godina iskustva koje se spojilo u složenim okruženjima</h2>
+      </div>
+      <div class="timeline">
+        <!-- Current portfolio and employment focus -->
+        <div class="timeline-item">
+          <div class="timeline-marker current"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <span class="timeline-date" data-i18n="experience.currentRoleDate">Lip 2026 - Danas</span>
+              <span class="timeline-badge" data-i18n="experience.current">Trenutno</span>
+            </div>
+            <h3 data-i18n="experience.currentRoleTitle">Trenutni profesionalni fokus</h3>
+            <p class="timeline-company" data-i18n="experience.currentRoleCompany">Standing Pillars - osobni portfolio · Zagreb, Hrvatska</p>
+            <p data-i18n="experience.currentRoleNote">Osobni portfolio i neovisni projekti, a ne trenutno zaposlenje. Tražim uloge na puno ili nepuno radno vrijeme usmjerene na složene proizvode i radne procese.</p>
+          </div>
+        </div>
+        <!-- Self-employed -->
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <span class="timeline-date" data-i18n="experience.job1Date">Tra 2020 - Lip 2026</span>
+            </div>
+            <h3 data-i18n="experience.job1Title">Neovisni UX/Product dizajner i tehnološki konzultant</h3>
+            <p class="timeline-company" data-i18n="experience.job1Company">Samozaposlen pod pravnim imenom Igor Pilicic | Austrija</p>
+            <ul>
+              <li data-i18n="experience.job1Items.0">Vodstvo UI/UX dizajna: istraživanje korisnika, UX revizije, wireframing, prototipiranje u Figmi i live buildovi (POC-ovi), dizajn sustavi i radionice s dionicima za enterprise i lokalne klijente.</li>
+              <li data-i18n="experience.job1Items.1">AI nabava i OSINT savjetovanje: due diligence dobavljača, RFP/RFI paketi, scorecards za evaluaciju, okviri upravljanja i executive materijali.</li>
+              <li data-i18n="experience.job1Items.2">Digitalni dizajn: vizualni identitet, strategija branda, 2D/3D modeliranje i animacija (3ds Max), motion grafika i promotivni sadržaj.</li>
+              <li data-i18n="experience.job1Items.3">Web dizajn i razvoj: responzivne web stranice, landing stranice i web aplikacije za tvrtke svih veličina.</li>
+              <li data-i18n="experience.job1Items.4" data-i18n-html>Samostalni tehnički rad: 2D engine i editor prototip u razvoju s više od 30K redaka, izrađen strukturiranom AI-potpomognutom suradnjom, uz <a href='#simulation-demo' class='u25-link'>funkcionalnu simulaciju u pregledniku</a>.</li>
+            </ul>
+          </div>
+        </div>
+        <!-- Accenture -->
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <span class="timeline-date" data-i18n="experience.job2Date">Tra 2024 - Kol 2025</span>
+            </div>
+            <h3 data-i18n="experience.job2Title">UI/UX konzultant i dizajner prezentacija · RFP/RFI i OSINT due diligence dobavljača</h3>
+            <p class="timeline-company" data-i18n="experience.job2Company">Accenture · Klijentski ugovor u sklopu samozaposlenja · Remote | Beč, Austrija</p>
+            <ul>
+              <li data-i18n="experience.job2Items.0">Standardizacija RFP/RFI predložaka i kriterija evaluacije za AI inicijative u reguliranim (farmaceutskim) programima.</li>
+              <li data-i18n="experience.job2Items.1">OSINT due diligence: triangulacija javnih izvora za verifikaciju tvrdnji, zaključivanje o model/tech stackovima i mapiranje partnerskih mreža.</li>
+              <li data-i18n="experience.job2Items.2">Izrada scorecardova koji rano otkrivaju rizike (vendor lock-in, upravljanje podacima, usklađenost, validacija).</li>
+              <li data-i18n="experience.job2Items.3">Usklađivanje timova nabave, prava, sigurnosti i inženjeringa; moderiranje radionica i izrada materijala za upravu.</li>
+              <li data-i18n="experience.job2Items.4">Podrška redovitim upravljačkim i review raspravama kroz sljedive materijale za međufunkcionalne odluke.</li>
+              <li>Podržavao regulirane farmaceutske klijentske kontekste kroz Accenture bez predstavljanja tih organizacija kao izravnih poslodavaca ili izravnih ugovora.</li>
+            </ul>
+          </div>
+        </div>
+        <!-- Roche Diagnostics -->
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <span class="timeline-date" data-i18n="experience.job3Date">Srp 2022 - Tra 2023</span>
+            </div>
+            <h3 data-i18n="experience.job3Title">Lead UX dizajner - Istražna platforma za analizu korijenskog uzroka</h3>
+            <p class="timeline-company" data-i18n="experience.job3Company">Roche Diagnostics · Klijentski ugovor u sklopu samozaposlenja · Hibrid | Basel, Švicarska</p>
+            <ul>
+              <li data-i18n="experience.job3Items.0">Vođenje UX rada za internu RCA istražnu platformu u kontekstu farmaceutske proizvodnje.</li>
+              <li data-i18n="experience.job3Items.1">Dubinski intervjui i primjena dizajnerskog razmišljanja; brzo prototipiranje u Figmi dovelo do dinamičnog (atomskog) UI dizajna.</li>
+              <li data-i18n="experience.job3Items.2">Dizajnirano za predviđenu internu publiku veću od 10.000 korisnika u Roche Diagnostics.</li>
+              <li data-i18n="experience.job3Items.3">Suradnja s predmetnim stručnjacima i implementacijskim timovima kroz iterativne cikluse dizajna.</li>
+            </ul>
+          </div>
+        </div>
+        <!-- Roche Pharma -->
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <span class="timeline-date" data-i18n="experience.job4Date">Tra 2020 - Srp 2022</span>
+            </div>
+            <h3 data-i18n="experience.job4Title">Lead UI/UX dizajner - Regulatorni alat za izvještavanje</h3>
+            <p class="timeline-company" data-i18n="experience.job4Company">Roche Pharmaceuticals · Klijentski ugovor u sklopu samozaposlenja · Hibrid | Penzberg, Njemačka</p>
+            <ul>
+              <li data-i18n="experience.job4Items.0">Vođenje UI/UX dizajna za end-to-end Intelligent Authoring i regulatorni proizvod za izvještavanje.</li>
+              <li data-i18n="experience.job4Items.1">Doprinos, zajedno sa širim proizvodnim timom, smanjenju ručnog izvještavanja većem od 30%.</li>
+              <li data-i18n="experience.job4Items.2">Podrška za približno 50 inženjera kroz tri tima i facilitacija radionice s više od 70 sudionika.</li>
+              <li data-i18n="experience.job4Items.3">Provedena studija izvedivosti za integraciju BI alata; redizajn UX-a za smanjenje redundancija.</li>
+              <li data-i18n="experience.job4Items.4">Razvoj interne web stranice i izrada promotivnih grafika i videa za povećanje vidljivosti projekta.</li>
+            </ul>
+          </div>
+        </div>
+        <!-- Harvey Norman -->
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <span class="timeline-date" data-i18n="experience.job5Date">Srp 2015 - Ožu 2017</span>
+            </div>
+            <h3 data-i18n="experience.job5Title">Grafički dizajner za marketing i web dizajner</h3>
+            <p class="timeline-company" data-i18n="experience.job5Company">Harvey Norman · Nepuno radno vrijeme · Na lokaciji | Zagreb, Hrvatska</p>
+            <ul>
+              <li data-i18n="experience.job5Items.0">Dizajn landing stranica i marketinških materijala koji su potaknuli angažman korisnika i prodaju.</li>
+              <li data-i18n="experience.job5Items.1">Vođenje digitalnih kampanja s dosljednošću brenda kroz responsivna rješenja.</li>
+              <li data-i18n="experience.job5Items.2" data-i18n-html><strong>Nagrada: 'Najbolja promotivna landing stranica'</strong> - Hrvatska (Appcom / Apple Partner), 2016. iPhone 7 kampanja doprinijela najvišim nacionalnim prodajnim rezultatima.</li>
+            </ul>
+          </div>
+        </div>
+        <!-- Fazgram -->
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <span class="timeline-date" data-i18n="experience.job6Date">Vel 2013 - Ožu 2015</span>
+            </div>
+            <h3 data-i18n="experience.job6Title">Web i grafički dizajner</h3>
+            <p class="timeline-company" data-i18n="experience.job6Company">Fazgram d.o.o · Puno radno vrijeme · Na lokaciji | Zagreb, Hrvatska</p>
+            <ul>
+              <li data-i18n="experience.job6Items.0">Vođenje web dizajna za Hrvatski dentalni turizam - WordPress + HTML/CSS s fokusom na UX i konverziju.</li>
+              <li data-i18n="experience.job6Items.1">Suradnja sa stomatološkim stručnjacima za odraz jedinstvenih vrijednosnih prijedloga, poboljšanje angažmana i konverzijskih stopa.</li>
+            </ul>
+          </div>
+        </div>
+        <!-- Bimaco -->
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <span class="timeline-date" data-i18n="experience.job7Date">Ožu 2011 - Svi 2013</span>
+            </div>
+            <h3 data-i18n="experience.job7Title">E-commerce menadžer</h3>
+            <p class="timeline-company" data-i18n="experience.job7Company">Bimaco d.o.o · Puno radno vrijeme · Na lokaciji | Zagreb, Hrvatska</p>
+            <ul>
+              <li data-i18n="experience.job7Items.0">Upravljanje Magento e-commerce platformom + digitalni marketing; proaktivno proširenje uloge s upravljanja skladištem na web i grafički dizajn.</li>
+              <li data-i18n="experience.job7Items.1">Pokretanje rasta online prisutnosti, povećanje prometa web stranice i konverzija prodaje.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <span class="timeline-date" data-i18n="experience.job8Date">2009. - 2011.</span>
+            </div>
+            <h3 data-i18n="experience.job8Title">Samostalni dizajner i programer</h3>
+            <p class="timeline-company" data-i18n="experience.job8Company">Samozaposlen · Freelance | Zagreb, Hrvatska</p>
+            <ul>
+              <li data-i18n="experience.job8Items.0">Dizajn i razvoj web stranica, odredišnih stranica i web aplikacija za lokalne tvrtke i privatne klijente.</li>
+              <li data-i18n="experience.job8Items.1">Izrada tiskanog materijala uključujući plakate, jumbo plakate, letke i Google Ads kampanje.</li>
+              <li data-i18n="experience.job8Items.2">Produkcija 3D vizualizacija interijera i animacija u 3ds Maxu za ugostiteljske klijente (barovi, restorani).</li>
+              <li data-i18n="experience.job8Items.3">Izrada 2D motion grafika i promotivnih animacija za digitalne i društvene medije.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section practice-editorial" id="how-i-work">
+    <div class="container">
+      <span id="services" class="anchor-alias" aria-hidden="true"></span><span id="skills" class="anchor-alias" aria-hidden="true"></span>
+      <div class="section-header"><p class="section-eyebrow" data-i18n="ui.practiceEyebrow">Kako radim</p><h2 class="section-title" data-i18n="ui.practiceTitle">Od pitanja do nečega što radi.</h2></div>
+      <ol class="practice-index"><li><span>01</span><h3 data-i18n="ui.practiceStep1">Slušam i uokvirujem</h3></li><li><span>02</span><h3 data-i18n="ui.practiceStep2">Mapiram i odlučujem</h3></li><li><span>03</span><h3 data-i18n="ui.practiceStep3">Izrađujem i provjeravam</h3></li><li><span>04</span><h3 data-i18n="ui.practiceStep4">Podržavam isporuku</h3></li></ol>
+      <details class="archive-detail"><summary data-i18n="ui.methodDetail">Kratko o mojoj metodi</summary>
+      <div class="section-header">
+        <p class="section-eyebrow" data-i18n="howIWork.eyebrow">Moj način rada</p>
+        <h2 class="section-title" data-i18n="howIWork.title">Od nejasnog problema do izvedivog smjera</h2>
+        <p class="section-desc" data-i18n="howIWork.desc">Moj rad povezuje otkrivanje problema, analizu radnih procesa, dizajn sučelja, usklađivanje dionika i podršku isporuci. Cilj nije više dizajnerskih materijala, nego jasnija odluka o proizvodu.</p>
+      </div>
+      <div class="practice-graph">
+        <div class="practice-node practice-node-design">
+          <div class="practice-node-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+          </div>
+          <h3 data-i18n="howIWork.designTitle">Razumjeti i dizajnirati</h3>
+          <p data-i18n="howIWork.designDesc">Proučavam korisnike, stručni rad i poslovna ograničenja prije nego ih pretvorim u radne procese, prototipe i ponovljive uzorke.</p>
+        </div>
+        <div class="practice-connector">
+          <span class="connector-label" data-i18n="howIWork.connectorInforms">Pojašnjava</span>
+        </div>
+        <div class="practice-node practice-node-procurement">
+          <div class="practice-node-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          </div>
+          <h3 data-i18n="howIWork.evaluateTitle">Mapirati i uskladiti</h3>
+          <p data-i18n="howIWork.evaluateDesc">Odluke, ovisnosti, rizike i kompromise činim vidljivima kako bi se proizvodni, poslovni i inženjerski timovi mogli uskladiti.</p>
+        </div>
+        <div class="practice-connector">
+          <span class="connector-label" data-i18n="howIWork.connectorGoverns">Omogućuje</span>
+        </div>
+        <div class="practice-node practice-node-engineering">
+          <div class="practice-node-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </div>
+          <h3 data-i18n="howIWork.buildTitle">Prototipirati i podržati isporuku</h3>
+          <p data-i18n="howIWork.buildDesc">Smjer provjeravam prototipovima te pomažem prevesti dizajnersku namjeru u praktične upute za implementaciju i provjeru kvalitete.</p>
+        </div>
+      </div>
+      <div class="practice-branch-label">
+        <div class="practice-branch-connector"></div>
+        <span class="branch-label" data-i18n="howIWork.branchLabel">Vizualna komunikacija</span>
+        <div class="practice-branch-connector"></div>
+      </div>
+      <div class="practice-branch">
+        <div class="practice-node practice-node-local">
+          <div class="practice-node-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          </div>
+          <h3 data-i18n="howIWork.localTitle">Web i brend dizajn</h3>
+          <p data-i18n="howIWork.localDesc">Web, brend, motion i vizualna komunikacija nadopunjuju moje iskustvo u proizvodima i digitalnoj transformaciji.</p>
+        </div>
+      </div>
+      <div class="practice-thesis">
+        <blockquote>
+          <p data-i18n="howIWork.thesis">Bez obzira na razinu, moj je doprinos učiniti tehnologiju jasnijom, upotrebljivijom i pouzdanijom.</p>
+        </blockquote>
+      </div>
+</details>
+      <details class="archive-detail" data-detail="expertise"><summary data-i18n="ui.expertiseDetail">Područja stručnosti, detaljnije</summary>
+      <div class="section-header">
+        <p class="section-eyebrow" data-i18n="services.eyebrow">Stručnost</p>
+        <h2 class="section-title" data-i18n="services.title">Široko iskustvo, jedno jasno profesionalno središte</h2>
+        <p class="section-desc" data-i18n="services.desc">Senior UX/Product dizajn moja je primarna uloga. Poslovna analiza, vizualni dizajn, evaluacija dobavljača i AI-potpomognuta isporuka jačaju moj rad u multidisciplinarnim timovima.</p>
+      </div>
+
+      <!-- Mission Statement -->
+      <div class="mission-statement">
+        <p data-i18n="services.mission">Najviše doprinosim ondje gdje složene zahtjeve treba pretvoriti u jasne odluke, upotrebljiva sučelja i provedive korake.</p>
+      </div>
+
+      <div class="services-grid services-grid-three">
+        <!-- Pillar 1: Enterprise Design -->
+        <div class="service-pillar">
+          <div class="service-icon">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="3" width="7" height="7"/>
+              <rect x="14" y="3" width="7" height="7"/>
+              <rect x="14" y="14" width="7" height="7"/>
+              <rect x="3" y="14" width="7" height="7"/>
+            </svg>
+          </div>
+          <div class="service-tier-badge tier-enterprise" data-i18n="services.tierEnterprise">Ključna stručnost</div>
+          <h3 data-i18n="services.pillar1Title">Produkt i UX dizajn</h3>
+          <p class="service-desc" data-i18n="services.pillar1Desc">Istraživanje, dizajn radnih procesa, prototipiranje i dizajn sustavi za složene proizvode, utemeljeni na stvarnom radu korisnika i stručnjaka.</p>
+          <ul class="service-list">
+            <li data-i18n="services.pillar1Items.0">Istraživanje korisnika i intervjui s dionicima</li>
+            <li data-i18n="services.pillar1Items.1">UX auditi i heuristička evaluacija</li>
+            <li data-i18n="services.pillar1Items.2">Wireframing i prototyping (Figma)</li>
+            <li data-i18n="services.pillar1Items.3">Dizajn sustavi i Atomic UI</li>
+            <li data-i18n="services.pillar1Items.4">Radionice s dionicima (50+ sudionika)</li>
+            <li data-i18n="services.pillar1Items.5">E2E izvještavanje i analitički alati</li>
+            <li data-i18n="services.pillar1Items.6">Vizualni dizajn i strategija brenda</li>
+            <li data-i18n="services.pillar1Items.7">2D/3D animacija i vizualizacija</li>
+          </ul>
+          <p class="service-connects" data-i18n="services.pillar1Connects">Povezuje potrebe korisnika, poslovna pravila i stvarnost implementacije.</p>
+        </div>
+        <!-- Pillar 2: AI Procurement -->
+        <div class="service-pillar">
+          <div class="service-icon">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8"/>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+              <line x1="8" y1="11" x2="14" y2="11"/>
+              <line x1="11" y1="8" x2="11" y2="14"/>
+            </svg>
+          </div>
+          <div class="service-tier-badge tier-enterprise" data-i18n="services.tierEnterprise">Ključna stručnost</div>
+          <h3 data-i18n="services.pillar2Title">Radni procesi, evaluacija i podrška odlučivanju</h3>
+          <p class="service-desc" data-i18n="services.pillar2Desc">Dodatna sposobnost razvijena kroz RFP/RFI rad, scorecardove, OSINT istraživanje, otkrivanje rizika i materijale za izvršne odluke.</p>
+          <ul class="service-list">
+            <li data-i18n="services.pillar2Items.0">OSINT due diligence dobavljača</li>
+            <li data-i18n="services.pillar2Items.1">Razvoj RFP/RFI i predlošci</li>
+            <li data-i18n="services.pillar2Items.2">Scorecards i matrice za evaluaciju</li>
+            <li data-i18n="services.pillar2Items.3">Procjena rizika (vendor lock-in, GDPR, GxP)</li>
+            <li data-i18n="services.pillar2Items.4">Dnevnici odluka i sljedivost</li>
+            <li data-i18n="services.pillar2Items.5">Materijali za upravu i C-Suite komunikacija</li>
+          </ul>
+          <p class="service-connects" data-i18n="services.pillar2Connects">Povezuje dokaze i kompromise s jasnim, sljedivim odlukama.</p>
+        </div>
+        <!-- Pillar 3: Local Business -->
+        <div class="service-pillar service-pillar-local">
+          <div class="service-icon service-icon-local">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+              <polyline points="9 22 9 12 15 12 15 22"/>
+            </svg>
+          </div>
+          <div class="service-tier-badge tier-local" data-i18n="services.tierLocal">Dodatna stručnost</div>
+          <h3 data-i18n="services.pillar3Title">Web, brend i vizualni dizajn</h3>
+          <p class="service-desc" data-i18n="services.pillar3Desc">Ranije iskustvo u webu, e-trgovini, brendiranju, motion dizajnu i 3D-u nadopunjuje moj enterprise UX i tehnološki rad.</p>
+          <ul class="service-list">
+            <li data-i18n="services.pillar3Items.0">Dizajn i razvoj web stranica</li>
+            <li data-i18n="services.pillar3Items.1">Logo i vizualni identitet</li>
+            <li data-i18n="services.pillar3Items.2">Google Business i lokalni SEO</li>
+            <li data-i18n="services.pillar3Items.3">AI integracija - samo gdje pomaže</li>
+            <li data-i18n="services.pillar3Items.4">Iskreni tech savjeti (bez upsellinga)</li>
+            <li data-i18n="services.pillar3Items.5">Tekuća podrška i održavanje</li>
+          </ul>
+          <p class="service-local-note" data-i18n="services.pillar3Note">Relevantno za timove koji cijene dizajnera koji razumije cijeli put od vizualnog identiteta do funkcionalnog digitalnog proizvoda.</p>
+          <p class="service-connects" data-i18n="services.pillar3Connects">Povezuje vizualnu vještinu s upotrebljivom digitalnom isporukom.</p>
+        </div>
+      </div>
+</details>
+      <details class="archive-detail" data-detail="tools"><summary data-i18n="ui.toolsDetail">Alati koje stvarno koristim</summary>
+      <div class="section-header">
+        <p class="section-eyebrow" data-i18n="skills.eyebrow">Vještine i alati</p>
+        <h2 class="section-title" data-i18n="skills.title">Alat iza rada</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <p class="sub-heading" data-i18n="skills.catDesign">Dizajn</p>
+          <div class="skill-tags">
+            <span class="skill-tag" data-i18n="skills.designTags.0">Dizajn korisničkog sučelja</span>
+            <span class="skill-tag" data-i18n="skills.designTags.1">Dizajn korisničkog iskustva</span>
+            <span class="skill-tag" data-i18n="skills.designTags.2">Istraživanje korisnika</span>
+            <span class="skill-tag" data-i18n="skills.designTags.3">Wireframing i prototipiranje</span>
+            <span class="skill-tag" data-i18n="skills.designTags.4">Digitalni grafički dizajn</span>
+            <span class="skill-tag" data-i18n="skills.designTags.5">Web dizajn</span>
+            <span class="skill-tag" data-i18n="skills.designTags.6">3D modeliranje i renderiranje</span>
+            <span class="skill-tag" data-i18n="skills.designTags.7">Strategija brendiranja</span>
+            <span class="skill-tag" data-i18n="skills.designTags.8">Animacija</span>
+            <span class="skill-tag" data-i18n="skills.designTags.9">Dizajn logotipa</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <p class="sub-heading" data-i18n="skills.catProcurement">Nabava i savjetovanje</p>
+          <div class="skill-tags">
+            <span class="skill-tag" data-i18n="skills.procurementTags.0">OSINT dubinska analiza dobavljača</span>
+            <span class="skill-tag" data-i18n="skills.procurementTags.1">Razvoj RFP/RFI</span>
+            <span class="skill-tag" data-i18n="skills.procurementTags.2">Evaluacijske kartice</span>
+            <span class="skill-tag" data-i18n="skills.procurementTags.3">Dnevnici odluka i sljedivost</span>
+            <span class="skill-tag" data-i18n="skills.procurementTags.4">Rizik i usklađenost (GxP)</span>
+            <span class="skill-tag" data-i18n="skills.procurementTags.5">Svijest o GDPR-u</span>
+            <span class="skill-tag" data-i18n="skills.procurementTags.6">Međuodjeljno usklađivanje</span>
+            <span class="skill-tag" data-i18n="skills.procurementTags.7">Komunikacija s upravom</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <p class="sub-heading" data-i18n="skills.catTools">Dizajnerski alati</p>
+          <div class="skill-tags">
+            <span class="skill-tag">Figma</span>
+            <span class="skill-tag">FigJam</span>
+            <span class="skill-tag">Adobe Creative Suite</span>
+            <span class="skill-tag">Photoshop</span>
+            <span class="skill-tag">Illustrator</span>
+            <span class="skill-tag">3ds Max</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <p class="sub-heading" data-i18n="skills.catCollaboration">Suradnja i proces</p>
+          <div class="skill-tags">
+            <span class="skill-tag">Miro</span>
+            <span class="skill-tag">Lucidchart</span>
+            <span class="skill-tag">Jira</span>
+            <span class="skill-tag">Confluence</span>
+            <span class="skill-tag">Trello</span>
+            <span class="skill-tag">MS Office / PowerPoint</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <p class="sub-heading" data-i18n="skills.catTechnical">Tehničko</p>
+          <div class="skill-tags">
+            <span class="skill-tag">HTML5</span>
+            <span class="skill-tag">CSS3</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">SQL</span>
+            <span class="skill-tag">WordPress</span>
+            <span class="skill-tag">Magento</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <p class="sub-heading" data-i18n="skills.catSoft">Meke vještine</p>
+          <div class="skill-tags">
+            <span class="skill-tag" data-i18n="skills.softTags.0">Rješavanje problema</span>
+            <span class="skill-tag" data-i18n="skills.softTags.1">Angažman dionika</span>
+            <span class="skill-tag" data-i18n="skills.softTags.2">Studije izvedivosti</span>
+            <span class="skill-tag" data-i18n="skills.softTags.3">Prezentacijske vještine</span>
+            <span class="skill-tag" data-i18n="skills.softTags.4">Empatija</span>
+            <span class="skill-tag" data-i18n="skills.softTags.5">Donošenje odluka</span>
+          </div>
+        </div>
+      </div>
+</details>
+    </div>
+  </section>
+
+  <!-- AI Engineering Showcase -->
+  <section class="section ai-engineering" id="ai-engineering">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow" data-i18n="aiEngineering.eyebrow">Samostalni tehnički projekt</p>
+        <h2 class="section-title" data-i18n="aiEngineering.title">Engine u razvoju, izrađen kroz strukturiranu AI suradnju</h2>
+        <p class="section-desc" data-i18n="aiEngineering.desc">Tiny Humans Engine osobni je prototip 2D enginea i editora u razvoju. Projekt pokazuje definiranje zahtjeva, modularnu arhitekturu, validaciju, dokumentaciju i odgovornu uporabu AI-ja u složenoj izradi.</p>
+      </div>
+
+      <div class="ai-showcase">
+        <div class="ai-showcase-main">
+          <div class="ai-project-card">
+            <div class="ai-project-header">
+              <div class="ai-project-icon">&#9654;</div>
+              <div>
+                <h3 data-i18n="aiEngineering.projectTitle">Tiny Humans Engine</h3>
+                <p class="ai-project-sub" data-i18n="aiEngineering.projectSub">2D engine i editor prototip u razvoju, izrađen kroz AI-potpomognutu suradnju</p>
+              </div>
+            </div>
+            <p class="ai-project-desc" data-i18n="aiEngineering.projectDesc" data-i18n-html>Tiny Humans je <strong>osobni prototip s više od 30.000 redaka</strong>, editorom, runtimeom, asset pipelineom, scripting sustavom i radom na pakiranju. AI alate koristio sam unutar strukturiranog kruga: <strong>Specificirati -> Arhitekturirati -> Upravljati -> Validirati</strong>. Projekt pokazuje kako definiram zahtjeve, upravljam ovisnostima, testiram perzistenciju i dokumentiram odluke. Nije komercijalno objavljen ni produkcijski proizvod.</p>
+            <div class="ai-stats-row">
+              <div class="ai-stat">
+                <span class="ai-stat-num">30K+</span>
+                <span class="ai-stat-label" data-i18n="aiEngineering.statLines">Redaka koda</span>
+              </div>
+              <div class="ai-stat">
+                <span class="ai-stat-num">75+</span>
+                <span class="ai-stat-label" data-i18n="aiEngineering.statFiles">Modularnih datoteka</span>
+              </div>
+              <div class="ai-stat">
+                <span class="ai-stat-num">29</span>
+                <span class="ai-stat-label" data-i18n="aiEngineering.statSystems">Glavnih sustava</span>
+              </div>
+              <div class="ai-stat">
+                <span class="ai-stat-num">60+</span>
+                <span class="ai-stat-label" data-i18n="aiEngineering.statDocs">Dokumentacijskih datoteka</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="engine-progress">
+          <svg class="progress-ring" viewBox="0 0 100 100">
+            <circle class="progress-ring-bg" cx="50" cy="50" r="40"/>
+            <circle class="progress-ring-fill" cx="50" cy="50" r="40"/>
+            <text class="progress-ring-text" x="50" y="50">15%</text>
+          </svg>
+          <div class="engine-progress-info">
+            <p class="sub-heading" data-i18n="aiEngineering.progressTitle">Napredak SDK-a i editora</p>
+            <p data-i18n="aiEngineering.progressDesc">Prototip sadrži 29 glavnih sustava, ali širi koncept editora i SDK-a dovršen je približno 15%. Proof of concept ispod mali je isječak od oko 1.800 redaka.</p>
+          </div>
+        </div>
+
+        <div class="ai-details-grid">
+          <div class="ai-detail-card">
+            <p class="sub-heading" data-i18n="aiEngineering.detailArchTitle">Arhitektura sustava</p>
+            <p data-i18n="aiEngineering.detailArchDesc">Engine Registry + Event Bus uzorak razdvaja 29 sustava. Modularni dizajn znači da se svaki sustav (rasvjeta, audio, NPC-ovi, scripting) može neovisno razvijati, testirati i ažurirati.</p>
+            <div class="ai-detail-tags">
+              <span>Registry Pattern</span>
+              <span>Event Bus</span>
+              <span>29 Systems</span>
+            </div>
+          </div>
+          <div class="ai-detail-card">
+            <p class="sub-heading" data-i18n="aiEngineering.detailValTitle">Validacija i zaštitne ograde</p>
+            <p data-i18n="aiEngineering.detailValDesc">Save Validator provjerava sedam kategorija integriteta podataka. Feature Manifest smanjuje dupliciranje rada, a checkliste perzistencije podržavaju provjeru pisanja, čitanja i round-tripa.</p>
+            <div class="ai-detail-tags">
+              <span>Save Validator</span>
+              <span>Feature Manifest</span>
+              <span>Round-trip Testing</span>
+            </div>
+          </div>
+          <div class="ai-detail-card">
+            <p class="sub-heading" data-i18n="aiEngineering.detailGovTitle">AI upravljanje</p>
+            <p data-i18n="aiEngineering.detailGovDesc">Projektne AI upute definiraju provjere perzistencije, prevenciju čestih bugova, pravila arhitekture i implementacijske radne procese. Rezultate provjeravam i testiram umjesto da ih automatski prihvatim.</p>
+            <div class="ai-detail-tags">
+              <span>Copilot Instructions</span>
+              <span>Bug Prevention</span>
+              <span>Architecture Rules</span>
+            </div>
+          </div>
+          <div class="ai-detail-card">
+            <p class="sub-heading" data-i18n="aiEngineering.detailProdTitle">Implementirani prototipni sustavi</p>
+            <p data-i18n="aiEngineering.detailProdDesc">Raycast rasvjeta s DDA sjenama. AI sustavi stanja s frakcijskim ciljanjem. 4-kanalni prostorni audio. Upravljanje scenama s cachiranjem mapa. 8-tipna logička vrata s prevencijom petlji. Potpuni scripting SDK s Runtime API-jem.</p>
+            <div class="ai-detail-tags">
+              <span>Lighting & Shadows</span>
+              <span>NPC AI / FSM</span>
+              <span>Audio Engine</span>
+              <span>SDK</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="ai-methodology">
+          <h3 data-i18n="aiEngineering.methodTitle">Način rada: strukturirani AI-potpomognuti razvoj</h3>
+          <div class="ai-method-grid">
+            <div class="ai-method-step">
+              <div class="ai-method-num">01</div>
+              <p class="sub-heading" data-i18n="aiEngineering.method1Title">Specificirati</p>
+              <p data-i18n="aiEngineering.method1Desc">Definirati zahtjeve s preciznošću RFP-a - opseg, ograničenja, kriteriji uspjeha, točke integracije.</p>
+            </div>
+            <div class="ai-method-step">
+              <div class="ai-method-num">02</div>
+              <p class="sub-heading" data-i18n="aiEngineering.method2Title">Arhitekturirati</p>
+              <p data-i18n="aiEngineering.method2Desc">Dizajnirati sustav prije pisanja koda. Registry uzorci, tokovi događaja, modeli podataka, putovi perzistencije.</p>
+            </div>
+            <div class="ai-method-step">
+              <div class="ai-method-num">03</div>
+              <p class="sub-heading" data-i18n="aiEngineering.method3Title">Upravljati</p>
+              <p data-i18n="aiEngineering.method3Desc">Copilot instrukcije, feature manifesti, validacijske checkliste. AI slijedi pravila, ne osjećaje.</p>
+            </div>
+            <div class="ai-method-step">
+              <div class="ai-method-num">04</div>
+              <p class="sub-heading" data-i18n="aiEngineering.method4Title">Validirati</p>
+              <p data-i18n="aiEngineering.method4Desc">Save validatori, roundtrip testiranje, dokumentirane odluke. Svaka promjena je sljediva i obranljiva.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="ai-cta">
+          <p data-i18n="aiEngineering.ctaText" data-i18n-html>Ovaj projekt nije zamjena za profesionalno inženjersko iskustvo. Pokazuje kako koristim <strong>strukturiranu AI suradnju, provjeru i dokumentaciju</strong> za istraživanje tehnički složene osobne ideje.</p>
+          <p class="ai-cta-connects" data-i18n="aiEngineering.ctaConnects" data-i18n-html>To je dodatni dokaz sustavnog razmišljanja, ustrajnosti i praktičnog prototipiranja.</p>
+        </div>
+      </div>
+    </div>
+    <a class="section-followup" href="#simulation-demo" data-i18n="followup.aiEng">→ Pogledajte radni proof of concept</a>
+  </section>
+
+  <!-- Live Simulation Demo -->
+  <section class="simulation-demo" id="simulation-demo">
+    <iframe id="sim-iframe" src="../simulation/demo.html?lang=hr" title="AI Sandbox Simulation" loading="eager" allow="autoplay"></iframe>
+    <div class="sim-overlay">
+      <div class="sim-overlay-top">
+        <p class="section-eyebrow" data-i18n="ui.playable">Da, ovo je stvarno igrivo.</p>
+        <h2 class="section-title" data-i18n="simulationDemo.title">Proof of concept iz enginea</h2>
+      </div>
+      <p class="sim-caption" data-i18n="simulationDemo.caption">↑ Mali proof of concept (~1.800 linija) izvučen iz enginea od 30.000+ linija.</p>    </div>
   </section>
 
   <!-- Contact Section -->
@@ -1252,7 +1245,6 @@
       </div>
     </div>
   </section>
-  </div>
 
   <!-- Footer -->
   <footer class="footer">
@@ -1301,6 +1293,7 @@
   </script>
   <script src="../script.js?v=a48e787c"></script>
   <script src="../hero-scene.js"></script>
+  <script src="../experimental.js?v=uiux-1"></script>
   <script>
   // =============================================
   // Site Loader - preload simulation assets
@@ -1385,7 +1378,7 @@
     // Safety timeout - dismiss after 8s even if some assets fail
     setTimeout(function() {
       if (!loader.classList.contains('done')) dismiss();
-    }, 8000);
+    }, 1200);
   })();
   </script>
 </body>

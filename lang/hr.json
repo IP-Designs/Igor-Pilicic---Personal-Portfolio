@@ -4,14 +4,13 @@
     "code": "hr",
     "direction": "ltr"
   },
-
   "nav": {
     "about": "O meni",
     "howIWork": "Način rada",
     "services": "Stručnost",
     "experience": "Iskustvo",
     "aiEngineering": "Tehnički projekt",
-    "caseStudies": "Studije slučaja",
+    "caseStudies": "Radovi",
     "contact": "Kontakt",
     "tagline": "Profesionalni portfolio · Igor Piličić",
     "allServices": "Sva područja",
@@ -19,11 +18,10 @@
     "aiProcurement": "AI Nabava",
     "localBusiness": "Web i brend dizajn"
   },
-
   "hero": {
     "eyebrow": "Igor Piličić",
     "title": "Senior UX/Product dizajner koji <span class=\"highlight\">složen rad čini razumljivim</span>",
-    "subtitle": "Složene radne procese i stručno znanje pretvaram u jasne digitalne proizvode. Više od 17 godina iskustva u UX-u, vizualnom dizajnu, poslovnoj analizi i tehnologiji pomaže mi pretvoriti nejasne zahtjeve u upotrebljiva i izvediva rješenja.",
+    "subtitle": "Pretvaram stručno znanje, nejasne zahtjeve i tehnička ograničenja u digitalne proizvode koje korisnici razumiju, timovi mogu izgraditi, a organizacije mogu uvesti.",
     "tagline": "Istražite moj rad",
     "tagExperience": "Gdje ste radili?",
     "tagAiEng": "Pogledajte samostalni tehnički projekt",
@@ -32,22 +30,20 @@
     "tagCases": "Pogledajte rezultate",
     "tagContact": "Razgovarajmo"
   },
-
   "followup": {
     "services": "→ Gdje ste radili?",
     "experience": "→ Pogledajte samostalni tehnički projekt",
     "howIWork": "→ Što možete za mene?",
     "aiEng": "→ Pogledajte radni proof of concept",
     "demo": "→ Pogledajte rezultate",
-    "cases": "→ Razgovarajmo",
+    "cases": "→ Iskustvo iza rada",
     "faq": "→ Imate drugo pitanje? Razgovarajmo"
   },
-
   "heroGraph": {
     "design": "Dizajn",
     "evaluate": "Evaluacija",
     "build": "Izgradnja",
-    "localBusiness": "Lokalno poslovanje",
+    "localBusiness": "Vizualni dizajn",
     "userResearch": "Istraživanje korisnika",
     "atomicDesign": "Atomic Design",
     "scorecards": "Kartice ocjena",
@@ -57,36 +53,36 @@
     "branding": "Brendiranje",
     "localSeo": "Lokalni SEO",
     "pharma": "Farma",
-    "tipCore": "Premosti jaz izme\u0111u ljudi i tehnologije",
+    "tipCore": "Premosti jaz između ljudi i tehnologije",
     "tipDesign": "17+ godina enterprise UX-a",
-    "tipEvaluate": "OSINT dubinska analiza dobavlja\u010da",
+    "tipEvaluate": "OSINT dubinska analiza dobavljača",
     "tipBuild": "Strukturirani AI-potpomognuti prototip",
-    "tipLocal": "Ista kvaliteta, pristupa\u010dne cijene",
-    "tipUx": "Su\u010delja za kompleksne sustave",
+    "tipLocal": "Vizualni dizajn, web i identitet",
+    "tipUx": "Sučelja za kompleksne sustave",
     "tipFigma": "Prototipiranje i sustavi dizajna",
     "tipResearch": "Intervjui s dionicima i testiranje",
     "tipFigjam": "Kolaborativni whiteboarding",
-    "tipAdobe": "Photoshop, Illustrator i vi\u0161e",
+    "tipAdobe": "Photoshop, Illustrator i više",
     "tip3dsmax": "3D modeliranje i vizualizacija",
-    "tipMiro": "Vizualne kolaboracijske plo\u010de",
+    "tipMiro": "Vizualne kolaboracijske ploče",
     "tipAtomic": "Skalabilna metodologija komponenti",
     "tipOsint": "Open-source intelligence",
     "tipRfp": "Strukturirana nabava",
     "tipGxp": "Farma compliance",
-    "tipGdpr": "Privatnost podataka i uskla\u0111enost",
+    "tipGdpr": "Privatnost podataka i usklađenost",
     "tipScores": "Evaluacijske kartice",
     "tipConflu": "Baza znanja i dokumentacija",
     "tipLucid": "Dijagrami tijeka procesa",
     "tipEngine": "2D engine prototip u razvoju",
     "tipAi": "Specificirati, arhitekturirati, upravljati, validirati",
     "tipJs": "Univerzalni runtime",
-    "tipHtml": "Semanti\u010dki markup i stilovi",
+    "tipHtml": "Semantički markup i stilovi",
     "tipSql": "Baze podataka i analitika",
     "tipPrompt": "AI prompt engineering",
     "tipWeb": "Web stranice koje rade",
     "tipBrand": "Logo i identitet",
     "tipSeo": "Google Business i vidljivost",
-    "tipWp": "CMS i prilago\u0111ene teme",
+    "tipWp": "CMS i prilagođene teme",
     "tipMagento": "E-commerce platforma",
     "tipJira": "Agilno upravljanje projektima",
     "tipTrello": "Kanban upravljanje zadacima",
@@ -94,26 +90,31 @@
     "tipRoche": "Platforma za internu publiku od 10.000+ korisnika",
     "tipAcc": "AI upravljanje nabavom"
   },
-
   "about": {
-    "eyebrow": "O meni",
-    "title": "Neobičan put, jasno usmjerenje",
-    "lead": "Ja sam Igor Piličić, Senior UX/Product dizajner iz Zagreba. Najviše doprinosim ondje gdje se susreću korisnici, poslovni procesi i tehnologija, posebno kada je problem složen, a put naprijed još nije jasan.",
-    "p1": "Kroz više od 17 profesionalnih godina radio sam u vizualnom dizajnu, webu, e-trgovini, enterprise UX-u, poslovnoj analizi, AI evaluaciji i praktičnoj digitalnoj isporuci. Ta mi širina pomaže razumjeti cijeli sustav i <strong>pretvoriti složenost u jasna, upotrebljiva i izvediva rješenja</strong>.",
+    "eyebrow": "Profil",
+    "title": "Dizajn je središte. Ostalo mi pomaže vidjeti cijeli sustav.",
+    "lead": "Tu počinjem: slušam ljude, mapiram stvarni rad, razdvajam simptom od uzroka i pretvaram nalaze u smjer koji korisnici razumiju, a tim može izgraditi.",
+    "p1": "Više od 17 godina u vizualnom dizajnu, webu, enterprise UX-u, poslovnoj analizi i tehnologiji daje mi širinu za taj posao.",
     "p2": "U <strong>Rocheu</strong> i <strong>Accentureu</strong> istraživanje, dizajn radnih procesa, vizualna komunikacija, facilitacija, analiza i podrška implementaciji spojili su se u radu na reguliranim enterprise sustavima. Standing Pillars je moj osobni portfolio tog puta, sa <strong>Senior UX/Product dizajnom kao glavnim profesionalnim fokusom</strong>.",
     "personalEyebrow": "Izvan posla",
-    "personalText": "Volim raspetljavati složene probleme, uočiti poteškoće prije nego što postanu skupe te razumjeti kako ljudi, procesi i tehnologija utječu jedni na druge. Psihologija, antropologija i sociologija pomažu mi primijetiti međuljudsku stranu problema i ono što ostane neizrečeno. Izvan posla suprug sam i otac. Pratim astronomiju i uživam u filmovima, serijama i igrama - različitim svjetovima povezanim istom znatiželjom prema ljudima, sustavima i onome što bi se moglo dogoditi sljedeće.",
+    "personalText": "Psihologija, antropologija i sociologija pomažu mi razumjeti međuljudsku stranu problema i ono što ostane neizrečeno. Izvan posla suprug sam i otac; pratim astronomiju i uživam u filmovima, serijama i igrama.",
     "statYears": "Godina profesionalnog iskustva",
     "statReach": "UI dizajna pripremljenih za implementaciju",
     "statUsers": "Interna publika Roche RCA platforme",
     "statReporting": "Smanjenje ručnog izvještavanja kojem je pridonio širi proizvodni tim",
-    "statCode": "Inženjera podržanih kroz tri tima"
+    "statCode": "Inženjera podržanih kroz tri tima",
+    "signal": "Najviše me zanima trenutak kad svi znaju da nešto ne radi, ali još nitko ne zna točno zašto.",
+    "principle1Title": "Čitam između redaka",
+    "principle1Desc": "Ono što ljudi ne kažu često preciznije pokazuje gdje proces stvarno zapinje.",
+    "principle2Title": "Odluke činim vidljivima",
+    "principle2Desc": "Zahtjeve, ograničenja i kompromise pretvaram u smjer koji tim može razumjeti i provjeriti.",
+    "principle3Title": "Pratim ideju do isporuke",
+    "principle3Desc": "Dizajn ne završava predajom ekrana. Podržavam implementaciju, provjeru kvalitete i komunikaciju odluka.",
+    "availability": "Zagreb · otvoren za stalno ili nepuno radno vrijeme · Hrvatska na lokaciji ili hibridno · međunarodno udaljeno"
   },
-
   "clients": {
     "label": "Odabrane organizacije i klijentski konteksti"
   },
-
   "availability": {
     "status": "Otvoren za poslove u Hrvatskoj",
     "title": "Senior UX/Product dizajn za složene proizvode i radne procese",
@@ -125,7 +126,6 @@
     "tagOnsite": "Udaljeno",
     "ctaPrimary": "Javite se"
   },
-
   "whyMe": {
     "eyebrow": "Zašto raditi sa mnom",
     "title": "Što donosim timu",
@@ -142,7 +142,6 @@
     "card6Title": "U Zagrebu, s međunarodnim iskustvom",
     "card6Desc": "Baziran u Zagrebu, s iskustvom rada u međunarodnim timovima u Austriji, Njemačkoj, Švicarskoj i Hrvatskoj. Otvoren za rad na lokaciji, hibridno i udaljeno."
   },
-
   "howIWork": {
     "eyebrow": "Moj način rada",
     "title": "Od nejasnog problema do izvedivog smjera",
@@ -160,7 +159,6 @@
     "localDesc": "Web, brend, motion i vizualna komunikacija nadopunjuju moje iskustvo u proizvodima i digitalnoj transformaciji.",
     "thesis": "Bez obzira na razinu, moj je doprinos učiniti tehnologiju jasnijom, upotrebljivijom i pouzdanijom."
   },
-
   "services": {
     "eyebrow": "Stručnost",
     "title": "Široko iskustvo, jedno jasno profesionalno središte",
@@ -168,37 +166,54 @@
     "mission": "Najviše doprinosim ondje gdje složene zahtjeve treba pretvoriti u jasne odluke, upotrebljiva sučelja i provedive korake.",
     "tierEnterprise": "Ključna stručnost",
     "tierLocal": "Dodatna stručnost",
-
     "pillar1Title": "Produkt i UX dizajn",
     "pillar1Desc": "Istraživanje, dizajn radnih procesa, prototipiranje i dizajn sustavi za složene proizvode, utemeljeni na stvarnom radu korisnika i stručnjaka.",
-    "pillar1Items": ["Istraživanje korisnika i intervjui s dionicima", "UX auditi i heuristička evaluacija", "Wireframing i prototyping (Figma)", "Dizajn sustavi i Atomic UI", "Radionice s dionicima (50+ sudionika)", "E2E izvještavanje i analitički alati", "Vizualni dizajn i strategija brenda", "2D/3D animacija i vizualizacija"],
+    "pillar1Items": [
+      "Istraživanje korisnika i intervjui s dionicima",
+      "UX auditi i heuristička evaluacija",
+      "Wireframing i prototyping (Figma)",
+      "Dizajn sustavi i Atomic UI",
+      "Radionice s dionicima (50+ sudionika)",
+      "E2E izvještavanje i analitički alati",
+      "Vizualni dizajn i strategija brenda",
+      "2D/3D animacija i vizualizacija"
+    ],
     "pillar1Connects": "Povezuje potrebe korisnika, poslovna pravila i stvarnost implementacije.",
     "pillar1Link": "Istražite UX dizajn usluge →",
-
     "pillar2Title": "Radni procesi, evaluacija i podrška odlučivanju",
     "pillar2Desc": "Dodatna sposobnost razvijena kroz RFP/RFI rad, scorecardove, OSINT istraživanje, otkrivanje rizika i materijale za izvršne odluke.",
-    "pillar2Items": ["OSINT due diligence dobavljača", "Razvoj RFP/RFI i predlošci", "Scorecards i matrice za evaluaciju", "Procjena rizika (vendor lock-in, GDPR, GxP)", "Dnevnici odluka i sljedivost", "Materijali za upravu i C-Suite komunikacija"],
+    "pillar2Items": [
+      "OSINT due diligence dobavljača",
+      "Razvoj RFP/RFI i predlošci",
+      "Scorecards i matrice za evaluaciju",
+      "Procjena rizika (vendor lock-in, GDPR, GxP)",
+      "Dnevnici odluka i sljedivost",
+      "Materijali za upravu i C-Suite komunikacija"
+    ],
     "pillar2Connects": "Povezuje dokaze i kompromise s jasnim, sljedivim odlukama.",
     "pillar2Link": "Istražite usluge nabave AI rješenja →",
     "pillar3Link": "Istražite usluge za lokalne tvrtke →",
-
     "pillar3Title": "Web, brend i vizualni dizajn",
     "pillar3Desc": "Ranije iskustvo u webu, e-trgovini, brendiranju, motion dizajnu i 3D-u nadopunjuje moj enterprise UX i tehnološki rad.",
-    "pillar3Items": ["Dizajn i razvoj web stranica", "Logo i vizualni identitet", "Google Business i lokalni SEO", "AI integracija - samo gdje pomaže", "Iskreni tech savjeti (bez upsellinga)", "Tekuća podrška i održavanje"],
+    "pillar3Items": [
+      "Dizajn i razvoj web stranica",
+      "Logo i vizualni identitet",
+      "Google Business i lokalni SEO",
+      "AI integracija - samo gdje pomaže",
+      "Iskreni tech savjeti (bez upsellinga)",
+      "Tekuća podrška i održavanje"
+    ],
     "pillar3Note": "Relevantno za timove koji cijene dizajnera koji razumije cijeli put od vizualnog identiteta do funkcionalnog digitalnog proizvoda.",
     "pillar3Connects": "Povezuje vizualnu vještinu s upotrebljivom digitalnom isporukom."
   },
-
   "experience": {
     "eyebrow": "Iskustvo",
     "title": "17+ godina iskustva koje se spojilo u složenim okruženjima",
     "current": "Trenutno",
-
     "currentRoleDate": "Lip 2026 - Danas",
     "currentRoleTitle": "Trenutni profesionalni fokus",
     "currentRoleCompany": "Standing Pillars - osobni portfolio · Zagreb, Hrvatska",
     "currentRoleNote": "Osobni portfolio i neovisni projekti, a ne trenutno zaposlenje. Tražim uloge na puno ili nepuno radno vrijeme usmjerene na složene proizvode i radne procese.",
-
     "job1Date": "Tra 2020 - Lip 2026",
     "job1Title": "Neovisni UX/Product dizajner i tehnološki konzultant",
     "job1Company": "Samozaposlen pod pravnim imenom Igor Pilicic | Austrija",
@@ -209,7 +224,6 @@
       "Web dizajn i razvoj: responzivne web stranice, landing stranice i web aplikacije za tvrtke svih veličina.",
       "Samostalni tehnički rad: 2D engine i editor prototip u razvoju s više od 30K redaka, izrađen strukturiranom AI-potpomognutom suradnjom, uz <a href='#simulation-demo' class='u25-link'>funkcionalnu simulaciju u pregledniku</a>."
     ],
-
     "job2Date": "Tra 2024 - Kol 2025",
     "job2Title": "UI/UX konzultant i dizajner prezentacija · RFP/RFI i OSINT due diligence dobavljača",
     "job2Company": "Accenture · Klijentski ugovor u sklopu samozaposlenja · Remote | Beč, Austrija",
@@ -220,7 +234,6 @@
       "Usklađivanje timova nabave, prava, sigurnosti i inženjeringa; moderiranje radionica i izrada materijala za upravu.",
       "Podrška redovitim upravljačkim i review raspravama kroz sljedive materijale za međufunkcionalne odluke."
     ],
-
     "job3Date": "Srp 2022 - Tra 2023",
     "job3Title": "Lead UX dizajner - Istražna platforma za analizu korijenskog uzroka",
     "job3Company": "Roche Diagnostics · Klijentski ugovor u sklopu samozaposlenja · Hibrid | Basel, Švicarska",
@@ -230,7 +243,6 @@
       "Dizajnirano za predviđenu internu publiku veću od 10.000 korisnika u Roche Diagnostics.",
       "Suradnja s predmetnim stručnjacima i implementacijskim timovima kroz iterativne cikluse dizajna."
     ],
-
     "job4Date": "Tra 2020 - Srp 2022",
     "job4Title": "Lead UI/UX dizajner - Regulatorni alat za izvještavanje",
     "job4Company": "Roche Pharmaceuticals · Klijentski ugovor u sklopu samozaposlenja · Hibrid | Penzberg, Njemačka",
@@ -241,7 +253,6 @@
       "Provedena studija izvedivosti za integraciju BI alata; redizajn UX-a za smanjenje redundancija.",
       "Razvoj interne web stranice i izrada promotivnih grafika i videa za povećanje vidljivosti projekta."
     ],
-
     "job5Date": "Srp 2015 - Ožu 2017",
     "job5Title": "Grafički dizajner za marketing i web dizajner",
     "job5Company": "Harvey Norman · Nepuno radno vrijeme · Na lokaciji | Zagreb, Hrvatska",
@@ -250,7 +261,6 @@
       "Vođenje digitalnih kampanja s dosljednošću brenda kroz responsivna rješenja.",
       "<strong>Nagrada: 'Najbolja promotivna landing stranica'</strong> - Hrvatska (Appcom / Apple Partner), 2016. iPhone 7 kampanja doprinijela najvišim nacionalnim prodajnim rezultatima."
     ],
-
     "job6Date": "Vel 2013 - Ožu 2015",
     "job6Title": "Web i grafički dizajner",
     "job6Company": "Fazgram d.o.o · Puno radno vrijeme · Na lokaciji | Zagreb, Hrvatska",
@@ -258,7 +268,6 @@
       "Vođenje web dizajna za Hrvatski dentalni turizam - WordPress + HTML/CSS s fokusom na UX i konverziju.",
       "Suradnja sa stomatološkim stručnjacima za odraz jedinstvenih vrijednosnih prijedloga, poboljšanje angažmana i konverzijskih stopa."
     ],
-
     "job7Date": "Ožu 2011 - Svi 2013",
     "job7Title": "E-commerce menadžer",
     "job7Company": "Bimaco d.o.o · Puno radno vrijeme · Na lokaciji | Zagreb, Hrvatska",
@@ -276,7 +285,6 @@
       "Izrada 2D motion grafika i promotivnih animacija za digitalne i društvene medije."
     ]
   },
-
   "skills": {
     "eyebrow": "Vještine i alati",
     "title": "Alat iza rada",
@@ -286,11 +294,37 @@
     "catCollaboration": "Suradnja i proces",
     "catTechnical": "Tehničko",
     "catSoft": "Meke vještine",
-    "designTags": ["Dizajn korisničkog sučelja", "Dizajn korisničkog iskustva", "Istraživanje korisnika", "Wireframing i prototipiranje", "Digitalni grafički dizajn", "Web dizajn", "3D modeliranje i renderiranje", "Strategija brendiranja", "Animacija", "Dizajn logotipa"],
-    "procurementTags": ["OSINT dubinska analiza dobavljača", "Razvoj RFP/RFI", "Evaluacijske kartice", "Dnevnici odluka i sljedivost", "Rizik i usklađenost (GxP)", "Svijest o GDPR-u", "Međuodjeljno usklađivanje", "Komunikacija s upravom"],
-    "softTags": ["Rješavanje problema", "Angažman dionika", "Studije izvedivosti", "Prezentacijske vještine", "Empatija", "Donošenje odluka"]
+    "designTags": [
+      "Dizajn korisničkog sučelja",
+      "Dizajn korisničkog iskustva",
+      "Istraživanje korisnika",
+      "Wireframing i prototipiranje",
+      "Digitalni grafički dizajn",
+      "Web dizajn",
+      "3D modeliranje i renderiranje",
+      "Strategija brendiranja",
+      "Animacija",
+      "Dizajn logotipa"
+    ],
+    "procurementTags": [
+      "OSINT dubinska analiza dobavljača",
+      "Razvoj RFP/RFI",
+      "Evaluacijske kartice",
+      "Dnevnici odluka i sljedivost",
+      "Rizik i usklađenost (GxP)",
+      "Svijest o GDPR-u",
+      "Međuodjeljno usklađivanje",
+      "Komunikacija s upravom"
+    ],
+    "softTags": [
+      "Rješavanje problema",
+      "Angažman dionika",
+      "Studije izvedivosti",
+      "Prezentacijske vještine",
+      "Empatija",
+      "Donošenje odluka"
+    ]
   },
-
   "aiEngineering": {
     "eyebrow": "Samostalni tehnički projekt",
     "title": "Engine u razvoju, izrađen kroz strukturiranu AI suradnju",
@@ -302,7 +336,6 @@
     "statFiles": "Modularnih datoteka",
     "statSystems": "Glavnih sustava",
     "statDocs": "Dokumentacijskih datoteka",
-
     "detailArchTitle": "Arhitektura sustava",
     "detailArchDesc": "Engine Registry + Event Bus uzorak razdvaja 29 sustava. Modularni dizajn znači da se svaki sustav (rasvjeta, audio, NPC-ovi, scripting) može neovisno razvijati, testirati i ažurirati.",
     "detailValTitle": "Validacija i zaštitne ograde",
@@ -311,7 +344,6 @@
     "detailGovDesc": "Projektne AI upute definiraju provjere perzistencije, prevenciju čestih bugova, pravila arhitekture i implementacijske radne procese. Rezultate provjeravam i testiram umjesto da ih automatski prihvatim.",
     "detailProdTitle": "Implementirani prototipni sustavi",
     "detailProdDesc": "Raycast rasvjeta s DDA sjenama. AI sustavi stanja s frakcijskim ciljanjem. 4-kanalni prostorni audio. Upravljanje scenama s cachiranjem mapa. 8-tipna logička vrata s prevencijom petlji. Potpuni scripting SDK s Runtime API-jem.",
-
     "methodTitle": "Način rada: strukturirani AI-potpomognuti razvoj",
     "method1Title": "Specificirati",
     "method1Desc": "Definirati zahtjeve s preciznošću RFP-a - opseg, ograničenja, kriteriji uspjeha, točke integracije.",
@@ -321,31 +353,26 @@
     "method3Desc": "Copilot instrukcije, feature manifesti, validacijske checkliste. AI slijedi pravila, ne osjećaje.",
     "method4Title": "Validirati",
     "method4Desc": "Save validatori, roundtrip testiranje, dokumentirane odluke. Svaka promjena je sljediva i obranljiva.",
-
     "ctaText": "Ovaj projekt nije zamjena za profesionalno inženjersko iskustvo. Pokazuje kako koristim <strong>strukturiranu AI suradnju, provjeru i dokumentaciju</strong> za istraživanje tehnički složene osobne ideje.",
     "ctaConnects": "To je dodatni dokaz sustavnog razmišljanja, ustrajnosti i praktičnog prototipiranja.",
-
     "progressTitle": "Napredak SDK-a i editora",
     "progressDesc": "Prototip sadrži 29 glavnih sustava, ali širi koncept editora i SDK-a dovršen je približno 15%. Proof of concept ispod mali je isječak od oko 1.800 redaka."
   },
-
   "simulationDemo": {
-    "eyebrow": "Demo u\u017eivo",
+    "eyebrow": "Demo uživo",
     "title": "Proof of concept iz enginea",
-    "desc": "Dva autonomna NPC-a lutaju malom kartom plo\u010dica u ovom proof of conceptu izvučenom iz enginea. Bez skripti, bez tra\u010dnica - samo sprite animacija, detekcija kolizija, vrijeme i povremeni egzistencijalni obla\u010di\u0107 misli. Mali isje\u010dak (~1.800 linija) enginea od 30.000+ linija, u\u017eivo.",
-    "caption": "\u2191 Mali proof of concept (~1.800 linija) izvučen iz enginea od 30.000+ linija."
+    "desc": "Dva autonomna NPC-a lutaju malom kartom pločica u ovom proof of conceptu izvučenom iz enginea. Bez skripti, bez tračnica - samo sprite animacija, detekcija kolizija, vrijeme i povremeni egzistencijalni oblačić misli. Mali isječak (~1.800 linija) enginea od 30.000+ linija, uživo.",
+    "caption": "↑ Mali proof of concept (~1.800 linija) izvučen iz enginea od 30.000+ linija."
   },
-
-
   "caseStudies": {
     "eyebrow": "Studije slučaja",
     "title": "Odabrani radovi i rezultati",
     "desc": "Odabrani dokazi rada na složenim proizvodima, vizualnom dizajnu i e-trgovini. Klijentske studije opisuju ulogu, metode i primjereno kvalificirane rezultate.",
     "disclaimer": "Vizuali u enterprise studijama slučaja razvojne su verzije dizajna sučelja izrađene u Figmi, a ne snimke zaslona implementiranog ili produkcijskog sustava. Imena, avatari, identifikacijske oznake i sadržaj scenarija su izmišljeni; nisu prikazani produkcijski ni osobni podaci. Završna implementacija može se razlikovati.",
     "rca": {
-      "tag": "Roche Diagnostics \u00b7 Penzberg, Njema\u010dka",
+      "tag": "Roche Diagnostics · Penzberg, Njemačka",
       "title": "Platforma za istragu uzroka - Osiguranje kvalitete u proizvodnji",
-      "role": "UX Design Lead & poslovni analiti\u010dar \u00b7 Podr\u017eka UI dizajnera",
+      "role": "UX Design Lead & poslovni analitičar · Podržka UI dizajnera",
       "summary": "Vodio UX rad na istražnoj platformi dizajniranoj za internu publiku veću od 10.000 korisnika. Rad je stručno istraživanje i metode poput Fishbone, Is/Is Not i 5 Whys pretvorio u vođene, sljedive radne procese.",
       "methodAtomic": "Atomic Design",
       "methodFishbone": "Fishbone",
@@ -353,23 +380,23 @@
       "method5Whys": "5 Whys",
       "methodBA": "Poslovna analiza",
       "overviewTitle": "Pregled",
-      "overviewP1": "Pobolj\u0161anje procesa analize uzroka unutar Rocheovog okvira osiguranja kvalitete. Platforma vodi proizvodne znanstvenike i istra\u017eitelje kroz sustavne metodologije rje\u0161avanja problema pri istra\u017eivanju neplaniranih doga\u0111aja.",
-      "contribTitle": "Klju\u010dni doprinosi",
-      "contrib1": "<strong>Modularno su\u010delje (Atomic Design)</strong> \u2013 Implementacija Atomic Design principa za skalabilni, vi\u0161ekratni UI komponentni okvir",
-      "contrib2": "<strong>Fishbone metodologija UI</strong> \u2013 Dizajn su\u010delja s Ishikawa dijagram pristupom za identifikaciju uzroka proizvodnih problema",
-      "contrib3": "<strong>Is/Is Not analiza UI</strong> \u2013 Izrada alata za razlikovanje specifi\u010dnih uvjeta problema usporedbom scenarija",
-      "contrib4": "<strong>5 Whys su\u010delje</strong> \u2013 Kreiranje intuitivnog alata koji vodi istra\u017eitelje kroz iterativna \u201eza\u0161to\u201c pitanja do temeljnih uzroka",
-      "contrib5": "<strong>Istra\u017eni modal</strong> \u2013 Dizajn UI-a za prikupljanje dodatnih informacija tijekom istra\u017enog procesa",
-      "contrib6": "<strong>Sveobuhvatno mapiranje procesa</strong> \u2013 Sustavna identifikacija i rje\u0161avanje neu\u010dinkovitosti u postoje\u0107im RCA procesima",
-      "contrib7": "<strong>Analiza dionika i zagovaranje</strong> \u2013 Dubinsko istra\u017eivanje za informiranje i zagovaranje pobolj\u0161anja sustava",
-      "contrib8": "<strong>Upravljanje promjenama</strong> \u2013 Primjena teorija upravljanja promjenama za vo\u0111enje evolucije projekta",
-      "methTitle": "Istra\u017ene metodologije",
+      "overviewP1": "Poboljšanje procesa analize uzroka unutar Rocheovog okvira osiguranja kvalitete. Platforma vodi proizvodne znanstvenike i istražitelje kroz sustavne metodologije rješavanja problema pri istraživanju neplaniranih događaja.",
+      "contribTitle": "Ključni doprinosi",
+      "contrib1": "<strong>Modularno sučelje (Atomic Design)</strong> – Implementacija Atomic Design principa za skalabilni, višekratni UI komponentni okvir",
+      "contrib2": "<strong>Fishbone metodologija UI</strong> – Dizajn sučelja s Ishikawa dijagram pristupom za identifikaciju uzroka proizvodnih problema",
+      "contrib3": "<strong>Is/Is Not analiza UI</strong> – Izrada alata za razlikovanje specifičnih uvjeta problema usporedbom scenarija",
+      "contrib4": "<strong>5 Whys sučelje</strong> – Kreiranje intuitivnog alata koji vodi istražitelje kroz iterativna „zašto“ pitanja do temeljnih uzroka",
+      "contrib5": "<strong>Istražni modal</strong> – Dizajn UI-a za prikupljanje dodatnih informacija tijekom istražnog procesa",
+      "contrib6": "<strong>Sveobuhvatno mapiranje procesa</strong> – Sustavna identifikacija i rješavanje neučinkovitosti u postojećim RCA procesima",
+      "contrib7": "<strong>Analiza dionika i zagovaranje</strong> – Dubinsko istraživanje za informiranje i zagovaranje poboljšanja sustava",
+      "contrib8": "<strong>Upravljanje promjenama</strong> – Primjena teorija upravljanja promjenama za vođenje evolucije projekta",
+      "methTitle": "Istražne metodologije",
       "methFishboneTitle": "Fishbone (Ishikawa)",
-      "methFishboneDesc": "Vizualno su\u010delje dijagrama uzroka i posljedica za kategorizaciju potencijalnih uzroka proizvodnih problema u sustavne grupe.",
+      "methFishboneDesc": "Vizualno sučelje dijagrama uzroka i posljedica za kategorizaciju potencijalnih uzroka proizvodnih problema u sustavne grupe.",
       "methIsIsNotTitle": "Is / Is Not",
-      "methIsIsNotDesc": "Usporedni analiti\u010dki alat za razlikovanje specifi\u010dnih karakteristika problema ispitivanjem mjesta, vremena i na\u010dina pojavljivanja.",
+      "methIsIsNotDesc": "Usporedni analitički alat za razlikovanje specifičnih karakteristika problema ispitivanjem mjesta, vremena i načina pojavljivanja.",
       "meth5WhysTitle": "5 Whys",
-      "meth5WhysDesc": "Sekvencijalno su\u010delje za ispitivanje koje vodi istra\u017eitelje kroz iterativne slojeve uzro\u010dnosti do pravog temeljnog uzroka.",
+      "meth5WhysDesc": "Sekvencijalno sučelje za ispitivanje koje vodi istražitelje kroz iterativne slojeve uzročnosti do pravog temeljnog uzroka.",
       "galleryTitle": "Odabrane razvojne verzije dizajna sučelja",
       "galleryNote": "Izrađeno u Figmi tijekom razvoja proizvoda. Sva prikazana imena, avatari, ID oznake i sadržaj scenarija su izmišljeni. Kliknite sliku za uvećanje.",
       "capUnplanned": "Pregled uzroka - izmišljeni scenarij",
@@ -380,29 +407,28 @@
       "outcomeTitle": "Rezultat",
       "outcomeP1": "Platforma je isporučena za predviđenu internu publiku veću od 10.000 korisnika. Moj doprinos uspostavio je ponovljive uzorke sučelja i preveo više istražnih metoda u vođene radne procese u suradnji sa stručnjacima i implementacijskim timovima."
     },
-
     "ia": {
-      "tag": "Roche Pharmaceuticals \u00b7 Penzberg, Njema\u010dka",
-      "title": "Regulatorni alat za izvje\u0161tavanje",
+      "tag": "Roche Pharmaceuticals · Penzberg, Njemačka",
+      "title": "Regulatorni alat za izvještavanje",
       "role": "Lead UI/UX dizajner · Međufunkcionalna isporuka",
       "summary": "Vodio UI/UX dizajn za Intelligent Authoring i regulatorni proizvod za izvještavanje, izradio približno 120 UI dizajna i ponovljivi dizajn sustav za kontrolne ploče, strukturirane dokumente, metapodatke, ovlasti i izvještavanje.",
-      "methodDashboard": "Dizajn kontrolne plo\u010de",
+      "methodDashboard": "Dizajn kontrolne ploče",
       "methodRbac": "RBAC sustav",
       "methodPrototyping": "Iterativno prototipiranje",
       "methodUsability": "Testiranje upotrebljivosti",
       "overviewTitle": "Pregled",
       "overviewP1": "Dizajnirao radne procese i uzorke sučelja za farmaceutsko upravljanje dokumentacijom, uključujući kontrolne ploče, nasljeđivanje metapodataka, ovlasti temeljene na ulogama, odnose dokumenata, verzioniranje, stanja validacije i izvještajne prikaze.",
       "overviewP2": "Uloga je obuhvatila analizu radnih procesa, rasprave o izvedivosti, usklađivanje dionika, pripremu implementacijskih zadataka i materijala za podršku inženjerskim timovima.",
-      "contribTitle": "Klju\u010dni doprinosi",
-      "contrib1": "<strong>Ergonomska kontrolna plo\u010da</strong> \u2013 Primjena HCI principa za korisni\u010dki prijateljski pregled projekta s postavkama, favoritima i DAMAS/MDMS linkovima",
+      "contribTitle": "Ključni doprinosi",
+      "contrib1": "<strong>Ergonomska kontrolna ploča</strong> – Primjena HCI principa za korisnički prijateljski pregled projekta s postavkama, favoritima i DAMAS/MDMS linkovima",
       "contrib2": "<strong>Radni procesi temeljeni na ulogama</strong> - Dizajn sučelja i pravila interakcije za ovlasti, kontroliranu suradnju i sljedive radnje",
-      "contrib3": "<strong>Odabir metapodataka</strong> \u2013 Dizajn su\u010delja za odabir raznolikih projektnih metapodataka",
-      "contrib4": "<strong>Izvje\u0161\u0107a o validaciji procesa</strong> \u2013 Kreiranje specijaliziranih UI-a uklju\u010duju\u0107i komponente izvje\u0161\u0107ivanja o kromatografiji",
+      "contrib3": "<strong>Odabir metapodataka</strong> – Dizajn sučelja za odabir raznolikih projektnih metapodataka",
+      "contrib4": "<strong>Izvješća o validaciji procesa</strong> – Kreiranje specijaliziranih UI-a uključujući komponente izvješćivanja o kromatografiji",
       "contrib5": "<strong>Dohvat informacija</strong> - Dizajn filtriranja i interakcija za pronalaženje složenih projektnih i dokumentacijskih podataka",
-      "contrib6": "<strong>Responzivni dizajn</strong> \u2013 Besprijekorno iskustvo na razli\u010ditim platformama i ure\u0111ajima",
-      "contrib7": "<strong>Promotivni materijali</strong> \u2013 Produkcija video i marketin\u0161kog sadr\u017eaja (prema SMART Process Design zahtjevima)",
+      "contrib6": "<strong>Responzivni dizajn</strong> – Besprijekorno iskustvo na različitim platformama i uređajima",
+      "contrib7": "<strong>Promotivni materijali</strong> – Produkcija video i marketinškog sadržaja (prema SMART Process Design zahtjevima)",
       "processTitle": "Proces i suradnja",
-      "processP1": "Bliska suradnja s Product Ownerima, stru\u010dnjacima i in\u017eenjerima koriste\u0107i draw.io za mapiranje arhitekture sustava, dokumentaciju organizacijske hijerarhije i razvoj wireframeova.",
+      "processP1": "Bliska suradnja s Product Ownerima, stručnjacima i inženjerima koristeći draw.io za mapiranje arhitekture sustava, dokumentaciju organizacijske hijerarhije i razvoj wireframeova.",
       "galleryTitle": "Odabrane razvojne verzije dizajna sučelja",
       "galleryNote": "Izrađeno u Figmi tijekom razvoja proizvoda. Sva prikazana imena, avatari, ID oznake i sadržaj scenarija su izmišljeni. Kliknite sliku za uvećanje.",
       "capDashboard": "Projektna kontrolna ploča - izmišljeni sadržaj",
@@ -412,30 +438,28 @@
       "outcomeTitle": "Rezultat",
       "outcomeP1": "Izradio približno 120 UI dizajna i širi ponovljivi dizajn sustav, podržao približno 50 inženjera kroz tri tima te sa širim proizvodnim timom pridonio smanjenju ručnog izvještavanja većem od 30%."
     },
-
     "aiProcurement": {
       "placeholder": "Pod NDA",
       "tag": "Accenture",
-      "title": "AI nabava i upravljanje dobavlja\u010dima",
-      "nda": "Ovaj anga\u017eman je pod aktivnim NDA. Za opseg i odgovornosti pogledajte odjeljak <a href=\"#experience\">Iskustvo</a>:",
-      "roles": "UI/UX konzultant i dizajner prezentacija \u00b7 RFP/RFI & OSINT dubinska analiza dobavlja\u010da"
+      "title": "AI nabava i upravljanje dobavljačima",
+      "nda": "Ovaj angažman je pod aktivnim NDA. Za opseg i odgovornosti pogledajte odjeljak <a href=\"#experience\">Iskustvo</a>:",
+      "roles": "UI/UX konzultant i dizajner prezentacija · RFP/RFI & OSINT dubinska analiza dobavljača"
     },
-
     "iphone": {
-      "tag": "Retail \u00b7 Landing Page",
-      "title": "iPhone 7 prednarud\u017eba landing stranica",
-      "role": "Dizajner i developer \u00b7 Solo",
-      "desc": "Istra\u017eivanje tr\u017ei\u0161ta vodilo je minimalisti\u010dkom pristupu - pohrana umjesto specifikacija, UI uskla\u0111en s bojama, crna pozadina za luksuz. Nagra\u0111ena \u201eNajbolja promotivna landing stranica\u201c u Hrvatskoj (Appcom / Apple Partner, 2016).",
+      "tag": "Retail · Landing Page",
+      "title": "iPhone 7 prednarudžba landing stranica",
+      "role": "Dizajner i developer · Solo",
+      "desc": "Istraživanje tržišta vodilo je minimalističkom pristupu - pohrana umjesto specifikacija, UI usklađen s bojama, crna pozadina za luksuz. Nagrađena „Najbolja promotivna landing stranica“ u Hrvatskoj (Appcom / Apple Partner, 2016).",
       "btn": "Pogledaj demo"
     },
-    "galleryEra": "2009 \u2013 2017 \u00b7 Maloprodaja, freelance i vi\u0161e",
-    "galleryTitle": "Biblioteka grafi\u010dkog dizajna",
+    "galleryEra": "2009 – 2017 · Maloprodaja, freelance i više",
+    "galleryTitle": "Biblioteka grafičkog dizajna",
     "galleryDesc": "Promotivne kampanje, sezonski popusti, lansiranja proizvoda i brend materijali iz maloprodaje, dentalnog turizma i freelance rada.",
-    "galleryContext": "Prije dizajn sustava i biblioteka komponenti postojala je tiskara. Stotine kampanja proizvedenih brzinom maloprodaje - tjedni letci, sezonska lansiranja, natpisi u trgovini - sve gra\u0111eno u Photoshopu i Illustratoru, piksel po piksel. To je bio zanat prije frameworka. I iskreno? Photoshop i Illustrator su mi jo\u0161 uvijek najbolji prijatelji. Alati oko tebe se mijenjaju, ali oni koji su te nau\u010dili gledati nikad zapravo ne odu.",
+    "galleryContext": "Prije dizajn sustava i biblioteka komponenti postojala je tiskara. Stotine kampanja proizvedenih brzinom maloprodaje - tjedni letci, sezonska lansiranja, natpisi u trgovini - sve građeno u Photoshopu i Illustratoru, piksel po piksel. To je bio zanat prije frameworka. I iskreno? Photoshop i Illustrator su mi još uvijek najbolji prijatelji. Alati oko tebe se mijenjaju, ali oni koji su te naučili gledati nikad zapravo ne odu.",
     "galleryToggle": "Galerija",
-    "interiorEra": "2009. \u2013 2011. \u00b7 3D vizualizacija i dizajn interijera",
+    "interiorEra": "2009. – 2011. · 3D vizualizacija i dizajn interijera",
     "interiorTitle": "Od renderinga do stvarnosti",
-    "interiorDesc": "3D vizualizacije interijera izra\u0111ene u 3ds Maxu za ugostiteljske klijente - pa zatim i stvarno izgra\u0111ene. Fotografije niske rezolucije snimljene su mobitelima tog doba, ali prostori govore sami za sebe.",
+    "interiorDesc": "3D vizualizacije interijera izrađene u 3ds Maxu za ugostiteljske klijente - pa zatim i stvarno izgrađene. Fotografije niske rezolucije snimljene su mobitelima tog doba, ali prostori govore sami za sebe.",
     "interiorLabelRender": "3D rendering",
     "interiorLabelBuilt": "Izgrađeni rezultat",
     "interiorNote": "Night Bar Venecija, Zagreb - dizajniran i vizualiziran 2010., izgrađen iste godine.",
@@ -444,7 +468,6 @@
     "motionDesc": "Kinematička 3D animacija neuronske mreže - modelirana, rigirana i animirana u cijelosti u 3ds Maxu. Stvorena kao motion intro za medicinsko-tehnološku aplikaciju.",
     "motionTags": "3D modeliranje · Particle FX · Kinematska kamera · VFX kompoziting"
   },
-
   "contact": {
     "eyebrow": "Otvoren za prilike",
     "title": "Razgovarajmo o poziciji",
@@ -465,18 +488,16 @@
     "emailButton": "Pošaljite e-poštu",
     "linkedinButton": "Povežite se na LinkedInu"
   },
-
   "iphonePage": {
-    "back": "\u2190 Natrag na portfolio",
-    "barText": "Portfolio \u00b7 iPhone 7 prednarud\u017eba landing stranica \u00b7 2016",
-    "notesBtn": "Bilje\u0161ke o dizajnu",
-    "noteResearch": "<strong>Istra\u017eivanje i strategija</strong> - iPhone 7 bio je iterativno a\u017euriranje. Analiza tr\u017ei\u0161ta pokazala je da \u0107e kupovne odluke ovisiti primarno o kapacitetu pohrane, a ne o inkrementalnim hardverskim pobolj\u0161anjima poput rezolucije kamere. Ovaj uvid postao je klju\u010dni pokreta\u010d dizajna: prikazati samo informacije bitne u trenutku konverzije - model, boju i gigabajte.",
-    "noteDesign": "<strong>Dizajnerske odluke</strong> - Appleov hrvatski partner dostavio je slu\u017ebene smjernice za dizajn. Namjerno sam odstupio od njih. Umjesto layouta pretrpanih zna\u010dajkama, su\u010delje je svedeno na minimalne kru\u017ene gumbe koji predstavljaju razine pohrane, s hover stanjima koja odra\u017eavaju stvarnu boju zavr\u0161ne obrade telefona. Crna pozadina odabrana je kako bi nadopunila cinematski hero video i uspostavila premium ton.",
-    "noteOutcome": "<strong>Rezultat</strong> - Nagra\u0111ena \u201eNajbolja promotivna landing stranica\u201c u Hrvatskoj (Appcom / Apple Partner, 2016). Stranica je pridonijela najve\u0107em broju nacionalnih prednarud\u017ebi iPhonea 7 za tog trgovca.",
-    "heritageNote": "<em>Tekst o proizvodu ispod ostaje u izvornom hrvatskom. Ova stranica ru\u010dno je kodirana 2016. - svaki piksel postavljen s namjerom, svaka rije\u010d odabrana na jeziku na kojem se prodavao. Neke stvari bolje je ostaviti onakvima kakve su napravljene.</em>",
+    "back": "← Natrag na portfolio",
+    "barText": "Portfolio · iPhone 7 prednarudžba landing stranica · 2016",
+    "notesBtn": "Bilješke o dizajnu",
+    "noteResearch": "<strong>Istraživanje i strategija</strong> - iPhone 7 bio je iterativno ažuriranje. Analiza tržišta pokazala je da će kupovne odluke ovisiti primarno o kapacitetu pohrane, a ne o inkrementalnim hardverskim poboljšanjima poput rezolucije kamere. Ovaj uvid postao je ključni pokretač dizajna: prikazati samo informacije bitne u trenutku konverzije - model, boju i gigabajte.",
+    "noteDesign": "<strong>Dizajnerske odluke</strong> - Appleov hrvatski partner dostavio je službene smjernice za dizajn. Namjerno sam odstupio od njih. Umjesto layouta pretrpanih značajkama, sučelje je svedeno na minimalne kružne gumbe koji predstavljaju razine pohrane, s hover stanjima koja odražavaju stvarnu boju završne obrade telefona. Crna pozadina odabrana je kako bi nadopunila cinematski hero video i uspostavila premium ton.",
+    "noteOutcome": "<strong>Rezultat</strong> - Nagrađena „Najbolja promotivna landing stranica“ u Hrvatskoj (Appcom / Apple Partner, 2016). Stranica je pridonijela najvećem broju nacionalnih prednarudžbi iPhonea 7 za tog trgovca.",
+    "heritageNote": "<em>Tekst o proizvodu ispod ostaje u izvornom hrvatskom. Ova stranica ručno je kodirana 2016. - svaki piksel postavljen s namjerom, svaka riječ odabrana na jeziku na kojem se prodavao. Neke stvari bolje je ostaviti onakvima kakve su napravljene.</em>",
     "footer": "Landing stranicu dizajnirao i razvio Igor Pilicic, 2016."
   },
-
   "gdpr": {
     "title": "Vaša privatnost je važna",
     "text": "Ovaj portfolio ne koristi analitiku ni IP geolokaciju. Postavke jezika i teme spremaju se lokalno u vašem pregledniku.",
@@ -485,14 +506,12 @@
     "decline": "Odbij",
     "accept": "Prihvati"
   },
-
   "footer": {
     "copyright": "© {year} Standing Pillars - Igor Piličić. Sva prava pridržana.",
     "location": "Sjedište: Zagreb, Hrvatska",
     "privacy": "Privatnost",
     "imprint": "Impressum"
   },
-
   "notFound": {
     "title": "404 - Stranica nije pronađena | Standing Pillars",
     "tagline": "savjetovanje · dizajn · tehnologija",
@@ -500,5 +519,63 @@
     "description": "Stranica koju tražite ne postoji ili je premještena. Stupovi još stoje - samo ne ovdje.",
     "backHome": "Natrag na početnu",
     "copyright": "© 2026 Standing Pillars"
+  },
+  "ui": {
+    "heroLocation": "Zagreb, Hrvatska · 17+ godina iskustva",
+    "graphCaption": "Mapa povezanog iskustva",
+    "graphHelp": "Odaberite put ili dodirnite čvor na mapi.",
+    "proofEyebrow": "Od tvrdnje do dokaza",
+    "proofTitle": "Radovi, pa tek onda životopis.",
+    "proofDesc": "Kliknite područje i krenite prema onome što vam je važno. U enterprise studijama možete otvoriti i bilješke o dizajnerskim odlukama.",
+    "work1Title": "Produkt i procesi",
+    "work1Desc": "RCA · razvojni Figma dizajn",
+    "work2Title": "Vizualni dizajn",
+    "work2Desc": "Kampanje, identiteti i web",
+    "work3Title": "Tehnički eksperimenti",
+    "work3Desc": "Prototip enginea i igriva simulacija",
+    "proofStep1": "Problem",
+    "proofStep2": "Ograničenje",
+    "proofStep3": "Odluka",
+    "proofStep4": "Rezultat",
+    "figmaDisclosure": "O prikazanim Figma dizajnima",
+    "decisionToggle": "Prikaži dizajnerske odluke",
+    "decisionTitle": "Kako je metodologija postala radni proces",
+    "decisionIntro": "Četiri odluke vidljive u ovoj razvojnoj Figma verziji.",
+    "decision1Title": "Položaj unutar procesa",
+    "decision1Desc": "Oznaka 4/5 zadržava korisnika unutar cijelog RCA tijeka, umjesto da pojedinu metodu prikazuje kao izoliran obrazac.",
+    "decision2Title": "Smjernice u trenutku odluke",
+    "decision2Desc": "Kritičnost, najbolje prakse i referentni materijali prikazani su u samom radnom koraku.",
+    "decision3Title": "Metoda postaje sljedeća radnja",
+    "decision3Desc": "5W2H i Is/Is Not ponuđeni su kao strukturirani ulazi u definiranje problema, a ne kao odvojeni dokumenti.",
+    "decision4Title": "Cijeli put ostaje vidljiv",
+    "decision4Desc": "Kasniji koraci ostaju dostupni, ali sažeti. Tako je trenutačni zadatak u fokusu bez gubitka konteksta istrage.",
+    "practiceEyebrow": "Kako radim",
+    "practiceTitle": "Od pitanja do nečega što radi.",
+    "practiceStep1": "Slušam i uokvirujem",
+    "practiceStep2": "Mapiram i odlučujem",
+    "practiceStep3": "Izrađujem i provjeravam",
+    "practiceStep4": "Podržavam isporuku",
+    "methodDetail": "Kratko o mojoj metodi",
+    "expertiseDetail": "Područja stručnosti, detaljnije",
+    "toolsDetail": "Alati koje stvarno koristim",
+    "playable": "Da, ovo je stvarno igrivo."
+  },
+  "heroPaths": {
+    "kicker": "Tri ulaza. Isti način razmišljanja.",
+    "help": "Odaberite područje koje vam je najvažnije. Mapa će pokazati kako se ono povezuje s konkretnim radom.",
+    "productTitle": "Proizvodi i složeni procesi",
+    "productMeta": "UX · Enterprise · Pharma",
+    "visualTitle": "Vizualni dizajn i brend",
+    "visualMeta": "Kampanje · Web · Identitet",
+    "technicalTitle": "Tehnički eksperimenti",
+    "technicalMeta": "AI · Sustavi · Prototipi",
+    "productDesc": "Kad stručno znanje, regulativa i stvarni radni proces moraju postati jasan proizvod.",
+    "productCta": "Pogledajte enterprise studije",
+    "visualDesc": "Kad poruka mora privući pažnju, ostati jasna i raditi u stvarnom tržišnom kontekstu.",
+    "visualCta": "Otvorite biblioteku dizajna",
+    "technicalDesc": "Kad ideju treba strukturirati, ispitati njezine granice i izgraditi dokaz koji stvarno radi.",
+    "technicalCta": "Istražite engine",
+    "demoCta": "Pokrenite demo",
+    "aria": "Odaberite područje rada"
   }
 }

@@ -4,14 +4,13 @@
     "code": "de",
     "direction": "ltr"
   },
-
   "nav": {
     "about": "Über mich",
     "howIWork": "Arbeitsweise",
     "services": "Expertise",
     "experience": "Erfahrung",
     "aiEngineering": "Technikprojekt",
-    "caseStudies": "Fallstudien",
+    "caseStudies": "Arbeiten",
     "contact": "Kontakt",
     "tagline": "Professionelles Portfolio · Igor Pilicic",
     "allServices": "Gesamte Expertise",
@@ -19,11 +18,10 @@
     "aiProcurement": "KI-Beschaffung",
     "localBusiness": "Web- & Markendesign"
   },
-
   "hero": {
     "eyebrow": "Igor Pilicic",
     "title": "Senior UX/Product Designer, der <span class=\"highlight\">komplexe Arbeit verständlich macht</span>",
-    "subtitle": "Ich übersetze komplexe Abläufe und Fachwissen in klare digitale Produkte. Über 17 Jahre Erfahrung in UX, visuellem Design, Business-Analyse und Technologie helfen mir, unklare Anforderungen in nutzbare und umsetzbare Lösungen zu verwandeln.",
+    "subtitle": "Ich verwandle Fachwissen, unklare Anforderungen und technische Einschränkungen in digitale Produkte, die Nutzer verstehen, Teams umsetzen und Organisationen einführen können.",
     "tagline": "Meine Arbeit entdecken",
     "tagExperience": "Wo haben Sie gearbeitet?",
     "tagAiEng": "Ein unabhängiges Technikprojekt ansehen",
@@ -32,22 +30,20 @@
     "tagCases": "Ergebnisse ansehen",
     "tagContact": "Sprechen wir"
   },
-
   "followup": {
     "services": "→ Wo haben Sie gearbeitet?",
     "experience": "→ Ein unabhängiges Technikprojekt ansehen",
     "howIWork": "→ Was können Sie für mich tun?",
     "aiEng": "→ Den funktionsfähigen Proof of Concept ansehen",
     "demo": "→ Ergebnisse ansehen",
-    "cases": "→ Sprechen wir",
+    "cases": "→ Die Erfahrung hinter der Arbeit",
     "faq": "→ Andere Frage? Sprechen wir"
   },
-
   "heroGraph": {
     "design": "Design",
     "evaluate": "Bewerten",
     "build": "Bauen",
-    "localBusiness": "Lokale Unternehmen",
+    "localBusiness": "Visuelles Design",
     "userResearch": "Nutzerforschung",
     "atomicDesign": "Atomic Design",
     "scorecards": "Scorecards",
@@ -57,12 +53,12 @@
     "branding": "Branding",
     "localSeo": "Lokales SEO",
     "pharma": "Pharma",
-    "tipCore": "Br\u00fccke zwischen Mensch & Technologie",
+    "tipCore": "Brücke zwischen Mensch & Technologie",
     "tipDesign": "17+ Jahre Enterprise-UX",
     "tipEvaluate": "OSINT-Anbieter-Due-Diligence",
     "tipBuild": "Strukturierter KI-gestützter Prototyp",
-    "tipLocal": "Gleiche Qualit\u00e4t, zug\u00e4ngliche Preise",
-    "tipUx": "Interfaces f\u00fcr komplexe Systeme",
+    "tipLocal": "Visuelles Design, Web und Identität",
+    "tipUx": "Interfaces für komplexe Systeme",
     "tipFigma": "Prototyping & Design-Systeme",
     "tipResearch": "Stakeholder-Interviews & Tests",
     "tipFigjam": "Kollaboratives Whiteboarding",
@@ -84,7 +80,7 @@
     "tipSql": "Datenbankabfragen & Analytik",
     "tipPrompt": "KI-Prompt-Engineering",
     "tipWeb": "Websites, die funktionieren",
-    "tipBrand": "Logo & Identit\u00e4t",
+    "tipBrand": "Logo & Identität",
     "tipSeo": "Google Business & Sichtbarkeit",
     "tipWp": "CMS & individuelle Themes",
     "tipMagento": "E-Commerce-Plattform",
@@ -94,26 +90,31 @@
     "tipRoche": "Plattform für über 10.000 interne Nutzer",
     "tipAcc": "KI-Beschaffungs-Governance"
   },
-
   "about": {
-    "eyebrow": "Über mich",
-    "title": "Ein ungewöhnlicher Weg mit klarem Fokus",
-    "lead": "Ich bin Igor Pilicic, Senior UX/Product Designer mit Wohnsitz in Zagreb. Am meisten trage ich dort bei, wo Nutzer, Geschäftsprozesse und Technologie zusammentreffen, besonders wenn das Problem komplex und der Weg nach vorn noch unklar ist.",
-    "p1": "In über 17 Berufsjahren habe ich in visuellem Design, Web, E-Commerce, Enterprise UX, Business-Analyse, KI-Evaluierung und praktischer digitaler Umsetzung gearbeitet. Diese Breite hilft mir, das ganze System zu verstehen und <strong>Komplexität in klare, nutzbare und umsetzbare Lösungen zu übersetzen</strong>.",
+    "eyebrow": "Profil",
+    "title": "Design ist das Zentrum. Alles Weitere hilft mir, das gesamte System zu sehen.",
+    "lead": "Dort beginne ich: Ich höre Menschen zu, bilde die tatsächliche Arbeit ab, trenne Symptome von Ursachen und verwandle Erkenntnisse in eine Richtung, die Nutzer verstehen und ein Team umsetzen kann.",
+    "p1": "Mehr als 17 Jahre in visuellem Design, Web, Enterprise UX, Business-Analyse und Technologie geben mir die nötige Breite dafür.",
     "p2": "Bei <strong>Roche</strong> und <strong>Accenture</strong> kamen Forschung, Workflow-Design, visuelle Kommunikation, Moderation, Analyse und Implementierungsunterstützung in regulierter Enterprise-Arbeit zusammen. Standing Pillars ist mein persönliches Portfolio dieses Weges, mit <strong>Senior UX/Product Design als klarem beruflichen Mittelpunkt</strong>.",
     "personalEyebrow": "Abseits der Arbeit",
-    "personalText": "Ich löse gerne schwierige Probleme, erkenne Reibung, bevor sie teuer wird, und untersuche, wie Menschen, Prozesse und Technologie einander beeinflussen. Psychologie, Anthropologie und Soziologie helfen mir, die zwischenmenschliche Seite eines Problems und das Unausgesprochene wahrzunehmen. Abseits der Arbeit bin ich Ehemann und Vater. Ich interessiere mich für Astronomie und genieße Filme, Serien und Spiele - unterschiedliche Welten, verbunden durch dieselbe Neugier auf Menschen, Systeme und das, was als Nächstes passieren könnte.",
+    "personalText": "Psychologie, Anthropologie und Soziologie helfen mir, die zwischenmenschliche Seite von Problemen und das Ungesagte zu verstehen. Außerhalb der Arbeit bin ich Ehemann und Vater; ich interessiere mich für Astronomie und genieße Filme, Serien und Spiele.",
     "statYears": "Jahre Berufserfahrung",
     "statReach": "Implementierungsreife UI-Designs",
     "statUsers": "Interne Zielgruppe der Roche-RCA-Plattform",
     "statReporting": "Reduktion manueller Berichterstattung, zu der das Gesamtteam beitrug",
-    "statCode": "Unterstützte Engineers in drei Teams"
+    "statCode": "Unterstützte Engineers in drei Teams",
+    "signal": "Am meisten interessiert mich der Moment, in dem alle wissen, dass etwas nicht funktioniert, aber noch niemand genau sagen kann, warum.",
+    "principle1Title": "Ich lese zwischen den Zeilen",
+    "principle1Desc": "Was Menschen nicht sagen, zeigt oft genauer, wo ein Prozess tatsächlich ins Stocken gerät.",
+    "principle2Title": "Ich mache Entscheidungen sichtbar",
+    "principle2Desc": "Ich verwandle Anforderungen, Einschränkungen und Abwägungen in eine Richtung, die das Team verstehen und prüfen kann.",
+    "principle3Title": "Ich begleite die Idee bis zur Umsetzung",
+    "principle3Desc": "Design endet nicht mit der Übergabe von Screens. Ich unterstütze Umsetzung, Qualitätsprüfung und die Kommunikation von Entscheidungen.",
+    "availability": "Zagreb · offen für Vollzeit- oder Teilzeitbeschäftigung · vor Ort oder hybrid in Kroatien · international remote"
   },
-
   "clients": {
     "label": "Ausgewählte Organisationen und Kundenkontexte"
   },
-
   "availability": {
     "status": "Offen für Positionen in Kroatien",
     "title": "Senior UX/Product Design für komplexe Produkte und Abläufe",
@@ -125,7 +126,6 @@
     "tagOnsite": "Remote",
     "ctaPrimary": "Kontakt aufnehmen"
   },
-
   "whyMe": {
     "eyebrow": "Warum mit mir arbeiten",
     "title": "Was ich in ein Team einbringe",
@@ -142,7 +142,6 @@
     "card6Title": "In Zagreb, international erfahren",
     "card6Desc": "In Zagreb ansässig und erfahren in internationalen Teams in Österreich, Deutschland, der Schweiz und Kroatien. Offen für Vor-Ort-, Hybrid- und Remote-Arbeit."
   },
-
   "howIWork": {
     "eyebrow": "Meine Arbeitsweise",
     "title": "Vom unklaren Problem zur umsetzbaren Richtung",
@@ -160,7 +159,6 @@
     "localDesc": "Web, Marke, Motion und visuelle Kommunikation ergänzen meine Produkt- und Transformationserfahrung.",
     "thesis": "Mein Beitrag besteht darin, Technologie klarer, nutzbarer und vertrauenswürdiger zu machen."
   },
-
   "services": {
     "eyebrow": "Expertise",
     "title": "Breite Erfahrung mit einem klaren beruflichen Mittelpunkt",
@@ -168,48 +166,64 @@
     "mission": "Am meisten trage ich dort bei, wo komplexe Anforderungen in klare Entscheidungen, nutzbare Oberflächen und umsetzbare Schritte übersetzt werden müssen.",
     "tierEnterprise": "Kernkompetenz",
     "tierLocal": "Ergänzende Kompetenz",
-
     "pillar1Title": "Produkt- und UX-Design",
     "pillar1Desc": "Forschung, Workflow-Design, Prototyping und Design-Systeme für komplexe Produkte, basierend auf realer Nutzer- und Facharbeit.",
-    "pillar1Items": ["Nutzerforschung & Stakeholder-Interviews", "UX-Audits & Heuristische Evaluation", "Wireframing & Prototyping (Figma)", "Design-Systeme & Atomic UI", "Stakeholder-Workshops (50+ Teilnehmer)", "E2E Reporting & Analytics-Tools", "Visuelles Design & Markenstrategie", "2D/3D-Animation & Visualisierung"],
+    "pillar1Items": [
+      "Nutzerforschung & Stakeholder-Interviews",
+      "UX-Audits & Heuristische Evaluation",
+      "Wireframing & Prototyping (Figma)",
+      "Design-Systeme & Atomic UI",
+      "Stakeholder-Workshops (50+ Teilnehmer)",
+      "E2E Reporting & Analytics-Tools",
+      "Visuelles Design & Markenstrategie",
+      "2D/3D-Animation & Visualisierung"
+    ],
     "pillar1Connects": "Verbindet Nutzerbedürfnisse, Geschäftsregeln und Implementierungsrealität.",
     "pillar1Link": "UX-Design-Leistungen entdecken →",
-
     "pillar2Title": "Workflows, Bewertung und Entscheidungsunterstützung",
     "pillar2Desc": "Eine ergänzende Fähigkeit aus RFP/RFI-Arbeit, Scorecards, OSINT-Recherche, Risikoaufdeckung und entscheidungsreifen Materialien.",
-    "pillar2Items": ["OSINT Anbieter-Due-Diligence", "RFP/RFI-Entwicklung & Vorlagen", "Bewertungs-Scorecards & Matrizen", "Risikobewertung (Lock-in, DSGVO, GxP)", "Entscheidungsprotokolle & Nachverfolgbarkeit", "Führungskräfte-Materialien & C-Suite-Kommunikation"],
+    "pillar2Items": [
+      "OSINT Anbieter-Due-Diligence",
+      "RFP/RFI-Entwicklung & Vorlagen",
+      "Bewertungs-Scorecards & Matrizen",
+      "Risikobewertung (Lock-in, DSGVO, GxP)",
+      "Entscheidungsprotokolle & Nachverfolgbarkeit",
+      "Führungskräfte-Materialien & C-Suite-Kommunikation"
+    ],
     "pillar2Connects": "Verbindet Evidenz und Kompromisse mit klaren, nachvollziehbaren Entscheidungen.",
     "pillar2Link": "KI-Beschaffungsleistungen entdecken →",
     "pillar3Link": "Leistungen für lokale Unternehmen entdecken →",
-
     "pillar3Title": "Web-, Marken- & visuelles Design",
     "pillar3Desc": "Frühere Erfahrung in Web, E-Commerce, Branding, Motion Design und 3D ergänzt meine Arbeit in Enterprise UX und Technologie.",
-    "pillar3Items": ["Website-Design & -Entwicklung", "Logo & Markenidentität", "Google Business & lokale SEO-Einrichtung", "KI-Integration - nur wo sie hilft", "Ehrliche Tech-Beratung (kein Upselling)", "Laufender Support & Wartung"],
+    "pillar3Items": [
+      "Website-Design & -Entwicklung",
+      "Logo & Markenidentität",
+      "Google Business & lokale SEO-Einrichtung",
+      "KI-Integration - nur wo sie hilft",
+      "Ehrliche Tech-Beratung (kein Upselling)",
+      "Laufender Support & Wartung"
+    ],
     "pillar3Note": "Relevant für Teams, die einen Designer schätzen, der den Weg von der visuellen Identität bis zum funktionierenden digitalen Produkt versteht.",
     "pillar3Connects": "Verbindet visuelles Handwerk mit nutzbarer digitaler Umsetzung."
   },
-
   "experience": {
     "eyebrow": "Erfahrung",
     "title": "Über 17 Jahre Erfahrung, vereint in komplexen Umgebungen",
     "current": "Aktuell",
-
     "currentRoleDate": "Jun 2026 - Heute",
     "currentRoleTitle": "Aktueller beruflicher Fokus",
     "currentRoleCompany": "Standing Pillars - persönliches Portfolio · Zagreb, Kroatien",
     "currentRoleNote": "Persönliches Portfolio und unabhängige Projekte, keine aktuelle Beschäftigung. Ich suche Vollzeit- oder Teilzeitrollen mit Fokus auf komplexe Produkte und Workflows.",
-
     "job1Date": "Apr 2020 - Jun 2026",
     "job1Title": "Unabhängiger UX/Product Designer und Technologieberater",
     "job1Company": "Selbstständig unter dem rechtlichen Namen Igor Pilicic | Österreich",
     "job1Items": [
-      "UI/UX-Designf\u00fchrung: Nutzerforschung, UX-Audits, Wireframing, Prototyping in Figma und Live-Builds (POCs), Design-Systeme und Stakeholder-Workshops f\u00fcr Enterprise- und lokale Kunden.",
+      "UI/UX-Designführung: Nutzerforschung, UX-Audits, Wireframing, Prototyping in Figma und Live-Builds (POCs), Design-Systeme und Stakeholder-Workshops für Enterprise- und lokale Kunden.",
       "KI-Beschaffung & OSINT-Beratung: Anbieter-Due-Diligence, RFP/RFI-Pakete, Bewertungs-Scorecards, Governance-Frameworks und Executive-Materialien.",
-      "Digitales Design: visuelle Identit\u00e4t, Markenstrategie, 2D/3D-Modellierung und Animation (3ds Max), Motion Graphics und Werbeinhalte.",
-      "Webdesign & Entwicklung: responsive Websites, Landing Pages und Webanwendungen f\u00fcr Unternehmen jeder Gr\u00f6\u00dfe.",
+      "Digitales Design: visuelle Identität, Markenstrategie, 2D/3D-Modellierung und Animation (3ds Max), Motion Graphics und Werbeinhalte.",
+      "Webdesign & Entwicklung: responsive Websites, Landing Pages und Webanwendungen für Unternehmen jeder Größe.",
       "Unabhängige technische Arbeit: ein 2D-Engine- und Editor-Prototyp mit über 30K Zeilen in Entwicklung, erstellt durch strukturierte KI-gestützte Zusammenarbeit, mit einer <a href='#simulation-demo' class='u25-link'>funktionsfähigen Browser-Simulation</a>."
     ],
-
     "job2Date": "Apr 2024 - Aug 2025",
     "job2Title": "UI/UX-Berater & Präsentationsdesigner · RFP/RFI & OSINT-Anbieter-Due-Diligence",
     "job2Company": "Accenture · Kundenauftrag während der Selbstständigkeit · Remote | Wien, Österreich",
@@ -220,7 +234,6 @@
       "Beschaffung, Recht, Sicherheit und Engineering-Teams aufeinander abgestimmt; Workshops moderiert und führungskräftetaugliche Materialien produziert.",
       "Wiederkehrende Governance- und Review-Diskussionen mit nachvollziehbaren Materialien für funktionsübergreifende Entscheidungen unterstützt."
     ],
-
     "job3Date": "Jul 2022 - Apr 2023",
     "job3Title": "Lead UX Designer - Root-Cause-Analysis-Investigationsplattform",
     "job3Company": "Roche Diagnostics · Kundenauftrag während der Selbstständigkeit · Hybrid | Basel, Schweiz",
@@ -230,7 +243,6 @@
       "Für eine vorgesehene interne Zielgruppe von mehr als 10.000 Nutzern bei Roche Diagnostics gestaltet.",
       "Zusammenarbeit mit Fachexperten und Implementierungsteams in iterativen Design-Zyklen."
     ],
-
     "job4Date": "Apr 2020 - Jul 2022",
     "job4Title": "Lead UI/UX Designer - Regulatorisches Berichtstool",
     "job4Company": "Roche Pharmaceuticals · Kundenauftrag während der Selbstständigkeit · Hybrid | Penzberg, Deutschland",
@@ -241,7 +253,6 @@
       "Machbarkeitsstudie für BI-Tool-Integration durchgeführt; UX überarbeitet, um Redundanzen zu reduzieren.",
       "Interne Website entwickelt und Werbegrafiken/Videos erstellt zur Steigerung der Projektsichtbarkeit."
     ],
-
     "job5Date": "Jul 2015 - Mär 2017",
     "job5Title": "Marketing-Grafikdesigner & Webdesigner",
     "job5Company": "Harvey Norman · Teilzeit · Vor Ort | Zagreb, Kroatien",
@@ -250,7 +261,6 @@
       "Digitale Kampagnen mit Markenkonsistenz über responsive Lösungen geleitet.",
       "<strong>Auszeichnung: 'Beste Werbe-Landingpage'</strong> - Kroatien (Appcom / Apple Partner), 2016. iPhone-7-Kampagne trug zu den höchsten nationalen Verkaufszahlen bei."
     ],
-
     "job6Date": "Feb 2013 - Mär 2015",
     "job6Title": "Web- & Grafikdesigner",
     "job6Company": "Fazgram d.o.o · Vollzeit · Vor Ort | Zagreb, Kroatien",
@@ -258,7 +268,6 @@
       "Webdesign-Leitung für kroatischen Zahntourismus - WordPress + HTML/CSS mit Fokus auf UX und Conversion.",
       "Zusammenarbeit mit Zahnärzten zur Darstellung einzigartiger Wertversprechen, Verbesserung von Engagement und Konversionsraten."
     ],
-
     "job7Date": "Mär 2011 - Mai 2013",
     "job7Title": "E-Commerce-Manager",
     "job7Company": "Bimaco d.o.o · Vollzeit · Vor Ort | Zagreb, Kroatien",
@@ -276,7 +285,6 @@
       "2D-Motion-Graphics und Werbeanimationen für digitale und soziale Medien geliefert."
     ]
   },
-
   "skills": {
     "eyebrow": "Fähigkeiten & Tools",
     "title": "Das Werkzeug hinter der Arbeit",
@@ -286,11 +294,37 @@
     "catCollaboration": "Zusammenarbeit & Prozess",
     "catTechnical": "Technisch",
     "catSoft": "Soft Skills",
-    "designTags": ["User-Interface-Design", "User-Experience-Design", "Nutzerforschung", "Wireframing & Prototyping", "Digitale Grafikgestaltung", "Webdesign", "3D-Modellierung & Rendering", "Markenstrategie", "Animation", "Logo-Design"],
-    "procurementTags": ["OSINT-Anbieter-Due-Diligence", "RFP/RFI-Entwicklung", "Bewertungs-Scorecards", "Entscheidungsprotokolle & Nachverfolgbarkeit", "Risiko & Compliance (GxP)", "DSGVO-Bewusstsein", "Abteilungsübergreifende Abstimmung", "C-Suite-Kommunikation"],
-    "softTags": ["Problemlösung", "Stakeholder-Engagement", "Machbarkeitsstudien", "Präsentationsfähigkeiten", "Empathie", "Entscheidungsfindung"]
+    "designTags": [
+      "User-Interface-Design",
+      "User-Experience-Design",
+      "Nutzerforschung",
+      "Wireframing & Prototyping",
+      "Digitale Grafikgestaltung",
+      "Webdesign",
+      "3D-Modellierung & Rendering",
+      "Markenstrategie",
+      "Animation",
+      "Logo-Design"
+    ],
+    "procurementTags": [
+      "OSINT-Anbieter-Due-Diligence",
+      "RFP/RFI-Entwicklung",
+      "Bewertungs-Scorecards",
+      "Entscheidungsprotokolle & Nachverfolgbarkeit",
+      "Risiko & Compliance (GxP)",
+      "DSGVO-Bewusstsein",
+      "Abteilungsübergreifende Abstimmung",
+      "C-Suite-Kommunikation"
+    ],
+    "softTags": [
+      "Problemlösung",
+      "Stakeholder-Engagement",
+      "Machbarkeitsstudien",
+      "Präsentationsfähigkeiten",
+      "Empathie",
+      "Entscheidungsfindung"
+    ]
   },
-
   "aiEngineering": {
     "eyebrow": "Unabhängiges Technikprojekt",
     "title": "Eine Engine in Entwicklung durch strukturierte KI-Zusammenarbeit",
@@ -302,7 +336,6 @@
     "statFiles": "Modulare Dateien",
     "statSystems": "Hauptsysteme",
     "statDocs": "Dokumentationsdateien",
-
     "detailArchTitle": "Systemarchitektur",
     "detailArchDesc": "Engine-Registry + Event-Bus-Muster entkoppelt 29 Systeme. Modulares Design bedeutet: jedes System (Beleuchtung, Audio, NPCs, Scripting) kann unabhängig entwickelt, getestet und aktualisiert werden.",
     "detailValTitle": "Validierung & Leitplanken",
@@ -311,7 +344,6 @@
     "detailGovDesc": "Projektspezifische KI-Anweisungen definieren Persistenzprüfungen, Fehlerprävention, Architekturregeln und Implementierungsabläufe. Ergebnisse werden geprüft und getestet statt automatisch übernommen.",
     "detailProdTitle": "Implementierte Prototyp-Systeme",
     "detailProdDesc": "Raycast-Beleuchtung mit DDA-Schatten. KI-Zustandsmaschinen mit Fraktionszuordnung. 4-Kanal-Spatial-Audio. Szenenmanagement mit Map-Caching. 8-Typ-Logikgatter mit Schleifenprävention. Ein vollständiges Scripting-SDK mit Runtime-API.",
-
     "methodTitle": "Arbeitsweise: Strukturierte KI-gestützte Entwicklung",
     "method1Title": "Spezifizieren",
     "method1Desc": "Anforderungen mit der Präzision eines RFP definieren - Umfang, Einschränkungen, Erfolgskriterien, Integrationspunkte.",
@@ -321,55 +353,50 @@
     "method3Desc": "Copilot-Anweisungen, Feature-Manifeste, Validierungs-Checklisten. Die KI folgt Regeln, nicht Gefühlen.",
     "method4Title": "Validieren",
     "method4Desc": "Save-Validatoren, Roundtrip-Tests, dokumentierte Entscheidungen. Jede Änderung ist nachverfolgbar und vertretbar.",
-
     "ctaText": "Dieses Projekt ersetzt keine professionelle Engineering-Erfahrung. Es zeigt, wie ich <strong>strukturierte KI-Zusammenarbeit, Prüfung und Dokumentation</strong> nutze, um eine technisch komplexe persönliche Idee zu erforschen.",
     "ctaConnects": "Es ist ergänzende Evidenz für Systemdenken, Ausdauer und praktisches Prototyping.",
-
     "progressTitle": "SDK- & Editor-Fortschritt",
     "progressDesc": "Der Prototyp enthält 29 Hauptsysteme, aber das umfassendere Editor- und SDK-Konzept ist erst zu etwa 15% fertig. Der Proof of Concept unten ist ein kleiner Ausschnitt von rund 1.800 Zeilen."
   },
-
   "simulationDemo": {
     "eyebrow": "Live-Demo",
     "title": "Ein Proof of Concept aus der Engine",
-    "desc": "Zwei autonome NPCs wandern in diesem aus der Engine extrahierten Proof of Concept \u00fcber eine kleine Kachelkarte. Keine Skripte, keine Schienen - nur Sprite-Animation, Kollisionserkennung, Wetter und gelegentliche existenzielle Gedankenblasen. Ein kleiner Ausschnitt (~1.800 Zeilen) der 30.000+ Zeilen Engine, live im Betrieb.",
-    "caption": "\u2191 Ein kleiner Proof of Concept (~1.800 Zeilen), extrahiert aus der 30.000+ Zeilen Engine."
+    "desc": "Zwei autonome NPCs wandern in diesem aus der Engine extrahierten Proof of Concept über eine kleine Kachelkarte. Keine Skripte, keine Schienen - nur Sprite-Animation, Kollisionserkennung, Wetter und gelegentliche existenzielle Gedankenblasen. Ein kleiner Ausschnitt (~1.800 Zeilen) der 30.000+ Zeilen Engine, live im Betrieb.",
+    "caption": "↑ Ein kleiner Proof of Concept (~1.800 Zeilen), extrahiert aus der 30.000+ Zeilen Engine."
   },
-
-
   "caseStudies": {
     "eyebrow": "Fallstudien",
     "title": "Ausgewählte Arbeiten und Ergebnisse",
     "desc": "Ausgewählte Evidenz aus komplexen Produkten, visuellem Design und E-Commerce. Kundenfallstudien konzentrieren sich auf Rolle, Methoden und angemessen eingeordnete Ergebnisse.",
     "disclaimer": "Die Visuals in den Enterprise-Fallstudien sind in Figma erstellte Interface-Entwürfe aus der Entwicklungsphase, keine Screenshots eines implementierten oder produktiven Systems. Namen, Avatare, Kennungen und Szenarioinhalte sind fiktionalisiert; Produktions- oder personenbezogene Daten werden nicht gezeigt. Die finale Implementierung kann abweichen.",
     "rca": {
-      "tag": "Roche Diagnostics \u00b7 Penzberg, Deutschland",
-      "title": "Plattform zur Ursachenanalyse - Qualit\u00e4tssicherung in der Fertigung",
-      "role": "UX Design Lead & Business Analyst \u00b7 Unterst\u00fctzt von UI-Designern",
+      "tag": "Roche Diagnostics · Penzberg, Deutschland",
+      "title": "Plattform zur Ursachenanalyse - Qualitätssicherung in der Fertigung",
+      "role": "UX Design Lead & Business Analyst · Unterstützt von UI-Designern",
       "summary": "Leitung der UX-Arbeit für eine Untersuchungsplattform, die für eine interne Zielgruppe von mehr als 10.000 Nutzern konzipiert wurde. Fachrecherche und Methoden wie Fishbone, Is/Is Not und 5 Whys wurden in geführte, nachvollziehbare Workflows übersetzt.",
       "methodAtomic": "Atomic Design",
       "methodFishbone": "Fishbone",
       "methodIsIsNot": "Is/Is Not",
       "method5Whys": "5 Whys",
       "methodBA": "Business-Analyse",
-      "overviewTitle": "\u00dcbersicht",
-      "overviewP1": "Verbesserung der Ursachenanalyseprozesse innerhalb des Qualit\u00e4tssicherungsframeworks von Roche. Die Plattform f\u00fchrt Fertigungswissenschaftler und Ermittler durch systematische Probleml\u00f6sungsmethoden bei der Untersuchung ungeplanter Ereignisse in der pharmazeutischen Produktion.",
-      "contribTitle": "Kernbeitr\u00e4ge",
-      "contrib1": "<strong>Modulare Oberfl\u00e4che (Atomic Design)</strong> \u2013 Implementierung von Atomic-Design-Prinzipien f\u00fcr ein skalierbares, wiederverwendbares UI-Komponentenframework",
-      "contrib2": "<strong>Fishbone-Methodik-UI</strong> \u2013 Gestaltung einer Oberfl\u00e4che mit dem Ishikawa-Diagramm-Ansatz zur Identifikation von Ursachen f\u00fcr Fertigungsprobleme",
-      "contrib3": "<strong>Is/Is-Not-Analyse-UI</strong> \u2013 Erstellung eines Tools zur Unterscheidung spezifischer Problembedingungen durch Vergleich von Szenarien",
-      "contrib4": "<strong>5-Whys-Interface</strong> \u2013 Erstellung eines intuitiven Tools, das Ermittler durch iterative \u201eWarum\u201c-Fragen zu den Grundursachen f\u00fchrt",
-      "contrib5": "<strong>Untersuchungsmodal</strong> \u2013 Gestaltung der UI zur Erfassung zus\u00e4tzlicher Informationen w\u00e4hrend des Untersuchungsprozesses",
-      "contrib6": "<strong>Umfassende Prozessabbildung</strong> \u2013 Systematische Identifikation und Behebung von Ineffizienzen in bestehenden RCA-Prozessen",
-      "contrib7": "<strong>Stakeholder-Analyse & Advocacy</strong> \u2013 Eingehende Forschung zur Information und Unterst\u00fctzung von Systemverbesserungen",
-      "contrib8": "<strong>Change Management</strong> \u2013 Anwendung von Change-Management-Theorien zur Steuerung der Projektentwicklung",
+      "overviewTitle": "Übersicht",
+      "overviewP1": "Verbesserung der Ursachenanalyseprozesse innerhalb des Qualitätssicherungsframeworks von Roche. Die Plattform führt Fertigungswissenschaftler und Ermittler durch systematische Problemlösungsmethoden bei der Untersuchung ungeplanter Ereignisse in der pharmazeutischen Produktion.",
+      "contribTitle": "Kernbeiträge",
+      "contrib1": "<strong>Modulare Oberfläche (Atomic Design)</strong> – Implementierung von Atomic-Design-Prinzipien für ein skalierbares, wiederverwendbares UI-Komponentenframework",
+      "contrib2": "<strong>Fishbone-Methodik-UI</strong> – Gestaltung einer Oberfläche mit dem Ishikawa-Diagramm-Ansatz zur Identifikation von Ursachen für Fertigungsprobleme",
+      "contrib3": "<strong>Is/Is-Not-Analyse-UI</strong> – Erstellung eines Tools zur Unterscheidung spezifischer Problembedingungen durch Vergleich von Szenarien",
+      "contrib4": "<strong>5-Whys-Interface</strong> – Erstellung eines intuitiven Tools, das Ermittler durch iterative „Warum“-Fragen zu den Grundursachen führt",
+      "contrib5": "<strong>Untersuchungsmodal</strong> – Gestaltung der UI zur Erfassung zusätzlicher Informationen während des Untersuchungsprozesses",
+      "contrib6": "<strong>Umfassende Prozessabbildung</strong> – Systematische Identifikation und Behebung von Ineffizienzen in bestehenden RCA-Prozessen",
+      "contrib7": "<strong>Stakeholder-Analyse & Advocacy</strong> – Eingehende Forschung zur Information und Unterstützung von Systemverbesserungen",
+      "contrib8": "<strong>Change Management</strong> – Anwendung von Change-Management-Theorien zur Steuerung der Projektentwicklung",
       "methTitle": "Untersuchungsmethoden",
       "methFishboneTitle": "Fishbone (Ishikawa)",
-      "methFishboneDesc": "Visuelle Ursache-Wirkungs-Diagramm-Oberfl\u00e4che zur Kategorisierung potenzieller Ursachen von Fertigungsproblemen in systematische Gruppen.",
+      "methFishboneDesc": "Visuelle Ursache-Wirkungs-Diagramm-Oberfläche zur Kategorisierung potenzieller Ursachen von Fertigungsproblemen in systematische Gruppen.",
       "methIsIsNotTitle": "Is / Is Not",
       "methIsIsNotDesc": "Vergleichendes Analysetool zur Unterscheidung spezifischer Problemeigenschaften durch Untersuchung von Ort, Zeit und Art des Auftretens.",
       "meth5WhysTitle": "5 Whys",
-      "meth5WhysDesc": "Sequenzielle Frageschnittstelle, die Ermittler durch iterative Kausalit\u00e4tsebenen zur wahren Grundursache f\u00fchrt.",
+      "meth5WhysDesc": "Sequenzielle Frageschnittstelle, die Ermittler durch iterative Kausalitätsebenen zur wahren Grundursache führt.",
       "galleryTitle": "Ausgewählte Interface-Entwürfe aus der Entwicklungsphase",
       "galleryNote": "Während der Produktentwicklung in Figma erstellt. Alle dargestellten Namen, Avatare, IDs und Szenarioinhalte sind fiktionalisiert. Zum Vergrößern auf ein Bild klicken.",
       "capUnplanned": "Ursachenprüfung - fiktionalisiertes Szenario",
@@ -380,9 +407,8 @@
       "outcomeTitle": "Ergebnis",
       "outcomeP1": "Die Plattform wurde für eine vorgesehene interne Zielgruppe von mehr als 10.000 Nutzern bereitgestellt. Mein Beitrag schuf wiederverwendbare Interface-Muster und übersetzte mehrere Untersuchungsmethoden gemeinsam mit Fachexperten und Implementierungsteams in geführte Workflows."
     },
-
     "ia": {
-      "tag": "Roche Pharmaceuticals \u00b7 Penzberg, Deutschland",
+      "tag": "Roche Pharmaceuticals · Penzberg, Deutschland",
       "title": "Regulatorisches Reporting-Tool",
       "role": "Lead UI/UX Designer · Funktionsübergreifende Umsetzung",
       "summary": "Leitung des UI/UX-Designs für ein Produkt für Intelligent Authoring und regulatorisches Reporting. Rund 120 UI-Designs und ein wiederverwendbares Design-System für Dashboards, strukturierte Dokumente, Metadaten, Berechtigungen und Reporting-Workflows.",
@@ -390,19 +416,19 @@
       "methodRbac": "RBAC-System",
       "methodPrototyping": "Iteratives Prototyping",
       "methodUsability": "Usability-Testing",
-      "overviewTitle": "\u00dcbersicht",
+      "overviewTitle": "Übersicht",
       "overviewP1": "Gestaltung von Workflows und Interface-Mustern für pharmazeutisches Dokumentenmanagement, darunter Dashboards, Metadatenvererbung, rollenbasierte Berechtigungen, Dokumentbeziehungen, Versionierung, Validierungszustände und Reporting-Ansichten.",
       "overviewP2": "Die Rolle umfasste Workflow-Analyse, Machbarkeitsgespräche, Stakeholder-Abstimmung, umsetzungsreife Arbeitspakete und Enablement-Materialien für Engineering-Teams.",
-      "contribTitle": "Kernbeitr\u00e4ge",
-      "contrib1": "<strong>Ergonomisches Dashboard</strong> \u2013 Anwendung von HCI-Prinzipien f\u00fcr eine benutzerfreundliche Projekt\u00fcbersicht mit Einstellungen, Favoriten und DAMAS/MDMS-Links",
+      "contribTitle": "Kernbeiträge",
+      "contrib1": "<strong>Ergonomisches Dashboard</strong> – Anwendung von HCI-Prinzipien für eine benutzerfreundliche Projektübersicht mit Einstellungen, Favoriten und DAMAS/MDMS-Links",
       "contrib2": "<strong>Rollenbasierte Workflows</strong> - Gestaltung von Oberflächen und Interaktionsregeln für Berechtigungen, kontrollierte Zusammenarbeit und nachvollziehbare Aktionen",
-      "contrib3": "<strong>Metadaten-Auswahl</strong> \u2013 Gestaltung von Schnittstellen zur Auswahl vielf\u00e4ltiger Projekt-Metadaten",
-      "contrib4": "<strong>Prozessvalidierungsberichte</strong> \u2013 Erstellung spezialisierter UIs einschlie\u00dflich Chromatographie-Berichtskomponenten",
+      "contrib3": "<strong>Metadaten-Auswahl</strong> – Gestaltung von Schnittstellen zur Auswahl vielfältiger Projekt-Metadaten",
+      "contrib4": "<strong>Prozessvalidierungsberichte</strong> – Erstellung spezialisierter UIs einschließlich Chromatographie-Berichtskomponenten",
       "contrib5": "<strong>Informationsabruf</strong> - Gestaltung von Filter- und Suchinteraktionen für komplexe Projekt- und Dokumentinformationen",
-      "contrib6": "<strong>Responsives Design</strong> \u2013 Nahtlose Erfahrung \u00fcber verschiedene Plattformen und Ger\u00e4te",
-      "contrib7": "<strong>Werbematerialien</strong> \u2013 Produktion von Video- und Marketingcontent (gem\u00e4\u00df SMART Process Design)",
+      "contrib6": "<strong>Responsives Design</strong> – Nahtlose Erfahrung über verschiedene Plattformen und Geräte",
+      "contrib7": "<strong>Werbematerialien</strong> – Produktion von Video- und Marketingcontent (gemäß SMART Process Design)",
       "processTitle": "Prozess & Zusammenarbeit",
-      "processP1": "Enge Zusammenarbeit mit Product Owners, Fachexperten und Ingenieuren mittels draw.io f\u00fcr Systemarchitektur-Mapping, Organisationshierarchie-Dokumentation und Wireframe-Entwicklung.",
+      "processP1": "Enge Zusammenarbeit mit Product Owners, Fachexperten und Ingenieuren mittels draw.io für Systemarchitektur-Mapping, Organisationshierarchie-Dokumentation und Wireframe-Entwicklung.",
       "galleryTitle": "Ausgewählte Interface-Entwürfe aus der Entwicklungsphase",
       "galleryNote": "Während der Produktentwicklung in Figma erstellt. Alle dargestellten Namen, Avatare, IDs und Szenarioinhalte sind fiktionalisiert. Zum Vergrößern auf ein Bild klicken.",
       "capDashboard": "Projekt-Dashboard - fiktionalisierte Inhalte",
@@ -412,30 +438,28 @@
       "outcomeTitle": "Ergebnis",
       "outcomeP1": "Rund 120 UI-Designs und ein breiteres wiederverwendbares Design-System erstellt, etwa 50 Engineers in drei Teams unterstützt und gemeinsam mit dem breiteren Produktteam zu einer Reduktion des manuellen Reportings um mehr als 30% beigetragen."
     },
-
     "aiProcurement": {
       "placeholder": "Unter NDA",
       "tag": "Accenture",
       "title": "KI-Beschaffung & Anbieter-Governance",
-      "nda": "Dieses Engagement unterliegt einer aktiven Geheimhaltungsvereinbarung. F\u00fcr Umfang und Verantwortlichkeiten siehe den Abschnitt <a href=\"#experience\">Erfahrung</a>:",
-      "roles": "UI/UX-Berater & Pr\u00e4sentationsdesigner \u00b7 RFP/RFI & OSINT-Anbieter-Due-Diligence"
+      "nda": "Dieses Engagement unterliegt einer aktiven Geheimhaltungsvereinbarung. Für Umfang und Verantwortlichkeiten siehe den Abschnitt <a href=\"#experience\">Erfahrung</a>:",
+      "roles": "UI/UX-Berater & Präsentationsdesigner · RFP/RFI & OSINT-Anbieter-Due-Diligence"
     },
-
     "iphone": {
-      "tag": "Retail \u00b7 Landing Page",
+      "tag": "Retail · Landing Page",
       "title": "iPhone 7 Vorbestell-Landing-Page",
-      "role": "Designer & Entwickler \u00b7 Solo",
-      "desc": "Marktforschung f\u00fchrte zu einem minimalistischen Ansatz - Speicher statt Specs, farblich abgestimmte UI, schwarzer Hintergrund f\u00fcr Luxus. Ausgezeichnet als \u201eBeste Werbe-Landing-Page\u201c in Kroatien (Appcom / Apple Partner, 2016).",
+      "role": "Designer & Entwickler · Solo",
+      "desc": "Marktforschung führte zu einem minimalistischen Ansatz - Speicher statt Specs, farblich abgestimmte UI, schwarzer Hintergrund für Luxus. Ausgezeichnet als „Beste Werbe-Landing-Page“ in Kroatien (Appcom / Apple Partner, 2016).",
       "btn": "Live-Demo ansehen"
     },
-    "galleryEra": "2009 \u2013 2017 \u00b7 Einzelhandel, Freelance & mehr",
+    "galleryEra": "2009 – 2017 · Einzelhandel, Freelance & mehr",
     "galleryTitle": "Grafikdesign-Bibliothek",
     "galleryDesc": "Werbekampagnen, saisonale Sales, Produktlaunches und Markenmaterialien aus Einzelhandel, Zahntourismus und Freelance-Arbeit.",
-    "galleryContext": "Vor Design-Systemen und Komponentenbibliotheken gab es die Druckerei. Hunderte Kampagnen im Einzelhandelstempo produziert - w\u00f6chentliche Flyer, saisonale Launches, Beschilderung im Laden - alles in Photoshop und Illustrator gebaut, Pixel f\u00fcr Pixel. Das war das Handwerk vor dem Framework. Und ehrlich? Photoshop und Illustrator sind immer noch meine besten Freunde. Die Tools um einen herum \u00e4ndern sich, aber die, die einem das Sehen beigebracht haben, gehen nie wirklich.",
+    "galleryContext": "Vor Design-Systemen und Komponentenbibliotheken gab es die Druckerei. Hunderte Kampagnen im Einzelhandelstempo produziert - wöchentliche Flyer, saisonale Launches, Beschilderung im Laden - alles in Photoshop und Illustrator gebaut, Pixel für Pixel. Das war das Handwerk vor dem Framework. Und ehrlich? Photoshop und Illustrator sind immer noch meine besten Freunde. Die Tools um einen herum ändern sich, aber die, die einem das Sehen beigebracht haben, gehen nie wirklich.",
     "galleryToggle": "Galerie",
-    "interiorEra": "2009 \u2013 2011 \u00b7 3D-Visualisierung & Innenarchitektur",
-    "interiorTitle": "Vom Rendering zur Realit\u00e4t",
-    "interiorDesc": "3D-Innenraumvisualisierungen in 3ds Max f\u00fcr Gastronomiekunden erstellt - und dann tats\u00e4chlich gebaut. Die niedrig aufgel\u00f6sten Fotos wurden mit Handys jener \u00c4ra aufgenommen, aber die R\u00e4ume sprechen f\u00fcr sich.",
+    "interiorEra": "2009 – 2011 · 3D-Visualisierung & Innenarchitektur",
+    "interiorTitle": "Vom Rendering zur Realität",
+    "interiorDesc": "3D-Innenraumvisualisierungen in 3ds Max für Gastronomiekunden erstellt - und dann tatsächlich gebaut. Die niedrig aufgelösten Fotos wurden mit Handys jener Ära aufgenommen, aber die Räume sprechen für sich.",
     "interiorLabelRender": "3D-Rendering",
     "interiorLabelBuilt": "Gebautes Ergebnis",
     "interiorNote": "Night Bar Venecija, Zagreb - 2010 entworfen und visualisiert, im selben Jahr gebaut.",
@@ -444,7 +468,6 @@
     "motionDesc": "Kinematische 3D-Animation eines neuronalen Netzwerks - vollständig in 3ds Max modelliert, geriggt und animiert. Erstellt als Motion-Intro für eine medizintechnische Anwendung.",
     "motionTags": "3D-Modellierung · Partikel-FX · Kinematische Kamera · VFX-Compositing"
   },
-
   "contact": {
     "eyebrow": "Kontakt",
     "title": "Lassen Sie uns über eine Position sprechen",
@@ -465,18 +488,16 @@
     "emailButton": "E-Mail senden",
     "linkedinButton": "Auf LinkedIn vernetzen"
   },
-
   "iphonePage": {
-    "back": "\u2190 Zur\u00fcck zum Portfolio",
-    "barText": "Portfoliost\u00fcck \u00b7 iPhone 7 Vorbestell-Landing-Page \u00b7 2016",
+    "back": "← Zurück zum Portfolio",
+    "barText": "Portfoliostück · iPhone 7 Vorbestell-Landing-Page · 2016",
     "notesBtn": "Design-Notizen",
-    "noteResearch": "<strong>Recherche & Strategie</strong> - Das iPhone 7 war ein iteratives Update. Die Marktanalyse zeigte, dass Kaufentscheidungen haupts\u00e4chlich von der Speicherkapazit\u00e4t abh\u00e4ngen w\u00fcrden, nicht von schrittweisen Hardware-Verbesserungen wie der Kameraaufl\u00f6sung. Diese Erkenntnis wurde zum zentralen Designtreiber: Nur die Information zeigen, die am Kaufpunkt z\u00e4hlt - Modell, Farbe und Gigabyte.",
-    "noteDesign": "<strong>Design-Entscheidungen</strong> - Apples kroatischer Partner lieferte offizielle Designrichtlinien. Ich wich bewusst davon ab. Statt funktions\u00fcberladener Layouts wurde die Oberfl\u00e4che auf minimale kreisf\u00f6rmige Buttons f\u00fcr Speicherstufen reduziert, mit Hover-Zust\u00e4nden, die die tats\u00e4chliche Finish-Farbe widerspiegeln. Der schwarze Hintergrund wurde gew\u00e4hlt, um das cineastische Hero-Video zu erg\u00e4nzen und einen Premium-Ton zu setzen.",
-    "noteOutcome": "<strong>Ergebnis</strong> - Ausgezeichnet als \u201eBeste Werbe-Landing-Page\u201c in Kroatien (Appcom / Apple Partner, 2016). Die Seite trug zu den h\u00f6chsten nationalen iPhone-7-Vorbestellungen des H\u00e4ndlers bei.",
-    "heritageNote": "<em>Der Produkttext unten bleibt im kroatischen Original. Diese Seite wurde 2016 von Hand programmiert - jedes Pixel mit Absicht gesetzt, jedes Wort in der Sprache gew\u00e4hlt, in der es verkauft wurde. Manche Dinge l\u00e4sst man besser so, wie sie gemacht wurden.</em>",
+    "noteResearch": "<strong>Recherche & Strategie</strong> - Das iPhone 7 war ein iteratives Update. Die Marktanalyse zeigte, dass Kaufentscheidungen hauptsächlich von der Speicherkapazität abhängen würden, nicht von schrittweisen Hardware-Verbesserungen wie der Kameraauflösung. Diese Erkenntnis wurde zum zentralen Designtreiber: Nur die Information zeigen, die am Kaufpunkt zählt - Modell, Farbe und Gigabyte.",
+    "noteDesign": "<strong>Design-Entscheidungen</strong> - Apples kroatischer Partner lieferte offizielle Designrichtlinien. Ich wich bewusst davon ab. Statt funktionsüberladener Layouts wurde die Oberfläche auf minimale kreisförmige Buttons für Speicherstufen reduziert, mit Hover-Zuständen, die die tatsächliche Finish-Farbe widerspiegeln. Der schwarze Hintergrund wurde gewählt, um das cineastische Hero-Video zu ergänzen und einen Premium-Ton zu setzen.",
+    "noteOutcome": "<strong>Ergebnis</strong> - Ausgezeichnet als „Beste Werbe-Landing-Page“ in Kroatien (Appcom / Apple Partner, 2016). Die Seite trug zu den höchsten nationalen iPhone-7-Vorbestellungen des Händlers bei.",
+    "heritageNote": "<em>Der Produkttext unten bleibt im kroatischen Original. Diese Seite wurde 2016 von Hand programmiert - jedes Pixel mit Absicht gesetzt, jedes Wort in der Sprache gewählt, in der es verkauft wurde. Manche Dinge lässt man besser so, wie sie gemacht wurden.</em>",
     "footer": "Landing Page gestaltet und entwickelt von Igor Pilicic, 2016."
   },
-
   "gdpr": {
     "title": "Ihre Privatsphäre ist uns wichtig",
     "text": "Dieses Portfolio verwendet weder Analysen noch IP-Geolokalisierung. Sprach- und Designeinstellungen werden lokal in Ihrem Browser gespeichert.",
@@ -485,14 +506,12 @@
     "decline": "Ablehnen",
     "accept": "Akzeptieren"
   },
-
   "footer": {
     "copyright": "© {year} Standing Pillars - Igor Pilicic. Alle Rechte vorbehalten.",
     "location": "Standort: Zagreb, Kroatien",
     "privacy": "Datenschutz",
     "imprint": "Impressum"
   },
-
   "notFound": {
     "title": "404 - Seite nicht gefunden | Standing Pillars",
     "tagline": "Beratung · Design · Technologie",
@@ -500,5 +519,63 @@
     "description": "Die Seite, die Sie suchen, existiert nicht oder wurde verschoben. Die Säulen stehen noch - nur nicht hier.",
     "backHome": "Zurück zur Startseite",
     "copyright": "© 2026 Standing Pillars"
+  },
+  "ui": {
+    "heroLocation": "Zagreb, Kroatien · 17+ Jahre Erfahrung",
+    "graphCaption": "Eine Karte vernetzter Erfahrung",
+    "graphHelp": "Wählen Sie einen Bereich oder tippen Sie auf einen Knoten.",
+    "proofEyebrow": "Von der Aussage zum Beleg",
+    "proofTitle": "Die Arbeit, dann der Lebenslauf.",
+    "proofDesc": "Wählen Sie die Arbeit, die für Sie relevant ist. In den Enterprise-Fallstudien können Sie auch die Designentscheidungen erkunden.",
+    "work1Title": "Produkte und Abläufe",
+    "work1Desc": "RCA · Figma-Entwurf aus der Entwicklung",
+    "work2Title": "Visuelles Design",
+    "work2Desc": "Kampagnen, Identität und Web",
+    "work3Title": "Technische Experimente",
+    "work3Desc": "Engine-Prototyp und spielbare Simulation",
+    "proofStep1": "Problem",
+    "proofStep2": "Einschränkung",
+    "proofStep3": "Entscheidung",
+    "proofStep4": "Ergebnis",
+    "figmaDisclosure": "Über die gezeigten Figma-Entwürfe",
+    "decisionToggle": "Designentscheidungen anzeigen",
+    "decisionTitle": "Wie aus der Methodik ein Arbeitsablauf wurde",
+    "decisionIntro": "Vier Entscheidungen, die in diesem Figma-Entwurf aus der Entwicklungsphase sichtbar sind.",
+    "decision1Title": "Position im Prozess",
+    "decision1Desc": "Die Markierung 4/5 orientiert Nutzer im gesamten RCA-Ablauf, statt die Methode als isoliertes Formular zu zeigen.",
+    "decision2Title": "Hinweise im Entscheidungsmoment",
+    "decision2Desc": "Kritikalität, Best Practices und Referenzmaterial erscheinen direkt im jeweiligen Arbeitsschritt.",
+    "decision3Title": "Aus einer Methode wird die nächste Handlung",
+    "decision3Desc": "5W2H und Is/Is Not dienen als strukturierte Einstiegspunkte für die Problemdefinition, nicht als separate Dokumente.",
+    "decision4Title": "Der gesamte Weg bleibt sichtbar",
+    "decision4Desc": "Spätere Schritte bleiben verfügbar, aber eingeklappt. Dadurch bleibt die aktuelle Aufgabe im Fokus, ohne den Untersuchungskontext zu verlieren.",
+    "practiceEyebrow": "Meine Arbeitsweise",
+    "practiceTitle": "Von einer Frage zu etwas, das funktioniert.",
+    "practiceStep1": "Zuhören und einordnen",
+    "practiceStep2": "Abbilden und entscheiden",
+    "practiceStep3": "Erstellen und prüfen",
+    "practiceStep4": "Umsetzung unterstützen",
+    "methodDetail": "Meine Methode in Kürze",
+    "expertiseDetail": "Kompetenzbereiche im Detail",
+    "toolsDetail": "Werkzeuge, die ich tatsächlich nutze",
+    "playable": "Ja, das ist tatsächlich spielbar."
+  },
+  "heroPaths": {
+    "kicker": "Drei Einstiege. Eine Denkweise.",
+    "help": "Wählen Sie, was für Sie am wichtigsten ist. Die Karte zeigt die Verbindung zu konkreter Arbeit.",
+    "productTitle": "Produkte und komplexe Abläufe",
+    "productMeta": "UX · Enterprise · Pharma",
+    "visualTitle": "Visuelles Design und Marke",
+    "visualMeta": "Kampagnen · Web · Identität",
+    "technicalTitle": "Technische Experimente",
+    "technicalMeta": "AI · Systeme · Prototypen",
+    "productDesc": "Wenn Fachwissen, Regulierung und reale Arbeitsabläufe zu einem klaren Produkt werden müssen.",
+    "productCta": "Enterprise-Fallstudien ansehen",
+    "visualDesc": "Wenn eine Botschaft Aufmerksamkeit gewinnen, klar bleiben und im realen Markt funktionieren muss.",
+    "visualCta": "Designarchiv öffnen",
+    "technicalDesc": "Wenn eine Idee Struktur braucht, ihre Grenzen getestet und ein funktionierender Nachweis gebaut werden muss.",
+    "technicalCta": "Engine entdecken",
+    "demoCta": "Demo starten",
+    "aria": "Arbeitsbereich auswählen"
   }
 }
