@@ -209,6 +209,19 @@
     "pillar3Connects": "Povezuje vizualnu vještinu s upotrebljivom digitalnom isporukom."
   },
   "experience": {
+    "currentSummary": "Razvijam vlastite digitalne proizvode, UX prototipe i Tiny Humans engine kroz strukturiranu suradnju s AI alatima.",
+    "moreRole": "Detaljnije o ulozi",
+    "jobSummaries": {
+      "job1": "Samostalni dizajn i tehnološko savjetovanje za enterprise i lokalne klijente: UX, web, vizualna komunikacija i procjena AI rješenja.",
+      "job2": "Procjena AI dobavljača i priprema RFP/RFI paketa, kriterija evaluacije i prezentacija za izvršne odluke.",
+      "job3": "Vođenje UX dizajna platforme za analizu uzroka odstupanja u farmaceutskoj proizvodnji.",
+      "job4": "Vođenje UI/UX dizajna za Intelligent Authoring i regulatorni proizvod za izvještavanje.",
+      "job5": "Grafički i web dizajn za maloprodajne kampanje, landing stranice i promotivne materijale.",
+      "job6": "Web dizajn za Hrvatski dentalni turizam, uz WordPress, HTML/CSS i suradnju sa stomatološkim timovima.",
+      "job7": "Upravljanje Magento web trgovinom, digitalni marketing te web i grafički dizajn.",
+      "job8": "Web stranice, tiskani materijali, 3D vizualizacije interijera i animacije za lokalne klijente."
+    },
+    "clientContextNote": "Podržavao regulirane farmaceutske klijentske kontekste kroz Accenture bez predstavljanja tih organizacija kao izravnih poslodavaca ili izravnih ugovora.",
     "eyebrow": "Iskustvo",
     "title": "17+ godina iskustva koje se spojilo u složenim okruženjima",
     "current": "Trenutno",

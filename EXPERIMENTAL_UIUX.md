@@ -99,5 +99,16 @@ Hero > Profile > Work > Experience > Working method and toolbox > Engine > Simul
 - Checks cover four widths from 320 to 1440px, all three languages, both themes, native mouse/keyboard toggling, live language switching with details open, retained technical content and visible prototype status. No horizontal overflow, unresolved translations, duplicate IDs or JavaScript errors were found.
 - Verified that the simulation and all other sections remain byte-for-byte unchanged, apart from the stylesheet cache version. No commit, push or deployment in this pass.
 
-Preview: `http://localhost:3000/hr/?review=engine-compact-1#ai-engineering`.
+## Compact experience review, 2026-10-24
+
+- Saved the approved compact engine work as local checkpoint `a90bfd7` before this pass. Experience refinements remain uncommitted for local review.
+- Retained all nine timeline entries, with existing role titles, dates, organizations, legal self-employment wording and client-contract context. The two Roche projects remain separate entries.
+- Each past role now has one short visible contribution summary and a native, closed-by-default disclosure for full role details. The current personal-project entry has a shorter summary without employment-seeking language. Original responsibility bullets remain available without rewriting or duplication.
+- Kept the RCA adoption statement visibly attributed to later colleague feedback, the reporting-effort result attributed to the wider product team, and the Harvey Norman award visible outside every disclosure.
+- Added translated summaries and role-detail labels in HR, EN and DE. Accenture's existing client-context note now also translates when language is switched. Disclosure labels include their role heading for accessible identification.
+- Reduced card padding and spacing within the experience section; no fonts were reduced and no additional effects were added. At 390px, HR default section height changed from 6,035px to 3,634px and visible text from 699 to 399 words.
+- Checks cover four widths from 320 to 1440px, both themes, every role disclosure, keyboard toggling, live language changes, visible award and qualified outcomes, separate Roche entries, translation keys and duplicate IDs. No horizontal overflow or JavaScript errors were found.
+- Source comparison confirms that all prior responsibility bullets are retained and all other page sections, including the engine and simulation, are unchanged apart from the stylesheet cache version. No push or deployment.
+
+Preview: `http://localhost:3000/hr/?review=experience-compact-1#experience`.
 Cloudflare deployment remains a separate, user-approved step.

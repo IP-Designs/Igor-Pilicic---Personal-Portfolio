@@ -45,7 +45,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../styles.css?v=6e1760e2">
-  <link rel="stylesheet" href="../experimental.css?v=engine-compact-1">
+  <link rel="stylesheet" href="../experimental.css?v=experience-compact-1">
 
   <!-- JSON-LD Structured Data -->
   <script type="application/ld+json">
@@ -675,7 +675,7 @@
       </div>
       <div class="timeline">
         <!-- Current portfolio and employment focus -->
-        <div class="timeline-item">
+        <div class="timeline-item" data-experience-role="current">
           <div class="timeline-marker current"></div>
           <div class="timeline-content">
             <div class="timeline-header">
@@ -684,142 +684,190 @@
             </div>
             <h3 data-i18n="experience.currentRoleTitle">Samostalni projekti i razvoj proizvoda</h3>
             <p class="timeline-company" data-i18n="experience.currentRoleCompany">Standing Pillars - osobni portfolio · Zagreb, Hrvatska</p>
-            <p data-i18n="experience.currentRoleNote">Razvijam osobne digitalne proizvode i prototipe, uključujući Tiny Humans engine i simulaciju. Kroz UX, dizajn radnih procesa i strukturiranu AI suradnju provjeravam ideje od zahtjeva do funkcionalnog prototipa.</p>
+            <p class="experience-current-summary" data-i18n="experience.currentSummary">Razvijam vlastite digitalne proizvode, UX prototipe i Tiny Humans engine kroz strukturiranu suradnju s AI alatima.</p>
           </div>
         </div>
         <!-- Self-employed -->
-        <div class="timeline-item">
+        <div class="timeline-item" data-experience-role="job1">
           <div class="timeline-marker"></div>
           <div class="timeline-content">
             <div class="timeline-header">
               <span class="timeline-date" data-i18n="experience.job1Date">Tra 2020 - Lip 2026</span>
             </div>
-            <h3 data-i18n="experience.job1Title">Neovisni UX/Product dizajner i tehnološki konzultant</h3>
+            <h3 id="experience-job1-title" data-i18n="experience.job1Title">Neovisni UX/Product dizajner i tehnološki konzultant</h3>
             <p class="timeline-company" data-i18n="experience.job1Company">Samozaposlen pod pravnim imenom Igor Pilicic | Austrija</p>
-            <ul>
-              <li data-i18n="experience.job1Items.0">Vodstvo UI/UX dizajna: istraživanje korisnika, UX revizije, wireframing, prototipiranje u Figmi i live buildovi (POC-ovi), dizajn sustavi i radionice s dionicima za enterprise i lokalne klijente.</li>
-              <li data-i18n="experience.job1Items.1">AI nabava i OSINT savjetovanje: due diligence dobavljača, RFP/RFI paketi, scorecards za evaluaciju, okviri upravljanja i executive materijali.</li>
-              <li data-i18n="experience.job1Items.2">Digitalni dizajn: vizualni identitet, strategija branda, 2D/3D modeliranje i animacija (3ds Max), motion grafika i promotivni sadržaj.</li>
-              <li data-i18n="experience.job1Items.3">Web dizajn i razvoj: responzivne web stranice, landing stranice i web aplikacije za tvrtke svih veličina.</li>
-              <li data-i18n="experience.job1Items.4" data-i18n-html>Samostalni tehnički rad: 2D engine i editor prototip u razvoju s više od 30K redaka, izrađen strukturiranom AI-potpomognutom suradnjom, uz <a href='#simulation-demo' class='u25-link'>funkcionalnu simulaciju u pregledniku</a>.</li>
+            <ul class="experience-highlights">
+              <li data-i18n="experience.jobSummaries.job1">Samostalni dizajn i tehnološko savjetovanje za enterprise i lokalne klijente: UX, web, vizualna komunikacija i procjena AI rješenja.</li>
             </ul>
+            <details class="experience-details" id="experience-job1-details">
+              <summary aria-labelledby="experience-job1-more experience-job1-title"><span id="experience-job1-more" data-i18n="experience.moreRole">Detaljnije o ulozi</span></summary>
+              <ul>
+                <li data-i18n="experience.job1Items.0">Vodstvo UI/UX dizajna: istraživanje korisnika, UX revizije, wireframing, prototipiranje u Figmi i live buildovi (POC-ovi), dizajn sustavi i radionice s dionicima za enterprise i lokalne klijente.</li>
+                <li data-i18n="experience.job1Items.1">AI nabava i OSINT savjetovanje: due diligence dobavljača, RFP/RFI paketi, scorecards za evaluaciju, okviri upravljanja i executive materijali.</li>
+                <li data-i18n="experience.job1Items.2">Digitalni dizajn: vizualni identitet, strategija branda, 2D/3D modeliranje i animacija (3ds Max), motion grafika i promotivni sadržaj.</li>
+                <li data-i18n="experience.job1Items.3">Web dizajn i razvoj: responzivne web stranice, landing stranice i web aplikacije za tvrtke svih veličina.</li>
+                <li data-i18n="experience.job1Items.4" data-i18n-html>Samostalni tehnički rad: 2D engine i editor prototip u razvoju s više od 30K redaka, izrađen strukturiranom AI-potpomognutom suradnjom, uz <a href='#simulation-demo' class='u25-link'>funkcionalnu simulaciju u pregledniku</a>.</li>
+              </ul>
+            </details>
           </div>
         </div>
         <!-- Accenture -->
-        <div class="timeline-item">
+        <div class="timeline-item" data-experience-role="job2">
           <div class="timeline-marker"></div>
           <div class="timeline-content">
             <div class="timeline-header">
               <span class="timeline-date" data-i18n="experience.job2Date">Tra 2024 - Kol 2025</span>
             </div>
-            <h3 data-i18n="experience.job2Title">UI/UX konzultant i dizajner prezentacija · RFP/RFI i OSINT due diligence dobavljača</h3>
+            <h3 id="experience-job2-title" data-i18n="experience.job2Title">UI/UX konzultant i dizajner prezentacija · RFP/RFI i OSINT due diligence dobavljača</h3>
             <p class="timeline-company" data-i18n="experience.job2Company">Accenture · Klijentski ugovor u sklopu samozaposlenja · Remote | Beč, Austrija</p>
-            <ul>
-              <li data-i18n="experience.job2Items.0">Standardizacija RFP/RFI predložaka i kriterija evaluacije za AI inicijative u reguliranim (farmaceutskim) programima.</li>
-              <li data-i18n="experience.job2Items.1">OSINT due diligence: triangulacija javnih izvora za verifikaciju tvrdnji, zaključivanje o model/tech stackovima i mapiranje partnerskih mreža.</li>
-              <li data-i18n="experience.job2Items.2">Izrada scorecardova koji rano otkrivaju rizike (vendor lock-in, upravljanje podacima, usklađenost, validacija).</li>
-              <li data-i18n="experience.job2Items.3">Usklađivanje timova nabave, prava, sigurnosti i inženjeringa; moderiranje radionica i izrada materijala za upravu.</li>
-              <li data-i18n="experience.job2Items.4">Podrška redovitim upravljačkim i review raspravama kroz sljedive materijale za međufunkcionalne odluke.</li>
-              <li>Podržavao regulirane farmaceutske klijentske kontekste kroz Accenture bez predstavljanja tih organizacija kao izravnih poslodavaca ili izravnih ugovora.</li>
+            <ul class="experience-highlights">
+              <li data-i18n="experience.jobSummaries.job2">Procjena AI dobavljača i priprema RFP/RFI paketa, kriterija evaluacije i prezentacija za izvršne odluke.</li>
             </ul>
+            <details class="experience-details" id="experience-job2-details">
+              <summary aria-labelledby="experience-job2-more experience-job2-title"><span id="experience-job2-more" data-i18n="experience.moreRole">Detaljnije o ulozi</span></summary>
+              <ul>
+                <li data-i18n="experience.job2Items.0">Standardizacija RFP/RFI predložaka i kriterija evaluacije za AI inicijative u reguliranim (farmaceutskim) programima.</li>
+                <li data-i18n="experience.job2Items.1">OSINT due diligence: triangulacija javnih izvora za verifikaciju tvrdnji, zaključivanje o model/tech stackovima i mapiranje partnerskih mreža.</li>
+                <li data-i18n="experience.job2Items.2">Izrada scorecardova koji rano otkrivaju rizike (vendor lock-in, upravljanje podacima, usklađenost, validacija).</li>
+                <li data-i18n="experience.job2Items.3">Usklađivanje timova nabave, prava, sigurnosti i inženjeringa; moderiranje radionica i izrada materijala za upravu.</li>
+                <li data-i18n="experience.job2Items.4">Podrška redovitim upravljačkim i review raspravama kroz sljedive materijale za međufunkcionalne odluke.</li>
+                <li data-i18n="experience.clientContextNote">Podržavao regulirane farmaceutske klijentske kontekste kroz Accenture bez predstavljanja tih organizacija kao izravnih poslodavaca ili izravnih ugovora.</li>
+              </ul>
+            </details>
           </div>
         </div>
         <!-- Roche Diagnostics -->
-        <div class="timeline-item">
+        <div class="timeline-item" data-experience-role="job3">
           <div class="timeline-marker"></div>
           <div class="timeline-content">
             <div class="timeline-header">
               <span class="timeline-date" data-i18n="experience.job3Date">Srp 2022 - Tra 2023</span>
             </div>
-            <h3 data-i18n="experience.job3Title">Lead UX dizajner - Istražna platforma za analizu korijenskog uzroka</h3>
+            <h3 id="experience-job3-title" data-i18n="experience.job3Title">Lead UX dizajner - Istražna platforma za analizu korijenskog uzroka</h3>
             <p class="timeline-company" data-i18n="experience.job3Company">Roche Diagnostics · Klijentski ugovor u sklopu samozaposlenja · Hibrid | Basel, Švicarska</p>
-            <ul>
-              <li data-i18n="experience.job3Items.0">Vođenje UX rada za internu RCA istražnu platformu u kontekstu farmaceutske proizvodnje.</li>
-              <li data-i18n="experience.job3Items.1">Dubinski intervjui i primjena dizajnerskog razmišljanja; brzo prototipiranje u Figmi dovelo do dinamičnog (atomskog) UI dizajna.</li>
+            <ul class="experience-highlights">
+              <li data-i18n="experience.jobSummaries.job3">Vođenje UX dizajna platforme za analizu uzroka odstupanja u farmaceutskoj proizvodnji.</li>
               <li data-i18n="experience.job3Items.2">Prema povratnim informacijama kolega nekoliko mjeseci nakon završetka mog angažmana, platformu je koristilo više od 10.000 korisnika.</li>
-              <li data-i18n="experience.job3Items.3">Suradnja s predmetnim stručnjacima i implementacijskim timovima kroz iterativne cikluse dizajna.</li>
             </ul>
+            <details class="experience-details" id="experience-job3-details">
+              <summary aria-labelledby="experience-job3-more experience-job3-title"><span id="experience-job3-more" data-i18n="experience.moreRole">Detaljnije o ulozi</span></summary>
+              <ul>
+                <li data-i18n="experience.job3Items.0">Vođenje UX rada za internu RCA istražnu platformu u kontekstu farmaceutske proizvodnje.</li>
+                <li data-i18n="experience.job3Items.1">Dubinski intervjui i primjena dizajnerskog razmišljanja; brzo prototipiranje u Figmi dovelo do dinamičnog (atomskog) UI dizajna.</li>
+                <li data-i18n="experience.job3Items.3">Suradnja s predmetnim stručnjacima i implementacijskim timovima kroz iterativne cikluse dizajna.</li>
+              </ul>
+            </details>
           </div>
         </div>
         <!-- Roche Pharma -->
-        <div class="timeline-item">
+        <div class="timeline-item" data-experience-role="job4">
           <div class="timeline-marker"></div>
           <div class="timeline-content">
             <div class="timeline-header">
               <span class="timeline-date" data-i18n="experience.job4Date">Tra 2020 - Srp 2022</span>
             </div>
-            <h3 data-i18n="experience.job4Title">Lead UI/UX dizajner - Regulatorni alat za izvještavanje</h3>
+            <h3 id="experience-job4-title" data-i18n="experience.job4Title">Lead UI/UX dizajner - Regulatorni alat za izvještavanje</h3>
             <p class="timeline-company" data-i18n="experience.job4Company">Roche Pharmaceuticals · Klijentski ugovor u sklopu samozaposlenja · Hibrid | Penzberg, Njemačka</p>
-            <ul>
-              <li data-i18n="experience.job4Items.0">Vođenje UI/UX dizajna za end-to-end Intelligent Authoring i regulatorni proizvod za izvještavanje.</li>
+            <ul class="experience-highlights">
+              <li data-i18n="experience.jobSummaries.job4">Vođenje UI/UX dizajna za Intelligent Authoring i regulatorni proizvod za izvještavanje.</li>
               <li data-i18n="experience.job4Items.1">Doprinos, zajedno sa širim proizvodnim timom, smanjenju ručnog izvještavanja većem od 30%.</li>
-              <li data-i18n="experience.job4Items.2">Podrška za približno 50 inženjera kroz tri tima i facilitacija radionice s više od 70 sudionika.</li>
-              <li data-i18n="experience.job4Items.3">Provedena studija izvedivosti za integraciju BI alata; redizajn UX-a za smanjenje redundancija.</li>
-              <li data-i18n="experience.job4Items.4">Razvoj interne web stranice i izrada promotivnih grafika i videa za povećanje vidljivosti projekta.</li>
             </ul>
+            <details class="experience-details" id="experience-job4-details">
+              <summary aria-labelledby="experience-job4-more experience-job4-title"><span id="experience-job4-more" data-i18n="experience.moreRole">Detaljnije o ulozi</span></summary>
+              <ul>
+                <li data-i18n="experience.job4Items.0">Vođenje UI/UX dizajna za end-to-end Intelligent Authoring i regulatorni proizvod za izvještavanje.</li>
+                <li data-i18n="experience.job4Items.2">Podrška za približno 50 inženjera kroz tri tima i facilitacija radionice s više od 70 sudionika.</li>
+                <li data-i18n="experience.job4Items.3">Provedena studija izvedivosti za integraciju BI alata; redizajn UX-a za smanjenje redundancija.</li>
+                <li data-i18n="experience.job4Items.4">Razvoj interne web stranice i izrada promotivnih grafika i videa za povećanje vidljivosti projekta.</li>
+              </ul>
+            </details>
           </div>
         </div>
         <!-- Harvey Norman -->
-        <div class="timeline-item">
+        <div class="timeline-item" data-experience-role="job5">
           <div class="timeline-marker"></div>
           <div class="timeline-content">
             <div class="timeline-header">
               <span class="timeline-date" data-i18n="experience.job5Date">Srp 2015 - Ožu 2017</span>
             </div>
-            <h3 data-i18n="experience.job5Title">Grafički dizajner za marketing i web dizajner</h3>
+            <h3 id="experience-job5-title" data-i18n="experience.job5Title">Grafički dizajner za marketing i web dizajner</h3>
             <p class="timeline-company" data-i18n="experience.job5Company">Harvey Norman · Nepuno radno vrijeme · Na lokaciji | Zagreb, Hrvatska</p>
-            <ul>
-              <li data-i18n="experience.job5Items.0">Dizajn landing stranica i marketinških materijala koji su potaknuli angažman korisnika i prodaju.</li>
-              <li data-i18n="experience.job5Items.1">Vođenje digitalnih kampanja s dosljednošću brenda kroz responsivna rješenja.</li>
+            <ul class="experience-highlights">
+              <li data-i18n="experience.jobSummaries.job5">Grafički i web dizajn za maloprodajne kampanje, landing stranice i promotivne materijale.</li>
               <li data-i18n="experience.job5Items.2" data-i18n-html><strong>Nagrada: 'Najbolja promotivna landing stranica'</strong> - Hrvatska (Appcom / Apple Partner), 2016. iPhone 7 kampanja doprinijela najvišim nacionalnim prodajnim rezultatima.</li>
             </ul>
+            <details class="experience-details" id="experience-job5-details">
+              <summary aria-labelledby="experience-job5-more experience-job5-title"><span id="experience-job5-more" data-i18n="experience.moreRole">Detaljnije o ulozi</span></summary>
+              <ul>
+                <li data-i18n="experience.job5Items.0">Dizajn landing stranica i marketinških materijala koji su potaknuli angažman korisnika i prodaju.</li>
+                <li data-i18n="experience.job5Items.1">Vođenje digitalnih kampanja s dosljednošću brenda kroz responsivna rješenja.</li>
+              </ul>
+            </details>
           </div>
         </div>
         <!-- Fazgram -->
-        <div class="timeline-item">
+        <div class="timeline-item" data-experience-role="job6">
           <div class="timeline-marker"></div>
           <div class="timeline-content">
             <div class="timeline-header">
               <span class="timeline-date" data-i18n="experience.job6Date">Vel 2013 - Ožu 2015</span>
             </div>
-            <h3 data-i18n="experience.job6Title">Web i grafički dizajner</h3>
+            <h3 id="experience-job6-title" data-i18n="experience.job6Title">Web i grafički dizajner</h3>
             <p class="timeline-company" data-i18n="experience.job6Company">Fazgram d.o.o · Puno radno vrijeme · Na lokaciji | Zagreb, Hrvatska</p>
-            <ul>
-              <li data-i18n="experience.job6Items.0">Vođenje web dizajna za Hrvatski dentalni turizam - WordPress + HTML/CSS s fokusom na UX i konverziju.</li>
-              <li data-i18n="experience.job6Items.1">Suradnja sa stomatološkim stručnjacima za odraz jedinstvenih vrijednosnih prijedloga, poboljšanje angažmana i konverzijskih stopa.</li>
+            <ul class="experience-highlights">
+              <li data-i18n="experience.jobSummaries.job6">Web dizajn za Hrvatski dentalni turizam, uz WordPress, HTML/CSS i suradnju sa stomatološkim timovima.</li>
             </ul>
+            <details class="experience-details" id="experience-job6-details">
+              <summary aria-labelledby="experience-job6-more experience-job6-title"><span id="experience-job6-more" data-i18n="experience.moreRole">Detaljnije o ulozi</span></summary>
+              <ul>
+                <li data-i18n="experience.job6Items.0">Vođenje web dizajna za Hrvatski dentalni turizam - WordPress + HTML/CSS s fokusom na UX i konverziju.</li>
+                <li data-i18n="experience.job6Items.1">Suradnja sa stomatološkim stručnjacima za odraz jedinstvenih vrijednosnih prijedloga, poboljšanje angažmana i konverzijskih stopa.</li>
+              </ul>
+            </details>
           </div>
         </div>
         <!-- Bimaco -->
-        <div class="timeline-item">
+        <div class="timeline-item" data-experience-role="job7">
           <div class="timeline-marker"></div>
           <div class="timeline-content">
             <div class="timeline-header">
               <span class="timeline-date" data-i18n="experience.job7Date">Ožu 2011 - Svi 2013</span>
             </div>
-            <h3 data-i18n="experience.job7Title">E-commerce menadžer</h3>
+            <h3 id="experience-job7-title" data-i18n="experience.job7Title">E-commerce menadžer</h3>
             <p class="timeline-company" data-i18n="experience.job7Company">Bimaco d.o.o · Puno radno vrijeme · Na lokaciji | Zagreb, Hrvatska</p>
-            <ul>
-              <li data-i18n="experience.job7Items.0">Upravljanje Magento e-commerce platformom + digitalni marketing; proaktivno proširenje uloge s upravljanja skladištem na web i grafički dizajn.</li>
-              <li data-i18n="experience.job7Items.1">Pokretanje rasta online prisutnosti, povećanje prometa web stranice i konverzija prodaje.</li>
+            <ul class="experience-highlights">
+              <li data-i18n="experience.jobSummaries.job7">Upravljanje Magento web trgovinom, digitalni marketing te web i grafički dizajn.</li>
             </ul>
+            <details class="experience-details" id="experience-job7-details">
+              <summary aria-labelledby="experience-job7-more experience-job7-title"><span id="experience-job7-more" data-i18n="experience.moreRole">Detaljnije o ulozi</span></summary>
+              <ul>
+                <li data-i18n="experience.job7Items.0">Upravljanje Magento e-commerce platformom + digitalni marketing; proaktivno proširenje uloge s upravljanja skladištem na web i grafički dizajn.</li>
+                <li data-i18n="experience.job7Items.1">Pokretanje rasta online prisutnosti, povećanje prometa web stranice i konverzija prodaje.</li>
+              </ul>
+            </details>
           </div>
         </div>
 
-        <div class="timeline-item">
+        <div class="timeline-item" data-experience-role="job8">
           <div class="timeline-dot"></div>
           <div class="timeline-content">
             <div class="timeline-header">
               <span class="timeline-date" data-i18n="experience.job8Date">2009. - 2011.</span>
             </div>
-            <h3 data-i18n="experience.job8Title">Samostalni dizajner i programer</h3>
+            <h3 id="experience-job8-title" data-i18n="experience.job8Title">Samostalni dizajner i programer</h3>
             <p class="timeline-company" data-i18n="experience.job8Company">Samozaposlen · Freelance | Zagreb, Hrvatska</p>
-            <ul>
-              <li data-i18n="experience.job8Items.0">Dizajn i razvoj web stranica, odredišnih stranica i web aplikacija za lokalne tvrtke i privatne klijente.</li>
-              <li data-i18n="experience.job8Items.1">Izrada tiskanog materijala uključujući plakate, jumbo plakate, letke i Google Ads kampanje.</li>
-              <li data-i18n="experience.job8Items.2">Produkcija 3D vizualizacija interijera i animacija u 3ds Maxu za ugostiteljske klijente (barovi, restorani).</li>
-              <li data-i18n="experience.job8Items.3">Izrada 2D motion grafika i promotivnih animacija za digitalne i društvene medije.</li>
+            <ul class="experience-highlights">
+              <li data-i18n="experience.jobSummaries.job8">Web stranice, tiskani materijali, 3D vizualizacije interijera i animacije za lokalne klijente.</li>
             </ul>
+            <details class="experience-details" id="experience-job8-details">
+              <summary aria-labelledby="experience-job8-more experience-job8-title"><span id="experience-job8-more" data-i18n="experience.moreRole">Detaljnije o ulozi</span></summary>
+              <ul>
+                <li data-i18n="experience.job8Items.0">Dizajn i razvoj web stranica, odredišnih stranica i web aplikacija za lokalne tvrtke i privatne klijente.</li>
+                <li data-i18n="experience.job8Items.1">Izrada tiskanog materijala uključujući plakate, jumbo plakate, letke i Google Ads kampanje.</li>
+                <li data-i18n="experience.job8Items.2">Produkcija 3D vizualizacija interijera i animacija u 3ds Maxu za ugostiteljske klijente (barovi, restorani).</li>
+                <li data-i18n="experience.job8Items.3">Izrada 2D motion grafika i promotivnih animacija za digitalne i društvene medije.</li>
+              </ul>
+            </details>
           </div>
         </div>
       </div>

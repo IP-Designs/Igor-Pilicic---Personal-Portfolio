@@ -45,7 +45,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css?v=6e1760e2">
-  <link rel="stylesheet" href="experimental.css?v=engine-compact-1">
+  <link rel="stylesheet" href="experimental.css?v=experience-compact-1">
 
   <!-- JSON-LD Structured Data -->
   <script type="application/ld+json">
@@ -686,7 +686,7 @@
       </div>
       <div class="timeline">
         <!-- Current portfolio and employment focus -->
-        <div class="timeline-item">
+        <div class="timeline-item" data-experience-role="current">
           <div class="timeline-marker current"></div>
           <div class="timeline-content">
             <div class="timeline-header">
@@ -695,142 +695,190 @@
             </div>
             <h3 data-i18n="experience.currentRoleTitle">Independent projects and product development</h3>
             <p class="timeline-company" data-i18n="experience.currentRoleCompany">Standing Pillars - personal portfolio · Zagreb, Croatia</p>
-            <p data-i18n="experience.currentRoleNote">I develop personal digital products and prototypes, including the Tiny Humans engine and simulation. Through UX, workflow design, and structured AI collaboration, I explore ideas from requirements to a working prototype.</p>
+            <p class="experience-current-summary" data-i18n="experience.currentSummary">I develop personal digital products, UX prototypes and the Tiny Humans engine through structured AI collaboration.</p>
           </div>
         </div>
         <!-- Self-employed -->
-        <div class="timeline-item">
+        <div class="timeline-item" data-experience-role="job1">
           <div class="timeline-marker"></div>
           <div class="timeline-content">
             <div class="timeline-header">
               <span class="timeline-date" data-i18n="experience.job1Date">Apr 2020 - Jun 2026</span>
             </div>
-            <h3 data-i18n="experience.job1Title">Independent UX/Product Designer and Technology Consultant</h3>
+            <h3 id="experience-job1-title" data-i18n="experience.job1Title">Independent UX/Product Designer and Technology Consultant</h3>
             <p class="timeline-company" data-i18n="experience.job1Company">Self-employed under the legal name Igor Pilicic | Austria</p>
-            <ul>
-              <li data-i18n="experience.job1Items.0">UI/UX design leadership: user research, UX audits, wireframing, prototyping in Figma and live builds (POCs), design systems, and stakeholder workshops for enterprise and multidisciplinary teams.</li>
-              <li data-i18n="experience.job1Items.1">AI procurement & OSINT consulting: vendor due diligence, RFP/RFI packages, evaluation scorecards, governance frameworks, and executive-ready materials.</li>
-              <li data-i18n="experience.job1Items.2">Digital design: visual identity, brand strategy, 2D/3D modelling and animation (3ds Max), motion graphics, and promotional content.</li>
-              <li data-i18n="experience.job1Items.3">Web design & development: responsive websites, landing pages, and web applications for organisations and independent projects.</li>
-              <li data-i18n="experience.job1Items.4" data-i18n-html>Independent technical work: a 30K+ line work-in-progress 2D engine and editor prototype developed through structured AI-assisted collaboration, with a <a href='#simulation-demo' class='u25-link'>working browser simulation</a>.</li>
+            <ul class="experience-highlights">
+              <li data-i18n="experience.jobSummaries.job1">Independent design and technology consulting across UX, web, visual communication and AI vendor evaluation.</li>
             </ul>
+            <details class="experience-details" id="experience-job1-details">
+              <summary aria-labelledby="experience-job1-more experience-job1-title"><span id="experience-job1-more" data-i18n="experience.moreRole">Full role details</span></summary>
+              <ul>
+                <li data-i18n="experience.job1Items.0">UI/UX design leadership: user research, UX audits, wireframing, prototyping in Figma and live builds (POCs), design systems, and stakeholder workshops for enterprise and multidisciplinary teams.</li>
+                <li data-i18n="experience.job1Items.1">AI procurement & OSINT consulting: vendor due diligence, RFP/RFI packages, evaluation scorecards, governance frameworks, and executive-ready materials.</li>
+                <li data-i18n="experience.job1Items.2">Digital design: visual identity, brand strategy, 2D/3D modelling and animation (3ds Max), motion graphics, and promotional content.</li>
+                <li data-i18n="experience.job1Items.3">Web design & development: responsive websites, landing pages, and web applications for organisations and independent projects.</li>
+                <li data-i18n="experience.job1Items.4" data-i18n-html>Independent technical work: a 30K+ line work-in-progress 2D engine and editor prototype developed through structured AI-assisted collaboration, with a <a href='#simulation-demo' class='u25-link'>working browser simulation</a>.</li>
+              </ul>
+            </details>
           </div>
         </div>
         <!-- Accenture -->
-        <div class="timeline-item">
+        <div class="timeline-item" data-experience-role="job2">
           <div class="timeline-marker"></div>
           <div class="timeline-content">
             <div class="timeline-header">
               <span class="timeline-date" data-i18n="experience.job2Date">Apr 2024 - Aug 2025</span>
             </div>
-            <h3 data-i18n="experience.job2Title">UI/UX Consultant & Presentation Designer · RFP/RFI & OSINT Vendor Diligence</h3>
+            <h3 id="experience-job2-title" data-i18n="experience.job2Title">UI/UX Consultant & Presentation Designer · RFP/RFI & OSINT Vendor Diligence</h3>
             <p class="timeline-company" data-i18n="experience.job2Company">Accenture · Client contract during self-employment · Remote | Vienna, Austria</p>
-            <ul>
-              <li data-i18n="experience.job2Items.0">Standardized RFP/RFI templates and evaluation criteria for AI initiatives in regulated (pharma) programs.</li>
-              <li data-i18n="experience.job2Items.1">OSINT due diligence: triangulated public sources to verify claims, infer model/tech stacks, and map partner networks.</li>
-              <li data-i18n="experience.job2Items.2">Built scorecards surfacing risks early (lock-in, data handling, compliance, validation).</li>
-              <li data-i18n="experience.job2Items.3">Aligned procurement, legal, security, and engineering teams; facilitated workshops and produced exec-ready materials.</li>
-              <li data-i18n="experience.job2Items.4">Supported recurring governance and review discussions with traceable material for cross-functional decisions.</li>
-              <li>Supported regulated pharmaceutical client contexts through Accenture without presenting those organisations as direct employers or direct contracts.</li>
+            <ul class="experience-highlights">
+              <li data-i18n="experience.jobSummaries.job2">Evaluated AI vendors and prepared RFP/RFI packages, scorecards and presentations to support executive decisions.</li>
             </ul>
+            <details class="experience-details" id="experience-job2-details">
+              <summary aria-labelledby="experience-job2-more experience-job2-title"><span id="experience-job2-more" data-i18n="experience.moreRole">Full role details</span></summary>
+              <ul>
+                <li data-i18n="experience.job2Items.0">Standardized RFP/RFI templates and evaluation criteria for AI initiatives in regulated (pharma) programs.</li>
+                <li data-i18n="experience.job2Items.1">OSINT due diligence: triangulated public sources to verify claims, infer model/tech stacks, and map partner networks.</li>
+                <li data-i18n="experience.job2Items.2">Built scorecards surfacing risks early (lock-in, data handling, compliance, validation).</li>
+                <li data-i18n="experience.job2Items.3">Aligned procurement, legal, security, and engineering teams; facilitated workshops and produced exec-ready materials.</li>
+                <li data-i18n="experience.job2Items.4">Supported recurring governance and review discussions with traceable material for cross-functional decisions.</li>
+                <li data-i18n="experience.clientContextNote">Supported regulated pharmaceutical client contexts through Accenture without presenting those organisations as direct employers or direct contracts.</li>
+              </ul>
+            </details>
           </div>
         </div>
         <!-- Roche Diagnostics -->
-        <div class="timeline-item">
+        <div class="timeline-item" data-experience-role="job3">
           <div class="timeline-marker"></div>
           <div class="timeline-content">
             <div class="timeline-header">
               <span class="timeline-date" data-i18n="experience.job3Date">Jul 2022 - Apr 2023</span>
             </div>
-            <h3 data-i18n="experience.job3Title">Lead UX Designer - Root Cause Analysis Investigation Platform</h3>
+            <h3 id="experience-job3-title" data-i18n="experience.job3Title">Lead UX Designer - Root Cause Analysis Investigation Platform</h3>
             <p class="timeline-company" data-i18n="experience.job3Company">Roche Diagnostics · Client contract during self-employment · Hybrid | Basel, Switzerland</p>
-            <ul>
-              <li data-i18n="experience.job3Items.0">Led UX work for an internal RCA investigation platform in a pharmaceutical manufacturing context.</li>
-              <li data-i18n="experience.job3Items.1">Conducted in-depth interviews and applied design thinking; rapid prototyping in Figma led to a dynamic (atomic) UI design.</li>
+            <ul class="experience-highlights">
+              <li data-i18n="experience.jobSummaries.job3">Led UX design for a root-cause investigation platform in pharmaceutical manufacturing.</li>
               <li data-i18n="experience.job3Items.2">According to feedback from colleagues a few months after my engagement ended, the platform was being used by more than 10,000 users.</li>
-              <li data-i18n="experience.job3Items.3">Collaborated with SMEs and implementation teams through iterative design cycles.</li>
             </ul>
+            <details class="experience-details" id="experience-job3-details">
+              <summary aria-labelledby="experience-job3-more experience-job3-title"><span id="experience-job3-more" data-i18n="experience.moreRole">Full role details</span></summary>
+              <ul>
+                <li data-i18n="experience.job3Items.0">Led UX work for an internal RCA investigation platform in a pharmaceutical manufacturing context.</li>
+                <li data-i18n="experience.job3Items.1">Conducted in-depth interviews and applied design thinking; rapid prototyping in Figma led to a dynamic (atomic) UI design.</li>
+                <li data-i18n="experience.job3Items.3">Collaborated with SMEs and implementation teams through iterative design cycles.</li>
+              </ul>
+            </details>
           </div>
         </div>
         <!-- Roche Pharma -->
-        <div class="timeline-item">
+        <div class="timeline-item" data-experience-role="job4">
           <div class="timeline-marker"></div>
           <div class="timeline-content">
             <div class="timeline-header">
               <span class="timeline-date" data-i18n="experience.job4Date">Apr 2020 - Jul 2022</span>
             </div>
-            <h3 data-i18n="experience.job4Title">Lead UI/UX Designer - Regulatory Reporting Tool</h3>
+            <h3 id="experience-job4-title" data-i18n="experience.job4Title">Lead UI/UX Designer - Regulatory Reporting Tool</h3>
             <p class="timeline-company" data-i18n="experience.job4Company">Roche Pharmaceuticals · Client contract during self-employment · Hybrid | Penzberg, Germany</p>
-            <ul>
-              <li data-i18n="experience.job4Items.0">Led UI/UX design for an end-to-end Intelligent Authoring and regulatory-reporting product.</li>
+            <ul class="experience-highlights">
+              <li data-i18n="experience.jobSummaries.job4">Led UI/UX design for an Intelligent Authoring and regulatory-reporting product.</li>
               <li data-i18n="experience.job4Items.1">Contributed with the wider product team to a reduction of more than 30% in manual reporting effort.</li>
-              <li data-i18n="experience.job4Items.2">Supported approximately 50 engineers across three teams and facilitated a workshop with more than 70 participants.</li>
-              <li data-i18n="experience.job4Items.3">Conducted feasibility study for BI tool integration; redesigned UX to reduce redundancies.</li>
-              <li data-i18n="experience.job4Items.4">Developed internal website and created promotional graphics and videos enhancing project visibility.</li>
             </ul>
+            <details class="experience-details" id="experience-job4-details">
+              <summary aria-labelledby="experience-job4-more experience-job4-title"><span id="experience-job4-more" data-i18n="experience.moreRole">Full role details</span></summary>
+              <ul>
+                <li data-i18n="experience.job4Items.0">Led UI/UX design for an end-to-end Intelligent Authoring and regulatory-reporting product.</li>
+                <li data-i18n="experience.job4Items.2">Supported approximately 50 engineers across three teams and facilitated a workshop with more than 70 participants.</li>
+                <li data-i18n="experience.job4Items.3">Conducted feasibility study for BI tool integration; redesigned UX to reduce redundancies.</li>
+                <li data-i18n="experience.job4Items.4">Developed internal website and created promotional graphics and videos enhancing project visibility.</li>
+              </ul>
+            </details>
           </div>
         </div>
         <!-- Harvey Norman -->
-        <div class="timeline-item">
+        <div class="timeline-item" data-experience-role="job5">
           <div class="timeline-marker"></div>
           <div class="timeline-content">
             <div class="timeline-header">
               <span class="timeline-date" data-i18n="experience.job5Date">Jul 2015 - Mar 2017</span>
             </div>
-            <h3 data-i18n="experience.job5Title">Marketing Graphic Designer & Web Designer</h3>
+            <h3 id="experience-job5-title" data-i18n="experience.job5Title">Marketing Graphic Designer & Web Designer</h3>
             <p class="timeline-company" data-i18n="experience.job5Company">Harvey Norman · Part-time · On-site | Zagreb, Croatia</p>
-            <ul>
-              <li data-i18n="experience.job5Items.0">Designed landing pages and marketing materials driving user engagement and sales.</li>
-              <li data-i18n="experience.job5Items.1">Led digital campaigns with brand consistency across responsive solutions.</li>
+            <ul class="experience-highlights">
+              <li data-i18n="experience.jobSummaries.job5">Graphic and web design for retail campaigns, landing pages and promotional materials.</li>
               <li data-i18n="experience.job5Items.2" data-i18n-html><strong>Award: 'Best Promotional Landing Page'</strong> - Croatia (Appcom / Apple Partner), 2016. iPhone 7 campaign contributed to highest national sales.</li>
             </ul>
+            <details class="experience-details" id="experience-job5-details">
+              <summary aria-labelledby="experience-job5-more experience-job5-title"><span id="experience-job5-more" data-i18n="experience.moreRole">Full role details</span></summary>
+              <ul>
+                <li data-i18n="experience.job5Items.0">Designed landing pages and marketing materials driving user engagement and sales.</li>
+                <li data-i18n="experience.job5Items.1">Led digital campaigns with brand consistency across responsive solutions.</li>
+              </ul>
+            </details>
           </div>
         </div>
         <!-- Fazgram -->
-        <div class="timeline-item">
+        <div class="timeline-item" data-experience-role="job6">
           <div class="timeline-marker"></div>
           <div class="timeline-content">
             <div class="timeline-header">
               <span class="timeline-date" data-i18n="experience.job6Date">Feb 2013 - Mar 2015</span>
             </div>
-            <h3 data-i18n="experience.job6Title">Web & Graphics Designer</h3>
+            <h3 id="experience-job6-title" data-i18n="experience.job6Title">Web & Graphics Designer</h3>
             <p class="timeline-company" data-i18n="experience.job6Company">Fazgram d.o.o · Full-time · On-site | Zagreb, Croatia</p>
-            <ul>
-              <li data-i18n="experience.job6Items.0">Led web design for Croatian Dental Tourism - WordPress + HTML/CSS with focus on UX and conversion.</li>
-              <li data-i18n="experience.job6Items.1">Collaborated with dental professionals to reflect unique value propositions, improving engagement and conversion rates.</li>
+            <ul class="experience-highlights">
+              <li data-i18n="experience.jobSummaries.job6">Web design for Croatian Dental Tourism, combining WordPress, HTML/CSS and collaboration with dental teams.</li>
             </ul>
+            <details class="experience-details" id="experience-job6-details">
+              <summary aria-labelledby="experience-job6-more experience-job6-title"><span id="experience-job6-more" data-i18n="experience.moreRole">Full role details</span></summary>
+              <ul>
+                <li data-i18n="experience.job6Items.0">Led web design for Croatian Dental Tourism - WordPress + HTML/CSS with focus on UX and conversion.</li>
+                <li data-i18n="experience.job6Items.1">Collaborated with dental professionals to reflect unique value propositions, improving engagement and conversion rates.</li>
+              </ul>
+            </details>
           </div>
         </div>
         <!-- Bimaco -->
-        <div class="timeline-item">
+        <div class="timeline-item" data-experience-role="job7">
           <div class="timeline-marker"></div>
           <div class="timeline-content">
             <div class="timeline-header">
               <span class="timeline-date" data-i18n="experience.job7Date">Mar 2011 - May 2013</span>
             </div>
-            <h3 data-i18n="experience.job7Title">E-commerce Manager</h3>
+            <h3 id="experience-job7-title" data-i18n="experience.job7Title">E-commerce Manager</h3>
             <p class="timeline-company" data-i18n="experience.job7Company">Bimaco d.o.o · Full-time · On-site | Zagreb, Croatia</p>
-            <ul>
-              <li data-i18n="experience.job7Items.0">Managed Magento e-commerce platform + digital marketing; proactively expanded role from warehouse management to web and graphic design.</li>
-              <li data-i18n="experience.job7Items.1">Drove online presence growth, increasing website traffic and sales conversions.</li>
+            <ul class="experience-highlights">
+              <li data-i18n="experience.jobSummaries.job7">Managed Magento e-commerce and digital marketing, with web and graphic design responsibilities.</li>
             </ul>
+            <details class="experience-details" id="experience-job7-details">
+              <summary aria-labelledby="experience-job7-more experience-job7-title"><span id="experience-job7-more" data-i18n="experience.moreRole">Full role details</span></summary>
+              <ul>
+                <li data-i18n="experience.job7Items.0">Managed Magento e-commerce platform + digital marketing; proactively expanded role from warehouse management to web and graphic design.</li>
+                <li data-i18n="experience.job7Items.1">Drove online presence growth, increasing website traffic and sales conversions.</li>
+              </ul>
+            </details>
           </div>
         </div>
 
-        <div class="timeline-item">
+        <div class="timeline-item" data-experience-role="job8">
           <div class="timeline-dot"></div>
           <div class="timeline-content">
             <div class="timeline-header">
               <span class="timeline-date" data-i18n="experience.job8Date">2009 - 2011</span>
             </div>
-            <h3 data-i18n="experience.job8Title">Part-time Designer & Developer</h3>
+            <h3 id="experience-job8-title" data-i18n="experience.job8Title">Part-time Designer & Developer</h3>
             <p class="timeline-company" data-i18n="experience.job8Company">Self-employed · Part-time | Zagreb, Croatia</p>
-            <ul>
-              <li data-i18n="experience.job8Items.0">Designed and developed websites, landing pages, and web applications for local businesses and private clients.</li>
-              <li data-i18n="experience.job8Items.1">Created print materials including posters, jumbo posters, flyers, and Google Ads campaigns.</li>
-              <li data-i18n="experience.job8Items.2">Produced 3D interior design visualisations and animations in 3ds Max for hospitality clients (bars, restaurants).</li>
-              <li data-i18n="experience.job8Items.3">Delivered 2D motion graphics and promotional animations for digital and social media.</li>
+            <ul class="experience-highlights">
+              <li data-i18n="experience.jobSummaries.job8">Websites, print materials, 3D interior visualisations and animation for local clients.</li>
             </ul>
+            <details class="experience-details" id="experience-job8-details">
+              <summary aria-labelledby="experience-job8-more experience-job8-title"><span id="experience-job8-more" data-i18n="experience.moreRole">Full role details</span></summary>
+              <ul>
+                <li data-i18n="experience.job8Items.0">Designed and developed websites, landing pages, and web applications for local businesses and private clients.</li>
+                <li data-i18n="experience.job8Items.1">Created print materials including posters, jumbo posters, flyers, and Google Ads campaigns.</li>
+                <li data-i18n="experience.job8Items.2">Produced 3D interior design visualisations and animations in 3ds Max for hospitality clients (bars, restaurants).</li>
+                <li data-i18n="experience.job8Items.3">Delivered 2D motion graphics and promotional animations for digital and social media.</li>
+              </ul>
+            </details>
           </div>
         </div>
       </div>

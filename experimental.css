@@ -180,6 +180,18 @@
 .decision-note strong { font-size: .8rem; line-height: 1.5; color: var(--navy); }
 .decision-note > span:last-child { font-size: .76rem; line-height: 1.65; grid-column: 2; }
 .ui-experiment .timeline-content { border-radius: 0; box-shadow: none; }
+.ui-experiment #experience .timeline-item { margin-bottom: 24px; }
+.ui-experiment #experience .timeline-item:last-child { margin-bottom: 0; }
+.ui-experiment #experience .timeline-content { padding: 20px 24px; }
+.ui-experiment #experience .timeline-company { margin-bottom: 12px; }
+.ui-experiment .experience-current-summary { font-size: .9rem; line-height: 1.6; color: var(--gray-600); }
+.ui-experiment .experience-details > summary { min-height: 44px; margin-top: 8px; padding: 10px 0; font-size: .82rem; line-height: 1.5; font-weight: 500; color: var(--accent); cursor: pointer; }
+.ui-experiment .experience-details > summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.ui-experiment .experience-details[open] > ul { margin-top: 4px; }
+@media (max-width: 600px) {
+  .ui-experiment #experience .timeline-item { padding-left: 32px; }
+  .ui-experiment #experience .timeline-content { padding: 16px 18px; }
+}
 .practice-process { margin: 0 0 36px; }
 .process-axis { display: flex; justify-content: space-between; align-items: center; gap: 16px; color: var(--gray-500); font-size: .76rem; padding-bottom: 16px; border-bottom: 1px solid var(--gray-200); }
 .process-axis > span:last-child { font-size: 1.4rem; color: var(--accent); }
