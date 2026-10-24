@@ -45,7 +45,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../styles.css?v=6e1760e2">
-  <link rel="stylesheet" href="../experimental.css?v=process-icons-1">
+  <link rel="stylesheet" href="../experimental.css?v=mobile-media-1">
 
   <!-- JSON-LD Structured Data -->
   <script type="application/ld+json">
@@ -560,9 +560,11 @@
     <!-- Graphic Design Gallery -->
     <div class="design-gallery gallery-active" id="design-gallery">
       <div class="design-gallery-fade-top"></div>
+      <div class="gallery-media">
       <video class="design-gallery-video active" id="galleryVideo" preload="auto" muted autoplay loop playsinline>
         <source src="../images/gallery_on.mp4" type="video/mp4">
       </video>
+      </div>
       <div class="design-gallery-overlay">
         <span class="gallery-era" data-i18n="caseStudies.galleryEra">2009 – 2017 · Einzelhandel, Freelance & mehr</span>
         <h3 data-i18n="caseStudies.galleryTitle">Grafikdesign-Bibliothek</h3>
@@ -571,6 +573,7 @@
           <p class="gallery-context" data-i18n="caseStudies.galleryContext">Vor Design-Systemen und Komponentenbibliotheken gab es die Druckerei. Hunderte Kampagnen im Einzelhandelstempo produziert - wöchentliche Flyer, saisonale Launches, Beschilderung im Laden - alles in Photoshop und Illustrator gebaut, Pixel für Pixel. Das war das Handwerk vor dem Framework. Und ehrlich? Photoshop und Illustrator sind immer noch meine besten Freunde. Die Tools um einen herum ändern sich, aber die, die einem das Sehen beigebracht haben, gehen nie wirklich.</p>
         </div>
         <button class="gallery-desc-toggle" aria-label="Beschreibung anzeigen" aria-expanded="false">
+          <span data-i18n="caseStudies.galleryMore">Mehr zu den Arbeiten</span>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
         </button>
         <div class="gallery-toggle-container">
@@ -586,6 +589,7 @@
 
     <!-- 3D Animation Section -->
     <div class="motion-gallery" id="motion-3d">
+      <div class="motion-media">
       <video
         class="motion-gallery-video"
         src="../videos/3ds_max_neurons_animation.mp4"
@@ -596,6 +600,7 @@
         preload="none"
         aria-label="3D neurological visualisation - neural network animation in green and purple, 3ds Max"
       ></video>
+      </div>
       <div class="motion-gallery-overlay">
         <span class="gallery-era" data-i18n="caseStudies.motionEra">3D Animation · 3ds Max</span>
         <h3 data-i18n="caseStudies.motionTitle">3D-Neurologische Visualisierung</h3>
@@ -604,6 +609,7 @@
           <p class="gallery-context" data-i18n="caseStudies.motionTags">3D-Modellierung · Partikel-FX · Kinematische Kamera · VFX-Compositing</p>
         </div>
         <button class="motion-desc-toggle" aria-label="Beschreibung anzeigen" aria-expanded="false">
+          <span data-i18n="caseStudies.motionMore">Mehr zur Animation</span>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
         </button>
         <button class="motion-play-btn" aria-label="Play animation">
@@ -1189,7 +1195,9 @@
 
   <!-- Live Simulation Demo -->
   <section class="simulation-demo" id="simulation-demo">
+    <div class="sim-frame">
     <iframe id="sim-iframe" src="../simulation/demo.html?lang=de" title="AI Sandbox Simulation" loading="eager" allow="autoplay"></iframe>
+    </div>
     <div class="sim-overlay">
       <div class="sim-overlay-top">
         <p class="section-eyebrow" data-i18n="ui.showcaseEyebrow">Showcase · Autonome Simulation</p>

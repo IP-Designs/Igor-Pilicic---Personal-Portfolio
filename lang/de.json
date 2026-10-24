@@ -466,7 +466,9 @@
     "motionEra": "3D Animation · 3ds Max",
     "motionTitle": "3D-Neurologische Visualisierung",
     "motionDesc": "Kinematische 3D-Animation eines neuronalen Netzwerks - vollständig in 3ds Max modelliert, geriggt und animiert. Erstellt als Motion-Intro für eine medizintechnische Anwendung.",
-    "motionTags": "3D-Modellierung · Partikel-FX · Kinematische Kamera · VFX-Compositing"
+    "motionTags": "3D-Modellierung · Partikel-FX · Kinematische Kamera · VFX-Compositing",
+    "galleryMore": "Mehr zu den Arbeiten",
+    "motionMore": "Mehr zur Animation"
   },
   "contact": {
     "eyebrow": "Kontakt",

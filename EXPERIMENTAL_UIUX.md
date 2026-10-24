@@ -64,5 +64,15 @@ Hero > Profile > Work > Experience > Working method and toolbox > Engine > Simul
 - Retained subsequent approved changes: smaller transparent method labels; all three expertise badges share the core-expertise style and updated web/brand description; graphic gallery is enabled by default and can still be switched off.
 - Browser checks covered seven widths from 320 to 1440 pixels, both themes, all three languages, unchanged step text, decorative SVG accessibility, no unexpected box styles, animation completion and static HTML content. Default gallery and expertise badge consistency also passed.
 
-Preview: `http://localhost:3000/hr/?review=process-icons-1#how-i-work`.
+## Mobile gallery and simulation review, 2026-10-24
+
+- Created local checkpoint `ddb9f21` before this pass, from clean checkpoint `7a90537`. No push or deployment.
+- On mobile, graphic and motion galleries use uncropped 16:9 media frames with the title and short description below the artwork. Optional longer context opens with a labelled, touch-friendly control. The graphic gallery remains enabled by default; existing on/off and animation playback controls are retained.
+- The simulation has a separate heading, square scene and caption in portrait orientation; a landscape phone uses a 16:9 scene. The camera fits both characters instead of applying the desktop minimum zoom, and dialogue wraps within the scene boundaries. This remains an autonomous showcase, not a playable game.
+- Desktop overlay presentation is retained. HR, EN and DE share the same layout and translated description labels. Both color themes follow the existing palette.
+- Browser checks cover five portrait widths from 320 to 768 pixels, 844px phone landscape, 1024px and 1440px desktop, media proportions, camera framing, dialogue bounds, gallery switching, description expansion and animation playback. Screenshots were inspected for graphic work, motion and the simulation.
+- Added a guard for transient zero-sized simulation canvases during responsive reflow. Full hero, case-study, gallery, theme and process-icon regression checks pass in all three languages without JavaScript errors or missing local assets.
+- Other audit findings remain outside this pass; no new effects were added.
+
+Preview: `http://localhost:3000/hr/?review=mobile-media-1#design-gallery`.
 Cloudflare deployment remains a separate, user-approved step.

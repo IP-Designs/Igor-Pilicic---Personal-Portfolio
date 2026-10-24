@@ -466,7 +466,9 @@
     "motionEra": "3D animacija · 3ds Max",
     "motionTitle": "3D neurološka vizualizacija",
     "motionDesc": "Kinematička 3D animacija neuronske mreže - modelirana, rigirana i animirana u cijelosti u 3ds Maxu. Stvorena kao motion intro za medicinsko-tehnološku aplikaciju.",
-    "motionTags": "3D modeliranje · Particle FX · Kinematska kamera · VFX kompoziting"
+    "motionTags": "3D modeliranje · Particle FX · Kinematska kamera · VFX kompoziting",
+    "galleryMore": "Više o radovima",
+    "motionMore": "Više o animaciji"
   },
   "contact": {
     "eyebrow": "Otvoren za prilike",

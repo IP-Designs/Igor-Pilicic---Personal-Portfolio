@@ -660,6 +660,7 @@ function finishLoading() {
   cam.x = cam.targetX = mid.x;
   cam.y = cam.targetY = mid.y;
   cam.zoom = cam.targetZoom = 3;
+  if (isCompactViewport()) updateCamera(true);
   initWeather();
 
   // Initialize lighting buffer (same approach as game engine)
@@ -710,7 +711,11 @@ function npcMidpoint() {
   };
 }
 
-function updateCamera() {
+function isCompactViewport() {
+  return width <= 768 || (width <= 900 && width > height);
+}
+
+function updateCamera(snap) {
   var mid = npcMidpoint();
   cam.targetX = mid.x;
   cam.targetY = mid.y;
@@ -729,7 +734,17 @@ function updateCamera() {
   var fitZoomW = width / neededW;
   var fitZoomH = height / neededH;
   var fitZoom = min(fitZoomW, fitZoomH);
-  cam.targetZoom = constrain(fitZoom, CAM_MIN_ZOOM, CAM_MAX_ZOOM);
+  // A desktop minimum zoom can crop both characters out of a narrow preview.
+  cam.targetZoom = isCompactViewport()
+    ? min(fitZoom, 2.2)
+    : constrain(fitZoom, CAM_MIN_ZOOM, CAM_MAX_ZOOM);
+
+  if (snap === true) {
+    cam.x = cam.targetX;
+    cam.y = cam.targetY;
+    cam.zoom = cam.targetZoom;
+    return;
+  }
 
   // Smooth lerp
   cam.x += (cam.targetX - cam.x) * CAM_LERP;
@@ -739,6 +754,7 @@ function updateCamera() {
 
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
+  if (ready && isCompactViewport()) updateCamera(true);
 }
 
 // =============================================
@@ -1810,6 +1826,7 @@ function drawNPC(npc) {
 }
 
 function drawThoughtBubble(npc) {
+  if (isCompactViewport()) { drawCompactThoughtBubble(npc); return; }
   push();
   // Convert world position to screen position
   var bx = (npc.x - cam.x) * cam.zoom + width / 2;
@@ -1833,6 +1850,46 @@ function drawThoughtBubble(npc) {
   fill(40, 40, 60, a);
   textAlign(CENTER, CENTER);
   text(npc.thought, bx, by - 0.5);
+  pop();
+}
+
+
+/* Keep complete dialogue readable inside narrow showcase viewports. */
+function drawCompactThoughtBubble(npc) {
+  // Responsive iframe reflow can briefly report a zero-sized canvas.
+  if (width < 64 || height < 64 || !npc.thought) return;
+  push();
+  var fontSize = 12, lineHeight = 16, padding = 10;
+  var maxTextWidth = min(260, width - 24) - padding * 2;
+  textSize(fontSize);
+  var words = npc.thought.split(/\s+/), lines = [], line = '';
+  words.forEach(function(word) {
+    if (line && textWidth(line + ' ' + word) > maxTextWidth) {
+      lines.push(line); line = '';
+    }
+    while (word.length && textWidth(word) > maxTextWidth) {
+      var count = 1;
+      while (count < word.length && textWidth(word.slice(0, count + 1)) <= maxTextWidth) count++;
+      if (line) { lines.push(line); line = ''; }
+      lines.push(word.slice(0, count)); word = word.slice(count);
+    }
+    line = line ? line + ' ' + word : word;
+  });
+  if (line) lines.push(line);
+  var longest = 0;
+  lines.forEach(function(value) { longest = max(longest, textWidth(value)); });
+  var bw = longest + padding * 2, bh = lines.length * lineHeight + padding * 2;
+  var anchorX = (npc.x - cam.x) * cam.zoom + width / 2;
+  var anchorY = (npc.y - CELL * 0.85 - cam.y) * cam.zoom + height / 2;
+  var bx = constrain(anchorX - bw / 2, 8, width - bw - 8);
+  var by = constrain(anchorY - bh - 8, 8, height - bh - 8);
+  var a = npc.thoughtAlpha * 220;
+  fill(255, 255, 255, a); stroke(180, 180, 200, a); strokeWeight(0.5);
+  rectMode(CORNER); rect(bx, by, bw, bh, 3);
+  var tailX = constrain(anchorX, bx + 8, bx + bw - 8);
+  noStroke(); triangle(tailX - 3, by + bh, tailX + 3, by + bh, tailX, by + bh + 4);
+  fill(40, 40, 60, a); textAlign(LEFT, TOP);
+  lines.forEach(function(value, i) { text(value, bx + padding, by + padding + i * lineHeight); });
   pop();
 }
 
