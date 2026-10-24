@@ -150,3 +150,20 @@ Original palette: `http://localhost:3000/hr/?review=section-covers-1`.
 - Checkpoint and GitHub push are authorized on `experimental/ui-ux-redesign`; `main` and Cloudflare publication remain out of scope. The local server continues to serve this checkout.
 
 Current local preview: `http://localhost:3000/hr/?review=black-gold-default-1`.
+
+## Matching gold loader, 2026-10-24
+
+- Matched the loader symbol, wordmark and solid progress fill to the shared muted gold token; added a faint gold track on black. The loader remains consistent when a visitor has selected the light page theme.
+- Applied through shared palette styles with cache versions on EN, HR and DE. Loading logic, timing and page content are unchanged.
+- Verified real loading and normal dismissal in all three languages and both themes, with desktop/mobile screenshots. Local changes only; no new commit, push or Cloudflare publication.
+
+## Consistent vertical section rhythm, 2026-10-24
+
+- Audited the default closed page at 390, 768, 1074 and 1440px before editing. Most adjacent text sections accumulated two 88px paddings on desktop and two 58px paddings on mobile; the simulation overlay also used width-based percentage padding.
+- Added shared responsive spacing tokens: section padding 56px desktop / 44px tablet / 36px mobile, heading-to-content spacing 32 / 28 / 24px and supporting subsection spacing 40 / 32 / 28px. Main text-to-text transitions are now approximately 112 / 88 / 72px, including the hero/profile, experience/process and process/engine transitions.
+- Removed the separate case-section bottom-padding exception, reduced excess interior padding, standardized follow-up margins and tightened footer and reveal spacing. Kept the compact joins and existing heights/framing of the artwork galleries.
+- Replaced the simulation overlay's percentage padding with the shared spacing. Added a subtle black text scrim to keep the overlaid title/caption readable against the moving scene. Mobile still uses its separate text/media layout; the iframe, camera and media aspect ratios are unchanged.
+- No text, typography, content order or interaction changes. The prior gold loader remains intact. HR's default reading height decreased by about 480px at 1440px and 520px at 390px; this is not a download-size reduction.
+- Checked HR, EN and DE at eight widths from 320 to 1920px, open/closed disclosures and both themes. General hero/case/navigation and mobile gallery/simulation regression checks pass, including landscape, camera fit and dialogue bounds. No missing local assets, JavaScript errors or horizontal overflow were found. Changes remain local and uncommitted; no push or deployment.
+
+Current preview: `http://localhost:3000/hr/?review=section-rhythm-1#ai-engineering`.
