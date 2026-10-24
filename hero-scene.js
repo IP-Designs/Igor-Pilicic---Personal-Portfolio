@@ -224,6 +224,9 @@
 
   // --- Drawing helpers ---
   function rgba(c, a) {
+    if (document.documentElement.dataset.palette === 'black-gold' && document.documentElement.dataset.theme === 'dark' && c !== WHITE && c !== DARK) {
+      c = c === ACCENT_L ? { r: 226, g: 199, b: 139 } : { r: 200, g: 170, b: 104 };
+    }
     return `rgba(${c.r},${c.g},${c.b},${a})`;
   }
 
@@ -478,7 +481,7 @@
         const tx = hp.sx - tw / 2 - 8;
         const ty = hp.sy - hoveredNode.size * hp.scale - 24;
         // Background
-        ctx.fillStyle = 'rgba(15, 27, 45, 0.92)';
+        ctx.fillStyle = document.documentElement.dataset.palette === 'black-gold' && document.documentElement.dataset.theme === 'dark' ? 'rgba(0, 0, 0, 0.95)' : 'rgba(15, 27, 45, 0.92)';
         ctx.beginPath();
         ctx.roundRect(tx, ty - fontSize + 1, tw + 16, fontSize + 10, 4);
         ctx.fill();

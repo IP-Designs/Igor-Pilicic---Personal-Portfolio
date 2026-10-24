@@ -130,3 +130,23 @@ Hero > Profile > Work > Experience > Working method and toolbox > Engine > Simul
 
 Preview: `http://localhost:3000/hr/?review=section-covers-1#interior-design`.
 Cloudflare deployment remains a separate, user-approved step.
+
+## Optional black-and-gold palette study, 2026-10-24
+
+- The approved section-cover/profile/video work was saved as local checkpoint `0c758d0` before this study. No new commit, push or deployment in this pass.
+- Added an opt-in `?palette=black-gold` preview for HR, EN and DE. Without the query, the existing palette and saved theme preference are unchanged. The preview opens in dark mode without changing stored preferences; the theme toggle still works.
+- Black base surfaces, warm white body/headings, muted gold section titles, key numbers, interaction accents and selected emphasis. Secondary text and thin dividers are neutral. No metallic gradients, added animation or layout/content changes.
+- Scoped the interactive hero map's accent colours to the preview; original image/video artwork, portraits, Figma examples and simulation colours remain unchanged. The interior cover retains its render with a neutral black overlay.
+- Browser checks passed for all three languages at 320, 390, 850 and 1440px: no horizontal overflow, missing local assets or JavaScript errors; section disclosures, theme changes and the default palette still work. Desktop and mobile screenshots were inspected. The existing general hero, case-study and mobile-navigation regression suite also passes.
+
+Palette preview: `http://localhost:3000/hr/?review=black-gold-1&palette=black-gold`.
+Original palette: `http://localhost:3000/hr/?review=section-covers-1`.
+
+## Approved default black-and-gold palette, 2026-10-24
+
+- Promoted the approved study to the default dark palette in EN, HR and DE by adding the same palette attribute to each page. No query parameter is needed; old preview links continue to work.
+- Retained the existing light-theme switch and explicitly saved theme preferences. Added cache versions for the palette and hero-map script. Content, layout, artworks and simulation remain unchanged from the approved preview.
+- Browser checks passed for all three language routes without query parameters at 320, 390, 850 and 1440px. Verified section disclosures, language changes, saved light/dark preferences after reload and gold titles/black section backgrounds. General desktop/mobile interaction regression checks also passed, with no JavaScript errors or missing local assets.
+- Checkpoint and GitHub push are authorized on `experimental/ui-ux-redesign`; `main` and Cloudflare publication remain out of scope. The local server continues to serve this checkout.
+
+Current local preview: `http://localhost:3000/hr/?review=black-gold-default-1`.
