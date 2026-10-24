@@ -95,9 +95,9 @@
   "about": {
     "eyebrow": "Profil",
     "title": "Dizajn je središte. Ostalo mi pomaže vidjeti cijeli sustav.",
-    "lead": "Tu počinjem: slušam ljude, mapiram stvarni rad, razdvajam simptom od uzroka i pretvaram nalaze u smjer koji korisnici razumiju, a tim može izgraditi.",
+    "lead": "Slušam ljude, čitam između redaka i tražim što stvarno koči njihov rad.",
     "p1": "Više od 17 godina u vizualnom dizajnu, webu, enterprise UX-u, poslovnoj analizi i tehnologiji daje mi širinu za taj posao.",
-    "p2": "U <strong>Rocheu</strong> i <strong>Accentureu</strong> istraživanje, dizajn radnih procesa, vizualna komunikacija, facilitacija, analiza i podrška implementaciji spojili su se u radu na reguliranim enterprise sustavima. Standing Pillars je moj osobni portfolio tog puta, sa <strong>Senior UX/Product dizajnom kao glavnim profesionalnim fokusom</strong>.",
+    "p2": "U <strong>Rocheu</strong> i <strong>Accentureu</strong> povezao sam UX, radne procese i suradnju s timovima, od razumijevanja problema do isporuke. Iskustvo u vizualnom dizajnu, webu i tehnologiji pomaže mi vidjeti širu sliku.",
     "personalEyebrow": "Izvan posla",
     "personalText": "Psihologija, antropologija i sociologija pomažu mi razumjeti međuljudsku stranu problema i ono što ostane neizrečeno. Izvan posla suprug sam i otac; pratim astronomiju i uživam u filmovima, serijama i igrama.",
     "statYears": "Godina profesionalnog iskustva",
@@ -223,7 +223,7 @@
     },
     "clientContextNote": "Podržavao regulirane farmaceutske klijentske kontekste kroz Accenture bez predstavljanja tih organizacija kao izravnih poslodavaca ili izravnih ugovora.",
     "eyebrow": "Iskustvo",
-    "title": "17+ godina iskustva koje se spojilo u složenim okruženjima",
+    "title": "17+ godina. Od vizualnog dizajna do složenih sustava.",
     "current": "Trenutno",
     "currentRoleDate": "Lip 2026 - Danas",
     "currentRoleTitle": "Samostalni projekti i razvoj proizvoda",
@@ -376,6 +376,16 @@
     "ctaConnects": "To je dodatni dokaz sustavnog razmišljanja, ustrajnosti i praktičnog prototipiranja.",
     "progressTitle": "Napredak SDK-a i editora",
     "progressDesc": "Prototip sadrži 29 glavnih sustava, ali širi koncept editora i SDK-a dovršen je približno 15%. Proof of concept ispod mali je isječak od oko 1.800 redaka."
+  },
+  "sectionCovers": {
+    "historyDesc": "UX vodstvo na dva Roche projekta, procjena AI dobavljača kroz Accenture i raniji rad u vizualnom dizajnu.",
+    "award": "Harvey Norman · Nagrada za najbolju promotivnu landing stranicu, Hrvatska, 2016.",
+    "historyOpen": "Prikaži profesionalni put",
+    "historyClose": "Sažmi iskustvo",
+    "interiorTitle": "Od rendera do stvarnog prostora",
+    "interiorDesc": "Tri usporedbe 3D vizualizacija i izvedenog interijera.",
+    "interiorOpen": "Prikaži tri usporedbe",
+    "interiorClose": "Sažmi radove"
   },
   "simulationDemo": {
     "eyebrow": "Demo uživo",

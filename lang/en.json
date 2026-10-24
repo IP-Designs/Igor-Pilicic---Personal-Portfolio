@@ -95,9 +95,9 @@
   "about": {
     "eyebrow": "Profile",
     "title": "Design is the center. Everything else helps me see the whole system.",
-    "lead": "That is where I begin: I listen to people, map the real work, separate symptoms from causes, and turn the findings into a direction users understand and a team can build.",
+    "lead": "I listen, read between the lines and look for what is really getting in the way of people's work.",
     "p1": "More than 17 years across visual design, web, enterprise UX, business analysis, and technology give me the range to do that.",
-    "p2": "At <strong>Roche</strong> and <strong>Accenture</strong>, research, workflow design, visual communication, facilitation, analysis, and implementation support came together in regulated enterprise work. Standing Pillars is my personal portfolio of that path, with <strong>Senior UX/Product Design as the central professional focus</strong>.",
+    "p2": "At <strong>Roche</strong> and <strong>Accenture</strong>, I brought together UX, workflows and collaboration with teams, from understanding the problem through delivery. My background in visual design, web and technology helps me see the bigger picture.",
     "personalEyebrow": "Beyond work",
     "personalText": "Psychology, anthropology, and sociology help me understand the interpersonal side of problems and what remains unsaid. Outside work, I am a husband and father; I follow astronomy and enjoy films, series, and games.",
     "statYears": "Years of professional experience",
@@ -223,7 +223,7 @@
     },
     "clientContextNote": "Supported regulated pharmaceutical client contexts through Accenture without presenting those organisations as direct employers or direct contracts.",
     "eyebrow": "Experience",
-    "title": "17+ years of experience converging in complex environments",
+    "title": "17+ years. From visual design to complex systems.",
     "current": "Current",
     "currentRoleDate": "Jun 2026 - Present",
     "currentRoleTitle": "Independent projects and product development",
@@ -376,6 +376,16 @@
     "ctaConnects": "It is supporting evidence of systems thinking, persistence, and hands-on prototyping.",
     "progressTitle": "SDK & Editor Progress",
     "progressDesc": "The prototype contains 29 major systems, but the broader editor and SDK concept is approximately 15% complete. The proof of concept below is a small extract of about 1,800 lines."
+  },
+  "sectionCovers": {
+    "historyDesc": "Two Roche UX lead projects, AI vendor evaluation through Accenture and earlier work in visual design.",
+    "award": "Harvey Norman · Best Promotional Landing Page, Croatia, 2016.",
+    "historyOpen": "Explore my experience",
+    "historyClose": "Collapse experience",
+    "interiorTitle": "From rendering to a real space",
+    "interiorDesc": "Three comparisons of 3D visualisations and the completed interior.",
+    "interiorOpen": "View three comparisons",
+    "interiorClose": "Collapse these works"
   },
   "simulationDemo": {
     "eyebrow": "Live Demo",

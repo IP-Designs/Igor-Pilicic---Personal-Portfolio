@@ -110,5 +110,23 @@ Hero > Profile > Work > Experience > Working method and toolbox > Engine > Simul
 - Checks cover four widths from 320 to 1440px, both themes, every role disclosure, keyboard toggling, live language changes, visible award and qualified outcomes, separate Roche entries, translation keys and duplicate IDs. No horizontal overflow or JavaScript errors were found.
 - Source comparison confirms that all prior responsibility bullets are retained and all other page sections, including the engine and simulation, are unchanged apart from the stylesheet cache version. No push or deployment.
 
-Preview: `http://localhost:3000/hr/?review=experience-compact-1#experience`.
+## Concise profile and proof-legend cleanup, 2026-10-24
+
+- Saved the approved compact experience work as local checkpoint `dcff697` before this pass.
+- Retained the personal opening line and shortened the professional profile to two concise paragraphs about listening, reading between the lines and bringing UX, workflows and teams together. Removed the additional experience-range paragraph and the three repeated principle cards; the six-stage process remains unchanged.
+- Kept the portrait, profile heading, five qualified metrics, availability and selected organizations. The complete personal paragraph, including family, psychology, anthropology, sociology, astronomy, films, series and games, is unchanged in all three languages.
+- Removed the standalone Problem > Constraint > Decision > Outcome legend from all three pages as requested. The work index, Figma disclosure, case-study content and six process stages are retained. Removed only the obsolete legend/principle CSS rules.
+- HR, EN and DE checks cover 320, 390, 768 and 1440px, both themes, live language switching, portrait geometry, retained personal copy, metrics, anchor targets and unchanged gallery/timeline structure. General hero and case-study regression checks pass with no missing assets, translation keys or JavaScript errors.
+- Interior and whole-experience cover-card/disclosure ideas were discussed only, not implemented. Existing role-detail disclosures remain. No commit of these new changes, push or deployment.
+
+## Visitor-controlled section covers and iPhone video, 2026-10-24
+
+- Added closed-by-default native disclosures for the interior portfolio and full experience timeline. The interior cover uses the existing Venecija render as its background, with a readable overlay and a clear three-comparison action. All six original image elements and their descriptions remain available when opened.
+- Experience now opens with "17+ years. From visual design to complex systems", organization names, a description distinguishing the two Roche projects from the Accenture context and a visible Harvey Norman award. The nine-entry timeline and individual role details are preserved inside the disclosure.
+- Added a close control at the bottom of each long reveal, restoring focus and scrolling to its cover. Links to interior timeline targets open their containing disclosures; links to the experience section itself show the cover without forcing the chronology open.
+- HR, EN and DE share the same behavior and translated open/close labels. Cover controls were checked at 320, 390, 850 and 1440px, with keyboard, native toggling, live translations, both themes, deep links and mobile navigation. No horizontal overflow or JavaScript errors were found; all prior responsibility bullets and interior image elements were compared against the pre-edit source.
+- Fixed the archived iPhone video markup's invalid typographic quotes and sizing attributes. Removed the mobile 100vh/object-fit:cover rule; the film now scales to container width in its native 1536:640 ratio with inline playback. The original Apple source is unchanged and loaded successfully during QA. Five widths from 320 to 1440px passed framing checks.
+- Prior concise-profile changes are preserved and remain uncommitted together with this pass. No push or deployment.
+
+Preview: `http://localhost:3000/hr/?review=section-covers-1#interior-design`.
 Cloudflare deployment remains a separate, user-approved step.

@@ -103,11 +103,6 @@
 .ui-experiment .about-personal-note { clear: both; border: 0; background: none; border-radius: 0; padding: 12px 0 12px 24px; margin: 24px 0; border-left: 1px solid var(--study-note); }
 .ui-experiment .about-personal-eyebrow { color: var(--study-note); text-transform: none; letter-spacing: 0; }
 .ui-experiment .about-text .about-personal-note p { font-size: .83rem; color: var(--gray-500); }
-.profile-principles { clear: both; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; margin-top: 32px; }
-.profile-principles article { border-top: 1px solid var(--gray-200); padding-top: 12px; }
-.profile-principles article > span { color: var(--study-note); font: var(--font-index); }
-.profile-principles h3 { font-size: .86rem; line-height: 1.5; color: var(--navy); margin: 8px 0; }
-.profile-principles p { font-size: .79rem; line-height: 1.7; }
 .ui-experiment .about-text .profile-availability { margin: 24px 0 0; padding-top: 18px; border-top: 1px solid var(--gray-200); font-size: .79rem; color: var(--accent); }
 .ui-experiment .about-stats { display: block; }
 .ui-experiment .stat-card { border: 0; border-top: 1px solid var(--gray-200); padding: 17px 0; border-radius: 0; text-align: left; background: transparent; }
@@ -133,10 +128,6 @@
 .work-index-badge { position: absolute; bottom: 12px; left: 12px; padding: 5px 8px; background: #181e1be6; color: #edece2; font: .85rem var(--font-sans); }
 .experiment-glyph { font: 400 clamp(1.5rem, 3vw, 2.8rem)/1.5 var(--font-sans); transform: rotate(-5deg); transition: transform .3s; }
 .work-index-technical:hover .experiment-glyph { transform: rotate(0); }
-.proof-legend { display: flex; justify-content: center; align-items: center; gap: 28px; flex-wrap: wrap; padding-block: 26px; border-block: 1px solid var(--gray-200); font-size: 1.05rem; }
-.proof-legend > span { display: flex; align-items: baseline; gap: 10px; }
-.proof-legend i { color: var(--study-note); font: var(--font-index); }
-.proof-legend b { font-weight: 400; color: var(--gray-500); }
 .figma-disclosure { margin: 20px 0 36px; font-size: .78rem; color: var(--gray-500); }
 .figma-disclosure summary { cursor: pointer; padding: 6px 0; }
 .ui-experiment .section-disclaimer { text-align: left; margin: 8px 0 0; max-width: 900px; font-size: .78rem; }
@@ -309,23 +300,48 @@
   .hero-path-help { display: none; }
   .ui-experiment .about-portrait { width: 150px; height: 150px; float: none; margin: 0 0 24px; }
   .ui-experiment .about-text > .about-signal { font-size: 1.05rem; }
-  .profile-principles { grid-template-columns: 1fr; gap: 12px; }
-  .profile-principles article { display: grid; grid-template-columns: 44px 1fr; gap: 4px 8px; }
-  .profile-principles article > span { grid-row: 1 / 3; margin-top: 8px; }
-  .profile-principles article p { grid-column: 2; }
   .ui-experiment .about-stats { grid-template-columns: 1fr 1fr; }
   .ui-experiment .stat-label { font-size: .75rem; }
   .ui-experiment .profile-organizations .logos-strip { gap: 18px; }
   .work-index { grid-template-columns: 1fr; gap: 28px; }
   .work-index-art { height: 205px; }
-  .proof-legend { display: grid; grid-template-columns: auto auto; gap: 18px 24px; font-size: .94rem; }
-  .proof-legend b { display: none; }
-  .proof-legend > span { gap: 6px; }
   .ui-experiment .case-card-header { padding: 24px 20px; }
   .ui-experiment .case-detail-content { padding-inline: 16px; }
   .decision-notes { display: block; }
   .decision-pin { width: 40px; height: 40px; }
   .ui-experiment .section-title { font-size: 2rem; }
+}
+
+/* Visitors choose when to open supporting work and the full career timeline. */
+.ui-experiment .section-cover { display: block; padding: 32px; border: 1px solid var(--gray-200); cursor: pointer; list-style: none; }
+.ui-experiment .section-cover::-webkit-details-marker { display: none; }
+.ui-experiment .section-cover::marker { content: ''; }
+.ui-experiment .section-cover:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+.section-cover > span { display: block; }
+.cover-eyebrow { font-size: .75rem; line-height: 1.5; letter-spacing: .03em; margin-bottom: 16px; }
+.cover-title { max-width: 680px; font-size: clamp(1.5rem, 3vw, 2.2rem); font-weight: 650; line-height: 1.2; margin-bottom: 14px; }
+.cover-description { max-width: 680px; font-size: .94rem; line-height: 1.65; }
+.section-cover .cover-action { display: flex; align-items: center; gap: 16px; width: fit-content; min-height: 44px; margin-top: 22px; font-size: .85rem; line-height: 1.5; font-weight: 600; }
+.cover-chevron { width: 24px; height: 24px; flex-shrink: 0; }
+.section-disclosure > summary .when-expanded { display: none; }
+.section-disclosure[open] > summary .when-expanded { display: inline; }
+.section-disclosure[open] > summary .when-collapsed { display: none; }
+.section-disclosure[open] > summary .cover-chevron { transform: rotate(180deg); }
+.section-disclosure > .section-reveal { padding-top: 32px; }
+.ui-experiment .interior-cover { min-height: 300px; display: flex; flex-direction: column; justify-content: flex-end; color: #f8f6f0; background: linear-gradient(90deg, rgba(8,14,11,.9), rgba(8,14,11,.7) 55%, rgba(8,14,11,.35)), url('images/interior/venecija-render-3.jpg') center 48% / cover; border-color: #3e4a40; }
+.ui-experiment .interior-cover:focus-visible { outline-color: #bad2bd; }
+.history-cover { background: var(--off-white); }
+.cover-organizations { font-size: clamp(1.15rem, 2.5vw, 1.65rem); font-weight: 600; color: var(--navy); margin-bottom: 14px; }
+.cover-award { max-width: 680px; margin-top: 18px; padding-top: 16px; border-top: 1px solid var(--gray-200); font-size: .85rem; line-height: 1.6; font-weight: 600; color: var(--navy); }
+.history-cover .cover-description { color: var(--gray-600); }
+.history-cover .cover-action { color: var(--accent); }
+.ui-experiment .disclosure-close { display: block; min-height: 44px; margin: 24px auto 0; padding: 10px 16px; border: 1px solid var(--gray-200); background: transparent; color: var(--accent); font: 500 .85rem/1.5 var(--font-sans); cursor: pointer; }
+.ui-experiment .disclosure-close:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.section-cover { scroll-margin-top: 100px; }
+@media (max-width: 600px) {
+  .ui-experiment .section-cover { padding: 24px 20px; }
+  .ui-experiment .interior-cover { min-height: 320px; }
+  .cover-organizations { line-height: 1.5; }
 }
 
 /* Mobile navigation remains a non-modal disclosure with native link semantics. */

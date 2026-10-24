@@ -147,6 +147,17 @@ a:hover {
 
 /* carousel */
 
+#myCarousel .item video {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 1536 / 640;
+    object-fit: contain;
+    margin: 0 auto;
+    background: #000;
+}
+
 .carousel-control.right, .carousel-control.left {
     background-image: none;
     color: white;
@@ -839,11 +850,6 @@ border: solid;
 
 
 @media screen and (max-width: 768px) {
-    #myCarousel .item video {
-        width: 100%;
-        height: 100vh;
-        object-fit: cover;
-    }
     .col-sm-4 {
         text-align: center;
         margin: 25px 0;

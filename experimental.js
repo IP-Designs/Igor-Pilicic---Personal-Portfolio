@@ -168,6 +168,13 @@
       }
     }, true);
     function openHash() {
+      const target = document.getElementById(location.hash.slice(1));
+      if (target) {
+        let ancestor = target.closest('details');
+        let revealed = false;
+        while (ancestor) { revealed = revealed || !ancestor.open; ancestor.open = true; ancestor = ancestor.parentElement.closest('details'); }
+        if (revealed) requestAnimationFrame(() => target.scrollIntoView({ block: 'start' }));
+      }
       if (['#services', '#skills'].includes(location.hash)) {
         const details = document.querySelector(location.hash === '#services' ? '[data-detail="expertise"]' : '[data-detail="tools"]');
         if (details) details.open = true;
@@ -180,6 +187,17 @@
     }
     window.addEventListener('hashchange', openHash);
     openHash();
+
+    document.querySelectorAll('[data-close-disclosure]').forEach(button => {
+      button.addEventListener('click', () => {
+        const details = document.getElementById(button.dataset.closeDisclosure);
+        if (!details) return;
+        const summary = details.querySelector(':scope > summary');
+        details.open = false;
+        summary.focus({ preventScroll: true });
+        summary.scrollIntoView({ block: 'start', behavior: 'auto' });
+      });
+    });
 
     document.querySelectorAll('.decision-exhibit').forEach(exhibit => {
       const controls = Array.from(exhibit.querySelectorAll('[data-decision]'));

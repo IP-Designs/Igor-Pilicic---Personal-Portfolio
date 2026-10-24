@@ -95,9 +95,9 @@
   "about": {
     "eyebrow": "Profil",
     "title": "Design ist das Zentrum. Alles Weitere hilft mir, das gesamte System zu sehen.",
-    "lead": "Dort beginne ich: Ich höre Menschen zu, bilde die tatsächliche Arbeit ab, trenne Symptome von Ursachen und verwandle Erkenntnisse in eine Richtung, die Nutzer verstehen und ein Team umsetzen kann.",
+    "lead": "Ich höre zu, lese zwischen den Zeilen und suche nach dem, was Menschen bei ihrer Arbeit wirklich im Weg steht.",
     "p1": "Mehr als 17 Jahre in visuellem Design, Web, Enterprise UX, Business-Analyse und Technologie geben mir die nötige Breite dafür.",
-    "p2": "Bei <strong>Roche</strong> und <strong>Accenture</strong> kamen Forschung, Workflow-Design, visuelle Kommunikation, Moderation, Analyse und Implementierungsunterstützung in regulierter Enterprise-Arbeit zusammen. Standing Pillars ist mein persönliches Portfolio dieses Weges, mit <strong>Senior UX/Product Design als klarem beruflichen Mittelpunkt</strong>.",
+    "p2": "Bei <strong>Roche</strong> und <strong>Accenture</strong> verband ich UX, Arbeitsabläufe und die Zusammenarbeit mit Teams, vom Verstehen des Problems bis zur Umsetzung. Meine Erfahrung in visuellem Design, Web und Technologie hilft mir, das größere Ganze zu sehen.",
     "personalEyebrow": "Abseits der Arbeit",
     "personalText": "Psychologie, Anthropologie und Soziologie helfen mir, die zwischenmenschliche Seite von Problemen und das Ungesagte zu verstehen. Außerhalb der Arbeit bin ich Ehemann und Vater; ich interessiere mich für Astronomie und genieße Filme, Serien und Spiele.",
     "statYears": "Jahre Berufserfahrung",
@@ -223,7 +223,7 @@
     },
     "clientContextNote": "Regulierte Pharma-Kundenkontexte über Accenture unterstützt, ohne diese Organisationen als direkte Arbeitgeber oder direkte Verträge darzustellen.",
     "eyebrow": "Erfahrung",
-    "title": "Über 17 Jahre Erfahrung, vereint in komplexen Umgebungen",
+    "title": "17+ Jahre. Vom visuellen Design zu komplexen Systemen.",
     "current": "Aktuell",
     "currentRoleDate": "Jun 2026 - Heute",
     "currentRoleTitle": "Eigene Projekte und Produktentwicklung",
@@ -376,6 +376,16 @@
     "ctaConnects": "Es ist ergänzende Evidenz für Systemdenken, Ausdauer und praktisches Prototyping.",
     "progressTitle": "SDK- & Editor-Fortschritt",
     "progressDesc": "Der Prototyp enthält 29 Hauptsysteme, aber das umfassendere Editor- und SDK-Konzept ist erst zu etwa 15% fertig. Der Proof of Concept unten ist ein kleiner Ausschnitt von rund 1.800 Zeilen."
+  },
+  "sectionCovers": {
+    "historyDesc": "Zwei Roche-Projekte als UX Lead, KI-Anbieterbewertung über Accenture und frühere Arbeit im visuellen Design.",
+    "award": "Harvey Norman · Auszeichnung für die beste Werbe-Landingpage, Kroatien, 2016.",
+    "historyOpen": "Beruflichen Werdegang ansehen",
+    "historyClose": "Werdegang einklappen",
+    "interiorTitle": "Vom Rendering zum realen Raum",
+    "interiorDesc": "Drei Vergleiche zwischen 3D-Visualisierungen und dem fertiggestellten Innenraum.",
+    "interiorOpen": "Drei Vergleiche ansehen",
+    "interiorClose": "Arbeiten einklappen"
   },
   "simulationDemo": {
     "eyebrow": "Live-Demo",
