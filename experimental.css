@@ -180,36 +180,35 @@
 .decision-note strong { font-size: .8rem; line-height: 1.5; color: var(--navy); }
 .decision-note > span:last-child { font-size: .76rem; line-height: 1.65; grid-column: 2; }
 .ui-experiment .timeline-content { border-radius: 0; box-shadow: none; }
-.practice-spring { margin: 0 0 36px; }
-.spring-axis { display: flex; justify-content: space-between; align-items: center; gap: 16px; color: var(--gray-500); font-size: .76rem; padding-bottom: 16px; border-bottom: 1px solid var(--gray-200); }
-.spring-axis > span:last-child { font-size: 1.4rem; color: var(--accent); }
-.spring-visual { display: block; width: 100%; height: auto; overflow: visible; margin: 24px 0 0; }
-.spring-visual--vertical { display: none; }
-.spring-track, .spring-ink, .spring-growth { fill: none; stroke-linecap: round; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
-.spring-track { stroke: var(--gray-200); stroke-width: 2; }
-.spring-ink { stroke: var(--accent); stroke-width: 1.8; }
-.spring-growth { stroke: var(--study-note); stroke-width: 1.8; }
-.spring-node { fill: var(--accent); stroke: var(--white); stroke-width: 3; vector-effect: non-scaling-stroke; }
-.spring-node--growth { fill: var(--study-note); }
-.practice-spring.is-drawing .spring-ink { animation: spring-draw 1500ms cubic-bezier(.3,.4,.3,1) both; }
-.practice-spring.is-drawing .spring-growth { animation: spring-draw 500ms ease-out 1000ms both; }
-@keyframes spring-draw { from { stroke-dasharray: 1; stroke-dashoffset: 1; } to { stroke-dasharray: 1; stroke-dashoffset: 0; } }
-.practice-index { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); list-style: none; gap: 24px; margin: 0; padding: 0; }
-.practice-index li { min-width: 0; padding-top: 12px; }
-.practice-index .spring-step-number { display: block; font: var(--font-index); color: var(--study-note); }
+.practice-process { margin: 0 0 36px; }
+.process-axis { display: flex; justify-content: space-between; align-items: center; gap: 16px; color: var(--gray-500); font-size: .76rem; padding-bottom: 16px; border-bottom: 1px solid var(--gray-200); }
+.process-axis > span:last-child { font-size: 1.4rem; color: var(--accent); }
+.practice-index { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); list-style: none; gap: 24px; margin: 28px 0 0; padding: 0; }
+.practice-step { position: relative; min-width: 0; }
+.practice-step:not(:last-child)::after { content: ''; position: absolute; top: 24px; left: 62px; right: -10px; height: 1px; background: var(--gray-200); pointer-events: none; transform-origin: left; }
+.process-icon { display: block; width: 48px; height: 48px; color: var(--accent); margin-bottom: 18px; }
+.practice-step--growth .process-icon { color: var(--study-note); }
+.practice-step-number { display: block; font: var(--font-index); color: var(--study-note); }
 .practice-index h3 { font-size: .98rem; font-weight: 600; margin: 12px 0; line-height: 1.45; color: var(--navy); min-height: 2.9em; }
 .practice-index p { font-size: .82rem; line-height: 1.7; color: var(--gray-600); margin: 0; }
-.spring-loop-note { display: flex; align-items: baseline; gap: 12px; margin: 28px 0 0; padding: 18px 0 0; border-top: 1px solid var(--gray-200); font-size: .82rem; color: var(--gray-500); }
-.spring-loop-note > span:first-child { color: var(--accent); font-size: 1.35rem; }
-@media (max-width: 1050px) {
-  .spring-visual--horizontal { display: none; }
-  .spring-sequence { position: relative; margin-top: 24px; }
-  .spring-visual--vertical { display: block; position: absolute; top: 0; left: 0; width: 76px; height: 100%; margin: 0; }
-  .practice-spring .practice-index { grid-template-columns: 1fr; grid-template-rows: repeat(6, 1fr); gap: 0; padding-left: 100px; }
-  .practice-index li { position: relative; min-height: 145px; padding: 10px 0 24px; display: grid; align-content: center; }
-  .practice-index .spring-step-number { position: absolute; left: -76px; top: calc(50% - 16px); padding: 2px 0; background: var(--white); }
-  .practice-index h3 { min-height: 0; margin: 0 0 8px; }
-  .practice-index p { max-width: 610px; }
+.process-loop-note { display: flex; align-items: baseline; gap: 12px; margin: 28px 0 0; padding: 18px 0 0; border-top: 1px solid var(--gray-200); font-size: .82rem; color: var(--gray-500); }
+.process-loop-note > span:first-child { color: var(--accent); font-size: 1.35rem; }
+.practice-process.is-traced .practice-step:not(:last-child)::after { animation: process-connect 500ms ease-out var(--step-delay) both; }
+@keyframes process-connect { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+@keyframes process-connect-vertical { from { transform: scaleY(0); } to { transform: scaleY(1); } }
+@media (max-width: 1100px) {
+  .practice-index { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 36px 28px; }
+  .practice-step:nth-child(3n)::after { display: none; }
+}
+@media (max-width: 600px) {
+  .practice-index { grid-template-columns: 1fr; gap: 24px; }
+  .practice-step { display: grid; grid-template-columns: 56px minmax(0, 1fr); grid-template-rows: auto 1fr; gap: 8px 20px; min-height: 132px; }
+  .process-icon { grid-column: 1; grid-row: 1; margin: 0; }
+  .practice-step-number { grid-column: 1; grid-row: 2; }
+  .practice-index h3 { grid-column: 2; grid-row: 1; min-height: 0; align-self: center; margin: 0; }
+  .practice-index p { grid-column: 2; grid-row: 2; }
+  .practice-step:not(:last-child)::after { display: block; top: 96px; bottom: -12px; left: 24px; right: auto; width: 1px; height: auto; transform-origin: top; }
+  .practice-process.is-traced .practice-step:not(:last-child)::after { animation-name: process-connect-vertical; }
 }
 .archive-detail { border-top: 1px solid var(--gray-200); padding-block: 6px; }
 .archive-detail > summary { padding: 18px 0; cursor: pointer; font-size: .93rem; color: var(--navy); font-weight: 500; }
@@ -220,7 +219,9 @@
 .archive-detail .practice-node h3, .archive-detail .practice-thesis blockquote { color: var(--navy); }
 .archive-detail .practice-node p { color: var(--gray-600); }
 .archive-detail .practice-node-icon { display: none; }
-.archive-detail .practice-connector::after, .archive-detail .connector-label { background: var(--white); color: var(--accent); }
+.archive-detail .practice-connector::after { background: transparent; color: var(--accent); }
+.archive-detail .connector-label { color: var(--accent); }
+.ui-experiment .archive-detail :is(.connector-label, .branch-label) { font-size: .65rem; background: transparent; }
 .archive-detail .practice-thesis { display: none; }
 .archive-detail .service-pillar, .archive-detail .skill-category { border: 0; border-top: 1px solid var(--gray-200); background: none; border-radius: 0; padding: 24px 16px 8px 0; box-shadow: none; }
 .archive-detail .service-pillar:hover, .archive-detail .skill-category:hover { transform: none; }

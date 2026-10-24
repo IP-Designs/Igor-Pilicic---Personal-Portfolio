@@ -61,16 +61,16 @@
     });
     prepareComplexWord();
 
-    // The process remains fully readable; drawing the spring adds no required interaction.
-    const spring = document.querySelector('[data-practice-spring]');
-    if (spring && !motionPreference.matches && 'IntersectionObserver' in window) {
-      const springObserver = new IntersectionObserver(entries => {
+    // Text and icons are always visible; only the connecting line traces once on entry.
+    const process = document.querySelector('[data-practice-process]');
+    if (process && !motionPreference.matches && 'IntersectionObserver' in window) {
+      const processObserver = new IntersectionObserver(entries => {
         if (entries.some(entry => entry.isIntersecting)) {
-          spring.classList.add('is-drawing');
-          springObserver.disconnect();
+          process.classList.add('is-traced');
+          processObserver.disconnect();
         }
       }, { threshold: 0.12 });
-      springObserver.observe(spring);
+      processObserver.observe(process);
     }
 
     const explorer = document.querySelector('[data-hero-paths]');

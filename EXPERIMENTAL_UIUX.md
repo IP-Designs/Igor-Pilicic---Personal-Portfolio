@@ -46,7 +46,7 @@ Hero > Profile > Work > Experience > Working method and toolbox > Engine > Simul
 - Portrait, diagram pins, timeline markers and the gallery switch retain their intentionally circular or switch-shaped geometry.
 - Confirmed all box corners are zero-radius in HR, EN and DE, including expanded case studies; mobile layouts remain within the viewport.
 
-## Spring process and Roche feedback
+## Spring process and Roche feedback (earlier checkpoint)
 
 - Replaced the four-step index with six short, always-visible stages: understand the problem, agree on a direction, design and test, support delivery, learn from use, enable growth.
 - A continuous SVG spring connects the stages, drawing once on entry. Later stages use the existing copper accent. It is decorative: no clicks, delays, autoplay presentation or hidden step content are required. Reduced motion disables drawing; the complete graphic remains visible without JavaScript.
@@ -56,5 +56,13 @@ Hero > Profile > Work > Experience > Working method and toolbox > Engine > Simul
 - Graphic design library > 3D animation > interior design remains the approved work-gallery order.
 - HR/EN/DE checks covered translations, attributed user figures, six readable steps, desktop/mobile layout, reduced motion and completion of the entry animation. Existing hero, case study, gallery, theme and keyboard checks also passed.
 
-Preview: `http://localhost:3000/hr/?review=spring-1#how-i-work`.
+## Icon-led process review, 2026-10-24
+
+- Replaced the spring metaphor with six standalone line icons: conversation/search, direction, interface/check, handover, feedback loop and expansion. Each icon sits above its number; the approved headings, descriptions and feedback note are unchanged in HR, EN and DE.
+- Thin connectors trace once on entry. Text and icons are immediately visible, with no required clicks or waiting. Reduced-motion preferences disable tracing.
+- Desktop shows six columns, medium screens use two rows of three, and mobile pairs the icon/number rail with the heading and description. No extra cards or icon frames were added. Removed obsolete spring SVGs, styles and observer logic.
+- Retained subsequent approved changes: smaller transparent method labels; all three expertise badges share the core-expertise style and updated web/brand description; graphic gallery is enabled by default and can still be switched off.
+- Browser checks covered seven widths from 320 to 1440 pixels, both themes, all three languages, unchanged step text, decorative SVG accessibility, no unexpected box styles, animation completion and static HTML content. Default gallery and expertise badge consistency also passed.
+
+Preview: `http://localhost:3000/hr/?review=process-icons-1#how-i-work`.
 Cloudflare deployment remains a separate, user-approved step.

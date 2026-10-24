@@ -45,7 +45,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css?v=6e1760e2">
-  <link rel="stylesheet" href="experimental.css?v=spring-1">
+  <link rel="stylesheet" href="experimental.css?v=process-icons-1">
 
   <!-- JSON-LD Structured Data -->
   <script type="application/ld+json">
@@ -569,9 +569,9 @@
     </div>
 
     <!-- Graphic Design Gallery -->
-    <div class="design-gallery" id="design-gallery">
+    <div class="design-gallery gallery-active" id="design-gallery">
       <div class="design-gallery-fade-top"></div>
-      <video class="design-gallery-video" id="galleryVideo" preload="auto" muted autoplay loop>
+      <video class="design-gallery-video active" id="galleryVideo" preload="auto" muted autoplay loop playsinline>
         <source src="images/gallery_on.mp4" type="video/mp4">
       </video>
       <div class="design-gallery-overlay">
@@ -586,7 +586,7 @@
         </button>
         <div class="gallery-toggle-container">
           <span class="toggle-label-text" data-i18n="caseStudies.galleryToggle">Gallery</span>
-          <input type="checkbox" id="galleryToggle" class="gallery-toggle" aria-label="Toggle gallery">
+          <input type="checkbox" id="galleryToggle" class="gallery-toggle" aria-label="Toggle gallery" checked>
           <label for="galleryToggle" class="gallery-toggle-label">
             <span class="toggle-knob"></span>
           </label>
@@ -835,45 +835,17 @@
     <div class="container">
       <span id="services" class="anchor-alias" aria-hidden="true"></span><span id="skills" class="anchor-alias" aria-hidden="true"></span>
       <div class="section-header"><p class="section-eyebrow" data-i18n="ui.practiceEyebrow">How I work</p><h2 class="section-title" data-i18n="ui.practiceTitle">From the first question to a product that can grow.</h2><p class="section-desc" data-i18n="ui.practiceIntro">I connect people, needs, and technology. When designing, I also consider what comes after delivery: everyday use, new users, and future improvements.</p></div>
-      <div class="practice-spring" data-practice-spring>
-        <p class="spring-axis"><span data-i18n="ui.practiceTime">Time and product development</span><span aria-hidden="true">↗</span></p>
-        <svg class="spring-visual spring-visual--horizontal" viewBox="0 0 1200 180" preserveAspectRatio="none" aria-hidden="true" focusable="false">
-
-          <path class="spring-track" d="M 0 36 C 150 -10 210 150 100 150 C -10 150 50 -10 200 36 C 350 -10 410 150 300 150 C 190 150 250 -10 400 36 C 550 -10 610 150 500 150 C 390 150 450 -10 600 36 C 750 -10 810 150 700 150 C 590 150 650 -10 800 36 C 950 -10 1010 150 900 150 C 790 150 850 -10 1000 36 C 1150 -10 1210 150 1100 150 C 990 150 1050 -10 1200 36"/>
-          <path class="spring-ink" pathLength="1" d="M 0 36 C 150 -10 210 150 100 150 C -10 150 50 -10 200 36 C 350 -10 410 150 300 150 C 190 150 250 -10 400 36 C 550 -10 610 150 500 150 C 390 150 450 -10 600 36 C 750 -10 810 150 700 150 C 590 150 650 -10 800 36 C 950 -10 1010 150 900 150 C 790 150 850 -10 1000 36 C 1150 -10 1210 150 1100 150 C 990 150 1050 -10 1200 36"/>
-          <path class="spring-growth" pathLength="1" d="M 800 36 C 950 -10 1010 150 900 150 C 790 150 850 -10 1000 36 C 1150 -10 1210 150 1100 150 C 990 150 1050 -10 1200 36"/>
-          <circle class="spring-node" cx="100" cy="150" r="5"/>
-          <circle class="spring-node" cx="300" cy="150" r="5"/>
-          <circle class="spring-node" cx="500" cy="150" r="5"/>
-          <circle class="spring-node" cx="700" cy="150" r="5"/>
-          <circle class="spring-node spring-node--growth" cx="900" cy="150" r="5"/>
-          <circle class="spring-node spring-node--growth" cx="1100" cy="150" r="5"/>
-
-        </svg>
-        <div class="spring-sequence">
-          <svg class="spring-visual spring-visual--vertical" viewBox="0 0 180 1200" preserveAspectRatio="none" aria-hidden="true" focusable="false">
-          <g transform="translate(170 0) rotate(90)">
-          <path class="spring-track" d="M 0 36 C 150 -10 210 150 100 150 C -10 150 50 -10 200 36 C 350 -10 410 150 300 150 C 190 150 250 -10 400 36 C 550 -10 610 150 500 150 C 390 150 450 -10 600 36 C 750 -10 810 150 700 150 C 590 150 650 -10 800 36 C 950 -10 1010 150 900 150 C 790 150 850 -10 1000 36 C 1150 -10 1210 150 1100 150 C 990 150 1050 -10 1200 36"/>
-          <path class="spring-ink" pathLength="1" d="M 0 36 C 150 -10 210 150 100 150 C -10 150 50 -10 200 36 C 350 -10 410 150 300 150 C 190 150 250 -10 400 36 C 550 -10 610 150 500 150 C 390 150 450 -10 600 36 C 750 -10 810 150 700 150 C 590 150 650 -10 800 36 C 950 -10 1010 150 900 150 C 790 150 850 -10 1000 36 C 1150 -10 1210 150 1100 150 C 990 150 1050 -10 1200 36"/>
-          <path class="spring-growth" pathLength="1" d="M 800 36 C 950 -10 1010 150 900 150 C 790 150 850 -10 1000 36 C 1150 -10 1210 150 1100 150 C 990 150 1050 -10 1200 36"/>
-          <circle class="spring-node" cx="100" cy="150" r="5"/>
-          <circle class="spring-node" cx="300" cy="150" r="5"/>
-          <circle class="spring-node" cx="500" cy="150" r="5"/>
-          <circle class="spring-node" cx="700" cy="150" r="5"/>
-          <circle class="spring-node spring-node--growth" cx="900" cy="150" r="5"/>
-          <circle class="spring-node spring-node--growth" cx="1100" cy="150" r="5"/>
-          </g>
-        </svg>
-          <ol class="practice-index">
-            <li class="spring-step"><span class="spring-step-number">01</span><h3 data-i18n="ui.practiceStep1">Understand the problem</h3><p data-i18n="ui.practiceStep1Desc">I listen to people and study their work to understand what actually needs solving.</p></li>
-            <li class="spring-step"><span class="spring-step-number">02</span><h3 data-i18n="ui.practiceStep2">Agree on a direction</h3><p data-i18n="ui.practiceStep2Desc">I bring needs, constraints, and possibilities together so the team can choose a realistic direction.</p></li>
-            <li class="spring-step"><span class="spring-step-number">03</span><h3 data-i18n="ui.practiceStep3">Design and test</h3><p data-i18n="ui.practiceStep3Desc">I turn ideas into prototypes and designs, then test them with users and engineers.</p></li>
-            <li class="spring-step"><span class="spring-step-number">04</span><h3 data-i18n="ui.practiceStep4">Support delivery</h3><p data-i18n="ui.practiceStep4Desc">I support implementation, explain decisions, and check that the result follows the agreed direction.</p></li>
-            <li class="spring-step spring-step--growth"><span class="spring-step-number">05</span><h3 data-i18n="ui.practiceStep5">Learn from use</h3><p data-i18n="ui.practiceStep5Desc">Feedback from everyday work shows what to keep, adapt, or improve.</p></li>
-            <li class="spring-step spring-step--growth"><span class="spring-step-number">06</span><h3 data-i18n="ui.practiceStep6">Enable growth</h3><p data-i18n="ui.practiceStep6Desc">I anticipate new users, additional workflows, and future improvements so the product can evolve more easily.</p></li>
-          </ol>
-        </div>
-        <p class="spring-loop-note"><span aria-hidden="true">↻</span><span data-i18n="ui.practiceLoop">Feedback takes us back to earlier decisions. The product keeps moving forward.</span></p>
+      <div class="practice-process" data-practice-process>
+        <p class="process-axis"><span data-i18n="ui.practiceTime">Time and product development</span><span aria-hidden="true">↗</span></p>
+        <ol class="practice-index">
+          <li class="practice-step" style="--step-delay: 0ms"><svg class="process-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M24 30H14l-8 6V8h30v11"/><path d="M12 15h17M12 22h9"/><circle cx="32" cy="30" r="8"/><path d="m38 36 6 6"/></svg><span class="practice-step-number">01</span><h3 data-i18n="ui.practiceStep1">Understand the problem</h3><p data-i18n="ui.practiceStep1Desc">I listen to people and study their work to understand what actually needs solving.</p></li>
+          <li class="practice-step" style="--step-delay: 90ms"><svg class="process-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M10 41V29c0-9 7-11 16-11h14M10 29V7m24 5 6 6-6 6"/><path d="m21 34 5 5 10-11"/></svg><span class="practice-step-number">02</span><h3 data-i18n="ui.practiceStep2">Agree on a direction</h3><p data-i18n="ui.practiceStep2Desc">I bring needs, constraints, and possibilities together so the team can choose a realistic direction.</p></li>
+          <li class="practice-step" style="--step-delay: 180ms"><svg class="process-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="5" y="7" width="34" height="30" rx="1"/><path d="M5 15h34M11 11h1m5 0h1M11 22h11M11 28h7m7 4 5 5 13-14"/></svg><span class="practice-step-number">03</span><h3 data-i18n="ui.practiceStep3">Design and test</h3><p data-i18n="ui.practiceStep3Desc">I turn ideas into prototypes and designs, then test them with users and engineers.</p></li>
+          <li class="practice-step" style="--step-delay: 270ms"><svg class="process-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 17V7H4v27h13m11-9v17h16V15H31"/><path d="M16 24h18m-7-7 7 7-7 7M9 13h5m-5 6h5m20 16h5"/></svg><span class="practice-step-number">04</span><h3 data-i18n="ui.practiceStep4">Support delivery</h3><p data-i18n="ui.practiceStep4Desc">I support implementation, explain decisions, and check that the result follows the agreed direction.</p></li>
+          <li class="practice-step practice-step--growth" style="--step-delay: 360ms"><svg class="process-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M31 24H17l-8 6v-6H4V6h32v13M10 12h19m-19 6h11"/><path d="M40 29a10 10 0 1 1-17 8m-4 0h5v5m13-19h5v6"/></svg><span class="practice-step-number">05</span><h3 data-i18n="ui.practiceStep5">Learn from use</h3><p data-i18n="ui.practiceStep5Desc">Feedback from everyday work shows what to keep, adapt, or improve.</p></li>
+          <li class="practice-step practice-step--growth" style="--step-delay: 450ms"><svg class="process-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="17" y="17" width="14" height="14" rx="1"/><rect x="3" y="3" width="9" height="9" rx="1"/><rect x="36" y="3" width="9" height="9" rx="1"/><rect x="3" y="36" width="9" height="9" rx="1"/><rect x="36" y="36" width="9" height="9" rx="1"/><path d="m12 12 5 5m14 0 5-5M12 36l5-5m14 0 5 5"/></svg><span class="practice-step-number">06</span><h3 data-i18n="ui.practiceStep6">Enable growth</h3><p data-i18n="ui.practiceStep6Desc">I anticipate new users, additional workflows, and future improvements so the product can evolve more easily.</p></li>
+        </ol>
+        <p class="process-loop-note"><span aria-hidden="true">↻</span><span data-i18n="ui.practiceLoop">Feedback takes us back to earlier decisions. The product keeps moving forward.</span></p>
       </div>
       <details class="archive-detail"><summary data-i18n="ui.methodDetail">A short look at my method</summary>
       <div class="section-header">
@@ -999,9 +971,9 @@
               <polyline points="9 22 9 12 15 12 15 22"/>
             </svg>
           </div>
-          <div class="service-tier-badge tier-local" data-i18n="services.tierLocal">Complementary Expertise</div>
+          <div class="service-tier-badge tier-enterprise" data-i18n="services.tierEnterprise">Core Expertise</div>
           <h3 data-i18n="services.pillar3Title">Visual and Digital Design</h3>
-          <p class="service-desc" data-i18n="services.pillar3Desc">Earlier web, e-commerce, branding, motion, and 3D work complements my enterprise UX and technology experience.</p>
+          <p class="service-desc" data-i18n="services.pillar3Desc">I connect visual identity, web, and digital products through experience in graphic design, e-commerce, branding, animation, and 3D visualisation.</p>
           <ul class="service-list">
             <li data-i18n="services.pillar3Items.0">Website Design & Development</li>
             <li data-i18n="services.pillar3Items.1">Logo & Brand Identity</li>
@@ -1361,9 +1333,9 @@
     }
   });
   </script>
-  <script src="script.js?v=a48e787c"></script>
+  <script src="script.js?v=gallery-default-on"></script>
   <script src="hero-scene.js"></script>
-  <script src="experimental.js?v=spring-1"></script>
+  <script src="experimental.js?v=process-icons-1"></script>
   <script>
   // =============================================
   // Site Loader - preload simulation assets

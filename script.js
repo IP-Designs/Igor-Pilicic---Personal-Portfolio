@@ -313,10 +313,13 @@ function toggleCaseStudy(id) {
   var descBtn = gallery ? gallery.querySelector('.gallery-desc-toggle') : null;
 
   if (toggle && video && gallery) {
-    toggle.addEventListener('change', function() {
-      if (this.checked) {
+    function updateGallery() {
+      if (toggle.checked) {
         video.classList.add('active');
-        video.play();
+        var playPromise = video.play();
+        if (playPromise && typeof playPromise.catch === 'function') {
+          playPromise.catch(function() { /* Keep the gallery visible if autoplay is blocked. */ });
+        }
         gallery.classList.add('gallery-active');
         if (descWrap) descWrap.classList.remove('expanded');
         if (descBtn) { descBtn.classList.remove('expanded'); descBtn.setAttribute('aria-expanded', 'false'); }
@@ -327,7 +330,9 @@ function toggleCaseStudy(id) {
         if (descWrap) descWrap.classList.remove('expanded');
         if (descBtn) { descBtn.classList.remove('expanded'); descBtn.setAttribute('aria-expanded', 'false'); }
       }
-    });
+    }
+    toggle.addEventListener('change', updateGallery);
+    updateGallery();
   }
 
   if (descBtn && descWrap) {
