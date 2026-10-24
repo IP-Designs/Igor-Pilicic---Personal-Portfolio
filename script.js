@@ -39,19 +39,74 @@ document.addEventListener('DOMContentLoaded', () => {
   const navToggle = document.getElementById('navToggle');
   const navLinks = document.getElementById('navLinks');
 
-  navToggle.addEventListener('click', () => {
-    navLinks.classList.toggle('open');
-    navToggle.classList.toggle('active');
-  });
+  if (navToggle && navLinks) {
+    const mobileNav = window.matchMedia(document.body.classList.contains('ui-experiment')
+      ? '(max-width: 900px)' : '(max-width: 768px)');
+    const fallbackLabels = {
+      en: ['Open navigation', 'Close navigation'],
+      hr: ['Otvori navigaciju', 'Zatvori navigaciju'],
+      de: ['Navigation öffnen', 'Navigation schließen']
+    };
 
-  // Close mobile nav on link click (skip dropdown toggle)
-  navLinks.querySelectorAll('a').forEach(link => {
-    link.addEventListener('click', () => {
-      if (link.classList.contains('nav-dropdown-toggle')) return;
-      navLinks.classList.remove('open');
-      navToggle.classList.remove('active');
+    const updateNavLabel = () => {
+      const open = navLinks.classList.contains('open');
+      const key = open ? 'nav.closeMenu' : 'nav.openMenu';
+      const translated = typeof I18n !== 'undefined' ? I18n.t(key) : key;
+      const labels = fallbackLabels[document.documentElement.lang] || fallbackLabels.en;
+      navToggle.dataset.i18n = key;
+      navToggle.setAttribute('aria-label', translated === key ? labels[open ? 1 : 0] : translated);
+    };
+
+    const setNavOpen = (requestedOpen, restoreFocus = false) => {
+      const mobile = mobileNav.matches;
+      const open = mobile && requestedOpen;
+      if (mobile && !open && (restoreFocus || navLinks.contains(document.activeElement))) {
+        navToggle.focus({ preventScroll: true });
+      }
+      navLinks.classList.toggle('open', open);
+      navToggle.classList.toggle('active', open);
+      navToggle.setAttribute('aria-expanded', String(open));
+      navLinks.inert = mobile && !open;
+      if (mobile && !open) navLinks.setAttribute('aria-hidden', 'true');
+      else navLinks.removeAttribute('aria-hidden');
+      updateNavLabel();
+    };
+
+    navToggle.setAttribute('aria-controls', navLinks.id);
+    navToggle.addEventListener('click', () => setNavOpen(!navLinks.classList.contains('open')));
+    document.addEventListener('i18n:changed', updateNavLabel);
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape' && navLinks.classList.contains('open')) {
+        event.preventDefault();
+        setNavOpen(false, true);
+      }
     });
-  });
+    document.addEventListener('click', event => {
+      if (!navLinks.contains(event.target) && !navToggle.contains(event.target)) setNavOpen(false);
+    });
+    // This is a navigation disclosure, not a modal: Tab can leave it naturally.
+    navbar.addEventListener('focusout', () => {
+      requestAnimationFrame(() => {
+        if (!navbar.contains(document.activeElement)) setNavOpen(false);
+      });
+    });
+    navLinks.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        if (link.classList.contains('nav-dropdown-toggle') || !navLinks.classList.contains('open')) return;
+        setNavOpen(false);
+        const href = link.getAttribute('href');
+        const target = href && href.startsWith('#') && document.getElementById(href.slice(1));
+        if (!target) return;
+        const heading = target.querySelector('h1, h2, h3') || target;
+        const temporaryTabindex = !heading.hasAttribute('tabindex');
+        if (temporaryTabindex) heading.setAttribute('tabindex', '-1');
+        heading.focus({ preventScroll: true });
+        if (temporaryTabindex) heading.addEventListener('blur', () => heading.removeAttribute('tabindex'), { once: true });
+      });
+    });
+    mobileNav.addEventListener('change', () => setNavOpen(false));
+    setNavOpen(false);
+  }
 
   // --- Services dropdown ---
   document.querySelectorAll('.nav-dropdown').forEach(dd => {

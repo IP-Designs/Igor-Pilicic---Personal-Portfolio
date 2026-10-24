@@ -5,6 +5,8 @@
     "direction": "ltr"
   },
   "nav": {
+    "openMenu": "Otvori navigaciju",
+    "closeMenu": "Zatvori navigaciju",
     "about": "O meni",
     "howIWork": "Način rada",
     "services": "Stručnost",

@@ -5,6 +5,8 @@
     "direction": "ltr"
   },
   "nav": {
+    "openMenu": "Open navigation",
+    "closeMenu": "Close navigation",
     "about": "About",
     "howIWork": "How I Work",
     "services": "Expertise",

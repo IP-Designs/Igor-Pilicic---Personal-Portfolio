@@ -45,7 +45,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css?v=6e1760e2">
-  <link rel="stylesheet" href="experimental.css?v=mobile-media-1">
+  <link rel="stylesheet" href="experimental.css?v=mobile-nav-1">
 
   <!-- JSON-LD Structured Data -->
   <script type="application/ld+json">
@@ -163,7 +163,7 @@
           <span class="nav-logo-tagline" data-i18n="nav.tagline">Professional Portfolio · Igor Pilicic</span>
         </span>
       </a>
-      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+      <button class="nav-toggle" id="navToggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="navLinks" data-i18n="nav.openMenu" data-i18n-attr="aria-label">
         <span></span><span></span><span></span>
       </button>
       <ul class="nav-links" id="navLinks">
@@ -853,61 +853,6 @@
         </ol>
         <p class="process-loop-note"><span aria-hidden="true">↻</span><span data-i18n="ui.practiceLoop">Feedback takes us back to earlier decisions. The product keeps moving forward.</span></p>
       </div>
-      <details class="archive-detail"><summary data-i18n="ui.methodDetail">A short look at my method</summary>
-      <div class="section-header">
-        <p class="section-eyebrow" data-i18n="howIWork.eyebrow">How I Work</p>
-        <h2 class="section-title" data-i18n="howIWork.title">From unclear problem to buildable direction</h2>
-        <p class="section-desc" data-i18n="howIWork.desc">My work connects discovery, workflow analysis, interface design, stakeholder alignment, and delivery support. The goal is not more design output; it is a clearer product decision.</p>
-      </div>
-      <div class="practice-graph">
-        <div class="practice-node practice-node-design">
-          <div class="practice-node-icon">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
-          </div>
-          <h3 data-i18n="howIWork.designTitle">Understand and Design</h3>
-          <p data-i18n="howIWork.designDesc">I study users, specialist work, and business constraints before turning them into workflows, prototypes, and reusable patterns.</p>
-        </div>
-        <div class="practice-connector">
-          <span class="connector-label" data-i18n="howIWork.connectorInforms">Clarifies</span>
-        </div>
-        <div class="practice-node practice-node-procurement">
-          <div class="practice-node-icon">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-          </div>
-          <h3 data-i18n="howIWork.evaluateTitle">Map and Align</h3>
-          <p data-i18n="howIWork.evaluateDesc">I make decisions, dependencies, risks, and trade-offs visible so product, business, and engineering teams can align.</p>
-        </div>
-        <div class="practice-connector">
-          <span class="connector-label" data-i18n="howIWork.connectorGoverns">Enables</span>
-        </div>
-        <div class="practice-node practice-node-engineering">
-          <div class="practice-node-icon">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
-          </div>
-          <h3 data-i18n="howIWork.buildTitle">Prototype and Support Delivery</h3>
-          <p data-i18n="howIWork.buildDesc">I test direction through prototypes and help translate design intent into practical implementation guidance and quality review.</p>
-        </div>
-      </div>
-      <div class="practice-branch-label">
-        <div class="practice-branch-connector"></div>
-        <span class="branch-label" data-i18n="howIWork.branchLabel">Visual communication</span>
-        <div class="practice-branch-connector"></div>
-      </div>
-      <div class="practice-branch">
-        <div class="practice-node practice-node-local">
-          <div class="practice-node-icon">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
-          </div>
-          <h3 data-i18n="howIWork.localTitle">Web & Brand Design</h3>
-          <p data-i18n="howIWork.localDesc">Web, brand, motion, and visual communication skills that complement product and transformation work.</p>
-        </div>
-      </div>
-      <div class="practice-thesis">
-        <blockquote>
-          <p data-i18n="howIWork.thesis">Whatever the scale, my role is to make technology clearer, more usable, and more trustworthy.</p>
-        </blockquote>
-      </div>
-</details>
       <details class="archive-detail" data-detail="expertise"><summary data-i18n="ui.expertiseDetail">Areas of expertise, in detail</summary>
       <div class="section-header">
         <p class="section-eyebrow" data-i18n="services.eyebrow">Expertise</p>
@@ -1341,7 +1286,7 @@
     }
   });
   </script>
-  <script src="script.js?v=gallery-default-on"></script>
+  <script src="script.js?v=mobile-nav-1"></script>
   <script src="hero-scene.js"></script>
   <script src="experimental.js?v=process-icons-1"></script>
   <script>

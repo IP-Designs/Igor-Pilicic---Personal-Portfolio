@@ -74,5 +74,21 @@ Hero > Profile > Work > Experience > Working method and toolbox > Engine > Simul
 - Added a guard for transient zero-sized simulation canvases during responsive reflow. Full hero, case-study, gallery, theme and process-icon regression checks pass in all three languages without JavaScript errors or missing local assets.
 - Other audit findings remain outside this pass; no new effects were added.
 
-Preview: `http://localhost:3000/hr/?review=mobile-media-1#design-gallery`.
+## Mobile navigation review, 2026-10-24
+
+- Saved the approved gallery and simulation work as local checkpoint `7dc3a29` before this pass. Navigation changes remain separate for local review.
+- Retained the existing dropdown appearance and native navigation links, without a modal or focus trap. The experimental header now uses its mobile layout through 900px, including landscape phones.
+- The open/close control has a 44px touch target, a visible close icon, `aria-controls`, `aria-expanded` and translated open/close labels. Hidden mobile links are inert and excluded from the accessibility tree.
+- Escape closes the disclosure and returns focus to its button. Outside clicks and tabbing out also close it. Selecting a section closes the menu and moves focus to that section's heading; temporary heading tabindex is cleaned up after focus leaves.
+- The dropdown scrolls within the available viewport, including short landscape screens and safe-area padding. Language and theme controls have 44px targets and remain reachable without closing the menu. Resizing to desktop clears the mobile state and restores visible, focusable desktop links.
+- Browser checks cover HR, EN and DE, live language changes, both themes, keyboard interaction, six mobile/tablet dimensions from 320px to 900px, destination focus, controls on short screens and desktop resize behavior. Existing hero, case-study and mobile media checks are rerun separately.
+
+## Working-method duplication cleanup, 2026-10-24
+
+- Removed the entire legacy method disclosure ("A short look at my method" / "Kratko o mojoj metodi" / "Meine Methode in Kürze") from the EN, HR and DE page markup, rather than hiding it with CSS.
+- Retained the six icon-led stages and feedback note, the complete expertise disclosure and the tools disclosure without changes. Prior mobile navigation changes are preserved.
+- Verified that each HTML file differs from its pre-edit state only by removal of the legacy block. Browser checks passed in HR, EN and DE at 320, 390, 768 and 1440px: six stages, two working disclosures, no horizontal overflow, missing translations or JavaScript errors.
+- No commit, push or deployment in this pass; all work remains in the local experimental branch.
+
+Preview: `http://localhost:3000/hr/?review=method-cleanup-1#how-i-work`.
 Cloudflare deployment remains a separate, user-approved step.

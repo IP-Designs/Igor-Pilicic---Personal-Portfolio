@@ -45,7 +45,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../styles.css?v=6e1760e2">
-  <link rel="stylesheet" href="../experimental.css?v=mobile-media-1">
+  <link rel="stylesheet" href="../experimental.css?v=mobile-nav-1">
 
   <!-- JSON-LD Structured Data -->
   <script type="application/ld+json">
@@ -152,7 +152,7 @@
           <span class="nav-logo-tagline" data-i18n="nav.tagline">Profesionalni portfolio · Igor Piličić</span>
         </span>
       </a>
-      <button class="nav-toggle" id="navToggle" aria-label="Otvori navigaciju">
+      <button class="nav-toggle" id="navToggle" type="button" aria-label="Otvori navigaciju" aria-expanded="false" aria-controls="navLinks" data-i18n="nav.openMenu" data-i18n-attr="aria-label">
         <span></span><span></span><span></span>
       </button>
       <ul class="nav-links" id="navLinks">
@@ -842,61 +842,6 @@
         </ol>
         <p class="process-loop-note"><span aria-hidden="true">↻</span><span data-i18n="ui.practiceLoop">Povratne informacije vraćaju nas prethodnim odlukama. Proizvod ide naprijed.</span></p>
       </div>
-      <details class="archive-detail"><summary data-i18n="ui.methodDetail">Kratko o mojoj metodi</summary>
-      <div class="section-header">
-        <p class="section-eyebrow" data-i18n="howIWork.eyebrow">Moj način rada</p>
-        <h2 class="section-title" data-i18n="howIWork.title">Od nejasnog problema do izvedivog smjera</h2>
-        <p class="section-desc" data-i18n="howIWork.desc">Moj rad povezuje otkrivanje problema, analizu radnih procesa, dizajn sučelja, usklađivanje dionika i podršku isporuci. Cilj nije više dizajnerskih materijala, nego jasnija odluka o proizvodu.</p>
-      </div>
-      <div class="practice-graph">
-        <div class="practice-node practice-node-design">
-          <div class="practice-node-icon">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
-          </div>
-          <h3 data-i18n="howIWork.designTitle">Razumjeti i dizajnirati</h3>
-          <p data-i18n="howIWork.designDesc">Proučavam korisnike, stručni rad i poslovna ograničenja prije nego ih pretvorim u radne procese, prototipe i ponovljive uzorke.</p>
-        </div>
-        <div class="practice-connector">
-          <span class="connector-label" data-i18n="howIWork.connectorInforms">Pojašnjava</span>
-        </div>
-        <div class="practice-node practice-node-procurement">
-          <div class="practice-node-icon">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-          </div>
-          <h3 data-i18n="howIWork.evaluateTitle">Mapirati i uskladiti</h3>
-          <p data-i18n="howIWork.evaluateDesc">Odluke, ovisnosti, rizike i kompromise činim vidljivima kako bi se proizvodni, poslovni i inženjerski timovi mogli uskladiti.</p>
-        </div>
-        <div class="practice-connector">
-          <span class="connector-label" data-i18n="howIWork.connectorGoverns">Omogućuje</span>
-        </div>
-        <div class="practice-node practice-node-engineering">
-          <div class="practice-node-icon">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
-          </div>
-          <h3 data-i18n="howIWork.buildTitle">Prototipirati i podržati isporuku</h3>
-          <p data-i18n="howIWork.buildDesc">Smjer provjeravam prototipovima te pomažem prevesti dizajnersku namjeru u praktične upute za implementaciju i provjeru kvalitete.</p>
-        </div>
-      </div>
-      <div class="practice-branch-label">
-        <div class="practice-branch-connector"></div>
-        <span class="branch-label" data-i18n="howIWork.branchLabel">Vizualna komunikacija</span>
-        <div class="practice-branch-connector"></div>
-      </div>
-      <div class="practice-branch">
-        <div class="practice-node practice-node-local">
-          <div class="practice-node-icon">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
-          </div>
-          <h3 data-i18n="howIWork.localTitle">Web i brend dizajn</h3>
-          <p data-i18n="howIWork.localDesc">Web, brend, motion i vizualna komunikacija nadopunjuju moje iskustvo u proizvodima i digitalnoj transformaciji.</p>
-        </div>
-      </div>
-      <div class="practice-thesis">
-        <blockquote>
-          <p data-i18n="howIWork.thesis">Bez obzira na razinu, moj je doprinos učiniti tehnologiju jasnijom, upotrebljivijom i pouzdanijom.</p>
-        </blockquote>
-      </div>
-</details>
       <details class="archive-detail" data-detail="expertise"><summary data-i18n="ui.expertiseDetail">Područja stručnosti, detaljnije</summary>
       <div class="section-header">
         <p class="section-eyebrow" data-i18n="services.eyebrow">Stručnost</p>
@@ -1330,7 +1275,7 @@
     }
   });
   </script>
-  <script src="../script.js?v=gallery-default-on"></script>
+  <script src="../script.js?v=mobile-nav-1"></script>
   <script src="../hero-scene.js"></script>
   <script src="../experimental.js?v=process-icons-1"></script>
   <script>
