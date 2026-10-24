@@ -238,6 +238,17 @@
 .ui-experiment .case-studies { padding-bottom: 40px; }
 .ui-experiment .ai-engineering { --white: #edf0e7; --navy: #25352a; --accent: #8cad99; --accent-light: #bad2bd; background: #26352b !important; color: #edf0e7; }
 .ui-experiment .ai-project-card, .ui-experiment .ai-detail-card { border-radius: 0; }
+.ui-experiment .ai-engineering > .container > .section-header { margin-bottom: 28px; }
+.ui-experiment .engine-status { display: inline-block; margin: 12px 0 0; color: var(--accent-light); font: 600 .82rem/1.5 var(--font-sans); letter-spacing: .02em; }
+.ui-experiment .engine-role { max-width: 720px; margin: 16px 0 0; color: rgba(255,255,255,.8); font-size: 1rem; line-height: 1.75; }
+.ui-experiment .engine-details { border-top: 1px solid rgba(255,255,255,.2); border-bottom: 1px solid rgba(255,255,255,.2); }
+.ui-experiment .engine-details > summary { min-height: 52px; padding: 16px 0; color: #edf0e7; font-size: .95rem; font-weight: 500; line-height: 1.5; cursor: pointer; }
+.ui-experiment .engine-details > summary::marker { color: var(--accent-light); }
+.ui-experiment .engine-details > summary:focus-visible { outline: 2px solid var(--accent-light); outline-offset: 4px; }
+.ui-experiment .engine-details[open] > summary { margin-bottom: 20px; }
+.ui-experiment .engine-details .ai-showcase { padding-bottom: 16px; }
+.ui-experiment .engine-overview-title { margin: 0 0 16px; color: #edf0e7; font-size: 1.15rem; line-height: 1.4; }
+.ui-experiment .ai-engineering .section-followup:hover { color: #edf0e7; }
 .ui-experiment .simulation-demo .section-title { color: #fff; }
 @media (max-width: 1100px) {
   .ui-experiment .nav-links { gap: 13px; }

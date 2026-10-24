@@ -45,7 +45,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css?v=6e1760e2">
-  <link rel="stylesheet" href="experimental.css?v=mobile-nav-1">
+  <link rel="stylesheet" href="experimental.css?v=engine-compact-1">
 
   <!-- JSON-LD Structured Data -->
   <script type="application/ld+json">
@@ -1026,125 +1026,124 @@
     <div class="container">
       <div class="section-header">
         <p class="section-eyebrow" data-i18n="aiEngineering.eyebrow">Independent Technical Project</p>
-        <h2 class="section-title" data-i18n="aiEngineering.title">A work-in-progress engine built through structured AI collaboration</h2>
-        <p class="section-desc" data-i18n="aiEngineering.desc">Tiny Humans Engine is a personal 2D engine and editor prototype. It is a work-in-progress project demonstrating requirements definition, modular architecture, validation, documentation, and responsible use of AI in a complex build.</p>
+        <h2 class="section-title" data-i18n="aiEngineering.title">Tiny Humans Engine</h2>
+        <p class="engine-status" data-i18n="aiEngineering.status">Working prototype · In development</p>
+        <p class="section-desc" data-i18n="aiEngineering.desc">A personal 2D game engine and editor for building small worlds with autonomous characters. The simulation below is a working extract, not a playable game.</p>
+        <p class="engine-role" data-i18n="aiEngineering.roleSummary">I define how the systems fit together, develop and check them through structured AI collaboration, and document the decisions. The project brings together my design experience, systems thinking and hands-on prototyping.</p>
       </div>
 
-      <div class="ai-showcase">
-        <div class="ai-showcase-main">
-          <div class="ai-project-card">
-            <div class="ai-project-header">
-              <div class="ai-project-icon">&#9654;</div>
-              <div>
-                <h3 data-i18n="aiEngineering.projectTitle">Tiny Humans Engine</h3>
-                <p class="ai-project-sub" data-i18n="aiEngineering.projectSub">Work-in-progress 2D engine and editor prototype developed through AI-assisted collaboration</p>
-              </div>
-            </div>
-            <p class="ai-project-desc" data-i18n="aiEngineering.projectDesc" data-i18n-html>Tiny Humans is a <strong>30,000+ line personal prototype</strong> with an editor, runtime, asset pipeline, scripting system, and packaging work. I used AI tools within a structured loop: <strong>Specify -> Architect -> Govern -> Validate</strong>. The project demonstrates how I define requirements, manage dependencies, test persistence, and document decisions. It is not a commercially released or production product.</p>
-            <div class="ai-stats-row">
-              <div class="ai-stat">
-                <span class="ai-stat-num">30K+</span>
-                <span class="ai-stat-label" data-i18n="aiEngineering.statLines">Lines of code</span>
-              </div>
-              <div class="ai-stat">
-                <span class="ai-stat-num">75+</span>
-                <span class="ai-stat-label" data-i18n="aiEngineering.statFiles">Modular files</span>
-              </div>
-              <div class="ai-stat">
-                <span class="ai-stat-num">29</span>
-                <span class="ai-stat-label" data-i18n="aiEngineering.statSystems">Major systems</span>
-              </div>
-              <div class="ai-stat">
-                <span class="ai-stat-num">60+</span>
-                <span class="ai-stat-label" data-i18n="aiEngineering.statDocs">Documentation files</span>
+      <details class="engine-details" id="engine-technical-details">
+        <summary data-i18n="aiEngineering.detailsToggle">Technical details</summary>
+        <div class="ai-showcase">
+          <div class="ai-showcase-main">
+            <div class="ai-project-card">
+              <h3 class="engine-overview-title" data-i18n="aiEngineering.overviewTitle">Scope of the prototype</h3>
+              <p class="ai-project-desc" data-i18n="aiEngineering.projectDesc" data-i18n-html>Tiny Humans is a <strong>30,000+ line personal prototype</strong> with an editor, runtime, asset pipeline, scripting system, and packaging work. I used AI tools within a structured loop: <strong>Specify -> Architect -> Govern -> Validate</strong>. The project demonstrates how I define requirements, manage dependencies, test persistence, and document decisions. It is not a commercially released or production product.</p>
+              <div class="ai-stats-row">
+                <div class="ai-stat">
+                  <span class="ai-stat-num">30K+</span>
+                  <span class="ai-stat-label" data-i18n="aiEngineering.statLines">Lines of code</span>
+                </div>
+                <div class="ai-stat">
+                  <span class="ai-stat-num">75+</span>
+                  <span class="ai-stat-label" data-i18n="aiEngineering.statFiles">Modular files</span>
+                </div>
+                <div class="ai-stat">
+                  <span class="ai-stat-num">29</span>
+                  <span class="ai-stat-label" data-i18n="aiEngineering.statSystems">Major systems</span>
+                </div>
+                <div class="ai-stat">
+                  <span class="ai-stat-num">60+</span>
+                  <span class="ai-stat-label" data-i18n="aiEngineering.statDocs">Documentation files</span>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="engine-progress">
-          <svg class="progress-ring" viewBox="0 0 100 100">
-            <circle class="progress-ring-bg" cx="50" cy="50" r="40"/>
-            <circle class="progress-ring-fill" cx="50" cy="50" r="40"/>
-            <text class="progress-ring-text" x="50" y="50">15%</text>
-          </svg>
-          <div class="engine-progress-info">
-            <p class="sub-heading" data-i18n="aiEngineering.progressTitle">SDK & Editor Progress</p>
-            <p data-i18n="aiEngineering.progressDesc">The prototype contains 29 major systems, but the broader editor and SDK concept is approximately 15% complete. The proof of concept below is a small extract of about 1,800 lines.</p>
+          <div class="engine-progress">
+            <svg class="progress-ring" viewBox="0 0 100 100">
+              <circle class="progress-ring-bg" cx="50" cy="50" r="40"/>
+              <circle class="progress-ring-fill" cx="50" cy="50" r="40"/>
+              <text class="progress-ring-text" x="50" y="50">15%</text>
+            </svg>
+            <div class="engine-progress-info">
+              <p class="sub-heading" data-i18n="aiEngineering.progressTitle">SDK & Editor Progress</p>
+              <p data-i18n="aiEngineering.progressDesc">The prototype contains 29 major systems, but the broader editor and SDK concept is approximately 15% complete. The proof of concept below is a small extract of about 1,800 lines.</p>
+            </div>
           </div>
-        </div>
 
-        <div class="ai-details-grid">
-          <div class="ai-detail-card">
-            <p class="sub-heading" data-i18n="aiEngineering.detailArchTitle">System Architecture</p>
-            <p data-i18n="aiEngineering.detailArchDesc">Engine Registry + Event Bus pattern decouples 29 systems. Modular design means any system (lighting, audio, NPCs, scripting) can be developed, tested, and updated independently.</p>
-            <div class="ai-detail-tags">
-              <span>Registry Pattern</span>
-              <span>Event Bus</span>
-              <span>29 Systems</span>
+          <div class="ai-details-grid">
+            <div class="ai-detail-card">
+              <p class="sub-heading" data-i18n="aiEngineering.detailArchTitle">System Architecture</p>
+              <p data-i18n="aiEngineering.detailArchDesc">Engine Registry + Event Bus pattern decouples 29 systems. Modular design means any system (lighting, audio, NPCs, scripting) can be developed, tested, and updated independently.</p>
+              <div class="ai-detail-tags">
+                <span>Registry Pattern</span>
+                <span>Event Bus</span>
+                <span>29 Systems</span>
+              </div>
+            </div>
+            <div class="ai-detail-card">
+              <p class="sub-heading" data-i18n="aiEngineering.detailValTitle">Validation & Guardrails</p>
+              <p data-i18n="aiEngineering.detailValDesc">A Save Validator checks seven categories of data integrity. A Feature Manifest reduces duplicate work, while persistence checklists support write, read, and round-trip verification.</p>
+              <div class="ai-detail-tags">
+                <span>Save Validator</span>
+                <span>Feature Manifest</span>
+                <span>Round-trip Testing</span>
+              </div>
+            </div>
+            <div class="ai-detail-card">
+              <p class="sub-heading" data-i18n="aiEngineering.detailGovTitle">AI Governance</p>
+              <p data-i18n="aiEngineering.detailGovDesc">Project-specific AI instructions define persistence checks, common bug prevention, architecture rules, and implementation workflows. Outputs are reviewed and tested rather than accepted automatically.</p>
+              <div class="ai-detail-tags">
+                <span>Copilot Instructions</span>
+                <span>Bug Prevention</span>
+                <span>Architecture Rules</span>
+              </div>
+            </div>
+            <div class="ai-detail-card">
+              <p class="sub-heading" data-i18n="aiEngineering.detailProdTitle">Implemented Prototype Systems</p>
+              <p data-i18n="aiEngineering.detailProdDesc">Ray-cast lighting with DDA shadows. AI state machines with faction targeting. 4-channel spatial audio. Scene management with map caching. 8-type logic gates with loop prevention. A full scripting SDK with Runtime API.</p>
+              <div class="ai-detail-tags">
+                <span>Lighting & Shadows</span>
+                <span>NPC AI / FSM</span>
+                <span>Audio Engine</span>
+                <span>SDK</span>
+              </div>
             </div>
           </div>
-          <div class="ai-detail-card">
-            <p class="sub-heading" data-i18n="aiEngineering.detailValTitle">Validation & Guardrails</p>
-            <p data-i18n="aiEngineering.detailValDesc">A Save Validator checks seven categories of data integrity. A Feature Manifest reduces duplicate work, while persistence checklists support write, read, and round-trip verification.</p>
-            <div class="ai-detail-tags">
-              <span>Save Validator</span>
-              <span>Feature Manifest</span>
-              <span>Round-trip Testing</span>
-            </div>
-          </div>
-          <div class="ai-detail-card">
-            <p class="sub-heading" data-i18n="aiEngineering.detailGovTitle">AI Governance</p>
-            <p data-i18n="aiEngineering.detailGovDesc">Project-specific AI instructions define persistence checks, common bug prevention, architecture rules, and implementation workflows. Outputs are reviewed and tested rather than accepted automatically.</p>
-            <div class="ai-detail-tags">
-              <span>Copilot Instructions</span>
-              <span>Bug Prevention</span>
-              <span>Architecture Rules</span>
-            </div>
-          </div>
-          <div class="ai-detail-card">
-            <p class="sub-heading" data-i18n="aiEngineering.detailProdTitle">Implemented Prototype Systems</p>
-            <p data-i18n="aiEngineering.detailProdDesc">Ray-cast lighting with DDA shadows. AI state machines with faction targeting. 4-channel spatial audio. Scene management with map caching. 8-type logic gates with loop prevention. A full scripting SDK with Runtime API.</p>
-            <div class="ai-detail-tags">
-              <span>Lighting & Shadows</span>
-              <span>NPC AI / FSM</span>
-              <span>Audio Engine</span>
-              <span>SDK</span>
-            </div>
-          </div>
-        </div>
 
-        <div class="ai-methodology">
-          <h3 data-i18n="aiEngineering.methodTitle">Working Method: Structured AI-Assisted Development</h3>
-          <div class="ai-method-grid">
-            <div class="ai-method-step">
-              <div class="ai-method-num">01</div>
-              <p class="sub-heading" data-i18n="aiEngineering.method1Title">Specify</p>
-              <p data-i18n="aiEngineering.method1Desc">Define requirements with the precision of an RFP - scope, constraints, success criteria, integration points.</p>
-            </div>
-            <div class="ai-method-step">
-              <div class="ai-method-num">02</div>
-              <p class="sub-heading" data-i18n="aiEngineering.method2Title">Architect</p>
-              <p data-i18n="aiEngineering.method2Desc">Design the system before writing code. Registry patterns, event flows, data models, persistence paths.</p>
-            </div>
-            <div class="ai-method-step">
-              <div class="ai-method-num">03</div>
-              <p class="sub-heading" data-i18n="aiEngineering.method3Title">Govern</p>
-              <p data-i18n="aiEngineering.method3Desc">Copilot instructions, feature manifests, validation checklists. The AI follows rules, not vibes.</p>
-            </div>
-            <div class="ai-method-step">
-              <div class="ai-method-num">04</div>
-              <p class="sub-heading" data-i18n="aiEngineering.method4Title">Validate</p>
-              <p data-i18n="aiEngineering.method4Desc">Save validators, round-trip testing, documented decisions. Every change is traceable and defensible.</p>
+          <div class="ai-methodology">
+            <h3 data-i18n="aiEngineering.methodTitle">Working Method: Structured AI-Assisted Development</h3>
+            <div class="ai-method-grid">
+              <div class="ai-method-step">
+                <div class="ai-method-num">01</div>
+                <p class="sub-heading" data-i18n="aiEngineering.method1Title">Specify</p>
+                <p data-i18n="aiEngineering.method1Desc">Define requirements with the precision of an RFP - scope, constraints, success criteria, integration points.</p>
+              </div>
+              <div class="ai-method-step">
+                <div class="ai-method-num">02</div>
+                <p class="sub-heading" data-i18n="aiEngineering.method2Title">Architect</p>
+                <p data-i18n="aiEngineering.method2Desc">Design the system before writing code. Registry patterns, event flows, data models, persistence paths.</p>
+              </div>
+              <div class="ai-method-step">
+                <div class="ai-method-num">03</div>
+                <p class="sub-heading" data-i18n="aiEngineering.method3Title">Govern</p>
+                <p data-i18n="aiEngineering.method3Desc">Copilot instructions, feature manifests, validation checklists. The AI follows rules, not vibes.</p>
+              </div>
+              <div class="ai-method-step">
+                <div class="ai-method-num">04</div>
+                <p class="sub-heading" data-i18n="aiEngineering.method4Title">Validate</p>
+                <p data-i18n="aiEngineering.method4Desc">Save validators, round-trip testing, documented decisions. Every change is traceable and defensible.</p>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="ai-cta">
-          <p data-i18n="aiEngineering.ctaText" data-i18n-html>This project does not replace professional engineering experience. It shows how I use <strong>structured AI collaboration, verification, and documentation</strong> to explore a technically complex personal idea.</p>
-          <p class="ai-cta-connects" data-i18n="aiEngineering.ctaConnects" data-i18n-html>It is supporting evidence of systems thinking, persistence, and hands-on prototyping.</p>
+          <div class="ai-cta">
+            <p data-i18n="aiEngineering.ctaText" data-i18n-html>This project does not replace professional engineering experience. It shows how I use <strong>structured AI collaboration, verification, and documentation</strong> to explore a technically complex personal idea.</p>
+            <p class="ai-cta-connects" data-i18n="aiEngineering.ctaConnects" data-i18n-html>It is supporting evidence of systems thinking, persistence, and hands-on prototyping.</p>
+          </div>
         </div>
-      </div>
+      </details>
     </div>
     <a class="section-followup" href="#simulation-demo" data-i18n="followup.aiEng">→ View the working proof of concept</a>
   </section>

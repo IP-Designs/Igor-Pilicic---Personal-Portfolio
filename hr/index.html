@@ -45,7 +45,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../styles.css?v=6e1760e2">
-  <link rel="stylesheet" href="../experimental.css?v=mobile-nav-1">
+  <link rel="stylesheet" href="../experimental.css?v=engine-compact-1">
 
   <!-- JSON-LD Structured Data -->
   <script type="application/ld+json">
@@ -1015,125 +1015,124 @@
     <div class="container">
       <div class="section-header">
         <p class="section-eyebrow" data-i18n="aiEngineering.eyebrow">Samostalni tehnički projekt</p>
-        <h2 class="section-title" data-i18n="aiEngineering.title">Engine u razvoju, izrađen kroz strukturiranu AI suradnju</h2>
-        <p class="section-desc" data-i18n="aiEngineering.desc">Tiny Humans Engine osobni je prototip 2D enginea i editora u razvoju. Projekt pokazuje definiranje zahtjeva, modularnu arhitekturu, validaciju, dokumentaciju i odgovornu uporabu AI-ja u složenoj izradi.</p>
+        <h2 class="section-title" data-i18n="aiEngineering.title">Tiny Humans Engine</h2>
+        <p class="engine-status" data-i18n="aiEngineering.status">Radni prototip · U razvoju</p>
+        <p class="section-desc" data-i18n="aiEngineering.desc">Osobni 2D engine i editor za izradu svjetova s autonomnim likovima. Simulacija ispod radni je isječak projekta, a ne igra koju posjetitelj može igrati.</p>
+        <p class="engine-role" data-i18n="aiEngineering.roleSummary">Definiram kako se sustavi povezuju, razvijam ih i provjeravam kroz strukturiranu suradnju s AI alatima te dokumentiram odluke. Projekt povezuje moje iskustvo u dizajnu, sustavno razmišljanje i praktično prototipiranje.</p>
       </div>
 
-      <div class="ai-showcase">
-        <div class="ai-showcase-main">
-          <div class="ai-project-card">
-            <div class="ai-project-header">
-              <div class="ai-project-icon">&#9654;</div>
-              <div>
-                <h3 data-i18n="aiEngineering.projectTitle">Tiny Humans Engine</h3>
-                <p class="ai-project-sub" data-i18n="aiEngineering.projectSub">2D engine i editor prototip u razvoju, izrađen kroz AI-potpomognutu suradnju</p>
-              </div>
-            </div>
-            <p class="ai-project-desc" data-i18n="aiEngineering.projectDesc" data-i18n-html>Tiny Humans je <strong>osobni prototip s više od 30.000 redaka</strong>, editorom, runtimeom, asset pipelineom, scripting sustavom i radom na pakiranju. AI alate koristio sam unutar strukturiranog kruga: <strong>Specificirati -> Arhitekturirati -> Upravljati -> Validirati</strong>. Projekt pokazuje kako definiram zahtjeve, upravljam ovisnostima, testiram perzistenciju i dokumentiram odluke. Nije komercijalno objavljen ni produkcijski proizvod.</p>
-            <div class="ai-stats-row">
-              <div class="ai-stat">
-                <span class="ai-stat-num">30K+</span>
-                <span class="ai-stat-label" data-i18n="aiEngineering.statLines">Redaka koda</span>
-              </div>
-              <div class="ai-stat">
-                <span class="ai-stat-num">75+</span>
-                <span class="ai-stat-label" data-i18n="aiEngineering.statFiles">Modularnih datoteka</span>
-              </div>
-              <div class="ai-stat">
-                <span class="ai-stat-num">29</span>
-                <span class="ai-stat-label" data-i18n="aiEngineering.statSystems">Glavnih sustava</span>
-              </div>
-              <div class="ai-stat">
-                <span class="ai-stat-num">60+</span>
-                <span class="ai-stat-label" data-i18n="aiEngineering.statDocs">Dokumentacijskih datoteka</span>
+      <details class="engine-details" id="engine-technical-details">
+        <summary data-i18n="aiEngineering.detailsToggle">Tehnički detalji</summary>
+        <div class="ai-showcase">
+          <div class="ai-showcase-main">
+            <div class="ai-project-card">
+              <h3 class="engine-overview-title" data-i18n="aiEngineering.overviewTitle">Opseg prototipa</h3>
+              <p class="ai-project-desc" data-i18n="aiEngineering.projectDesc" data-i18n-html>Tiny Humans je <strong>osobni prototip s više od 30.000 redaka</strong>, editorom, runtimeom, asset pipelineom, scripting sustavom i radom na pakiranju. AI alate koristio sam unutar strukturiranog kruga: <strong>Specificirati -> Arhitekturirati -> Upravljati -> Validirati</strong>. Projekt pokazuje kako definiram zahtjeve, upravljam ovisnostima, testiram perzistenciju i dokumentiram odluke. Nije komercijalno objavljen ni produkcijski proizvod.</p>
+              <div class="ai-stats-row">
+                <div class="ai-stat">
+                  <span class="ai-stat-num">30K+</span>
+                  <span class="ai-stat-label" data-i18n="aiEngineering.statLines">Redaka koda</span>
+                </div>
+                <div class="ai-stat">
+                  <span class="ai-stat-num">75+</span>
+                  <span class="ai-stat-label" data-i18n="aiEngineering.statFiles">Modularnih datoteka</span>
+                </div>
+                <div class="ai-stat">
+                  <span class="ai-stat-num">29</span>
+                  <span class="ai-stat-label" data-i18n="aiEngineering.statSystems">Glavnih sustava</span>
+                </div>
+                <div class="ai-stat">
+                  <span class="ai-stat-num">60+</span>
+                  <span class="ai-stat-label" data-i18n="aiEngineering.statDocs">Dokumentacijskih datoteka</span>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="engine-progress">
-          <svg class="progress-ring" viewBox="0 0 100 100">
-            <circle class="progress-ring-bg" cx="50" cy="50" r="40"/>
-            <circle class="progress-ring-fill" cx="50" cy="50" r="40"/>
-            <text class="progress-ring-text" x="50" y="50">15%</text>
-          </svg>
-          <div class="engine-progress-info">
-            <p class="sub-heading" data-i18n="aiEngineering.progressTitle">Napredak SDK-a i editora</p>
-            <p data-i18n="aiEngineering.progressDesc">Prototip sadrži 29 glavnih sustava, ali širi koncept editora i SDK-a dovršen je približno 15%. Proof of concept ispod mali je isječak od oko 1.800 redaka.</p>
+          <div class="engine-progress">
+            <svg class="progress-ring" viewBox="0 0 100 100">
+              <circle class="progress-ring-bg" cx="50" cy="50" r="40"/>
+              <circle class="progress-ring-fill" cx="50" cy="50" r="40"/>
+              <text class="progress-ring-text" x="50" y="50">15%</text>
+            </svg>
+            <div class="engine-progress-info">
+              <p class="sub-heading" data-i18n="aiEngineering.progressTitle">Napredak SDK-a i editora</p>
+              <p data-i18n="aiEngineering.progressDesc">Prototip sadrži 29 glavnih sustava, ali širi koncept editora i SDK-a dovršen je približno 15%. Proof of concept ispod mali je isječak od oko 1.800 redaka.</p>
+            </div>
           </div>
-        </div>
 
-        <div class="ai-details-grid">
-          <div class="ai-detail-card">
-            <p class="sub-heading" data-i18n="aiEngineering.detailArchTitle">Arhitektura sustava</p>
-            <p data-i18n="aiEngineering.detailArchDesc">Engine Registry + Event Bus uzorak razdvaja 29 sustava. Modularni dizajn znači da se svaki sustav (rasvjeta, audio, NPC-ovi, scripting) može neovisno razvijati, testirati i ažurirati.</p>
-            <div class="ai-detail-tags">
-              <span>Registry Pattern</span>
-              <span>Event Bus</span>
-              <span>29 Systems</span>
+          <div class="ai-details-grid">
+            <div class="ai-detail-card">
+              <p class="sub-heading" data-i18n="aiEngineering.detailArchTitle">Arhitektura sustava</p>
+              <p data-i18n="aiEngineering.detailArchDesc">Engine Registry + Event Bus uzorak razdvaja 29 sustava. Modularni dizajn znači da se svaki sustav (rasvjeta, audio, NPC-ovi, scripting) može neovisno razvijati, testirati i ažurirati.</p>
+              <div class="ai-detail-tags">
+                <span>Registry Pattern</span>
+                <span>Event Bus</span>
+                <span>29 Systems</span>
+              </div>
+            </div>
+            <div class="ai-detail-card">
+              <p class="sub-heading" data-i18n="aiEngineering.detailValTitle">Validacija i zaštitne ograde</p>
+              <p data-i18n="aiEngineering.detailValDesc">Save Validator provjerava sedam kategorija integriteta podataka. Feature Manifest smanjuje dupliciranje rada, a checkliste perzistencije podržavaju provjeru pisanja, čitanja i round-tripa.</p>
+              <div class="ai-detail-tags">
+                <span>Save Validator</span>
+                <span>Feature Manifest</span>
+                <span>Round-trip Testing</span>
+              </div>
+            </div>
+            <div class="ai-detail-card">
+              <p class="sub-heading" data-i18n="aiEngineering.detailGovTitle">AI upravljanje</p>
+              <p data-i18n="aiEngineering.detailGovDesc">Projektne AI upute definiraju provjere perzistencije, prevenciju čestih bugova, pravila arhitekture i implementacijske radne procese. Rezultate provjeravam i testiram umjesto da ih automatski prihvatim.</p>
+              <div class="ai-detail-tags">
+                <span>Copilot Instructions</span>
+                <span>Bug Prevention</span>
+                <span>Architecture Rules</span>
+              </div>
+            </div>
+            <div class="ai-detail-card">
+              <p class="sub-heading" data-i18n="aiEngineering.detailProdTitle">Implementirani prototipni sustavi</p>
+              <p data-i18n="aiEngineering.detailProdDesc">Raycast rasvjeta s DDA sjenama. AI sustavi stanja s frakcijskim ciljanjem. 4-kanalni prostorni audio. Upravljanje scenama s cachiranjem mapa. 8-tipna logička vrata s prevencijom petlji. Potpuni scripting SDK s Runtime API-jem.</p>
+              <div class="ai-detail-tags">
+                <span>Lighting & Shadows</span>
+                <span>NPC AI / FSM</span>
+                <span>Audio Engine</span>
+                <span>SDK</span>
+              </div>
             </div>
           </div>
-          <div class="ai-detail-card">
-            <p class="sub-heading" data-i18n="aiEngineering.detailValTitle">Validacija i zaštitne ograde</p>
-            <p data-i18n="aiEngineering.detailValDesc">Save Validator provjerava sedam kategorija integriteta podataka. Feature Manifest smanjuje dupliciranje rada, a checkliste perzistencije podržavaju provjeru pisanja, čitanja i round-tripa.</p>
-            <div class="ai-detail-tags">
-              <span>Save Validator</span>
-              <span>Feature Manifest</span>
-              <span>Round-trip Testing</span>
-            </div>
-          </div>
-          <div class="ai-detail-card">
-            <p class="sub-heading" data-i18n="aiEngineering.detailGovTitle">AI upravljanje</p>
-            <p data-i18n="aiEngineering.detailGovDesc">Projektne AI upute definiraju provjere perzistencije, prevenciju čestih bugova, pravila arhitekture i implementacijske radne procese. Rezultate provjeravam i testiram umjesto da ih automatski prihvatim.</p>
-            <div class="ai-detail-tags">
-              <span>Copilot Instructions</span>
-              <span>Bug Prevention</span>
-              <span>Architecture Rules</span>
-            </div>
-          </div>
-          <div class="ai-detail-card">
-            <p class="sub-heading" data-i18n="aiEngineering.detailProdTitle">Implementirani prototipni sustavi</p>
-            <p data-i18n="aiEngineering.detailProdDesc">Raycast rasvjeta s DDA sjenama. AI sustavi stanja s frakcijskim ciljanjem. 4-kanalni prostorni audio. Upravljanje scenama s cachiranjem mapa. 8-tipna logička vrata s prevencijom petlji. Potpuni scripting SDK s Runtime API-jem.</p>
-            <div class="ai-detail-tags">
-              <span>Lighting & Shadows</span>
-              <span>NPC AI / FSM</span>
-              <span>Audio Engine</span>
-              <span>SDK</span>
-            </div>
-          </div>
-        </div>
 
-        <div class="ai-methodology">
-          <h3 data-i18n="aiEngineering.methodTitle">Način rada: strukturirani AI-potpomognuti razvoj</h3>
-          <div class="ai-method-grid">
-            <div class="ai-method-step">
-              <div class="ai-method-num">01</div>
-              <p class="sub-heading" data-i18n="aiEngineering.method1Title">Specificirati</p>
-              <p data-i18n="aiEngineering.method1Desc">Definirati zahtjeve s preciznošću RFP-a - opseg, ograničenja, kriteriji uspjeha, točke integracije.</p>
-            </div>
-            <div class="ai-method-step">
-              <div class="ai-method-num">02</div>
-              <p class="sub-heading" data-i18n="aiEngineering.method2Title">Arhitekturirati</p>
-              <p data-i18n="aiEngineering.method2Desc">Dizajnirati sustav prije pisanja koda. Registry uzorci, tokovi događaja, modeli podataka, putovi perzistencije.</p>
-            </div>
-            <div class="ai-method-step">
-              <div class="ai-method-num">03</div>
-              <p class="sub-heading" data-i18n="aiEngineering.method3Title">Upravljati</p>
-              <p data-i18n="aiEngineering.method3Desc">Copilot instrukcije, feature manifesti, validacijske checkliste. AI slijedi pravila, ne osjećaje.</p>
-            </div>
-            <div class="ai-method-step">
-              <div class="ai-method-num">04</div>
-              <p class="sub-heading" data-i18n="aiEngineering.method4Title">Validirati</p>
-              <p data-i18n="aiEngineering.method4Desc">Save validatori, roundtrip testiranje, dokumentirane odluke. Svaka promjena je sljediva i obranljiva.</p>
+          <div class="ai-methodology">
+            <h3 data-i18n="aiEngineering.methodTitle">Način rada: strukturirani AI-potpomognuti razvoj</h3>
+            <div class="ai-method-grid">
+              <div class="ai-method-step">
+                <div class="ai-method-num">01</div>
+                <p class="sub-heading" data-i18n="aiEngineering.method1Title">Specificirati</p>
+                <p data-i18n="aiEngineering.method1Desc">Definirati zahtjeve s preciznošću RFP-a - opseg, ograničenja, kriteriji uspjeha, točke integracije.</p>
+              </div>
+              <div class="ai-method-step">
+                <div class="ai-method-num">02</div>
+                <p class="sub-heading" data-i18n="aiEngineering.method2Title">Arhitekturirati</p>
+                <p data-i18n="aiEngineering.method2Desc">Dizajnirati sustav prije pisanja koda. Registry uzorci, tokovi događaja, modeli podataka, putovi perzistencije.</p>
+              </div>
+              <div class="ai-method-step">
+                <div class="ai-method-num">03</div>
+                <p class="sub-heading" data-i18n="aiEngineering.method3Title">Upravljati</p>
+                <p data-i18n="aiEngineering.method3Desc">Copilot instrukcije, feature manifesti, validacijske checkliste. AI slijedi pravila, ne osjećaje.</p>
+              </div>
+              <div class="ai-method-step">
+                <div class="ai-method-num">04</div>
+                <p class="sub-heading" data-i18n="aiEngineering.method4Title">Validirati</p>
+                <p data-i18n="aiEngineering.method4Desc">Save validatori, roundtrip testiranje, dokumentirane odluke. Svaka promjena je sljediva i obranljiva.</p>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="ai-cta">
-          <p data-i18n="aiEngineering.ctaText" data-i18n-html>Ovaj projekt nije zamjena za profesionalno inženjersko iskustvo. Pokazuje kako koristim <strong>strukturiranu AI suradnju, provjeru i dokumentaciju</strong> za istraživanje tehnički složene osobne ideje.</p>
-          <p class="ai-cta-connects" data-i18n="aiEngineering.ctaConnects" data-i18n-html>To je dodatni dokaz sustavnog razmišljanja, ustrajnosti i praktičnog prototipiranja.</p>
+          <div class="ai-cta">
+            <p data-i18n="aiEngineering.ctaText" data-i18n-html>Ovaj projekt nije zamjena za profesionalno inženjersko iskustvo. Pokazuje kako koristim <strong>strukturiranu AI suradnju, provjeru i dokumentaciju</strong> za istraživanje tehnički složene osobne ideje.</p>
+            <p class="ai-cta-connects" data-i18n="aiEngineering.ctaConnects" data-i18n-html>To je dodatni dokaz sustavnog razmišljanja, ustrajnosti i praktičnog prototipiranja.</p>
+          </div>
         </div>
-      </div>
+      </details>
     </div>
     <a class="section-followup" href="#simulation-demo" data-i18n="followup.aiEng">→ Pogledajte radni proof of concept</a>
   </section>

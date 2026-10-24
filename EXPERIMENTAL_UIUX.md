@@ -90,5 +90,14 @@ Hero > Profile > Work > Experience > Working method and toolbox > Engine > Simul
 - Verified that each HTML file differs from its pre-edit state only by removal of the legacy block. Browser checks passed in HR, EN and DE at 320, 390, 768 and 1440px: six stages, two working disclosures, no horizontal overflow, missing translations or JavaScript errors.
 - No commit, push or deployment in this pass; all work remains in the local experimental branch.
 
-Preview: `http://localhost:3000/hr/?review=method-cleanup-1#how-i-work`.
+## Compact engine summary, 2026-10-24
+
+- Replaced the long default engine presentation with the project name, a visible working-prototype / in-development status, a short explanation of the project and a short first-person description of Igor's contribution. HR, EN and DE static text and dictionaries are aligned.
+- Moved the original project scope, statistics, SDK/editor progress, four technical cards, AI-assisted development method and supporting caveats into one native, closed-by-default "Technical details" disclosure. The technical facts and wording are retained. Removed the decorative play icon and duplicated project subtitle from the technical header.
+- Kept the autonomous simulation outside the disclosure and unchanged, including its mobile framing and dialogue. The summary explains that it is not a playable game; the existing direct link remains visible.
+- On the HR page at 390px, the closed engine section decreased from 4,175px to 666px and its rendered text from 389 to 72 words. This is a reading-length reduction, not a claim about download size.
+- Checks cover four widths from 320 to 1440px, all three languages, both themes, native mouse/keyboard toggling, live language switching with details open, retained technical content and visible prototype status. No horizontal overflow, unresolved translations, duplicate IDs or JavaScript errors were found.
+- Verified that the simulation and all other sections remain byte-for-byte unchanged, apart from the stylesheet cache version. No commit, push or deployment in this pass.
+
+Preview: `http://localhost:3000/hr/?review=engine-compact-1#ai-engineering`.
 Cloudflare deployment remains a separate, user-approved step.
