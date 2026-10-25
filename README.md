@@ -11,7 +11,7 @@ Standing Pillars is a portfolio and project name, not a separately incorporated 
 | `index.html` | English homepage |
 | `hr/` | Croatian site |
 | `de/` | German site |
-| `services/` | Legacy pages retained only for redirects; excluded from the sitemap and search indexing |
+| `services/` | Indexable topical experience pages at their original URLs, with EN/HR/DE alternates |
 | `lang/` | Client-side translations |
 | `portfolio/` | Selected legacy portfolio work |
 | `simulation/` | Interactive Tiny Humans technical demonstration |
@@ -40,7 +40,7 @@ node cache-bust.js
 
 ## Deployment
 
-The site is static and can be deployed from the connected GitHub repository through Cloudflare Pages. Use the repository root as the deployment directory. Legacy service URLs redirect to the relevant homepage expertise section.
+The site is static and can be deployed from the connected GitHub repository through Cloudflare Pages. Use the repository root as the deployment directory. Original service URLs remain available as personal experience and expertise pages, not agency offers.
 
 ## Privacy
 

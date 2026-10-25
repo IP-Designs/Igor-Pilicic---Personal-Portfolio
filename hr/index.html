@@ -47,6 +47,7 @@
   <link rel="stylesheet" href="../styles.css?v=6e1760e2">
   <link rel="stylesheet" href="../experimental.css?v=case-height-1">
   <link rel="stylesheet" href="../palette-black-gold.css?v=light-gold-1">
+  <link rel="stylesheet" href="../sci-fi-cta.css?v=sp-cta-1">
 
   <!-- JSON-LD Structured Data -->
   <script type="application/ld+json">
@@ -164,7 +165,7 @@
         <li><a href="#experience" data-i18n="nav.experience">Iskustvo</a></li>
         <li><a href="#how-i-work" data-i18n="nav.howIWork">Način rada</a></li>
         <li><a href="#ai-engineering" data-i18n="nav.aiEngineering">Tehnički projekt</a></li>
-        <li><a href="#contact" class="nav-cta" data-i18n="nav.contact">Kontakt</a></li>
+        <li><a href="#contact" class="nav-cta sp-cta" data-i18n="nav.contact">Kontakt</a></li>
         <li class="lang-switcher" role="group" aria-label="Jezik">
           <button data-lang="en" title="English" aria-label="English">EN</button>
           <button data-lang="de" title="Deutsch" aria-label="Deutsch">DE</button>
@@ -221,17 +222,17 @@
           <div class="hero-path-panels">
             <article class="hero-path-panel is-active" id="hero-path-product" role="tabpanel" aria-labelledby="hero-path-product-tab" data-path-panel="product">
               <p data-i18n="heroPaths.productDesc">Kad stručno znanje, regulativa i stvarni radni proces moraju postati jasan proizvod.</p>
-              <a href="#cs-rca" data-open-case="cs-rca" data-i18n="heroPaths.productCta">Pogledajte enterprise studije</a>
+              <a class="sp-cta sp-cta--outline" href="#cs-rca" data-open-case="cs-rca" data-i18n="heroPaths.productCta">Pogledajte enterprise studije</a>
             </article>
             <article class="hero-path-panel" id="hero-path-visual" role="tabpanel" aria-labelledby="hero-path-visual-tab" data-path-panel="visual" hidden>
               <p data-i18n="heroPaths.visualDesc">Kad poruka mora privući pažnju, ostati jasna i raditi u stvarnom tržišnom kontekstu.</p>
-              <a href="#design-gallery" data-i18n="heroPaths.visualCta">Otvorite biblioteku dizajna</a>
+              <a class="sp-cta sp-cta--outline" href="#design-gallery" data-i18n="heroPaths.visualCta">Otvorite biblioteku dizajna</a>
             </article>
             <article class="hero-path-panel" id="hero-path-technical" role="tabpanel" aria-labelledby="hero-path-technical-tab" data-path-panel="technical" hidden>
               <p data-i18n="heroPaths.technicalDesc">Kad ideju treba strukturirati, ispitati njezine granice i izgraditi dokaz koji stvarno radi.</p>
               <div class="hero-path-actions">
-                <a href="#ai-engineering" data-i18n="heroPaths.technicalCta">Istražite engine</a>
-                <a href="#simulation-demo" data-i18n="heroPaths.demoCta">Pogledajte showcase</a>
+                <a class="sp-cta sp-cta--outline" href="#ai-engineering" data-i18n="heroPaths.technicalCta">Istražite engine</a>
+                <a class="sp-cta sp-cta--outline" href="#simulation-demo" data-i18n="heroPaths.demoCta">Pogledajte showcase</a>
               </div>
             </article>
           </div>
@@ -354,7 +355,7 @@
     <p data-i18n="caseStories.rca.situation1">Stručnjaci su poznavali proizvodnju i istražne metode. Moj je zadatak bio razumjeti kako ih stvarno primjenjuju i pretvoriti taj rad u povezan digitalni proces.</p><p data-i18n="caseStories.rca.situation2">Fishbone, Is/Is Not i 5 Whys trebalo je povezati s tijekom istrage: što korisnik pokušava utvrditi, koje informacije već ima i što mu treba za sljedeću odluku.</p>
     <div class="case-judgment"><h5 data-i18n="caseStories.judgment">Gdje je bila moja prosudba</h5><p data-i18n="caseStories.rca.judgment1">Kroz istraživanje sa stručnjacima, mapiranje procesa i suradnju s Product Ownerima i inženjerima povezivao sam potrebe korisnika s mogućnostima sustava. Podržavao sam projektno planiranje, procjenu izvedivosti i razradu smjera prije detaljne izrade dizajna.</p><p data-i18n="caseStories.rca.judgment2">U prikazanom Figma primjeru vidi se kako se taj pristup prenosi u proizvod: smjernice su dostupne unutar zadatka, metode imaju jasne ulazne točke, a korisnik zadržava pregled nad ostatkom istrage.</p></div>
     <div class="case-contribution"><h5 data-i18n="caseStories.contribution">Moj doprinos timu</h5><p data-i18n="caseStories.rca.contribution">Pomagao sam stručnjacima, vodstvu projekta i inženjerima izgraditi zajedničko razumijevanje problema te ga pretvoriti u radne procese, prototipe i upute za implementaciju.</p></div>
-    <a class="case-narrative-link" href="#rca-design-decisions" data-i18n="caseStories.rca.link">Pogledajte proces i dizajnerske odluke</a>
+    <a class="case-narrative-link sp-cta sp-cta--outline" href="#rca-design-decisions" data-i18n="caseStories.rca.link">Pogledajte proces i dizajnerske odluke</a>
   </article>
 <details class="decision-exhibit" id="rca-design-decisions">
       <summary data-i18n="ui.decisionToggle">Prikaži dizajnerske odluke</summary>
@@ -532,7 +533,7 @@
     <p data-i18n="caseStories.accenture.situation1">Kod procjene AI rješenja trebalo je razumjeti što tehnologija može ponuditi, kako se uklapa u postojeće procese i što bi njezino uvođenje zahtijevalo.</p><p data-i18n="caseStories.accenture.situation2">Radio sam s vodstvom projekta, timovima i AI inženjerima na istraživanju dobavljača, strukturiranju zahtjeva i pripremi materijala za odlučivanje.</p>
     <div class="case-judgment"><h5 data-i18n="caseStories.judgment">Gdje je bila moja prosudba</h5><p data-i18n="caseStories.accenture.judgment1">Povezivao sam poslovne potrebe, korisničke procese i tehnička ograničenja. Sudjelovao sam u procjenama treba li postojeći sustav značajniju preradu ili se potrebna funkcionalnost može povezati putem API-ja.</p><p data-i18n="caseStories.accenture.judgment2">Nalaze sam pretvarao u RFP/RFI materijale, evaluacijske okvire i prezentacije za vodstvo. Važan dio tog rada bio je odabrati što je relevantno za odluku, jasno prikazati otvorena pitanja i objasniti kompromise.</p></div>
     <div class="case-contribution"><h5 data-i18n="caseStories.contribution">Moj doprinos timu</h5><p data-i18n="caseStories.accenture.contribution">Bio sam bliska podrška voditelju projekta i timovima u pripremi odluka. Moje iskustvo u UX-u, analizi i vizualnoj komunikaciji pomoglo je povezati tehničke detalje s poslovnim pitanjima o kojima je vodstvo trebalo odlučiti.</p></div>
-    <a class="case-narrative-link" href="#experience" data-i18n="caseStories.accenture.link">Opseg angažmana i odgovornosti</a>
+    <a class="case-narrative-link sp-cta sp-cta--outline" href="#experience" data-i18n="caseStories.accenture.link">Opseg angažmana i odgovornosti</a>
   </article>
   </details>
           </div>
@@ -546,7 +547,7 @@
             <h3 data-i18n="caseStudies.iphone.title">iPhone 7 prednarudžba landing stranica</h3>
             <span class="case-role" data-i18n="caseStudies.iphone.role">Dizajner i developer · Solo</span>
             <p data-i18n="caseStudies.iphone.desc">Istraživanje tržišta vodilo je minimalističkom pristupu - pohrana umjesto specifikacija, UI usklađen s bojama, crna pozadina za luksuz. Nagrađena „Najbolja promotivna landing stranica“ u Hrvatskoj (Appcom / Apple Partner, 2016).</p>
-            <a href="../portfolio/iphone7/index.html" target="_blank" class="btn btn-outline" style="margin-top: 12px; display: inline-block; font-size: 0.85rem; padding: 8px 20px;" data-i18n="caseStudies.iphone.btn">Pogledaj demo</a>
+            <a href="../portfolio/iphone7/index.html" target="_blank" class="btn btn-outline sp-cta sp-cta--outline" style="margin-top: 12px; display: inline-block; font-size: 0.85rem; padding: 8px 20px;" data-i18n="caseStudies.iphone.btn">Pogledaj demo</a>
           </div>
         </div>
       </div>
@@ -667,7 +668,7 @@
       </div>
     </div>
 
-    <a class="section-followup" href="#experience" data-i18n="followup.cases">→ Iskustvo iza rada</a>
+    <a class="section-followup sp-cta sp-cta--outline" href="#experience" data-i18n="followup.cases">→ Iskustvo iza rada</a>
 
   </section>
 
@@ -942,6 +943,7 @@
             <li data-i18n="services.pillar1Items.7">2D/3D animacija i vizualizacija</li>
           </ul>
           <p class="service-connects" data-i18n="services.pillar1Connects">Povezuje potrebe korisnika, poslovna pravila i stvarnost implementacije.</p>
+          <a class="case-narrative-link expertise-detail-link sp-cta sp-cta--outline" href="/hr/services/ux-design/" data-lang-href="services/ux-design/" data-i18n="ui.experienceMore">Detaljnije o ovom iskustvu</a>
         </div>
         <!-- Pillar 2: AI Procurement -->
         <div class="service-pillar">
@@ -965,6 +967,7 @@
             <li data-i18n="services.pillar2Items.5">Materijali za upravu i C-Suite komunikacija</li>
           </ul>
           <p class="service-connects" data-i18n="services.pillar2Connects">Povezuje dokaze i kompromise s jasnim, sljedivim odlukama.</p>
+          <a class="case-narrative-link expertise-detail-link sp-cta sp-cta--outline" href="/hr/services/ai-procurement/" data-lang-href="services/ai-procurement/" data-i18n="ui.experienceMore">Detaljnije o ovom iskustvu</a>
         </div>
         <!-- Pillar 3: Local Business -->
         <div class="service-pillar service-pillar-local">
@@ -987,6 +990,7 @@
           </ul>
           <p class="service-local-note" data-i18n="services.pillar3Note">Relevantno za timove koji cijene dizajnera koji razumije cijeli put od vizualnog identiteta do funkcionalnog digitalnog proizvoda.</p>
           <p class="service-connects" data-i18n="services.pillar3Connects">Povezuje vizualnu vještinu s upotrebljivom digitalnom isporukom.</p>
+          <a class="case-narrative-link expertise-detail-link sp-cta sp-cta--outline" href="/hr/services/local-business/" data-lang-href="services/local-business/" data-i18n="ui.experienceMore">Detaljnije o ovom iskustvu</a>
         </div>
       </div>
 </details>
@@ -1197,7 +1201,7 @@
         </div>
       </details>
     </div>
-    <a class="section-followup" href="#simulation-demo" data-i18n="followup.aiEng">→ Pogledajte radni proof of concept</a>
+    <a class="section-followup sp-cta sp-cta--outline" href="#simulation-demo" data-i18n="followup.aiEng">→ Pogledajte radni proof of concept</a>
   </section>
 
   <!-- Live Simulation Demo -->
@@ -1284,8 +1288,8 @@
           <h3 id="contact-direct-title" data-i18n="contact.directTitle">Javite mi se izravno</h3>
           <p data-i18n="contact.directDesc">Za stalno zaposlenje, ugovorni angažman ili profesionalnu suradnju, pošaljite mi e-poštu ili se povežite putem LinkedIna.</p>
           <div class="contact-direct-actions">
-            <a class="btn btn-primary" href="mailto:igor.pilicic@standingpillars.com" data-i18n="contact.emailButton">Pošaljite e-poštu</a>
-            <a class="btn btn-outline" href="https://linkedin.com/in/igor-pilicic" target="_blank" rel="noopener" data-i18n="contact.linkedinButton">Povežite se na LinkedInu</a>
+            <a class="btn btn-primary sp-cta" href="mailto:igor.pilicic@standingpillars.com" data-i18n="contact.emailButton">Pošaljite e-poštu</a>
+            <a class="btn btn-outline sp-cta sp-cta--outline" href="https://linkedin.com/in/igor-pilicic" target="_blank" rel="noopener" data-i18n="contact.linkedinButton">Povežite se na LinkedInu</a>
           </div>
         </aside>
       </div>

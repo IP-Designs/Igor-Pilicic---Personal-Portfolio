@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-palette="black-gold">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -41,19 +41,24 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../../styles.css?v=6e1760e2">
+  <link rel="stylesheet" href="../../experimental.css?v=case-height-1">
+  <link rel="stylesheet" href="../../palette-black-gold.css?v=light-gold-1">
+  <link rel="stylesheet" href="../../service-experience.css?v=experience-1">
+  <link rel="stylesheet" href="../../sci-fi-cta.css?v=sp-cta-1">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
       { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://standingpillars.com/" },
-      { "@type": "ListItem", "position": 2, "name": "AI Procurement / Vendor Evaluation", "item": "https://standingpillars.com/services/ai-procurement/" }
+      { "@type": "ListItem", "position": 2, "name": "AI Vendor Evaluation Experience", "item": "https://standingpillars.com/services/ai-procurement/" }
     ]
   }
   </script>
-  <script>if(localStorage.getItem('theme')!=='light')document.documentElement.setAttribute('data-theme','dark')</script>
+  <script>try { if(localStorage.getItem('theme')!=='light')document.documentElement.setAttribute('data-theme','dark'); } catch(error) { document.documentElement.setAttribute('data-theme','dark'); }</script>
 </head>
-<body>
+<body class="ui-experiment service-experience-body">
+  <a class="skip-link" href="#experience-content" onclick="document.getElementById('experience-content').focus({ preventScroll: true });">Skip to content</a>
 
   <!-- Navigation -->
   <nav class="navbar" id="navbar" aria-label="Main navigation">
@@ -88,9 +93,9 @@
           </div>
         </li>
         <li><a href="../../#experience">Experience</a></li>
-        <li><a href="../../#ai-engineering">AI Engineering</a></li>
+        <li><a href="../../#ai-engineering">Technical Project</a></li>
         <li><a href="../../#case-studies">Case Studies</a></li>
-        <li><a href="../../#contact" class="nav-cta">Open to Opportunities</a></li>
+        <li><a href="../../#contact" class="nav-cta sp-cta">Contact Igor</a></li>
         <li>
           <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
             <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
@@ -101,23 +106,28 @@
     </div>
   </nav>
 
-  <main>
+  <main id="experience-content" tabindex="-1">
 
     <!-- Breadcrumb -->
-    <div class="container">
+    <div class="container experience-nav-row">
       <nav class="breadcrumb" aria-label="Breadcrumb">
         <a href="../../">Home</a>
         <span aria-hidden="true">/</span>
         <span aria-current="page">AI Procurement</span>
+      </nav>
+      <nav class="experience-languages" aria-label="Page language">
+        <a href="/services/ai-procurement/" hreflang="en" lang="en" aria-current="page">EN</a>
+        <a href="/hr/services/ai-procurement/" hreflang="hr" lang="hr">HR</a>
+        <a href="/de/services/ai-procurement/" hreflang="de" lang="de">DE</a>
       </nav>
     </div>
 
     <!-- Hero -->
     <header class="service-hero">
       <div class="container">
-        <p class="section-eyebrow">Core Expertise Consulting</p>
-        <h1 class="service-hero-title">AI Procurement &amp; OSINT Consulting</h1>
-        <p class="service-hero-desc">I evaluate the vendors so you don't get burned. OSINT-based due diligence, structured RFPs, and governance frameworks that surface risks before contracts are signed. Years of building the tools myself means I know exactly what to demand from vendors.</p>
+        <p class="section-eyebrow">Experience and expertise</p>
+        <h1 class="service-hero-title">AI Vendor Evaluation, Procurement &amp; Decision Support Experience</h1>
+        <p class="service-hero-desc">Through Accenture and pharmaceutical client work, I supported product owners, project leads, and decision-makers with research, RFP/RFI materials, vendor evaluation, and executive presentations. The emphasis was turning complex information into clear choices and traceable next steps.</p>
       </div>
     </header>
 
@@ -130,8 +140,8 @@
     <section class="section">
       <div class="container">
         <div class="section-header">
-          <p class="section-eyebrow">Expertise</p>
-          <h2 class="section-title">What I deliver</h2>
+          <p class="section-eyebrow">Areas of experience</p>
+          <h2 class="section-title">Areas of experience</h2>
         </div>
         <div class="services-grid services-grid-three">
           <div class="service-pillar">
@@ -141,7 +151,7 @@
               </svg>
             </div>
             <h3>OSINT Vendor Due Diligence</h3>
-            <p class="service-desc">Deep open-source intelligence investigations into AI vendors. I uncover what sales decks hide: funding instability, technical debt, data handling practices, regulatory gaps, and reputational risks - before you sign anything.</p>
+            <p class="service-desc">Open-source research into vendors, their technical claims, business context, public evidence, and risks relevant to the decision being made.</p>
           </div>
           <div class="service-pillar">
             <div class="service-icon">
@@ -150,7 +160,7 @@
               </svg>
             </div>
             <h3>RFP/RFI Development</h3>
-            <p class="service-desc">Structured procurement documents that ask the right questions. I write RFPs that force vendors to prove their claims with evidence - not marketing language. Templates designed for AI-specific evaluation criteria.</p>
+            <p class="service-desc">Structuring questions and requirements so competing proposals can be compared against actual organizational needs rather than sales language.</p>
           </div>
           <div class="service-pillar">
             <div class="service-icon">
@@ -159,7 +169,7 @@
               </svg>
             </div>
             <h3>Evaluation Scorecards &amp; Matrices</h3>
-            <p class="service-desc">Objective, weighted comparison frameworks that remove gut-feeling from vendor selection. Every criterion is traceable, every score is justified. Decision logs that hold up to audit.</p>
+            <p class="service-desc">Comparison criteria, scorecards, and decision materials that make evidence, assumptions, and trade-offs visible to stakeholders.</p>
           </div>
           <div class="service-pillar">
             <div class="service-icon">
@@ -168,7 +178,7 @@
               </svg>
             </div>
             <h3>Risk Assessment (GDPR, GxP)</h3>
-            <p class="service-desc">Systematic evaluation of vendor-lock-in risks, data protection compliance, and regulatory exposure. I map the real risks to your specific environment - pharma, healthcare, or regulated enterprise.</p>
+            <p class="service-desc">Surfacing vendor lock-in, data-handling, integration, and regulatory-fit questions for review with the relevant technical and specialist teams.</p>
           </div>
           <div class="service-pillar">
             <div class="service-icon">
@@ -177,7 +187,7 @@
               </svg>
             </div>
             <h3>Decision Logs &amp; Traceability</h3>
-            <p class="service-desc">Every procurement decision documented with rationale, evidence, and audit trail. In regulated industries, you need to show why you chose a vendor - not just that you did. I build that paper trail from day one.</p>
+            <p class="service-desc">Recording the reasoning behind recommendations, open questions, dependencies, and the information needed to move a decision forward.</p>
           </div>
           <div class="service-pillar">
             <div class="service-icon">
@@ -186,7 +196,7 @@
               </svg>
             </div>
             <h3>Executive Materials &amp; C-Suite Communication</h3>
-            <p class="service-desc">Translating technical findings into clear, actionable recommendations for leadership. I prepare board-ready presentations, executive summaries, and decision briefs that executives actually read and act on.</p>
+            <p class="service-desc">Preparing presentations and decision briefs that translate specialist findings into a form leaders and cross-functional teams can discuss and act on.</p>
           </div>
         </div>
       </div>
@@ -196,25 +206,25 @@
     <section class="section section-alt">
       <div class="container">
         <div class="section-header">
-          <p class="section-eyebrow">Track Record</p>
-          <h2 class="section-title">Results, not just deliverables</h2>
+          <p class="section-eyebrow">Selected experience</p>
+          <h2 class="section-title">Experience in context</h2>
         </div>
         <div class="results-grid" id="resultsGrid">
           <div class="result-card">
-            <span class="result-number" data-target="40" data-suffix="+">0</span>
-            <p class="result-label">AI vendors evaluated through OSINT-based due diligence</p>
+            <span class="result-number">OSINT</span>
+            <p class="result-label">Research and evidence gathering for vendor due diligence.</p>
           </div>
           <div class="result-card">
-            <span class="result-number" data-target="3" data-suffix="">0</span>
-            <p class="result-label">High-risk vendors flagged and rejected before contract stage</p>
+            <span class="result-number">RFP/RFI</span>
+            <p class="result-label">Requirements and questions structured for meaningful comparison.</p>
           </div>
           <div class="result-card">
-            <span class="result-number" data-target="17" data-suffix="+">0</span>
-            <p class="result-label">Years of experience building the tools vendors claim to sell</p>
+            <span class="result-number">Scorecards</span>
+            <p class="result-label">Criteria and trade-offs made visible for decision-makers.</p>
           </div>
           <div class="result-card">
-            <span class="result-number" data-target="100" data-suffix="%">0</span>
-            <p class="result-label">Procurement decisions documented with full audit trail</p>
+            <span class="result-number">C-Suite</span>
+            <p class="result-label">Executive presentations and cross-functional decision support.</p>
           </div>
         </div>
       </div>
@@ -224,30 +234,30 @@
     <section class="section">
       <div class="container">
         <div class="section-header">
-          <p class="section-eyebrow">Process</p>
-          <h2 class="section-title">How I work</h2>
-          <p class="section-desc">Every engagement follows a structured approach - adapted to scale, never skipped.</p>
+          <p class="section-eyebrow">Working method</p>
+          <h2 class="section-title">How I approach the work</h2>
+          <p class="section-desc">A structured approach connecting the problem, the people involved, and practical implementation.</p>
         </div>
         <div class="process-steps">
           <div class="process-step">
             <span class="process-number">01</span>
-            <h3>Scope</h3>
-            <p>I map your requirements, constraints, and regulatory landscape. What problem are you actually solving? What does your existing stack look like? Where are the real risks?</p>
+            <h3>Frame</h3>
+            <p>Clarify the business problem, existing systems, decision criteria, and regulatory constraints.</p>
           </div>
           <div class="process-step">
             <span class="process-number">02</span>
             <h3>Investigate</h3>
-            <p>OSINT-based research into shortlisted vendors. Funding, leadership, technical claims, customer reviews, regulatory history, data handling practices - everything that matters, nothing that doesn't.</p>
+            <p>Gather public evidence and work with specialists to distinguish documented capabilities from unsupported claims.</p>
           </div>
           <div class="process-step">
             <span class="process-number">03</span>
             <h3>Evaluate</h3>
-            <p>Structured scorecards with weighted criteria. Side-by-side comparison, risk matrices, and decision logs. Every score backed by evidence, not opinion.</p>
+            <p>Compare options, integration feasibility, risks, dependencies, and potential changes to existing systems.</p>
           </div>
           <div class="process-step">
             <span class="process-number">04</span>
-            <h3>Recommend</h3>
-            <p>Executive-ready materials with clear recommendations, risk summaries, and implementation guidance. I present to your leadership and answer the hard questions they'll ask.</p>
+            <h3>Support decisions</h3>
+            <p>Communicate feasible next steps and make unresolved questions and follow-up work explicit.</p>
           </div>
         </div>
       </div>
@@ -257,25 +267,25 @@
     <section class="section section-alt">
       <div class="container">
         <div class="section-header">
-          <p class="section-eyebrow">Risk Areas</p>
-          <h2 class="section-title">What I look for</h2>
+          <p class="section-eyebrow">Context</p>
+          <h2 class="section-title">Relevant environments</h2>
         </div>
         <div class="industry-grid">
           <div class="industry-card">
             <h3>Vendor Lock-in</h3>
-            <p>Proprietary data formats, API dependencies, contractual traps, and migration costs. I identify the exit barriers before you walk in.</p>
+            <p>Data portability, API dependencies, contractual constraints, and the practical consequences of changing platforms.</p>
           </div>
           <div class="industry-card">
             <h3>Data Protection &amp; GDPR</h3>
-            <p>Where does your data go? Who processes it? Under which jurisdiction? I audit data flows, sub-processors, and privacy policies for real compliance - not checkbox compliance.</p>
+            <p>Questions about data flows, hosting, access, and third parties, considered alongside specialist privacy and security input.</p>
           </div>
           <div class="industry-card">
             <h3>GxP &amp; Regulatory Fit</h3>
-            <p>AI tools in regulated environments need validation, audit trails, and change control. I assess whether vendors actually understand your regulatory obligations or just claim to.</p>
+            <p>Validation needs, traceability, change control, and how a proposed tool fits regulated pharmaceutical workflows.</p>
           </div>
           <div class="industry-card">
             <h3>Technical Claims vs. Reality</h3>
-            <p>AI vendors love impressive numbers. I verify performance claims, benchmark methodologies, and technical architecture against what's actually achievable and proven.</p>
+            <p>Reviewing evidence with engineers and specialists to assess whether an integration is feasible or a wider system change is needed.</p>
           </div>
         </div>
       </div>
@@ -285,12 +295,12 @@
     <section class="section service-cta">
       <div class="container">
         <div class="section-header">
-          <h2 class="section-title">Looking for technology-evaluation experience?</h2>
-          <p class="section-desc">I am open to procurement, governance, vendor-risk, and digital-transformation roles where structured evaluation and traceability matter.</p>
+          <h2 class="section-title">Explore the work behind the experience</h2>
+          <p class="section-desc">These capabilities are illustrated through selected projects in the personal portfolio.</p>
         </div>
         <div class="cta-actions">
-          <a href="../../#contact" class="btn btn-primary">Open to Opportunities</a>
-          <a href="../../#case-studies" class="btn btn-outline">View Case Studies</a>
+          <a href="../../#contact" class="btn btn-primary sp-cta">Contact Igor</a>
+          <a href="../../#cs-accenture" class="btn btn-outline sp-cta sp-cta--outline">View selected work</a>
         </div>
       </div>
     </section>
@@ -328,50 +338,8 @@
     </div>
   </footer>
 
-  <script src="../../script.js?v=a48e787c"></script>
-  <script>
-  (function() {
-    var grid = document.getElementById('resultsGrid');
-    if (!grid) return;
-    var counted = false;
-
-    function formatNum(n) {
-      return n.toLocaleString('en-US');
-    }
-
-    function countUp(el, target, suffix, duration) {
-      var start = 0;
-      var startTime = null;
-      function step(ts) {
-        if (!startTime) startTime = ts;
-        var progress = Math.min((ts - startTime) / duration, 1);
-        var ease = 1 - Math.pow(1 - progress, 3);
-        var current = Math.floor(ease * target);
-        el.textContent = formatNum(current) + suffix;
-        if (progress < 1) requestAnimationFrame(step);
-      }
-      requestAnimationFrame(step);
-    }
-
-    function onVisible() {
-      if (counted) return;
-      var rect = grid.getBoundingClientRect();
-      if (rect.top < window.innerHeight * 0.85) {
-        counted = true;
-        var els = grid.querySelectorAll('.result-number[data-target]');
-        for (var i = 0; i < els.length; i++) {
-          var target = parseInt(els[i].getAttribute('data-target'), 10);
-          var suffix = els[i].getAttribute('data-suffix') || '';
-          countUp(els[i], target, suffix, target > 1000 ? 2000 : 1200);
-        }
-        window.removeEventListener('scroll', onVisible);
-      }
-    }
-
-    window.addEventListener('scroll', onVisible);
-    onVisible();
-  })();
-  </script>
-  <script src="../../service-graph.js" defer></script>
+  <script src="../../script.js?v=deferred-media-1"></script>
+  <!-- Experience indicators are static text: visible without JavaScript. -->
+  <script src="../../service-graph.js?v=experience-1" defer></script>
 </body>
 </html>

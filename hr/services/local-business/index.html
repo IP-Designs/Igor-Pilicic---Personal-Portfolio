@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="hr">
+<html lang="hr" data-palette="black-gold">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -41,19 +41,24 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../../../styles.css?v=6e1760e2">
+  <link rel="stylesheet" href="../../../experimental.css?v=case-height-1">
+  <link rel="stylesheet" href="../../../palette-black-gold.css?v=light-gold-1">
+  <link rel="stylesheet" href="../../../service-experience.css?v=experience-1">
+  <link rel="stylesheet" href="../../../sci-fi-cta.css?v=sp-cta-1">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
       { "@type": "ListItem", "position": 1, "name": "Početna", "item": "https://standingpillars.com/hr/" },
-      { "@type": "ListItem", "position": 2, "name": "Tehnologija za lokalne tvrtke", "item": "https://standingpillars.com/hr/services/local-business/" }
+      { "@type": "ListItem", "position": 2, "name": "Web, brend i vizualni dizajn", "item": "https://standingpillars.com/hr/services/local-business/" }
     ]
   }
   </script>
-  <script>if(localStorage.getItem('theme')!=='light')document.documentElement.setAttribute('data-theme','dark')</script>
+  <script>try { if(localStorage.getItem('theme')!=='light')document.documentElement.setAttribute('data-theme','dark'); } catch(error) { document.documentElement.setAttribute('data-theme','dark'); }</script>
 </head>
-<body>
+<body class="ui-experiment service-experience-body">
+  <a class="skip-link" href="#experience-content" onclick="document.getElementById('experience-content').focus({ preventScroll: true });">Preskoči na sadržaj</a>
 
   <!-- Navigation -->
   <nav class="navbar" id="navbar" aria-label="Glavna navigacija">
@@ -78,7 +83,7 @@
       <ul class="nav-links" id="navLinks">
         <li><a href="../../#about">O meni</a></li>
         <li class="nav-dropdown">
-          <a href="../../#services" class="nav-dropdown-toggle">Usluge <svg class="chevron" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 4.5L6 7.5L9 4.5"/></svg></a>
+          <a href="../../#services" class="nav-dropdown-toggle">Stručnost <svg class="chevron" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 4.5L6 7.5L9 4.5"/></svg></a>
           <div class="nav-dropdown-menu">
             <a href="../../#services">Sva podru&#269;ja</a>
             <div class="dropdown-divider"></div>
@@ -88,9 +93,9 @@
           </div>
         </li>
         <li><a href="../../#experience">Iskustvo</a></li>
-        <li><a href="../../#ai-engineering">AI Inzenjering</a></li>
+        <li><a href="../../#ai-engineering">Tehnički projekt</a></li>
         <li><a href="../../#case-studies">Studije slucaja</a></li>
-        <li><a href="../../#contact" class="nav-cta">Kontaktirajte me</a></li>
+        <li><a href="../../#contact" class="nav-cta sp-cta">Kontaktirajte Igora</a></li>
         <li>
           <button class="theme-toggle" id="themeToggle" aria-label="Tamni nacin rada">
             <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
@@ -101,23 +106,28 @@
     </div>
   </nav>
 
-  <main>
+  <main id="experience-content" tabindex="-1">
 
     <!-- Breadcrumb -->
-    <div class="container">
+    <div class="container experience-nav-row">
       <nav class="breadcrumb" aria-label="Putanja stranice">
         <a href="../../">Početna</a>
         <span aria-hidden="true">/</span>
         <span aria-current="page">Web i brend dizajn</span>
+      </nav>
+      <nav class="experience-languages" aria-label="Jezik stranice">
+        <a href="/services/local-business/" hreflang="en" lang="en">EN</a>
+        <a href="/hr/services/local-business/" hreflang="hr" lang="hr" aria-current="page">HR</a>
+        <a href="/de/services/local-business/" hreflang="de" lang="de">DE</a>
       </nav>
     </div>
 
     <!-- Hero -->
     <header class="service-hero">
       <div class="container">
-        <p class="section-eyebrow">Dodatna kreativna stručnost</p>
+        <p class="section-eyebrow">Iskustvo i stručnost</p>
         <h1 class="service-hero-title">Iskustvo u webu, brendu i vizualnom dizajnu</h1>
-        <p class="service-hero-desc">Raniji rad na web stranicama, e-trgovini, kampanjama, brendiranju, motion dizajnu i 3D-u nadopunjuje moje iskustvo u enterprise UX-u i tehnologiji.</p>
+        <p class="service-hero-desc">Moje ranije iskustvo u maloprodaji, e-trgovini, dentalnom turizmu i samostalnim projektima obuhvaća web stranice, vizualne identitete, kampanje, animaciju i 3D. To vizualno i praktično izvedbeno znanje i danas je dio mojeg pristupa digitalnim proizvodima.</p>
       </div>
     </header>
 
@@ -130,8 +140,8 @@
     <section class="section">
       <div class="container">
         <div class="section-header">
-          <p class="section-eyebrow">Kako mogu pomoći</p>
-          <h2 class="section-title">Sve što trebate - ništa što ne trebate</h2>
+          <p class="section-eyebrow">Područja iskustva</p>
+          <h2 class="section-title">Područja iskustva</h2>
         </div>
         <div class="services-grid services-grid-three">
           <div class="service-pillar">
@@ -140,8 +150,8 @@
                 <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/>
               </svg>
             </div>
-            <h3>Web dizajn i razvoj</h3>
-            <p class="service-desc">Čista, brza web stranica koja izgleda sjajno na svakom uredaju i koja zapravo dovodi kupce do vaš. Bez napuhanih predložaka, bez nepotrebne sloenosti. Gradim je od temelja da odgovara vašem poslovanju kao salivena.</p>
+            <h3>Dizajn i razvoj web stranica</h3>
+            <p class="service-desc">Iskustvo u dizajnu i izvedbi web stranica i landing stranica u WordPressu, HTML-u i CSS-u, uz povezivanje sadržaja i vizualnog smjera.</p>
           </div>
           <div class="service-pillar">
             <div class="service-icon">
@@ -150,7 +160,7 @@
               </svg>
             </div>
             <h3>Logo i vizualni identitet</h3>
-            <p class="service-desc">Vaš brand je prva stvar koju ljudi primjete. Dizajniram logo i vizualni identitet koji se osjeća ispravno - nešto što ćete s ponosom prikazati na izlogu, posjetnicama i svugdje gdje je bitno.</p>
+            <p class="service-desc">Samostalno odlučivanje o logotipima i vizualnom identitetu, uključujući brendiranje i web dizajn za Dental Centar Ostojić tijekom rada u Fazgramu.</p>
           </div>
           <div class="service-pillar">
             <div class="service-icon">
@@ -159,7 +169,7 @@
               </svg>
             </div>
             <h3>Google Business i lokalni SEO</h3>
-            <p class="service-desc">Kad netko u blizini traži ono što nudite, trebali biste se pojaviti. Postavljam vaš Google Business profil, optimiziram lokalnu pretragu i osiguravam da radno vrijeme, lokacija i fotografije rade za vaš.</p>
+            <p class="service-desc">Iskustvo s lokalnom online prisutnošću, jasnim poslovnim informacijama i vidljivošću u pretraživanju u širem kontekstu weba i komunikacije.</p>
           </div>
           <div class="service-pillar">
             <div class="service-icon">
@@ -167,8 +177,8 @@
                 <path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/>
               </svg>
             </div>
-            <h3>AI integracija - samo gdje pomaže</h3>
-            <p class="service-desc">Čuli ste za AI hype. Nešto od toga stvarno je korisno za male tvrtke - poput automatskog zakazivanja termina ili odgovaranja na česta pitanja. Pokazat ću vam što vrijedi vašeg vremena, a što je samo buka.</p>
+            <h3>AI integracija i evaluacija</h3>
+            <p class="service-desc">Aktualno istraživanje AI-potpomognutog rada i prototipiranja, uz procjenu rješava li alat stvarnu potrebu ili dodaje složenost.</p>
           </div>
           <div class="service-pillar">
             <div class="service-icon">
@@ -176,8 +186,8 @@
                 <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>
               </svg>
             </div>
-            <h3>Iskreno tehnolosko savjetovanje</h3>
-            <p class="service-desc">Niste sigurni što vam treba? Potpuno u redu. Sjednem s vama, saslušam vaše ciljeve i dam poštenu preporuku - čak i ako to znači: "Za to trenutno ne morate trošiti novac."</p>
+            <h3>Tehnološke smjernice</h3>
+            <p class="service-desc">Razumljivo objašnjavanje mogućnosti i ograničenja na temelju iskustva u dizajnu, poslovnim procesima i tehničkoj izvedbi.</p>
           </div>
           <div class="service-pillar">
             <div class="service-icon">
@@ -185,8 +195,8 @@
                 <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
               </svg>
             </div>
-            <h3>Kontinuirana podrška i održavanje</h3>
-            <p class="service-desc">Nakon što stranica bude online, ne nestajem. Trebate ažurirati jelovnik? Promijeniti radno vrijeme? Dodati novu uslugu? Samo mi pošaljite poruku. Tu sam dugoročno, ne samo za lansiranje.</p>
+            <h3>Podrška i održavanje</h3>
+            <p class="service-desc">Web administracija, izmjene sadržaja i kontinuitet nakon objave kroz raniji rad na web stranicama, e-trgovini i kampanjama.</p>
           </div>
         </div>
       </div>
@@ -196,25 +206,25 @@
     <section class="section section-alt">
       <div class="container">
         <div class="section-header">
-          <p class="section-eyebrow">Zašto funkcionira</p>
-          <h2 class="section-title">Ista kvaliteta, pravi razmjer</h2>
+          <p class="section-eyebrow">Odabrano iskustvo</p>
+          <h2 class="section-title">Iskustvo u kontekstu</h2>
         </div>
         <div class="results-grid" id="resultsGrid">
           <div class="result-card">
-            <span class="result-number" data-target="17" data-suffix="+">0</span>
-            <p class="result-label">Godina profesionalnog iskustva u dizajnu i tehnologiji</p>
+            <span class="result-number">Web</span>
+            <p class="result-label">Web stranice, landing stranice i e-trgovina.</p>
           </div>
           <div class="result-card">
-            <span class="result-number" data-target="0" data-suffix="" data-display="100%">0</span>
-            <p class="result-label">Transparentne cijene - uvijek znate za što plaćate</p>
+            <span class="result-number">Brend</span>
+            <p class="result-label">Vizualni identiteti, logotipi i komunikacija kampanja.</p>
           </div>
           <div class="result-card">
-            <span class="result-number" data-target="0" data-suffix="" data-display="0">0</span>
-            <p class="result-label">Skrivenih troškova ili neocekivanih doprodaja - nikada</p>
+            <span class="result-number">Animacija</span>
+            <p class="result-label">Pokret i vizualno pripovijedanje uz statični dizajn.</p>
           </div>
           <div class="result-card">
-            <span class="result-number" data-target="4" data-suffix="">0</span>
-            <p class="result-label">Jezika kojima govorim - da možemo razgovarati na vašem</p>
+            <span class="result-number">3D</span>
+            <p class="result-label">Vizualizacije i dizajn interijera prikazani u portfoliju.</p>
           </div>
         </div>
       </div>
@@ -224,30 +234,30 @@
     <section class="section">
       <div class="container">
         <div class="section-header">
-          <p class="section-eyebrow">Kako funkcionira</p>
-          <h2 class="section-title">Jednostavno, korak po korak</h2>
-          <p class="section-desc">Bez kompliciranih procesa. Radimo zajedno vašim tempom.</p>
+          <p class="section-eyebrow">Način rada</p>
+          <h2 class="section-title">Kako pristupam radu</h2>
+          <p class="section-desc">Strukturirani pristup koji povezuje problem, ljude i praktičnu izvedbu.</p>
         </div>
         <div class="process-steps">
           <div class="process-step">
             <span class="process-number">01</span>
-            <h3>Porazgovaramo</h3>
-            <p>Opušten razgovor o vašem poslu, vašim ciljevima i što vaš muči s tehnologijom. Kavu plaćam ja ako se nađemo uživo.</p>
+            <h3>Razumjeti</h3>
+            <p>Razjasniti publiku, svrhu, sadržaj, ograničenja i problem iza zahtjeva.</p>
           </div>
           <div class="process-step">
             <span class="process-number">02</span>
-            <h3>Slušam i planiram</h3>
-            <p>Pripremim jasnu ponudu s točno onim što preporučam, koliko košta i zašto. Bez žargona, bez pritiska. Odlučujete u svom ritmu.</p>
+            <h3>Oblikovati smjer</h3>
+            <p>Razviti strukturu informacija i vizualni smjer primjeren kontekstu.</p>
           </div>
           <div class="process-step">
             <span class="process-number">03</span>
-            <h3>Gradim</h3>
-            <p>Vidite napredak usput i imate rijec kod svake odluke. To je vaš posao - web stranica bi se trebala osjećati kao vasa, ne kao predložak.</p>
+            <h3>Izraditi</h3>
+            <p>Dizajnirati i prototipirati rješenje te ga doraditi kroz praktične povratne informacije i izvedbu.</p>
           </div>
           <div class="process-step">
             <span class="process-number">04</span>
-            <h3>Vi imate kontrolu</h3>
-            <p>Kad sve bude online, sve vam objasnim. Znat ćete kako napraviti jednostavne izmjene sami - a ja sam uvijek na poruku daleko kad me trebate.</p>
+            <h3>Omogućiti nastavak</h3>
+            <p>Uključiti implementaciju, izmjene sadržaja, predaju i dugoročnu korisnost rada.</p>
           </div>
         </div>
       </div>
@@ -257,25 +267,25 @@
     <section class="section section-alt">
       <div class="container">
         <div class="section-header">
-          <p class="section-eyebrow">Za vaš napravljeno</p>
-          <h2 class="section-title">Kome je ovo namijenjeno</h2>
+          <p class="section-eyebrow">Kontekst</p>
+          <h2 class="section-title">Relevantna okruženja</h2>
         </div>
         <div class="industry-grid">
           <div class="industry-card">
-            <h3>Trgovine i maloprodaja</h3>
-            <p>Bilo da prodajete ručno radeno, vodite butik ili obiteljski dućan - vaši kupci pretražuju online prije nego što svrate. Pobrinimo se da vaš pronađu.</p>
+            <h3>Maloprodaja i e-trgovina</h3>
+            <p>Kampanje, promotivni materijali i landing stranice iz Harvey Normana i ranijeg rada u e-trgovini, uključujući nagrađeni iPhone 7 projekt.</p>
           </div>
           <div class="industry-card">
-            <h3>Restorani i kafici</h3>
-            <p>Vaš jelovnik, radno vrijeme, vasa priča - sve na jednom mjestu koje izgleda jednako privlacno kao vasa hrana. Plus Google Maps integracija da gladni gosti pronađu put.</p>
+            <h3>Dentalni turizam i zdravstvena komunikacija</h3>
+            <p>Brendiranje, logo i web za Dental Centar Ostojić kroz Fazgram, uz povezivanje vizualnog identiteta i online komunikacije.</p>
           </div>
           <div class="industry-card">
-            <h3>Obrtnici i usluzne djelatnosti</h3>
-            <p>Vodoinstalateri, elektricari, frizeri, fitness treneri - svi koji su izvrsni u svom poslu, ali trebaju pomoć da to pokazu online. Profesionalan nastup koji donosi poslove.</p>
+            <h3>Lokalni i samostalni projekti</h3>
+            <p>Web, grafički radovi, animacija i 3D kroz manje organizacije i samostalne projekte.</p>
           </div>
           <div class="industry-card">
-            <h3>Ordinacije i prakse</h3>
-            <p>Lijecnici, stomatolozi, terapeuti, veterinari - pouzdan online nastup s jasnim informacijama, jednostavnim kontaktom i toplinom koju vaši pacijenti već poznaju od vaš.</p>
+            <h3>Digitalni proizvodi</h3>
+            <p>Vizualna komunikacija i iskustvo izvedbe preneseni u enterprise UX, oblikovanje procesa i razvoj proizvoda.</p>
           </div>
         </div>
       </div>
@@ -285,12 +295,12 @@
     <section class="section service-cta">
       <div class="container">
         <div class="section-header">
-          <h2 class="section-title">Tražite ovu širinu iskustva u svojem timu?</h2>
-          <p class="section-desc">Otvoren sam za pozicije u Hrvatskoj na kojima produktno razmišljanje koristi snažno vizualno, web i praktično izvedbeno iskustvo.</p>
+          <h2 class="section-title">Pogledajte radove iza ovog iskustva</h2>
+          <p class="section-desc">Ove su sposobnosti prikazane kroz odabrane projekte u osobnom portfoliju.</p>
         </div>
         <div class="cta-actions">
-          <a href="../../#contact" class="btn btn-primary">Razgovarajmo o poziciji</a>
-          <a href="../../#case-studies" class="btn btn-outline">Pogledajte moj rad</a>
+          <a href="../../#contact" class="btn btn-primary sp-cta">Kontaktirajte Igora</a>
+          <a href="../../#design-gallery" class="btn btn-outline sp-cta sp-cta--outline">Pogledajte odabrane radove</a>
         </div>
       </div>
     </section>
@@ -328,52 +338,8 @@
     </div>
   </footer>
 
-  <script src="../../../script.js?v=a48e787c"></script>
-  <script>
-  (function() {
-    var grid = document.getElementById('resultsGrid');
-    if (!grid) return;
-    var counted = false;
-
-    function formatNum(n) {
-      return n.toLocaleString('hr-HR');
-    }
-
-    function countUp(el, target, suffix, duration) {
-      var display = el.getAttribute('data-display');
-      if (display) { el.textContent = display; return; }
-      var start = 0;
-      var startTime = null;
-      function step(ts) {
-        if (!startTime) startTime = ts;
-        var progress = Math.min((ts - startTime) / duration, 1);
-        var ease = 1 - Math.pow(1 - progress, 3);
-        var current = Math.floor(ease * target);
-        el.textContent = formatNum(current) + suffix;
-        if (progress < 1) requestAnimationFrame(step);
-      }
-      requestAnimationFrame(step);
-    }
-
-    function onVisible() {
-      if (counted) return;
-      var rect = grid.getBoundingClientRect();
-      if (rect.top < window.innerHeight * 0.85) {
-        counted = true;
-        var els = grid.querySelectorAll('.result-number[data-target]');
-        for (var i = 0; i < els.length; i++) {
-          var target = parseInt(els[i].getAttribute('data-target'), 10);
-          var suffix = els[i].getAttribute('data-suffix') || '';
-          countUp(els[i], target, suffix, target > 1000 ? 2000 : 1200);
-        }
-        window.removeEventListener('scroll', onVisible);
-      }
-    }
-
-    window.addEventListener('scroll', onVisible);
-    onVisible();
-  })();
-  </script>
-  <script src="../../../service-graph.js" defer></script>
+  <script src="../../../script.js?v=deferred-media-1"></script>
+  <!-- Experience indicators are static text: visible without JavaScript. -->
+  <script src="../../../service-graph.js?v=experience-1" defer></script>
 </body>
 </html>

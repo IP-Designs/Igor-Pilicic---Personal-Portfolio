@@ -1,0 +1,26 @@
+/* Retained topical URLs share the portfolio identity without an agency pitch. */
+.service-experience-body .experience-nav-row { display: flex; align-items: center; justify-content: space-between; gap: 12px 24px; flex-wrap: wrap; padding-top: 96px; }
+.service-experience-body .breadcrumb { padding: 0; }
+.experience-languages { display: flex; gap: 4px; }
+.experience-languages a { display: grid; place-items: center; min-width: 44px; min-height: 44px; padding: 8px; color: var(--gray-600); border: 1px solid transparent; font-size: .75rem; font-weight: 500; text-decoration: none; }
+.experience-languages a[aria-current="page"] { border-color: var(--accent); background: var(--accent-subtle); color: var(--accent); }
+.service-experience-body .service-hero { padding-block: 32px var(--section-space); }
+.service-experience-body .service-hero-title { font-family: var(--font-sans); font-size: clamp(2rem, 4.5vw, 3.5rem); font-weight: 500; letter-spacing: -.04em; max-width: 1000px; color: var(--accent); overflow-wrap: anywhere; }
+.ui-experiment.service-experience-body .service-hero .service-hero-title { color: var(--accent); }
+.service-experience-body .service-hero-desc { color: var(--gray-600); font-size: 1.05rem; max-width: 76ch; }
+.service-experience-body :is(.result-card, .process-step, .industry-card) { border-radius: 0; box-shadow: none; }
+.service-experience-body :is(.result-card, .process-step, .industry-card):hover { transform: none; box-shadow: none; }
+.service-experience-body :is(.result-number, .process-number) { font-family: var(--font-sans); opacity: 1; overflow-wrap: anywhere; }
+.service-experience-body .result-number { font-size: clamp(1.4rem, 2.6vw, 2rem); line-height: 1.25; }
+.service-experience-body :is(.result-label, .process-step p, .industry-card p) { color: var(--gray-600); }
+.service-experience-body :is(.process-step h3, .industry-card h3) { color: var(--navy); }
+.service-experience-body :is(.results-grid, .process-steps, .industry-grid) { margin-top: var(--section-header-space); }
+.service-experience-body .service-graph-wrapper { padding-bottom: var(--section-header-space); }
+.service-experience-body .service-graph-wrapper canvas { max-width: 100%; }
+.service-experience-body :is(a, button):focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+.service-experience-body .skip-link { background: var(--navy); color: var(--white); }
+.service-experience-body main:focus { outline: none; }
+@media (max-width: 600px) {
+  .service-experience-body .experience-nav-row { padding-top: 88px; }
+  .service-experience-body .service-hero-desc { font-size: 1rem; }
+}

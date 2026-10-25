@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-palette="black-gold">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -41,19 +41,24 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../../styles.css?v=6e1760e2">
+  <link rel="stylesheet" href="../../experimental.css?v=case-height-1">
+  <link rel="stylesheet" href="../../palette-black-gold.css?v=light-gold-1">
+  <link rel="stylesheet" href="../../service-experience.css?v=experience-1">
+  <link rel="stylesheet" href="../../sci-fi-cta.css?v=sp-cta-1">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
       { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://standingpillars.com/" },
-      { "@type": "ListItem", "position": 2, "name": "UX Design Expertise", "item": "https://standingpillars.com/services/ux-design/" }
+      { "@type": "ListItem", "position": 2, "name": "UX Design Experience", "item": "https://standingpillars.com/services/ux-design/" }
     ]
   }
   </script>
-  <script>if(localStorage.getItem('theme')!=='light')document.documentElement.setAttribute('data-theme','dark')</script>
+  <script>try { if(localStorage.getItem('theme')!=='light')document.documentElement.setAttribute('data-theme','dark'); } catch(error) { document.documentElement.setAttribute('data-theme','dark'); }</script>
 </head>
-<body>
+<body class="ui-experiment service-experience-body">
+  <a class="skip-link" href="#experience-content" onclick="document.getElementById('experience-content').focus({ preventScroll: true });">Skip to content</a>
 
   <!-- Navigation -->
   <nav class="navbar" id="navbar" aria-label="Main navigation">
@@ -88,9 +93,9 @@
           </div>
         </li>
         <li><a href="../../#experience">Experience</a></li>
-        <li><a href="../../#ai-engineering">AI Engineering</a></li>
+        <li><a href="../../#ai-engineering">Technical Project</a></li>
         <li><a href="../../#case-studies">Case Studies</a></li>
-        <li><a href="../../#contact" class="nav-cta">Open to Opportunities</a></li>
+        <li><a href="../../#contact" class="nav-cta sp-cta">Contact Igor</a></li>
         <li>
           <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
             <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
@@ -101,23 +106,28 @@
     </div>
   </nav>
 
-  <main>
+  <main id="experience-content" tabindex="-1">
 
     <!-- Breadcrumb -->
-    <div class="container">
+    <div class="container experience-nav-row">
       <nav class="breadcrumb" aria-label="Breadcrumb">
         <a href="../../">Home</a>
         <span aria-hidden="true">/</span>
         <span aria-current="page">UX Design</span>
+      </nav>
+      <nav class="experience-languages" aria-label="Page language">
+        <a href="/services/ux-design/" hreflang="en" lang="en" aria-current="page">EN</a>
+        <a href="/hr/services/ux-design/" hreflang="hr" lang="hr">HR</a>
+        <a href="/de/services/ux-design/" hreflang="de" lang="de">DE</a>
       </nav>
     </div>
 
     <!-- Hero -->
     <header class="service-hero">
       <div class="container">
-        <p class="section-eyebrow">Core Expertise Design Leadership</p>
-        <h1 class="service-hero-title">UX Design for Pharma &amp; Regulated Industries</h1>
-        <p class="service-hero-desc">I design the tools people actually use. Complex systems in pharma, healthcare, and regulated industries - grounded in real workflows, not assumptions. 17+ years of experience, including two lead UX engagements at Roche.</p>
+        <p class="section-eyebrow">Experience and expertise</p>
+        <h1 class="service-hero-title">UX Design Experience in Pharma &amp; Regulated Industries</h1>
+        <p class="service-hero-desc">My UX and product design work connects specialist knowledge, real workflows, and technical constraints. Two distinct Roche projects brought together research, end-to-end process design, prototypes, and collaboration with product owners and engineers.</p>
       </div>
     </header>
 
@@ -130,8 +140,8 @@
     <section class="section">
       <div class="container">
         <div class="section-header">
-          <p class="section-eyebrow">Expertise</p>
-          <h2 class="section-title">What I deliver</h2>
+          <p class="section-eyebrow">Areas of experience</p>
+          <h2 class="section-title">Areas of experience</h2>
         </div>
         <div class="services-grid services-grid-three">
           <div class="service-pillar">
@@ -141,7 +151,7 @@
               </svg>
             </div>
             <h3>UX Audits &amp; Heuristic Evaluation</h3>
-            <p class="service-desc">Structured reviews of usability, accessibility, and design consistency. I find the friction points, prioritize what to fix, and give you a clear action plan - not a 200-page report that sits on a shelf.</p>
+            <p class="service-desc">Reviewing usability, accessibility, and design consistency, then translating findings into prioritized design decisions and practical implementation guidance.</p>
           </div>
           <div class="service-pillar">
             <div class="service-icon">
@@ -150,7 +160,7 @@
               </svg>
             </div>
             <h3>Design Systems &amp; Atomic UI</h3>
-            <p class="service-desc">Reusable component libraries that keep your product consistent as teams and features grow. Built in Figma with Atomic Design principles and clear documentation that bridges design and engineering.</p>
+            <p class="service-desc">Reusable Figma components and Atomic Design patterns connecting design and engineering while supporting consistency across growing products.</p>
           </div>
           <div class="service-pillar">
             <div class="service-icon">
@@ -159,7 +169,7 @@
               </svg>
             </div>
             <h3>User Research &amp; Stakeholder Workshops</h3>
-            <p class="service-desc">From 1-on-1 interviews to workshops with 50+ stakeholders. I align diverse teams around shared goals, resolve blockers, and turn conflicting requirements into actionable design direction.</p>
+            <p class="service-desc">Interviews with users and subject-matter experts, workflow observation, and workshops that clarify conflicting requirements and align teams around the real problem.</p>
           </div>
           <div class="service-pillar">
             <div class="service-icon">
@@ -168,7 +178,7 @@
               </svg>
             </div>
             <h3>Wireframing &amp; Prototyping</h3>
-            <p class="service-desc">From low-fidelity sketches to interactive Figma prototypes. I validate ideas early, test with real users, and iterate fast - before a single line of code is written.</p>
+            <p class="service-desc">From early process sketches to interactive Figma prototypes, using feedback from users, product owners, and engineers to test direction before implementation.</p>
           </div>
           <div class="service-pillar">
             <div class="service-icon">
@@ -176,8 +186,8 @@
                 <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
               </svg>
             </div>
-            <h3>GxP-Compliant Interface Design</h3>
-            <p class="service-desc">Designing for regulated environments where compliance isn't optional. Audit trails, data integrity, validation requirements - baked into every interaction pattern from day one.</p>
+            <h3>GxP-Aware Interface Design</h3>
+            <p class="service-desc">Experience with regulated pharmaceutical workflows, including traceability, data integrity, permissions, and the information people need to make responsible decisions.</p>
           </div>
           <div class="service-pillar">
             <div class="service-icon">
@@ -186,7 +196,7 @@
               </svg>
             </div>
             <h3>Visual Design &amp; Brand Strategy</h3>
-            <p class="service-desc">Core Expertise products deserve good aesthetics too. I create visual identities and brand guidelines that work across complex product ecosystems while maintaining regulatory clarity.</p>
+            <p class="service-desc">Visual hierarchy, reusable interface patterns, and clear communication that make complex enterprise products easier to understand without losing their professional context.</p>
           </div>
         </div>
       </div>
@@ -196,25 +206,25 @@
     <section class="section section-alt">
       <div class="container">
         <div class="section-header">
-          <p class="section-eyebrow">Track Record</p>
-          <h2 class="section-title">Results, not just deliverables</h2>
+          <p class="section-eyebrow">Selected experience</p>
+          <h2 class="section-title">Experience in context</h2>
         </div>
         <div class="results-grid" id="resultsGrid">
           <div class="result-card">
-            <span class="result-number" data-target="10000" data-suffix="+">0</span>
-            <p class="result-label">Users across pharma manufacturing tools designed at Roche</p>
+            <span class="result-number">10,000+</span>
+            <p class="result-label">RCA platform users reported by Roche colleagues a few months after my engagement ended.</p>
           </div>
           <div class="result-card">
-            <span class="result-number" data-target="30" data-suffix="%">0</span>
-            <p class="result-label">Reduction in manual reporting through E2E tool redesign</p>
+            <span class="result-number">30%+</span>
+            <p class="result-label">Reported reduction in manual reporting effort through the wider Intelligent Authoring product team’s work.</p>
           </div>
           <div class="result-card">
-            <span class="result-number" data-target="50" data-suffix="+">0</span>
-            <p class="result-label">Stakeholders aligned in single workshops to resolve blockers</p>
+            <span class="result-number">120</span>
+            <p class="result-label">Approximately 120 UI designs produced for Intelligent Authoring and regulatory reporting.</p>
           </div>
           <div class="result-card">
-            <span class="result-number" data-target="5" data-suffix="+">0</span>
-            <p class="result-label">Years designing for GxP-regulated environments</p>
+            <span class="result-number">17+</span>
+            <p class="result-label">Years of professional experience across design, technology, and digital delivery.</p>
           </div>
         </div>
       </div>
@@ -224,30 +234,30 @@
     <section class="section">
       <div class="container">
         <div class="section-header">
-          <p class="section-eyebrow">Process</p>
-          <h2 class="section-title">How I work</h2>
-          <p class="section-desc">Every engagement follows a structured approach - adapted to scale, never skipped.</p>
+          <p class="section-eyebrow">Working method</p>
+          <h2 class="section-title">How I approach the work</h2>
+          <p class="section-desc">A structured approach connecting the problem, the people involved, and practical implementation.</p>
         </div>
         <div class="process-steps">
           <div class="process-step">
             <span class="process-number">01</span>
             <h3>Discover</h3>
-            <p>Stakeholder interviews, user research, and heuristic review of existing systems. I map the real workflows - not the ones in the spec document.</p>
+            <p>Understand users, specialist work, existing tools, and constraints through research and discussion.</p>
           </div>
           <div class="process-step">
             <span class="process-number">02</span>
             <h3>Define</h3>
-            <p>Prioritized findings, user journey maps, and a clear design strategy. Everyone agrees on the problem before we start solving it.</p>
+            <p>Make requirements, dependencies, risks, and competing priorities explicit before choosing a direction.</p>
           </div>
           <div class="process-step">
             <span class="process-number">03</span>
             <h3>Design</h3>
-            <p>Wireframes, prototypes, and design system components in Figma. Iterative validation with users and stakeholders at every stage.</p>
+            <p>Explore workflows and interaction patterns through wireframes, prototypes, and reusable design components.</p>
           </div>
           <div class="process-step">
             <span class="process-number">04</span>
-            <h3>Deliver</h3>
-            <p>Developer handoff with detailed specs, component documentation, and ongoing support during implementation. The job isn't done at the Figma file.</p>
+            <h3>Support delivery</h3>
+            <p>Clarify decisions during implementation, review the result, and consider feedback and future growth.</p>
           </div>
         </div>
       </div>
@@ -257,25 +267,25 @@
     <section class="section section-alt">
       <div class="container">
         <div class="section-header">
-          <p class="section-eyebrow">Industries</p>
-          <h2 class="section-title">Where I've delivered</h2>
+          <p class="section-eyebrow">Context</p>
+          <h2 class="section-title">Relevant environments</h2>
         </div>
         <div class="industry-grid">
           <div class="industry-card">
             <h3>Pharmaceutical Manufacturing</h3>
-            <p>E2E reporting tools, batch management interfaces, and compliance dashboards for GxP-regulated production environments.</p>
+            <p>RCA investigation workflows and quality-related processes informed by work with pharmaceutical specialists and manufacturing teams.</p>
           </div>
           <div class="industry-card">
             <h3>Healthcare &amp; Life Sciences</h3>
-            <p>Patient-facing interfaces, clinical data visualisations, and tools that support audit trails and data integrity requirements.</p>
+            <p>Regulatory reporting and authoring workflows where structured information, permissions, and traceability matter.</p>
           </div>
           <div class="industry-card">
-            <h3>Core Expertise IT &amp; Consulting</h3>
-            <p>Internal tools, procurement platforms, and governance frameworks for organisations managing complex vendor ecosystems.</p>
+            <h3>Enterprise IT &amp; Decision Support</h3>
+            <p>Product planning, business analysis, vendor evaluation, and communication between leadership and technical teams.</p>
           </div>
           <div class="industry-card">
             <h3>Retail &amp; E-commerce</h3>
-            <p>Landing pages, marketing campaigns, and conversion-focused design driving measurable business results.</p>
+            <p>Earlier campaign, web, and e-commerce experience contributes visual craft and an understanding of different audiences.</p>
           </div>
         </div>
       </div>
@@ -285,12 +295,12 @@
     <section class="section service-cta">
       <div class="container">
         <div class="section-header">
-          <h2 class="section-title">Looking for senior UX experience?</h2>
-          <p class="section-desc">I am open to UX and product roles in Croatia where research, complex workflows, and cross-functional alignment matter.</p>
+          <h2 class="section-title">Explore the work behind the experience</h2>
+          <p class="section-desc">These capabilities are illustrated through selected projects in the personal portfolio.</p>
         </div>
         <div class="cta-actions">
-          <a href="../../#contact" class="btn btn-primary">Open to Opportunities</a>
-          <a href="../../#case-studies" class="btn btn-outline">View Case Studies</a>
+          <a href="../../#contact" class="btn btn-primary sp-cta">Contact Igor</a>
+          <a href="../../#cs-rca" class="btn btn-outline sp-cta sp-cta--outline">View selected work</a>
         </div>
       </div>
     </section>
@@ -328,51 +338,8 @@
     </div>
   </footer>
 
-  <script src="../../script.js?v=a48e787c"></script>
-  <script>
-  (function() {
-    var grid = document.getElementById('resultsGrid');
-    if (!grid) return;
-    var counted = false;
-
-    function formatNum(n) {
-      return n.toLocaleString('en-US');
-    }
-
-    function countUp(el, target, suffix, duration) {
-      var start = 0;
-      var startTime = null;
-      function step(ts) {
-        if (!startTime) startTime = ts;
-        var progress = Math.min((ts - startTime) / duration, 1);
-        // Ease-out curve
-        var ease = 1 - Math.pow(1 - progress, 3);
-        var current = Math.floor(ease * target);
-        el.textContent = formatNum(current) + suffix;
-        if (progress < 1) requestAnimationFrame(step);
-      }
-      requestAnimationFrame(step);
-    }
-
-    function onVisible() {
-      if (counted) return;
-      var rect = grid.getBoundingClientRect();
-      if (rect.top < window.innerHeight * 0.85) {
-        counted = true;
-        var els = grid.querySelectorAll('.result-number[data-target]');
-        for (var i = 0; i < els.length; i++) {
-          var target = parseInt(els[i].getAttribute('data-target'), 10);
-          var suffix = els[i].getAttribute('data-suffix') || '';
-          countUp(els[i], target, suffix, target > 1000 ? 2000 : 1200);
-        }
-        window.removeEventListener('scroll', onVisible);
-      }
-    }
-
-    window.addEventListener('scroll', onVisible);
-    onVisible();
-  })();
-  </script>
-  <script src="../../service-graph.js" defer></script>
+  <script src="../../script.js?v=deferred-media-1"></script>
+  <!-- Experience indicators are static text: visible without JavaScript. -->
+  <script src="../../service-graph.js?v=experience-1" defer></script>
 </body>
 </html>

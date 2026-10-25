@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="hr">
+<html lang="hr" data-palette="black-gold">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -41,19 +41,24 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../../../styles.css?v=6e1760e2">
+  <link rel="stylesheet" href="../../../experimental.css?v=case-height-1">
+  <link rel="stylesheet" href="../../../palette-black-gold.css?v=light-gold-1">
+  <link rel="stylesheet" href="../../../service-experience.css?v=experience-1">
+  <link rel="stylesheet" href="../../../sci-fi-cta.css?v=sp-cta-1">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
       { "@type": "ListItem", "position": 1, "name": "Početna", "item": "https://standingpillars.com/hr/" },
-      { "@type": "ListItem", "position": 2, "name": "UX dizajn usluge", "item": "https://standingpillars.com/hr/services/ux-design/" }
+      { "@type": "ListItem", "position": 2, "name": "Iskustvo u UX dizajnu", "item": "https://standingpillars.com/hr/services/ux-design/" }
     ]
   }
   </script>
-  <script>if(localStorage.getItem('theme')!=='light')document.documentElement.setAttribute('data-theme','dark')</script>
+  <script>try { if(localStorage.getItem('theme')!=='light')document.documentElement.setAttribute('data-theme','dark'); } catch(error) { document.documentElement.setAttribute('data-theme','dark'); }</script>
 </head>
-<body>
+<body class="ui-experiment service-experience-body">
+  <a class="skip-link" href="#experience-content" onclick="document.getElementById('experience-content').focus({ preventScroll: true });">Preskoči na sadržaj</a>
 
   <!-- Navigation -->
   <nav class="navbar" id="navbar" aria-label="Glavna navigacija">
@@ -78,7 +83,7 @@
       <ul class="nav-links" id="navLinks">
         <li><a href="../../#about">O meni</a></li>
         <li class="nav-dropdown">
-          <a href="../../#services" class="nav-dropdown-toggle">Usluge <svg class="chevron" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 4.5L6 7.5L9 4.5"/></svg></a>
+          <a href="../../#services" class="nav-dropdown-toggle">Stručnost <svg class="chevron" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 4.5L6 7.5L9 4.5"/></svg></a>
           <div class="nav-dropdown-menu">
             <a href="../../#services">Sva podru&#269;ja</a>
             <div class="dropdown-divider"></div>
@@ -88,9 +93,9 @@
           </div>
         </li>
         <li><a href="../../#experience">Iskustvo</a></li>
-        <li><a href="../../#ai-engineering">AI Inzenjering</a></li>
+        <li><a href="../../#ai-engineering">Tehnički projekt</a></li>
         <li><a href="../../#case-studies">Studije slucaja</a></li>
-        <li><a href="../../#contact" class="nav-cta">Kontaktirajte me</a></li>
+        <li><a href="../../#contact" class="nav-cta sp-cta">Kontaktirajte Igora</a></li>
         <li>
           <button class="theme-toggle" id="themeToggle" aria-label="Tamni nacin rada">
             <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
@@ -101,23 +106,28 @@
     </div>
   </nav>
 
-  <main>
+  <main id="experience-content" tabindex="-1">
 
     <!-- Breadcrumb -->
-    <div class="container">
+    <div class="container experience-nav-row">
       <nav class="breadcrumb" aria-label="Navigacija">
         <a href="../../">Početna</a>
         <span aria-hidden="true">/</span>
         <span aria-current="page">UX dizajn</span>
+      </nav>
+      <nav class="experience-languages" aria-label="Jezik stranice">
+        <a href="/services/ux-design/" hreflang="en" lang="en">EN</a>
+        <a href="/hr/services/ux-design/" hreflang="hr" lang="hr" aria-current="page">HR</a>
+        <a href="/de/services/ux-design/" hreflang="de" lang="de">DE</a>
       </nav>
     </div>
 
     <!-- Hero -->
     <header class="service-hero">
       <div class="container">
-        <p class="section-eyebrow">Enterprise dizajn vodstvo</p>
-        <h1 class="service-hero-title">UX dizajn za farmaceutsku industriju i regulirane industrije</h1>
-        <p class="service-hero-desc">Dizajniram alate koje ljudi zaista koriste. Kompleksni sustavi u farmaceutskoj industriji, zdravstvu i reguliranim industrijama - utemeljeni na stvarnim radnim procesima, ne pretpostavkama. 17+ godina iskustva, uključujući dva vodeća UX angažmana u Rocheu.</p>
+        <p class="section-eyebrow">Iskustvo i stručnost</p>
+        <h1 class="service-hero-title">Iskustvo u UX dizajnu za farmaciju i regulirana okruženja</h1>
+        <p class="service-hero-desc">U UX i produktnom dizajnu povezujem stručno znanje, stvarne radne procese i tehnička ograničenja. Dva različita Rocheova projekta obuhvaćala su istraživanje, oblikovanje cjelovitih procesa, prototipe i suradnju s vlasnicima proizvoda i inženjerima.</p>
       </div>
     </header>
 
@@ -130,8 +140,8 @@
     <section class="section">
       <div class="container">
         <div class="section-header">
-          <p class="section-eyebrow">Stru&#269;nost</p>
-          <h2 class="section-title">Što isporučujem</h2>
+          <p class="section-eyebrow">Područja iskustva</p>
+          <h2 class="section-title">Područja iskustva</h2>
         </div>
         <div class="services-grid services-grid-three">
           <div class="service-pillar">
@@ -141,7 +151,7 @@
               </svg>
             </div>
             <h3>UX auditi i heuristička evaluacija</h3>
-            <p class="service-desc">Strukturirane procjene upotrebljivosti, pristupačnosti i konzistentnosti dizajna. Pronalazim točke trenja, određujem prioritete popravaka i dajem jasan akcijski plan - ne izvještaj od 200 stranica koji skuplja prašinu.</p>
+            <p class="service-desc">Procjena upotrebljivosti, pristupačnosti i dosljednosti dizajna te pretvaranje nalaza u prioritete, dizajnerske odluke i praktične smjernice za izvedbu.</p>
           </div>
           <div class="service-pillar">
             <div class="service-icon">
@@ -150,7 +160,7 @@
               </svg>
             </div>
             <h3>Dizajn sustavi i Atomic UI</h3>
-            <p class="service-desc">Višekratno upotrebljive biblioteke komponenata koje odrzavaju konzistentnost proizvoda dok timovi i funkcionalnosti rastu. Izrađene u Figmi prema Atomic Design principima s jasnom dokumentacijom koja povezuje dizajn i inzenjering.</p>
+            <p class="service-desc">Višekratne komponente u Figmi i Atomic Design obrasci koji povezuju dizajn i razvoj te podržavaju dosljednost proizvoda tijekom rasta.</p>
           </div>
           <div class="service-pillar">
             <div class="service-icon">
@@ -158,8 +168,8 @@
                 <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>
               </svg>
             </div>
-            <h3>Istrazivanje korisnika i radionice sa stakeholderima</h3>
-            <p class="service-desc">Od intervjua 1-na-1 do radionica s 50+ stakeholdera. Uskladujem raznovrsne timove oko zajedničkih ciljeva, rješavam blokade i pretvaranjem proturjecne zahtjeve u provediv smjer dizajna.</p>
+            <h3>Istraživanje korisnika i radionice s dionicima</h3>
+            <p class="service-desc">Intervjui s korisnicima i stručnjacima, proučavanje rada i radionice za razjašnjavanje proturječnih zahtjeva i usklađivanje timova oko stvarnog problema.</p>
           </div>
           <div class="service-pillar">
             <div class="service-icon">
@@ -168,7 +178,7 @@
               </svg>
             </div>
             <h3>Wireframing i prototipiranje</h3>
-            <p class="service-desc">Od low-fidelity skica do interaktivnih Figma prototipova. Validiram ideje rano, testiram sa stvarnim korisnicima i brzo iteriram - prije nego što se napiše ijedna linija koda.</p>
+            <p class="service-desc">Od početnih skica procesa do interaktivnih Figma prototipova, uz povratne informacije korisnika, vlasnika proizvoda i inženjera prije implementacije.</p>
           </div>
           <div class="service-pillar">
             <div class="service-icon">
@@ -176,8 +186,8 @@
                 <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
               </svg>
             </div>
-            <h3>GxP-uskladeni dizajn sucelja</h3>
-            <p class="service-desc">Dizajn za regulirana okruzenja gdje usklađenost nije opcija. Revizijski tragovi, integritet podataka, zahtjevi za validaciju - ugradeni u svaki obrazac interakcije od prvog dana.</p>
+            <h3>Dizajn sučelja uz razumijevanje GxP-a</h3>
+            <p class="service-desc">Iskustvo s reguliranim farmaceutskim procesima, sljedivošću, integritetom podataka, ovlastima i informacijama potrebnima za odgovorno odlučivanje.</p>
           </div>
           <div class="service-pillar">
             <div class="service-icon">
@@ -186,7 +196,7 @@
               </svg>
             </div>
             <h3>Vizualni dizajn i strategija brenda</h3>
-            <p class="service-desc">Enterprise proizvodi zaslužuju dobru estetiku. Stvaram vizualne identitete i smjernice brenda koje funkcioniraju kroz kompleksne ekosustave proizvoda uz održavanje regulatorne jasnoće.</p>
+            <p class="service-desc">Vizualna hijerarhija, ponovljivi obrasci sučelja i jasna komunikacija koji složene enterprise proizvode čine razumljivijima.</p>
           </div>
         </div>
       </div>
@@ -196,25 +206,25 @@
     <section class="section section-alt">
       <div class="container">
         <div class="section-header">
-          <p class="section-eyebrow">Rezultati</p>
-          <h2 class="section-title">Rezultati, ne samo isporuke</h2>
+          <p class="section-eyebrow">Odabrano iskustvo</p>
+          <h2 class="section-title">Iskustvo u kontekstu</h2>
         </div>
         <div class="results-grid" id="resultsGrid">
           <div class="result-card">
-            <span class="result-number" data-target="10000" data-suffix="+">0</span>
-            <p class="result-label">Korisnika farmaceutskih proizvodnih alata dizajniranih u Rocheu</p>
+            <span class="result-number">10.000+</span>
+            <p class="result-label">Korisnika RCA platforme prema povratnoj informaciji kolega iz Rochea nekoliko mjeseci nakon mog angažmana.</p>
           </div>
           <div class="result-card">
-            <span class="result-number" data-target="30" data-suffix="%">0</span>
-            <p class="result-label">Smanjenje rucnog izvjestavanja kroz E2E redizajn alata</p>
+            <span class="result-number">30%+</span>
+            <p class="result-label">Prijavljeno smanjenje ručnog izvještavanja kroz rad šireg tima proizvoda Intelligent Authoring.</p>
           </div>
           <div class="result-card">
-            <span class="result-number" data-target="50" data-suffix="+">0</span>
-            <p class="result-label">Stakeholdera uskladenih u pojedinacnim radionicama za rješavanje blokada</p>
+            <span class="result-number">120</span>
+            <p class="result-label">Približno 120 UI dizajna za Intelligent Authoring i regulatorno izvještavanje.</p>
           </div>
           <div class="result-card">
-            <span class="result-number" data-target="5" data-suffix="+">0</span>
-            <p class="result-label">Godina dizajniranja za GxP-regulirana okruzenja</p>
+            <span class="result-number">17+</span>
+            <p class="result-label">Godina profesionalnog iskustva u dizajnu, tehnologiji i digitalnoj isporuci.</p>
           </div>
         </div>
       </div>
@@ -224,30 +234,30 @@
     <section class="section">
       <div class="container">
         <div class="section-header">
-          <p class="section-eyebrow">Proces</p>
-          <h2 class="section-title">Kako radim</h2>
-          <p class="section-desc">Svaki angažman slijedi strukturirani pristup - prilagođen opsegu, nikad preskočen.</p>
+          <p class="section-eyebrow">Način rada</p>
+          <h2 class="section-title">Kako pristupam radu</h2>
+          <p class="section-desc">Strukturirani pristup koji povezuje problem, ljude i praktičnu izvedbu.</p>
         </div>
         <div class="process-steps">
           <div class="process-step">
             <span class="process-number">01</span>
-            <h3>Otkrivanje</h3>
-            <p>Intervjui sa stakeholderima, istrazivanje korisnika i heuristička procjena postojecih sustava. Mapiram stvarne radne procese - ne one iz specifikacije.</p>
+            <h3>Razumjeti</h3>
+            <p>Proučiti korisnike, stručni rad, postojeće alate i ograničenja kroz istraživanje i razgovor.</p>
           </div>
           <div class="process-step">
             <span class="process-number">02</span>
-            <h3>Definiranje</h3>
-            <p>Prioritizirani nalazi, mape korisnickog putovanja i jasna dizajn strategija. Svi se slazu oko problema prije nego pocnemo rjesavati.</p>
+            <h3>Definirati</h3>
+            <p>Razjasniti zahtjeve, ovisnosti, rizike i različite prioritete prije odabira smjera.</p>
           </div>
           <div class="process-step">
             <span class="process-number">03</span>
-            <h3>Dizajniranje</h3>
-            <p>Wireframeovi, prototipovi i komponente dizajn sustava u Figmi. Iterativna validacija s korisnicima i stakeholderima u svakoj fazi.</p>
+            <h3>Oblikovati</h3>
+            <p>Istražiti procese i interakcije kroz wireframeove, prototipe i višekratne komponente dizajna.</p>
           </div>
           <div class="process-step">
             <span class="process-number">04</span>
-            <h3>Isporuka</h3>
-            <p>Developer handoff s detaljnim specifikacijama, dokumentacijom komponenata i tekucom podrskom tijekom implementacije. Posao ne zavrsava kod Figma datoteke.</p>
+            <h3>Podržati isporuku</h3>
+            <p>Razjašnjavati odluke tijekom implementacije, provjeravati izvedbu te razmišljati o povratnim informacijama i rastu.</p>
           </div>
         </div>
       </div>
@@ -257,25 +267,25 @@
     <section class="section section-alt">
       <div class="container">
         <div class="section-header">
-          <p class="section-eyebrow">Industrije</p>
-          <h2 class="section-title">Gdje sam isporucivao</h2>
+          <p class="section-eyebrow">Kontekst</p>
+          <h2 class="section-title">Relevantna okruženja</h2>
         </div>
         <div class="industry-grid">
           <div class="industry-card">
             <h3>Farmaceutska proizvodnja</h3>
-            <p>E2E alati za izvjestavanje, sucelja za upravljanje serijama i nadzorne ploce usklađenosti za GxP-regulirana proizvodna okruzenja.</p>
+            <p>Procesi RCA istraga i osiguranja kvalitete, utemeljeni na radu sa stručnjacima i proizvodnim timovima.</p>
           </div>
           <div class="industry-card">
             <h3>Zdravstvo i bioznanosti</h3>
-            <p>Sučelja usmjerena pacijentima, vizualizacije kliničkih podataka i alati koji podrzavaju revizijske tragove i zahtjeve integriteta podataka.</p>
+            <p>Regulatorno izvještavanje i izrada sadržaja gdje su važni strukturirane informacije, ovlasti i sljedivost.</p>
           </div>
           <div class="industry-card">
-            <h3>Enterprise IT i konzalting</h3>
-            <p>Interni alati, platforme za nabavu i okviri upravljanja za organizacije koje upravljaju kompleksnim ekosustavima dobavljača.</p>
+            <h3>Enterprise IT i podrška odlučivanju</h3>
+            <p>Planiranje proizvoda, poslovna analiza, evaluacija dobavljača i komunikacija između vodstva i tehničkih timova.</p>
           </div>
           <div class="industry-card">
             <h3>Maloprodaja i e-trgovina</h3>
-            <p>Landing stranice, marketinske kampanje i dizajn usmjeren konverziji s mjerljivim poslovnim rezultatima.</p>
+            <p>Ranije iskustvo s kampanjama, webom i e-trgovinom donosi vizualnu vještinu i razumijevanje različitih publika.</p>
           </div>
         </div>
       </div>
@@ -285,12 +295,12 @@
     <section class="section service-cta">
       <div class="container">
         <div class="section-header">
-          <h2 class="section-title">Tražite senior UX iskustvo?</h2>
-          <p class="section-desc">Otvoren sam za UX i produktne pozicije u Hrvatskoj u kojima su važni istraživanje, složeni procesi i međufunkcionalno usklađivanje.</p>
+          <h2 class="section-title">Pogledajte radove iza ovog iskustva</h2>
+          <p class="section-desc">Ove su sposobnosti prikazane kroz odabrane projekte u osobnom portfoliju.</p>
         </div>
         <div class="cta-actions">
-          <a href="../../#contact" class="btn btn-primary">Razgovarajmo o poziciji</a>
-          <a href="../../#case-studies" class="btn btn-outline">Pogledajte studije slucaja</a>
+          <a href="../../#contact" class="btn btn-primary sp-cta">Kontaktirajte Igora</a>
+          <a href="../../#cs-rca" class="btn btn-outline sp-cta sp-cta--outline">Pogledajte odabrane radove</a>
         </div>
       </div>
     </section>
@@ -328,50 +338,8 @@
     </div>
   </footer>
 
-  <script src="../../../script.js?v=a48e787c"></script>
-  <script>
-  (function() {
-    var grid = document.getElementById('resultsGrid');
-    if (!grid) return;
-    var counted = false;
-
-    function formatNum(n) {
-      return n.toLocaleString('hr-HR');
-    }
-
-    function countUp(el, target, suffix, duration) {
-      var start = 0;
-      var startTime = null;
-      function step(ts) {
-        if (!startTime) startTime = ts;
-        var progress = Math.min((ts - startTime) / duration, 1);
-        var ease = 1 - Math.pow(1 - progress, 3);
-        var current = Math.floor(ease * target);
-        el.textContent = formatNum(current) + suffix;
-        if (progress < 1) requestAnimationFrame(step);
-      }
-      requestAnimationFrame(step);
-    }
-
-    function onVisible() {
-      if (counted) return;
-      var rect = grid.getBoundingClientRect();
-      if (rect.top < window.innerHeight * 0.85) {
-        counted = true;
-        var els = grid.querySelectorAll('.result-number[data-target]');
-        for (var i = 0; i < els.length; i++) {
-          var target = parseInt(els[i].getAttribute('data-target'), 10);
-          var suffix = els[i].getAttribute('data-suffix') || '';
-          countUp(els[i], target, suffix, target > 1000 ? 2000 : 1200);
-        }
-        window.removeEventListener('scroll', onVisible);
-      }
-    }
-
-    window.addEventListener('scroll', onVisible);
-    onVisible();
-  })();
-  </script>
-  <script src="../../../service-graph.js" defer></script>
+  <script src="../../../script.js?v=deferred-media-1"></script>
+  <!-- Experience indicators are static text: visible without JavaScript. -->
+  <script src="../../../service-graph.js?v=experience-1" defer></script>
 </body>
 </html>

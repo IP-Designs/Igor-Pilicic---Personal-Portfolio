@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="hr">
+<html lang="hr" data-palette="black-gold">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -41,19 +41,24 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../../../styles.css?v=6e1760e2">
+  <link rel="stylesheet" href="../../../experimental.css?v=case-height-1">
+  <link rel="stylesheet" href="../../../palette-black-gold.css?v=light-gold-1">
+  <link rel="stylesheet" href="../../../service-experience.css?v=experience-1">
+  <link rel="stylesheet" href="../../../sci-fi-cta.css?v=sp-cta-1">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
       { "@type": "ListItem", "position": 1, "name": "Početna", "item": "https://standingpillars.com/hr/" },
-      { "@type": "ListItem", "position": 2, "name": "Nabava AI rješenja & OSINT savjetovanje", "item": "https://standingpillars.com/hr/services/ai-procurement/" }
+      { "@type": "ListItem", "position": 2, "name": "Iskustvo u evaluaciji AI dobavljača", "item": "https://standingpillars.com/hr/services/ai-procurement/" }
     ]
   }
   </script>
-  <script>if(localStorage.getItem('theme')!=='light')document.documentElement.setAttribute('data-theme','dark')</script>
+  <script>try { if(localStorage.getItem('theme')!=='light')document.documentElement.setAttribute('data-theme','dark'); } catch(error) { document.documentElement.setAttribute('data-theme','dark'); }</script>
 </head>
-<body>
+<body class="ui-experiment service-experience-body">
+  <a class="skip-link" href="#experience-content" onclick="document.getElementById('experience-content').focus({ preventScroll: true });">Preskoči na sadržaj</a>
 
   <!-- Navigation -->
   <nav class="navbar" id="navbar" aria-label="Glavna navigacija">
@@ -78,7 +83,7 @@
       <ul class="nav-links" id="navLinks">
         <li><a href="../../#about">O meni</a></li>
         <li class="nav-dropdown">
-          <a href="../../#services" class="nav-dropdown-toggle">Usluge <svg class="chevron" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 4.5L6 7.5L9 4.5"/></svg></a>
+          <a href="../../#services" class="nav-dropdown-toggle">Stručnost <svg class="chevron" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 4.5L6 7.5L9 4.5"/></svg></a>
           <div class="nav-dropdown-menu">
             <a href="../../#services">Sva podru&#269;ja</a>
             <div class="dropdown-divider"></div>
@@ -88,9 +93,9 @@
           </div>
         </li>
         <li><a href="../../#experience">Iskustvo</a></li>
-        <li><a href="../../#ai-engineering">AI Inzenjering</a></li>
+        <li><a href="../../#ai-engineering">Tehnički projekt</a></li>
         <li><a href="../../#case-studies">Studije slucaja</a></li>
-        <li><a href="../../#contact" class="nav-cta">Kontakt</a></li>
+        <li><a href="../../#contact" class="nav-cta sp-cta">Kontaktirajte Igora</a></li>
         <li>
           <button class="theme-toggle" id="themeToggle" aria-label="Tamni nacin rada">
             <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
@@ -101,23 +106,28 @@
     </div>
   </nav>
 
-  <main>
+  <main id="experience-content" tabindex="-1">
 
     <!-- Breadcrumb -->
-    <div class="container">
+    <div class="container experience-nav-row">
       <nav class="breadcrumb" aria-label="Krusne navigacije">
         <a href="../../">Početna</a>
         <span aria-hidden="true">/</span>
         <span aria-current="page">Nabava AI rješenja</span>
+      </nav>
+      <nav class="experience-languages" aria-label="Jezik stranice">
+        <a href="/services/ai-procurement/" hreflang="en" lang="en">EN</a>
+        <a href="/hr/services/ai-procurement/" hreflang="hr" lang="hr" aria-current="page">HR</a>
+        <a href="/de/services/ai-procurement/" hreflang="de" lang="de">DE</a>
       </nav>
     </div>
 
     <!-- Hero -->
     <header class="service-hero">
       <div class="container">
-        <p class="section-eyebrow">Enterprise savjetovanje</p>
-        <h1 class="service-hero-title">Nabava AI rješenja &amp; OSINT savjetovanje</h1>
-        <p class="service-hero-desc">Ja evaluiram dobavljače kako vi ne biste nastradali. OSINT-bazirana provjera, strukturirani natječaji i okviri upravljanja koji otkrivaju rizike prije potpisivanja ugovora. Godine izgradnje vlastitih alata znači da točno znam što zahtijevati od dobavljača.</p>
+        <p class="section-eyebrow">Iskustvo i stručnost</p>
+        <h1 class="service-hero-title">Iskustvo u evaluaciji AI dobavljača, nabavi i podršci odlučivanju</h1>
+        <p class="service-hero-desc">Kroz Accenture i farmaceutske klijentske projekte podržavao sam vlasnike proizvoda, voditelje projekata i donositelje odluka istraživanjem, RFP/RFI materijalima, evaluacijom dobavljača i prezentacijama za vodstvo. Cilj je bio pretvoriti složene informacije u jasne izbore i sljedive sljedeće korake.</p>
       </div>
     </header>
 
@@ -130,8 +140,8 @@
     <section class="section">
       <div class="container">
         <div class="section-header">
-          <p class="section-eyebrow">Stru&#269;nost</p>
-          <h2 class="section-title">Što isporučujem</h2>
+          <p class="section-eyebrow">Područja iskustva</p>
+          <h2 class="section-title">Područja iskustva</h2>
         </div>
         <div class="services-grid services-grid-three">
           <div class="service-pillar">
@@ -141,7 +151,7 @@
               </svg>
             </div>
             <h3>OSINT provjera dobavljača</h3>
-            <p class="service-desc">Dubinske istrage otvorenim izvorima o AI dobavljačima. Otkrivam što prodajne prezentacije skrivaju: nestabilnost financiranja, tehnički dug, prakse obrade podataka, regulatorne praznine i reputacijske rizike - prije nego što bilo što potpišete.</p>
+            <p class="service-desc">Istraživanje javno dostupnih izvora o dobavljačima, tehničkim tvrdnjama, poslovnom kontekstu, dokazima i rizicima važnima za odluku.</p>
           </div>
           <div class="service-pillar">
             <div class="service-icon">
@@ -149,8 +159,8 @@
                 <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/>
               </svg>
             </div>
-            <h3>Izrada natjecajne dokumentacije (RFP/RFI)</h3>
-            <p class="service-desc">Strukturirani dokumenti nabave koji postavljaju prava pitanja. Pišem natječaje koji prisiljavaju dobavljače da svoje tvrdnje dokazu dokazima - ne marketinškim jezikom. Predlošci dizajnirani za AI-specifične kriterije evaluacije.</p>
+            <h3>Razvoj RFP/RFI dokumentacije</h3>
+            <p class="service-desc">Strukturiranje pitanja i zahtjeva kako bi se ponude mogle usporediti prema stvarnim potrebama organizacije, a ne prodajnim porukama.</p>
           </div>
           <div class="service-pillar">
             <div class="service-icon">
@@ -158,8 +168,8 @@
                 <rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/>
               </svg>
             </div>
-            <h3>Matrice evaluacije &amp; bodovne kartice</h3>
-            <p class="service-desc">Objektivni, ponderirani okviri usporedbe koji uklanjaju osjećaj iz odabira dobavljača. Svaki kriterij je sljediv, svaka ocjena opravdana. Dnevnici odluka koji izdržavaju reviziju.</p>
+            <h3>Evaluacijske matrice i scorecards</h3>
+            <p class="service-desc">Kriteriji usporedbe i materijali za odlučivanje koji dionicima čine vidljivima dokaze, pretpostavke i kompromise.</p>
           </div>
           <div class="service-pillar">
             <div class="service-icon">
@@ -168,7 +178,7 @@
               </svg>
             </div>
             <h3>Procjena rizika (GDPR, GxP)</h3>
-            <p class="service-desc">Sustavna evaluacija rizika vendor lock-ina, usklađenosti zaštite podataka i regulatorne izloženosti. Mapiram stvarne rizike za vaše specifično okruženje - farmaceutika, zdravstvo ili regulirano poslovanje.</p>
+            <p class="service-desc">Otkrivanje pitanja o vezanosti uz dobavljača, obradi podataka, integracijama i regulatornoj prikladnosti uz suradnju s tehničkim i stručnim timovima.</p>
           </div>
           <div class="service-pillar">
             <div class="service-icon">
@@ -176,8 +186,8 @@
                 <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
               </svg>
             </div>
-            <h3>Dnevnici odluka &amp; sljedivost</h3>
-            <p class="service-desc">Svaka odluka o nabavi dokumentirana s obrazloženjem, dokazima i revizijskim tragom. U reguliranim industrijama morate pokazati zašto ste odabrali dobavljača - ne samo da jeste. Gradim tu dokumentaciju od prvog dana.</p>
+            <h3>Dnevnici odluka i sljedivost</h3>
+            <p class="service-desc">Bilježenje razloga za preporuke, otvorenih pitanja, ovisnosti i informacija potrebnih za sljedeći korak u odlučivanju.</p>
           </div>
           <div class="service-pillar">
             <div class="service-icon">
@@ -185,8 +195,8 @@
                 <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>
               </svg>
             </div>
-            <h3>Executive materijali &amp; komunikacija s upravom</h3>
-            <p class="service-desc">Prevođenje tehničkih nalaza u jasne, provedive preporuke za vodstvo. Pripremam prezentacije za upravu, executive sažetke i materijale za odlučivanje koje rukovoditelji zaista čitaju i po njima djeluju.</p>
+            <h3>Materijali za vodstvo i C-Suite komunikacija</h3>
+            <p class="service-desc">Priprema prezentacija i sažetaka koji stručne nalaze pretvaraju u razumljivu osnovu za raspravu i djelovanje vodstva i timova.</p>
           </div>
         </div>
       </div>
@@ -196,25 +206,25 @@
     <section class="section section-alt">
       <div class="container">
         <div class="section-header">
-          <p class="section-eyebrow">Rezultati</p>
-          <h2 class="section-title">Rezultati, ne samo isporuke</h2>
+          <p class="section-eyebrow">Odabrano iskustvo</p>
+          <h2 class="section-title">Iskustvo u kontekstu</h2>
         </div>
         <div class="results-grid" id="resultsGrid">
           <div class="result-card">
-            <span class="result-number" data-target="40" data-suffix="+">0</span>
-            <p class="result-label">AI dobavljača evaluirano kroz OSINT-baziranu provjeru</p>
+            <span class="result-number">OSINT</span>
+            <p class="result-label">Istraživanje i prikupljanje dokaza za provjeru dobavljača.</p>
           </div>
           <div class="result-card">
-            <span class="result-number" data-target="3" data-suffix="">0</span>
-            <p class="result-label">Visokorisicna dobavljača identificirana i odbijena prije ugovaranja</p>
+            <span class="result-number">RFP/RFI</span>
+            <p class="result-label">Strukturirani zahtjevi i pitanja za smisleniju usporedbu.</p>
           </div>
           <div class="result-card">
-            <span class="result-number" data-target="17" data-suffix="+">0</span>
-            <p class="result-label">Godina iskustva u izgradnji alata koje dobavljači tvrde da prodaju</p>
+            <span class="result-number">Scorecards</span>
+            <p class="result-label">Vidljivi kriteriji i kompromisi za donositelje odluka.</p>
           </div>
           <div class="result-card">
-            <span class="result-number" data-target="100" data-suffix="%">0</span>
-            <p class="result-label">Odluka o nabavi dokumentirano s potpunim revizijskim tragom</p>
+            <span class="result-number">C-Suite</span>
+            <p class="result-label">Prezentacije za vodstvo i međufunkcionalna podrška odlučivanju.</p>
           </div>
         </div>
       </div>
@@ -224,30 +234,30 @@
     <section class="section">
       <div class="container">
         <div class="section-header">
-          <p class="section-eyebrow">Proces</p>
-          <h2 class="section-title">Kako radim</h2>
-          <p class="section-desc">Svaki angažman slijedi strukturirani pristup - prilagođen opsegu, nikad preskočen.</p>
+          <p class="section-eyebrow">Način rada</p>
+          <h2 class="section-title">Kako pristupam radu</h2>
+          <p class="section-desc">Strukturirani pristup koji povezuje problem, ljude i praktičnu izvedbu.</p>
         </div>
         <div class="process-steps">
           <div class="process-step">
             <span class="process-number">01</span>
-            <h3>Definiranje opsega</h3>
-            <p>Mapiram vaše zahtjeve, ogranicenja i regulatorni krajolik. Koji problem zapravo rjesavate? Kako izgleda vaš postojeci stack? Gdje su stvarni rizici?</p>
+            <h3>Postaviti okvir</h3>
+            <p>Razjasniti poslovni problem, postojeće sustave, kriterije odluke i regulatorna ograničenja.</p>
           </div>
           <div class="process-step">
             <span class="process-number">02</span>
-            <h3>Istrazivanje</h3>
-            <p>OSINT-bazirana istraga odabranih dobavljača. Financiranje, vodstvo, tehničke tvrdnje, recenzije korisnika, regulatorna povijest, prakse obrade podataka - sve što je bitno, ništa što nije.</p>
+            <h3>Istražiti</h3>
+            <p>Prikupiti javne dokaze i sa stručnjacima razlikovati dokumentirane mogućnosti od nepotkrijepljenih tvrdnji.</p>
           </div>
           <div class="process-step">
             <span class="process-number">03</span>
-            <h3>Evaluacija</h3>
-            <p>Strukturirane bodovne kartice s ponderiranim kriterijima. Usporedba rame uz rame, matrice rizika i dnevnici odluka. Svaka ocjena potkrijepljena dokazima, ne misljenjima.</p>
+            <h3>Procijeniti</h3>
+            <p>Usporediti opcije, izvedivost integracije, rizike, ovisnosti i moguće promjene postojećih sustava.</p>
           </div>
           <div class="process-step">
             <span class="process-number">04</span>
-            <h3>Preporuka</h3>
-            <p>Materijali spremni za upravu s jasnim preporukama, sazetcima rizika i smjernicama za implementaciju. Prezentiram vašem vodstvu i odgovaram na teska pitanja koja ce postaviti.</p>
+            <h3>Podržati odluku</h3>
+            <p>Jasno predstaviti izvedive sljedeće korake, neriješena pitanja i rad koji treba pratiti.</p>
           </div>
         </div>
       </div>
@@ -257,25 +267,25 @@
     <section class="section section-alt">
       <div class="container">
         <div class="section-header">
-          <p class="section-eyebrow">Podrucja rizika</p>
-          <h2 class="section-title">Na što pazim</h2>
+          <p class="section-eyebrow">Kontekst</p>
+          <h2 class="section-title">Relevantna okruženja</h2>
         </div>
         <div class="industry-grid">
           <div class="industry-card">
-            <h3>Vendor Lock-in</h3>
-            <p>Vlasnički formati podataka, API ovisnosti, ugovorne zamke i troškovi migracije. Identificiram prepreke izlaska prije nego što uđete.</p>
+            <h3>Vezanost uz dobavljača</h3>
+            <p>Prenosivost podataka, API ovisnosti, ugovorna ograničenja i praktične posljedice promjene platforme.</p>
           </div>
           <div class="industry-card">
-            <h3>Zaštita podataka &amp; GDPR</h3>
-            <p>Kamo idu vaši podaci? Tko ih obraduje? Pod cijim zakonodavstvom? Provjeravam tokove podataka, pod-obradivace i politike privatnosti za stvarnu usklađenost - ne checkbox usklađenost.</p>
+            <h3>Zaštita podataka i GDPR</h3>
+            <p>Pitanja o tokovima podataka, smještaju, pristupu i trećim stranama uz stručni doprinos za privatnost i sigurnost.</p>
           </div>
           <div class="industry-card">
-            <h3>GxP &amp; regulatorna prikladnost</h3>
-            <p>AI alati u reguliranim okruzenjima trebaju validaciju, revizijske tragove i upravljanje promjenama. Procjenjujem razumiju li dobavljači zaista vaše regulatorne obveze ili to samo tvrde.</p>
+            <h3>GxP i regulatorna prikladnost</h3>
+            <p>Potrebe validacije, sljedivost, upravljanje promjenama i uklapanje alata u regulirane farmaceutske procese.</p>
           </div>
           <div class="industry-card">
-            <h3>Tehnicke tvrdnje naspram stvarnosti</h3>
-            <p>AI dobavljači vole impresivne brojke. Provjeravam tvrdnje o performansama, metodologije benchmarkova i tehničku arhitekturu prema onome što je zaista dostižno i dokazano.</p>
+            <h3>Tehničke tvrdnje i stvarnost</h3>
+            <p>Provjera dokaza s inženjerima i stručnjacima kako bi se procijenilo je li integracija izvediva ili je potrebna šira promjena sustava.</p>
           </div>
         </div>
       </div>
@@ -285,12 +295,12 @@
     <section class="section service-cta">
       <div class="container">
         <div class="section-header">
-          <h2 class="section-title">Tražite iskustvo u evaluaciji tehnologije?</h2>
-          <p class="section-desc">Otvoren sam za pozicije u nabavi, upravljanju, riziku dobavljača i digitalnoj transformaciji u kojima su važni strukturirana evaluacija i sljedivost.</p>
+          <h2 class="section-title">Pogledajte radove iza ovog iskustva</h2>
+          <p class="section-desc">Ove su sposobnosti prikazane kroz odabrane projekte u osobnom portfoliju.</p>
         </div>
         <div class="cta-actions">
-          <a href="../../#contact" class="btn btn-primary">Razgovarajmo o poziciji</a>
-          <a href="../../#case-studies" class="btn btn-outline">Pogledajte studije slucaja</a>
+          <a href="../../#contact" class="btn btn-primary sp-cta">Kontaktirajte Igora</a>
+          <a href="../../#cs-accenture" class="btn btn-outline sp-cta sp-cta--outline">Pogledajte odabrane radove</a>
         </div>
       </div>
     </section>
@@ -328,50 +338,8 @@
     </div>
   </footer>
 
-  <script src="../../../script.js?v=a48e787c"></script>
-  <script>
-  (function() {
-    var grid = document.getElementById('resultsGrid');
-    if (!grid) return;
-    var counted = false;
-
-    function formatNum(n) {
-      return n.toLocaleString('hr-HR');
-    }
-
-    function countUp(el, target, suffix, duration) {
-      var start = 0;
-      var startTime = null;
-      function step(ts) {
-        if (!startTime) startTime = ts;
-        var progress = Math.min((ts - startTime) / duration, 1);
-        var ease = 1 - Math.pow(1 - progress, 3);
-        var current = Math.floor(ease * target);
-        el.textContent = formatNum(current) + suffix;
-        if (progress < 1) requestAnimationFrame(step);
-      }
-      requestAnimationFrame(step);
-    }
-
-    function onVisible() {
-      if (counted) return;
-      var rect = grid.getBoundingClientRect();
-      if (rect.top < window.innerHeight * 0.85) {
-        counted = true;
-        var els = grid.querySelectorAll('.result-number[data-target]');
-        for (var i = 0; i < els.length; i++) {
-          var target = parseInt(els[i].getAttribute('data-target'), 10);
-          var suffix = els[i].getAttribute('data-suffix') || '';
-          countUp(els[i], target, suffix, target > 1000 ? 2000 : 1200);
-        }
-        window.removeEventListener('scroll', onVisible);
-      }
-    }
-
-    window.addEventListener('scroll', onVisible);
-    onVisible();
-  })();
-  </script>
-  <script src="../../../service-graph.js" defer></script>
+  <script src="../../../script.js?v=deferred-media-1"></script>
+  <!-- Experience indicators are static text: visible without JavaScript. -->
+  <script src="../../../service-graph.js?v=experience-1" defer></script>
 </body>
 </html>

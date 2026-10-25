@@ -51,6 +51,10 @@ Tiny Humans Engine is a work-in-progress personal 2D engine and editor prototype
 
 ## Main portfolio links
 
+- [UX and product design experience](https://standingpillars.com/services/ux-design/): Research, workflows, design systems, and regulated products.
+- [AI evaluation and decision-support experience](https://standingpillars.com/services/ai-procurement/): RFP/RFI, vendor research, and executive communication.
+- [Web, brand, and visual design experience](https://standingpillars.com/services/local-business/): Earlier creative and digital delivery work.
+
 - [English portfolio](https://standingpillars.com/): Main professional profile.
 - [Croatian portfolio](https://standingpillars.com/hr/): Croatian version of the profile.
 - [German portfolio](https://standingpillars.com/de/): German version of the profile.

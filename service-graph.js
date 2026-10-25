@@ -17,6 +17,25 @@
   const GREEN  = { r: 22, g: 163, b: 74 };
   const WHITE  = { r: 255, g: 255, b: 255 };
 
+  // Retained experience pages use the same theme tokens as the main portfolio.
+  // Keep the objects stable: existing graph nodes reference these colour objects.
+  if (document.body.classList.contains('service-experience-body')) {
+    function themeColor(value, fallback) {
+      const hex = value.trim().replace(/^#/, '');
+      return /^[a-f0-9]{6}$/i.test(hex)
+        ? { r: parseInt(hex.slice(0, 2), 16), g: parseInt(hex.slice(2, 4), 16), b: parseInt(hex.slice(4, 6), 16) }
+        : fallback;
+    }
+    function syncExperiencePalette() {
+      const style = getComputedStyle(document.body);
+      Object.assign(ACCENT, themeColor(style.getPropertyValue('--accent'), ACCENT));
+      Object.assign(GREEN, themeColor(style.getPropertyValue('--accent-light'), ACCENT));
+      Object.assign(WHITE, themeColor(style.getPropertyValue('--navy'), WHITE));
+    }
+    syncExperiencePalette();
+    new MutationObserver(syncExperiencePalette).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+  }
+
   // --- Localized labels per language ---
   const LABELS = {
     de: {

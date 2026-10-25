@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-palette="black-gold">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -41,19 +41,24 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../../styles.css?v=6e1760e2">
+  <link rel="stylesheet" href="../../experimental.css?v=case-height-1">
+  <link rel="stylesheet" href="../../palette-black-gold.css?v=light-gold-1">
+  <link rel="stylesheet" href="../../service-experience.css?v=experience-1">
+  <link rel="stylesheet" href="../../sci-fi-cta.css?v=sp-cta-1">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
       { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://standingpillars.com/" },
-      { "@type": "ListItem", "position": 2, "name": "Technology for Web & Brand Design", "item": "https://standingpillars.com/services/local-business/" }
+      { "@type": "ListItem", "position": 2, "name": "Web, Brand & Visual Design Experience", "item": "https://standingpillars.com/services/local-business/" }
     ]
   }
   </script>
-  <script>if(localStorage.getItem('theme')!=='light')document.documentElement.setAttribute('data-theme','dark')</script>
+  <script>try { if(localStorage.getItem('theme')!=='light')document.documentElement.setAttribute('data-theme','dark'); } catch(error) { document.documentElement.setAttribute('data-theme','dark'); }</script>
 </head>
-<body>
+<body class="ui-experiment service-experience-body">
+  <a class="skip-link" href="#experience-content" onclick="document.getElementById('experience-content').focus({ preventScroll: true });">Skip to content</a>
 
   <!-- Navigation -->
   <nav class="navbar" id="navbar" aria-label="Main navigation">
@@ -88,9 +93,9 @@
           </div>
         </li>
         <li><a href="../../#experience">Experience</a></li>
-        <li><a href="../../#ai-engineering">AI Engineering</a></li>
+        <li><a href="../../#ai-engineering">Technical Project</a></li>
         <li><a href="../../#case-studies">Case Studies</a></li>
-        <li><a href="../../#contact" class="nav-cta">Open to Opportunities</a></li>
+        <li><a href="../../#contact" class="nav-cta sp-cta">Contact Igor</a></li>
         <li>
           <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
             <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
@@ -101,23 +106,28 @@
     </div>
   </nav>
 
-  <main>
+  <main id="experience-content" tabindex="-1">
 
     <!-- Breadcrumb -->
-    <div class="container">
+    <div class="container experience-nav-row">
       <nav class="breadcrumb" aria-label="Breadcrumb">
         <a href="../../">Home</a>
         <span aria-hidden="true">/</span>
         <span aria-current="page">Web & Brand Design</span>
+      </nav>
+      <nav class="experience-languages" aria-label="Page language">
+        <a href="/services/local-business/" hreflang="en" lang="en" aria-current="page">EN</a>
+        <a href="/hr/services/local-business/" hreflang="hr" lang="hr">HR</a>
+        <a href="/de/services/local-business/" hreflang="de" lang="de">DE</a>
       </nav>
     </div>
 
     <!-- Hero -->
     <header class="service-hero">
       <div class="container">
-        <p class="section-eyebrow">Complementary creative expertise</p>
-        <h1 class="service-hero-title">Web, brand &amp; visual design experience</h1>
-        <p class="service-hero-desc">Earlier work across websites, e-commerce, campaigns, branding, motion, and 3D complements my enterprise UX and technology experience. This page documents the breadth behind my current product and transformation focus.</p>
+        <p class="section-eyebrow">Experience and expertise</p>
+        <h1 class="service-hero-title">Web, Brand &amp; Visual Design Experience</h1>
+        <p class="service-hero-desc">My earlier work in retail, e-commerce, dental tourism, and independent projects spans websites, visual identities, campaigns, motion, and 3D. This visual and hands-on delivery experience remains part of how I approach digital products today.</p>
       </div>
     </header>
 
@@ -130,8 +140,8 @@
     <section class="section">
       <div class="container">
         <div class="section-header">
-          <p class="section-eyebrow">How I Can Help</p>
-          <h2 class="section-title">Everything you need to get started - nothing you don't</h2>
+          <p class="section-eyebrow">Areas of experience</p>
+          <h2 class="section-title">Areas of experience</h2>
         </div>
         <div class="services-grid services-grid-three">
           <div class="service-pillar">
@@ -141,7 +151,7 @@
               </svg>
             </div>
             <h3>Website Design &amp; Development</h3>
-            <p class="service-desc">A clean, fast website that looks good on every device and actually brings customers to your door. No bloated templates, no unnecessary complexity. I build it from scratch so it fits your business like a glove.</p>
+            <p class="service-desc">Experience designing and implementing websites and landing pages with WordPress, HTML, and CSS, connecting content, visual direction, and practical delivery.</p>
           </div>
           <div class="service-pillar">
             <div class="service-icon">
@@ -150,7 +160,7 @@
               </svg>
             </div>
             <h3>Logo &amp; Brand Identity</h3>
-            <p class="service-desc">Your brand is the first thing people notice. I'll create a logo and visual identity that feels right for your business - something you'll be proud to put on your shopfront, business cards, and everything in between.</p>
+            <p class="service-desc">Independent decisions on logos and visual identity, including branding and web design for Dental Centar Ostojić during the Fazgram period.</p>
           </div>
           <div class="service-pillar">
             <div class="service-icon">
@@ -159,7 +169,7 @@
               </svg>
             </div>
             <h3>Google Business &amp; Local SEO</h3>
-            <p class="service-desc">When someone nearby searches for what you offer, you should show up. I'll set up your Google Business profile, optimize your local search presence, and make sure your hours, location, and photos are working hard for you.</p>
+            <p class="service-desc">Experience with local online presence, clear business information, and search visibility as part of a wider website and communication context.</p>
           </div>
           <div class="service-pillar">
             <div class="service-icon">
@@ -167,8 +177,8 @@
                 <path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/>
               </svg>
             </div>
-            <h3>AI Integration - Only Where It Helps</h3>
-            <p class="service-desc">You've heard the buzz about AI. Some of it is genuinely useful for small businesses - like automating appointment booking or answering common questions. I'll show you what's worth your time and what's just hype.</p>
+            <h3>AI Integration &amp; Evaluation</h3>
+            <p class="service-desc">Current exploration of AI-assisted research and prototyping, with an emphasis on whether a tool solves a real need rather than adding complexity.</p>
           </div>
           <div class="service-pillar">
             <div class="service-icon">
@@ -176,8 +186,8 @@
                 <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>
               </svg>
             </div>
-            <h3>Honest Tech Guidance</h3>
-            <p class="service-desc">Not sure what you need? That's completely fine. I'll sit down with you, listen to your goals, and give you a straight answer - even if that answer is "you don't need to spend money on this right now."</p>
+            <h3>Technology Guidance</h3>
+            <p class="service-desc">Explaining options and constraints in plain language, drawing on experience across design, business processes, and technical implementation.</p>
           </div>
           <div class="service-pillar">
             <div class="service-icon">
@@ -185,8 +195,8 @@
                 <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
               </svg>
             </div>
-            <h3>Ongoing Support &amp; Maintenance</h3>
-            <p class="service-desc">After your site goes live, I don't disappear. Need to update your menu? Change your opening hours? Add a new service? Just send me a message. I'm here for the long run, not just the launch.</p>
+            <h3>Support &amp; Maintenance</h3>
+            <p class="service-desc">Web administration, content updates, and continuity after launch, informed by earlier website, e-commerce, and campaign work.</p>
           </div>
         </div>
       </div>
@@ -196,25 +206,25 @@
     <section class="section section-alt">
       <div class="container">
         <div class="section-header">
-          <p class="section-eyebrow">Why It Works</p>
-          <h2 class="section-title">The same quality, at the right scale</h2>
+          <p class="section-eyebrow">Selected experience</p>
+          <h2 class="section-title">Experience in context</h2>
         </div>
         <div class="results-grid" id="resultsGrid">
           <div class="result-card">
-            <span class="result-number" data-target="17" data-suffix="+">0</span>
-            <p class="result-label">Years of professional design and technology experience</p>
+            <span class="result-number">Web</span>
+            <p class="result-label">Websites, landing pages, and e-commerce work.</p>
           </div>
           <div class="result-card">
-            <span class="result-number" data-target="0" data-suffix="" data-display="100%">0</span>
-            <p class="result-label">Experience spanning strategy, design, implementation, and communication</p>
+            <span class="result-number">Brand</span>
+            <p class="result-label">Visual identities, logos, and campaign communication.</p>
           </div>
           <div class="result-card">
-            <span class="result-number" data-target="0" data-suffix="" data-display="0">0</span>
-            <p class="result-label">A direct, transparent approach to technology decisions</p>
+            <span class="result-number">Motion</span>
+            <p class="result-label">Animation and visual storytelling alongside static design.</p>
           </div>
           <div class="result-card">
-            <span class="result-number" data-target="4" data-suffix="">0</span>
-            <p class="result-label">Languages spoken - so we can work in yours</p>
+            <span class="result-number">3D</span>
+            <p class="result-label">Visualization and interior-design work shown in the portfolio.</p>
           </div>
         </div>
       </div>
@@ -224,30 +234,30 @@
     <section class="section">
       <div class="container">
         <div class="section-header">
-          <p class="section-eyebrow">How It Works</p>
-          <h2 class="section-title">Simple, step by step</h2>
-          <p class="section-desc">The same structured approach used across product and transformation work.</p>
+          <p class="section-eyebrow">Working method</p>
+          <h2 class="section-title">How I approach the work</h2>
+          <p class="section-desc">A structured approach connecting the problem, the people involved, and practical implementation.</p>
         </div>
         <div class="process-steps">
           <div class="process-step">
             <span class="process-number">01</span>
-            <h3>We talk</h3>
-            <p>Understand the organisation, audience, goals, constraints, and the real problem behind the requested output.</p>
+            <h3>Understand</h3>
+            <p>Clarify the audience, purpose, content, constraints, and problem behind the brief.</p>
           </div>
           <div class="process-step">
             <span class="process-number">02</span>
-            <h3>I listen &amp; plan</h3>
-            <p>Turn the brief into a clear scope, information structure, visual direction, and practical delivery plan.</p>
+            <h3>Shape</h3>
+            <p>Develop an information structure and visual direction appropriate to the context.</p>
           </div>
           <div class="process-step">
             <span class="process-number">03</span>
-            <h3>I build it</h3>
-            <p>Prototype and iterate visibly, keeping stakeholders involved in the decisions that shape the final result.</p>
+            <h3>Create</h3>
+            <p>Design and prototype the result, then refine it through practical feedback and delivery work.</p>
           </div>
           <div class="process-step">
             <span class="process-number">04</span>
-            <h3>You're in control</h3>
-            <p>Once it's live, I'll walk you through everything. You'll know how to make basic changes yourself - and I'm always just a message away when you need me.</p>
+            <h3>Carry forward</h3>
+            <p>Consider implementation, content updates, handover, and how the work can remain useful over time.</p>
           </div>
         </div>
       </div>
@@ -257,25 +267,25 @@
     <section class="section section-alt">
       <div class="container">
         <div class="section-header">
-          <p class="section-eyebrow">Built For You</p>
-          <h2 class="section-title">Who this is for</h2>
+          <p class="section-eyebrow">Context</p>
+          <h2 class="section-title">Relevant environments</h2>
         </div>
         <div class="industry-grid">
           <div class="industry-card">
-            <h3>Shops &amp; Retail</h3>
-            <p>Whether you sell handmade goods, run a boutique, or manage a family store - your customers are searching online before they visit. Let's make sure they find you.</p>
+            <h3>Retail &amp; E-commerce</h3>
+            <p>Campaigns, promotional materials, and landing pages from Harvey Norman and earlier e-commerce work, including the award-winning iPhone 7 project.</p>
           </div>
           <div class="industry-card">
-            <h3>Restaurants &amp; Cafes</h3>
-            <p>Your menu, your hours, your story - all in one place that looks as inviting as your food. Plus Google Maps integration so hungry customers can find their way.</p>
+            <h3>Dental Tourism &amp; Healthcare Communication</h3>
+            <p>Branding, logo, and website work for Dental Centar Ostojić through Fazgram, connecting visual identity and online communication.</p>
           </div>
           <div class="industry-card">
-            <h3>Tradespeople &amp; Expertise</h3>
-            <p>Plumbers, electricians, hairdressers, fitness trainers - anyone who's great at their craft but needs help showing it online. A professional presence that brings in work.</p>
+            <h3>Local &amp; Independent Projects</h3>
+            <p>Website, graphic, motion, and 3D work across smaller organizations and independent projects.</p>
           </div>
           <div class="industry-card">
-            <h3>Clinics &amp; Practices</h3>
-            <p>Doctors, dentists, therapists, vets - a trustworthy online presence with clear information, easy contact, and the warmth your patients expect from you.</p>
+            <h3>Digital Products</h3>
+            <p>Visual communication and implementation experience carried forward into enterprise UX, workflow design, and product development.</p>
           </div>
         </div>
       </div>
@@ -285,12 +295,12 @@
     <section class="section service-cta">
       <div class="container">
         <div class="section-header">
-          <h2 class="section-title">Looking for this breadth in your team?</h2>
-          <p class="section-desc">I am open to roles in Croatia where product thinking benefits from strong visual, web, and hands-on delivery experience.</p>
+          <h2 class="section-title">Explore the work behind the experience</h2>
+          <p class="section-desc">These capabilities are illustrated through selected projects in the personal portfolio.</p>
         </div>
         <div class="cta-actions">
-          <a href="../../#contact" class="btn btn-primary">Discuss a Role</a>
-          <a href="../../#case-studies" class="btn btn-outline">See My Work</a>
+          <a href="../../#contact" class="btn btn-primary sp-cta">Contact Igor</a>
+          <a href="../../#design-gallery" class="btn btn-outline sp-cta sp-cta--outline">View selected work</a>
         </div>
       </div>
     </section>
@@ -328,52 +338,8 @@
     </div>
   </footer>
 
-  <script src="../../script.js?v=a48e787c"></script>
-  <script>
-  (function() {
-    var grid = document.getElementById('resultsGrid');
-    if (!grid) return;
-    var counted = false;
-
-    function formatNum(n) {
-      return n.toLocaleString('en-US');
-    }
-
-    function countUp(el, target, suffix, duration) {
-      var display = el.getAttribute('data-display');
-      if (display) { el.textContent = display; return; }
-      var start = 0;
-      var startTime = null;
-      function step(ts) {
-        if (!startTime) startTime = ts;
-        var progress = Math.min((ts - startTime) / duration, 1);
-        var ease = 1 - Math.pow(1 - progress, 3);
-        var current = Math.floor(ease * target);
-        el.textContent = formatNum(current) + suffix;
-        if (progress < 1) requestAnimationFrame(step);
-      }
-      requestAnimationFrame(step);
-    }
-
-    function onVisible() {
-      if (counted) return;
-      var rect = grid.getBoundingClientRect();
-      if (rect.top < window.innerHeight * 0.85) {
-        counted = true;
-        var els = grid.querySelectorAll('.result-number[data-target]');
-        for (var i = 0; i < els.length; i++) {
-          var target = parseInt(els[i].getAttribute('data-target'), 10);
-          var suffix = els[i].getAttribute('data-suffix') || '';
-          countUp(els[i], target, suffix, target > 1000 ? 2000 : 1200);
-        }
-        window.removeEventListener('scroll', onVisible);
-      }
-    }
-
-    window.addEventListener('scroll', onVisible);
-    onVisible();
-  })();
-  </script>
-  <script src="../../service-graph.js" defer></script>
+  <script src="../../script.js?v=deferred-media-1"></script>
+  <!-- Experience indicators are static text: visible without JavaScript. -->
+  <script src="../../service-graph.js?v=experience-1" defer></script>
 </body>
 </html>

@@ -8,14 +8,6 @@
 /fonts/*
   Cache-Control: public, max-age=31536000, immutable
 
-# Old service pages are retained in source only as a fallback while redirects propagate.
-/services/*
-  X-Robots-Tag: noindex, nofollow, noarchive
-/hr/services/*
-  X-Robots-Tag: noindex, nofollow, noarchive
-/de/services/*
-  X-Robots-Tag: noindex, nofollow, noarchive
-
 # Former client-interface assets must not appear in image search or cached previews.
 /images/case-studies/rca-*
   X-Robots-Tag: noindex, noimageindex, noarchive

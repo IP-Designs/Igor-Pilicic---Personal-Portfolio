@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="de" data-palette="black-gold">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -41,19 +41,24 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../../../styles.css?v=6e1760e2">
+  <link rel="stylesheet" href="../../../experimental.css?v=case-height-1">
+  <link rel="stylesheet" href="../../../palette-black-gold.css?v=light-gold-1">
+  <link rel="stylesheet" href="../../../service-experience.css?v=experience-1">
+  <link rel="stylesheet" href="../../../sci-fi-cta.css?v=sp-cta-1">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
       { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://standingpillars.com/de/" },
-      { "@type": "ListItem", "position": 2, "name": "KI-Beschaffung & OSINT-Beratung", "item": "https://standingpillars.com/de/services/ai-procurement/" }
+      { "@type": "ListItem", "position": 2, "name": "Erfahrung in der KI-Anbieterbewertung", "item": "https://standingpillars.com/de/services/ai-procurement/" }
     ]
   }
   </script>
-  <script>if(localStorage.getItem('theme')!=='light')document.documentElement.setAttribute('data-theme','dark')</script>
+  <script>try { if(localStorage.getItem('theme')!=='light')document.documentElement.setAttribute('data-theme','dark'); } catch(error) { document.documentElement.setAttribute('data-theme','dark'); }</script>
 </head>
-<body>
+<body class="ui-experiment service-experience-body">
+  <a class="skip-link" href="#experience-content" onclick="document.getElementById('experience-content').focus({ preventScroll: true });">Zum Inhalt springen</a>
 
   <!-- Navigation -->
   <nav class="navbar" id="navbar" aria-label="Hauptnavigation">
@@ -78,7 +83,7 @@
       <ul class="nav-links" id="navLinks">
         <li><a href="../../#about">Über mich</a></li>
         <li class="nav-dropdown">
-          <a href="../../#services" class="nav-dropdown-toggle">Leistungen <svg class="chevron" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 4.5L6 7.5L9 4.5"/></svg></a>
+          <a href="../../#services" class="nav-dropdown-toggle">Kompetenzen <svg class="chevron" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 4.5L6 7.5L9 4.5"/></svg></a>
           <div class="nav-dropdown-menu">
             <a href="../../#services">Gesamte Expertise</a>
             <div class="dropdown-divider"></div>
@@ -88,9 +93,9 @@
           </div>
         </li>
         <li><a href="../../#experience">Erfahrung</a></li>
-        <li><a href="../../#ai-engineering">KI-Engineering</a></li>
+        <li><a href="../../#ai-engineering">Technisches Projekt</a></li>
         <li><a href="../../#case-studies">Fallstudien</a></li>
-        <li><a href="../../#contact" class="nav-cta">Kontakt aufnehmen</a></li>
+        <li><a href="../../#contact" class="nav-cta sp-cta">Igor kontaktieren</a></li>
         <li>
           <button class="theme-toggle" id="themeToggle" aria-label="Dunkelmodus umschalten">
             <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
@@ -101,23 +106,28 @@
     </div>
   </nav>
 
-  <main>
+  <main id="experience-content" tabindex="-1">
 
     <!-- Breadcrumb -->
-    <div class="container">
+    <div class="container experience-nav-row">
       <nav class="breadcrumb" aria-label="Brotkrumennavigation">
         <a href="../../">Startseite</a>
         <span aria-hidden="true">/</span>
         <span aria-current="page">KI-Beschaffung</span>
+      </nav>
+      <nav class="experience-languages" aria-label="Seitensprache">
+        <a href="/services/ai-procurement/" hreflang="en" lang="en">EN</a>
+        <a href="/hr/services/ai-procurement/" hreflang="hr" lang="hr">HR</a>
+        <a href="/de/services/ai-procurement/" hreflang="de" lang="de" aria-current="page">DE</a>
       </nav>
     </div>
 
     <!-- Hero -->
     <header class="service-hero">
       <div class="container">
-        <p class="section-eyebrow">Enterprise-Beratung</p>
-        <h1 class="service-hero-title">KI-Beschaffung &amp; OSINT-Beratung</h1>
-        <p class="service-hero-desc">Ich bewerte die Anbieter, damit Sie nicht über den Tisch gezogen werden. OSINT-basierte Due-Diligence, strukturierte Ausschreibungen und Governance-Frameworks, die Risiken aufdecken, bevor Verträge unterschrieben werden. Jahre des eigenen Tool-Baus bedeuten, dass ich genau weiß, was man von Anbietern verlangen muss.</p>
+        <p class="section-eyebrow">Erfahrung und Kompetenzen</p>
+        <h1 class="service-hero-title">Erfahrung in KI-Anbieterbewertung, Beschaffung und Entscheidungsunterstützung</h1>
+        <p class="service-hero-desc">Bei Accenture und in pharmazeutischen Kundenprojekten unterstützte ich Product Owner, Projektleitungen und Entscheidungsträger mit Recherche, RFP/RFI-Unterlagen, Anbieterbewertung und Präsentationen für das Management. Im Mittelpunkt standen klare Optionen und nachvollziehbare nächste Schritte aus komplexen Informationen.</p>
       </div>
     </header>
 
@@ -130,8 +140,8 @@
     <section class="section">
       <div class="container">
         <div class="section-header">
-          <p class="section-eyebrow">Expertise</p>
-          <h2 class="section-title">Was ich liefere</h2>
+          <p class="section-eyebrow">Erfahrungsbereiche</p>
+          <h2 class="section-title">Erfahrungsbereiche</h2>
         </div>
         <div class="services-grid services-grid-three">
           <div class="service-pillar">
@@ -141,7 +151,7 @@
               </svg>
             </div>
             <h3>OSINT-Anbieter-Due-Diligence</h3>
-            <p class="service-desc">Tiefgehende Open-Source-Intelligence-Untersuchungen von KI-Anbietern. Ich decke auf, was Verkaufspräsentationen verbergen: Finanzierungsinstabilität, technische Schulden, Datenverarbeitungspraktiken, regulatorische Lücken und Reputationsrisiken - bevor Sie irgendetwas unterschreiben.</p>
+            <p class="service-desc">Recherche öffentlich verfügbarer Informationen über Anbieter, technische Aussagen, Geschäftskontext, Belege und entscheidungsrelevante Risiken.</p>
           </div>
           <div class="service-pillar">
             <div class="service-icon">
@@ -149,8 +159,8 @@
                 <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/>
               </svg>
             </div>
-            <h3>Ausschreibungsentwicklung (RFP/RFI)</h3>
-            <p class="service-desc">Strukturierte Beschaffungsdokumente, die die richtigen Fragen stellen. Ich schreibe Ausschreibungen, die Anbieter zwingen, ihre Behauptungen mit Belegen zu beweisen - nicht mit Marketingsprache. Vorlagen für KI-spezifische Bewertungskriterien.</p>
+            <h3>RFP/RFI-Entwicklung</h3>
+            <p class="service-desc">Strukturierung von Fragen und Anforderungen, um Angebote anhand tatsächlicher organisatorischer Bedürfnisse statt Verkaufsbotschaften zu vergleichen.</p>
           </div>
           <div class="service-pillar">
             <div class="service-icon">
@@ -158,8 +168,8 @@
                 <rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/>
               </svg>
             </div>
-            <h3>Bewertungsmatrizen &amp; Scorecards</h3>
-            <p class="service-desc">Objektive, gewichtete Vergleichsframeworks, die Bauchgefühl aus der Anbieterauswahl entfernen. Jedes Kriterium ist nachvollziehbar, jede Bewertung begründet. Entscheidungsprotokolle, die einer Prüfung standhalten.</p>
+            <h3>Bewertungsmatrizen und Scorecards</h3>
+            <p class="service-desc">Vergleichskriterien und Entscheidungsunterlagen machen Belege, Annahmen und Zielkonflikte für Beteiligte sichtbar.</p>
           </div>
           <div class="service-pillar">
             <div class="service-icon">
@@ -168,7 +178,7 @@
               </svg>
             </div>
             <h3>Risikoanalyse (DSGVO, GxP)</h3>
-            <p class="service-desc">Systematische Bewertung von Vendor-Lock-in-Risiken, Datenschutz-Compliance und regulatorischer Exposition. Ich kartiere die realen Risiken für Ihre spezifische Umgebung - Pharma, Healthcare oder reguliertes Unternehmen.</p>
+            <p class="service-desc">Fragen zu Anbieterbindung, Datenverarbeitung, Integrationen und regulatorischer Eignung werden mit technischen und fachlichen Teams herausgearbeitet.</p>
           </div>
           <div class="service-pillar">
             <div class="service-icon">
@@ -176,8 +186,8 @@
                 <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
               </svg>
             </div>
-            <h3>Entscheidungsprotokolle &amp; Nachvollziehbarkeit</h3>
-            <p class="service-desc">Jede Beschaffungsentscheidung dokumentiert mit Begründung, Belegen und Audit-Trail. In regulierten Branchen müssen Sie zeigen, warum Sie einen Anbieter gewählt haben - nicht nur, dass Sie es getan haben. Ich baue diesen Nachweis von Tag eins an auf.</p>
+            <h3>Entscheidungsprotokolle und Nachvollziehbarkeit</h3>
+            <p class="service-desc">Dokumentation der Gründe für Empfehlungen, offener Fragen, Abhängigkeiten und der Informationen für den nächsten Entscheidungsschritt.</p>
           </div>
           <div class="service-pillar">
             <div class="service-icon">
@@ -185,8 +195,8 @@
                 <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>
               </svg>
             </div>
-            <h3>Executive-Materialien &amp; C-Suite-Kommunikation</h3>
-            <p class="service-desc">Technische Erkenntnisse in klare, umsetzbare Empfehlungen für die Führungsebene übersetzen. Ich bereite vorstandstaugliche Präsentationen, Executive Summaries und Entscheidungsvorlagen vor, die Führungskrafte tatsächlich lesen und danach handeln.</p>
+            <h3>Executive-Materialien und C-Suite-Kommunikation</h3>
+            <p class="service-desc">Präsentationen und Entscheidungsvorlagen übersetzen fachliche Erkenntnisse in eine verständliche Grundlage für Führungskräfte und bereichsübergreifende Teams.</p>
           </div>
         </div>
       </div>
@@ -196,25 +206,25 @@
     <section class="section section-alt">
       <div class="container">
         <div class="section-header">
-          <p class="section-eyebrow">Erfolgsbilanz</p>
-          <h2 class="section-title">Ergebnisse, nicht nur Lieferobjekte</h2>
+          <p class="section-eyebrow">Ausgewählte Erfahrung</p>
+          <h2 class="section-title">Erfahrung im Kontext</h2>
         </div>
         <div class="results-grid" id="resultsGrid">
           <div class="result-card">
-            <span class="result-number" data-target="40" data-suffix="+">0</span>
-            <p class="result-label">KI-Anbieter durch OSINT-basierte Due-Diligence bewertet</p>
+            <span class="result-number">OSINT</span>
+            <p class="result-label">Recherche und Belege für die Anbieterprüfung.</p>
           </div>
           <div class="result-card">
-            <span class="result-number" data-target="3" data-suffix="">0</span>
-            <p class="result-label">Hochrisiko-Anbieter vor Vertragsphase identifiziert und abgelehnt</p>
+            <span class="result-number">RFP/RFI</span>
+            <p class="result-label">Strukturierte Anforderungen und Fragen für aussagekräftige Vergleiche.</p>
           </div>
           <div class="result-card">
-            <span class="result-number" data-target="17" data-suffix="+">0</span>
-            <p class="result-label">Jahre Erfahrung im Bau der Tools, die Anbieter zu verkaufen behaupten</p>
+            <span class="result-number">Scorecards</span>
+            <p class="result-label">Sichtbare Kriterien und Zielkonflikte für Entscheidungsträger.</p>
           </div>
           <div class="result-card">
-            <span class="result-number" data-target="100" data-suffix="%">0</span>
-            <p class="result-label">Beschaffungsentscheidungen mit vollständigem Audit-Trail dokumentiert</p>
+            <span class="result-number">C-Suite</span>
+            <p class="result-label">Management-Präsentationen und bereichsübergreifende Entscheidungsunterstützung.</p>
           </div>
         </div>
       </div>
@@ -224,30 +234,30 @@
     <section class="section">
       <div class="container">
         <div class="section-header">
-          <p class="section-eyebrow">Prozess</p>
-          <h2 class="section-title">Wie ich arbeite</h2>
-          <p class="section-desc">Jedes Engagement folgt einem strukturierten Ansatz - angepasst an den Umfang, nie übersprungen.</p>
+          <p class="section-eyebrow">Arbeitsweise</p>
+          <h2 class="section-title">Mein Vorgehen</h2>
+          <p class="section-desc">Ein strukturierter Ansatz, der das Problem, die beteiligten Menschen und die praktische Umsetzung verbindet.</p>
         </div>
         <div class="process-steps">
           <div class="process-step">
             <span class="process-number">01</span>
-            <h3>Scope definieren</h3>
-            <p>Ich kartiere Ihre Anforderungen, Einschränkungen und regulatorische Landschaft. Welches Problem lösen Sie tatsächlich? Wie sieht Ihr bestehender Stack aus? Wo liegen die echten Risiken?</p>
+            <h3>Rahmen klären</h3>
+            <p>Geschäftsproblem, bestehende Systeme, Entscheidungskriterien und regulatorische Grenzen klären.</p>
           </div>
           <div class="process-step">
             <span class="process-number">02</span>
-            <h3>Recherchieren</h3>
-            <p>OSINT-basierte Recherche zu ausgewählten Anbietern. Finanzierung, Führung, technische Behauptungen, Kundenbewertungen, regulatorische Historie, Datenverarbeitungspraktiken - alles was zählt, nichts was nicht zählt.</p>
+            <h3>Untersuchen</h3>
+            <p>Öffentliche Belege sammeln und mit Fachleuten dokumentierte Fähigkeiten von unbelegten Aussagen unterscheiden.</p>
           </div>
           <div class="process-step">
             <span class="process-number">03</span>
-            <h3>Evaluieren</h3>
-            <p>Strukturierte Scorecards mit gewichteten Kriterien. Nebeneinander-Vergleich, Risikomatrizen und Entscheidungsprotokolle. Jede Bewertung durch Belege gestützt, nicht durch Meinung.</p>
+            <h3>Bewerten</h3>
+            <p>Optionen, Integrationsfähigkeit, Risiken, Abhängigkeiten und mögliche Änderungen bestehender Systeme vergleichen.</p>
           </div>
           <div class="process-step">
             <span class="process-number">04</span>
-            <h3>Empfehlen</h3>
-            <p>Executive-fertige Materialien mit klaren Empfehlungen, Risikozusammenfassungen und Implementierungsleitfäden. Ich präsentiere Ihrer Führungsebene und beantworte die schwierigen Fragen, die sie stellen werden.</p>
+            <h3>Entscheidungen unterstützen</h3>
+            <p>Umsetzbare nächste Schritte, offene Fragen und erforderliche Folgearbeit verständlich darstellen.</p>
           </div>
         </div>
       </div>
@@ -257,25 +267,25 @@
     <section class="section section-alt">
       <div class="container">
         <div class="section-header">
-          <p class="section-eyebrow">Risikobereiche</p>
-          <h2 class="section-title">Worauf ich achte</h2>
+          <p class="section-eyebrow">Kontext</p>
+          <h2 class="section-title">Relevante Umfelder</h2>
         </div>
         <div class="industry-grid">
           <div class="industry-card">
-            <h3>Vendor Lock-in</h3>
-            <p>Proprietare Datenformate, API-Abhängigkeiten, vertragliche Fallen und Migrationskosten. Ich identifiziere die Austrittsbarrieren, bevor Sie eintreten.</p>
+            <h3>Anbieterbindung</h3>
+            <p>Datenportabilität, API-Abhängigkeiten, vertragliche Grenzen und praktische Folgen eines Plattformwechsels.</p>
           </div>
           <div class="industry-card">
-            <h3>Datenschutz &amp; DSGVO</h3>
-            <p>Wohin gehen Ihre Daten? Wer verarbeitet sie? Unter welcher Rechtsordnung? Ich prüfe Datenflusse, Unterauftragsverarbeiter und Datenschutzrichtlinien auf echte Compliance - nicht Checkbox-Compliance.</p>
+            <h3>Datenschutz und DSGVO</h3>
+            <p>Fragen zu Datenflüssen, Hosting, Zugriff und Dritten, ergänzt durch fachliche Datenschutz- und Sicherheitsbeiträge.</p>
           </div>
           <div class="industry-card">
-            <h3>GxP &amp; regulatorische Eignung</h3>
-            <p>KI-Tools in regulierten Umgebungen brauchen Validierung, Audit-Trails und Change Control. Ich bewerte, ob Anbieter Ihre regulatorischen Pflichten tatsächlich verstehen oder nur behaupten.</p>
+            <h3>GxP und regulatorische Eignung</h3>
+            <p>Validierung, Nachvollziehbarkeit, Änderungsmanagement und die Einbindung eines Tools in regulierte pharmazeutische Prozesse.</p>
           </div>
           <div class="industry-card">
-            <h3>Technische Behauptungen vs. Realität</h3>
-            <p>KI-Anbieter lieben beeindruckende Zahlen. Ich verifiziere Leistungsbehauptungen, Benchmark-Methoden und technische Architektur gegen das, was tatsächlich erreichbar und bewiesen ist.</p>
+            <h3>Technische Aussagen und Realität</h3>
+            <p>Belege mit Entwicklungsteams und Fachleuten prüfen, um Integrationsfähigkeit oder den Bedarf an größeren Systemänderungen einzuschätzen.</p>
           </div>
         </div>
       </div>
@@ -285,12 +295,12 @@
     <section class="section service-cta">
       <div class="container">
         <div class="section-header">
-          <h2 class="section-title">Suchen Sie Erfahrung in der Technologiebewertung?</h2>
-          <p class="section-desc">Ich bin offen für Positionen in Beschaffung, Governance, Anbieterrisiko und digitaler Transformation, in denen strukturierte Bewertung und Nachvollziehbarkeit wichtig sind.</p>
+          <h2 class="section-title">Die Arbeit hinter dieser Erfahrung</h2>
+          <p class="section-desc">Diese Kompetenzen werden durch ausgewählte Projekte im persönlichen Portfolio veranschaulicht.</p>
         </div>
         <div class="cta-actions">
-          <a href="../../#contact" class="btn btn-primary">Über eine Position sprechen</a>
-          <a href="../../#case-studies" class="btn btn-outline">Fallstudien ansehen</a>
+          <a href="../../#contact" class="btn btn-primary sp-cta">Igor kontaktieren</a>
+          <a href="../../#cs-accenture" class="btn btn-outline sp-cta sp-cta--outline">Ausgewählte Arbeiten ansehen</a>
         </div>
       </div>
     </section>
@@ -328,50 +338,8 @@
     </div>
   </footer>
 
-  <script src="../../../script.js?v=a48e787c"></script>
-  <script>
-  (function() {
-    var grid = document.getElementById('resultsGrid');
-    if (!grid) return;
-    var counted = false;
-
-    function formatNum(n) {
-      return n.toLocaleString('de-DE');
-    }
-
-    function countUp(el, target, suffix, duration) {
-      var start = 0;
-      var startTime = null;
-      function step(ts) {
-        if (!startTime) startTime = ts;
-        var progress = Math.min((ts - startTime) / duration, 1);
-        var ease = 1 - Math.pow(1 - progress, 3);
-        var current = Math.floor(ease * target);
-        el.textContent = formatNum(current) + suffix;
-        if (progress < 1) requestAnimationFrame(step);
-      }
-      requestAnimationFrame(step);
-    }
-
-    function onVisible() {
-      if (counted) return;
-      var rect = grid.getBoundingClientRect();
-      if (rect.top < window.innerHeight * 0.85) {
-        counted = true;
-        var els = grid.querySelectorAll('.result-number[data-target]');
-        for (var i = 0; i < els.length; i++) {
-          var target = parseInt(els[i].getAttribute('data-target'), 10);
-          var suffix = els[i].getAttribute('data-suffix') || '';
-          countUp(els[i], target, suffix, target > 1000 ? 2000 : 1200);
-        }
-        window.removeEventListener('scroll', onVisible);
-      }
-    }
-
-    window.addEventListener('scroll', onVisible);
-    onVisible();
-  })();
-  </script>
-  <script src="../../../service-graph.js" defer></script>
+  <script src="../../../script.js?v=deferred-media-1"></script>
+  <!-- Experience indicators are static text: visible without JavaScript. -->
+  <script src="../../../service-graph.js?v=experience-1" defer></script>
 </body>
 </html>

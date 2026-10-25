@@ -38,6 +38,106 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://standingpillars.com/"/>
   </url>
 
+  <!-- Retained topical experience pages: original URLs, no agency offer. -->
+  <url>
+    <loc>https://standingpillars.com/services/ux-design/</loc>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://standingpillars.com/services/ux-design/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://standingpillars.com/hr/services/ux-design/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://standingpillars.com/de/services/ux-design/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://standingpillars.com/services/ux-design/"/>
+  </url>
+
+  <url>
+    <loc>https://standingpillars.com/hr/services/ux-design/</loc>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://standingpillars.com/services/ux-design/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://standingpillars.com/hr/services/ux-design/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://standingpillars.com/de/services/ux-design/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://standingpillars.com/services/ux-design/"/>
+  </url>
+
+  <url>
+    <loc>https://standingpillars.com/de/services/ux-design/</loc>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://standingpillars.com/services/ux-design/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://standingpillars.com/hr/services/ux-design/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://standingpillars.com/de/services/ux-design/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://standingpillars.com/services/ux-design/"/>
+  </url>
+
+  <url>
+    <loc>https://standingpillars.com/services/ai-procurement/</loc>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://standingpillars.com/services/ai-procurement/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://standingpillars.com/hr/services/ai-procurement/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://standingpillars.com/de/services/ai-procurement/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://standingpillars.com/services/ai-procurement/"/>
+  </url>
+
+  <url>
+    <loc>https://standingpillars.com/hr/services/ai-procurement/</loc>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://standingpillars.com/services/ai-procurement/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://standingpillars.com/hr/services/ai-procurement/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://standingpillars.com/de/services/ai-procurement/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://standingpillars.com/services/ai-procurement/"/>
+  </url>
+
+  <url>
+    <loc>https://standingpillars.com/de/services/ai-procurement/</loc>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://standingpillars.com/services/ai-procurement/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://standingpillars.com/hr/services/ai-procurement/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://standingpillars.com/de/services/ai-procurement/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://standingpillars.com/services/ai-procurement/"/>
+  </url>
+
+  <url>
+    <loc>https://standingpillars.com/services/local-business/</loc>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://standingpillars.com/services/local-business/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://standingpillars.com/hr/services/local-business/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://standingpillars.com/de/services/local-business/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://standingpillars.com/services/local-business/"/>
+  </url>
+
+  <url>
+    <loc>https://standingpillars.com/hr/services/local-business/</loc>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://standingpillars.com/services/local-business/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://standingpillars.com/hr/services/local-business/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://standingpillars.com/de/services/local-business/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://standingpillars.com/services/local-business/"/>
+  </url>
+
+  <url>
+    <loc>https://standingpillars.com/de/services/local-business/</loc>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://standingpillars.com/services/local-business/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://standingpillars.com/hr/services/local-business/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://standingpillars.com/de/services/local-business/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://standingpillars.com/services/local-business/"/>
+  </url>
+
   <url>
     <loc>https://standingpillars.com/portfolio/iphone7/</loc>
     <lastmod>2026-10-24</lastmod>
