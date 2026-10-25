@@ -40,7 +40,9 @@ node cache-bust.js
 
 ## Deployment
 
-The site is static and can be deployed from the connected GitHub repository through Cloudflare Pages. Use the repository root as the deployment directory. Original service URLs remain available as personal experience and expertise pages, not agency offers.
+This Cloudflare Pages project uses manual Direct Upload; GitHub is source history and does not automatically publish the site. Upload the prepared ZIP or its extracted site folder to a new deployment in the existing Pages project. `index.html`, `_headers`, `_redirects`, `robots.txt` and `sitemap.xml` must be at the upload root, not inside an extra parent directory.
+
+The public-file allowlist is maintained in `docs/manual-upload-files.txt`. Export those paths from the committed release with `git archive`; do not upload the whole source checkout, `.git`, `.wrangler`, development scripts or internal notes. Original service URLs remain available as personal experience and expertise pages, not agency offers.
 
 ## Privacy
 

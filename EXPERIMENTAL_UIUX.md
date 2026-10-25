@@ -288,3 +288,10 @@ Preview: `http://localhost:3000/hr/?review=cta-hover-1`.
 - Local and uncommitted only. No push or Cloudflare changes.
 
 Preview: `http://localhost:3000/hr/?review=outline-cta-1`.
+
+## Visible portfolio identity and manual release, 2026-10-25
+
+- Restored the professional-portfolio tagline beneath the navbar wordmark and extended the compact desktop navigation treatment through 1199px, retaining a 16px minimum separation from navigation. EN/DE use Igor Pilicic; HR retains Igor Piličić. Corrected the remaining visible accented name in German privacy text without changing identity URLs or structured-data alternate names.
+- Refreshed the CTA stylesheet cache version to `sp-cta-5`. Verified intermediate desktop navigation geometry in all languages on home/experience pages; the approved sci-fi CTA styling is unchanged.
+- Prepared the new `experimental/manual-release-2026-10-25` branch and a public-file allowlist for a clean manual-upload export. Final audit suggestions are recorded separately; no additional redesign or fixes are included in this release request.
+- GitHub push and downloadable package are authorized for this release. Cloudflare deployment/configuration is not; the user will perform the manual upload.
