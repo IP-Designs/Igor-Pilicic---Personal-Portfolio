@@ -45,7 +45,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../styles.css?v=6e1760e2">
-  <link rel="stylesheet" href="../experimental.css?v=section-rhythm-1">
+  <link rel="stylesheet" href="../experimental.css?v=engine-theme-1">
   <link rel="stylesheet" href="../palette-black-gold.css?v=gold-loader-1">
 
   <!-- JSON-LD Structured Data -->
@@ -557,8 +557,8 @@
     <div class="design-gallery gallery-active" id="design-gallery">
       <div class="design-gallery-fade-top"></div>
       <div class="gallery-media">
-      <video class="design-gallery-video active" id="galleryVideo" preload="auto" muted autoplay loop playsinline>
-        <source src="../images/gallery_on.mp4" type="video/mp4">
+      <video class="design-gallery-video active" id="galleryVideo" preload="none" muted loop playsinline poster="../images/uiux-graphic-preview.jpg">
+        <source data-src="../images/gallery_on.mp4" type="video/mp4">
       </video>
       </div>
       <div class="design-gallery-overlay">
@@ -1202,8 +1202,8 @@
 
   <!-- Live Simulation Demo -->
   <section class="simulation-demo" id="simulation-demo">
-    <div class="sim-frame">
-    <iframe id="sim-iframe" src="../simulation/demo.html?lang=hr" title="AI Sandbox Simulation" loading="eager" allow="autoplay"></iframe>
+    <div class="sim-frame is-deferred">
+    <iframe id="sim-iframe" data-src="../simulation/demo.html?lang=hr" title="AI Sandbox Simulation" loading="lazy" allow="autoplay"></iframe>
     </div>
     <div class="sim-overlay">
       <div class="sim-overlay-top">
@@ -1326,106 +1326,10 @@
   </footer>
 
   <script src="../i18n.js" data-lang-path="../lang/"></script>
-  <script>
-  // Sync simulation iframe language when user switches language
-  document.addEventListener('i18n:changed', function(e) {
-    var lang = e.detail && e.detail.lang;
-    var iframe = document.getElementById('sim-iframe');
-    if (iframe && lang) {
-      var base = iframe.src.split('?')[0];
-      iframe.src = lang === 'en' ? base : base + '?lang=' + lang;
-    }
-  });
-  </script>
-  <script src="../script.js?v=mobile-nav-1"></script>
+  <script src="../media-loading.js?v=deferred-media-1"></script>
+  <script src="../script.js?v=deferred-media-1"></script>
   <script src="../hero-scene.js?v=black-gold-default-1"></script>
   <script src="../experimental.js?v=section-covers-1"></script>
-  <script>
-  // =============================================
-  // Site Loader - preload simulation assets
-  // =============================================
-  (function() {
-    var loader = document.getElementById('site-loader');
-    var bar = document.getElementById('loader-bar');
-    if (!loader) return;
 
-    // Assets to preload
-    var assets = [
-      // Tile images
-      '../simulation/assets/tiles/grass.png',
-      '../simulation/assets/tiles/grass_patches.png',
-      '../simulation/assets/tiles/grass_patch1.png',
-      '../simulation/assets/tiles/grass_patch2.png',
-      '../simulation/assets/tiles/grass_patch3.png',
-      '../simulation/assets/tiles/grass_patch4.png',
-      '../simulation/assets/tiles/wall_brick.png',
-      '../simulation/assets/tiles/wall_brick_corner.png',
-      '../simulation/assets/tiles/dirt_grass.png',
-      '../simulation/assets/tiles/dirt_grass_corner.png',
-      '../simulation/assets/tiles/roof_stone.png',
-      '../simulation/assets/tiles/roof_stone_mid.png',
-      '../simulation/assets/tiles/stone_floor.png',
-      '../simulation/assets/tiles/door_closed_wall_brick.png',
-      '../simulation/assets/tiles/door_opened_wall_brick.png',
-      '../simulation/assets/tiles/light.png',
-      // Grass animation frames
-      '../simulation/assets/sprites/animations/grass_patches_anim/grass_patches_base.png',
-      '../simulation/assets/sprites/animations/grass_patches_anim/grass_patches_sway_f1.png',
-      '../simulation/assets/sprites/animations/grass_patches_anim/grass_patches_sway_f2.png',
-      '../simulation/assets/sprites/animations/grass_patches_anim/grass_patches_sway_f3.png',
-      '../simulation/assets/sprites/animations/grass_patches_anim/grass_patches_sway_f4.png',
-      // Map data
-      '../simulation/map_compact.json'
-    ];
-
-    // Add NPC sprites (idle + walk frames for both characters, all 8 directions)
-    var dirs = ['south','south-west','west','north-west','north','north-east','east','south-east'];
-    ['kid','female'].forEach(function(who) {
-      dirs.forEach(function(dir) {
-        assets.push('../simulation/assets/sprites/' + who + '/rotations/' + dir + '.png');
-        for (var f = 0; f < 6; f++) {
-          assets.push('../simulation/assets/sprites/' + who + '/walk/' + dir + '/frame_00' + f + '.png');
-        }
-      });
-    });
-
-    var total = assets.length;
-    var loaded = 0;
-
-    function updateProgress() {
-      loaded++;
-      var pct = Math.min(100, Math.round((loaded / total) * 100));
-      if (bar) bar.style.width = pct + '%';
-      if (loaded >= total) setTimeout(dismiss, 400);
-    }
-
-    function dismiss() {
-      loader.classList.add('done');
-      // Unlock audio via user gesture proxy
-      var simIframe = document.getElementById('sim-iframe');
-      if (simIframe) {
-        try { simIframe.contentWindow.postMessage('unlockAudio', '*'); } catch(e) {}
-      }
-      setTimeout(function() { loader.style.display = 'none'; }, 700);
-    }
-
-    // Preload all assets
-    assets.forEach(function(url) {
-      if (url.endsWith('.json')) {
-        fetch(url).then(function() { updateProgress(); }).catch(function() { updateProgress(); });
-      } else {
-        var img = new Image();
-        img.onload = updateProgress;
-        img.onerror = updateProgress;
-        img.src = url;
-      }
-    });
-
-    // Safety timeout - dismiss after 8s even if some assets fail
-    setTimeout(function() {
-      if (!loader.classList.contains('done')) dismiss();
-    }, 1200);
-  })();
-  </script>
 </body>
 </html>

@@ -359,56 +359,7 @@ function toggleCaseStudy(id) {
   }
 }
 
-/* --- Graphic Design Gallery toggle --- */
-(function() {
-  var toggle = document.getElementById('galleryToggle');
-  var video = document.getElementById('galleryVideo');
-  var gallery = document.getElementById('design-gallery');
-  var descWrap = gallery ? gallery.querySelector('.gallery-desc-wrap') : null;
-  var descBtn = gallery ? gallery.querySelector('.gallery-desc-toggle') : null;
-
-  if (toggle && video && gallery) {
-    function updateGallery() {
-      if (toggle.checked) {
-        video.classList.add('active');
-        var playPromise = video.play();
-        if (playPromise && typeof playPromise.catch === 'function') {
-          playPromise.catch(function() { /* Keep the gallery visible if autoplay is blocked. */ });
-        }
-        gallery.classList.add('gallery-active');
-        if (descWrap) descWrap.classList.remove('expanded');
-        if (descBtn) { descBtn.classList.remove('expanded'); descBtn.setAttribute('aria-expanded', 'false'); }
-      } else {
-        video.classList.remove('active');
-        video.pause();
-        gallery.classList.remove('gallery-active');
-        if (descWrap) descWrap.classList.remove('expanded');
-        if (descBtn) { descBtn.classList.remove('expanded'); descBtn.setAttribute('aria-expanded', 'false'); }
-      }
-    }
-    toggle.addEventListener('change', updateGallery);
-    updateGallery();
-  }
-
-  if (descBtn && descWrap) {
-    descBtn.addEventListener('click', function() {
-      var open = descWrap.classList.toggle('expanded');
-      descBtn.classList.toggle('expanded', open);
-      descBtn.setAttribute('aria-expanded', String(open));
-    });
-  }
-
-  /* Glass glare effect - moves on X axis with scroll */
-  if (gallery) {
-    window.addEventListener('scroll', function() {
-      var rect = gallery.getBoundingClientRect();
-      var vh = window.innerHeight;
-      var progress = 1 - (rect.top + rect.height) / (vh + rect.height);
-      progress = Math.max(0, Math.min(1, progress));
-      gallery.style.setProperty('--glare-x', (progress * 450) + '%');
-    }, { passive: true });
-  }
-})();
+/* Graphic gallery loading and playback are managed in media-loading.js. */
 
 /* --- 3D Motion Gallery play/pause --- */
 (function() {

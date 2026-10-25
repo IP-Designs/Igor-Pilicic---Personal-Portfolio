@@ -256,6 +256,24 @@
 .ui-experiment .engine-details .ai-showcase { padding-bottom: 16px; }
 .ui-experiment .engine-overview-title { margin: 0 0 16px; color: #edf0e7; font-size: 1.15rem; line-height: 1.4; }
 .ui-experiment .ai-engineering .section-followup:hover { color: #edf0e7; }
+/* In light mode, inherit the page palette instead of the legacy inverted green card. */
+html:not([data-theme="dark"]) .ui-experiment .ai-engineering {
+  --white: inherit; --navy: inherit; --accent: inherit; --accent-light: inherit;
+  background: var(--white) !important;
+  color: var(--gray-600);
+}
+html:not([data-theme="dark"]) .ui-experiment .ai-engineering :is(.section-title, .sub-heading, .engine-overview-title, h3, strong, .engine-details > summary) { color: var(--navy); }
+html:not([data-theme="dark"]) .ui-experiment .ai-engineering :is(.section-desc, .engine-role, .ai-project-desc, .ai-project-sub, .ai-stat-label, .engine-progress-info p, .ai-detail-card p, .ai-method-step p, .ai-cta p) { color: var(--gray-600); }
+html:not([data-theme="dark"]) .ui-experiment .ai-engineering :is(.section-eyebrow, .engine-status) { color: var(--accent); }
+html:not([data-theme="dark"]) .ui-experiment .ai-engineering :is(.ai-project-card, .engine-progress, .ai-detail-card, .ai-methodology) { background: var(--off-white); border-color: var(--gray-200); }
+html:not([data-theme="dark"]) .ui-experiment .ai-engineering .engine-details { border-color: var(--gray-200); }
+html:not([data-theme="dark"]) .ui-experiment .ai-engineering .engine-details > summary::marker { color: var(--accent); }
+html:not([data-theme="dark"]) .ui-experiment .ai-engineering .engine-details > summary:focus-visible { outline-color: var(--accent); }
+html:not([data-theme="dark"]) .ui-experiment .ai-engineering .ai-detail-tags span { color: var(--accent); background: var(--white); border-color: var(--gray-200); }
+html:not([data-theme="dark"]) .ui-experiment .ai-engineering .ai-method-num { color: var(--study-note); opacity: 1; }
+html:not([data-theme="dark"]) .ui-experiment .ai-engineering .progress-ring-bg { stroke: var(--gray-200); }
+html:not([data-theme="dark"]) .ui-experiment .ai-engineering .progress-ring-text { fill: var(--accent); }
+html:not([data-theme="dark"]) .ui-experiment .ai-engineering .section-followup:hover { color: var(--navy); }
 .ui-experiment .simulation-demo .section-title { color: #fff; }
 .ui-experiment .sim-overlay { padding: var(--section-space) 32px var(--subsection-space); background: linear-gradient(180deg, rgba(0,0,0,.72), transparent 42%, transparent 72%, rgba(0,0,0,.6)); }
 @media (max-width: 1100px) {
@@ -372,6 +390,8 @@
 
 /* Scoped media frames retain the desktop presentation. */
 .ui-experiment :is(.gallery-media, .motion-media, .sim-frame) { position: absolute; inset: 0; }
+.ui-experiment .sim-frame.is-deferred { background: #000 url('images/uiux-engine-preview.jpg') center / cover no-repeat; }
+.ui-experiment .sim-frame.is-deferred iframe { opacity: 0; }
 @media (max-width: 768px), (max-width: 900px) and (orientation: landscape) {
   .ui-experiment :is(.design-gallery, .motion-gallery) { height: auto; min-height: 0; clip-path: none; background: none; margin: 24px 0 0; }
   .ui-experiment :is(.design-gallery, .motion-gallery)::after { display: none; }

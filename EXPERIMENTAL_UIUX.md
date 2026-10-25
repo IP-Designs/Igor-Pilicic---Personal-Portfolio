@@ -167,3 +167,23 @@ Current local preview: `http://localhost:3000/hr/?review=black-gold-default-1`.
 - Checked HR, EN and DE at eight widths from 320 to 1920px, open/closed disclosures and both themes. General hero/case/navigation and mobile gallery/simulation regression checks pass, including landscape, camera fit and dialogue bounds. No missing local assets, JavaScript errors or horizontal overflow were found. Changes remain local and uncommitted; no push or deployment.
 
 Current preview: `http://localhost:3000/hr/?review=section-rhythm-1#ai-engineering`.
+
+## Deferred gallery and simulation loading, 2026-10-25
+
+- Created local pre-change checkpoint `e3f8765` before implementation. The worktree was already clean, so the checkpoint retains the same content as `0399b1c`. No push or Cloudflare changes.
+- Removed the three duplicated parent-page simulation preload lists. The existing gold loader now follows page DOM/font readiness with a bounded timeout; it no longer requests the off-screen simulation's images or map.
+- Added shared `media-loading.js` for the three language pages. The graphic gallery remains checked/on by default, gets its video source within 600px of the viewport and plays when visible. It pauses off-screen or in a hidden tab without changing the toggle; a visitor's explicit off selection remains off. An existing artwork preview serves as the poster until playback.
+- The simulation iframe initially has only a deferred source. It navigates within 600px of the viewport, with an existing preview image while the document loads. The frame dimensions, scene, camera and dialogue code are unchanged. Language changes before activation update only the pending URL; changes after activation reload once in the selected language.
+- Local cold-page checks recorded 20–22 initial requests, compared with 432 in the prior audit, and zero initial requests for the gallery movie, simulation document/assets or p5. This is a local request-count comparison, not a production speed or Core Web Vitals result.
+- Checks passed in HR, EN and DE on desktop and mobile: near-only activation, default-on gallery, manual toggle persistence, off-screen pausing, language changes before/after activation, direct section links and stable page height. General UI regression and mobile media tests also pass, including five portrait widths, landscape, camera fit and dialogue bounds. No JavaScript errors or missing local assets found.
+- Implementation remains uncommitted after the pre-change checkpoint; all work is local. Other audit items remain for later passes.
+
+Current preview: `http://localhost:3000/hr/?review=deferred-media-1`.
+
+## Engine section light-theme consistency, 2026-10-25
+
+- Replaced the legacy inverted green engine appearance in light mode with inherited page colours: the same warm light background as other text sections, readable dark type and neutral card surfaces/dividers. Updated the summary, expanded technical details, tags and progress labels together.
+- Scoped all overrides to light mode; compared dark-mode descendant styles with/without these overrides and found no changes. No typography, layout, content or loading behavior changes.
+- HR, EN and DE checks passed at 320, 390, 768, 1041 and 1440px, with the technical disclosure open and closed. Light text contrast checks passed for rendered engine text; the dark background and gold title remain unchanged. Deferred-media regression checks also pass. Local only, no commit, push or publication.
+
+Current preview: `http://localhost:3000/hr/?review=engine-theme-1#ai-engineering`.
