@@ -261,3 +261,30 @@ Preview: `http://localhost:3000/hr/services/ux-design/?review=retained-experienc
 - This is local and uncommitted, alongside the retained-experience work. No push or Cloudflare publication/configuration changes.
 
 Preview: `http://localhost:3000/hr/?review=sci-fi-cta-1`.
+
+## Mobile contact CTA centring, 2026-10-25
+
+- Corrected the fit-content contact action inside the full-width mobile menu row: at up to 900px it now uses block-level flex layout and automatic inline margins. Its label, silhouette, dimensions, colours, destination and other menu rows are unchanged; desktop rules are untouched.
+- Refreshed the shared CTA stylesheet cache version to `sp-cta-2` across its existing consumers.
+- Verified row-centre alignment within 1px at 320, 390, 625, 768 and 900px in EN/HR/DE and both themes, on the homepage and retained experience navigation. Checked touch target size, SVG painting, label bounds, no horizontal overflow, Escape and contact navigation/menu dismissal. Inspected the annotated-width 625px screenshot; desktop navbar regression also passed.
+- Local and uncommitted only, after checkpoint `5343d5f`. No push or Cloudflare changes.
+
+Preview: `http://localhost:3000/hr/?review=mobile-cta-center-1`.
+
+## SVG-only contact hover, 2026-10-25
+
+- Confirmed the legacy dark-palette navigation hover rule painted the entire rectangular anchor behind the sci-fi silhouette. Added a targeted transparent hover/active surface override for navbar sci-fi CTAs; the SVG brightness treatment and visible keyboard focus remain unchanged.
+- Kept the previous mobile centring correction and refreshed the shared stylesheet cache version to `sp-cta-3` across its 19 existing HTML consumers. No labels, destinations, content or SEO changes.
+- Browser checks passed in EN/HR/DE and both themes at 390, 625, 900 and 1440px: transparent anchor/row backgrounds, no rectangular shadow, SVG-only hover, retained mobile centring and visible keyboard focus, with no JavaScript errors. Inspected dark/light screenshots at the annotated 625px width.
+- Local and uncommitted only. No push or Cloudflare changes.
+
+Preview: `http://localhost:3000/hr/?review=cta-hover-1`.
+
+## Filled hover/pressed states for outlined CTAs, 2026-10-25
+
+- Outlined sci-fi CTAs now use the existing gold filled SVG with black native text on hover and while pressed, in both themes. They return to their theme-specific outline on release/pointer exit; the anchor remains transparent so only the slanted silhouette fills.
+- Kept dimensions, wrapping, destinations, labels and primary CTA styling unchanged. Retained keyboard focus, reduced-motion behaviour and native forced-colour styling. Refreshed the shared stylesheet cache version to `sp-cta-4` across its 19 existing HTML consumers.
+- Browser checks passed in EN/HR/DE and both themes at 390 and 1075px for all hero routes, a case narrative link, section follow-up and LinkedIn action: hover/press/reset, no rectangular background, unchanged geometry, keyboard focus and no horizontal overflow or JavaScript errors. Checked forced-colour fallback and inspected dark/light hover screenshots.
+- Local and uncommitted only. No push or Cloudflare changes.
+
+Preview: `http://localhost:3000/hr/?review=outline-cta-1`.
