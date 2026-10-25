@@ -228,3 +228,12 @@ Preview a real missing route: `http://localhost:3000/hr/stranica-ne-postoji?revi
 - Local and uncommitted only, retaining the pending auxiliary-page/404 work. No push or Cloudflare changes.
 
 Preview: `http://localhost:3000/hr/?review=case-height-1#cs-rca`.
+
+## Conservative SEO / LLM audit and sitemap refresh, 2026-10-25
+
+- Compared public live responses with the experimental source. Kept homepage titles, canonical URLs, hreflang, visible HTML, robots.txt and hosting rules unchanged. Corrected only the HR/DE ProfilePage JSON-LD page URL/ID; shared Person identity is unchanged.
+- Updated the sitemap's five existing canonical entries with source-appropriate dates: homepage translations 25 October; iPhone work and simulation project 24 October. Retained language alternates and excluded noindex legal/error documents and section fragments. No extra URLs were retired in this pass.
+- Updated llms.txt to match current independent work, the published development Figma examples with fictional content, and existing portfolio deep links. Kept qualified outcomes and prototype boundaries. This is factual context, not a promise of AI visibility or a replacement for normal SEO.
+- Regression checks cover unchanged core metadata/HTML, valid JSON-LD/XML, local indexability and links, social image dimensions, unchanged robots/hosting policy and live sample crawler user-agent responses.
+- Pre-release audit flags: live sitemap still lists 14 URLs while the experimental version has 5 because of nine previously prepared service-page retirements; check their search value before deploying those redirects/noindex rules. Independent DNS queries report NXDOMAIN for www, while the bare domain works. Existing client-side language switching can mismatch visible language and metadata; the social image still uses the old consultancy tagline. These were reported, not silently changed.
+- Detailed report and response evidence are stored outside the public site root in the task's visualization folder. All work remains local and uncommitted; no push, Search Console submission, Cloudflare or DNS changes.

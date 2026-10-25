@@ -10,7 +10,7 @@ Primary role: Senior UX/Product Designer
 
 Standing Pillars is Igor Pilicic's personal professional portfolio. It is not an incorporated company, an active agency, an employer, or a current self-employment entity.
 
-Igor is seeking stable full-time or part-time employment. He is available for on-site and hybrid roles in Croatia, especially Zagreb, and suitable remote roles with international teams.
+Igor currently develops independent digital products, UX prototypes, and the Tiny Humans Engine through structured collaboration with AI tools.
 
 Igor was self-employed in Austria under his legal name, Igor Pilicic, from April 2020 to June 2026. Roche and Accenture were client contract engagements completed during that period. Standing Pillars was introduced later as a portfolio name and was not the legal name of the Austrian activity.
 
@@ -45,17 +45,21 @@ His primary strength is turning complex requirements, business processes, and sp
 
 ## Public evidence boundaries
 
-The Roche case studies describe Igor's role, methods, and appropriately qualified outcomes. Confidential internal interfaces and client production data are not part of the public portfolio.
+The Roche case studies describe Igor's role, methods, and appropriately qualified outcomes. Selected images are Figma design files from product development, not screenshots of the deployed tools. Names, avatars, IDs, and scenario content shown in these designs are fictional. Confidential client production data is not published.
 
 Tiny Humans Engine is a work-in-progress personal 2D engine and editor prototype developed through structured AI-assisted collaboration. It demonstrates requirements definition, architecture, validation, and documentation. It is not a commercially released product and is not evidence of conventional professional software-engineering employment.
 
 ## Main portfolio links
 
-- English portfolio: https://standingpillars.com/
-- Croatian portfolio: https://standingpillars.com/hr/
-- German portfolio: https://standingpillars.com/de/
-- Graphic design library: https://standingpillars.com/hr/#design-gallery
-- Work-in-progress technical demonstration: https://standingpillars.com/simulation/
+- [English portfolio](https://standingpillars.com/): Main professional profile.
+- [Croatian portfolio](https://standingpillars.com/hr/): Croatian version of the profile.
+- [German portfolio](https://standingpillars.com/de/): German version of the profile.
+- [Roche root-cause-analysis case study](https://standingpillars.com/#cs-rca): Role, design decisions, development Figma examples, and qualified adoption feedback.
+- [Roche Intelligent Authoring case study](https://standingpillars.com/#cs-intelligent-authoring): Regulatory reporting workflows and design-system work.
+- [Accenture case study](https://standingpillars.com/#cs-accenture): Evaluation frameworks, RFP/RFI work, and executive decision support.
+- [Graphic design library](https://standingpillars.com/hr/#design-gallery): Campaigns, visual identities, and web work.
+- [Award-winning iPhone 7 landing page](https://standingpillars.com/portfolio/iphone7/): Archived Croatian retail design work.
+- [Work-in-progress technical demonstration](https://standingpillars.com/simulation/): Tiny Humans Engine showcase.
 
 ## Contact
 

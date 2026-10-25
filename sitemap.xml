@@ -2,9 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
+  <!-- Canonical public pages. Section anchors and noindex legal/error pages are omitted. -->
+  <!-- lastmod reflects the page/project update, not the date of an unrelated deployment. -->
+
   <url>
     <loc>https://standingpillars.com/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://standingpillars.com/"/>
@@ -15,7 +18,7 @@
 
   <url>
     <loc>https://standingpillars.com/de/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://standingpillars.com/"/>
@@ -26,7 +29,7 @@
 
   <url>
     <loc>https://standingpillars.com/hr/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://standingpillars.com/"/>
@@ -37,14 +40,14 @@
 
   <url>
     <loc>https://standingpillars.com/portfolio/iphone7/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-24</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
     <loc>https://standingpillars.com/simulation/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
