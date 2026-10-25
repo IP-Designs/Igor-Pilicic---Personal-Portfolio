@@ -1,0 +1,47 @@
+/* Shared reading layout for the portfolio's privacy and imprint pages. */
+.ui-experiment.privacy-body { background: var(--white); color: var(--gray-700); }
+.ui-experiment .privacy-page { max-width: 840px; margin: 0 auto; padding: 48px 40px 64px; }
+.ui-experiment .privacy-page:focus { outline: none; }
+.auxiliary-topbar { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px 20px; margin-bottom: 32px; }
+.auxiliary-controls { display: flex; align-items: center; gap: 12px; margin-left: auto; }
+.auxiliary-languages { display: flex; gap: 4px; }
+.ui-experiment .privacy-page .auxiliary-languages a { display: grid; place-items: center; min-width: 44px; min-height: 44px; border: 1px solid transparent; color: var(--gray-600); font-size: .75rem; line-height: 1; font-weight: 500; text-decoration: none; }
+.ui-experiment .privacy-page .auxiliary-languages a[aria-current="page"] { color: var(--accent); border-color: var(--accent); background: var(--accent-subtle); }
+.ui-experiment .privacy-page .privacy-back { display: inline-flex; align-items: center; min-height: 44px; margin: 0; color: var(--accent); font-size: .85rem; line-height: 1.5; }
+.ui-experiment .auxiliary-theme-toggle { width: 44px; height: 44px; min-width: 44px; min-height: 44px; }
+.ui-experiment .privacy-logo { display: inline-flex; max-width: 100%; gap: 12px; margin-bottom: 28px; }
+.ui-experiment .privacy-logo :is(.nav-logo-mark, .nav-logo-text) { color: var(--navy) !important; }
+.ui-experiment .privacy-logo .nav-logo-tagline { color: var(--gray-500) !important; font-size: .7rem; line-height: 1.5; }
+.ui-experiment .privacy-logo:hover :is(.nav-logo-mark, .nav-logo-text) { color: var(--accent) !important; }
+.ui-experiment .privacy-page h1 { font-size: clamp(2rem, 3.5vw, 3.1rem); line-height: 1.15; letter-spacing: -.045em; margin-bottom: 16px; color: var(--navy); }
+.ui-experiment .privacy-page h2 { font-size: 1.2rem; font-weight: 600; line-height: 1.4; letter-spacing: -.02em; margin: 32px 0 12px; color: var(--navy); }
+.ui-experiment .privacy-page :is(p, li) { color: var(--gray-600); font-size: 1rem; line-height: 1.8; overflow-wrap: anywhere; }
+.ui-experiment .privacy-page .privacy-updated { color: var(--gray-500); font-size: .82rem; margin-bottom: 32px; }
+.ui-experiment .privacy-page ul { padding-left: 22px; margin: 12px 0; }
+.ui-experiment .privacy-page li + li { margin-top: 8px; }
+.ui-experiment .privacy-page strong { color: var(--navy); }
+.ui-experiment .privacy-page a { color: var(--accent); }
+.ui-experiment .privacy-page a:hover { color: var(--accent-light); }
+.ui-experiment .privacy-page p a { text-decoration: underline; text-underline-offset: 3px; }
+.ui-experiment .privacy-page :is(a, button):focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+.ui-experiment.privacy-body .skip-link { color: var(--white); background: var(--navy); }
+.ui-experiment .privacy-page .auxiliary-footer { padding-top: 24px; border-top: 1px solid var(--gray-200); }
+.ui-experiment .privacy-page .auxiliary-footer a { display: inline-flex; align-items: center; min-height: 44px; }
+@media (max-width: 600px) {
+  .ui-experiment .privacy-page { padding: 24px 20px 48px; }
+  .auxiliary-topbar { margin-bottom: 24px; }
+  .ui-experiment .privacy-page h2 { margin-top: 28px; }
+}
+
+/* The error view shares the reading shell and palette, not a separate brand. */
+.ui-experiment .error-page { min-height: 100vh; min-height: 100svh; }
+.ui-experiment .error-page .privacy-logo { margin-bottom: 32px; }
+.ui-experiment .privacy-page .error-code { font: 700 clamp(5rem, 14vw, 8.5rem)/1 var(--font-sans); color: var(--accent); letter-spacing: -.07em; margin: 0 0 16px; }
+.ui-experiment .error-page .error-description { max-width: 60ch; }
+.error-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+.ui-experiment .privacy-page .error-actions a { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 12px 20px; border: 1px solid var(--accent); font-size: .9rem; line-height: 1.5; font-weight: 600; text-decoration: none; }
+.ui-experiment .privacy-page .error-actions .error-primary { color: var(--white); background: var(--accent); }
+.ui-experiment .privacy-page .error-actions .error-primary:hover { background: var(--accent-light); border-color: var(--accent-light); }
+.ui-experiment .privacy-page .error-actions .error-secondary { color: var(--accent); background: transparent; }
+.ui-experiment .privacy-page .error-actions .error-secondary:hover { background: var(--accent-subtle); }
+.ui-experiment .error-page .auxiliary-footer { margin-top: 40px; }

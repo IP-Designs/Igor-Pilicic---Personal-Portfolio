@@ -545,10 +545,12 @@
   },
   "notFound": {
     "title": "404 - Seite nicht gefunden | Standing Pillars",
-    "tagline": "Beratung · Design · Technologie",
+    "tagline": "Professionelles Portfolio · Igor Pilicic",
     "heading": "Seite nicht gefunden",
     "description": "Die Seite, die Sie suchen, existiert nicht oder wurde verschoben. Die Säulen stehen noch - nur nicht hier.",
     "backHome": "Zurück zur Startseite",
+    "viewWork": "Arbeiten ansehen",
+    "skip": "Zum Inhalt springen",
     "copyright": "© 2026 Standing Pillars"
   },
   "ui": {

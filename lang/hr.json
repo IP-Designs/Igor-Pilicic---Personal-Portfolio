@@ -545,10 +545,12 @@
   },
   "notFound": {
     "title": "404 - Stranica nije pronađena | Standing Pillars",
-    "tagline": "savjetovanje · dizajn · tehnologija",
+    "tagline": "Profesionalni portfolio · Igor Piličić",
     "heading": "Stranica nije pronađena",
     "description": "Stranica koju tražite ne postoji ili je premještena. Stupovi još stoje - samo ne ovdje.",
     "backHome": "Natrag na početnu",
+    "viewWork": "Pogledajte radove",
+    "skip": "Preskoči na sadržaj",
     "copyright": "© 2026 Standing Pillars"
   },
   "ui": {

@@ -142,7 +142,9 @@
 .ui-experiment .case-card-meta { padding: 24px 0 0; }
 .ui-experiment .method-tag { border-radius: 0; background: var(--off-white); font-weight: 400; }
 .ui-experiment .case-expand-btn { width: 44px; height: 44px; border-radius: 0; }
-.ui-experiment .case-detail-panel { max-height: none; transition: none; }
+/* Open case studies must grow with wrapping text, loaded images and nested details. */
+.ui-experiment .case-detail-panel,
+.ui-experiment .case-study-block.expanded .case-detail-panel { max-height: none; transition: none; }
 .ui-experiment .case-detail-content { padding-top: 24px; }
 .case-narrative { margin: 0 0 32px; color: var(--gray-600); }
 .case-narrative h4 { color: var(--navy); font-size: clamp(1.15rem, 2vw, 1.55rem); line-height: 1.35; letter-spacing: -.025em; margin: 0 0 12px; max-width: 840px; }

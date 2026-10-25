@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="de" data-palette="black-gold">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,12 +13,37 @@
   <link rel="alternate" hreflang="en" href="https://standingpillars.com/imprint.html">
   <link rel="alternate" hreflang="de" href="https://standingpillars.com/de/imprint.html">
   <link rel="alternate" hreflang="hr" href="https://standingpillars.com/hr/imprint.html">
-  <link rel="stylesheet" href="../styles.css">
+  <meta name="theme-color" content="#000000">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css?v=6e1760e2">
+  <link rel="stylesheet" href="../experimental.css?v=case-height-1">
+  <link rel="stylesheet" href="../palette-black-gold.css?v=light-gold-1">
+  <link rel="stylesheet" href="../auxiliary-pages.css?v=auxiliary-2">
+  <script>
+    try {
+      if (localStorage.getItem('theme') !== 'light') document.documentElement.setAttribute('data-theme', 'dark');
+    } catch (error) { document.documentElement.setAttribute('data-theme', 'dark'); }
+  </script>
 </head>
-<body class="privacy-body">
+<body class="ui-experiment privacy-body">
   <a class="skip-link" href="#main-content">Zum Inhalt springen</a>
-  <div class="privacy-page" id="main-content">
-    <a href="/de/" class="privacy-back">&larr; Zur&uuml;ck zur Seite</a>
+  <main class="privacy-page" id="main-content" tabindex="-1">
+    <div class="auxiliary-topbar">
+      <a href="/de/" class="privacy-back">&larr; Zur&uuml;ck zur Seite</a>
+      <div class="auxiliary-controls">
+        <nav class="auxiliary-languages" aria-label="Seitensprache">
+          <a href="/imprint.html" hreflang="en" lang="en" data-set-language="en">EN</a>
+          <a href="/de/imprint.html" hreflang="de" lang="de" data-set-language="de" aria-current="page">DE</a>
+          <a href="/hr/imprint.html" hreflang="hr" lang="hr" data-set-language="hr">HR</a>
+        </nav>
+        <button type="button" class="theme-toggle auxiliary-theme-toggle" id="themeToggle" aria-label="Helles Design aktivieren">
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="5"/><path d="M12 1v2m0 18v2M1 12h2m18 0h2M4.22 4.22l1.42 1.42m12.72 12.72 1.42 1.42M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+        </button>
+      </div>
+    </div>
     <a href="/de/" class="privacy-logo nav-logo">
       <svg class="nav-logo-mark" viewBox="0 0 48 48" fill="currentColor" height="36" width="36" aria-hidden="true">
         <path d="M14.5,20.6c-2,0-3.6,1.6-3.6,3.6v17.3h1.8V24.4c0-1,0.8-1.9,1.9-1.9s1.9,0.8,1.9,1.9v17.1h1.8V24.2C18.2,22.2,16.5,20.6,14.5,20.6z"/>
@@ -33,7 +58,7 @@
         <span class="nav-logo-tagline">Professionelles Portfolio · Igor Pilicic</span>
       </span>
     </a>
-    <h1>Impressum</h1>
+    <h1 class="section-title">Impressum</h1>
     <p class="privacy-updated">Portfolioinhaber und Kontaktinformationen</p>
 
     <h2>Portfolioinhaber</h2>
@@ -55,7 +80,8 @@
     <h2>Urheberrecht</h2>
     <p>Sofern nicht anders angegeben, gehören die ursprünglichen Inhalte und Werke auf dieser Website Igor Pili&#269;i&#263;. Eine Nutzung außerhalb gesetzlicher Ausnahmen bedarf der schriftlichen Zustimmung.</p>
 
-    <p style="margin-top: 2rem;"><a href="privacy.html">Datenschutzerkl&auml;rung</a></p>
-  </div>
+    <p class="auxiliary-footer" style="margin-top: 2rem;"><a href="privacy.html">Datenschutzerkl&auml;rung</a></p>
+  </main>
+  <script src="../auxiliary-pages.js?v=auxiliary-2"></script>
 </body>
 </html>

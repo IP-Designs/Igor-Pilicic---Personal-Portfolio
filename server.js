@@ -28,31 +28,59 @@ const MIME = {
   '.xml': 'application/xml',
 };
 
-const server = http.createServer((req, res) => {
-  let url = decodeURIComponent(req.url.split('?')[0]);
-  if (url.endsWith('/')) url += 'index.html';
+function sendText(req, res, status, message) {
+  res.writeHead(status, { 'Content-Type': 'text/plain; charset=utf-8', 'Content-Length': Buffer.byteLength(message) });
+  res.end(req.method === 'HEAD' ? undefined : message);
+}
 
-  const filePath = path.join(__dirname, url);
-  const resolved = path.resolve(filePath);
-  if (!resolved.startsWith(__dirname)) {
-    res.writeHead(403);
-    return res.end('Forbidden');
+function notFound(req, res) {
+  fs.readFile(path.join(__dirname, '404.html'), (error, page) => {
+    if (error) return sendText(req, res, 404, 'Page not found');
+    res.writeHead(404, {
+      'Content-Type': 'text/html; charset=utf-8',
+      'Content-Length': page.length,
+      'Cache-Control': 'no-store',
+      'X-Robots-Tag': 'noindex, nofollow',
+    });
+    res.end(req.method === 'HEAD' ? undefined : page);
+  });
+}
+
+const server = http.createServer((req, res) => {
+  let requestURL, url;
+  try {
+    requestURL = new URL(req.url, 'http://localhost');
+    url = decodeURIComponent(requestURL.pathname);
+    if (url.includes('\0')) return sendText(req, res, 400, 'Bad request');
+  } catch (error) { return sendText(req, res, 400, 'Bad request'); }
+
+  let resolved = path.resolve(__dirname, '.' + url);
+  const relative = path.relative(__dirname, resolved);
+  if (relative === '..' || relative.startsWith('..' + path.sep) || path.isAbsolute(relative)) {
+    return sendText(req, res, 403, 'Forbidden');
   }
 
-  fs.stat(resolved, (err, stats) => {
-    if (!err && stats.isDirectory()) {
-      res.writeHead(301, { Location: req.url + '/' });
-      return res.end();
+  fs.stat(resolved, (error, stats) => {
+    if (error) {
+      if (error.code === 'ENOENT' || error.code === 'ENOTDIR') return notFound(req, res);
+      return sendText(req, res, 500, 'Internal server error');
     }
-
-    fs.readFile(resolved, (err, data) => {
-      if (err) {
-        res.writeHead(404, { 'Content-Type': 'text/html' });
-        return res.end('<h1>404</h1>');
+    if (stats.isDirectory()) {
+      if (!url.endsWith('/')) {
+        res.writeHead(301, { Location: requestURL.pathname + '/' + requestURL.search });
+        return res.end();
+      }
+      resolved = path.join(resolved, 'index.html');
+    }
+    fs.readFile(resolved, (readError, data) => {
+      if (readError) {
+        if (readError.code === 'ENOENT' || readError.code === 'ENOTDIR') return notFound(req, res);
+        return sendText(req, res, 500, 'Internal server error');
       }
       const ext = path.extname(resolved).toLowerCase();
-      res.writeHead(200, { 'Content-Type': MIME[ext] || 'application/octet-stream' });
-      res.end(data);
+      const type = MIME[ext] || 'application/octet-stream';
+      res.writeHead(200, { 'Content-Type': ext === '.html' ? type + '; charset=utf-8' : type, 'Content-Length': data.length });
+      res.end(req.method === 'HEAD' ? undefined : data);
     });
   });
 });

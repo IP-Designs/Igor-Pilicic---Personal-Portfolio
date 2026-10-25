@@ -197,3 +197,34 @@ Current preview: `http://localhost:3000/hr/?review=engine-theme-1#ai-engineering
 - Checks passed in HR, EN and DE at five widths from 320 to 1440px, with disclosures open, live light/dark switching and saved light preference. Canvas drawing was inspected programmatically: black labels/dark-gold nodes in light mode; white labels/original gold nodes in dark mode. No remaining green/blue UI text, overflow or JavaScript errors were found in the tested states. Work remains local and uncommitted; no push or deployment.
 
 Current preview: `http://localhost:3000/hr/?review=light-gold-1`.
+
+## Matching privacy/imprint pages and error-page inventory, 2026-10-25
+
+- Updated the six EN/HR/DE privacy and imprint pages to reuse the portfolio's current type, ivory/dark-gold light palette and black/gold dark palette. Added a shared reading stylesheet and a small, separate theme controller; no hero, gallery or simulation scripts are loaded on these pages.
+- Added native language links to equivalent documents, a localized theme button and a language-appropriate return link. Saved theme preferences carry between the main page and these pages. Improved text sizing, wrapping, link contrast, keyboard focus and touch targets.
+- Existing legal text, dates, contact information, external policy links and cross-document links are retained. DOM text comparisons against the checkpoint passed for all six documents. This pass is a presentation update, not a legal review.
+- Browser checks passed for both themes, every document and all three languages at 320, 390, 768, 977 and 1440px. Verified persisted theme changes, language/cross-document navigation, readable title colours, 44px utility controls, no overflow, no missing local resources and no JavaScript errors.
+- Read-only error-page inventory: root `404.html` exists with EN/HR/DE translation keys, but uses the former blue presentation. The local server currently returns a bare `<h1>404</h1>` for missing paths instead of that document. No dedicated 403/500/502/503, offline or maintenance HTML pages were found. Error handling, `404.html`, server configuration and Cloudflare were not changed.
+- Changes remain local and uncommitted; no push or publication.
+
+Previews: `http://localhost:3000/hr/privacy.html?review=auxiliary-1` and `http://localhost:3000/hr/imprint.html?review=auxiliary-1`.
+
+## Matching 404 page and local error response, 2026-10-25
+
+- Rebuilt `404.html` using the shared auxiliary reading shell, current portfolio typography, black/gold dark theme and ivory/dark-gold light theme. Removed the legacy blue/serif presentation and consultancy tagline. Kept the short pillars-themed description.
+- Added language-aware home/work recovery links, privacy/imprint links, native EN/DE/HR navigation, a saved-theme toggle and keyboard skip/focus treatment. Shared translation loading runs once per navigation. All first-party asset paths start at the site root so nested missing URLs remain styled and functional.
+- The local server now serves this document with a real HTTP 404 status and no-index response headers without redirecting or changing the requested address. HEAD responses have no body; valid pages remain 200. Directory redirects retain query parameters, and malformed URL encoding returns a controlled 400 response rather than crashing the server. No additional custom error pages were created.
+- Browser checks passed for all three languages and both themes at 320, 390, 768, 977 and 1440px plus short landscape. Verified localized recovery links, query/path/browser language selection, language changes on nested missing paths, theme persistence, keyboard skip navigation, 44px utility/48px action targets, button contrast and no horizontal overflow. No JavaScript errors or missing supporting assets were found.
+- HTTP checks passed for missing pages/files and nested routes, 404/200 HEAD responses, query-preserving directory redirects and malformed URLs. Rechecked all six legal documents in both themes at five widths: original legal text remains unchanged, and their navigation and theme controls still pass. Desktop/mobile 404 screenshots were inspected.
+- Local and uncommitted only. No Git push, Cloudflare configuration or publication. Production hosting behavior has not been verified in this pass.
+
+Preview a real missing route: `http://localhost:3000/hr/stranica-ne-postoji?review=404-1`.
+
+## Full case-study content on mobile, 2026-10-25
+
+- Reproduced the clipped RCA panel at 414px: a legacy, more-specific expanded-state selector imposed a 3000px maximum height despite the experimental override. Remaining images and the outcome section were cut off.
+- Scoped the no-maximum-height rule to the expanded state as well. Both experimental Roche panels now grow naturally with text wrapping, loaded media and nested disclosures, while the existing hidden-state and expand/collapse behavior remain unchanged. No content or visual redesign; refreshed the shared stylesheet cache version across its consumers.
+- Browser checks passed in EN/HR/DE, both themes, at 320, 390, 414, 480, 768 and 1440px. Verified full panel/content height, nested decision disclosure, image lightbox, collapse/reopen, no horizontal overflow, no missing assets and no JavaScript errors. Direct nested deep links and landscape resize also passed; inspected the mobile screenshot showing the last RCA image and complete outcome before the next case.
+- Local and uncommitted only, retaining the pending auxiliary-page/404 work. No push or Cloudflare changes.
+
+Preview: `http://localhost:3000/hr/?review=case-height-1#cs-rca`.
