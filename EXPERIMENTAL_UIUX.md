@@ -187,3 +187,13 @@ Current preview: `http://localhost:3000/hr/?review=deferred-media-1`.
 - HR, EN and DE checks passed at 320, 390, 768, 1041 and 1440px, with the technical disclosure open and closed. Light text contrast checks passed for rendered engine text; the dark background and gold title remain unchanged. Deferred-media regression checks also pass. Local only, no commit, push or publication.
 
 Current preview: `http://localhost:3000/hr/?review=engine-theme-1#ai-engineering`.
+
+## Matching gold identity in light mode, 2026-10-25
+
+- Replaced the light theme's green/teal accent tokens with dark gold (`#806020`, lighter accent `#846322`) and greenish secondary text with warm neutral greys. Retained the ivory page surfaces and dark main headings. Accent text remains readable against both page and supporting-card backgrounds.
+- Mapped hero graph nodes, connections and particles to the same dark-gold family in light mode; labels and light tooltip text are black, never gold. Dark mode keeps its existing gold node colours and white labels. No changes to project artwork, photographs, gallery movies or simulation content.
+- Updated remaining hard-coded light-mode UI accents on annotation pins, the gallery switch and interior result labels; neutralized green-tinted cover overlays and maintained readable footer text. All three language pages share the same styles and cache versions.
+- Fixed graph sizing after crossing mobile/desktop breakpoints: measure the container and observe its width, rather than retaining a zero-width canvas after the mobile graph is hidden.
+- Checks passed in HR, EN and DE at five widths from 320 to 1440px, with disclosures open, live light/dark switching and saved light preference. Canvas drawing was inspected programmatically: black labels/dark-gold nodes in light mode; white labels/original gold nodes in dark mode. No remaining green/blue UI text, overflow or JavaScript errors were found in the tested states. Work remains local and uncommitted; no push or deployment.
+
+Current preview: `http://localhost:3000/hr/?review=light-gold-1`.

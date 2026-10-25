@@ -23,7 +23,7 @@
   let W, H, CX, CY, scaleFactor;
 
   function resize() {
-    const rect = canvas.getBoundingClientRect();
+    const rect = canvas.parentElement.getBoundingClientRect();
     W = rect.width;
     H = rect.width * (520 / 624); // maintain aspect ratio
     canvas.width = W * dpr;
@@ -37,7 +37,12 @@
   }
 
   resize();
-  window.addEventListener('resize', resize);
+  window.addEventListener('resize', () => requestAnimationFrame(resize));
+  if ('ResizeObserver' in window) {
+    new ResizeObserver(entries => {
+      if (Math.abs(entries[0].contentRect.width - W) > 0.5) resize();
+    }).observe(canvas.parentElement);
+  }
 
   // --- Configuration ---
   const PERSPECTIVE = 600;
@@ -45,7 +50,7 @@
   const ACCENT_L = { r: 46, g: 125, b: 156 };     // --accent
   const GREEN = { r: 22, g: 163, b: 74 };          // darker green for light bg
   const WHITE = { r: 255, g: 255, b: 255 };
-  const DARK = { r: 15, g: 27, b: 45 };            // navy for text on light bg
+  const DARK = { r: 0, g: 0, b: 0 };              // black labels on light backgrounds
 
   // Mouse state
   let mouseX = 0;
@@ -224,8 +229,10 @@
 
   // --- Drawing helpers ---
   function rgba(c, a) {
-    if (document.documentElement.dataset.palette === 'black-gold' && document.documentElement.dataset.theme === 'dark' && c !== WHITE && c !== DARK) {
-      c = c === ACCENT_L ? { r: 226, g: 199, b: 139 } : { r: 200, g: 170, b: 104 };
+    if (document.documentElement.dataset.palette === 'black-gold' && c !== WHITE && c !== DARK) {
+      c = document.documentElement.dataset.theme === 'dark'
+        ? (c === ACCENT_L ? { r: 226, g: 199, b: 139 } : { r: 200, g: 170, b: 104 })
+        : (c === ACCENT_L ? { r: 132, g: 99, b: 34 } : { r: 128, g: 96, b: 32 });
     }
     return `rgba(${c.r},${c.g},${c.b},${a})`;
   }
@@ -481,12 +488,14 @@
         const tx = hp.sx - tw / 2 - 8;
         const ty = hp.sy - hoveredNode.size * hp.scale - 24;
         // Background
-        ctx.fillStyle = document.documentElement.dataset.palette === 'black-gold' && document.documentElement.dataset.theme === 'dark' ? 'rgba(0, 0, 0, 0.95)' : 'rgba(15, 27, 45, 0.92)';
+        const goldPalette = document.documentElement.dataset.palette === 'black-gold';
+        const darkTheme = document.documentElement.dataset.theme === 'dark';
+        ctx.fillStyle = goldPalette ? (darkTheme ? 'rgba(0, 0, 0, 0.95)' : 'rgba(248, 246, 240, 0.97)') : 'rgba(15, 27, 45, 0.92)';
         ctx.beginPath();
         ctx.roundRect(tx, ty - fontSize + 1, tw + 16, fontSize + 10, 4);
         ctx.fill();
         // Text
-        ctx.fillStyle = rgba(WHITE, 0.95);
+        ctx.fillStyle = rgba(goldPalette && !darkTheme ? DARK : WHITE, 0.95);
         ctx.textAlign = 'left';
         ctx.fillText(tip, tx + 8, ty + 4);
       }
