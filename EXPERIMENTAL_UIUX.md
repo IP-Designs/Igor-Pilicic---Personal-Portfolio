@@ -295,3 +295,15 @@ Preview: `http://localhost:3000/hr/?review=outline-cta-1`.
 - Refreshed the CTA stylesheet cache version to `sp-cta-5`. Verified intermediate desktop navigation geometry in all languages on home/experience pages; the approved sci-fi CTA styling is unchanged.
 - Prepared the new `experimental/manual-release-2026-10-25` branch and a public-file allowlist for a clean manual-upload export. Final audit suggestions are recorded separately; no additional redesign or fixes are included in this release request.
 - GitHub push and downloadable package are authorized for this release. Cloudflare deployment/configuration is not; the user will perform the manual upload.
+
+## Career alignment from the owner-approved LinkedIn brief, 2026-10-26
+
+- Working locally on `experimental/career-alignment-2026-10-26`. Igor approved the supplied Astra MD as authoritative for LinkedIn facts; no independent authenticated LinkedIn reading is claimed.
+- Corrected Intelligent Authoring to Basel and RCA to Penzberg plus Mannheim, both hybrid. Aligned Accenture's displayed title while retaining presentation and executive-support responsibilities; distinguished RCA's formal UX title from business-analysis contributions. Updated Harvey Norman's start to June 2015 and narrowed the sales wording to the retailer's iPhone 7 pre-orders.
+- Applied the same content in EN/HR/DE HTML and dictionaries and llms.txt. Kept distinct Roche projects, attributed metrics, family/personal copy, prototype and Figma boundaries, existing design, URL structure and SEO metadata. Clarified brand introduction in 2026 and singular portfolio voice in the imprints.
+- Availability now describes Croatia full-/part-time/contract roles across all modes and suitable European/US remote opportunities, not current worldwide client engagements or unrestricted visa eligibility.
+- Language validation passed across 19 HTML files. Fresh local browser checks passed all 12 language/theme/desktop-mobile combinations, plus three JavaScript-disabled content checks. Representative screenshots inspected. Head metadata, link/asset/anchor identities, robots, sitemap and hosting rules are unchanged.
+- Detailed per-ID status, copy changes and manual-only LinkedIn checklist: `docs/career-alignment-2026-10-26.md`. Privacy/analytics and earlier unrelated audit issues remain separate.
+- Local and uncommitted only. No push, Cloudflare change, public upload or LinkedIn edit.
+
+Preview: `http://localhost:3000/hr/?review=career-alignment-1#experience`.

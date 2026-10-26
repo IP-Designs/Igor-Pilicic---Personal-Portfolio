@@ -112,7 +112,7 @@
     "principle2Desc": "Zahtjeve, ograničenja i kompromise pretvaram u smjer koji tim može razumjeti i provjeriti.",
     "principle3Title": "Pratim ideju do isporuke",
     "principle3Desc": "Dizajn ne završava predajom ekrana. Podržavam implementaciju, provjeru kvalitete i komunikaciju odluka.",
-    "availability": "Zagreb · otvoren za stalno ili nepuno radno vrijeme · Hrvatska na lokaciji ili hibridno · međunarodno udaljeno"
+    "availability": "Zagreb · puno ili nepuno radno vrijeme te ugovorni angažmani · u Hrvatskoj na lokaciji, hibridno ili na daljinu · odgovarajuće prilike na daljinu s europskim ili američkim timovima"
   },
   "clients": {
     "label": "Odabrane organizacije i klijentski konteksti"
@@ -240,7 +240,7 @@
       "Samostalni tehnički rad: 2D engine i editor prototip u razvoju s više od 30K redaka, izrađen strukturiranom AI-potpomognutom suradnjom, uz <a href='#simulation-demo' class='u25-link'>funkcionalnu simulaciju u pregledniku</a>."
     ],
     "job2Date": "Tra 2024 - Kol 2025",
-    "job2Title": "UI/UX konzultant i dizajner prezentacija · RFP/RFI i OSINT due diligence dobavljača",
+    "job2Title": "UI/UX konzultant | RFP/RFI i OSINT dubinska analiza dobavljača",
     "job2Company": "Accenture · Klijentski ugovor u sklopu samozaposlenja · Remote | Beč, Austrija",
     "job2Items": [
       "Standardizacija RFP/RFI predložaka i kriterija evaluacije za AI inicijative u reguliranim (farmaceutskim) programima.",
@@ -251,7 +251,7 @@
     ],
     "job3Date": "Srp 2022 - Tra 2023",
     "job3Title": "Lead UX dizajner - Istražna platforma za analizu korijenskog uzroka",
-    "job3Company": "Roche Diagnostics · Klijentski ugovor u sklopu samozaposlenja · Hibrid | Basel, Švicarska",
+    "job3Company": "Roche Diagnostics · Klijentski ugovor u sklopu samozaposlenja · Hibridno | Penzberg i Mannheim, Njemačka",
     "job3Items": [
       "Vođenje UX rada za internu RCA istražnu platformu u kontekstu farmaceutske proizvodnje.",
       "Dubinski intervjui i primjena dizajnerskog razmišljanja; brzo prototipiranje u Figmi dovelo do dinamičnog (atomskog) UI dizajna.",
@@ -259,8 +259,8 @@
       "Suradnja s predmetnim stručnjacima i implementacijskim timovima kroz iterativne cikluse dizajna."
     ],
     "job4Date": "Tra 2020 - Srp 2022",
-    "job4Title": "Lead UI/UX dizajner - Regulatorni alat za izvještavanje",
-    "job4Company": "Roche Pharmaceuticals · Klijentski ugovor u sklopu samozaposlenja · Hibrid | Penzberg, Njemačka",
+    "job4Title": "Lead UI/UX dizajner - Intelligent Authoring / Regulatorno izvještavanje",
+    "job4Company": "Roche Pharmaceuticals · Klijentski ugovor u sklopu samozaposlenja · Hibridno | Basel, Švicarska",
     "job4Items": [
       "Vođenje UI/UX dizajna za end-to-end Intelligent Authoring i regulatorni proizvod za izvještavanje.",
       "Doprinos, zajedno sa širim proizvodnim timom, smanjenju ručnog izvještavanja većem od 30%.",
@@ -268,13 +268,13 @@
       "Provedena studija izvedivosti za integraciju BI alata; redizajn UX-a za smanjenje redundancija.",
       "Razvoj interne web stranice i izrada promotivnih grafika i videa za povećanje vidljivosti projekta."
     ],
-    "job5Date": "Srp 2015 - Ožu 2017",
+    "job5Date": "Lip 2015 - Ožu 2017",
     "job5Title": "Grafički dizajner za marketing i web dizajner",
     "job5Company": "Harvey Norman · Nepuno radno vrijeme · Na lokaciji | Zagreb, Hrvatska",
     "job5Items": [
       "Dizajn landing stranica i marketinških materijala koji su potaknuli angažman korisnika i prodaju.",
       "Vođenje digitalnih kampanja s dosljednošću brenda kroz responsivna rješenja.",
-      "<strong>Nagrada: 'Najbolja promotivna landing stranica'</strong> - Hrvatska (Appcom / Apple Partner), 2016. iPhone 7 kampanja doprinijela najvišim nacionalnim prodajnim rezultatima."
+      "<strong>Nagrada: 'Najbolja promotivna landing stranica'</strong> - Hrvatska (Appcom / Apple Partner), 2016. Kampanja za iPhone 7 pridonijela je najvišim nacionalnim rezultatima prednarudžbi tog modela za trgovca."
     ],
     "job6Date": "Vel 2013 - Ožu 2015",
     "job6Title": "Web i grafički dizajner",
@@ -399,9 +399,9 @@
     "desc": "Odabrani dokazi rada na složenim proizvodima, vizualnom dizajnu i e-trgovini. Klijentske studije opisuju ulogu, metode i primjereno kvalificirane rezultate.",
     "disclaimer": "Vizuali u enterprise studijama slučaja razvojne su verzije dizajna sučelja izrađene u Figmi, a ne snimke zaslona implementiranog ili produkcijskog sustava. Imena, avatari, identifikacijske oznake i sadržaj scenarija su izmišljeni; nisu prikazani produkcijski ni osobni podaci. Završna implementacija može se razlikovati.",
     "rca": {
-      "tag": "Roche Diagnostics · Penzberg, Njemačka",
+      "tag": "Roche Diagnostics · Penzberg i Mannheim, Njemačka · Hibridno",
       "title": "Platforma za istragu uzroka - Osiguranje kvalitete u proizvodnji",
-      "role": "UX Design Lead & poslovni analitičar · Podržka UI dizajnera",
+      "role": "Lead UX dizajner · Dizajn radnih procesa i poslovna analiza · Uz podršku UI dizajnera",
       "summary": "Vodio sam UX rad na platformi za istraživanje uzroka problema u proizvodnji, povezujući stručne metode u jasan digitalni proces. Kolege su mi nekoliko mjeseci nakon završetka angažmana prenijeli da je platformu tada koristilo više od 10.000 korisnika.",
       "methodAtomic": "Atomic Design",
       "methodFishbone": "Fishbone",
@@ -437,7 +437,7 @@
       "outcomeP1": "Nekoliko mjeseci nakon završetka mog angažmana, kolege iz Rochea prenijeli su mi da je platformu tada koristilo više od 10.000 korisnika. Moj je doprinos uključivao povezivanje istražnih metoda u razumljive radne procese i ponovljive uzorke sučelja, u suradnji sa stručnjacima i inženjerima."
     },
     "ia": {
-      "tag": "Roche Pharmaceuticals · Penzberg, Njemačka",
+      "tag": "Roche Pharmaceuticals · Basel, Švicarska · Hibridno",
       "title": "Regulatorni alat za izvještavanje",
       "role": "Lead UI/UX dizajner · Međufunkcionalna isporuka",
       "summary": "Vodio UI/UX dizajn za Intelligent Authoring i regulatorni proizvod za izvještavanje, izradio približno 120 UI dizajna i ponovljivi dizajn sustav za kontrolne ploče, strukturirane dokumente, metapodatke, ovlasti i izvještavanje.",
@@ -472,7 +472,7 @@
       "tag": "Accenture",
       "title": "AI nabava i upravljanje dobavljačima",
       "nda": "Ovaj angažman je pod aktivnim NDA. Za opseg i odgovornosti pogledajte odjeljak <a href=\"#experience\">Iskustvo</a>:",
-      "roles": "UI/UX konzultant i dizajner prezentacija · RFP/RFI & OSINT dubinska analiza dobavljača"
+      "roles": "UI/UX konzultant | RFP/RFI i OSINT dubinska analiza dobavljača"
     },
     "iphone": {
       "tag": "Retail · Landing Page",
@@ -509,8 +509,8 @@
     "labelLocation": "Lokacija",
     "labelLanguages": "Jezici",
     "languagesText": "Hrvatski - materinski; Engleski - tečno; Njemački - A2",
-    "locationText": "Sjedište: Zagreb, Hrvatska - radim diljem Europe, Azije i SAD-a",
-    "locationNote": "Remote-first, rado i osobno. Redovito radim s timovima u Beču, Münchenu, Zürichu, Baselu, Zagrebu i šire. EU radna dozvola - viza nije potrebna.",
+    "locationText": "Zagreb, Hrvatska · otvoren za puno ili nepuno radno vrijeme te ugovorne angažmane",
+    "locationNote": "U Hrvatskoj na lokaciji, hibridno ili na daljinu, uz odgovarajuće prilike na daljinu s europskim ili američkim timovima, ovisno o uvjetima rada iz Hrvatske i modelu zaposlenja ili ugovorne suradnje.",
     "copyEmail": "Kopiraj",
     "copiedEmail": "Kopirano",
     "directEyebrow": "Najbrži kontakt",

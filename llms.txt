@@ -12,7 +12,9 @@ Standing Pillars is Igor Pilicic's personal professional portfolio. It is not an
 
 Igor currently develops independent digital products, UX prototypes, and the Tiny Humans Engine through structured collaboration with AI tools.
 
-Igor was self-employed in Austria under his legal name, Igor Pilicic, from April 2020 to June 2026. Roche and Accenture were client contract engagements completed during that period. Standing Pillars was introduced later as a portfolio name and was not the legal name of the Austrian activity.
+Igor was self-employed in Austria under his legal name, Igor Pilicic, from April 2020 to June 2026. Roche and Accenture were client contract engagements completed during that period. Standing Pillars was introduced in 2026 as a portfolio name and was not the legal name of the Austrian activity.
+
+He is open to full-time, part-time and contract roles in Croatia, on-site, hybrid or remote, plus suitable remote opportunities with European or US teams. International opportunities depend on location eligibility and the employment or contracting arrangement; this is availability, not a claim of current international client engagements or unrestricted work authorization.
 
 ## Professional profile
 
@@ -20,12 +22,12 @@ Igor is a Senior UX/Product Designer with 17+ years of professional experience a
 
 His primary strength is turning complex requirements, business processes, and specialist knowledge into understandable workflows, usable interfaces, and practical implementation guidance. Experience in AI vendor evaluation, visual design, presentations, web, motion, and technical experimentation supports this central UX/Product Design profile.
 
-## Selected verified experience
+## Selected experience
 
-- Roche Pharmaceuticals, April 2020 to July 2022: Lead UI/UX Designer on an Intelligent Authoring and regulatory-reporting project. Produced approximately 120 UI designs and a reusable design system, supported approximately 50 engineers across three teams, and contributed with the wider product team to a reduction of more than 30 percent in manual reporting effort.
-- Roche Diagnostics, July 2022 to April 2023: Lead UX Designer on a root-cause-analysis investigation platform. A few months after his engagement ended, Roche colleagues told Igor that the platform was being used by more than 10,000 users. Work included specialist interviews, end-to-end workflow mapping, Figma prototypes, Atomic Design, and guided investigation methods.
-- Accenture, April 2024 to August 2025: UI/UX Consultant and Presentation Designer in a client contract during self-employment. Work included rapid prototypes, executive communication, RFP/RFI structure, evaluation scorecards, OSINT vendor diligence, and cross-functional decision support in regulated pharmaceutical client contexts.
-- Harvey Norman Croatia, 2015 to 2017: Marketing Graphic Designer and Web Designer. Work included digital and print campaigns, landing pages, e-commerce support, and an award-winning Croatian iPhone 7 pre-order experience.
+- Roche Pharmaceuticals, April 2020 to July 2022: Lead UI/UX Designer on an Intelligent Authoring and regulatory-reporting project associated with Basel, Switzerland; hybrid client contract during self-employment. Produced approximately 120 UI designs and a reusable design system, supported approximately 50 engineers across three teams, and contributed with the wider product team to a reduction of more than 30 percent in manual reporting effort.
+- Roche Diagnostics, July 2022 to April 2023: Lead UX Designer on a root-cause-analysis investigation platform associated with Penzberg and Mannheim, Germany; hybrid client contract during self-employment. A few months after his engagement ended, Roche colleagues told Igor that the platform was being used by more than 10,000 users. Work included specialist interviews, business analysis, end-to-end workflow mapping, Figma prototypes, Atomic Design, and guided investigation methods.
+- Accenture, April 2024 to August 2025: UI/UX Consultant | RFP/RFI & OSINT Vendor Due Diligence; remote client contract during self-employment, associated with Vienna, Austria. Work included rapid prototypes, presentation design, executive communication, RFP/RFI structure, evaluation scorecards, OSINT vendor diligence, and cross-functional decision support in regulated pharmaceutical client contexts.
+- Harvey Norman Croatia, June 2015 to March 2017: Marketing Graphic Designer and Web Designer; part-time, Zagreb, Croatia. Work included digital and print campaigns, landing pages, e-commerce support, and an award-winning Croatian iPhone 7 pre-order experience.
 - Earlier experience: web and graphic design, e-commerce, brand communication, motion design, 3D visualisation, and digital marketing.
 
 ## Supporting capabilities

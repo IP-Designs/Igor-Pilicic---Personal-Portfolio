@@ -112,7 +112,7 @@
     "principle2Desc": "I turn requirements, constraints, and trade-offs into a direction the team can understand and test.",
     "principle3Title": "I carry the idea through delivery",
     "principle3Desc": "Design does not end with a screen handoff. I support implementation, quality checks, and the communication of decisions.",
-    "availability": "Zagreb · open to full-time or part-time employment · on-site or hybrid in Croatia · remote internationally"
+    "availability": "Zagreb · full-time, part-time or contract roles · on-site, hybrid or remote in Croatia · suitable remote roles with European or US teams"
   },
   "clients": {
     "label": "Selected organisations and client contexts"
@@ -240,7 +240,7 @@
       "Independent technical work: a 30K+ line work-in-progress 2D engine and editor prototype developed through structured AI-assisted collaboration, with a <a href='#simulation-demo' class='u25-link'>working browser simulation</a>."
     ],
     "job2Date": "Apr 2024 - Aug 2025",
-    "job2Title": "UI/UX Consultant & Presentation Designer · RFP/RFI & OSINT Vendor Diligence",
+    "job2Title": "UI/UX Consultant | RFP/RFI & OSINT Vendor Due Diligence",
     "job2Company": "Accenture · Client contract during self-employment · Remote | Vienna, Austria",
     "job2Items": [
       "Standardized RFP/RFI templates and evaluation criteria for AI initiatives in regulated (pharma) programs.",
@@ -251,7 +251,7 @@
     ],
     "job3Date": "Jul 2022 - Apr 2023",
     "job3Title": "Lead UX Designer - Root Cause Analysis Investigation Platform",
-    "job3Company": "Roche Diagnostics · Client contract during self-employment · Hybrid | Basel, Switzerland",
+    "job3Company": "Roche Diagnostics · Client contract during self-employment · Hybrid | Penzberg & Mannheim, Germany",
     "job3Items": [
       "Led UX work for an internal RCA investigation platform in a pharmaceutical manufacturing context.",
       "Conducted in-depth interviews and applied design thinking; rapid prototyping in Figma led to a dynamic (atomic) UI design.",
@@ -259,8 +259,8 @@
       "Collaborated with SMEs and implementation teams through iterative design cycles."
     ],
     "job4Date": "Apr 2020 - Jul 2022",
-    "job4Title": "Lead UI/UX Designer - Regulatory Reporting Tool",
-    "job4Company": "Roche Pharmaceuticals · Client contract during self-employment · Hybrid | Penzberg, Germany",
+    "job4Title": "Lead UI/UX Designer - Intelligent Authoring / Regulatory Reporting",
+    "job4Company": "Roche Pharmaceuticals · Client contract during self-employment · Hybrid | Basel, Switzerland",
     "job4Items": [
       "Led UI/UX design for an end-to-end Intelligent Authoring and regulatory-reporting product.",
       "Contributed with the wider product team to a reduction of more than 30% in manual reporting effort.",
@@ -268,13 +268,13 @@
       "Conducted feasibility study for BI tool integration; redesigned UX to reduce redundancies.",
       "Developed internal website and created promotional graphics and videos enhancing project visibility."
     ],
-    "job5Date": "Jul 2015 - Mar 2017",
+    "job5Date": "Jun 2015 - Mar 2017",
     "job5Title": "Marketing Graphic Designer & Web Designer",
     "job5Company": "Harvey Norman · Part-time · On-site | Zagreb, Croatia",
     "job5Items": [
       "Designed landing pages and marketing materials driving user engagement and sales.",
       "Led digital campaigns with brand consistency across responsive solutions.",
-      "<strong>Award: 'Best Promotional Landing Page'</strong> - Croatia (Appcom / Apple Partner), 2016. iPhone 7 campaign contributed to highest national sales."
+      "<strong>Award: 'Best Promotional Landing Page'</strong> - Croatia (Appcom / Apple Partner), 2016. The iPhone 7 campaign contributed to the retailer's highest national iPhone 7 pre-order sales."
     ],
     "job6Date": "Feb 2013 - Mar 2015",
     "job6Title": "Web & Graphics Designer",
@@ -399,9 +399,9 @@
     "desc": "Selected evidence from complex product, visual design, and e-commerce work. Client case studies focus on role, methods, and appropriately qualified outcomes.",
     "disclaimer": "The enterprise case-study visuals are development-stage interface designs created in Figma, not screenshots of an implemented or production system. Names, avatars, identifiers, and scenario content are fictionalized; no production or personal data is shown. The final implementation may differ.",
     "rca": {
-      "tag": "Roche Diagnostics · Penzberg, Germany",
+      "tag": "Roche Diagnostics · Penzberg & Mannheim, Germany · Hybrid",
       "title": "Root Cause Analysis Investigation Platform - Manufacturing QA",
-      "role": "UX Design Lead & Business Analyst · Supported by UI designers",
+      "role": "Lead UX Designer · Workflow design and business analysis · Supported by UI designers",
       "summary": "I led UX work on a manufacturing investigation platform, bringing specialist methods into a clear digital process. A few months after my engagement ended, colleagues told me the platform was being used by more than 10,000 users.",
       "methodAtomic": "Atomic Design",
       "methodFishbone": "Fishbone",
@@ -437,7 +437,7 @@
       "outcomeP1": "A few months after my engagement ended, colleagues at Roche told me the platform was being used by more than 10,000 users. My contribution included turning investigation methods into understandable workflows and reusable interface patterns, working with subject-matter experts and engineers."
     },
     "ia": {
-      "tag": "Roche Pharmaceuticals · Penzberg, Germany",
+      "tag": "Roche Pharmaceuticals · Basel, Switzerland · Hybrid",
       "title": "Regulatory Reporting Tool",
       "role": "Lead UI/UX Designer · Cross-functional delivery",
       "summary": "Led UI/UX design for an Intelligent Authoring and regulatory-reporting product, producing approximately 120 UI designs and a reusable design system across dashboards, structured documents, metadata, permissions, and reporting workflows.",
@@ -472,7 +472,7 @@
       "tag": "Accenture",
       "title": "AI Procurement & Vendor Governance",
       "nda": "This engagement is under active NDA. For scope and responsibilities, see the <a href=\"#experience\">Experience</a> section:",
-      "roles": "UI/UX Consultant & Presentation Designer · RFP/RFI & OSINT Vendor Diligence"
+      "roles": "UI/UX Consultant | RFP/RFI & OSINT Vendor Due Diligence"
     },
     "iphone": {
       "tag": "Retail · Landing Page",
@@ -509,8 +509,8 @@
     "labelLocation": "Location",
     "labelLanguages": "Languages",
     "languagesText": "Croatian - native; English - fluent; German - A2",
-    "locationText": "Based in Zagreb, Croatia - working across Europe, Asia & the US",
-    "locationNote": "Hybrid, happy to meet in person. I regularly work with teams in Vienna, Munich, Zürich, Basel, Zagreb & beyond. EU work authorization - no visa needed.",
+    "locationText": "Based in Zagreb, Croatia · open to full-time, part-time and contract roles",
+    "locationNote": "On-site, hybrid or remote in Croatia, and suitable remote opportunities with European or US teams, subject to location eligibility and the employment or contracting arrangement.",
     "copyEmail": "Copy",
     "copiedEmail": "Copied",
     "directEyebrow": "Prefer email?",
