@@ -7,19 +7,36 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // --- Dark mode toggle ---
   const themeToggle = document.getElementById('themeToggle');
-  const saved = localStorage.getItem('theme');
-  if (saved !== 'light') document.documentElement.setAttribute('data-theme', 'dark');
+  let saved = 'dark';
+  try { saved = localStorage.getItem('theme'); } catch (error) { /* Storage is optional. */ }
+  const themeLabels = {
+    en: ['Switch to light theme', 'Switch to dark theme'],
+    hr: ['Uključi svijetlu temu', 'Uključi tamnu temu'],
+    de: ['Helles Design aktivieren', 'Dunkles Design aktivieren']
+  };
+  const updateThemeControls = () => {
+    const dark = document.documentElement.getAttribute('data-theme') === 'dark';
+    const labels = themeLabels[document.documentElement.lang] || themeLabels.en;
+    if (themeToggle) themeToggle.setAttribute('aria-label', labels[dark ? 0 : 1]);
+    const meta = document.querySelector('meta[name="theme-color"]');
+    if (meta) meta.content = dark ? '#000000' : '#f8f6f0';
+  };
+  const applyTheme = (theme) => {
+    if (theme === 'light') document.documentElement.removeAttribute('data-theme');
+    else document.documentElement.setAttribute('data-theme', 'dark');
+    updateThemeControls();
+  };
+  applyTheme(saved);
+  document.addEventListener('i18n:changed', updateThemeControls);
+  window.addEventListener('storage', event => {
+    if (event.key === 'theme') applyTheme(event.newValue);
+  });
 
   if (themeToggle) {
     themeToggle.addEventListener('click', () => {
-      const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
-      if (isDark) {
-        document.documentElement.removeAttribute('data-theme');
-        localStorage.setItem('theme', 'light');
-      } else {
-        document.documentElement.setAttribute('data-theme', 'dark');
-        localStorage.setItem('theme', 'dark');
-      }
+      const theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      applyTheme(theme);
+      try { localStorage.setItem('theme', theme); } catch (error) { /* Keep controls usable without storage. */ }
     });
   }
 

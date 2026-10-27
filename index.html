@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-palette="black-gold">
+<html lang="en" data-palette="black-gold" data-theme="dark">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -33,7 +33,7 @@
   <meta property="og:site_name" content="Standing Pillars">
 
   <!-- Theme Color -->
-  <meta name="theme-color" content="#0f1520">
+  <meta name="theme-color" content="#000000">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
@@ -123,7 +123,9 @@
   }
   </script>
   <script>
-    if (localStorage.getItem('theme') !== 'light') document.documentElement.setAttribute('data-theme', 'dark');
+    try {
+      if (localStorage.getItem('theme') === 'light') document.documentElement.removeAttribute('data-theme');
+    } catch (error) { /* Keep the default dark theme when storage is unavailable. */ }
   </script>
 </head>
 <body class="ui-experiment">
@@ -1340,9 +1342,9 @@
     </div>
   </footer>
 
-  <script src="i18n.js"></script>
+  <script src="i18n.js?v=locale-theme-1"></script>
   <script src="media-loading.js?v=deferred-media-1"></script>
-  <script src="script.js?v=deferred-media-1"></script>
+  <script src="script.js?v=locale-theme-1"></script>
   <script src="hero-scene.js?v=light-gold-1"></script>
   <script src="experimental.js?v=section-covers-1"></script>
 

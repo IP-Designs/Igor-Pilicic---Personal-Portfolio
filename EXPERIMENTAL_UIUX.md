@@ -307,3 +307,14 @@ Preview: `http://localhost:3000/hr/?review=outline-cta-1`.
 - Local and uncommitted only. No push, Cloudflare change, public upload or LinkedIn edit.
 
 Preview: `http://localhost:3000/hr/?review=career-alignment-1#experience`.
+
+## Dark default and browser-locale preferences, 2026-10-27
+
+- All 19 themed pages now declare dark mode in their initial HTML, including without JavaScript. A previously chosen light theme still wins. Storage reads/writes are guarded so blocked storage cannot interrupt the mobile menu or other shared interactions. Theme controls have localized labels and matching browser theme colors.
+- The main page and localized 404 use the browser's ordered language preferences: HR/SR (including Cyrillic/Latin variants), BS and CNR map to Croatian; DE variants map to German; EN variants map to English. If no supported language is present, locale-region hints HR/RS/BA/ME and DE/AT/CH/LI/LU provide a fallback; otherwise English is used. No IP lookup, location permission or new third-party request is introduced.
+- Explicit query language and localized URLs remain ahead of saved preference and browser detection. Static legal/experience URLs retain their own language. Only deliberate switcher/query choices are saved; automatic detection and visiting a shared localized link no longer overwrite a saved choice. Existing saved values are preserved. In-place switching and static canonical/hreflang architecture are unchanged; an explicit /hr/ or /de/ URL still determines the language when reloaded.
+- Failed dictionary loading leaves the static document's language intact. Script cache versions refreshed; no copy, career facts, SEO metadata, robots, sitemap, llms or hosting configuration changes.
+- Verification: 39 locale/preference unit cases and 82 local browser checks passed, covering all 19 pages with fresh, saved-light, denied-storage and JavaScript-disabled contexts, plus manual selection persistence, Serbian/Austrian/Australian browser locales and mobile menu/theme interactions. Desktop and mobile screenshots inspected; language validation passed with zero errors/warnings.
+- Local uncommitted changes only on `experimental/career-alignment-2026-10-26`; no push or Cloudflare deployment.
+
+Preview: `http://localhost:3000/hr/?review=locale-theme-1` (use `/` in a fresh browser context to test automatic language selection).

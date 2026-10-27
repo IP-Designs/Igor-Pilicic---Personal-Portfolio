@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de" data-palette="black-gold">
+<html lang="de" data-palette="black-gold" data-theme="dark">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -29,7 +29,7 @@
   <meta property="og:site_name" content="Standing Pillars">
 
   <!-- Theme Color -->
-  <meta name="theme-color" content="#0f1520">
+  <meta name="theme-color" content="#000000">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
@@ -55,7 +55,7 @@
     ]
   }
   </script>
-  <script>try { if(localStorage.getItem('theme')!=='light')document.documentElement.setAttribute('data-theme','dark'); } catch(error) { document.documentElement.setAttribute('data-theme','dark'); }</script>
+  <script>try { if(localStorage.getItem('theme')==='light')document.documentElement.removeAttribute('data-theme'); } catch(error) { /* Keep the default dark theme. */ }</script>
 </head>
 <body class="ui-experiment service-experience-body">
   <a class="skip-link" href="#experience-content" onclick="document.getElementById('experience-content').focus({ preventScroll: true });">Zum Inhalt springen</a>
@@ -338,7 +338,7 @@
     </div>
   </footer>
 
-  <script src="../../../script.js?v=deferred-media-1"></script>
+  <script src="../../../script.js?v=locale-theme-1"></script>
   <!-- Experience indicators are static text: visible without JavaScript. -->
   <script src="../../../service-graph.js?v=experience-1" defer></script>
 </body>

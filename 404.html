@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-palette="black-gold">
+<html lang="en" data-palette="black-gold" data-theme="dark">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,7 +19,7 @@
   <link rel="stylesheet" href="/sci-fi-cta.css?v=sp-cta-5">
   <script>
     try {
-      if (localStorage.getItem('theme') !== 'light') document.documentElement.setAttribute('data-theme', 'dark');
+      if (localStorage.getItem('theme') === 'light') document.documentElement.removeAttribute('data-theme');
     } catch (error) { document.documentElement.setAttribute('data-theme', 'dark'); }
   </script>
 </head>
@@ -67,7 +67,7 @@
       <a href="/imprint.html" data-error-link="imprint" data-i18n="footer.imprint">Imprint</a>
     </p>
   </main>
-  <script src="/i18n.js" data-lang-path="/lang/"></script>
+  <script src="/i18n.js?v=locale-theme-1" data-lang-path="/lang/"></script>
   <script src="/auxiliary-pages.js?v=auxiliary-2"></script>
   <script src="/error-page.js?v=error-404-1"></script>
 </body>

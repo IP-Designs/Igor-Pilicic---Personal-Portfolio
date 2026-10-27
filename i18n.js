@@ -51,22 +51,34 @@ const I18n = (function() {
   }
 
   /**
-   * Detect language from browser settings
-   * Maps: de/de-AT/de-CH/de-DE -> de
-   *       hr/sr/bs/cnr (ex-Yugoslavia Balkans) -> hr
-   *       everything else -> en (or null to fall through)
+   * Use ordered browser language preferences, not the visitor's location.
+   * Script/region variants (sr-Latn-RS, de-CH, en-AU) keep their language.
+   * Only if no language is supported, try locale region hints, then English.
    */
   function getBrowserLang() {
-    const browserLang = navigator.language || navigator.userLanguage;
-    const langCode = browserLang.split('-')[0].toLowerCase();
+    const preferences = Array.isArray(navigator.languages) ? navigator.languages : [];
+    const locales = [...preferences, navigator.language, navigator.userLanguage]
+      .filter(locale => typeof locale === 'string' && locale.trim())
+      .map(locale => locale.trim().replace(/_/g, '-').toLowerCase());
 
-    // Direct match
-    if (CONFIG.supportedLangs.includes(langCode)) return langCode;
+    for (const locale of locales) {
+      const language = locale.split('-')[0];
+      if (CONFIG.supportedLangs.includes(language)) return language;
+      if (['sr', 'bs', 'cnr'].includes(language)) return 'hr';
+    }
 
-    // Balkan languages -> Croatian
-    const balkanCodes = ['sr', 'bs', 'cnr'];
-    if (balkanCodes.includes(langCode)) return 'hr';
-
+    const regionalFallbacks = { hr: 'hr', rs: 'hr', ba: 'hr', me: 'hr', de: 'de', at: 'de', ch: 'de', li: 'de', lu: 'de' };
+    for (const locale of locales) {
+      // Ignore extensions such as -u-rg-dezzzz; this is a locale hint, not IP geolocation.
+      const parts = locale.split('-').slice(1);
+      for (const part of parts) {
+        if (part.length === 1) break;
+        if (/^[a-z]{2}$/.test(part)) {
+          if (regionalFallbacks[part]) return regionalFallbacks[part];
+          break;
+        }
+      }
+    }
     return null;
   }
 
@@ -83,13 +95,8 @@ const I18n = (function() {
    * Get language from URL path (e.g. /de/index.html -> de, /hr/ -> hr)
    */
   function getPathLang() {
-    const path = window.location.pathname;
-    for (const lang of CONFIG.supportedLangs) {
-      if (lang !== CONFIG.defaultLang && path.includes('/' + lang + '/')) {
-        return lang;
-      }
-    }
-    return null;
+    const segment = window.location.pathname.split('/')[1];
+    return segment !== CONFIG.defaultLang && CONFIG.supportedLangs.includes(segment) ? segment : null;
   }
 
   /**
@@ -207,17 +214,21 @@ const I18n = (function() {
 
       // Determine language (priority order)
       // URL path (/de/, /hr/) takes precedence over stored preference
-      let detectedLang = getUrlLang() || getPathLang() || getStoredLang();
+      const explicitLang = getUrlLang();
+      let detectedLang = explicitLang || getPathLang() || getStoredLang();
 
       if (!detectedLang) detectedLang = getBrowserLang();
 
       currentLang = detectedLang || CONFIG.defaultLang;
 
       // Load translations
-      translations = await loadTranslations(currentLang) || {};
+      const loaded = await loadTranslations(currentLang);
+      translations = loaded || {};
+      // A failed request must not relabel the static page as a different language.
+      if (!loaded) currentLang = document.documentElement.lang || CONFIG.defaultLang;
 
-      // Store the visitor's language preference locally.
-      storeLang(currentLang);
+      // Automatic detection and shared localized links are not a manual preference.
+      if (loaded && explicitLang) storeLang(explicitLang);
 
       // Apply to DOM
       applyTranslations();
@@ -245,7 +256,10 @@ const I18n = (function() {
         return;
       }
 
-      if (lang === currentLang) return;
+      if (lang === currentLang) {
+        storeLang(lang);
+        return;
+      }
 
       const newTranslations = await loadTranslations(lang);
       if (!newTranslations) return;
