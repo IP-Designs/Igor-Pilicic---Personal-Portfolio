@@ -132,9 +132,23 @@
       const block = document.getElementById(id);
       if (!block) return;
       const open = !block.classList.contains('expanded');
+      const anchor = block.querySelector('[data-case-toggle]');
+      const anchorTop = anchor ? anchor.getBoundingClientRect().top : null;
       document.querySelectorAll('[data-case-toggle]').forEach(button => {
         setCase(button.dataset.caseToggle, button.dataset.caseToggle === id && open);
       });
+      // Closing another case above this control removes a large amount of content.
+      // Preserve the clicked control's viewport position instead of exposing lower sections.
+      if (anchor && anchorTop !== null) {
+        const offset = anchor.getBoundingClientRect().top - anchorTop;
+        if (Math.abs(offset) > 0.5) {
+          const root = document.documentElement;
+          const previousBehavior = root.style.scrollBehavior;
+          root.style.scrollBehavior = 'auto';
+          window.scrollBy(0, offset);
+          root.style.scrollBehavior = previousBehavior;
+        }
+      }
     };
     document.querySelectorAll('[data-case-toggle]').forEach(button => {
       button.addEventListener('click', () => window.toggleCaseStudy(button.dataset.caseToggle));
